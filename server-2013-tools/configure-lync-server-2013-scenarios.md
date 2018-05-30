@@ -28,7 +28,7 @@ We have provided example Lync Server-Verwaltungsshell scripts that may be used i
 
 
 
-> [!TIP]
+> [!Hinweis]
 > For details about using Windows PowerShell and the Lync Server-Verwaltungsshell, see the Lync Server 2013 Windows PowerShell Blog at <A href="http://go.microsoft.com/fwlink/?linkid=203150">http://go.microsoft.com/fwlink/?LinkId=203150</A>.
 
 
