@@ -38,7 +38,7 @@ To have the tool display the values in the configuration file, include the /disp
 To end the process, press Ctrl+C.
 
 
-> [!Hinweis]
+> [!Note]
 > Before running LyncPerfTool directly, you must register the performance counters. Enter the following command to register performance counters:
 
 
@@ -46,7 +46,7 @@ To end the process, press Ctrl+C.
     regsvr32 /i /n /s LyncPerfToolPerf.dll
 
 
-> [!Hinweis]
+> [!Note]
 > Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second. The peak user sign-in rate for the pool is about 12 per second. This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in. 1000 users will take about 20 minutes to fully sign in, at one per second.
 
 
@@ -57,4 +57,3 @@ To end the process, press Ctrl+C.
 
 [Create Users and Contacts](create-users-and-contacts.md)  
 [Configure User Profile](configure-user-profile.md)
-
