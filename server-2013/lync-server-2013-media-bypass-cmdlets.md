@@ -23,17 +23,13 @@ Verwenden Sie die folgenden Cmdlets zum Konfigurieren der Medienumgehung.
 
 **Medienumgehung**
 
-  -   
-    [New-CsNetworkMediaBypassConfiguration](new-csnetworkmediabypassconfiguration.md)
+  - [New-CsNetworkMediaBypassConfiguration](new-csnetworkmediabypassconfiguration.md)
 
-  -   
-    [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
 
-  -   
-    [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+  - [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
 
-  -   
-    [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
 
 ## Siehe auch
 

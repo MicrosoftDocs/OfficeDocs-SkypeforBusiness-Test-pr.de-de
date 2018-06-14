@@ -27,60 +27,41 @@ Im Rahmen der Clientverwaltung muss vor allem festgelegt werden, welche Clientan
 
 Die meisten Aufgaben im Rahmen der Clientverwaltung können über die Systemsteuerung für Lync Server 2013 ausgeführt werden. Dieselben Aufgaben können auch unter Verwendung von Lync Server-Verwaltungsshell-Cmdlets oder aus einem Skript ausgeführt werden. Durch die Verwendung eines Skripts können bestimmte Aufgaben automatisiert werden. In der folgenden Liste sind Cmdlets aufgeführt, die im Rahmen der Clientverwaltung eingesetzt werden:
 
-  -   
-    [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](get-csclientpolicy.md)
 
-  -   
-    [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
 
-  -   
-    [New-CsClientPolicy](new-csclientpolicy.md)
+  - [New-CsClientPolicy](new-csclientpolicy.md)
 
-  -   
-    [Remove-CsClientPolicy](remove-csclientpolicy.md)
+  - [Remove-CsClientPolicy](remove-csclientpolicy.md)
 
-  -   
-    [Set-CsClientPolicy](set-csclientpolicy.md)
+  - [Set-CsClientPolicy](set-csclientpolicy.md)
 
-  -   
-    [New-CsClientPolicyEntry](new-csclientpolicyentry.md)
+  - [New-CsClientPolicyEntry](new-csclientpolicyentry.md)
 
-  -   
-    [Get-CsClientVersionConfiguration](get-csclientversionconfiguration.md)
+  - [Get-CsClientVersionConfiguration](get-csclientversionconfiguration.md)
 
-  -   
-    [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md)
+  - [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md)
 
-  -   
-    [Remove-CsClientVersionConfiguration](remove-csclientversionconfiguration.md)
+  - [Remove-CsClientVersionConfiguration](remove-csclientversionconfiguration.md)
 
-  -   
-    [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md)
+  - [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md)
 
-  -   
-    [Get-CsClientVersionPolicy](get-csclientversionpolicy.md)
+  - [Get-CsClientVersionPolicy](get-csclientversionpolicy.md)
 
-  -   
-    [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md)
+  - [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md)
 
-  -   
-    [New-CsClientVersionPolicy](new-csclientversionpolicy.md)
+  - [New-CsClientVersionPolicy](new-csclientversionpolicy.md)
 
-  -   
-    [Remove-CsClientVersionPolicy](remove-csclientversionpolicy.md)
+  - [Remove-CsClientVersionPolicy](remove-csclientversionpolicy.md)
 
-  -   
-    [Set-CsClientVersionPolicy](set-csclientversionpolicy.md)
+  - [Set-CsClientVersionPolicy](set-csclientversionpolicy.md)
 
-  -   
-    [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md)
+  - [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md)
 
-  -   
-    [New-CsClientVersionPolicyRule](new-csclientversionpolicyrule.md)
+  - [New-CsClientVersionPolicyRule](new-csclientversionpolicyrule.md)
 
-  -   
-    [Remove-CsClientVersionPolicyRule](remove-csclientversionpolicyrule.md)
+  - [Remove-CsClientVersionPolicyRule](remove-csclientversionpolicyrule.md)
 
-  -   
-    [Set-CsClientVersionPolicyRule](set-csclientversionpolicyrule.md)
+  - [Set-CsClientVersionPolicyRule](set-csclientversionpolicyrule.md)
 

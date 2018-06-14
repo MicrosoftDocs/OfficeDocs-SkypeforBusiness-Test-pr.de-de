@@ -23,38 +23,27 @@ Dieses Dokument enthält wichtige Informationen, die Sie vor der Bereitstellung 
 
 Dieses Dokument enthält die folgenden Abschnitte:
 
-  -   
-    Lync 2013-Client
+  - Lync 2013-Client
 
-  -   
-    Lync Server
+  - Lync Server
 
-  -   
-    Installation
+  - Installation
 
-  -   
-    Mobilität
+  - Mobilität
 
-  -   
-    Konferenzen
+  - Konferenzen
 
-  -   
-    Enterprise-VoIP
+  - Enterprise-VoIP
 
-  -   
-    Anwesenheit
+  - Anwesenheit
 
-  -   
-    Reaktionsgruppenanwendung, Anwendung zum Parken von Anrufen und Annahme von Gruppenanrufen
+  - Reaktionsgruppenanwendung, Anwendung zum Parken von Anrufen und Annahme von Gruppenanrufen
 
-  -   
-    Lync Server-Systemsteuerung, Topologie-Generator und Planungstool
+  - Lync Server-Systemsteuerung, Topologie-Generator und Planungstool
 
-  -   
-    Lokalisierung
+  - Lokalisierung
 
-  -   
-    Copyright
+  - Copyright
 
 ## Lync 2013-Client
 

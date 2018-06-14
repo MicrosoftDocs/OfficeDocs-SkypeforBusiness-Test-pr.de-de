@@ -19,14 +19,11 @@ Die Softwareunterstützung für Clients und Geräte einer Lync Server 2013-Berei
 
 ## In diesem Abschnitt
 
-  -   
-    [Unterstützung für Lync Client-Software in Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+  - [Unterstützung für Lync Client-Software in Lync Server 2013](lync-server-2013-lync-client-software-support.md)
 
-  -   
-    [Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+  - [Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
-  -   
-    [So werden Benutzerfotos in Lync angezeigt](how-user-photos-are-displayed-in-lync.md)
+  - [So werden Benutzerfotos in Lync angezeigt](how-user-photos-are-displayed-in-lync.md)
 
 
 > [!TIP]

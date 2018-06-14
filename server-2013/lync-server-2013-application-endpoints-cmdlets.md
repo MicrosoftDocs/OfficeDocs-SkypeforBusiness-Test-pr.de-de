@@ -23,11 +23,9 @@ Verwenden Sie die folgenden Cmdlets zum Verwalten von Anwendungsendpunkten.
 
 **Anwendungsendpunkte**
 
-  -   
-    [Get-CsApplicationEndpoint](get-csapplicationendpoint.md)
+  - [Get-CsApplicationEndpoint](get-csapplicationendpoint.md)
 
-  -   
-    [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
+  - [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
 
 ## Siehe auch
 

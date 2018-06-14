@@ -154,17 +154,13 @@ Je nach der Größe Ihrer Bereitstellung können synthetische Transaktionen eine
 
 Lync Server 2013-Watcher-Knoten können innerhalb oder außerhalb des Unternehmens bereitgestellt werden, um bei der Überprüfung der folgenden Punkte zu helfen:
 
-  -   
-    Konnektivität zu Pools für Benutzer innerhalb des Unternehmens
+  - Konnektivität zu Pools für Benutzer innerhalb des Unternehmens
 
-  -   
-    Konnektivität über Umkreisnetzwerke für Remotebenutzer, die außerhalb des Unternehmens arbeiten
+  - Konnektivität über Umkreisnetzwerke für Remotebenutzer, die außerhalb des Unternehmens arbeiten
 
-  -   
-    Konnektivität zu Branch Office Appliances
+  - Konnektivität zu Branch Office Appliances
 
-  -   
-    Konnektivität zu Lync Server 2010 innerhalb des Unternehmens und über Umkreisnetzwerke
+  - Konnektivität zu Lync Server 2010 innerhalb des Unternehmens und über Umkreisnetzwerke
 
 Zur leichteren Verwaltung stehen unterschiedliche Authentifizierungsoptionen für innerhalb oder außerhalb des Unternehmens zur Verfügung. Weitere Informationen dazu finden Sie unter [Konfigurieren eines Watcher-Knotens für die Ausführung von synthetischen Transaktionen](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).
 

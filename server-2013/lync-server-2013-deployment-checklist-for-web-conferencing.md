@@ -81,8 +81,7 @@ Lync Server 2013 besitzt nun die Einstellung **MaxUploadFileSizeMb**, mit der di
 **MaxUploadFileSizeMb** nimmt keine Beschränkung der Einstellung für das Hochladen von Dateien der Lync Web App vor. Der Grenzwert für die Größe hochgeladener Dateien ist in der Lync Web App auf rund 30 MB festgelegt und wird über die IIS "web.config"-Datei gesteuert: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Zur Konfiguration des Grenzwerts für die Größe hochgeladener Dateien für die Lync Web App müssen Sie in der Datei "web.config" `maxRequestLength` und `maxAllowedContentLength` wie im Folgenden dargestellt aktualisieren.
 
     <system.web>
-        <!-- 
-            Since this handler is used to upload files to DMCU the request size (in kilobytes) 
+        <!-- Since this handler is used to upload files to DMCU the request size (in kilobytes) 
             has to fit max allowed file size uploaded by LWA client.
             The timeout has to reflect the min client bandwidth. Timeout of 600 secs 
             and 512 Kbits of *client* bandwidth would result into aproximately 30 Mbytes 

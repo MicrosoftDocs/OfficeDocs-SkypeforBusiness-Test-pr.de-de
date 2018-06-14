@@ -27,24 +27,17 @@ Ausführliche Informationen zum Entfernen von Lync Server 2010-Servern und Serve
 
 ## In diesem Abschnitt
 
-  -   
-    [Aktualisieren von DNS-SRV-Einträgen](update-dns-srv-records.md)
+  - [Aktualisieren von DNS-SRV-Einträgen](update-dns-srv-records.md)
 
-  -   
-    [Verschieben des zentralen Lync Server 2010-Verwaltungsservers zu Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+  - [Verschieben des zentralen Lync Server 2010-Verwaltungsservers zu Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
-  -   
-    [Verschieben von Konferenzverzeichnissen](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+  - [Verschieben von Konferenzverzeichnissen](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
-  -   
-    [Entfernen der Zuordnung des Archivierungsservers](remove-the-archiving-server-association.md)
+  - [Entfernen der Zuordnung des Archivierungsservers](remove-the-archiving-server-association.md)
 
-  -   
-    [Entfernen der Zuordnung des Monitoring Servers](remove-the-monitoring-server-association.md)
+  - [Entfernen der Zuordnung des Monitoring Servers](remove-the-monitoring-server-association.md)
 
-  -   
-    [Entfernen des Enterprise Edition-Front-End-Servers oder Standard Edition-Front-End-Servers](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+  - [Entfernen des Enterprise Edition-Front-End-Servers oder Standard Edition-Front-End-Servers](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
-  -   
-    [Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+  - [Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 

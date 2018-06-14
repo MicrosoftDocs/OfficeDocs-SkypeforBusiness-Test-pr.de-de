@@ -37,17 +37,13 @@ Verwenden Sie die folgenden Cmdlets für die Trunkkonfiguration.
 
 <!-- end list -->
 
-  -   
-    [Get-CsOutboundTranslationRule](get-csoutboundtranslationrule.md)
+  - [Get-CsOutboundTranslationRule](get-csoutboundtranslationrule.md)
 
-  -   
-    [New-CsOutboundTranslationRule](new-csoutboundtranslationrule.md)
+  - [New-CsOutboundTranslationRule](new-csoutboundtranslationrule.md)
 
-  -   
-    [Remove-CsOutboundTranslationRule](remove-csoutboundtranslationrule.md)
+  - [Remove-CsOutboundTranslationRule](remove-csoutboundtranslationrule.md)
 
-  -   
-    [Set-CsOutboundTranslationRule](set-csoutboundtranslationrule.md)
+  - [Set-CsOutboundTranslationRule](set-csoutboundtranslationrule.md)
 
 <!-- end list -->
 
@@ -55,25 +51,19 @@ Verwenden Sie die folgenden Cmdlets für die Trunkkonfiguration.
 
 <!-- end list -->
 
-  -   
-    [Get-CsTrunkConfiguration](get-cstrunkconfiguration.md)
+  - [Get-CsTrunkConfiguration](get-cstrunkconfiguration.md)
 
-  -   
-    [New-CsTrunkConfiguration](new-cstrunkconfiguration.md)
+  - [New-CsTrunkConfiguration](new-cstrunkconfiguration.md)
 
-  -   
-    [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md)
+  - [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md)
 
-  -   
-    [Set-CsTrunkConfiguration](set-cstrunkconfiguration.md)
+  - [Set-CsTrunkConfiguration](set-cstrunkconfiguration.md)
 
-  -   
-    [Test-CsTrunkConfiguration](test-cstrunkconfiguration.md)
+  - [Test-CsTrunkConfiguration](test-cstrunkconfiguration.md)
 
 <!-- end list -->
 
-  -   
-    [New-CsVoiceRegex](new-csvoiceregex.md)
+  - [New-CsVoiceRegex](new-csvoiceregex.md)
 
 ## Siehe auch
 

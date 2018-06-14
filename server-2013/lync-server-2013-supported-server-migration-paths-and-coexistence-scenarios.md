@@ -29,8 +29,7 @@ Die Migration aller Lync Server-Topologien und -Serverrollen wird unterstützt. 
 
 Lync Server 2013 unterstützt nur die folgende Migrationsmethode:
 
-  -   
-    **Parallele Migration.** Bei der parallelen Migration wird Lync Server 2013 neben einer vorhandenen Microsoft Lync Server 2010- oder Office Communications Server 2007 R2-Bereitstellung bereitgestellt. Anschließend übertragen Sie die Vorgänge auf die neuen Server und verschieben Benutzer in Lync Server 2013. Für diese Methode sind zusätzliche Serverplattformen, einschließlich Hardware und Software, während der Migration erforderlich, und die System- und Poolnamen lauten in der neuen Konfiguration anders. Wenn Sie die vorherige Version wiederherstellen müssen, können Sie die Vorgänge auf die vorherigen Server zurück übertragen.
+  - **Parallele Migration.** Bei der parallelen Migration wird Lync Server 2013 neben einer vorhandenen Microsoft Lync Server 2010- oder Office Communications Server 2007 R2-Bereitstellung bereitgestellt. Anschließend übertragen Sie die Vorgänge auf die neuen Server und verschieben Benutzer in Lync Server 2013. Für diese Methode sind zusätzliche Serverplattformen, einschließlich Hardware und Software, während der Migration erforderlich, und die System- und Poolnamen lauten in der neuen Konfiguration anders. Wenn Sie die vorherige Version wiederherstellen müssen, können Sie die Vorgänge auf die vorherigen Server zurück übertragen.
 
 Die Migration über Active Directory-Domänendienste-Gesamtstrukturen hinweg wird nicht unterstützt.
 

@@ -23,20 +23,15 @@ Die folgenden Cmdlets können zum Verwalten von Exchange UM eingesetzt werden.
 
 **Exchange UM**
 
-  -   
-    [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](get-csexumcontact.md)
 
-  -   
-    [Move-CsExUmContact](move-csexumcontact.md)
+  - [Move-CsExUmContact](move-csexumcontact.md)
 
-  -   
-    [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](new-csexumcontact.md)
 
-  -   
-    [Remove-CsExUmContact](remove-csexumcontact.md)
+  - [Remove-CsExUmContact](remove-csexumcontact.md)
 
-  -   
-    [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](set-csexumcontact.md)
 
   - [Test-CsExStorageConnectivity](test-csexstorageconnectivity.md)
 
@@ -46,32 +41,23 @@ Die folgenden Cmdlets können zum Verwalten von Exchange UM eingesetzt werden.
 
   - [Test-CsExUMVoiceMail](test-csexumvoicemail.md)
 
-  -   
-    [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
 
-  -   
-    [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
 
-  -   
-    [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
 
-  -   
-    [Remove-CsHostedVoicemailPolicy](remove-cshostedvoicemailpolicy.md)
+  - [Remove-CsHostedVoicemailPolicy](remove-cshostedvoicemailpolicy.md)
 
-  -   
-    [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
 
-  -   
-    [Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)
+  - [Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)
 
-  -   
-    [New-CsVoicemailReroutingConfiguration](new-csvoicemailreroutingconfiguration.md)
+  - [New-CsVoicemailReroutingConfiguration](new-csvoicemailreroutingconfiguration.md)
 
-  -   
-    [Remove-CsVoicemailReroutingConfiguration](remove-csvoicemailreroutingconfiguration.md)
+  - [Remove-CsVoicemailReroutingConfiguration](remove-csvoicemailreroutingconfiguration.md)
 
-  -   
-    [Set-CsVoicemailReroutingConfiguration](set-csvoicemailreroutingconfiguration.md)
+  - [Set-CsVoicemailReroutingConfiguration](set-csvoicemailreroutingconfiguration.md)
 
 ## Siehe auch
 

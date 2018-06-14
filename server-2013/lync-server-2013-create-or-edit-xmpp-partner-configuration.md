@@ -55,14 +55,11 @@ Von Microsoft Lync Server 2013 wird ein XMPP-Proxy (Extensible Messaging and Pre
     
       - **TLS-Aushandlung**. Definiert die Regeln für die TLS-Aushandlung. Für einen XMPP-Dienst kann TLS als erforderlich, optional oder nicht unterstützt festgelegt werden. Durch die Auswahl von "Optional" liegt die Entscheidung für die obligatorische Aushandlung beim XMPP-Dienst. Informationen zu allen Einstellungen sowie Details zu SASL, TLS und zur Rückrufaushandlung – einschließlich ungültiger und fehlerhafter Konfigurationen – finden Sie unter [Aushandlungseinstellungen für XMPP-Verbundpartner in Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
-          -   
-            **Erforderlich**. Für den XMPP-Dienst ist die TLS-Aushandlung erforderlich.
+          - **Erforderlich**. Für den XMPP-Dienst ist die TLS-Aushandlung erforderlich.
         
-          -   
-            **Optional**. Für den XMPP-Dienst muss TLS ausgehandelt werden.
+          - **Optional**. Für den XMPP-Dienst muss TLS ausgehandelt werden.
         
-          -   
-            **Nicht unterstützt**. Der XMPP-Dienst unterstützt TLS nicht.
+          - **Nicht unterstützt**. Der XMPP-Dienst unterstützt TLS nicht.
     
       - **SASL-Aushandlung**. Definiert die Regeln für die SASL-Aushandlung. Für einen XMPP-Dienst kann SASL als erforderlich, optional oder nicht unterstützt festgelegt werden. Durch die Auswahl von "Optional" liegt die Entscheidung für die obligatorische Aushandlung beim XMPP-Dienst des Partners.
         
@@ -71,22 +68,17 @@ Von Microsoft Lync Server 2013 wird ein XMPP-Proxy (Extensible Messaging and Pre
         > SASL erfordert TLS. Um SASL verwenden zu können, muss TLS entweder erforderlich oder optional sein. TLS muss in jeder Konfiguration unterstützt werden, die SASL entweder als erforderlich oder optional definiert. Wenn Sie auf <STRONG>Commit ausführen</STRONG> klicken, um Ihre Änderungen zu speichern, und TLS nicht als erforderlich oder optional festgelegt haben, wird eine Warnung angezeigt. Diese besagt, dass SASL eine TLS-Unterstützung erfordert, und Ihre Änderungen werden nicht gespeichert. Legen Sie TLS auf <STRONG>Erforderlich</STRONG> oder <STRONG>Optional</STRONG> fest, um den Fehler zu beheben. Wenn die Verwendung von SASL optional und die Unterstützung der TLS-Aushandlung nicht möglich ist, müssen Sie die SASL-Aushandlung auf <STRONG>Nicht unterstützt</STRONG> festlegen. Überprüfen Sie für den XMPP-Dienst, wie die Aushandlungsdatenströme für TLS und SASL genau aussehen müssen, um eine Dienstunterbrechung zu verhindern.
 
         
-          -   
-            **Erforderlich**. Für den XMPP-Dienst ist die SASL-Aushandlung erforderlich.
+          - **Erforderlich**. Für den XMPP-Dienst ist die SASL-Aushandlung erforderlich.
         
-          -   
-            **Optional**. Für den XMPP-Dienst muss SASL ausgehandelt werden.
+          - **Optional**. Für den XMPP-Dienst muss SASL ausgehandelt werden.
         
-          -   
-            **Nicht unterstützt**. Der XMPP-Dienst unterstützt SASL nicht.
+          - **Nicht unterstützt**. Der XMPP-Dienst unterstützt SASL nicht.
     
       - **Rückrufaushandlung**. Die Rückrufaushandlung ist im Dokument **XEP-220: Server Dialback** unter <http://xmpp.org/extensions/xep-0220.html> von der XSF definiert. Der Serverrückrufprozess verwendet das Domain Name System (DNS) und einen autoritativen Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Verbundpartner stammt. Hierzu erstellt der Ausgangsserver eine Meldung eines bestimmten Typs mit einem generierten Rückrufschlüssel und schlägt den empfangenden Server im DNS nach. Der Ausgangsserver sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, wahrscheinlich an den empfangenden Server. Wenn der Schlüssel über den XML-Datenstrom empfangen wird, antwortet der empfangende Server dem Ausgangsserver nicht, sondern sendet den Schlüssel an einen bekannten autoritativen Server. Der autoritative Server überprüft die Gültigkeit des Schlüssels. Wenn der Schlüssel nicht gültig ist, antwortet der empfangende Server dem Ausgangsserver nicht. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ausgangsserver, dass die Identität und der Schlüssel gültig sind und dass die Unterhaltung beginnen kann.
         
         Für **Rückrufaushandlung** gibt es die folgenden beiden gültigen Status:
         
-          -   
-            **True**. Der XMPP-Server ist für die Verwendung der Rückrufaushandlung konfiguriert, wenn eine Anforderung von einem Ausgangsserver eingeht.
+          - **True**. Der XMPP-Server ist für die Verwendung der Rückrufaushandlung konfiguriert, wenn eine Anforderung von einem Ausgangsserver eingeht.
         
-          -   
-            **False**. Der XMPP-Server ist nicht für die Verwendung der Rückrufaushandlung konfiguriert. Wenn eine Anforderung von einem Ausgangsserver eingeht, wird sie ignoriert.
+          - **False**. Der XMPP-Server ist nicht für die Verwendung der Rückrufaushandlung konfiguriert. Wenn eine Anforderung von einem Ausgangsserver eingeht, wird sie ignoriert.
 

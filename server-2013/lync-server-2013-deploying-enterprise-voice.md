@@ -57,41 +57,29 @@ Wenn Sie mit dem Topologie-Generator einen Vermittlungsserver in einem eigenstä
 
 ## In diesem Abschnitt
 
-  -   
-    [Voraussetzungen für Enterprise-VoIP für Lync Server 2013](lync-server-2013-enterprise-voice-prerequisites.md)
+  - [Voraussetzungen für Enterprise-VoIP für Lync Server 2013](lync-server-2013-enterprise-voice-prerequisites.md)
 
-  -   
-    [Bereitstellen von Vermittlungsservern und Definieren von Peers in Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
+  - [Bereitstellen von Vermittlungsservern und Definieren von Peers in Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
 
-  -   
-    [Konfigurieren von Trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md)
+  - [Konfigurieren von Trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-  -   
-    [Konfigurieren von Wählplänen in Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
+  - [Konfigurieren von Wählplänen in Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
-  -   
-    [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+  - [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
-  -   
-    [Exportieren und Importieren einer VoIP-Routingkonfiguration in Lync Server 2013](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+  - [Exportieren und Importieren einer VoIP-Routingkonfiguration in Lync Server 2013](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  -   
-    [Testen des VoIP-Routings in Lync Server 2013](lync-server-2013-test-voice-routing.md)
+  - [Testen des VoIP-Routings in Lync Server 2013](lync-server-2013-test-voice-routing.md)
 
-  -   
-    [Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+  - [Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  -   
-    [Bereitstellen lokaler Exchange Unified Messaging-Dienste zur Unterstützung von Lync Server 2013-Voicemail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
+  - [Bereitstellen lokaler Exchange Unified Messaging-Dienste zur Unterstützung von Lync Server 2013-Voicemail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
 
-  -   
-    [Bereitstellen von Voicemail für Benutzer von Lync Server 2013 für gehostete Exchange Unified Messaging-Dienste](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
+  - [Bereitstellen von Voicemail für Benutzer von Lync Server 2013 für gehostete Exchange Unified Messaging-Dienste](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
 
-  -   
-    [Konfigurieren der lokalen Lync Server 2013-Integration in Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
+  - [Konfigurieren der lokalen Lync Server 2013-Integration in Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
 
-  -   
-    [Bereitstellen von erweiterten Enterprise-VoIP-Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+  - [Bereitstellen von erweiterten Enterprise-VoIP-Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
       - [Informationen zu Netzwerkregionen, Standorten und Subnetzen in Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
     
@@ -107,8 +95,7 @@ Wenn Sie mit dem Topologie-Generator einen Vermittlungsserver in einem eigenstä
     
       - [Konfigurieren der Medienumgehung in Lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
-  -   
-    [Aktivieren von Benutzern für Enterprise-VoIP in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Aktivieren von Benutzern für Enterprise-VoIP in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 
 ## Siehe auch
 

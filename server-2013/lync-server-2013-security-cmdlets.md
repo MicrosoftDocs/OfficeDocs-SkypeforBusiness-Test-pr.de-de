@@ -23,139 +23,95 @@ Viele Aufgaben im Rahmen der Sicherheitsverwaltung können über die Lync Server
 
 **[Cmdlets für Zertifikate und Authentifizierung](lync-server-2013-certificate-and-authentication-cmdlets.md)**
 
-  -   
-    [Get-CsCertificate](get-cscertificate.md)
+  - [Get-CsCertificate](get-cscertificate.md)
 
-  -   
-    [Import-CsCertificate](import-cscertificate.md)
+  - [Import-CsCertificate](import-cscertificate.md)
 
-  -   
-    [Remove-CsCertificate](remove-cscertificate.md)
+  - [Remove-CsCertificate](remove-cscertificate.md)
 
-  -   
-    [Request-CsCertificate](request-cscertificate.md)
+  - [Request-CsCertificate](request-cscertificate.md)
 
-  -   
-    [Set-CsCertificate](set-cscertificate.md)
+  - [Set-CsCertificate](set-cscertificate.md)
 
-  -   
-    [Test-CsCertificateConfiguration](test-cscertificateconfiguration.md)
+  - [Test-CsCertificateConfiguration](test-cscertificateconfiguration.md)
 
-  -   
-    [Get-CsClientCertificate](get-csclientcertificate.md)
+  - [Get-CsClientCertificate](get-csclientcertificate.md)
 
-  -   
-    [Revoke-CsClientCertificate](revoke-csclientcertificate.md)
+  - [Revoke-CsClientCertificate](revoke-csclientcertificate.md)
 
-  -   
-    [Lock-CsClientPin](lock-csclientpin.md)
+  - [Lock-CsClientPin](lock-csclientpin.md)
 
-  -   
-    [Set-CsClientPin](set-csclientpin.md)
+  - [Set-CsClientPin](set-csclientpin.md)
 
-  -   
-    [Unlock-CsClientPin](unlock-csclientpin.md)
+  - [Unlock-CsClientPin](unlock-csclientpin.md)
 
-  -   
-    [Get-CsClientPinInfo](get-csclientpininfo.md)
+  - [Get-CsClientPinInfo](get-csclientpininfo.md)
 
-  -   
-    [New-CsKerberosAccount](new-cskerberosaccount.md)
+  - [New-CsKerberosAccount](new-cskerberosaccount.md)
 
-  -   
-    [Get-CsKerberosAccountAssignment](get-cskerberosaccountassignment.md)
+  - [Get-CsKerberosAccountAssignment](get-cskerberosaccountassignment.md)
 
-  -   
-    [New-CsKerberosAccountAssignment](new-cskerberosaccountassignment.md)
+  - [New-CsKerberosAccountAssignment](new-cskerberosaccountassignment.md)
 
-  -   
-    [Remove-CsKerberosAccountAssignment](remove-cskerberosaccountassignment.md)
+  - [Remove-CsKerberosAccountAssignment](remove-cskerberosaccountassignment.md)
 
-  -   
-    [Set-CsKerberosAccountAssignment](set-cskerberosaccountassignment.md)
+  - [Set-CsKerberosAccountAssignment](set-cskerberosaccountassignment.md)
 
-  -   
-    [Test-CsKerberosAccountAssignment](test-cskerberosaccountassignment.md)
+  - [Test-CsKerberosAccountAssignment](test-cskerberosaccountassignment.md)
 
-  -   
-    [Set-CsKerberosAccountPassword](set-cskerberosaccountpassword.md)
+  - [Set-CsKerberosAccountPassword](set-cskerberosaccountpassword.md)
 
-  -   
-    [Get-CsPinPolicy](get-cspinpolicy.md)
+  - [Get-CsPinPolicy](get-cspinpolicy.md)
 
-  -   
-    [Grant-CsPinPolicy](grant-cspinpolicy.md)
+  - [Grant-CsPinPolicy](grant-cspinpolicy.md)
 
-  -   
-    [New-CsPinPolicy](new-cspinpolicy.md)
+  - [New-CsPinPolicy](new-cspinpolicy.md)
 
-  -   
-    [Remove-CsPinPolicy](remove-cspinpolicy.md)
+  - [Remove-CsPinPolicy](remove-cspinpolicy.md)
 
-  -   
-    [Set-CsPinPolicy](set-cspinpolicy.md)
+  - [Set-CsPinPolicy](set-cspinpolicy.md)
 
-  -   
-    [Get-CsProxyConfiguration](get-csproxyconfiguration.md)
+  - [Get-CsProxyConfiguration](get-csproxyconfiguration.md)
 
-  -   
-    [New-CsProxyConfiguration](new-csproxyconfiguration.md)
+  - [New-CsProxyConfiguration](new-csproxyconfiguration.md)
 
-  -   
-    [Remove-CsProxyConfiguration](remove-csproxyconfiguration.md)
+  - [Remove-CsProxyConfiguration](remove-csproxyconfiguration.md)
 
-  -   
-    [Set-CsProxyConfiguration](set-csproxyconfiguration.md)
+  - [Set-CsProxyConfiguration](set-csproxyconfiguration.md)
 
-  -   
-    [Get-CsSipDomain](get-cssipdomain.md)
+  - [Get-CsSipDomain](get-cssipdomain.md)
 
-  -   
-    [New-CsSipDomain](new-cssipdomain.md)
+  - [New-CsSipDomain](new-cssipdomain.md)
 
-  -   
-    [Remove-CsSipDomain](remove-cssipdomain.md)
+  - [Remove-CsSipDomain](remove-cssipdomain.md)
 
-  -   
-    [Set-CsSipDomain](set-cssipdomain.md)
+  - [Set-CsSipDomain](set-cssipdomain.md)
 
 **[Cmdlets für Benutzerrechte und Berechtigungen](lync-server-2013-user-rights-and-permissions-cmdlets.md)**
 
-  -   
-    [Get-CsAdminRole](get-csadminrole.md)
+  - [Get-CsAdminRole](get-csadminrole.md)
 
-  -   
-    [New-CsAdminRole](new-csadminrole.md)
+  - [New-CsAdminRole](new-csadminrole.md)
 
-  -   
-    [Remove-CsAdminRole](remove-csadminrole.md)
+  - [Remove-CsAdminRole](remove-csadminrole.md)
 
-  -   
-    [Set-CsAdminRole](set-csadminrole.md)
+  - [Set-CsAdminRole](set-csadminrole.md)
 
-  -   
-    [Update-CsAdminRole](update-csadminrole.md)
+  - [Update-CsAdminRole](update-csadminrole.md)
 
-  -   
-    [Get-CsAdminRoleAssignment](get-csadminroleassignment.md)
+  - [Get-CsAdminRoleAssignment](get-csadminroleassignment.md)
 
-  -   
-    [Grant-CsOUPermission](grant-csoupermission.md)
+  - [Grant-CsOUPermission](grant-csoupermission.md)
 
-  -   
-    [Revoke-CsOUPermission](revoke-csoupermission.md)
+  - [Revoke-CsOUPermission](revoke-csoupermission.md)
 
-  -   
-    [Test-CsOUPermission](test-csoupermission.md)
+  - [Test-CsOUPermission](test-csoupermission.md)
 
-  -   
-    [Grant-CsSetupPermission](grant-cssetuppermission.md)
+  - [Grant-CsSetupPermission](grant-cssetuppermission.md)
 
-  -   
-    [Revoke-CsSetupPermission](revoke-cssetuppermission.md)
+  - [Revoke-CsSetupPermission](revoke-cssetuppermission.md)
 
-  -   
-    [Test-CsSetupPermission](test-cssetuppermission.md)
+  - [Test-CsSetupPermission](test-cssetuppermission.md)
 
 **[Cmdlets für die Interoperabilität](lync-server-2013-interoperability-cmdlets.md)**
 

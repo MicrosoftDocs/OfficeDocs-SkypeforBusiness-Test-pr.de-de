@@ -23,29 +23,21 @@ In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung 
 
 **Active Directory**
 
-  -   
-    [Disable-CsAdDomain](disable-csaddomain.md)
+  - [Disable-CsAdDomain](disable-csaddomain.md)
 
-  -   
-    [Enable-CsAdDomain](enable-csaddomain.md)
+  - [Enable-CsAdDomain](enable-csaddomain.md)
 
-  -   
-    [Get-CsAdDomain](get-csaddomain.md)
+  - [Get-CsAdDomain](get-csaddomain.md)
 
-  -   
-    [Disable-CsAdForest](disable-csadforest.md)
+  - [Disable-CsAdForest](disable-csadforest.md)
 
-  -   
-    [Enable-CsAdForest](enable-csadforest.md)
+  - [Enable-CsAdForest](enable-csadforest.md)
 
-  -   
-    [Get-CsAdForest](get-csadforest.md)
+  - [Get-CsAdForest](get-csadforest.md)
 
-  -   
-    [Get-CsAdServerSchema](get-csadserverschema.md)
+  - [Get-CsAdServerSchema](get-csadserverschema.md)
 
-  -   
-    [Install-CsAdServerSchema](install-csadserverschema.md)
+  - [Install-CsAdServerSchema](install-csadserverschema.md)
 
 ## Siehe auch
 

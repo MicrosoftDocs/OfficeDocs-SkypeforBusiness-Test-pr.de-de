@@ -256,8 +256,7 @@ Zum Ausführen der Cmdlet öffnen Sie eine Lync Server-Verwaltungsshell mit der 
             $users=gc c:\logs\users.txt
             foreach ($user in $users)
             {
-            Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - 
-            }
+            Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - }
         
 
         > [!TIP]

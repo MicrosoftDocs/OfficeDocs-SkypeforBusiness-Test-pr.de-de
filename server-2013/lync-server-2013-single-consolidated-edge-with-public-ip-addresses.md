@@ -17,14 +17,11 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
 Wenn Ihre Organisation weniger als 15.000 Clientverbindungen für den Zugriffs-Edgedienst, 1.000 aktive Lync Server-Clientverbindungen für den Webkonferenzdienst und 500 gleichzeitige A/V-Edgesitzungen unterstützen muss und eine hohe Verfügbarkeit des Edgeservers nicht wichtig ist, bietet diese Topologie die Vorteile niedrigerer Hardwarekosten und einer einfacheren Bereitstellung. Wenn Sie mehr Kapazität oder eine hohe Verfügbarkeit benötigen, sollten Sie eine skalierte, konsolidierte Edgeservertopologie bereitstellen.
 
-  -   
-    [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  -   
-    [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  -   
-    [Skalierter konsolidierter Edgeserver mit Hardwarelastenausgleich in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Skalierter konsolidierter Edgeserver mit Hardwarelastenausgleich in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 
 > [!IMPORTANT]

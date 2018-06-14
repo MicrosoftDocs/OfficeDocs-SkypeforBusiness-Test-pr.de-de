@@ -25,26 +25,19 @@ In Lync Server 2013 werden Zertifikate für die Verschlüsselung der Kommunikati
 
 Ein Platzhaltereintrag als Antragstellername (auch als "allgemeiner Name" (Common Name, CN) bezeichnet) wird für keine Rolle unterstützt. Für die folgenden Serverrollen wird die Verwendung von Platzhaltereinträgen im SAN unterstützt:
 
-  -   
-    **Reverseproxy.**   Platzhalter-SAN-Eintrag wird für Herausgeberzertifikat mit einfacher URL (Besprechung/meet und Wählen/dialin) unterstützt.
+  - **Reverseproxy.**   Platzhalter-SAN-Eintrag wird für Herausgeberzertifikat mit einfacher URL (Besprechung/meet und Wählen/dialin) unterstützt.
 
-  -   
-    **Reverseproxy.**   Platzhalter-SAN-Eintrag wird für die SAN-Einträge für LyncDiscover im Herausgeberzertifikat unterstützt.
+  - **Reverseproxy.**   Platzhalter-SAN-Eintrag wird für die SAN-Einträge für LyncDiscover im Herausgeberzertifikat unterstützt.
 
-  -   
-    **Director.** Platzhalter-SAN-Eintrag wird für einfache URLs (Besprechung/meet und Wählen/dialin) sowie für SAN-Einträge für LyncDiscover und LyncDiscoverInternal in Directorwebkomponenten unterstützt.
+  - **Director.** Platzhalter-SAN-Eintrag wird für einfache URLs (Besprechung/meet und Wählen/dialin) sowie für SAN-Einträge für LyncDiscover und LyncDiscoverInternal in Directorwebkomponenten unterstützt.
 
-  -   
-    **Front-End-Server ( Standard Edition) und Front-End-Pool ( Enterprise Edition).** Platzhalter-SAN-Eintrag wird für einfache URLs (Besprechung/meet und Wählen/dialin) sowie für SAN-Einträge für LyncDiscover und LyncDiscoverInternal in Front-End-Webkomponenten unterstützt.
+  - **Front-End-Server ( Standard Edition) und Front-End-Pool ( Enterprise Edition).** Platzhalter-SAN-Eintrag wird für einfache URLs (Besprechung/meet und Wählen/dialin) sowie für SAN-Einträge für LyncDiscover und LyncDiscoverInternal in Front-End-Webkomponenten unterstützt.
 
-  -   
-    **Exchange Unified Messaging (UM).** Der Server verwendet keine SAN-Einträge, wenn er als eigenständiger Server bereitgestellt wurde.
+  - **Exchange Unified Messaging (UM).** Der Server verwendet keine SAN-Einträge, wenn er als eigenständiger Server bereitgestellt wurde.
 
-  -   
-    **Microsoft Exchange Server Clientzugriffsserver.** Platzhaltereinträge im SAN werden für interne und externe Clients unterstützt.
+  - **Microsoft Exchange Server Clientzugriffsserver.** Platzhaltereinträge im SAN werden für interne und externe Clients unterstützt.
 
-  -   
-    **Exchange Unified Messaging (UM) und Microsoft Exchange Server Clientzugriffsserver auf demselben Server.** Platzhalter-SAN-Einträge werden unterstützt.
+  - **Exchange Unified Messaging (UM) und Microsoft Exchange Server Clientzugriffsserver auf demselben Server.** Platzhalter-SAN-Einträge werden unterstützt.
 
 In diesem Thema nicht behandelte Serverrollen:
 

@@ -25,9 +25,7 @@ Sie können die Konfigurationseinstellungen für den Geräteaktualisierungsdiens
 
 
 
-  - 
-    
-    Zum Anzeigen von Informationen zu allen VoIP-Routen geben Sie den folgenden Befehl in der Lync Server-Verwaltungsshell ein und drücken Sie die EINGABETASTE:
+  - Zum Anzeigen von Informationen zu allen VoIP-Routen geben Sie den folgenden Befehl in der Lync Server-Verwaltungsshell ein und drücken Sie die EINGABETASTE:
     
         Get-CsDeviceUpdateConfiguration
     
