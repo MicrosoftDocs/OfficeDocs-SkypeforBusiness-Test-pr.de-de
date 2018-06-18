@@ -25,6 +25,8 @@ Wenn in Ihrer Organisation anstelle der drei integrierten Container (für Benutz
 
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
 
+   &nbsp;
+
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
 
 Ausführliche Informationen zur Verwendung des **Grant-CsOuPermission**-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.

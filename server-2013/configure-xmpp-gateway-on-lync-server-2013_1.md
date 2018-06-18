@@ -72,6 +72,8 @@ Wenn Sie Richtlinien zur Unterstützung von XMPP-Verbundpartnern (Extensible Mes
 17. Nachdem Sie das öffentliche Zertifikate empfangen, importiert und zugewiesen haben, müssen Sie die Edgeserverdienste beenden und neu starten. Dazu geben Sie in der Lync Server-Verwaltungskonsole Folgendes ein:
     
         Stop-CsWindowsService
+
+       &nbsp;
     
         Start-CsWindowsService
 

@@ -28,6 +28,8 @@ Sie können Benutzereinstellungen und -richtlinien für Benutzer, die zu Lync O
   - Führen Sie die folgenden Cmdlets aus, um einen Benutzer von Lync Online zurück zu einer lokalen Lync-Bereitstellung zu verschieben:
     
         $cred=Get-Credential
+
+       &nbsp;
     
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
 

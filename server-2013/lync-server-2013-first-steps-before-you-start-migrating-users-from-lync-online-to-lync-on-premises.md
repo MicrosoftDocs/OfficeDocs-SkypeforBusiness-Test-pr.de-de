@@ -26,10 +26,16 @@ Bevor Sie beginnen, Lync Online-Benutzer zu Ihrer lokalen Umgebung zu verschiebe
     Nach der Installation des Moduls können Sie eine Remotesitzung einrichten, indem Sie die folgenden Cmdlets in die Lync Server-Verwaltungsshell eingeben:
     
         Import-Module LyncOnlineConnector
+
+       &nbsp;
     
         $cred = Get-Credential
+
+       &nbsp;
     
         $CSSession = New-CsOnlineSession -Credential $cred
+
+       &nbsp;
     
         Import-PSSession $CSSession -AllowClobber
     

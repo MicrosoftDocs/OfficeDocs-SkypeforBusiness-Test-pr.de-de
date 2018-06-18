@@ -23,38 +23,27 @@ Dieses Dokument enthält wichtige Informationen, die Sie vor der Bereitstellung 
 
 Dieses Dokument enthält die folgenden Abschnitte:
 
-  -   
-    Lync 2013-Client
+  - Lync 2013-Client
 
-  -   
-    Lync Server
+  - Lync Server
 
-  -   
-    Installation
+  - Installation
 
-  -   
-    Mobilität
+  - Mobilität
 
-  -   
-    Konferenzen
+  - Konferenzen
 
-  -   
-    Enterprise-VoIP
+  - Enterprise-VoIP
 
-  -   
-    Anwesenheit
+  - Anwesenheit
 
-  -   
-    Reaktionsgruppenanwendung, Anwendung zum Parken von Anrufen und Annahme von Gruppenanrufen
+  - Reaktionsgruppenanwendung, Anwendung zum Parken von Anrufen und Annahme von Gruppenanrufen
 
-  -   
-    Lync Server-Systemsteuerung, Topologie-Generator und Planungstool
+  - Lync Server-Systemsteuerung, Topologie-Generator und Planungstool
 
-  -   
-    Lokalisierung
+  - Lokalisierung
 
-  -   
-    Copyright
+  - Copyright
 
 ## Lync 2013-Client
 
@@ -91,6 +80,8 @@ Beim Ändern der IP-Adresskonfiguration für eine Lync Server 2013-Bereitstellun
 Starten Sie zur Umgehung dieses Problems die Lync Server-Dienste nach dem Ändern der IP-Adresskonfiguration für die Bereitstellung neu. Führen Sie dazu die folgenden Cmdlets in der Lync Server-Verwaltungsshell aus:
 
     Stop-CsWindowsService -graceful
+
+   &nbsp;
 
     Start-CsWindowsService
 
@@ -347,6 +338,8 @@ Wenn Sie dieses Problem umgehen möchten, aktualisieren Sie die Systemregistrier
 1.  Starten Sie Windows PowerShell, und führen Sie die folgenden Cmdlets aus:
     
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+
+       &nbsp;
     
         $a="HKU:\.Default\Control Panel\International"
 

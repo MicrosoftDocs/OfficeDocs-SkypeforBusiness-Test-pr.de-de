@@ -89,9 +89,7 @@ Nachdem Sie Ihre Topologie definiert haben, führen Sie die folgenden Schritte a
 
 3.  Geben Sie auf der Seite **Computer in diesem Pool definieren** einen Computer-FQDN für den ersten Front-End-Server im Pool ein, und klicken Sie anschließend auf **Hinzufügen** . Wiederholen Sie diesen Schritt für (bis zu zwölf) zusätzliche Computer, die zum Pool hinzugefügt werden sollen, und klicken Sie anschließend auf **Weiter** .
 
-4.  
-    
-    Aktivieren Sie auf der Seite **Funktionen auswählen** die Kontrollkästchen für die Funktionen, die für diesen Front-End-Pool bereitgestellt werden sollen. Wenn Sie z. B. lediglich Instant Messaging- und Anwesenheitsfunktionen bereitstellen, aktivieren Sie das Kontrollkästchen **Konferenzen** , um die Sofortnachrichtenfunktion für mehrere Teilnehmer zu aktivieren. Die Kontrollkästchen **Einwahlkonferenzen (PSTN)** , **Enterprise-VoIP** oder **Anrufsteuerung** würden Sie jedoch nicht aktivieren, da sich diese auf VoIP-, Video- und Zusammenarbeitskonferenzfunktionen beziehen.
+4.  Aktivieren Sie auf der Seite **Funktionen auswählen** die Kontrollkästchen für die Funktionen, die für diesen Front-End-Pool bereitgestellt werden sollen. Wenn Sie z. B. lediglich Instant Messaging- und Anwesenheitsfunktionen bereitstellen, aktivieren Sie das Kontrollkästchen **Konferenzen** , um die Sofortnachrichtenfunktion für mehrere Teilnehmer zu aktivieren. Die Kontrollkästchen **Einwahlkonferenzen (PSTN)** , **Enterprise-VoIP** oder **Anrufsteuerung** würden Sie jedoch nicht aktivieren, da sich diese auf VoIP-, Video- und Zusammenarbeitskonferenzfunktionen beziehen.
     
       - **Konferenzen**   Bei Auswahl dieser Option wird ein umfassender Satz an Funktionen aktiviert, wie u. a.:
         
