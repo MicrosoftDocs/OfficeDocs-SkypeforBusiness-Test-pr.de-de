@@ -23,23 +23,17 @@ Die folgenden Cmdlets können zum Verwalten von VoIP-Normalisierungsregeln einge
 
 **VoIP-Normalisierungsregeln**
 
-  -   
-    [Get-CsVoiceNormalizationRule](get-csvoicenormalizationrule.md)
+  - [Get-CsVoiceNormalizationRule](get-csvoicenormalizationrule.md)
 
-  -   
-    [New-CsVoiceNormalizationRule](new-csvoicenormalizationrule.md)
+  - [New-CsVoiceNormalizationRule](new-csvoicenormalizationrule.md)
 
-  -   
-    [Remove-CsVoiceNormalizationRule](remove-csvoicenormalizationrule.md)
+  - [Remove-CsVoiceNormalizationRule](remove-csvoicenormalizationrule.md)
 
-  -   
-    [Set-CsVoiceNormalizationRule](set-csvoicenormalizationrule.md)
+  - [Set-CsVoiceNormalizationRule](set-csvoicenormalizationrule.md)
 
-  -   
-    [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
+  - [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
 
-  -   
-    [New-CsVoiceRegex](new-csvoiceregex.md)
+  - [New-CsVoiceRegex](new-csvoiceregex.md)
 
 ## Siehe auch
 

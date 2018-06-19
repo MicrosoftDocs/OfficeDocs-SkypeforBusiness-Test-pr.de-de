@@ -21,20 +21,15 @@ Die Lync Server-Verwaltungsshell ist eine Implementierung des Windows PowerShell
 
 Verwenden Sie diese Cmdlets, um benutzerdefinierte Eigenschaften der Lync Server-Verwaltungsshell festzulegen.
 
-  -   
-    [Get-CsUICulture](get-csuiculture.md)
+  - [Get-CsUICulture](get-csuiculture.md)
 
-  -   
-    [Set-CsUICulture](set-csuiculture.md)
+  - [Set-CsUICulture](set-csuiculture.md)
 
-  -   
-    [Get-CsManagementConnection](get-csmanagementconnection.md)
+  - [Get-CsManagementConnection](get-csmanagementconnection.md)
 
-  -   
-    [Remove-CsManagementConnection](remove-csmanagementconnection.md)
+  - [Remove-CsManagementConnection](remove-csmanagementconnection.md)
 
-  -   
-    [Set-CsManagementConnection](set-csmanagementconnection.md)
+  - [Set-CsManagementConnection](set-csmanagementconnection.md)
 
 ## Siehe auch
 

@@ -23,17 +23,13 @@ Mit den Cmdlets [Test-CsPstnOutboundCall](test-cspstnoutboundcall.md) und [Test-
 
 **PSTN-Gateways**
 
-  -   
-    [Set-CsPstnGateway](set-cspstngateway.md)
+  - [Set-CsPstnGateway](set-cspstngateway.md)
 
-  -   
-    [Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)
+  - [Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)
 
-  -   
-    [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md)
+  - [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md)
 
-  -   
-    [Set-CsMediationServer](set-csmediationserver.md)
+  - [Set-CsMediationServer](set-csmediationserver.md)
 
 ## Siehe auch
 

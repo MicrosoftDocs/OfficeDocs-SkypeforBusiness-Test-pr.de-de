@@ -59,17 +59,13 @@ Das Routing ausgehender Anrufe wird auf Anrufe angewendet, die an ein PSTN-Gatew
 
 In diesem Abschnitt werden Richtlinien zum Konfigurieren der folgenden Servereinstellungen für das Ausgangsrouting bereitgestellt:
 
-  -   
-    [Wählpläne und Normalisierungsregeln in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
+  - [Wählpläne und Normalisierungsregeln in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-  -   
-    [VoIP-Richtlinien in Lync Server 2013](lync-server-2013-voice-policies.md)
+  - [VoIP-Richtlinien in Lync Server 2013](lync-server-2013-voice-policies.md)
 
-  -   
-    [PSTN-Verwendungsdatensätze in Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+  - [PSTN-Verwendungsdatensätze in Lync Server 2013](lync-server-2013-pstn-usage-records.md)
 
-  -   
-    [VoIP-Routen in Lync Server 2013](lync-server-2013-voice-routes.md)
+  - [VoIP-Routen in Lync Server 2013](lync-server-2013-voice-routes.md)
 
 ## Siehe auch
 

@@ -23,20 +23,15 @@ Verwenden Sie die folgenden Cmdlets zum Verwalten von Lync Server 2013-Anwendung
 
 **Anwendungsserver und -dienste**
 
-  -   
-    [Set-CsApplicationServer](set-csapplicationserver.md)
+  - [Set-CsApplicationServer](set-csapplicationserver.md)
 
-  -   
-    [Get-CsServerApplication](get-csserverapplication.md)
+  - [Get-CsServerApplication](get-csserverapplication.md)
 
-  -   
-    [New-CsServerApplication](new-csserverapplication.md)
+  - [New-CsServerApplication](new-csserverapplication.md)
 
-  -   
-    [Remove-CsServerApplication](remove-csserverapplication.md)
+  - [Remove-CsServerApplication](remove-csserverapplication.md)
 
-  -   
-    [Set-CsServerApplication](set-csserverapplication.md)
+  - [Set-CsServerApplication](set-csserverapplication.md)
 
 ## Siehe auch
 

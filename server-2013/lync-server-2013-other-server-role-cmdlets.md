@@ -23,11 +23,9 @@ In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung 
 
 **Sonstige Serverrollen**
 
-  -   
-    [Set-CsConferenceServer](set-csconferenceserver.md)
+  - [Set-CsConferenceServer](set-csconferenceserver.md)
 
-  -   
-    [Set-CsUserServer](set-csuserserver.md)
+  - [Set-CsUserServer](set-csuserserver.md)
 
 ## Siehe auch
 

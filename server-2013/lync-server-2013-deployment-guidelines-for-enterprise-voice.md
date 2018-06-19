@@ -49,11 +49,9 @@ Für ein optimales Ergebnis stellen Sie beim Bereitstellen von Enterprise-VoIP s
     
       - Es muss eines der folgenden Betriebssysteme ausgeführt werden:
         
-          -   
-            Die 64-Bit-Version von Windows Server 2008 Standard
+          - Die 64-Bit-Version von Windows Server 2008 Standard
         
-          -   
-            Die 64-Bit-Version von Windows Server 2008 Enterprise
+          - Die 64-Bit-Version von Windows Server 2008 Enterprise
 
   - Wenn die Verbindung zum Telefonfestnetz (Public Switched Telephone Network, PSTN) oder zu einer Nebenstellenanlage (Private Branch Exchange, PBX) per TDM-Verbindung (Time Division Multiplexing) erfolgt, stehen für die Bereitstellung ein oder mehrere PSTN-Gateways zur Verfügung. (Falls die Verbindung über einen SIP-Trunk hergestellt wird, ist kein PSTN-Gateway erforderlich.)
 

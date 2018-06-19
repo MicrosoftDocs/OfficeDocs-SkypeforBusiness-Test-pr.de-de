@@ -29,48 +29,33 @@ In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Problembeha
 
 **Problembehandlung für Serverrollen und -dienste**
 
-  -   
-    [Get-CsAudioTestServiceApplication](get-csaudiotestserviceapplication.md)
+  - [Get-CsAudioTestServiceApplication](get-csaudiotestserviceapplication.md)
 
-  -   
-    [Set-CsAudioTestServiceApplication](set-csaudiotestserviceapplication.md)
+  - [Set-CsAudioTestServiceApplication](set-csaudiotestserviceapplication.md)
 
-  -   
-    [Get-CsHealthMonitoringConfiguration](get-cshealthmonitoringconfiguration.md)
+  - [Get-CsHealthMonitoringConfiguration](get-cshealthmonitoringconfiguration.md)
 
-  -   
-    [New-CsHealthMonitoringConfiguration](new-cshealthmonitoringconfiguration.md)
+  - [New-CsHealthMonitoringConfiguration](new-cshealthmonitoringconfiguration.md)
 
-  -   
-    [Remove-CsHealthMonitoringConfiguration](remove-cshealthmonitoringconfiguration.md)
+  - [Remove-CsHealthMonitoringConfiguration](remove-cshealthmonitoringconfiguration.md)
 
-  -   
-    [Set-CsHealthMonitoringConfiguration](set-cshealthmonitoringconfiguration.md)
+  - [Set-CsHealthMonitoringConfiguration](set-cshealthmonitoringconfiguration.md)
 
-  -   
-    [Get-CsDiagnosticConfiguration](get-csdiagnosticconfiguration.md)
+  - [Get-CsDiagnosticConfiguration](get-csdiagnosticconfiguration.md)
 
-  -   
-    [New-CsDiagnosticConfiguration](new-csdiagnosticconfiguration.md)
+  - [New-CsDiagnosticConfiguration](new-csdiagnosticconfiguration.md)
 
-  -   
-    [Remove-CsDiagnosticConfiguration](remove-csdiagnosticconfiguration.md)
+  - [Remove-CsDiagnosticConfiguration](remove-csdiagnosticconfiguration.md)
 
-  -   
-    [Set-CsDiagnosticConfiguration](set-csdiagnosticconfiguration.md)
+  - [Set-CsDiagnosticConfiguration](set-csdiagnosticconfiguration.md)
 
-  -   
-    [New-CsDiagnosticsFilter](new-csdiagnosticsfilter.md)
+  - [New-CsDiagnosticsFilter](new-csdiagnosticsfilter.md)
 
-  -   
-    [Get-CsDiagnosticHeaderConfiguration](get-csdiagnosticheaderconfiguration.md)
+  - [Get-CsDiagnosticHeaderConfiguration](get-csdiagnosticheaderconfiguration.md)
 
-  -   
-    [New-CsDiagnosticHeaderConfiguration](new-csdiagnosticheaderconfiguration.md)
+  - [New-CsDiagnosticHeaderConfiguration](new-csdiagnosticheaderconfiguration.md)
 
-  -   
-    [Remove-CsDiagnosticHeaderConfiguration](remove-csdiagnosticheaderconfiguration.md)
+  - [Remove-CsDiagnosticHeaderConfiguration](remove-csdiagnosticheaderconfiguration.md)
 
-  -   
-    [Set-CsDiagnosticHeaderConfiguration](set-csdiagnosticheaderconfiguration.md)
+  - [Set-CsDiagnosticHeaderConfiguration](set-csdiagnosticheaderconfiguration.md)
 

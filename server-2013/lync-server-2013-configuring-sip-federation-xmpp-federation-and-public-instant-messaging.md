@@ -25,14 +25,11 @@ Mithilfe von Verbünden, Verbindungen mit öffentlichen Instant Messaging-Dienst
 
 Bei der Verbindung mit öffentlichen Instant Messaging-Diensten handelt es sich um einen speziellen Typ des Verbunds, der einem Lync Server-Client den Zugriff auf konfigurierte Partner des öffentlichen Instant Messaging-Diensts mit dem Lync 2013 ermöglicht. Die aktuellen Partner für Verbindungen mit öffentlichen Instant Messaging-Diensten lauten wie folgt:
 
-  -   
-    America Online
+  - America Online
 
-  -   
-    Windows Live
+  - Windows Live
 
-  -   
-    Yahoo\!
+  - Yahoo\!
 
 Mithilfe einer Konfiguration der Verbindungen mit öffentlichen Instant Messaging-Diensten können Lync-Benutzer wie folgt auf Benutzer von Verbindungen mit öffentlichen Instant Messaging-Diensten zugreifen:
 
