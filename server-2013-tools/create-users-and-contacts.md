@@ -40,7 +40,7 @@ You must use the Lync Server User Provisioning Tool to create users and contacts
 
 
 
-> [!TIP]
+> [!Note]
 > When you create a significant number of users (10,000 or more), run UserProvisioningTool.exe from a high-end computer. Note that the domain controller will also experience high load while the users are being created.
 
 
@@ -90,7 +90,7 @@ When you click on Delete Users button, it will validate all the input parameters
   - If all the input values are correct, it will start disabling and deleting users in Active Directory Domain Services. A progress bar will appear at the bottom of this form. We recommend that you do not close the application while the progress bar is active.
 
 
-> [!TIP]
+> [!Note]
 > <OL>
 > <LI>
 > <P>Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for Enterprise-VoIP. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason, every user must have a unique phone number. If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the <STRONG>Disable-CsUser</STRONG> cmdlet.</P>
@@ -120,7 +120,7 @@ To configure users’ contacts, follow these steps.
 6.  In Federated / Cross Pool User SIP Domain, specify the SIP Domain Name of the federated users.
     
 
-    > [!TIP]
+    > [!Note]
     > None of the users should be signed in when creating contacts.
 
 
@@ -130,7 +130,7 @@ To configure users’ contacts, follow these steps.
 8.  Click Create Contacts to begin the contact creation. This process can take several minutes. After it completes, a dialog box will appear with the message, "Operation Completed Successfully." You can validate the contacts that were created by logging on as a user that was created from the User Creation tab.
     
 
-    > [!TIP]
+    > [!Note]
     > After the contacts are created, this tool will restart all the Front End Servers in the target pool. It may take longer (up to 2 hours) for the Front End Servers to start, depending on how many contacts were created by this operation.
 
 
@@ -164,4 +164,3 @@ One of the features of the Lync Server 2013 Stress and Performance Tool is to ge
 ![Registerkarte für die Konfiguration des Standortinformationsdiensts](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Registerkarte für die Konfiguration des Standortinformationsdiensts")
 
 If you choose to test this feature, you can fill in the values mentioned in the form and then click the Generate LIS Config Files button. It will generate CSV files called LIS\_Subnet.csv, LIS\_Switches.csv, LIS\_Ports.csv, and LIS\_WAP.csv. You can then import these CSV files into LIS database by using the **Set-CsLisSubnet** cmdlet, the **Set-CsLisSwitch** cmdlet, the **Set-CsLisPort** cmdlet, and the **Set-CsWirelessAccessPoint** cmdlet, respectively.
-
