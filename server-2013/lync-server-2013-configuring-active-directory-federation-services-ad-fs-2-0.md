@@ -47,6 +47,8 @@ Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD
 8.  Erstellen Sie eine Ausstellungsautorisierungsregel für Ihre Vertrauensstellung der vertrauenden Seite, und weisen Sie diese Regel zu. Führen Sie dazu über Windows PowerShell die folgenden Befehle aus:
     
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+
+       &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
@@ -54,6 +56,8 @@ Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD
 9.  Erstellen Sie eine Ausstellungstransformationsregel für Ihre Vertrauensstellung der vertrauenden Seite, und weisen Sie diese Regel zu. Führen Sie dazu über Windows PowerShell die folgenden Befehle aus:
     
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+
+       &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
 

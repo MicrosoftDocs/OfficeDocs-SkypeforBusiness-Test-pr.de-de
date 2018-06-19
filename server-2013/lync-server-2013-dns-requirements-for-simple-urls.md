@@ -146,6 +146,8 @@ Erstellen Sie zum Konfigurieren dieser Notfallwiederherstellung zwei GeoDNS-Adre
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
 
+&nbsp;
+
     Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com

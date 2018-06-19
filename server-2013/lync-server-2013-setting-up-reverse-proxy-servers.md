@@ -82,7 +82,7 @@ Damit Sie IIS ARR erfolgreich als Reverseproxy bereitstellen können, sollten Si
   - Die Anleitungen zur Installation des Routings von Anwendungsanforderungen (ARR) finden Sie unter [Installieren des Routings von Anwendungsanforderungen Version 2](http://go.microsoft.com/fwlink/?linkid=291299).
     
 
-    > [!TIP]
-    > Die momentan veröffentlichten Anleitungen gelten für ARR 2.0. Hinsichtlich der Installation der Erweiterung gibt es keine Unterschiede zwischen den beiden Versionen.
+  > [!TIP]
+  > Die momentan veröffentlichten Anleitungen gelten für ARR 2.0. Hinsichtlich der Installation der Erweiterung gibt es keine Unterschiede zwischen den beiden Versionen.
 
 

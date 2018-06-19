@@ -81,6 +81,8 @@ Starten Sie zur Umgehung dieses Problems die Lync Server-Dienste nach dem Änder
 
     Stop-CsWindowsService -graceful
 
+   &nbsp;
+
     Start-CsWindowsService
 
 ## Das Cmdlet für die synthetische Transaktion der Einwahlkonferenz ist im Lync Server 2013 Management Pack (3212342) nicht mehr verfügbar
@@ -336,6 +338,8 @@ Wenn Sie dieses Problem umgehen möchten, aktualisieren Sie die Systemregistrier
 1.  Starten Sie Windows PowerShell, und führen Sie die folgenden Cmdlets aus:
     
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+
+       &nbsp;
     
         $a="HKU:\.Default\Control Panel\International"
 

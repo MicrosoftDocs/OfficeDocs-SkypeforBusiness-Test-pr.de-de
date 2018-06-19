@@ -78,6 +78,8 @@ Die letzten Schritte zum Migrieren des XMPP-Gateways bestehen aus dem Konfigurie
 17. Nachdem Sie das öffentliche Zertifikate empfangen, importiert und zugewiesen haben, müssen Sie die Edgeserverdienste beenden und neu starten. Dazu geben Sie in der Lync Server-Verwaltungskonsole Folgendes ein:
     
         Stop-CsWindowsService
+
+      &nbsp;
     
         Start-CsWindowsService
 
