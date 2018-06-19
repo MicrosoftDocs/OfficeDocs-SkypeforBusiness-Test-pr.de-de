@@ -23,32 +23,23 @@ Verwenden Sie die folgenden Cmdlets zum Konfigurieren von VoIP-Routen.
 
 **VoIP-Routing**
 
-  -   
-    [Get-CsRoutingConfiguration](get-csroutingconfiguration.md)
+  - [Get-CsRoutingConfiguration](get-csroutingconfiguration.md)
 
-  -   
-    [New-CsRoutingConfiguration](new-csroutingconfiguration.md)
+  - [New-CsRoutingConfiguration](new-csroutingconfiguration.md)
 
-  -   
-    [Remove-CsRoutingConfiguration](remove-csroutingconfiguration.md)
+  - [Remove-CsRoutingConfiguration](remove-csroutingconfiguration.md)
 
-  -   
-    [Set-CsRoutingConfiguration](set-csroutingconfiguration.md)
+  - [Set-CsRoutingConfiguration](set-csroutingconfiguration.md)
 
-  -   
-    [Get-CsVoiceRoute](get-csvoiceroute.md)
+  - [Get-CsVoiceRoute](get-csvoiceroute.md)
 
-  -   
-    [New-CsVoiceRoute](new-csvoiceroute.md)
+  - [New-CsVoiceRoute](new-csvoiceroute.md)
 
-  -   
-    [Remove-CsVoiceRoute](remove-csvoiceroute.md)
+  - [Remove-CsVoiceRoute](remove-csvoiceroute.md)
 
-  -   
-    [Set-CsVoiceRoute](set-csvoiceroute.md)
+  - [Set-CsVoiceRoute](set-csvoiceroute.md)
 
-  -   
-    [Test-CsVoiceRoute](test-csvoiceroute.md)
+  - [Test-CsVoiceRoute](test-csvoiceroute.md)
 
   - [Get-CsVoiceRoutingPolicy](get-csvoiceroutingpolicy.md)
 
@@ -60,11 +51,9 @@ Verwenden Sie die folgenden Cmdlets zum Konfigurieren von VoIP-Routen.
 
   - [Set-CsVoiceRoutingPolicy](set-csvoiceroutingpolicy.md)
 
-  -   
-    [Get-CsPstnUsage](get-cspstnusage.md)
+  - [Get-CsPstnUsage](get-cspstnusage.md)
 
-  -   
-    [Set-CsPstnUsage](set-cspstnusage.md)
+  - [Set-CsPstnUsage](set-cspstnusage.md)
 
 ## Siehe auch
 
