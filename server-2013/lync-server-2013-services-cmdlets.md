@@ -23,17 +23,13 @@ In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung 
 
 **Dienste**
 
-  -   
-    [Get-CsService](get-csservice.md)
+  - [Get-CsService](get-csservice.md)
 
-  -   
-    [Get-CsWindowsService](get-cswindowsservice.md)
+  - [Get-CsWindowsService](get-cswindowsservice.md)
 
-  -   
-    [Start-CsWindowsService](start-cswindowsservice.md)
+  - [Start-CsWindowsService](start-cswindowsservice.md)
 
-  -   
-    [Stop-CsWindowsService](stop-cswindowsservice.md)
+  - [Stop-CsWindowsService](stop-cswindowsservice.md)
 
 ## Siehe auch
 

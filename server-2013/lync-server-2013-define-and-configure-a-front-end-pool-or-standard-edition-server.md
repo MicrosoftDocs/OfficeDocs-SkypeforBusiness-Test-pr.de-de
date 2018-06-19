@@ -19,7 +19,6 @@ Für dieses Verfahren ist keine Mitgliedschaft in einer lokalen Administratorgru
 
 Wenn Sie einen Enterprise-Server bereitstellen, muss dauerhaft eine Mindestanzahl an Front-End-Servern in einem Pool ausgeführt werden. Eine Übersicht über diese Mindestanzahl finden Sie in der folgenden Tabelle.
 
-
 <table>
 <colgroup>
 <col style="width: 50%" />

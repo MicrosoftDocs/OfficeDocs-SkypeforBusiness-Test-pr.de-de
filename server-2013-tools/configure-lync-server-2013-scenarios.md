@@ -9,9 +9,7 @@ mtps_version: v=OCS.15
 ms.translationtype: HT
 ---
 
-# Configure Lync Server 2013 Scenarios
-
- 
+# Configure Lync Server 2013 Scenarios 
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-24_
 
@@ -21,17 +19,11 @@ To run the Lync Server 2013 Stress and Performance Tool (LyncPerfTool), the Lync
 
 We have provided example Lync Server-Verwaltungsshell scripts that may be used in preparation for running load simulation. Because the scripts are intended for load simulation, they are simple and permissive, and therefore may not be appropriate for production. All scripts are examples and must be reviewed, and, in some cases, modified to reflect your topology. At a minimum, we expect that the Response Group Service (RGS) scenario would need to be modified to specify the agents that are assigned to the agent groups. However, you have the option to not simulate this load.
 
-
 > [!WARNING]
 > Take care in reviewing and understanding the examples provided. Scripts will overwrite any existing settings in the topology.
 
-
-
-
-> [!TIP]
+> [!Note]
 > For details about using Windows PowerShell and the Lync Server-Verwaltungsshell, see the Lync Server 2013 Windows PowerShell Blog at <A href="http://go.microsoft.com/fwlink/?linkid=203150">http://go.microsoft.com/fwlink/?LinkId=203150</A>.
-
-
 
 ## Stress and Performance Tool Client Version Monikers
 
@@ -46,4 +38,3 @@ These are for the Mobility (UCWA) client in LyncPerfTool:
   - Ucwa Perf Tool/Web Conference
 
   - Ucwa Perf Tool/Mobile
-

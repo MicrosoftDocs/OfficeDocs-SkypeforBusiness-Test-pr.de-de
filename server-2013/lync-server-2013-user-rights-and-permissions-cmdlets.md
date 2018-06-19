@@ -23,41 +23,29 @@ In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung 
 
 **Benutzerberechtigungen**
 
-  -   
-    [Get-CsAdminRole](get-csadminrole.md)
+  - [Get-CsAdminRole](get-csadminrole.md)
 
-  -   
-    [New-CsAdminRole](new-csadminrole.md)
+  - [New-CsAdminRole](new-csadminrole.md)
 
-  -   
-    [Remove-CsAdminRole](remove-csadminrole.md)
+  - [Remove-CsAdminRole](remove-csadminrole.md)
 
-  -   
-    [Set-CsAdminRole](set-csadminrole.md)
+  - [Set-CsAdminRole](set-csadminrole.md)
 
-  -   
-    [Update-CsAdminRole](update-csadminrole.md)
+  - [Update-CsAdminRole](update-csadminrole.md)
 
-  -   
-    [Get-CsAdminRoleAssignment](get-csadminroleassignment.md)
+  - [Get-CsAdminRoleAssignment](get-csadminroleassignment.md)
 
-  -   
-    [Grant-CsOUPermission](grant-csoupermission.md)
+  - [Grant-CsOUPermission](grant-csoupermission.md)
 
-  -   
-    [Revoke-CsOUPermission](revoke-csoupermission.md)
+  - [Revoke-CsOUPermission](revoke-csoupermission.md)
 
-  -   
-    [Test-CsOUPermission](test-csoupermission.md)
+  - [Test-CsOUPermission](test-csoupermission.md)
 
-  -   
-    [Grant-CsSetupPermission](grant-cssetuppermission.md)
+  - [Grant-CsSetupPermission](grant-cssetuppermission.md)
 
-  -   
-    [Revoke-CsSetupPermission](revoke-cssetuppermission.md)
+  - [Revoke-CsSetupPermission](revoke-cssetuppermission.md)
 
-  -   
-    [Test-CsSetupPermission](test-cssetuppermission.md)
+  - [Test-CsSetupPermission](test-cssetuppermission.md)
 
 ## Siehe auch
 

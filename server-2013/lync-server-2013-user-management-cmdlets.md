@@ -21,11 +21,9 @@ Mit den in Microsoft Lync Server 2013 enthaltenen Cmdlets für die Benutzerverwa
 
 Die meisten Verwaltungsaufgaben in Bezug auf Benutzer und Benutzerkonten können über die Lync Server-Systemsteuerung ausgeführt werden. Eine Ausnahme bilden die Cmdlets zum Konfigurieren von Audiokonferenzanbietern. Aufgaben im Rahmen der Benutzerverwaltung können auch unter Verwendung von Lync Server-Verwaltungsshell-Cmdlets oder aus einem Skript ausgeführt werden. Durch die Verwendung eines Skripts können bestimmte Aufgaben automatisiert werden. In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Benutzern und Benutzerkonten eingesetzt werden:
 
-  -   
-    [Get-CsAdContact](get-csadcontact.md)
+  - [Get-CsAdContact](get-csadcontact.md)
 
-  -   
-    [Get-CsAdUser](get-csaduser.md)
+  - [Get-CsAdUser](get-csaduser.md)
 
   - [Get-CsClientAccessLicense](get-csclientaccesslicense.md)
 
@@ -35,35 +33,25 @@ Die meisten Verwaltungsaufgaben in Bezug auf Benutzer und Benutzerkonten können
 
   - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
 
-  -   
-    [Disable-CsUser](disable-csuser.md)
+  - [Disable-CsUser](disable-csuser.md)
 
-  -   
-    [Enable-CsUser](enable-csuser.md)
+  - [Enable-CsUser](enable-csuser.md)
 
-  -   
-    [Get-CsUser](get-csuser.md)
+  - [Get-CsUser](get-csuser.md)
 
-  -   
-    [Move-CsUser](move-csuser.md)
+  - [Move-CsUser](move-csuser.md)
 
-  -   
-    [Set-CsUser](set-csuser.md)
+  - [Set-CsUser](set-csuser.md)
 
-  -   
-    [Get-CsUserAcp](get-csuseracp.md)
+  - [Get-CsUserAcp](get-csuseracp.md)
 
-  -   
-    [Remove-CsUserAcp](remove-csuseracp.md)
+  - [Remove-CsUserAcp](remove-csuseracp.md)
 
-  -   
-    [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](set-csuseracp.md)
 
-  -   
-    [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)
+  - [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)
 
-  -   
-    [Get-CsUserPoolInfo](get-csuserpoolinfo.md)
+  - [Get-CsUserPoolInfo](get-csuserpoolinfo.md)
 
   - [Get-CsUserServicesPolicy](get-csuserservicespolicy.md)
 

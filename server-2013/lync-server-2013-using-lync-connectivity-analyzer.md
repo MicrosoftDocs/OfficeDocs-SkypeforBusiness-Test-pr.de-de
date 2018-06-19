@@ -47,11 +47,11 @@ Sie können die Lync-Verbindungsanalyse aus dem Microsoft Download Center unter 
     
       - Wählen Sie unter **Lync-KontotypOffice 365** oder **Lokal** aus.
     
-      - Geben Sie in **SIP-URI** die SIP-Anmeldeadresse für die Lync-Verbindung im Format **benutzer@domäne.com** ein.
+      - Geben Sie in **SIP-URI** die SIP-Anmeldeadresse für die Lync-Verbindung im Format <strong>benutzer@domäne.com</strong> ein.
     
       - Geben Sie in **Kennwort** das Kennwort für dieses Konto ein.
     
-      - Geben Sie in **Benutzername (optional)** ggf. einen Benutzernamen ein. Der Benutzername wird auch als "Benutzerprinzipalname" (User Principal Name, UPN) bezeichnet. Wenn der Benutzername dem SIP-URI entspricht, müssen Sie keinen Benutznamen eingeben. Unterscheidet er sich jedoch, geben Sie den Benutzernamen im Format **benutzer@domäne.com** oder **domäne\\benutzer** ein.
+      - Geben Sie in **Benutzername (optional)** ggf. einen Benutzernamen ein. Der Benutzername wird auch als "Benutzerprinzipalname" (User Principal Name, UPN) bezeichnet. Wenn der Benutzername dem SIP-URI entspricht, müssen Sie keinen Benutznamen eingeben. Unterscheidet er sich jedoch, geben Sie den Benutzernamen im Format <strong>benutzer@domäne.com</strong> oder **domäne\\benutzer** ein.
     
       - Wählen Sie unter **Netzwerkzugriff** die Option **Innerhalb meiner Organisation**, wenn Sie die Lync-Verbindungsanalyse auf einem mit Ihrem internen Netzwerk verbundenen Computer ausführen. Wählen Sie andernfalls **Extern (Internet)**. Die Lync-Verbindungsanalyse führt immer interne und externe Tests durch, aber mit der Angabe, ob Sie sich innerhalb oder außerhalb Ihres Netzwerks befinden, kann das Tool ermitteln, ob bestimmte Fehler zu erwarten sind.
     

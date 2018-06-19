@@ -55,14 +55,11 @@ Der Befehl in Beispiel 4 deaktiviert alle öffentlichen Anbieter für Ihre sämt
 
 Mit Lync Online können Administratoren einen Partnerverbund mit einem oder mehreren der folgenden öffentlichen Chat- und Anwesenheitsanbieter konfigurieren:
 
-  -   
-    Windows Live
+  - Windows Live
 
-  -   
-    AOL
+  - AOL
 
-  -   
-    Yahoo\!
+  - Yahoo\!
 
 Mit dem Cmdlet **Set-CsTenantPublicProvider** kann der Partnerverbund mit jedem dieser öffentlichen Anbieter aktiviert oder deaktiviert werden. Denken Sie bei der Verwendung dieses Cmdlets daran, dass Sie bei jeder Ausführung des Cmdlets **Set-CsTenantPublicProvider** alle Anbieter angeben müssen, die aktiviert werden sollten. Nehmen wir beispielsweise an, dass alle drei Anbieter deaktiviert sind und Sie den folgenden Befehl ausführen:
 

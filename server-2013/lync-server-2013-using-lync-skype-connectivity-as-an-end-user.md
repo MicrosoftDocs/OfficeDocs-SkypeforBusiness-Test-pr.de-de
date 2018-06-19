@@ -56,13 +56,13 @@ Mit der Lync-Skype-Konnektivität können Skype-Benutzer und Lync-Benutzer sich 
 
 Weitere Informationen zu der Unterstützung für Kontakte finden Sie unter [Hinzufügen eines Kontakts in Lync](http://office.microsoft.com/de-de/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx) und [Hinzufügen eines externen Kontakts in Lync](http://office.microsoft.com/de-de/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)
 
-Wenn das Microsoft-Konto eines Skype-Benutzers einen benutzerdefinierten Domänennamen enthält, beispielsweise **bob@contoso.com**, kann ein Lync-Benutzer dieses Microsoft-Konto auf zwei Arten in Lync hinzufügen:
+Wenn das Microsoft-Konto eines Skype-Benutzers einen benutzerdefinierten Domänennamen enthält, beispielsweise <strong>bob@contoso.com</strong>, kann ein Lync-Benutzer dieses Microsoft-Konto auf zwei Arten in Lync hinzufügen:
 
 1.  über das Symbol **Kontakt hinzufügen** oder
 
 2.  über das Feld **Suchen Sie nach Personen oder Chatrooms, oder wählen Sie eine Rufnummer**
 
-In beiden Fällen muss der Lync-Benutzer die E-Mail-Adresse des Skype-Benutzers im folgenden Format eingeben: **Benutzer(Domänenname)@msn.com**.
+In beiden Fällen muss der Lync-Benutzer die E-Mail-Adresse des Skype-Benutzers im folgenden Format eingeben: <strong>Benutzer(Domänenname)@msn.com</strong>.
 
 
 > [!IMPORTANT]
@@ -78,7 +78,7 @@ In beiden Fällen muss der Lync-Benutzer die E-Mail-Adresse des Skype-Benutzers 
     
     ![Lync-Client, der zeigt, wie ein Skype-Kontakt hinzugefügt wird](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Lync-Client, der zeigt, wie ein Skype-Kontakt hinzugefügt wird")
 
-3.  Geben Sie in das Feld **Chatadresse** das Microsoft-Konto des Skype-Benutzers im Format **Benutzer(Domänenname)@msn.com** ein. Für den Benutzer **bob@contoso.com** würde der Eintrag also **bob(contoso.com)@msn.com** lauten (siehe folgende Abbildung).
+3.  Geben Sie in das Feld **Chatadresse** das Microsoft-Konto des Skype-Benutzers im Format <strong>Benutzer(Domänenname)@msn.com</strong> ein. Für den Benutzer <strong>bob@contoso.com</strong> würde der Eintrag also <strong>bob(contoso.com)@msn.com</strong> lauten (siehe folgende Abbildung).
     
     ![Lync-Client – neue Kontakte (Einstellungen)](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Lync-Client – neue Kontakte (Einstellungen)")
 
@@ -86,7 +86,7 @@ In beiden Fällen muss der Lync-Benutzer die E-Mail-Adresse des Skype-Benutzers 
 
 5.  Wählen Sie im Dropdown-Listenfeld **Private Beziehung festlegen** die geeignete Kontakteinstellung aus, und klicken Sie dann auf **OK**.
 
-6.  Ein Lync-Benutzer kann auch das Feld **Suchen Sie nach Personen oder Chatrooms, oder wählen Sie eine Rufnummer** in Lync verwenden und eine Adresse hinzufügen, die das Format **Benutzer(Domänenname)@msn.com** hat. Für das Microsoft-Konto **bob@contoso.com** würde der Eintrag also **bob(contoso.com)@msn.com** lauten.
+6.  Ein Lync-Benutzer kann auch das Feld **Suchen Sie nach Personen oder Chatrooms, oder wählen Sie eine Rufnummer** in Lync verwenden und eine Adresse hinzufügen, die das Format <strong>Benutzer(Domänenname)@msn.com</strong> hat. Für das Microsoft-Konto <strong>bob@contoso.com</strong> würde der Eintrag also <strong>bob(contoso.com)@msn.com</strong> lauten.
     
     ![Suche nach einem Kontakt in Lync-Client](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Suche nach einem Kontakt in Lync-Client")
 
@@ -100,7 +100,7 @@ In beiden Fällen muss der Lync-Benutzer die E-Mail-Adresse des Skype-Benutzers 
 
 2.  Wählen Sie das Symbol für das Hinzufügen eines Kontakts aus.
 
-3.  Geben Sie den SIP-URI des Lync-Benutzers ein. Beispiel: **bob@contoso.com**.
+3.  Geben Sie den SIP-URI des Lync-Benutzers ein. Beispiel: <strong>bob@contoso.com</strong>.
 
 4.  Wenn Skype den passenden Kontakt in den Suchergebnissen findet, suchen Sie nach dem Wort **Lync** unter dem Namen des Lync-Benutzers. Hierdurch ist gekennzeichnet, dass der SIP-URI des Lync-Clients erfolgreich von Skype gefunden wurde. Klicken Sie auf den Namen.
     

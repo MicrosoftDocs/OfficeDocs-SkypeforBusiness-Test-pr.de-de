@@ -117,35 +117,27 @@ Die letzten Schritte zum Migrieren des XMPP-Gateways bestehen aus dem Konfigurie
     
       - **TLS-Aushandlung**    Definiert die Regeln für die TLS-Aushandlung. Für einen XMPP-Dienst kann TLS als erforderlich, optional oder nicht unterstützt festgelegt werden. Durch die Auswahl von Optional liegt die Entscheidung für die obligatorische Aushandlung beim XMPP-Dienst. Informationen zu allen Einstellungen und Details zu SASL, TLS und zur Rückrufaushandlung - einschließlich ungültiger und fehlerhafter Konfigurationen - finden Sie unter [Aushandlungseinstellungen für XMPP-Verbundpartner in Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
-          -   
-            **Erforderlich**    Der XMPP-Dienst erfordert die TLS-Aushandlung.
+          - **Erforderlich**    Der XMPP-Dienst erfordert die TLS-Aushandlung.
         
-          -   
-            **Optional**    Für den XMPP-Dienst muss TLS ausgehandelt werden.
+          - **Optional**    Für den XMPP-Dienst muss TLS ausgehandelt werden.
         
-          -   
-            **Nicht unterstützt**    Der XMPP-Dienst unterstützt TLS nicht.
+          - **Nicht unterstützt**    Der XMPP-Dienst unterstützt TLS nicht.
     
       - **SASL-Aushandlung**    Definiert die Regeln für die SASL-Aushandlung. Für einen XMPP-Dienst kann SASL als erforderlich, optional oder nicht unterstützt festgelegt werden. Durch die Auswahl von Optional liegt die Entscheidung für die obligatorische Aushandlung beim XMPP-Dienst des Partners.
         
-          -   
-            **Erforderlich**    Der XMPP-Dienst erfordert die SASL-Aushandlung.
+          - **Erforderlich**    Der XMPP-Dienst erfordert die SASL-Aushandlung.
         
-          -   
-            **Optional**    Für den XMPP-Dienst muss SASL ausgehandelt werden.
+          - **Optional**    Für den XMPP-Dienst muss SASL ausgehandelt werden.
         
-          -   
-            **Nicht unterstützt**    Der XMPP-Dienst unterstützt SASL nicht.
+          - **Nicht unterstützt**    Der XMPP-Dienst unterstützt SASL nicht.
     
       - **Konferenzaushandlung für ausgehende Verbindungen unterstützen** Für den Prozess Konferenzaushandlung für ausgehende Verbindungen unterstützen verwenden Sie DNS (Domain Name System) und einen autoritativen Server, um zu überprüfen, ob eine Anforderung von einem gültigen XMPP-Partner stammt. Dazu erstellt der Ausgangsserver eine Nachricht eines bestimmten Typs mit einem generierten Rückrufschlüssel und sucht in DNS nach dem empfangenden Server. Der Ausgangsserver sendet den Schlüssel in einem XML-Stream an die resultierende DNS-Suche, vermutlich den empfangenden Server. Nachdem der Schlüssel über den XML-Stream empfangen wurde, antwortet der empfangende Server dem Ausgangsserver nicht, sondern sendet den Schlüssel an einen bekannten autoritativen Server. Der autoritative Server überprüft, ob der Schlüssel gültig bzw. nicht gültig ist. Wenn er nicht gültig ist, antwortet der empfangende Server dem Ausgangsserver nicht. Wenn der Schüssel gültig ist, informiert der empfangende Server den Ausgangsserver, dass die Identität und der Schlüssel gültig sind, sodass die Unterhaltung beginnen kann.
         
         Für **Rückrufaushandlung** gibt es die folgenden beiden gültigen Status:
         
-          -   
-            **Wahr**    Für den XMPP-Server ist konfiguriert, dass die Rückrufaushandlung verwendet wird, falls eine Anforderung von einem Ausgangsserver empfangen wird.
+          - **Wahr**    Für den XMPP-Server ist konfiguriert, dass die Rückrufaushandlung verwendet wird, falls eine Anforderung von einem Ausgangsserver empfangen wird.
         
-          -   
-            **Falsch**    Für den XMPP-Server ist nicht konfiguriert, dass die Rückrufaushandlung verwendet wird, und falls eine Anforderung von einem Ausgangsserver empfangen wird, wird sie ignoriert.
+          - **Falsch**    Für den XMPP-Server ist nicht konfiguriert, dass die Rückrufaushandlung verwendet wird, und falls eine Anforderung von einem Ausgangsserver empfangen wird, wird sie ignoriert.
 
 10. Klicken Sie auf **Commit ausführen** , um Ihre Änderungen am Standort oder an der Benutzerrichtlinie zu speichern.
 
