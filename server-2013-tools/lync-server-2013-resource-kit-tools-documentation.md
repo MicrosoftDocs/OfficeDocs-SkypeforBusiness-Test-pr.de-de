@@ -94,9 +94,9 @@ Im ABS-Konfigurationstool von Lync Server 2013 können Attribute (Zeilen) entfer
 ## Ausgabe
 
 ABSConfig speichert die Konfiguration des Adressbuchdiensts in der Datenbank.
-
+```C++
     Path: %ProgramFiles%\Microsoft Lync Server 2013\Reskit
-
+```
 ## Verwendungszweck
 
 ABSConfig bietet eine schnelle und bequeme Möglichkeit zum Anpassen des Adressbuchdiensts von Lync Server 2013.
@@ -427,7 +427,7 @@ Der Verwendungszweck des Anrufparkserver-Tool besteht darin, Befehlzeilenzugriff
 ## Anforderungen
 
 Es liegen keine Anforderungen vor, wenn dieses Tool auf demselben Computer wie der Anrufparkserver ausgeführt wird. Wenn dieses Tool auf einem Remotecomputer ausgeführt wird, muss die von Lync Server 2013 verwendete SQL Server-Datenbank so konfiguriert sein, dass Remotezugriff zulässig ist. Die "Anrufparkuhr" muss mit einer SQL Server-Datenbankverbindungszeichenfolge so konfiguriert sein, dass sie eine Verbindung mit SQL Server des Pools herstellt. Diese SQL Server-Datenbankverbindungszeichenfolge wird in der Konfigurationsdatei **parkometer.exe.config** definiert. Diese muss sich im selben Verzeichnis wie die Datei "parkometer.exe" befinden. Die folgende XML-Datei ist ein Beispiel für eine "parkometer.exe.config"-Datei. Die Parameter, die konfiguriert werden müssen, sind Benutzername (beispielsweise meineDomäne\\Administrator), Kennwort (beispielsweise MeinKennwort) und Hostname (beispielsweise MeinServer).
-
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -438,7 +438,7 @@ Es liegen keine Anforderungen vor, wenn dieses Tool auf demselben Computer wie d
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
-
+```
 ## Beispiele
 
 Bereitgestellt Orbitbereiche: Der Parameter "–o" listet wie gezeigt alle Orbitbereiche auf, die für diesen Pool konfiguriert sind.
@@ -480,7 +480,7 @@ Installation von Resource Kit-Tools in Lync Server 2013. Das Tool wird auf Comp
 ## Beispiele
 
 C:\\Programme\\Microsoft Lync Server 2013\\ResKit\\StorageService\> ImportStorageServiceData.exe
-
+```C++
     Description:
     This tool will remove orphaned data from the Storage Service database
     for a pool. You are required to run this tool on a machine inside the
@@ -536,7 +536,7 @@ C:\\Programme\\Microsoft Lync Server 2013\\ResKit\\StorageService\> ImportStorag
     Writing log: M:\Dev\Server\ResKit\StorageService\CleanupStorageServiceData.Log_20121009_151040
     Tool has finished execution.  Errors encountered: 0
     C:\Program Files\Microsoft Lync Server 2013\ResKit\StorageService>
-
+```
 ## DBAnalyze
 
 ## Beschreibung
@@ -596,14 +596,14 @@ Um "Dbanalyze.exe" zu installieren, kopieren Sie die Datei in einen lokalen Ordn
 ## Beispiele
 
 Im Folgenden finden Sie Beispiele für gültige "Dbanalyze.exe"-Befehle:
-
+```C++
     dbanalyze.exe /report:diag
     dbanalyze.exe /report:user /user:usera@domainb.com
     dbanalyze.exe /report:conf /user:bob@example.com /conf:1W9J71SKSX2X
     dbanalyze.exe /report:resolve /pstnid:12345
     dbanalyze.exe /report:mcus
     dbanalyze.exe /report:disk
-
+```
 ## Zusammenfassung
 
 DBAnalyzer bietet Administratoren eine einfache und schnelle Möglichkeit zum Analysieren von Lync Server 2013-Datenbanken.
@@ -637,7 +637,7 @@ Installation von Resource Kit-Tools in Lync Server 2013. Das Tool wird auf Comp
 
 
 ## Beispiele
-
+```C++
     >  C:\StorageService>ImportStorageServiceData.exe
     Description:
     This tool will re-import Storage Service (LYSS) flushed queue data back in.  For a pool: you are required to run this tool on a machine inside the pool which has the Lync Server Management Shell installed.  Additionally, all front end machines need to have Windows Powershell Remoting enabled before executing this tool by executing Enable-PSRemoting.  Also, please ensure that all Storage Service instance DB Size are at the 'Normal' level (verify this by viewing Eventlog events). Otherwise re-importing may cause data to be flushed out again if any Storage Service instance DB size level goes above 'Normal'.
@@ -794,7 +794,7 @@ Installation von Resource Kit-Tools in Lync Server 2013. Das Tool wird auf Comp
     Log20120910_1609SS
     Tool has finished execution.
     >  C:\StorageService>
-
+```
 ## LCSSync
 
 Das LCSSync-Tool hilft dabei, Lync Server 2013-Kommunikationssoftware in einer Umgebung mit mehreren Gesamtstrukturen bereitzustellen. Dieses Tool wird verwendet, um Benutzer und Gruppen aus verschiedenen Benutzergesamtstrukturen als Active Directory-Domänendienste-Kontaktobjekt in eine zentrale Gesamtstruktur zu synchronisieren, in der Lync Server 2013 installiert ist.
@@ -822,7 +822,7 @@ Installation von Resource Kit-Tools in Lync Server 2013. Das Tool wird auf Comp
 ## Beispiele
 
 C:\\Programme\\Microsoft Lync Server 2013\\ResKit\>LookupUserConsole.exe
-
+```C++
     > sip:john.doe@vdomain.com
     
       Execution time (ms):                            171.094
@@ -858,7 +858,7 @@ C:\\Programme\\Microsoft Lync Server 2013\\ResKit\>LookupUserConsole.exe
       Exeuction result:                               UserDoesNotExist
     
     > exit
-
+```
 ## MsTurnPing
 
 Das Tool "MSTurnPing" ermöglicht einem Administrator von Microsoft Lync Server 2013-Kommunikationssoftware das Überprüfen des Status der Server, auf denen die Audio-/Video-Edge- und Audio-Video-Authentifizierungsdienste ausgeführt werden, sowie der Server, auf denen Bandbreitenrichtliniendienste in der Topologie ausgeführt werden.
@@ -908,11 +908,11 @@ Das Tool gibt die Ergebnisse von jedem Vorgang aus.
 ## Beispiele
 
 Im Folgenden finden Sie ein Beispiel für die Toolausgabe.
-
+```C++
     MsTurnPing -ServerRole AudioVideoEdgeServer
     
     MsTurnPing -ServerRole BandwidthPolicyServer
-
+```
 ## Zusammenfassung
 
 Dieses Tool kann eine wertvolle Ressource für Lync Server 2013-Administratoren sein, die den Status der Server überprüfen möchten, auf denen Audio-/Video- und Bandbreitenrichtliniendienste ausgeführt werden.
@@ -1124,9 +1124,9 @@ Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem v
 **Erstellen einer neuen vertrauenswürdigen Anwendung für das SEFAUtil-Tool**
 
 1.  Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem vertrauenswürdigen Anwendungspool gehört. Falls erforderlich, kann ein Pool als neuer vertrauenswürdiger Anwendungspool hinzugefügt werden, indem die Lync Server-Verwaltungsshell mit folgendem Cmdlet verwendet wird:
-    
+    ```C++
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-    
+    ```
 
     > [!TIP]
     > Auf dem Computer, auf dem das SEFAUtil-Tool ausgeführt werden soll, muss UCMA 3.0 installiert sein.
@@ -1134,9 +1134,9 @@ Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem v
 
 
 2.  In der Topologie muss eine vertrauenswürdige Anwendung für das SEFAUtil-Tool definiert sein. Um SEFAUtil als neue vertrauenswürdige Anwendung zu definieren, verwenden Sie die Lync Server-Verwaltungsshell, und führen sie das folgende Cmdlet aus:
-    
+    ```C++
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-    
+    ```
 
     > [!TIP]
     > Gegebenenfalls kann ein anderer Port verwendet werden.
@@ -1144,17 +1144,17 @@ Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem v
 
 
 3.  Die Topologieänderungen müssen aktiviert werden. Sie können die Topologieänderungen mithilfe der Lync Server-Verwaltungsshell aktivieren, indem Sie folgendes Cmdlet ausführen:
-    
+    ```C++
         Enable-CsToplogy
-
+    ```
 4.  Installieren Sie nötigenfalls die Tools des Lync Server 2013 Resource Kit auf dem Server, auf dem das SEFAUtil-Tool ausgeführt werden soll (der Server muss zu einem vertrauenswürdigen Anwendungspool gehören).
 
 5.  Überprüfen Sie, ob SEFAUtil ordnungsgemäß ausgeführt wird. Führen Sie hierzu das Tool an einer Windows-Eingabeaufforderung mit Administratorrechten aus, um die Anrufweiterleitungseinstellungen eines Benutzers in der Bereitstellung anzuzeigen. Standardmäßig befindet sich das Tool in: "…\\Programme\\Microsoft Lync Server 2013\\Reskit". Verwenden Sie zum Anzeigen der Anrufweiterleitungseinstellungen eines Benutzers den folgenden Befehl:
-    
+    ```C++
         SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
     
     Die Anrufweiterleitungseinstellungen des Benutzers sollten angezeigt werden.
-
+    ```
 ## Gruppenanrufannahme
 
 Die Gruppenanrufannahme erfordert eine zusätzliche Konfiguration in Lync Server, damit die Funktion vollständig aktiviert wird. Bevor Sie Benutzern Annahmegruppen zuweisen, lesen Sie in der Produktdokumentation der Gruppenanrufannahme die Schritte zur Planung und Bereitstellung dieser Funktion nach.
@@ -1172,29 +1172,29 @@ Der folgende Befehl zeigt die Anrufbehandlung für den entsprechenden Benutzer a
 
 
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:20
     Call Forward No Answer to: voicemail
-
+```
 ## Festlegen des Ziels für Anrufweiterleitung/Keine Antwort
 
 Dieses Beispiel legt das Ziel für Anrufweiterleitung/Keine Antwort sowie die Anrufverzögerung fest. In diesem Fall wird der Parameter "/server" nicht angegeben. SEFAUtil versucht eine AutoErmittlung von Lync Server.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: sip:+14255550126@contoso.com;user=phone
-
+```
 ## Aktivieren der sofortigen Anrufweiterleitung
 
 Dieses Beispiel aktiviert sofort die Anrufweiterleitung an einen anderen Benutzer.
@@ -1212,45 +1212,45 @@ Dieses Beispiel aktiviert sofort die Anrufweiterleitung an einen anderen Benutze
 ## Deaktivieren der sofortigen Anrufweiterleitung
 
 Dieses Beispiel deaktiviert sofort die Anrufweiterleitung.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com  /disablefwdimmediate
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## Hinzufügen eines Benutzers als Stellvertretung und Einrichten des parallelen Anrufens bei Stellvertretung
 
 Dieses Beispiel fügt einen Benutzer als Stellvertretung hinzu und richtet das parallele Anrufen bei Stellvertretung ein.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simultaneously Ringing Delegates: sip:joe@contoso.com
-
+```
 ## Ändern der Regel für paralleles Anrufen bei Stellvertretung
 
 Dieses Beispiel ändert die Regel für paralleles Anrufen bei Stellvertretung, die im vorherigen Beispiel festgelegt wurde, in die Anrufverzögerungsregel.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     Delay Ringing Delegates (delay:10 seconds): sip:joe@contoso.com
-
+```
 ## Entfernen der Stellvertretung
 
 Dieses Beispiel entfernt die Stellvertretung.
@@ -1260,24 +1260,24 @@ Dieses Beispiel entfernt die Stellvertretung.
 > Wenn die letzte Stellvertretung entfernt wurde, wird das Anrufen von Stellvertretungen automatisch deaktiviert.
 
 
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## Hinzufügen einer Stellvertretung und Einrichten der Regel "Anrufweiterleitung an Stellvertretung"
 
 Dieses Beispiel fügt eine Stellvertretung hinzu und richtet die Regel "Anrufweiterleitung an Stellvertretung" ein.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
-
+```
 **Ausgabe**
 
     User Aor: sip:katarina@contoso.com
@@ -1288,9 +1288,9 @@ Dieses Beispiel fügt eine Stellvertretung hinzu und richtet die Regel "Anrufwei
 ## Aktivieren des parallelen Anrufens und Festlegen einer Zielnummer
 
 Diese Beispiel aktiviert paralleles Anrufen und legt eine Zielnummer für paralleles Anrufen fest.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
-
+```
 
 > [!TIP]
 > Um die Zielnummer für paralleles Anrufen eines Benutzers zu ändern, für den paralleles Anrufen bereits aktiviert ist, behalten Sie den Befehl mit dem Parameter "/enablesimulring" bei, da die Zielnummer sonst nicht geändert wird.
@@ -1298,34 +1298,34 @@ Diese Beispiel aktiviert paralleles Anrufen und legt eine Zielnummer für parall
 
 
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: True
     Simul_Ringing to: sip:+14255550126@contoso.com;user=phone
-
+```
 ## Deaktivieren des parallelen Anrufens
 
 Dieses Beispiel deaktiviert paralleles Anrufen.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablesimulring
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## Hinzufügen eines Teammitglieds für Teamanruf und Einrichten des parallelen Anrufens für die Teamanrufgruppen-Mitglieder
 
 Dieses Beispiel fügt der Teamanrufgruppe eines Benutzers ein Teammitglied hinzu und aktiviert paralleles Anrufen für die Teamanrufgruppe.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
-
+```
 
 > [!TIP]
 > Durch das Hinzufügen eines Teammitglieds zur Teamanrufgruppe eines Benutzers werden die Einstellungen der Benutzer für paralleles Anrufen automatisch auf paralleles Anrufen für die Teamanrufgruppe umgestellt.
@@ -1333,18 +1333,18 @@ Dieses Beispiel fügt der Teamanrufgruppe eines Benutzers ein Teammitglied hinzu
 
 
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Team ringing enabled. Team: sip:anders@contoso.com
-
+```
 ## Entfernen eines Mitglieds aus der Teamanrufgruppe
 
 Diese Beispiel entfernt ein Teammitglied aus der Teamanrufgruppe eines Benutzers.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
-
+```
 
 > [!TIP]
 > Wenn das Mitglied, das entfernt wird, das einzige Mitglied der Teamanrufgruppe ist, wird gleichzeitig automatisch das gleichzeitige Anrufen für die Teamanrufgruppe deaktiviert.
@@ -1352,32 +1352,32 @@ Diese Beispiel entfernt ein Teammitglied aus der Teamanrufgruppe eines Benutzers
 
 
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## Festlegen der Anrufverzögerung für die Teamanrufgruppe
 
 Dieses Beispiel ändert die Zeiteinstellung der Anrufverzögerung für die Teamanrufgruppe.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /delayringteam:5
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
-
+```
 ## Aktivieren von Teamanruf
 
 Dieses Beispiel aktiviert den Teamanruf für einen angegebenen Benutzer.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
-
+```
 
 > [!TIP]
 > Wenn die Teamanrufgruppe des Benutzers keine Mitglieder hat, wird Teamanruf nicht aktiviert.
@@ -1389,46 +1389,46 @@ Dieses Beispiel aktiviert den Teamanruf für einen angegebenen Benutzer.
 ## Deaktivieren von Teamanruf
 
 Dieses Beispiel deaktiviert den Teamanruf für einen angegebenen Benutzer.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disableteamcall
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## Aktivieren der Gruppenanrufannahme und Zuweisen einer Annahmegruppe zu einem Benutzer
 
 Dieses Beispiel weist einem Benutzer eine Annahmegruppe zu und aktiviert die Gruppenanrufannahme.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
-
+```
 **Ausgabe**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
-
+```
 ## Deaktivieren der Gruppenanrufannahme
 
 Dieses Beispiel deaktiviert die Gruppenanrufannahme für einen angegebenen Benutzer.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
-
+```
 
 > [!TIP]
 > Wenn Sie die Gruppenanrufannahme für einen Benutzer deaktivieren, bleibt die Gruppennummer, die dem Benutzer zugewiesen war, nicht erhalten. Wenn Sie die Gruppenanrufannahme für diesen Benutzer anschließend erneut aktivieren möchten, müssen Sie die Gruppennummer erneut mithilfe des Parameters "/enablegrouppickup" zuweisen.
 
 
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
-
+```
 ## SYSPrep.ps1
 
 ## Beschreibung
@@ -1507,9 +1507,9 @@ Der Parameter **–SetupFolder** nimmt als Argument den Verzeichnisspeicherort d
 ## Beispiele
 
 Um das Skript "SYSPrep.ps1" auszuführen und die erforderlichen Komponenten für Lync Server 2013 zu installieren, führen Sie den folgenden Befehl an einer Eingabeaufforderung mit erhöhten Rechten aus:
-
+```C++
     ./SysPrep.PS1 -SetupFolder D:\Setup
-
+```
 ## Migration von Ankündigungen für nicht zugewiesene Nummern
 
 Das Tool für die Migration von Ankündigungen für nicht zugewiesene Nummern ermöglicht einem Lync-Administrator das Verschieben der Konfiguration für nicht zugewiesene Nummern, die von der Ankündigungsanwendung bedient wird, von einem Quell-Lync Server oder -Pool zu einem Ziel-Lync Server oder -Pool.
@@ -1569,15 +1569,15 @@ Das Skript "Move-CsAnnouncementConfiguration" erfordert die in der Tabelle unten
 ## Verschieben der Konfiguration für Ankündigungen für nicht zugewiesene Nummern von einem Lync Server 2010-Pool zu einem Lync Server 2013-Pool
 
 Dieses Beispiel verschiebt die Ankündigungen für nicht zugewiesene Nummern vom Quellpool (Lync Server 2010) zum Zielpool (Lync Server 2013).
-
+```C++
     Move-CsAnnouncementConfiguration.ps1 -Source LS2010Pool.contoso.com -Destination LS2013Pool.contoso.com
-
+```
 ## Verschieben der Konfiguration für Ankündigungen für nicht zugewiesene Nummern von einem Lync Server 2013-Pool zu einem Lync Server 2010-Pool
 
 Dieses Beispiel verschiebt die Ankündigungen für nicht zugewiesene Nummern vom Quellpool (Lync Server 2013) zum Zielpool (Lync Server 2010).
-
+```C++
     Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination LS2010Pool.contoso.com
-
+```
 ## Webkonferenzdaten
 
 Das Webkonferenzdaten-Tool ermöglicht einem Administrator von Lync Server 2013-Kommunikationssoftware eine stärkere Kontrolle über die Daten, die den Webkonferenzen eines Organisators zugeordnet sind. Die Szenarios umfassen unter anderem die Möglichkeit zum Löschen der Besprechungsdaten eines bestimmten Benutzers auf Grundlage eines Zeitstempelkriteriums.
@@ -1623,13 +1623,13 @@ Das Tool muss mit Administratorrechten und mit Zugriff auf den Inhaltsdateispeic
 In der folgenden Tabelle sind die Parameter beschrieben, von denen manche in den Beispielen verwendet werden.
 
 ![Parameter für das Webkonferenzdaten-Tool](images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "Parameter für das Webkonferenzdaten-Tool")
-
+```C++
     WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
-
+```
 Die vorherigen Beispiele zeigen, wie ein Abfragebefehl funktionieren würde. Die Ausgabe eines solchen Befehls wäre eine Liste aller Besprechungsinhaltsordner, die von diesem Tool betroffen wären.
-
+```C++
     WebConfDataTool.exe /User:user0@contoso.com /Action:delete
-
+```
 Voranstehend sehen Sie ein Beispiel für einen Löschbefehl. Der Löschbefehl entfernt alle inaktiven Besprechungsordner dieses Benutzers.
 
 ## Zusammenfassung
