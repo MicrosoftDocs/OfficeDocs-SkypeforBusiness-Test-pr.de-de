@@ -34,12 +34,16 @@ Wenn Sie die Kerberos-Authentifizierung von einem Standort entfernen oder einen 
 3.  Führen Sie an der Befehlszeile die folgenden zwei Befehle aus:
     
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+
+       &nbsp;
     
         Enable-CsTopology
     
     Beispiel:
     
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+
+       &nbsp;
     
         Enable-CsTopology
     

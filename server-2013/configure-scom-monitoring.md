@@ -38,6 +38,8 @@ Anweisungen für diese Aufgaben finden Sie unten.
 2.  Geben Sie an der Befehlszeile Folgendes ein:
     
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+
+       &nbsp;
     
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
     

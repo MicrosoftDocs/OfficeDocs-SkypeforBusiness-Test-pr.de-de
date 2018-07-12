@@ -17,20 +17,15 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
 Mit dem Cmdlet [Move-CsLegacyUser](move-cslegacyuser.md) können Sie Benutzerkonten von Office Communications Server 2007 oder Microsoft Lync Server 2010 nach Microsoft Lync Server 2013 verschieben. Wenn Sie ein Benutzerkonto in eine frühere Version verschieben möchten (z. B. von Microsoft Lync Server 2013 nach Microsoft Lync Server 2010) verwenden Sie das Cmdlet [Move-CsUser](move-csuser.md).
 
-  -   
-    [Import-CsLegacyConferenceDirectory](import-cslegacyconferencedirectory.md)
+  - [Import-CsLegacyConferenceDirectory](import-cslegacyconferencedirectory.md)
 
-  -   
-    [Import-CsLegacyConfiguration](import-cslegacyconfiguration.md)
+  - [Import-CsLegacyConfiguration](import-cslegacyconfiguration.md)
 
-  -   
-    [Merge-CsLegacyTopology](merge-cslegacytopology.md)
+  - [Merge-CsLegacyTopology](merge-cslegacytopology.md)
 
-  -   
-    [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
+  - [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
 
-  -   
-    [Move-CsLegacyUser](move-cslegacyuser.md)
+  - [Move-CsLegacyUser](move-cslegacyuser.md)
 
   - [Convert-CsUserData](convert-csuserdata.md)
 

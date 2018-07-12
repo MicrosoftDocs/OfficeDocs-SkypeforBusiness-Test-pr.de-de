@@ -112,7 +112,7 @@ Dieser Befehl besteht aus drei Teilen:
     /b
     ```
 
-  - Der Parameterwert **kenmyer@litwareinc.com**.
+  - Der Parameterwert <strong>kenmyer@litwareinc.com</strong>.
 
 Dieser Befehl gibt übrigens Informationen zu einem bestimmten Benutzer zurück, dem Benutzer mit der Identität kenmyer@litwareinc.com.
 

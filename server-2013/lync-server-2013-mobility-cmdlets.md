@@ -21,68 +21,47 @@ Zum Verwalten des Mobilitätsfeature, das mit dem kumulativen Update für Lync S
 
 Mit den Cmdlets zur Konfiguration der Mobilitätsfeatures können Sie Befehle von der Lync Server-Verwaltungsshell ausführen oder Scripts schreiben, um verschiedene Mobilitätseinstellungen zu konfigurieren und zu testen.
 
-  -   
-    [Get-CsAutodiscoverConfiguration](get-csautodiscoverconfiguration.md)
+  - [Get-CsAutodiscoverConfiguration](get-csautodiscoverconfiguration.md)
 
-  -   
-    [New-CsAutodiscoverConfiguration](new-csautodiscoverconfiguration.md)
+  - [New-CsAutodiscoverConfiguration](new-csautodiscoverconfiguration.md)
 
-  -   
-    [Remove-CsAutodiscoverConfiguration](remove-csautodiscoverconfiguration.md)
+  - [Remove-CsAutodiscoverConfiguration](remove-csautodiscoverconfiguration.md)
 
-  -   
-    [Set-CsAutodiscoverConfiguration](set-csautodiscoverconfiguration.md)
+  - [Set-CsAutodiscoverConfiguration](set-csautodiscoverconfiguration.md)
 
-  -   
-    [New-CsWebLink](new-csweblink.md)
+  - [New-CsWebLink](new-csweblink.md)
 
-  -   
-    [Get-CsMcxConfiguration](get-csmcxconfiguration.md)
+  - [Get-CsMcxConfiguration](get-csmcxconfiguration.md)
 
-  -   
-    [New-CsMcxConfiguration](new-csmcxconfiguration.md)
+  - [New-CsMcxConfiguration](new-csmcxconfiguration.md)
 
-  -   
-    [Remove-CsMcxConfiguration](remove-csmcxconfiguration.md)
+  - [Remove-CsMcxConfiguration](remove-csmcxconfiguration.md)
 
-  -   
-    [Set-CsMcxConfiguration](set-csmcxconfiguration.md)
+  - [Set-CsMcxConfiguration](set-csmcxconfiguration.md)
 
-  -   
-    [Get-CsMobilityPolicy](get-csmobilitypolicy.md)
+  - [Get-CsMobilityPolicy](get-csmobilitypolicy.md)
 
-  -   
-    [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)
+  - [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)
 
-  -   
-    [New-CsMobilityPolicy](new-csmobilitypolicy.md)
+  - [New-CsMobilityPolicy](new-csmobilitypolicy.md)
 
-  -   
-    [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)
+  - [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)
 
-  -   
-    [Set-CsMobilityPolicy](set-csmobilitypolicy.md)
+  - [Set-CsMobilityPolicy](set-csmobilitypolicy.md)
 
-  -   
-    [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md)
+  - [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md)
 
-  -   
-    [New-CsPushNotificationConfiguration](new-cspushnotificationconfiguration.md)
+  - [New-CsPushNotificationConfiguration](new-cspushnotificationconfiguration.md)
 
-  -   
-    [Remove-CsPushNotificationConfiguration](remove-cspushnotificationconfiguration.md)
+  - [Remove-CsPushNotificationConfiguration](remove-cspushnotificationconfiguration.md)
 
-  -   
-    [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md)
+  - [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md)
 
-  -   
-    [Test-CsMcxConference](test-csmcxconference.md)
+  - [Test-CsMcxConference](test-csmcxconference.md)
 
-  -   
-    [Test-CsMcxP2PIM](test-csmcxp2pim.md)
+  - [Test-CsMcxP2PIM](test-csmcxp2pim.md)
 
-  -   
-    [Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+  - [Test-CsMcxPushNotification](test-csmcxpushnotification.md)
 
 ## Siehe auch
 

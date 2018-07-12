@@ -32,6 +32,8 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
       - Geben Sie in Ihrer lokalen Bereitstellung in der Lync Server-Verwaltungsshell die folgenden Cmdlets ein, um den Hostinganbieter für Lync Online zu erstellen:
         
             Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+
+           &nbsp;
         
             New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
 
@@ -99,6 +101,8 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
     Geben Sie Folgendes ein, um einen einzelnen Benutzer zu verschieben:
     
         $cred = Get-Credential
+
+       &nbsp;
     
         Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
     

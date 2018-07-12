@@ -23,50 +23,35 @@ In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Lync Server
 
 **Topologie**
 
-  -   
-    [Get-CsPool](get-cspool.md)
+  - [Get-CsPool](get-cspool.md)
 
-  -   
-    [Get-CsSite](get-cssite.md)
+  - [Get-CsSite](get-cssite.md)
 
-  -   
-    [Set-CsSite](set-cssite.md)
+  - [Set-CsSite](set-cssite.md)
 
-  -   
-    [Enable-CsTopology](enable-cstopology.md)
+  - [Enable-CsTopology](enable-cstopology.md)
 
-  -   
-    [Get-CsTopology](get-cstopology.md)
+  - [Get-CsTopology](get-cstopology.md)
 
-  -   
-    [Publish-CsTopology](publish-cstopology.md)
+  - [Publish-CsTopology](publish-cstopology.md)
 
-  -   
-    [Test-CsTopology](test-cstopology.md)
+  - [Test-CsTopology](test-cstopology.md)
 
-  -   
-    [Export-CsConfiguration](export-csconfiguration.md)
+  - [Export-CsConfiguration](export-csconfiguration.md)
 
-  -   
-    [Import-CsConfiguration](import-csconfiguration.md)
+  - [Import-CsConfiguration](import-csconfiguration.md)
 
-  -   
-    [Get-CsServerVersion](get-csserverversion.md)
+  - [Get-CsServerVersion](get-csserverversion.md)
 
-  -   
-    [Disable-CsComputer](disable-cscomputer.md)
+  - [Disable-CsComputer](disable-cscomputer.md)
 
-  -   
-    [Enable-CsComputer](enable-cscomputer.md)
+  - [Enable-CsComputer](enable-cscomputer.md)
 
-  -   
-    [Get-CsComputer](get-cscomputer.md)
+  - [Get-CsComputer](get-cscomputer.md)
 
-  -   
-    [Test-CsComputer](test-cscomputer.md)
+  - [Test-CsComputer](test-cscomputer.md)
 
-  -   
-    [Get-CsNetworkInterface](get-csnetworkinterface.md)
+  - [Get-CsNetworkInterface](get-csnetworkinterface.md)
 
 ## Siehe auch
 

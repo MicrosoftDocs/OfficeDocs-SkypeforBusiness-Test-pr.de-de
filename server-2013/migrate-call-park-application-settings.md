@@ -19,6 +19,8 @@ Die Migration der Anwendung zum Parken von Anrufen von Lync Server 2010 zu Lync 
 
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
 
+&nbsp;
+
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 
 Nachdem alle angepassten Audiodateien in den Lync Server 2013-Dateispeicher kopiert wurden, müssen die Einstellungen der Anwendung zum Parken von Anrufen des Lync Server 2013-Pools konfiguriert werden. Zudem müssen die Bereiche für den Anrufparkorbit, die mit dem Lync Server 2010-Pool verknüpft sind, erneut dem Lync Server 2013-Pool zugewiesen werden.

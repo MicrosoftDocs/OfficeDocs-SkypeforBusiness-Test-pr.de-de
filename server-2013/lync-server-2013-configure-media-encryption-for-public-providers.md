@@ -32,6 +32,8 @@ Wenn Sie einen A/V-Verbund (Audio/Video) mit Windows Live Messenger implementier
 2.  Geben Sie an der Eingabeaufforderung die folgenden Befehle ein:
     
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+
+       &nbsp;
     
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     

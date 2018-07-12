@@ -31,6 +31,8 @@ Beispiel:
 
     Update-CsAddressBook
 
+   &nbsp;
+
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
 
 Eine detaillierte Beschreibung des vollständigen Befehls finden Sie im folgenden Abschnitt der Referenz zu den Windows PowerShell-RTCCmdlets von Lync Server.

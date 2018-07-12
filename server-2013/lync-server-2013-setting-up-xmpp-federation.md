@@ -82,6 +82,8 @@ Zum Bereitstellen des XMPP-Proxys auf dem Edgeserver müssen Sie den Edgeserver 
 22. Nachdem Sie das öffentliche Zertifikate empfangen, importiert und zugewiesen haben, müssen Sie die Edgeserverdienste beenden und neu starten. Dazu geben Sie in der Lync Server-Verwaltungskonsole Folgendes ein:
     
         Stop-CsWindowsService
+
+       &nbsp;
     
         Start-CsWindowsService
 
@@ -96,20 +98,28 @@ Zum Bereitstellen des XMPP-Proxys auf dem Edgeserver müssen Sie den Edgeserver 
 24. Konfigurieren Sie eine neue Richtlinie, die allen Benutzern den externen Zugriff ermöglicht. Öffnen Sie dazu auf dem Front-End die Lync Server-Verwaltungsshell, und geben Sie Folgendes ein:
     
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
+
+       &nbsp;
     
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
+
+       &nbsp;
     
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
     
     So ermöglichen Sie XMPP-Zugriff für externe Benutzer:
     
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
+
+       &nbsp;
     
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
 
 25. Öffnen Sie auf dem Edgeserver, auf dem der XMPP-Proxy bereitgestellt ist, eine Eingabeaufforderung oder eine Windows PowerShell™-Befehlszeilenschnittstelle, und geben Sie Folgendes ein:
     
         Netstat -ano | findstr 5269
+
+       &nbsp;
     
         Netstat -ano | findstr 23456
     

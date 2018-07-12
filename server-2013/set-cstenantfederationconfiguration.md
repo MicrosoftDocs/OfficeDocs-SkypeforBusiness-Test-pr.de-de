@@ -76,11 +76,9 @@ Im Beispiel 6 wird gezeigt, wie Sie alle Domänen entfernen können, die einem M
 
 Ein Verbund ist ein Dienst, über den Benutzer Chat- und Anwesenheitsinformationen mit Benutzern anderer Domänen austauschen können. Mit Lync Online können Administratoren die Verbundkonfigurationseinstellungen verwenden, um Folgendes zu steuern:
 
-  -   
-    Die Möglichkeit für Benutzer, mit Personen aus anderen Domänen kommunizieren zu können, sowie für die Benutzer festlegen, mit welchen Domänen Kommunikation erlaubt sein soll
+  - Die Möglichkeit für Benutzer, mit Personen aus anderen Domänen kommunizieren zu können, sowie für die Benutzer festlegen, mit welchen Domänen Kommunikation erlaubt sein soll
 
-  -   
-    Die Möglichkeit für Benutzer, mit Personen zu kommunizieren, die Konten bei öffentlichen Instant Messaging- und Anwesenheitsanbietern wie Windows Live, AOL oder Yahoo\! haben
+  - Die Möglichkeit für Benutzer, mit Personen zu kommunizieren, die Konten bei öffentlichen Instant Messaging- und Anwesenheitsanbietern wie Windows Live, AOL oder Yahoo\! haben
 
 Administratoren können mit dem Cmdlet **Set-CsTenantFederationConfiguration** einen Verbund mit anderen Domänen sowie einen Verbund mit öffentlichen Anbietern aktivieren und deaktivieren. Außerdem können mit diesem Cmdlet explizit die Domänen festgelegt werden, mit denen Benutzer kommunizieren bzw. nicht kommunizieren dürfen. Administratoren müssen aber das Cmdlet **Set-CsTenantPublicProvider** verwenden, wenn Sie die öffentlichen Instant Messaging- und Anwesenheitsanbieter angeben möchten, mit denen Benutzer kommunizieren bzw. nicht kommunizieren dürfen.
 

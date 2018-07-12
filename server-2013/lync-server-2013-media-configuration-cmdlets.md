@@ -23,17 +23,13 @@ Verwenden Sie die folgenden Cmdlets für die Medienkonfiguration.
 
 **Medienkonfiguration**
 
-  -   
-    [Get-CsMediaConfiguration](get-csmediaconfiguration.md)
+  - [Get-CsMediaConfiguration](get-csmediaconfiguration.md)
 
-  -   
-    [New-CsMediaConfiguration](new-csmediaconfiguration.md)
+  - [New-CsMediaConfiguration](new-csmediaconfiguration.md)
 
-  -   
-    [Remove-CsMediaConfiguration](remove-csmediaconfiguration.md)
+  - [Remove-CsMediaConfiguration](remove-csmediaconfiguration.md)
 
-  -   
-    [Set-CsMediaConfiguration](set-csmediaconfiguration.md)
+  - [Set-CsMediaConfiguration](set-csmediaconfiguration.md)
 
 ## Siehe auch
 

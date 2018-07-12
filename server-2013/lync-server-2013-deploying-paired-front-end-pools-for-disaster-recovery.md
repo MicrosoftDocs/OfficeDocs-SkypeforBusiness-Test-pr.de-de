@@ -52,12 +52,16 @@ Sie können die Notfallwiederherstellungstopologie eines Paars von Front-End-Poo
 10. Verwenden Sie die folgenden Cmdlets, um zu erzwingen, dass die Benutzer- und Konferenzdaten beider Pools miteinander synchronisiert werden:
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     
     Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu prüfen. Stellen Sie sicher, dass der Status für beide Richtungen stabil ist.
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
 

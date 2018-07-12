@@ -70,6 +70,8 @@ Für die Remoteanrufsteuerung muss jeder Lync Server-Pool mit einem Pfad von die
 4.  Führen Sie einen der folgenden Befehle aus, um eine neu erstellte statische Route dauerhaft im zentralen Verwaltungsspeicher zu speichern:
     
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+
+       &nbsp;
     
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
 

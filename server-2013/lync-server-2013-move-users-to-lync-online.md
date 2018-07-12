@@ -29,6 +29,8 @@ Zum Verschieben eines lokalen Benutzers zu Ihrem Skype for Business Online-Manda
 
     $creds=Get-Credential
 
+   &nbsp;
+
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
 Das Format der für den Parameter **HostedMigrationOverrideUrl** angegebenen URL muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, und muss folgendes Format haben: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* .

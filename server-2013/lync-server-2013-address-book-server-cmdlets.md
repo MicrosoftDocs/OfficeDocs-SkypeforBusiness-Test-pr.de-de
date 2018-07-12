@@ -23,33 +23,25 @@ Sie können die Einstellungen für Adressbuchserver nicht in der Lync Server-Sys
 
 **Adressbuchserver**
 
-  -   
-    [Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)
+  - [Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)
 
-  -   
-    [New-CsAddressBookConfiguration](new-csaddressbookconfiguration.md)
+  - [New-CsAddressBookConfiguration](new-csaddressbookconfiguration.md)
 
-  -   
-    [Remove-CsAddressBookConfiguration](remove-csaddressbookconfiguration.md)
+  - [Remove-CsAddressBookConfiguration](remove-csaddressbookconfiguration.md)
 
-  -   
-    [Set-CsAddressBookConfiguration](set-csaddressbookconfiguration.md)
+  - [Set-CsAddressBookConfiguration](set-csaddressbookconfiguration.md)
 
 <!-- end list -->
 
-  -   
-    [Update-CsAddressBook](update-csaddressbook.md)
+  - [Update-CsAddressBook](update-csaddressbook.md)
 
-  -   
-    [Debug-CsAddressBookReplication](debug-csaddressbookreplication.md)
+  - [Debug-CsAddressBookReplication](debug-csaddressbookreplication.md)
 
 <!-- end list -->
 
-  -   
-    [Test-CsAddressBookService](test-csaddressbookservice.md)
+  - [Test-CsAddressBookService](test-csaddressbookservice.md)
 
-  -   
-    [Test-CsAddressBookWebQuery](test-csaddressbookwebquery.md)
+  - [Test-CsAddressBookWebQuery](test-csaddressbookwebquery.md)
 
 ## Siehe auch
 
