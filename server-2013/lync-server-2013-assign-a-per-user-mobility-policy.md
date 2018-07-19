@@ -97,7 +97,7 @@ Benutzerbasierte Mobilitätsrichtlinien können Sie mit der Lync Server-Verwaltu
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Ausführliche Informationen finden Sie unter [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Ausführliche Informationen finden Sie unter [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Siehe auch
 

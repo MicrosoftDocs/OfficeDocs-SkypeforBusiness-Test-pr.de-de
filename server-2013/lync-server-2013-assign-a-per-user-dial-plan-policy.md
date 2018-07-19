@@ -79,7 +79,7 @@ Benutzerbezogene Einwähleinstellungen können auch mit Windows PowerShell und d
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema für das [Grant-CsDialPlan](grant-csdialplan.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)-Cmdlet.
 
 ## Siehe auch
 

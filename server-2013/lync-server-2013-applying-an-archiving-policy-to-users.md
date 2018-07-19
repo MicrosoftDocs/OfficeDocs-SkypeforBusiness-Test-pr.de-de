@@ -67,7 +67,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Lync ServerW
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Details dazu finden Sie in der Dokumentation zum [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md)-Cmdlet.
+Details dazu finden Sie in der Dokumentation zum [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

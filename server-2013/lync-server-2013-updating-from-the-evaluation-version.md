@@ -43,7 +43,7 @@ Wenn Sie bei einem bestimmten Computer nicht sicher sind, ob auf ihm die Evaluie
 
     Get-CsServerVersion
 
-Das Cmdlet [Get-CsServerVersion](get-csserverversion.md) analysiert den lokalen Computer und gibt eine der folgenden Informationen zurück:
+Das Cmdlet [Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) analysiert den lokalen Computer und gibt eine der folgenden Informationen zurück:
 
   - Auf dem Computer ist der Lync Server-Volumenlizenzschlüssel installiert, sodass keine Aktualisierung erforderlich ist.
 

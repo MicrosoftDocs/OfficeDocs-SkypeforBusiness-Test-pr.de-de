@@ -21,7 +21,7 @@ Während der Installation von Microsoft Lync Server 2013 wird automatisch eine g
 
 Beachten Sie, dass Sie die globalen Einstellungen auch "löschen" können. Allerdings werden die globalen Einstellungen dabei nicht wirklich entfernt. Vielmehr werden alle Eigenschaften in dieser Auflistung auf ihre Standardwerte zurückgesetzt. Ein Beispiel: Angenommen, in einer Auflistung von QoE-Konfigurationseinstellungen ist standardmäßig die Bereinigung aktiviert. Sie ändern nun die globale Auflistung dahin gehend, dass Bereinigung deaktiviert ist. Wenn Sie später die globalen Einstellungen löschen, werden alle Eigenschaften auf ihre Standardwerte zurückgesetzt. In diesem Fall bedeutet das, dass die Bereinigung wieder aktiviert ist.
 
-Mit der Lync Server-Systemsteuerung oder dem [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md)-Cmdlet können Sie QoE-Konfigurationseinstellungen entfernen.
+Mit der Lync Server-Systemsteuerung oder dem [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration)-Cmdlet können Sie QoE-Konfigurationseinstellungen entfernen.
 
 ## So löschen Sie QoE-Konfigurationseinstellungen mithilfe der Lync Server-Systemsteuerung
 
@@ -57,5 +57,5 @@ Sie können QoE-Konfigurationseinstellungen auch mithilfe von Lync Server-Verwal
     
         Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
 
-Ausführliche Informationen finden Sie unter [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md).
+Ausführliche Informationen finden Sie unter [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration).
 

@@ -65,5 +65,5 @@ Richtlinien für den externen Zugriff auf Benutzerebene können über die Window
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)-Cmdlet.
 

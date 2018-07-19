@@ -42,7 +42,7 @@ Die synthetischen Exchange Unified Messaging (UM)-Transaktionen überprüfen, ob
 
 ## Synthetische Beständiger Chat-Transaktionen
 
-Für die Verwendung der synthetischen Beständiger Chat-Transaktion müssen Administratoren zuerst einen Kanal erstellen und den Testbenutzern die Berechtigung für dessen Verwendung erteilen. Die korrekte Konfiguration dieser Testbenutzer kann mithilfe des [Test-CsPersistentChatMessage](test-cspersistentchatmessage.md)-Cmdlets erfolgen:
+Für die Verwendung der synthetischen Beständiger Chat-Transaktion müssen Administratoren zuerst einen Kanal erstellen und den Testbenutzern die Berechtigung für dessen Verwendung erteilen. Die korrekte Konfiguration dieser Testbenutzer kann mithilfe des [Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage)-Cmdlets erfolgen:
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -61,7 +61,7 @@ Der per Test-CsPersistentChatMessage erstellte Chatroom kann nur von einem Admin
 
 ## Synthetische Transaktionen für Peer-zu-Peer-Festnetzanrufe
 
-Die synthetische [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md)-Transaktion überprüft, ob es möglich ist, Anrufe über das Festnetz zu tätigen und entgegenzunehmen.
+Die synthetische [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall)-Transaktion überprüft, ob es möglich ist, Anrufe über das Festnetz zu tätigen und entgegenzunehmen.
 
 Zum Ausführen dieser synthetischen Transaktion müssen Administratoren Folgendes konfigurieren:
 

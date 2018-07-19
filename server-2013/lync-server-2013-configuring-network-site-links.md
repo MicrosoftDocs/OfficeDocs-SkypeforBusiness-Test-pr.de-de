@@ -29,7 +29,7 @@ Innerhalb einer Anrufsteuerungskonfiguration können Sie standortübergreifende 
     
     In diesem Beispiel wird die neue Netzwerkstandortverknüpfung "Reno\_Portland" erstellt, über die Bandbreiteneinschränkungen zwischen den Netzwerkstandorten "Reno" und "Portland" festgelegt werden. Die Netzwerkstandorte und das Bandbreitenrichtlinienprofil müssen bereits vorhanden sein, bevor Sie diesen Befehl ausführen.
 
-Eine ausführliche Beschreibung der Parameter finden Sie unter [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) in der Lync Server-Verwaltungsshell-Dokumentation. Zum Abrufen einer Liste der Bandbreitenrichtlinienprofile, die auf die Netzwerkstandortverknüpfung angewendet werden können, verwenden Sie das Cmdlet **Get-CsNetworkBandwidthPolicyProfile**. Ausführliche Informationen finden Sie unter [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) in der Lync Server-Verwaltungsshell-Dokumentation.
+Eine ausführliche Beschreibung der Parameter finden Sie unter [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy) in der Lync Server-Verwaltungsshell-Dokumentation. Zum Abrufen einer Liste der Bandbreitenrichtlinienprofile, die auf die Netzwerkstandortverknüpfung angewendet werden können, verwenden Sie das Cmdlet **Get-CsNetworkBandwidthPolicyProfile**. Ausführliche Informationen finden Sie unter [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 ## So ändern Sie eine Netzwerkstandortverknüpfung
 
@@ -41,7 +41,7 @@ Eine ausführliche Beschreibung der Parameter finden Sie unter [New-CsNetworkInt
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Eine ausführliche Beschreibung der Parameter finden Sie unter [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md) in der Lync Server-Verwaltungsshell-Dokumentation.
+Eine ausführliche Beschreibung der Parameter finden Sie unter [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 ## So löschen Sie eine Netzwerkstandortverknüpfung
 
@@ -53,7 +53,7 @@ Eine ausführliche Beschreibung der Parameter finden Sie unter [Set-CsNetworkInt
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Eine ausführliche Beschreibung der Parameter finden Sie unter [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md) in der Lync Server-Verwaltungsshell-Dokumentation.
+Eine ausführliche Beschreibung der Parameter finden Sie unter [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 ## Siehe auch
 
@@ -63,9 +63,9 @@ Eine ausführliche Beschreibung der Parameter finden Sie unter [Remove-CsNetwork
 
 #### Weitere Ressourcen
 
-[New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)  
-[Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
-[Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
-[Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

@@ -97,7 +97,7 @@ Benutzerbasierte Richtlinien für beständigen Chat können auch mit Lync Server
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema für das [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy)-Cmdlet.
 
 ## Siehe auch
 

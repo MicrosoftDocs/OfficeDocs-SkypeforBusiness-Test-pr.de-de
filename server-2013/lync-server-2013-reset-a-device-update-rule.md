@@ -77,7 +77,7 @@ Geräteupdateregeln können auch mit der Windows PowerShell und dem **Reset-CsDe
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule).
 
 ## Siehe auch
 

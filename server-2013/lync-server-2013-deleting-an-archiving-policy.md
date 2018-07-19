@@ -57,7 +57,7 @@ Archivierungsrichtlinien können auch mit Windows PowerShell und mit dem Cmdlet 
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
-Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Remove-CsArchivingPolicy](remove-csarchivingpolicy.md).
+Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy).
 
 ## Siehe auch
 

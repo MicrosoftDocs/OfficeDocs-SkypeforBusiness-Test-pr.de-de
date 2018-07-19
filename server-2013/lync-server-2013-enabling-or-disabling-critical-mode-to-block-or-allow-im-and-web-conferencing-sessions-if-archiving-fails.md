@@ -59,7 +59,7 @@ Sie können den kritischen Modus mithilfe des **Set-CsArchivingConfiguration**-C
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 
-Weitere Informationen finden Sie im Hilfethema zum [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration)-Cmdlet.
 
 ## Siehe auch
 

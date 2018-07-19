@@ -63,7 +63,7 @@ Sie können KDS auch mithilfe der Windows PowerShell und des **Set-CsCdrConfigur
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
 
-Weitere Informationen finden Sie im Hilfethema für das [Set-CsCdrConfiguration](set-cscdrconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration)-Cmdlet.
 
 ## Siehe auch
 

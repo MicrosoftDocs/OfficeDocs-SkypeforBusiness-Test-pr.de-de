@@ -53,5 +53,5 @@ Sie können die Clientversionsverwaltung mithilfe des Cmdlets **Set-CsClientVers
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

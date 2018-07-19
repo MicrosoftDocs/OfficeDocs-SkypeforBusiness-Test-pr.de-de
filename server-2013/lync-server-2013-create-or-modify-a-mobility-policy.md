@@ -79,7 +79,7 @@ Sie können Mobilitätsrichtlinien (auf Standort- oder Benutzerebene) auch mithi
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
-Ausführliche Informationen finden Sie im Hilfethema zum [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)- und zum [Set-CsMobilityPolicy](set-csmobilitypolicy.md)-Cmdlet.
+Ausführliche Informationen finden Sie im Hilfethema zum [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)- und zum [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy)-Cmdlet.
 
 ## Siehe auch
 

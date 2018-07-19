@@ -44,5 +44,5 @@ Damit Clients die Bereitstellung ermitteln können, in der sich der Homeserver d
 #### Weitere Ressourcen
 
 [Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](set-cshostingprovider.md)
+[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
 

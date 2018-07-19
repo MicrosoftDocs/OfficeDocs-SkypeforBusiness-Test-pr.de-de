@@ -36,7 +36,7 @@ Geräteaktualisierungsregeln können nur mithilfe der Windows PowerShell und dem
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Import-CsDeviceUpdate](import-csdeviceupdate.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate).
 
 ## Siehe auch
 

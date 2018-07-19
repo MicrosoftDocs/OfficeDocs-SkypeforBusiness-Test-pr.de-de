@@ -51,5 +51,5 @@ Die Richtlinien für den externen Zugriff können über das Windows PowerShell-C
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)-Cmdlet.
 

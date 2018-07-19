@@ -19,7 +19,7 @@ Die Tabelle "PurgeSettings" enthält Informationen, mit denen angegeben wird, ob
 
     Get-CsCdrConfiguration
 
-Administratoren sollten die Tabelle "PurgeSettings" schreibgeschützt behandeln: Änderungen an den Löscheinstellungen für Anrufdetails sollten nur mithilfe der Cmdlets [New-CsCdrConfiguration](new-cscdrconfiguration.md) oder [Set-CsCdrConfiguration](set-cscdrconfiguration.md) vorgenommen werden.
+Administratoren sollten die Tabelle "PurgeSettings" schreibgeschützt behandeln: Änderungen an den Löscheinstellungen für Anrufdetails sollten nur mithilfe der Cmdlets [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) oder [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) vorgenommen werden.
 
 Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
 

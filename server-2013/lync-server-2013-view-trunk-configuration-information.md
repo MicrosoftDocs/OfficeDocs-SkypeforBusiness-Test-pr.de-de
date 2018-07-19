@@ -68,5 +68,5 @@ Sie können SIP-Trunk-Konfigurationseinstellungen auch mithilfe von Lync Server 
         ForwardPAI                                : False
         EnableFastFailoverTimer                   : True
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Get-CsTrunkConfiguration](get-cstrunkconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration)-Cmdlet.
 

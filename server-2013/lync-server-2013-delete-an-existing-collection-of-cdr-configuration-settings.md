@@ -21,7 +21,7 @@ Bei der Installation von Microsoft Lync Server 2013 wird eine einzelne globale A
 
 Beachten Sie, dass Sie auch die globalen Einstellungen löschen können. Diese globalen Einstellungen werden jedoch tatsächlich nicht entfernt. Stattdessen werden alle Eigenschaften in dieser Auflistung auf die Standardwerte zurückgesetzt. Beispielsweise ist in der Auflistung von KDS-Konfigurationseinstellungen standardmäßig die Löschung aktiviert. Angenommen, Sie ändern die globalen Einstellungen, sodass die Löschung deaktiviert wurde. Wenn Sie später die globalen Einstellungen löschen, werden alle Eigenschaften auf ihre Standardwerte zurückgesetzt. Das bedeutet in diesem Fall, dass die Löschung wieder aktiviert wurde.
 
-Sie können die KDS-Konfigurationseinstellungen mithilfe von Lync Server-Systemsteuerung oder dem [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md)-Cmdlet entfernen.
+Sie können die KDS-Konfigurationseinstellungen mithilfe von Lync Server-Systemsteuerung oder dem [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration)-Cmdlet entfernen.
 
 ## So entfernen Sie die KDS-Konfigurationseinstellungen mithilfe von Lync Server-Systemsteuerung
 
@@ -55,5 +55,5 @@ Sie können Konfigurationseinstellungen für die Aufzeichnung von Kommunikations
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Weitere Informationen finden Sie im Hilfethema zum [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration)-Cmdlet.
 

@@ -37,5 +37,5 @@ Netzwerkschnittstelleninformationen können Sie mit der Lync Server-Verwaltungss
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
 
-Ausführliche Informationen dazu finden Sie unter [Get-CsNetworkInterface](get-csnetworkinterface.md).
+Ausführliche Informationen dazu finden Sie unter [Get-CsNetworkInterface](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterface).
 

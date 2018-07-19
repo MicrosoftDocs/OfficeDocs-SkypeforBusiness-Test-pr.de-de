@@ -33,7 +33,7 @@ Verwenden Sie das folgende Verfahren, um einen Nummernbereich für die Gruppenan
     
 
     > [!TIP]
-    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 
 
@@ -45,6 +45,6 @@ Verwenden Sie das folgende Verfahren, um einen Nummernbereich für die Gruppenan
 
 #### Weitere Ressourcen
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

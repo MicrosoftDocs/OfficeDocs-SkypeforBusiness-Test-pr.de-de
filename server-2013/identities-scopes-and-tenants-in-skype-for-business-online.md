@@ -67,7 +67,7 @@ Nehmen wir weiterhin an, dass es zwei Benutzer gibt, Ken Myer und Pilar Ackerman
 
 Wie Sie sehen, ist es Ken Myer gestattet, mit öffentlichen Instant Messaging-Anbietern zu kommunizieren, da die Einstellungen in der ihm zugewiesenen benutzerbasierten Richtlinie die Einstellungen in der globalen Richtlinie außer Kraft setzen. Pilar Ackerman kann nicht mit öffentlichen Instant Messaging-Anbietern kommunizieren, da sie von der globalen Richtlinie verwaltet wird, die diese Kommunikation verbietet.
 
-Benutzerbasierte Richtlinien müssen vom Office 365-Support für Sie erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie mit dem geeigneten Cmdlet **Grant-Cs** (z. B. [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)) den jeweiligen Benutzern zuweisen. Benutzerbasierte Richtlinien sind leicht zu erkennen, da die Richtlinie **Identity** immer mit dem Tag-**Präfix** beginnt. Ein Beispiel:
+Benutzerbasierte Richtlinien müssen vom Office 365-Support für Sie erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie mit dem geeigneten Cmdlet **Grant-Cs** (z. B. [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)) den jeweiligen Benutzern zuweisen. Benutzerbasierte Richtlinien sind leicht zu erkennen, da die Richtlinie **Identity** immer mit dem Tag-**Präfix** beginnt. Ein Beispiel:
 
     Identity : tag:AllowPublicIMCommunication
 

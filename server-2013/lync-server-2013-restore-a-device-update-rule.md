@@ -57,5 +57,5 @@ Geräteupdateregeln können auch mit der Windows PowerShell und dem **Restore-Cs
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Restore-CsDeviceUpdateRule](restore-csdeviceupdaterule.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Restore-CsDeviceUpdateRule).
 

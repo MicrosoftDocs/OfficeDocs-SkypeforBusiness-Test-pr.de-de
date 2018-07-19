@@ -139,7 +139,7 @@ Folgende Entscheidungen sind zu berücksichtigen:
     </tbody>
     </table>
     
-    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und Informationen zur Verwaltung dieser Richtlinien finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) und [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und Informationen zur Verwaltung dieser Richtlinien finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) und [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Sollen Benutzer, die nicht für Enterprise-VoID aktiviert sind, an Konferenzen teilnehmen können, indem Sie auf den entsprechenden Teilnahmelink klicken?**
     

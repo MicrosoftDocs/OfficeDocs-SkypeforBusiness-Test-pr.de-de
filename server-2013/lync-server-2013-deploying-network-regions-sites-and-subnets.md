@@ -29,7 +29,7 @@ Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsNetworkRegion" ode
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-Weitere Informationen finden Sie unter [New-CsNetworkRegion](new-csnetworkregion.md).
+Weitere Informationen finden Sie unter [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion).
 
 Im Rahmen dieses Beispiel veranschaulicht der folgende Windows PowerShell-Befehl die Netzwerkregion, Region 1 (Indien), die in diesem Szenario definiert wird.
 
@@ -42,7 +42,7 @@ Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsNetworkSite" oder 
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-Weitere Informationen finden Sie unter [New-CsNetworkSite](new-csnetworksite.md).
+Weitere Informationen finden Sie unter [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite).
 
 Im Rahmen dieses Beispiels veranschaulichen die folgende Tabelle und der Lync ServerWindows PowerShell-Befehl die in diesem Szenario definierten Netzwerkstandorte. Aus Gründen der Anschaulichkeit enthält die Tabelle nur Einträge, die für standortbasiertes Routing spezifisch sind.
 

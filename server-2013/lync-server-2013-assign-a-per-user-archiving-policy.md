@@ -103,7 +103,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Windows Powe
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen dazu finden Sie im Hilfethema für das [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md)-Cmdlet.
+Weitere Informationen dazu finden Sie im Hilfethema für das [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

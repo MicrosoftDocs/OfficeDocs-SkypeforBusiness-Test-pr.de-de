@@ -105,7 +105,7 @@ Konferenzrichtlinien auf Benutzerebene können außerdem über die Lync Server P
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema zum [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)-Cmdlet.
 
 ## Siehe auch
 

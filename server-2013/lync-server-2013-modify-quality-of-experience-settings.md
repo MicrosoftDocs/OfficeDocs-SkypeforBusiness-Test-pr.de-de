@@ -57,7 +57,7 @@ Mithilfe von Windows PowerShell und des Cmdlets **Set-CsQoEConfiguration** könn
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20 
 
-Weitere Informationen dazu finden Sie im Hilfethema für das Cmdlet [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+Weitere Informationen dazu finden Sie im Hilfethema für das Cmdlet [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 ## Siehe auch
 

@@ -44,5 +44,5 @@ Konfigurationseinstellungen für Geräteaktualisierungen können (nur auf Stando
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-Ausführliche Informationen zum Ändern der vorhandenen Konfigurationseinstellungen für Geräteaktualisierungen finden Sie im Hilfethema zum Cmdlet [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md). Ausführliche Informationen zum Erstellen von Auflistungen von Konfigurationseinstellungen finden Sie im Hilfethema zum Cmdlet [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md).
+Ausführliche Informationen zum Ändern der vorhandenen Konfigurationseinstellungen für Geräteaktualisierungen finden Sie im Hilfethema zum Cmdlet [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration). Ausführliche Informationen zum Erstellen von Auflistungen von Konfigurationseinstellungen finden Sie im Hilfethema zum Cmdlet [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration).
 

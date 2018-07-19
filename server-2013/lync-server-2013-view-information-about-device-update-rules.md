@@ -67,5 +67,5 @@ Detaillierte Informationen zu allen Geräteupdateregeln können Sie auch mithilf
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsDeviceUpdateRule](get-csdeviceupdaterule.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateRule).
 

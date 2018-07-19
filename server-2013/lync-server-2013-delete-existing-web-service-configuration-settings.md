@@ -53,7 +53,7 @@ Konfigurationseinstellungen für Webdienste können Sie auch mit der Lync Server
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
-Ausführliche Informationen finden Sie unter [Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md).
+Ausführliche Informationen finden Sie unter [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration).
 
 ## Siehe auch
 

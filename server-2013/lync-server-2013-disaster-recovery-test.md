@@ -89,7 +89,7 @@ Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden
 
 #### Weitere Ressourcen
 
-[Import-CsConfiguration](import-csconfiguration.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
 [Sichern und Wiederherstellen von Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
 [Verwalten der Notfallwiederherstellung, der hohen Verfügbarkeit und des Sicherungsdiensts in Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 

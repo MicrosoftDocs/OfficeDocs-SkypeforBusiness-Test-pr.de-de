@@ -63,5 +63,5 @@ Weitere Informationen zur Verwendung des Skype for Business Online PowerShell-Mo
 
 #### Weitere Ressourcen
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

@@ -21,7 +21,7 @@ Alle diese Cmdlets werden über die Lync Server-Verwaltungsshell in den Lync Ser
 
 ## In diesem Abschnitt
 
-  - ["New-CsAddressBookConfiguration" für die Adressbuchverwaltung](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - ["new-csaddressbookconfiguration" für die Adressbuchverwaltung](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
 
   - ["Set-CsAddressBookConfiguration" für die Adressbuchverwaltung](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Alle diese Cmdlets werden über die Lync Server-Verwaltungsshell in den Lync Ser
 
   - ["Get-CsService" für die Adressbuchverwaltung](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - ["New-CsWebServiceConfiguration" für die Adressbuchverwaltung](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - ["new-cswebserviceconfiguration" für die Adressbuchverwaltung](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
 
   - ["Get-CsWebServiceConfiguration" für die Adressbuchverwaltung](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

@@ -19,9 +19,9 @@ Die Cmdlets, mit denen die Liste der zulässigen Domänen oder die Liste der blo
 
   - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 Beachten Sie jedoch, dass Sie bei den beiden Cmdlets **New-CsEdgeAllowList** und **New-CsEdgeDomainPattern** den Parameter **Domain** angeben müssen. parameter. Beispiel:
 

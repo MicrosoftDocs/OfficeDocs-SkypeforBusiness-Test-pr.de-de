@@ -53,7 +53,7 @@ Netzwerksubnetzinformationen können auch mit Lync Server PowerShell und dem Get
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkSubnet](get-csnetworksubnet.md).
+Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
 
 ## Siehe auch
 

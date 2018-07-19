@@ -55,7 +55,7 @@ In einer Richtlinie für gehostete Voicemail sind zwei Attribute definiert, welc
 
 
 > [!TIP]
-> Der Administrator für Mandanten Ihres gehosteten Exchange UM-Diensts stellt die erforderlichen Werte für die Einstellungen der Attribute "Destination" und "Organization" bereit. Zum Erstellen und Konfigurieren einer neuen Richtlinie müssen Sie das Cmdlet "New-CsHostedVoicemailPolicy" ausführen. Wenn Sie eine vorhandene Richtlinie (z.&nbsp;B. die globale Richtlinie) ändern möchten, verwenden Sie das Cmdlet "Set-CsHostedVoicemailPolicy".
+> Der Administrator für Mandanten Ihres gehosteten Exchange UM-Diensts stellt die erforderlichen Werte für die Einstellungen der Attribute "Destination" und "Organization" bereit. Zum Erstellen und Konfigurieren einer neuen Richtlinie müssen Sie das Cmdlet "New-CsHostedVoicemailPolicy" ausführen. Wenn Sie eine vorhandene Richtlinie (z.&nbsp;B. die globale Richtlinie) ändern möchten, verwenden Sie das Cmdlet "set-cshostedvoicemailpolicy".
 
 
 
@@ -63,7 +63,7 @@ Ausführliche Informationen zum Verwalten von Richtlinien für gehostete Voicema
 
   - New-CsHostedVoicemailPolicy
 
-  - Set-CsHostedVoicemailPolicy
+  - set-cshostedvoicemailpolicy
 
   - Get-CsHostedVoicemailPolicy
 

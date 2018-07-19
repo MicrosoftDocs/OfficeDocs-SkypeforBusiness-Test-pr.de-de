@@ -53,7 +53,7 @@ Sie können die Netzwerkregionenverbindungen auch anzeigen, indem Sie die Lync S
         NetworkRegionID1    : Pacific Northwest
         NetworkRegionID2    : California
 
-Für weitere Informationen, siehe [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+Für weitere Informationen, siehe [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Siehe auch
 

@@ -47,7 +47,7 @@ Neben der Clientversion, die Sie in Ihrer Lync Server 2013-Umgebung unterstütze
 
 ## Ändern der Standardaktion mit Lync Server-PowerShell-Cmdlets
 
-Die Standardaktion für die Anmeldung von Benutzern bei Clients, die nicht explizit zugelassen oder durch eine entsprechende Richtlinie eingeschränkt sind, kann auch mit dem Cmdlet Windows PowerShell-Befehlszeilenschnittstelle und dem Cmdlet **Set-CsClientVersionPolicy** verwaltet werden. Dieses Cmdlet kann auch in der Verwaltungsshell für Lync Server 2013 oder mit einer Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Die Standardaktion für die Anmeldung von Benutzern bei Clients, die nicht explizit zugelassen oder durch eine entsprechende Richtlinie eingeschränkt sind, kann auch mit dem Cmdlet Windows PowerShell-Befehlszeilenschnittstelle und dem Cmdlet **set-csclientversionpolicy** verwaltet werden. Dieses Cmdlet kann auch in der Verwaltungsshell für Lync Server 2013 oder mit einer Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Konfigurieren der Standardaktion zum Blockieren des Zugriffs
 
@@ -61,7 +61,7 @@ Die Standardaktion für die Anmeldung von Benutzern bei Clients, die nicht expli
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-Weitere Informationen finden Sie im Hilfethema für das [Set-CsClientVersionPolicy](set-csclientversionpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy)-Cmdlet.
 
 ## Siehe auch
 

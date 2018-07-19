@@ -56,5 +56,5 @@ Sie können die Regeln für Clientversionsrichtlinien mit der Lync Server-Verwal
         Enabled           : True
         CompareOp         : LEQ
 
-Weitere Informationen finden Sie im Hilfethema für das [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule)-Cmdlet.
 

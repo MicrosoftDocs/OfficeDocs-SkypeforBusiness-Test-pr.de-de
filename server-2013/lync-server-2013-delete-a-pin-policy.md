@@ -59,5 +59,5 @@ Sie können PIN-Richtlinien mithilfe von Windows PowerShell und des Cmdlets „R
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-Weitere Informationen finden Sie im Hilfethema zum [Remove-CsPinPolicy](remove-cspinpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy)-Cmdlet.
 

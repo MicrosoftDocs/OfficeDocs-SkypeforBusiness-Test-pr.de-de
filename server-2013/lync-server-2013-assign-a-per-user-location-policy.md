@@ -105,5 +105,5 @@ Sie können benutzerbasierte Standortrichtlinien mit dem Cmdlet **Grant-CsLocati
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema für das [Grant-CsLocationPolicy](grant-cslocationpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy)-Cmdlet.
 

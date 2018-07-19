@@ -103,7 +103,7 @@ Benutzerbasierte PIN-Richtlinien können Sie mit der Lync Server-Verwaltungsshel
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Ausführliche Informationen finden Sie unter [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Ausführliche Informationen finden Sie unter [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Siehe auch
 

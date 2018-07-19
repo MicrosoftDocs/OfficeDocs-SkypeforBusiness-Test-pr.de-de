@@ -53,7 +53,7 @@ Führen Sie die Schritte des folgenden Verfahrens aus, um Reaktionsgruppen von e
     
 
     > [!TIP]
-    > Zu den Einstellungen auf Anwendungsebene gehören die Standardkonfiguration für die Musikeinspielung in der Warteschleife, die Standardaudiodatei für die Musikeinspielung in der Warteschleife, die Toleranzperiode für den Rückruf bei Halten des Agents sowie die Anrufkontextkonfiguration. Zum Anzeigen dieser Konfigurationseinstellungen führen Sie das <STRONG>Get-CsRgsConfiguration</STRONG>-Cmdlet aus. Ausführliche Informationen zu diesem Cmdlet finden Sie unter <A href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</A>.
+    > Zu den Einstellungen auf Anwendungsebene gehören die Standardkonfiguration für die Musikeinspielung in der Warteschleife, die Standardaudiodatei für die Musikeinspielung in der Warteschleife, die Toleranzperiode für den Rückruf bei Halten des Agents sowie die Anrufkontextkonfiguration. Zum Anzeigen dieser Konfigurationseinstellungen führen Sie das <STRONG>Get-CsRgsConfiguration</STRONG>-Cmdlet aus. Ausführliche Informationen zu diesem Cmdlet finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
 
 
 

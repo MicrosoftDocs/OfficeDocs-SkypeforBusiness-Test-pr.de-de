@@ -87,7 +87,7 @@ Archivierungskonfigurationseinstellungen können auch mit Windows PowerShell und
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 
-Weitere Informationen finden Sie im Hilfethema für das [New-CsArchivingConfiguration](new-csarchivingconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration)-Cmdlet.
 
 ## Siehe auch
 

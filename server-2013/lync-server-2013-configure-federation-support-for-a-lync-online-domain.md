@@ -57,5 +57,5 @@ Zum Einrichten eines Partnerverbunds mit einem Microsoft Lync Online 2010-Kunden
     
       - **IsLocal** gibt an, ob sich der vom Hostinganbieter verwendete Proxyserver in Ihrer Lync Server-Topologie befindet.
     
-    Ausführliche Informationen zur Verwendung dieses Cmdlets finden Sie unter [New-CsHostingProvider](new-cshostingprovider.md) in der Betriebsdokumentation.
+    Ausführliche Informationen zur Verwendung dieses Cmdlets finden Sie unter [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider) in der Betriebsdokumentation.
 

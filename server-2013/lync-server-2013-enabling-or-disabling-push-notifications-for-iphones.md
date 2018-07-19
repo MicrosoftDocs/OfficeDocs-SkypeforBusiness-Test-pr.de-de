@@ -61,7 +61,7 @@ Sie können Pushbenachrichtigungen für Apple iPhone mithilfe des **Set-CsPushNo
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 
-Weitere Informationen finden Sie im Hilfethema zum [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration)-Cmdlet.
 
 ## Siehe auch
 

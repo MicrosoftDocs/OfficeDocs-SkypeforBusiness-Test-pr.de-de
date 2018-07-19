@@ -40,5 +40,5 @@ Sie können die Konfigurationseinstellungen für den Geräteaktualisierungsdiens
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-Ausführliche Informationen zu diesem Cmdlet finden Sie im Hilfethema unter [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md).
+Ausführliche Informationen zu diesem Cmdlet finden Sie im Hilfethema unter [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 

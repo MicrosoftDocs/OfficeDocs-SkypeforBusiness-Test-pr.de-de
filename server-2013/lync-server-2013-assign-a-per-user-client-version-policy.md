@@ -103,7 +103,7 @@ Sie können Clientversionsrichtlinien auf Benutzerebene mithilfe des **Grant-CsC
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy)-Cmdlet.
 
 ## Siehe auch
 

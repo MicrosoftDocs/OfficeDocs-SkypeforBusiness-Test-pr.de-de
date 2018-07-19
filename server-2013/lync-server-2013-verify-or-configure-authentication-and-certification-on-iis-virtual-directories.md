@@ -91,5 +91,5 @@ Führen Sie das folgende Verfahren aus, um das Zertifikat Ihrer virtuellen Inter
 #### Weitere Ressourcen
 
 [Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
-[Set-CsCertificate](set-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

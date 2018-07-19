@@ -51,5 +51,5 @@ Bandbreitenrichtlinien werden im Rahmen der Anrufsteuerung eingesetzt, um die Ba
 #### Weitere Ressourcen
 
 [Konfigurieren der Anrufsteuerung in Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Remove-CsNetworkBandwidthPolicyProfile](remove-csnetworkbandwidthpolicyprofile.md)
+[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
