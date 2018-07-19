@@ -57,7 +57,7 @@ Nach der Installation des Moduls können Sie mit den folgenden Cmdlets eine Remo
 
 Weitere Informationen zum Einrichten einer Remote-PowerShell-Sitzung mit Skype for Business Online finden Sie unter [Herstellen der Verbindung zu Lync Online mit Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-Weitere Informationen zur Verwendung des Skype for Business Online PowerShell-Moduls finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+Weitere Informationen zur Verwendung des Skype for Business Online PowerShell-Moduls finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 ## Siehe auch
 

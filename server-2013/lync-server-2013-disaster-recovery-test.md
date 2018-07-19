@@ -85,7 +85,7 @@ Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden
 #### Konzepte
 
 [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Cmdlets für Sicherung und hohe Verfügbarkeit](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[Cmdlets für Sicherung und hohe Verfügbarkeit](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### Weitere Ressourcen
 

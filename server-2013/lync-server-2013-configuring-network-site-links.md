@@ -59,7 +59,7 @@ Eine ausführliche Beschreibung der Parameter finden Sie unter [Remove-CsNetwork
 
 #### Konzepte
 
-[Cmdlets für die Anrufsteuerung](lync-server-2013-call-admission-control-cmdlets.md)  
+[Cmdlets für die Anrufsteuerung](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### Weitere Ressourcen
 
