@@ -36,7 +36,7 @@ Jedes Subnetz in Ihrem Netzwerk muss einem bestimmten Netzwerkstandort zugeordne
 
 Ausführliche Informationen zum Arbeiten mit Netzwerksubnetzen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation der folgenden Cmdlets:
 
-  - [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
 
   - [Get-CsNetworkSubnet](get-csnetworksubnet.md)
 

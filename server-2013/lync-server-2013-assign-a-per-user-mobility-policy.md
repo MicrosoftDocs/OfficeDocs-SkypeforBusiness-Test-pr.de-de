@@ -87,7 +87,7 @@ Benutzerbasierte Mobilitätsrichtlinien können Sie mit der Lync Server-Verwaltu
 
 ## So weisen Sie mehreren Benutzern eine benutzerbasierte Mobilitätsrichtlinie zu
 
-  - Mit dem folgenden Befehl wird die benutzerbasierte Mobilitätsrichtlinie RedmondMobilityPolicy allen Benutzern zugewiesen, denen aktuell die Richtlinie NorthAmericaMobilityPolicy zugewiesen ist. Ausführliche Informationen zu dem in diesem Befehl verwendeten Filter-Parameter finden Sie unter [Get-CsUser](get-csuser.md).
+  - Mit dem folgenden Befehl wird die benutzerbasierte Mobilitätsrichtlinie RedmondMobilityPolicy allen Benutzern zugewiesen, denen aktuell die Richtlinie NorthAmericaMobilityPolicy zugewiesen ist. Ausführliche Informationen zu dem in diesem Befehl verwendeten Filter-Parameter finden Sie unter [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 

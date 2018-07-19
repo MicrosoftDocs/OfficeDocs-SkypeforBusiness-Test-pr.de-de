@@ -118,7 +118,7 @@ Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hin
 
 2.  Definieren und Konfigurieren von erforderlichen DNS-Hosteinträgen (A oder AAAA für IPv6) und DNS-SRV-Einträgen
 
-3.  Definieren und konfigurieren Sie Richtlinien mithilfe der Lync Server-Systemsteuerung oder der Lync Server-Verwaltungsshell und den entsprechenden Cmdlets. Ausführliche Informationen zu den Lync Server-Verwaltungsshell-Cmdlets finden Sie unter [Cmdlets für Partnerverbund und externen Zugriff in Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md).
+3.  Definieren und konfigurieren Sie Richtlinien mithilfe der Lync Server-Systemsteuerung oder der Lync Server-Verwaltungsshell und den entsprechenden Cmdlets. Ausführliche Informationen zu den Lync Server-Verwaltungsshell-Cmdlets finden Sie unter [Cmdlets für Partnerverbund und externen Zugriff in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/).
     
 
     > [!TIP]

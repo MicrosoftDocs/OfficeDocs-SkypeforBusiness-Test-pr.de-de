@@ -85,7 +85,7 @@ Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsNetworkSubnet" ode
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-Weitere Informationen finden Sie unter [New-CsNetworkSubnet](new-csnetworksubnet.md).
+Weitere Informationen finden Sie unter [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 Im Rahmen dieses Beispiels veranschaulichen die folgende Tabelle und die Windows PowerShell-Befehle die Zuweisung von Netzwerksubnetzen zu den Netzwerkstandorten Delhi und Hyderabad, die in diesem Szenario definiert werden. Aus Gründen der Anschaulichkeit wurden in die Tabelle nur Einstellungen aufgenommen, die für das standortbasierte Routing spezifisch sind.
 

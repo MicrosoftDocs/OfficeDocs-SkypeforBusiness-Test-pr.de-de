@@ -93,7 +93,7 @@ Sie können Clientversionsrichtlinien auf Benutzerebene mithilfe des **Grant-CsC
 
 ## So weisen Sie eine Clientversionsrichtlinie auf Benutzerebene mehreren Benutzern zu
 
-  - Mit diesem Befehl weisen Sie die auf Benutzerebene geltende Clientversionsrichtlinie **RedmondClientVersionPolicy** allen Benutzern zu, denen derzeit die VoIP-Richtlinie **RedmondVoicePolicy** zugeordnet ist. Weitere Informationen zu dem in diesem Befehl verwendeten **Filter**-Parameter finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Mit diesem Befehl weisen Sie die auf Benutzerebene geltende Clientversionsrichtlinie **RedmondClientVersionPolicy** allen Benutzern zu, denen derzeit die VoIP-Richtlinie **RedmondVoicePolicy** zugeordnet ist. Weitere Informationen zu dem in diesem Befehl verwendeten **Filter**-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 

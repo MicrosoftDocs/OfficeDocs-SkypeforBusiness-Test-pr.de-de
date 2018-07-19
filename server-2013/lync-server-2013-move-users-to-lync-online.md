@@ -59,7 +59,7 @@ Sie können die URL des gehosteten Migrationsdiensts anhand der URL der Lync Onl
 
 ## Verschieben von Benutzern nach Lync Online
 
-Sie können mehrere Benutzer verschieben, indem Sie das Cmdlet [Get-CsUser](get-csuser.md) mit dem Parameter "\\endash Filter" verwenden, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen, die den Benutzerkonten zugewiesen ist, z. B. RegistrarPool. Anschließend können Sie die zurückgegebenen Benutzer an das Cmdlet [Move-CsUser](move-csuser.md) weiterleiten, wie im folgenden Beispiel dargestellt.
+Sie können mehrere Benutzer verschieben, indem Sie das Cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) mit dem Parameter "\\endash Filter" verwenden, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen, die den Benutzerkonten zugewiesen ist, z. B. RegistrarPool. Anschließend können Sie die zurückgegebenen Benutzer an das Cmdlet [Move-CsUser](move-csuser.md) weiterleiten, wie im folgenden Beispiel dargestellt.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

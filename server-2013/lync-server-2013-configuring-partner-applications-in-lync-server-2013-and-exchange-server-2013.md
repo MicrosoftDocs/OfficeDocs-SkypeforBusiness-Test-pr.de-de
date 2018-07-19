@@ -43,7 +43,7 @@ Nachdem Sie Lync Server 2013 als Partneranwendung für Exchange 2013 konfigurier
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-In Lync Server werden Partneranwendungen mit dem [New-CsPartnerApplication](new-cspartnerapplication.md)-Cmdlet konfiguriert. Neben der Angabe des Metadaten-URI sollte für die Vertrauensstufe der Anwendung das volle Vertrauen festgelegt werden. Dadurch kann Exchange sowohl sich selbst als auch jeden autorisierten Benutzer im Bereich repräsentieren. Beispiel:
+In Lync Server werden Partneranwendungen mit dem [New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication)-Cmdlet konfiguriert. Neben der Angabe des Metadaten-URI sollte für die Vertrauensstufe der Anwendung das volle Vertrauen festgelegt werden. Dadurch kann Exchange sowohl sich selbst als auch jeden autorisierten Benutzer im Bereich repräsentieren. Beispiel:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

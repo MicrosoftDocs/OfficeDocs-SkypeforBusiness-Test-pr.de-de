@@ -53,7 +53,7 @@ Die Sicherheitseinstellungen können auch über die Lync Server-Verwaltungsshell
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -MinPhonePinLength 7
 
-Detaillierte Informationen finden Sie im Abschnitt [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+Detaillierte Informationen finden Sie im Abschnitt [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 ## Siehe auch
 

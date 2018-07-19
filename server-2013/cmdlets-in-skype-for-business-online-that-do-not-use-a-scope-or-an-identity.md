@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-06-22_
 
 Die Cmdlets, mit denen die Liste der zulässigen Domänen oder die Liste der blockierten Domänen geändert wird (Listen, mit denen festgelegt wird, mit welchen externen Organisationen Ihre Benutzer kommunizieren dürfen), verwenden weder einen Bereich, noch eine Identität. Tatsächlich gibt es für das Cmdlet **New-CsEdgeAllowAllKnownDomains** keinerlei Parameter. Die Cmdlets, die weder einen Bereich, noch eine Identität verwenden, sind:
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
   - [New-CsEdgeAllowList](new-csedgeallowlist.md)
 

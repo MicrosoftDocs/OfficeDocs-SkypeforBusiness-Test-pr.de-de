@@ -101,7 +101,7 @@ Ausführliche Informationen zum Aktivieren von Benutzern für Lync Server 2013 f
 
 #### Weitere Ressourcen
 
-[New-CsMobilityPolicy](new-csmobilitypolicy.md)  
+[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)  
 [Set-CsMobilityPolicy](set-csmobilitypolicy.md)  
 [Get-CsMobilityPolicy](get-csmobilitypolicy.md)  
 [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)  

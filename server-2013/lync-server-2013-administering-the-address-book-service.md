@@ -256,7 +256,7 @@ Mithilfe einiger Kennzeichenbits können Sie einen Filter definieren, der für A
 
 
 > [!WARNING]
-> Weitere Informationen zum Filtern des Adressbuchs finden Sie unter <A href="lync-server-2013-address-book-server-cmdlets.md">Cmdlets für Adressbuchserver</A> und <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtern des Lync&nbsp;2013.-Adressbuchs</A>
+> Weitere Informationen zum Filtern des Adressbuchs finden Sie unter <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets für Adressbuchserver</A> und <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtern des Lync&nbsp;2013.-Adressbuchs</A>
 
 
 

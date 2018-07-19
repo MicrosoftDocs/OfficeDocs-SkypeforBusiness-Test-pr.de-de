@@ -87,7 +87,7 @@ Benutzerbasierte Richtlinien für beständigen Chat können auch mit Lync Server
 
 ## Zuweisen einer Richtlinie für beständigen Chat zu mehreren Benutzern
 
-  - Mit dem folgenden Befehl wird die benutzerbasierte Richtlinie für beständigen Chat RedmondUsersPersistentChatPolicy allen Benutzern, die für die IT-Abteilung arbeiten, zugewiesen. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Mit dem folgenden Befehl wird die benutzerbasierte Richtlinie für beständigen Chat RedmondUsersPersistentChatPolicy allen Benutzern, die für die IT-Abteilung arbeiten, zugewiesen. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 

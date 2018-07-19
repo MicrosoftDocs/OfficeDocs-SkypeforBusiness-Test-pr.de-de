@@ -61,7 +61,7 @@ Sie können für einen Benutzer Unified Messaging mit einem Befehl wie diesem a
 
 Im vorhergehenden Befehl steht der Parameter "Extensions" für die Durchwahlnummer des Benutzers. In diesem Beispiel besitzt der Benutzer die Durchwahl 100.
 
-Nach dem Aktivieren des Postfachs sollte der Benutzer "kenmyer@litwareinc.com" Exchange Unified Messaging verwenden können. Sie können überprüfen, ob der Benutzer eine Verbindung mit Exchange UM herstellen kann, indem Sie das Cmdlet [Test-CsExUMConnectivity](test-csexumconnectivity.md) über die Lync Server-Verwaltungsshell ausführen:
+Nach dem Aktivieren des Postfachs sollte der Benutzer "kenmyer@litwareinc.com" Exchange Unified Messaging verwenden können. Sie können überprüfen, ob der Benutzer eine Verbindung mit Exchange UM herstellen kann, indem Sie das Cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) über die Lync Server-Verwaltungsshell ausführen:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

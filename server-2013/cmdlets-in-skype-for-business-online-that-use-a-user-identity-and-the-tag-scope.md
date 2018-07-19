@@ -42,7 +42,7 @@ Wenn Sie die Identitäten für alle benutzerbasierten Richtlinien zurückgeben m
 
 Die folgenden Cmdlets verwenden sowohl eine Benutzeridentität als auch den Tagbereich:
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
   - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
 
@@ -52,7 +52,7 @@ Die folgenden Cmdlets verwenden sowohl eine Benutzeridentität als auch den Tagb
 
   - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Siehe auch
 

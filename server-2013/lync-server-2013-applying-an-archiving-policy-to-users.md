@@ -57,7 +57,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Lync ServerW
 
 ## Zuweisen einer benutzerbezogenen Archivierungsrichtlinie zu mehreren Benutzern
 
-  - Der folgende Befehl weist die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zu, deren Konten sich auf dem Registrierungsstellenpool "atl-cs-001.litwareinc.com" befinden. Einzelheiten über den in diesem Befehl verwendeten Filter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Der folgende Befehl weist die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zu, deren Konten sich auf dem Registrierungsstellenpool "atl-cs-001.litwareinc.com" befinden. Einzelheiten über den in diesem Befehl verwendeten Filter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 

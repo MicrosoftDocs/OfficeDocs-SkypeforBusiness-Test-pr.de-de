@@ -19,7 +19,7 @@ In den Tabellen des vorliegenden Themas werden alle Konferenzrichtlinieneinstell
 
 ## Richtlinieneinstellungen für Organisatoren
 
-In der folgenden Tabelle werden alle Konferenzrichtlinieneinstellungen aufgeführt, die Sie auf Konferenzorganisatoren anwenden können. Die neueste Liste der Konferenzrichtlinieneinstellungen finden Sie im Hilfethema zum Cmdlet [Set-CsClientPolicy](set-csclientpolicy.md).
+In der folgenden Tabelle werden alle Konferenzrichtlinieneinstellungen aufgeführt, die Sie auf Konferenzorganisatoren anwenden können. Die neueste Liste der Konferenzrichtlinieneinstellungen finden Sie im Hilfethema zum Cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 ### Richtlinieneinstellungen für Organisatoren
 

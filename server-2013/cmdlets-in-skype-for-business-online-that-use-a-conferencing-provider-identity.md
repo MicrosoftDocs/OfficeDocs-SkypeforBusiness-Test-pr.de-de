@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Letztes Änderungsdatum des Themas:** 2015-06-22_
 
-Wenn Sie Informationen zu allen Audiokonferenzanbietern abrufen möchten, mit denen Ihre Organisation Verträge abgeschlossen hat, rufen Sie einfach das Cmdlet [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) ohne einen Parameter auf:
+Wenn Sie Informationen zu allen Audiokonferenzanbietern abrufen möchten, mit denen Ihre Organisation Verträge abgeschlossen hat, rufen Sie einfach das Cmdlet [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) ohne einen Parameter auf:
 
     Get-CsAudioConferencingProvider
 
@@ -25,7 +25,7 @@ Wenn Sie nur die Daten für einen einzigen Anbieter abrufen möchten (in diesem 
 
 Es gibt nur ein Skype for Business Online-Cmdlet, das die ID eines Audiokonferenzanbieters akzeptiert:
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
 
 ## Siehe auch
 

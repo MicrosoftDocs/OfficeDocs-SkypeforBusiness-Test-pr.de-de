@@ -69,7 +69,7 @@ Wenn Sie unsicher sind, welche Cmdlets Sie benötigen, finden Sie nachstehend ei
 <td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Cmdlets für Persistent Chat Server</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Cmdlets für Partnerverbund und externen Zugriff in Lync Server 2013</a></p></td>
+<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/skype/">Cmdlets für Partnerverbund und externen Zugriff in Lync Server 2013</a></p></td>
 <td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Cmdlets für die zentralisierte Protokollierung</a></p></td>
 </tr>
 <tr class="even">

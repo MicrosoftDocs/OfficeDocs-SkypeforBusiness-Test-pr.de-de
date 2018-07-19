@@ -19,7 +19,7 @@ Szenarien definieren den Geltungsbereich (global, standortweit, poolweit oder co
 
 
 > [!IMPORTANT]
-> Sie können für einen bestimmten Geltungsbereich – Standort, global, Pool oder Computer – maximal zwei Szenarien gleichzeitig ausführen. Verwenden Sie Windows PowerShell und <A href="get-csclsscenario.md">Get-CsClsScenario</A>, um festzustellen, welche Szenarien derzeit ausgeführt werden. Mithilfe von Windows PowerShell und <A href="set-csclsscenario.md">Set-CsClsScenario</A> können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können im Laufe einer Protokollierungssitzung ändern, welche Szenarien ausgeführt werden, um somit anzupassen bzw. genau abzustimmen, welche Daten von welchen Dienstanbietern erfassst werden sollen.
+> Sie können für einen bestimmten Geltungsbereich – Standort, global, Pool oder Computer – maximal zwei Szenarien gleichzeitig ausführen. Verwenden Sie Windows PowerShell und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>, um festzustellen, welche Szenarien derzeit ausgeführt werden. Mithilfe von Windows PowerShell und <A href="set-csclsscenario.md">Set-CsClsScenario</A> können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können im Laufe einer Protokollierungssitzung ändern, welche Szenarien ausgeführt werden, um somit anzupassen bzw. genau abzustimmen, welche Daten von welchen Dienstanbietern erfassst werden sollen.
 
 
 

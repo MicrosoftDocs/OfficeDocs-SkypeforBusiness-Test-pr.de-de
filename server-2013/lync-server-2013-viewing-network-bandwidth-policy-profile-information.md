@@ -49,7 +49,7 @@ Sie können Netzwerkbandbreitenprofile auch mithilfe von Lync Server PowerShell 
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)-Cmdlet.
 
 ## Siehe auch
 

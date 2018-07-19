@@ -36,5 +36,5 @@ Konferenzgeräte können mit den Cmdlets **Enable-CsMeetingRoom** und **Disable-
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
-Einzelheiten dazu finden Sie in den Hilfethemen zu den Cmdlets [Enable-CsMeetingRoom](enable-csmeetingroom.md) und [Disable-CsMeetingRoom](disable-csmeetingroom.md).
+Einzelheiten dazu finden Sie in den Hilfethemen zu den Cmdlets [Enable-CsMeetingRoom](enable-csmeetingroom.md) und [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom).
 

@@ -55,7 +55,7 @@ Richtlinien für den externen Zugriff auf Benutzerebene können über die Window
 
 ## So weisen Sie mehreren Benutzern eine Richtlinie für den externen Zugriff auf Benutzerebene zu
 
-  - Mit diesem Befehl wird die Richtlinie "USAExternalAccessPolicy" für den externen Zugriff auf Benutzerebene allen Benutzern zugewiesen, die Active Directory ein Konto in der Organisationseinheit "UnitedStates" besitzen. Weitere Informationen zu dem in diesem Befehl verwendeten OU-Parameter finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Mit diesem Befehl wird die Richtlinie "USAExternalAccessPolicy" für den externen Zugriff auf Benutzerebene allen Benutzern zugewiesen, die Active Directory ein Konto in der Organisationseinheit "UnitedStates" besitzen. Weitere Informationen zu dem in diesem Befehl verwendeten OU-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 

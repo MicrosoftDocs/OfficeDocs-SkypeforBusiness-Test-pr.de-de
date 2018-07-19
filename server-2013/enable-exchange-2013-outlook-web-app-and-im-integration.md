@@ -25,7 +25,7 @@ Zur Unterstützung der Integration von Exchange 2013 Outlook Web Access (OWA) un
     
         Get-CsSite
     
-    Damit wird die "siteIP" für den "siteName" zurückgegeben, unter dem Sie den Pool erstellen. Ausführliche Informationen finden Sie unter [Get-CsSite](get-cssite.md) in der Dokumentation zur Verwaltungsshell für Lync Server 2013.
+    Damit wird die "siteIP" für den "siteName" zurückgegeben, unter dem Sie den Pool erstellen. Ausführliche Informationen finden Sie unter [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) in der Dokumentation zur Verwaltungsshell für Lync Server 2013.
 
 3.  Führen Sie das folgende Cmdlet aus:
     

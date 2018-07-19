@@ -121,6 +121,6 @@ Gehen Sie wie folgt vor, um die Topologie zur Unterstützung von Pushbenachricht
 
 #### Weitere Ressourcen
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
 [Test-CsMcxPushNotification](test-csmcxpushnotification.md)
 

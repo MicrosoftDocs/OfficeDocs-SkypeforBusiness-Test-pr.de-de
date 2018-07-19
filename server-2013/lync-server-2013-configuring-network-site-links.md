@@ -29,7 +29,7 @@ Innerhalb einer Anrufsteuerungskonfiguration können Sie standortübergreifende 
     
     In diesem Beispiel wird die neue Netzwerkstandortverknüpfung "Reno\_Portland" erstellt, über die Bandbreiteneinschränkungen zwischen den Netzwerkstandorten "Reno" und "Portland" festgelegt werden. Die Netzwerkstandorte und das Bandbreitenrichtlinienprofil müssen bereits vorhanden sein, bevor Sie diesen Befehl ausführen.
 
-Eine ausführliche Beschreibung der Parameter finden Sie unter [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) in der Lync Server-Verwaltungsshell-Dokumentation. Zum Abrufen einer Liste der Bandbreitenrichtlinienprofile, die auf die Netzwerkstandortverknüpfung angewendet werden können, verwenden Sie das Cmdlet **Get-CsNetworkBandwidthPolicyProfile**. Ausführliche Informationen finden Sie unter [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) in der Lync Server-Verwaltungsshell-Dokumentation.
+Eine ausführliche Beschreibung der Parameter finden Sie unter [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) in der Lync Server-Verwaltungsshell-Dokumentation. Zum Abrufen einer Liste der Bandbreitenrichtlinienprofile, die auf die Netzwerkstandortverknüpfung angewendet werden können, verwenden Sie das Cmdlet **Get-CsNetworkBandwidthPolicyProfile**. Ausführliche Informationen finden Sie unter [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 ## So ändern Sie eine Netzwerkstandortverknüpfung
 
@@ -67,5 +67,5 @@ Eine ausführliche Beschreibung der Parameter finden Sie unter [Remove-CsNetwork
 [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
 [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
 [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

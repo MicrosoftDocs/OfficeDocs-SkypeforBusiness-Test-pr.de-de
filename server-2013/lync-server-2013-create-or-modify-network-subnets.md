@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
 Ein Netzwerksubnetz muss einem Netzwerkstandort zugeordnet sein, damit der geografische Standort und der zu diesem Subnetz gehörende Host ermittelt werden können. Mithilfe der Lync Server-Systemsteuerung können Sie Subnetze konfigurieren. Über die Lync Server-Systemsteuerung können Sie ein Netzwerksubnetz erstellen, ändern oder löschen. Ausführliche Informationen zum Löschen von Netzwerksubnetzen finden Sie unter [Löschen von Netzwerksubnetzen](lync-server-2013-deleting-network-subnets.md).
 
-In den meisten Bereitstellungen von Microsoft Lync Server 2013 mit Anrufsteuerung ist eine große Anzahl von Subnetzen vorhanden. Daher empfiehlt es sich häufig, Subnetze über die Lync Server-Verwaltungsshell zu konfigurieren. Von dort aus können Sie **New-CsNetworkSubnet** zusammen mit dem Windows PowerShell-Cmdlet **Import-CSV** aufrufen. Wenn Sie diese beiden Cmdlets zusammen verwenden, können Sie die Subnetzeinstellungen aus einer durch Trennzeichen getrennten Datei (Comma-Separated Values, CSV) abrufen und mehrere Subnetze gleichzeitig erstellen. Beispiele für die Erstellung von Subnetzen aus einer CSV-Datei finden Sie unter [New-CsNetworkSubnet](new-csnetworksubnet.md).
+In den meisten Bereitstellungen von Microsoft Lync Server 2013 mit Anrufsteuerung ist eine große Anzahl von Subnetzen vorhanden. Daher empfiehlt es sich häufig, Subnetze über die Lync Server-Verwaltungsshell zu konfigurieren. Von dort aus können Sie **New-CsNetworkSubnet** zusammen mit dem Windows PowerShell-Cmdlet **Import-CSV** aufrufen. Wenn Sie diese beiden Cmdlets zusammen verwenden, können Sie die Subnetzeinstellungen aus einer durch Trennzeichen getrennten Datei (Comma-Separated Values, CSV) abrufen und mehrere Subnetze gleichzeitig erstellen. Beispiele für die Erstellung von Subnetzen aus einer CSV-Datei finden Sie unter [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 ## So erstellen Sie ein Netzwerksubnetz
 
@@ -73,7 +73,7 @@ In den meisten Bereitstellungen von Microsoft Lync Server 2013 mit Anrufsteuerun
 
 #### Weitere Ressourcen
 
-[New-CsNetworkSubnet](new-csnetworksubnet.md)  
+[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)  
 [Set-CsNetworkSubnet](set-csnetworksubnet.md)  
 [Remove-CsNetworkSubnet](remove-csnetworksubnet.md)  
 [Get-CsNetworkSubnet](get-csnetworksubnet.md)

@@ -62,6 +62,6 @@ Zertifikatsanforderungen für das Aktivieren und Einrichten von Kommunikationen 
 #### Weitere Ressourcen
 
 [Einrichten von Edgezertifikaten für Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](request-cscertificate.md)  
+[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
 [Set-CsCertificate](set-cscertificate.md)
 

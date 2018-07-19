@@ -31,13 +31,13 @@ Die meisten Verwaltungsaufgaben in Bezug auf Benutzer und Benutzerkonten können
 
   - [Invoke-CsUcsRollback](invoke-csucsrollback.md)
 
-  - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
   - [Disable-CsUser](disable-csuser.md)
 
   - [Enable-CsUser](enable-csuser.md)
 
-  - [Get-CsUser](get-csuser.md)
+  - [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
   - [Move-CsUser](move-csuser.md)
 
@@ -47,7 +47,7 @@ Die meisten Verwaltungsaufgaben in Bezug auf Benutzer und Benutzerkonten können
 
   - [Remove-CsUserAcp](remove-csuseracp.md)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
   - [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)
 

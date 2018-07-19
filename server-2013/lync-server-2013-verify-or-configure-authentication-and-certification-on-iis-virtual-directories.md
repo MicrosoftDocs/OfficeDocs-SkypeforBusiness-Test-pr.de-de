@@ -19,7 +19,7 @@ Führen Sie das folgende Verfahren aus, um das Zertifikat Ihrer virtuellen Inter
 
 
 > [!TIP]
-> Mit dem folgenden Verfahren wird eine Anfrage eines kombinierten Zertifikats definiert, das für alle Zwecke von Lync Server, interne Websites und externe Websites in IIS verwendet wird. Mit Lync Server 2010 wurde ein Satz von Lync Server-Verwaltungsshell- Windows PowerShell-Cmdlets für den Ausdruckszweck der Verwaltung von Zertifikatanforderung, -import und -zuweisung eingeführt. Bei dem Verfahren wird angenommen, dass eine intern bereitgestellte Zertifizierungsstelle existiert, die die Anfrage verarbeiten kann. Wenn Sie öffentliche Zertifikate für Ihre Lync Server-Zwecke verwenden oder Ihre Zertifizierungsstelle eine Offline-Anfrage erfordert, finden Sie in der detaillierten Syntax in diesem Thema Informationen zum -Output -Parameter. <A href="request-cscertificate.md">Request-CsCertificate</A>
+> Mit dem folgenden Verfahren wird eine Anfrage eines kombinierten Zertifikats definiert, das für alle Zwecke von Lync Server, interne Websites und externe Websites in IIS verwendet wird. Mit Lync Server 2010 wurde ein Satz von Lync Server-Verwaltungsshell- Windows PowerShell-Cmdlets für den Ausdruckszweck der Verwaltung von Zertifikatanforderung, -import und -zuweisung eingeführt. Bei dem Verfahren wird angenommen, dass eine intern bereitgestellte Zertifizierungsstelle existiert, die die Anfrage verarbeiten kann. Wenn Sie öffentliche Zertifikate für Ihre Lync Server-Zwecke verwenden oder Ihre Zertifizierungsstelle eine Offline-Anfrage erfordert, finden Sie in der detaillierten Syntax in diesem Thema Informationen zum -Output -Parameter. <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
 
@@ -90,6 +90,6 @@ Führen Sie das folgende Verfahren aus, um das Zertifikat Ihrer virtuellen Inter
 
 #### Weitere Ressourcen
 
-[Get-CsCertificate](get-cscertificate.md)  
+[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
 [Set-CsCertificate](set-cscertificate.md)
 

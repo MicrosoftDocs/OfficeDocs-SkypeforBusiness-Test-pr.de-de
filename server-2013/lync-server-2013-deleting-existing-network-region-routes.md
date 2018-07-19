@@ -49,7 +49,7 @@ Jede Region in einer CAC-Konfiguration (Call Admission Control, Anrufsteuerung) 
 
 #### Weitere Ressourcen
 
-[New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)  
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 [Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)  
 [Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)  
 [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)

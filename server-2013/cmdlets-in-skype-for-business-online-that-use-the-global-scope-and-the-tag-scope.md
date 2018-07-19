@@ -39,7 +39,7 @@ Wenn alle Richtlinien außer den globalen Richtlinien zurückgegeben werden soll
 
 Die folgenden Cmdlets funktionieren sowohl im globalen, als auch im benutzerbasierten (Tag-) Bereich:
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
   - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
 

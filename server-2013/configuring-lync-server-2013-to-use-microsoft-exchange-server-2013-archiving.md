@@ -19,7 +19,7 @@ Administratoren können Chat- und Webkonferenzaufzeichnungen mithilfe von Micros
 
 
 > [!IMPORTANT]
-> Um die Archivierung von Lync-Unterhaltungen vollständig zu deaktivieren, müssen Sie außerdem den Lync-Unterhaltungsverlauf aktivieren. Weitere Informationen hierzu finden Sie in den folgenden Themen: <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Verwalten der Archivierung von interner und externer Kommunikation in Lync Server 2013</A>, <A href="new-csclientpolicy.md">New-CsClientPolicy</A> und <A href="set-csclientpolicy.md">Set-CsClientPolicy</A>.
+> Um die Archivierung von Lync-Unterhaltungen vollständig zu deaktivieren, müssen Sie außerdem den Lync-Unterhaltungsverlauf aktivieren. Weitere Informationen hierzu finden Sie in den folgenden Themen: <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Verwalten der Archivierung von interner und externer Kommunikation in Lync Server 2013</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A>.
 
 
 

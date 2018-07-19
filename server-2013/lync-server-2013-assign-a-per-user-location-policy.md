@@ -95,7 +95,7 @@ Sie können benutzerbasierte Standortrichtlinien mit dem Cmdlet **Grant-CsLocati
 
 ## So weisen Sie eine benutzerbasierte Standortrichtlinie mehreren Benutzern zu
 
-  - Dieser Befehl weist die benutzerbasierte Standortrichtlinie **AccountingDepartmentLocationPolicy** allen Benutzern zu, die in der Buchhaltungsabteilung arbeiten. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation für das [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Dieser Befehl weist die benutzerbasierte Standortrichtlinie **AccountingDepartmentLocationPolicy** allen Benutzern zu, die in der Buchhaltungsabteilung arbeiten. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation für das [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 

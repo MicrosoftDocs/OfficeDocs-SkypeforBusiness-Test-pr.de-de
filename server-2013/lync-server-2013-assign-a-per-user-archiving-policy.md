@@ -93,7 +93,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Windows Powe
 
 ## Zuordnen einer benutzerbezogenen Archivierungsrichtlinie zu mehreren Benutzern
 
-  - Mithilfe dieses Befehls wird die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zugeordnet, deren Konten im Registrar-Pool "atl-cs-001.litwareinc.com" verwaltet werden. Weitere Informationen zu dem in diesem Befehl verwendeten Filterparameter finden Sie in der Dokumentation für das [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Mithilfe dieses Befehls wird die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zugeordnet, deren Konten im Registrar-Pool "atl-cs-001.litwareinc.com" verwaltet werden. Weitere Informationen zu dem in diesem Befehl verwendeten Filterparameter finden Sie in der Dokumentation für das [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 

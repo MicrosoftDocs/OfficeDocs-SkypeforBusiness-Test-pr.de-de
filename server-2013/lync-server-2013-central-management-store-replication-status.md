@@ -31,5 +31,5 @@ Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein
 
 #### Weitere Ressourcen
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

@@ -45,7 +45,7 @@ Nachdem Sie die neue Richtlinie erstellt haben, müssen Sie sie jedem Benutzer z
 
 Nachdem die Richtlinie einem Benutzer zugewiesen wurde, beginnt Lync Server damit, die Kontakte dieses Benutzers in den einheitlichen Benutzerspeicher zu migrieren. Nach Abschluss der Migration werden die Kontakte des Benutzers dann in Exchange statt in Lync Server gespeichert. Wenn der Benutzer während der Migration bei Lync 2013 angemeldet ist, wird er mithilfe einer angezeigten Meldung aufgefordert, sich von Lync ab- und dann wieder anzumelden, damit der Vorgang abgeschlossen werden kann. Die Kontakte von Benutzern, denen diese benutzerbezogene Richtlinie zugewiesen wurde, werden nicht zum einheitlichen Kontaktspeicher migriert. Der Grund ist, dass diese Benutzer von der globalen Richtlinie verwaltet werden und die Verwendung des einheitlichen Kontaktspeichers in der globalen Richtlinie deaktiviert wurde.
 
-Mit dem [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)-Cmdlet in der Lync Server-Verwaltungsshell können Sie überprüfen, ob die Kontakte eines Benutzers erfolgreich zum einheitlichen Kontaktspeicher migriert wurden:
+Mit dem [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)-Cmdlet in der Lync Server-Verwaltungsshell können Sie überprüfen, ob die Kontakte eines Benutzers erfolgreich zum einheitlichen Kontaktspeicher migriert wurden:
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
