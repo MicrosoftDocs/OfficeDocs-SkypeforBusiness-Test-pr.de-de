@@ -48,7 +48,7 @@ Sie können PSTN-Nutzungen auch mit der Windows PowerShell und dem **Get-CsPstnU
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
-Ausführliche Informationen finden Sie unter [Get-CsPstnUsage](get-cspstnusage.md).
+Ausführliche Informationen finden Sie unter [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 ## Siehe auch
 

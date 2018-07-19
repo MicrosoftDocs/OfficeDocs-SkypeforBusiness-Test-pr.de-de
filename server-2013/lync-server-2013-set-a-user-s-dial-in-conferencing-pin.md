@@ -94,7 +94,7 @@ Sie können Benutzern mithilfe des Cmdlets Lock-Set-CsClientPin PINs zuweisen. S
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Set-CsClientPin](set-csclientpin.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin)-Cmdlet.
 
 ## Siehe auch
 

@@ -60,7 +60,7 @@ Beim Bearbeiten der SIP-Trunkkonfigurationseinstellungen über die Lync Server-S
 <tr class="even">
 <td><p>Unterstützte Verschlüsselungsstufe</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung &quot;EncryptionLevel&quot; in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration wird mit den Cmdlets <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> und <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a> festgelegt.</p>
+<td><p>Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung &quot;EncryptionLevel&quot; in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration wird mit den Cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> und <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> festgelegt.</p>
 <p>Gültige Werte sind:</p>
 <ul>
 <li><p>Required: Die SRTP-Verschlüsselung muss verwendet werden.</p></li>
@@ -147,7 +147,7 @@ Beim Bearbeiten der SIP-Trunkkonfigurationseinstellungen über die Lync Server-S
 
 
 > [!TIP]
-> Die CsTrunkConfiguration-Cmdlets von Lync Server unterstützen weitere Eigenschaften, die in der Lync Server-Systemsteuerung nicht angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum <A href="set-cstrunkconfiguration.md">Set-CsTrunkConfiguration</A>-Cmdlet.
+> Die CsTrunkConfiguration-Cmdlets von Lync Server unterstützen weitere Eigenschaften, die in der Lync Server-Systemsteuerung nicht angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</A>-Cmdlet.
 
 
 

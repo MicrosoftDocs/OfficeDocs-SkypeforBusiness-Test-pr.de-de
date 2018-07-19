@@ -45,7 +45,7 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
 
 3.  Führen Sie für jeden einzelnen Stundenbereich, den Sie definieren möchten, folgenden Befehl aus:
     
-        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Führen Sie zum Erstellen der Geschäftszeitenauflistung, welche die definierten Bereiche verwendet, folgenden Befehl aus:
     
@@ -67,6 +67,6 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
 
 #### Weitere Ressourcen
 
-[New-CsRgsTimeRange](new-csrgstimerange.md)  
-[New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

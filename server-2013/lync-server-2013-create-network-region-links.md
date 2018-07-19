@@ -19,13 +19,13 @@ Regionen in einem Netzwerk sind über physische WAN-Verbindungen miteinander ver
 
 Ausführliche Informationen zum Arbeiten mit Netzwerkregionenverbindungen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für die folgenden Cmdlets:
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
-  - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
+  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)
+  - [Set-CsNetworkRegionLink](href: https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)
 
-  - [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)
+  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)
 
 Die Beispieltopologie weist eine Verbindung zwischen den Regionen "North America" und "APAC" sowie zwischen den Regionen "EMEA" und "APAC" auf. Jede dieser Regionenverbindungen wird durch die WAN-Bandbreite beschränkt, wie beschrieben in der Tabelle "Bandbreiteninformationen zur Regionenverbindungen" im Abschnitt [Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 

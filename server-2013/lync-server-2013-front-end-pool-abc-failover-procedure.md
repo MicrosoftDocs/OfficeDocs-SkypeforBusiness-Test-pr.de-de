@@ -33,7 +33,7 @@ Zum Ausführen der Cmdlet öffnen Sie eine Lync Server-Verwaltungsshell mit der 
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    Anschließend wird empfohlen, den CMS von Pool B in einen anderen vorhandenen gekoppelten Pool zu verschieben, um zusätzliche Ausfallsicherheit zu erzielen. Ausführliche Informationen finden Sie unter [Move-CsManagementServer](move-csmanagementserver.md)..
+    Anschließend wird empfohlen, den CMS von Pool B in einen anderen vorhandenen gekoppelten Pool zu verschieben, um zusätzliche Ausfallsicherheit zu erzielen. Ausführliche Informationen finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer)..
 
 3.  Wenn Pool A den CMS enthält, importieren Sie die LIS-Konfiguration von Pool A in die LIS-Datenbank (Lis.mdf) von Pool B. Dies funktioniert nur, wenn Sie LIS-Daten regelmäßig gesichert haben. Führen Sie zum Importieren der LIS-Konfiguration folgende Cmdlets aus:
     

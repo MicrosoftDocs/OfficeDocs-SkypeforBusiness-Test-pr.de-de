@@ -19,7 +19,7 @@ Führen Sie die Schritte in diesem Verfahren aus, um Lync Server 2013-Benutzerko
 
 Ausführliche Informationen finden Sie unter [Benutzerverwaltung für gehostete Exchange-Dienste in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in der Planungsdokumentation.
 
-Ausführliche Informationen zur Verwendung des [Set-CsUser](set-csuser.md)-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+Ausführliche Informationen zur Verwendung des [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 
 > [!IMPORTANT]

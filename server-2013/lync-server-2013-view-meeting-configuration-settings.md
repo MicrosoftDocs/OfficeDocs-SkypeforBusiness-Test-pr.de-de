@@ -60,5 +60,5 @@ Besprechungskonfigurationseinstellungen können auch mit Lync Server PowerShell 
         CustomFooterText                :
         AllowConferenceRecording        : True
 
-Weitere Informationen finden Sie im Hilfethema für das [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)-Cmdlet.
 

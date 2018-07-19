@@ -51,9 +51,9 @@ Der Administrator muss Berechtigungen für die Dateifreigabe festlegen, um RTC-G
 
 Sie können die folgenden Einstellungen verwenden, um das Speichern von Inhalten für eine Besprechung zu verwalten:
 
-  - Mit der Einstellung **ContentGracePeriod** in [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md) wird festgelegt, wie lange Webkonferenzinhalte nach dem Ende der Besprechung auf dem Server verbleiben.
+  - Mit der Einstellung **ContentGracePeriod** in [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration) wird festgelegt, wie lange Webkonferenzinhalte nach dem Ende der Besprechung auf dem Server verbleiben.
 
-  - Mit der Einstellung **MaxContentStorageMb** in [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md) wird die Höchstmenge an , zulässigem Dateispeicherplatz für das Speichern von Inhalten während einer einzelnen Besprechung festgelegt.
+  - Mit der Einstellung **MaxContentStorageMb** in [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration) wird die Höchstmenge an , zulässigem Dateispeicherplatz für das Speichern von Inhalten während einer einzelnen Besprechung festgelegt.
 
 Mit **MaxUploadFileSizeMb** wird nicht die Einstellung für den Dateiupload für Lync Web App beschränkt. Der Grenzwert für die Uploaddateigröße für Lync Web App ist auf ca. 30 MB festgelegt und wird von der IIS-Datei "web.config" gesteuert: "/DataCollabWeb/Int\[Ext\]/Handler/web.config". Zum Konfigurieren des Grenzwerts für die Uploaddateigröße für Lync Web App aktualisieren Sie wie unten dargestellt in der Datei "web.config" `maxRequestLength` und `maxAllowedContentLength`.
 

@@ -49,7 +49,7 @@ Sie können die PIN-Richtlinien auch mithilfe von Windows PowerShell und dem Cmd
         PINLifetime          : 0
         MaximumLogonAttempts :
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsPinPolicy](get-cspinpolicy.md).
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPinPolicy).
 
 ## Siehe auch
 

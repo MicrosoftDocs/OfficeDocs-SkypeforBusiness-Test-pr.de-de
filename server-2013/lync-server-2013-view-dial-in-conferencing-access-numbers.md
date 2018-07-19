@@ -54,5 +54,5 @@ Zugriffsnummern für Einwahlkonferenzen können auch mit Lync Server PowerShell 
         HostingProvider    :
         Regions            : {US}
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md).
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber).
 

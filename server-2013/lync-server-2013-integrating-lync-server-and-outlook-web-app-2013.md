@@ -35,7 +35,7 @@ Lync Server 2013 ermittelt automatisch alle Exchange-Server, die einen SipName-U
 
 
 > [!TIP]
-> Dies ist darauf zurückzuführen, dass die Lync Server-Topologie dann zwei Einträge für denselben Computer enthält: den automatisch ermittelten und den manuell hinzugefügten Eintrag. Um dieses Problem zu beheben und die Funktionsfähigkeit von Outlook Web App wiederherzustellen verwenden Sie die Windows PowerShell, um den vertrauenswürdigen Pool und die Einträge für vertrauenswürdige Anwendungen vom Server zu entfernen. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets <A href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</A> und <A href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</A>.
+> Dies ist darauf zurückzuführen, dass die Lync Server-Topologie dann zwei Einträge für denselben Computer enthält: den automatisch ermittelten und den manuell hinzugefügten Eintrag. Um dieses Problem zu beheben und die Funktionsfähigkeit von Outlook Web App wiederherzustellen verwenden Sie die Windows PowerShell, um den vertrauenswürdigen Pool und die Einträge für vertrauenswürdige Anwendungen vom Server zu entfernen. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</A>.
 
 
 

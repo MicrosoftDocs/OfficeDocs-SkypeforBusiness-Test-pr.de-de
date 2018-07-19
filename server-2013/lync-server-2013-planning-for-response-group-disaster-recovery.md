@@ -63,7 +63,7 @@ Wenn Sie die Wiederherstellung durch das Erstellen eines neuen Pools mit einem a
 
 
 
-Sie können nur einen Satz von Reaktionsgruppen-Konfigurationseinstellungen auf Anwendungsebene definieren. Diese Einstellungen umfassen die Standardkonfiguration für Wartemusik, die Standardaudiodatei für Wartemusik, die Kulanzfrist für Agentrückrufe und die Anrufkontextkonfiguration. Zum Anzeigen dieser Konfigurationseinstellungen führen Sie das Cmdlet **Get-CsRgsConfiguration** aus. Nähere Informationen zum Cmdlet **Get-CsRgsConfiguration** finden Sie unter [Get-CsRgsConfiguration](get-csrgsconfiguration.md).
+Sie können nur einen Satz von Reaktionsgruppen-Konfigurationseinstellungen auf Anwendungsebene definieren. Diese Einstellungen umfassen die Standardkonfiguration für Wartemusik, die Standardaudiodatei für Wartemusik, die Kulanzfrist für Agentrückrufe und die Anrufkontextkonfiguration. Zum Anzeigen dieser Konfigurationseinstellungen führen Sie das Cmdlet **Get-CsRgsConfiguration** aus. Nähere Informationen zum Cmdlet **Get-CsRgsConfiguration** finden Sie unter [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration).
 
 Sie können diese Einstellungen auf Anwendungsebene mithilfe des Cmdlets **Import-CsRgsConfiguration** und dem Parameter "-ReplaceExistingSettings" von einem Pool auf einen anderen übertragen. Dadurch werden jedoch die Einstellungen im Zielpool überschrieben.
 

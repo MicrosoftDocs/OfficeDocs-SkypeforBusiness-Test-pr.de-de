@@ -82,7 +82,7 @@ Sie können eine Übersetzung Ihrer benutzerdefinierten Anwesenheitsstatus berei
 
 5.  Verwenden Sie das Cmdlet **Grant-CSClientPolicy**, um diese neue Richtlinie Benutzern zuzuweisen.
 
-Ausführliche Informationen finden Sie unter [New-CsClientPolicy](new-csclientpolicy.md) und [Grant-CsClientPolicy](grant-csclientpolicy.md) in der Lync Server-Verwaltungsshell-Dokumentation.
+Ausführliche Informationen finden Sie unter [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) und [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 
 > [!TIP]

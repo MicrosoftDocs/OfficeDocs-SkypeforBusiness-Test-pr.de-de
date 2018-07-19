@@ -45,5 +45,5 @@ Sie können Informationen zu Ihren vertrauenswürdigen Anwendungen mithilfe von 
         ExUmEnabled            : False
         Enabled                : True
 
-Ausführliche Informationen finden Sie unter [Get-CsTrustedApplication](get-cstrustedapplication.md).
+Ausführliche Informationen finden Sie unter [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
 

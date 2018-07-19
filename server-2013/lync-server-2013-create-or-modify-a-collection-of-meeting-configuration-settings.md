@@ -100,5 +100,5 @@ Besprechungskonfigurationseinstellungen können (nur auf Standortebene) mit der 
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-Weitere Informationen finden Sie im Hilfethema für das [New-CsMeetingConfiguration](new-csmeetingconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration)-Cmdlet.
 

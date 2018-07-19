@@ -55,7 +55,7 @@ Sie können Netzwerkstandortinformationen mithilfe des Cmdlets "Get-CsNetworkSit
         BWPolicyProfileID :
         LocationPolicy    :
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSite](get-csnetworksite.md).
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
 
 ## Siehe auch
 

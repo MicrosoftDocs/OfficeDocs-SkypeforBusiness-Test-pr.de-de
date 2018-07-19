@@ -124,6 +124,6 @@ Wird das Gültigkeitsdatum (21.07.2012 01:00:00 Uhr) erreicht, werden alle neue
 #### Weitere Ressourcen
 
 [Einrichten von Edgezertifikaten für Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](set-cscertificate.md)  
-[Remove-CsCertificate](remove-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)
 

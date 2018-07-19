@@ -63,7 +63,7 @@ Die Aktivierung und Deaktivierung des automatischen Löschens von Archivierungsd
 
 ## Aktivieren der Löschung ausschließlich für exportierte Archivierungsdaten
 
-  - Um das Löschen auf Archivierungsdatensätze zu beschränken, die in eine Datendatei exportiert wurden (mit dem Cmdlet [Export-CsArchivingData](export-csarchivingdata.md)), müssen Sie auch die Eigenschaft **PurgeExportedArchivesOnly** auf **True** (**$True**) setzen. Beispiel:
+  - Um das Löschen auf Archivierungsdatensätze zu beschränken, die in eine Datendatei exportiert wurden (mit dem Cmdlet [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)), müssen Sie auch die Eigenschaft **PurgeExportedArchivesOnly** auf **True** (**$True**) setzen. Beispiel:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -75,7 +75,7 @@ Die Aktivierung und Deaktivierung des automatischen Löschens von Archivierungsd
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Weitere Informationen, einschließlich zusätzlicher Optionen zum Löschen archivierter Daten, finden Sie im Hilfethema für das Cmdlet [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Weitere Informationen, einschließlich zusätzlicher Optionen zum Löschen archivierter Daten, finden Sie im Hilfethema für das Cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Siehe auch
 

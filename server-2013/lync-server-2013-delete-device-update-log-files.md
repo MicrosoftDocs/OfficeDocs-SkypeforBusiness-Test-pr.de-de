@@ -51,5 +51,5 @@ Geräteaktualisierungsprotokolle können Sie mithilfe von Windows PowerShell un
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog).
 

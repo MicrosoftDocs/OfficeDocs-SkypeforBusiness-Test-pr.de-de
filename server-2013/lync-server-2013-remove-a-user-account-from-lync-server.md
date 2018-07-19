@@ -51,7 +51,7 @@ Sie können Benutzerkonten auch mithilfe des Cmdlets **Disable-CsUser** entferne
     
     Nachdem dieser Befehl ausgeführt wurde, gibt es keine Möglichkeit, das Konto erneut zu aktivieren und die vorherigen Kontoeinstellungen wiederherzustellen. Stattdessen müssen Sie das Cmdlet **Enable-CsUser-** verwenden, um für Ken Myer ein ganz neues Konto zu erstellen.
 
-Weitere Informationen finden Sie im Hilfethema für das [Disable-CsUser](disable-csuser.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)-Cmdlet.
 
 ## Siehe auch
 

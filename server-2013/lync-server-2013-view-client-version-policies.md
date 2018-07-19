@@ -59,5 +59,5 @@ Sie können Clientversionsrichtlinien mithilfe des Cmdlets **Get-CsClientVersion
                       UserAgentFullName=;Enabled=True;CompareOp=LEQ...}
         Description :
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsClientVersionPolicy](get-csclientversionpolicy.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicy).
 

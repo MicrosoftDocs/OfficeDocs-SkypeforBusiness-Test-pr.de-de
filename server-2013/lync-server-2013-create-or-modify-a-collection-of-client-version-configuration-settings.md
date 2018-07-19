@@ -59,5 +59,5 @@ Sie können Konfigurationseinstellungen für Clientversionen mit dem Cmdlet **Ne
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-Ausführliche Informationen finden Sie im Hilfethema zu den Cmdlets [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) und [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Ausführliche Informationen finden Sie im Hilfethema zu den Cmdlets [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) und [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

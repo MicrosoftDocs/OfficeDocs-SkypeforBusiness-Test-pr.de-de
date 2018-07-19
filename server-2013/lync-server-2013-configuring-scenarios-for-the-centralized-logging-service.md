@@ -19,7 +19,7 @@ Szenarien definieren den Geltungsbereich (global, standortweit, poolweit oder co
 
 
 > [!IMPORTANT]
-> Sie können für einen bestimmten Geltungsbereich – Standort, global, Pool oder Computer – maximal zwei Szenarien gleichzeitig ausführen. Verwenden Sie Windows PowerShell und <A href="get-csclsscenario.md">Get-CsClsScenario</A>, um festzustellen, welche Szenarien derzeit ausgeführt werden. Mithilfe von Windows PowerShell und <A href="set-csclsscenario.md">Set-CsClsScenario</A> können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können im Laufe einer Protokollierungssitzung ändern, welche Szenarien ausgeführt werden, um somit anzupassen bzw. genau abzustimmen, welche Daten von welchen Dienstanbietern erfassst werden sollen.
+> Sie können für einen bestimmten Geltungsbereich – Standort, global, Pool oder Computer – maximal zwei Szenarien gleichzeitig ausführen. Verwenden Sie Windows PowerShell und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>, um festzustellen, welche Szenarien derzeit ausgeführt werden. Mithilfe von Windows PowerShell und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</A> können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können im Laufe einer Protokollierungssitzung ändern, welche Szenarien ausgeführt werden, um somit anzupassen bzw. genau abzustimmen, welche Daten von welchen Dienstanbietern erfassst werden sollen.
 
 
 
@@ -51,7 +51,7 @@ Wie bereits einführend im Abschnitt [Übersicht über den zentralisierten Proto
 
 1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
 
-2.  Verwenden Sie für die Erstellung eines neuen Szenarios für eine Protokollierungssitzung [New-CsClsProvider](new-csclsprovider.md), und definieren Sie den Namen für das Szenario (d. h. dessen eindeutige Identifizierung). Wählen Sie als Typ für das Protokollierungsformat entweder WPP (Windows-Präprozessorformat für die Softwareablaufverfolgung, Standard), EventLog (Windows-Ereignisprotokoll-Format) oder IISLog (Datei im ASCII-Format basierend auf dem IIS-Protokolldatei-Format). Definieren Sie anschließend den Protokolliergrad (gemäß der Definition im entsprechenden Abschnitt in diesem Thema) und die Flags (gemäß der Definition im entsprechenden Abschnitt in diesem Thema).
+2.  Verwenden Sie für die Erstellung eines neuen Szenarios für eine Protokollierungssitzung [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider), und definieren Sie den Namen für das Szenario (d. h. dessen eindeutige Identifizierung). Wählen Sie als Typ für das Protokollierungsformat entweder WPP (Windows-Präprozessorformat für die Softwareablaufverfolgung, Standard), EventLog (Windows-Ereignisprotokoll-Format) oder IISLog (Datei im ASCII-Format basierend auf dem IIS-Protokolldatei-Format). Definieren Sie anschließend den Protokolliergrad (gemäß der Definition im entsprechenden Abschnitt in diesem Thema) und die Flags (gemäß der Definition im entsprechenden Abschnitt in diesem Thema).
     
     Für dieses Beispielszenario verwenden wir LyssProvider als Beispiel für die Anbietervariable.
     

@@ -21,7 +21,7 @@ Bei der Installation von Lync Server wird eine globale Auflistung von A/V-Edge-K
 
 Ihre auf Standort- oder Dienstebene erstellten benutzerdefinierten Einstellungsauflistungen können Sie jedoch mit dem Remove-CsAVEdgeConfiguration-Cmdlet löschen. Wenn Sie Standorteinstellungen löschen, werden die an diesem Standort befindlichen A/V-Edgeserver anhand der globalen Einstellungen verwaltet. Wenn Sie auf Dienstebene festgelegte Einstellungen löschen, wird der Server dann gemäß den Einstellungen für seinen Standort oder (wenn diese nicht vorhanden sind) anhand der globalen Einstellungen verwaltet.
 
-Weitere Informationen dazu finden Sie im Hilfethema für das [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)-Cmdlet.
+Weitere Informationen dazu finden Sie im Hilfethema für das [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)-Cmdlet.
 
 ## Zurücksetzen der globalen Auflistung
 
@@ -51,5 +51,5 @@ Weitere Informationen dazu finden Sie im Hilfethema für das [Remove-CsAVEdgeCon
 #### Weitere Ressourcen
 
 [A/V-Edgeserver in Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

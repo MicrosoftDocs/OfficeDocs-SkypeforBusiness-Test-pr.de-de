@@ -196,7 +196,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
     
         Set-CsAccessEdgeConfiguration
     
-    Weitere Informationen zu diesen Cmdlets finden Sie in folgenden Themen: [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md) und [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md).
+    Weitere Informationen zu diesen Cmdlets finden Sie in folgenden Themen: [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) und [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration).
 
 4.  Warten Sie, bis die Replikation abgeschlossen ist, bevor Sie die Lync Server 2013-Edgeserver online schalten und den Partnerverbund und den externen Zugriff testen.
 

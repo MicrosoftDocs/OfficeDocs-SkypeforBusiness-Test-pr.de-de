@@ -91,7 +91,7 @@ Archivierungsrichtlinien können auch mit Windows PowerShell und mit dem Cmdlet 
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Weitere Informationen finden Sie im Hilfethema für das [New-CsArchivingPolicy](new-csarchivingpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

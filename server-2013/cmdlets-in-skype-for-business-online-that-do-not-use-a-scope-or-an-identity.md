@@ -17,11 +17,11 @@ _**Letztes Änderungsdatum des Themas:** 2015-06-22_
 
 Die Cmdlets, mit denen die Liste der zulässigen Domänen oder die Liste der blockierten Domänen geändert wird (Listen, mit denen festgelegt wird, mit welchen externen Organisationen Ihre Benutzer kommunizieren dürfen), verwenden weder einen Bereich, noch eine Identität. Tatsächlich gibt es für das Cmdlet **New-CsEdgeAllowAllKnownDomains** keinerlei Parameter. Die Cmdlets, die weder einen Bereich, noch eine Identität verwenden, sind:
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 Beachten Sie jedoch, dass Sie bei den beiden Cmdlets **New-CsEdgeAllowList** und **New-CsEdgeDomainPattern** den Parameter **Domain** angeben müssen. parameter. Beispiel:
 
@@ -32,5 +32,5 @@ Beachten Sie jedoch, dass Sie bei den beiden Cmdlets **New-CsEdgeAllowList** und
 #### Konzepte
 
 [Identitäten, Bereiche und Mandanten](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Die Lync Online-Cmdlets](the-skype-for-business-online-cmdlets.md)
+[Die Lync Online-Cmdlets](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

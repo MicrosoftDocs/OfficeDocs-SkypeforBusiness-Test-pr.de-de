@@ -21,7 +21,7 @@ Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich da
 
 
 > [!IMPORTANT]
-> Bevor Sie die Tabelle nicht zugewiesener Nummern konfigurieren, müssen Sie eine oder mehrere Ansagen definieren oder eine automatische Exchange UM-Telefonzentrale einrichten. Einzelheiten zum Erstellen von Ansagen finden Sie unter <A href="lync-server-2013-create-an-announcement.md">Erstellen einer Ansage in Lync Server 2013</A>. Wenn Sie überprüfen möchten, ob Sie die Exchange UM-Einstellungen konfiguriert haben, führen Sie das Cmdlet <STRONG>Get-CsExUmContact</STRONG> aus. Einzelheiten dazu finden Sie unter <A href="get-csexumcontact.md">Get-CsExUmContact</A>.
+> Bevor Sie die Tabelle nicht zugewiesener Nummern konfigurieren, müssen Sie eine oder mehrere Ansagen definieren oder eine automatische Exchange UM-Telefonzentrale einrichten. Einzelheiten zum Erstellen von Ansagen finden Sie unter <A href="lync-server-2013-create-an-announcement.md">Erstellen einer Ansage in Lync Server 2013</A>. Wenn Sie überprüfen möchten, ob Sie die Exchange UM-Einstellungen konfiguriert haben, führen Sie das Cmdlet <STRONG>Get-CsExUmContact</STRONG> aus. Einzelheiten dazu finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>.
 
 
 

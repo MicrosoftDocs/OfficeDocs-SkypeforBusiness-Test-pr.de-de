@@ -95,7 +95,7 @@ Konferenzrichtlinien auf Benutzerebene können außerdem über die Lync Server P
 
 ## Zuweisen einer Konferenzrichtlinie auf Benutzerebene für verschiedene Benutzer
 
-  - Dieser Befehl weist die Konferenzrichtlinie „HRConferencingPolicy“ auf Benutzerebene allen Benutzern zu, die in der Personalabteilung tätig sind. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Dieser Befehl weist die Konferenzrichtlinie „HRConferencingPolicy“ auf Benutzerebene allen Benutzern zu, die in der Personalabteilung tätig sind. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -105,7 +105,7 @@ Konferenzrichtlinien auf Benutzerebene können außerdem über die Lync Server P
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema zum [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)-Cmdlet.
 
 ## Siehe auch
 

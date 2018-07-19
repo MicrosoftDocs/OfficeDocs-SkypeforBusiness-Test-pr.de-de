@@ -93,7 +93,7 @@ Benutzerbasierte PIN-Richtlinien können Sie mit der Lync Server-Verwaltungsshel
 
 ## So weisen Sie mehreren Benutzern eine benutzerbasierte PIN-Richtlinie zu
 
-  - Mit dem folgenden Befehl wird die benutzerbasierte Richtlinie RedmondUsersPinPolicy allen Benutzern in der Stadt Redmond zugewiesen. Ausführliche Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie unter [Get-CsUser](get-csuser.md).
+  - Mit dem folgenden Befehl wird die benutzerbasierte Richtlinie RedmondUsersPinPolicy allen Benutzern in der Stadt Redmond zugewiesen. Ausführliche Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie unter [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -103,7 +103,7 @@ Benutzerbasierte PIN-Richtlinien können Sie mit der Lync Server-Verwaltungsshel
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Ausführliche Informationen finden Sie unter [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Ausführliche Informationen finden Sie unter [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Siehe auch
 

@@ -59,7 +59,7 @@ Einstellungen für die Beibehaltung von KDS-Daten können Sie mit Windows PowerS
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-Weitere Informationen finden Sie im Hilfethema für das [Set-CsCdrConfiguration](set-cscdrconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration)-Cmdlet.
 
 ## Siehe auch
 

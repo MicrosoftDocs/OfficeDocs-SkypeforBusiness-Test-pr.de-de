@@ -29,7 +29,7 @@ Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsNetworkRegion" ode
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-Weitere Informationen finden Sie unter [New-CsNetworkRegion](new-csnetworkregion.md).
+Weitere Informationen finden Sie unter [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion).
 
 Im Rahmen dieses Beispiel veranschaulicht der folgende Windows PowerShell-Befehl die Netzwerkregion, Region 1 (Indien), die in diesem Szenario definiert wird.
 
@@ -42,7 +42,7 @@ Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsNetworkSite" oder 
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-Weitere Informationen finden Sie unter [New-CsNetworkSite](new-csnetworksite.md).
+Weitere Informationen finden Sie unter [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite).
 
 Im Rahmen dieses Beispiels veranschaulichen die folgende Tabelle und der Lync ServerWindows PowerShell-Befehl die in diesem Szenario definierten Netzwerkstandorte. Aus Gründen der Anschaulichkeit enthält die Tabelle nur Einträge, die für standortbasiertes Routing spezifisch sind.
 
@@ -85,7 +85,7 @@ Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsNetworkSubnet" ode
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-Weitere Informationen finden Sie unter [New-CsNetworkSubnet](new-csnetworksubnet.md).
+Weitere Informationen finden Sie unter [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 Im Rahmen dieses Beispiels veranschaulichen die folgende Tabelle und die Windows PowerShell-Befehle die Zuweisung von Netzwerksubnetzen zu den Netzwerkstandorten Delhi und Hyderabad, die in diesem Szenario definiert werden. Aus Gründen der Anschaulichkeit wurden in die Tabelle nur Einstellungen aufgenommen, die für das standortbasierte Routing spezifisch sind.
 

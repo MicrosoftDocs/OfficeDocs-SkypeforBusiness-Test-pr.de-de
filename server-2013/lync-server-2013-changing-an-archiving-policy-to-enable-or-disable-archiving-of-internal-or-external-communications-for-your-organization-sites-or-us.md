@@ -89,7 +89,7 @@ Die Archivierung (sowohl für interne als auch für externe Kommunikationssitzun
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-Weitere Informationen finden Sie im Hilfethema für das [Set-CsArchivingPolicy](set-csarchivingpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

@@ -60,7 +60,7 @@ Beim Erstellen der Konfigurationseinstellungen für einen SIP-Trunk mit Lync Ser
 <tr class="even">
 <td><p>Unterstützte Verschlüsselungsstufe</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Gibt den Umfang der Unterstützung für den Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC beim Dienstanbieter an. Bei Medienumgehungen muss dieser Wert mit der EncryptionLevel-Einstellung in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration erfolgt mithilfe des Cmdlets <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> und des Cmdlets <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
+<td><p>Gibt den Umfang der Unterstützung für den Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC beim Dienstanbieter an. Bei Medienumgehungen muss dieser Wert mit der EncryptionLevel-Einstellung in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration erfolgt mithilfe des Cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> und des Cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
 <p>Zulässige Werte sind folgende:</p>
 <ul>
 <li><p>Required: Die SRTP-Verschlüsselung muss verwendet werden.</p></li>
@@ -147,7 +147,7 @@ Beim Erstellen der Konfigurationseinstellungen für einen SIP-Trunk mit Lync Ser
 
 
 > [!TIP]
-> Die Lync Server CsTrunkConfiguration-Cmdlets unterstützen weitere Eigenschaften, die nicht in Lync Server-Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema für das <A href="new-cstrunkconfiguration.md">New-CsTrunkConfiguration</A>-Cmdlet.
+> Die Lync Server CsTrunkConfiguration-Cmdlets unterstützen weitere Eigenschaften, die nicht in Lync Server-Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema für das <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</A>-Cmdlet.
 
 
 

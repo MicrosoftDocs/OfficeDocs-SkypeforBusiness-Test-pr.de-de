@@ -65,7 +65,7 @@ Benutzerbasierte VoIP-Richtlinien können auch mithilfe der Windows PowerShell u
 
 ## Zuweisen einer benutzerbasierten VoIP-Richtlinien zu mehreren Benutzern
 
-  - Der folgende Befehl weist die benutzerbasierte VoIP-Richtlinie "FinanceVoicePolicy" allen Benutzern zu, die Konten in der OU "Finance" in Active Directory haben. Weitere Informationen zu dem in diesem Befehl verwendeten Parameter "OU" finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Der folgende Befehl weist die benutzerbasierte VoIP-Richtlinie "FinanceVoicePolicy" allen Benutzern zu, die Konten in der OU "Finance" in Active Directory haben. Weitere Informationen zu dem in diesem Befehl verwendeten Parameter "OU" finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -75,7 +75,7 @@ Benutzerbasierte VoIP-Richtlinien können auch mithilfe der Windows PowerShell u
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema zum [Grant-CsVoicePolicy](grant-csvoicepolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)-Cmdlet.
 
 ## Siehe auch
 

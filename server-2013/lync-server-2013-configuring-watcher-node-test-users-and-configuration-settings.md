@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-07-29_
 
 Nachdem Sie den Computer konfiguriert haben, der als Watcher-Knoten agieren wird, müssen Sie die folgenden Schritte ausführen:
 
-1.  Erstellen Sie die von diesen Watcher-Knoten zu verwendenden Testkonten. Wenn Sie die Aushandlungsauthentifizierungsmethode verwenden, müssen Sie auch das Cmdlet [Set-CsTestUserCredential](set-cstestusercredential.md) verwenden, um die Verwendung dieser Testkonten auf dem Watcher-Knoten zu aktivieren.
+1.  Erstellen Sie die von diesen Watcher-Knoten zu verwendenden Testkonten. Wenn Sie die Aushandlungsauthentifizierungsmethode verwenden, müssen Sie auch das Cmdlet [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) verwenden, um die Verwendung dieser Testkonten auf dem Watcher-Knoten zu aktivieren.
 
 2.  Aktualisieren Sie die Konfigurationseinstellungen für den Watcher-Knoten.
 

@@ -82,7 +82,7 @@ Details zum Deaktivieren von BranchCache finden Sie im Bereitstellungshandbuch f
 
 ## Überprüfen der Lync Web App-Bereitstellung
 
-Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Details zu diesem Cmdlet finden Sie unter [Test-CsUcwaConference](test-csucwaconference.md) in der Lync Server-Verwaltungsshell-Dokumentation.
+Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Details zu diesem Cmdlet finden Sie unter [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 ## Problembehandlung von Plug-In-Installationen auf Windows Server 2008 R2
 

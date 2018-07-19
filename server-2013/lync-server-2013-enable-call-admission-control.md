@@ -19,11 +19,11 @@ Nachdem Sie die Ihre Netzwerkeinstellungen für die Bereitstellung der Anrufsteu
 
 Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zu den folgenden Cmdlets:
 
-  - [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - [Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 
 ## So aktivieren Sie die Anrufsteuerung mithilfe der Verwaltungsshell
 

@@ -47,7 +47,7 @@ Verwenden Sie eines der folgenden Verfahren zum Löschen nicht zugewiesener Numm
     
 
     > [!TIP]
-    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>.
+    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 
 
@@ -59,6 +59,6 @@ Verwenden Sie eines der folgenden Verfahren zum Löschen nicht zugewiesener Numm
 
 #### Weitere Ressourcen
 
-[Remove-CsUnassignedNumber](remove-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Remove-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

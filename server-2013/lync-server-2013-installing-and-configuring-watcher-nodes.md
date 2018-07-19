@@ -140,7 +140,7 @@ Sie brauchen keine Watcher-Knoten zu installieren, um System Center Operations M
 
 
 > [!TIP]
-> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne dass dazu der Operations Manager installiert oder verwendet werden muss. Einzelheiten zu den verschiedenen Test-Cs-Cmdlets finden Sie im <A href="lync-server-2013-cmdlets-index.md">Index der Lync Server&nbsp;2013-Cmdlets</A>.
+> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne dass dazu der Operations Manager installiert oder verwendet werden muss. Einzelheiten zu den verschiedenen Test-Cs-Cmdlets finden Sie im <A href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Index der Lync Server&nbsp;2013-Cmdlets</A>.
 
 
 

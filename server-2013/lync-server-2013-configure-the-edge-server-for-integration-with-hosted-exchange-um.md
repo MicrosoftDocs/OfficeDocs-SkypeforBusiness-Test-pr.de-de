@@ -25,9 +25,9 @@ Führen Sie auf dem Edgeserver die folgenden Konfigurationsaufgaben aus, um Ihre
 
 Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zu den folgenden Cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 
 > [!IMPORTANT]
@@ -96,5 +96,5 @@ Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokum
 
 #### Weitere Ressourcen
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

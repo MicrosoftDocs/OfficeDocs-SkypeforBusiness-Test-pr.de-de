@@ -21,9 +21,9 @@ Ausführliche Informationen finden Sie unter [Kontaktobjektverwaltung für gehos
 
 Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zu den folgenden Cmdlets:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 
 > [!IMPORTANT]

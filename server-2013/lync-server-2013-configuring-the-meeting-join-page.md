@@ -53,7 +53,7 @@ Wenn Sie möchten, dass sich Benutzer mit Office Communicator 2007 R2 oder Lync 
     
         Get-CsWebServiceConfiguration
 
-3.  Führen Sie den folgenden Befehl aus und legen Sie die Parameter je nach Wunsch auf "True" oder "False" fest (ausführliche Informationen zu den Parametern für dieses Cmdlet finden Sie unter [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md) in der Dokumentation zur Verwaltungsshell für Lync Server 2013):
+3.  Führen Sie den folgenden Befehl aus und legen Sie die Parameter je nach Wunsch auf "True" oder "False" fest (ausführliche Informationen zu den Parametern für dieses Cmdlet finden Sie unter [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration) in der Dokumentation zur Verwaltungsshell für Lync Server 2013):
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
@@ -61,5 +61,5 @@ Wenn Sie möchten, dass sich Benutzer mit Office Communicator 2007 R2 oder Lync 
 
 #### Weitere Ressourcen
 
-[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
 

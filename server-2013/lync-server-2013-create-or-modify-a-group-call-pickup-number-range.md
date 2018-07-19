@@ -75,6 +75,6 @@ Die Nummernbereiche für die Anrufannahmegruppe müssen folgenden Regeln entspre
 
 #### Weitere Ressourcen
 
-[New-CsCallParkOrbit](new-cscallparkorbit.md)  
-[Set-CsCallParkOrbit](set-cscallparkorbit.md)
+[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)
 

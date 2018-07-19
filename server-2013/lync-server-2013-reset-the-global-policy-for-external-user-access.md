@@ -39,5 +39,5 @@ Die globale Richtlinie für den externen Zugriff kann mithilfe der Windows Power
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)-Cmdlet.
 

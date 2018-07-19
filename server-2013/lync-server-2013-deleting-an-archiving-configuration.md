@@ -51,7 +51,7 @@ Archivierungskonfigurationseinstellungen können ebenfalls mithilfe der Windows 
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
-Weitere Informationen dazu finden Sie im Hilfethema für das Cmdlet [Remove-CsArchivingConfiguration](remove-csarchivingconfiguration.md).
+Weitere Informationen dazu finden Sie im Hilfethema für das Cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingConfiguration).
 
 ## Siehe auch
 

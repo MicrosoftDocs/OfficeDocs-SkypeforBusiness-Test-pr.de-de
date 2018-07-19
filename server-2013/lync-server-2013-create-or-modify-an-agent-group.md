@@ -147,8 +147,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 #### Weitere Ressourcen
 
 [Verwalten von Agentgruppen für Reaktionsgruppen](lync-server-2013-managing-response-group-agent-groups.md)  
-[Get-CsService](get-csservice.md)  
-[New-CsRgsAgentGroup](new-csrgsagentgroup.md)  
-[Set-CsRgsAgentGroup](set-csrgsagentgroup.md)  
-[Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
+[New-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup)  
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)
 

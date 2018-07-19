@@ -141,9 +141,9 @@ Nähere Informationen zum erstmaligen Einrichten von Archivierungsrichtlinien be
 
 In Verwaltungsshell für Lync Server 2013 können Sie mit Cmdlets die Optionen implementieren, die in Systemsteuerung für Lync Server 2013 nicht verfügbar sind. Dazu gehören u. a.:
 
-  - **Archivierung doppelter Nachrichten**. Nähere Informationen finden Sie im Betriebshandbuch unter [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) und unter [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+  - **Archivierung doppelter Nachrichten**. Nähere Informationen finden Sie im Betriebshandbuch unter [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) und unter [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
-  - **Exportieren archivierter Daten**. Nähere Informationen finden Sie unter [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Exportieren archivierter Daten**. Nähere Informationen finden Sie unter [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 ## Wie kann ich auf archivierte Daten zugreifen?
 

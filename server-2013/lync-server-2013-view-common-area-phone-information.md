@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-20_
 
-Mit dem Cmdlet **Get-CsCommonAreaPhone** können Sie Informationen zu Telefonen in öffentlichen Bereichen abrufen, die für die Verwendung in Ihrer Organisation konfiguriert sind. Wenn Sie dieses Cmdlet ohne Parameter aufrufen, gibt es Informationen zu allen Ihren Telefonen in öffentlichen Bereichen zurück. Mit optionalen Parametern haben Sie verschiedene Möglichkeiten, Informationen zu filtern. Sie können beispielsweise alle Telefone in öffentlichen Bereichen zurückgeben, die Kontaktobjekte in einer angegebenen Organisationseinheit haben, oder alle Kontaktobjekte, die sich in einem bestimmten Gebäude befinden. Nähere Informationen zu **Get-CsCommonAreaPhone**-Parametern finden Sie unter [Get-CsCommonAreaPhone](get-cscommonareaphone.md).
+Mit dem Cmdlet **Get-CsCommonAreaPhone** können Sie Informationen zu Telefonen in öffentlichen Bereichen abrufen, die für die Verwendung in Ihrer Organisation konfiguriert sind. Wenn Sie dieses Cmdlet ohne Parameter aufrufen, gibt es Informationen zu allen Ihren Telefonen in öffentlichen Bereichen zurück. Mit optionalen Parametern haben Sie verschiedene Möglichkeiten, Informationen zu filtern. Sie können beispielsweise alle Telefone in öffentlichen Bereichen zurückgeben, die Kontaktobjekte in einer angegebenen Organisationseinheit haben, oder alle Kontaktobjekte, die sich in einem bestimmten Gebäude befinden. Nähere Informationen zu **Get-CsCommonAreaPhone**-Parametern finden Sie unter [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone).
 
 Führen Sie das Cmdlet **Get-CsCommonAreaPhone** entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell aus.
 
@@ -46,5 +46,5 @@ Führen Sie das Cmdlet **Get-CsCommonAreaPhone** entweder über die Verwaltungss
         Description        :
         ExUmEnabled        : False
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsCommonAreaPhone](get-cscommonareaphone.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone).
 

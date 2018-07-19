@@ -35,7 +35,7 @@ In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfig
 
 3.  Erstellen Sie auf der Lync Server-Verwaltungsshell-Befehlszeile eine neue Webdienstkonfiguration für jeden Directorserver, Enterprise Pool und Standard Edition-Server, der für die passive Authentifizierung aktiviert werden soll, indem Sie den folgenden Befehl ausführen:
     
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
 
     > [!WARNING]

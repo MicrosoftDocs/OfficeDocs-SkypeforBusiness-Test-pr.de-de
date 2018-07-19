@@ -39,19 +39,19 @@ Wenn alle Richtlinien außer den globalen Richtlinien zurückgegeben werden soll
 
 Die folgenden Cmdlets funktionieren sowohl im globalen, als auch im benutzerbasierten (Tag-) Bereich:
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
-  - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
+  - [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)
 
-  - [Get-CsDialPlan](get-csdialplan.md)
+  - [Get-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialPlan)
 
-  - [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)
+  - [Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
-  - [Get-CsPresencePolicy](get-cspresencepolicy.md)
+  - [Get-CsPresencePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPresencePolicy)
 
-  - [Get-CsVoicePolicy](get-csvoicepolicy.md)
+  - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
 
 > [!TIP]
@@ -64,5 +64,5 @@ Die folgenden Cmdlets funktionieren sowohl im globalen, als auch im benutzerbasi
 #### Konzepte
 
 [Identitäten, Bereiche und Mandanten](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Die Lync Online-Cmdlets](the-skype-for-business-online-cmdlets.md)
+[Die Lync Online-Cmdlets](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

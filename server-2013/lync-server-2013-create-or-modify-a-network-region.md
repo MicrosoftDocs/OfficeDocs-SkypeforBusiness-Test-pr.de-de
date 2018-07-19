@@ -25,13 +25,13 @@ Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackb
 
 Ausführliche Informationen zum Arbeiten mit Netzwerkregionen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für die folgenden Cmdlets:
 
-  - [New-CsNetworkRegion](new-csnetworkregion.md)
+  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](get-csnetworkregion.md)
+  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](set-csnetworkregion.md)
+  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
 
-  - [Remove-CsNetworkRegion](remove-csnetworkregion.md)
+  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
 
 ## Erstellen einer Netzwerkregion
 

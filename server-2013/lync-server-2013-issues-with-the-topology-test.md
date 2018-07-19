@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
 Genau wie mit dem Cmdlet **Test-CsTopology** können Sie auch mit Best Practice Analyzer überprüfen, ob Lync Server 2013 auf globaler Ebene ordnungsgemäß funktioniert. Standardmäßig prüft Best Practice Analyzer, ebenso wie das Cmdlet, die gesamte Lync Server 2013-Infrastruktur. Dabei wird überprüft, ob die erforderlichen Dienste ausgeführt werden und die geeigneten Benutzerrechte und -berechtigungen für diese Dienste und die beim Installieren von Lync Server 2013 erstellten universellen Sicherheitsgruppen festgelegt sind.
 
-Neben der Überprüfung der Gültigkeit der gesamten Lync Server-Topologie, können Sie mit **Test-CsTopology** die Gültigkeit eines spezifischen Diensts prüfen. Ausführliche Informationen zur Verwendung des Cmdlets zum Testen bestimmter Dienste finden Sie unter [Test-CsTopology](test-cstopology.md) in der Lync Server-Verwaltungsshell-Dokumentation. Nutzen Sie die folgenden Informationen, um Probleme mit Ihrer Topologie zu lösen.
+Neben der Überprüfung der Gültigkeit der gesamten Lync Server-Topologie, können Sie mit **Test-CsTopology** die Gültigkeit eines spezifischen Diensts prüfen. Ausführliche Informationen zur Verwendung des Cmdlets zum Testen bestimmter Dienste finden Sie unter [Test-CsTopology](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTopology) in der Lync Server-Verwaltungsshell-Dokumentation. Nutzen Sie die folgenden Informationen, um Probleme mit Ihrer Topologie zu lösen.
 
 
 > [!TIP]

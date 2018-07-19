@@ -23,7 +23,7 @@ Mit dem Cmdlets Windows PowerShell und **Get-CsMeetingRoom** können Sie Informa
 
 
 
-Wenn Sie das Cmdlet **Get-CsMeetingRoom** ohne Parameter anwenden, werden Informationen zu allen Ihren Konferenzgeräten zurückgegeben. Optionale Parameter bieten verschiedene Möglichkeiten zum Filtern von Informationen. Ausführliche Informationen finden Sie im Abschnitt zu Parametern unter [Get-CsMeetingRoom](get-csmeetingroom.md).
+Wenn Sie das Cmdlet **Get-CsMeetingRoom** ohne Parameter anwenden, werden Informationen zu allen Ihren Konferenzgeräten zurückgegeben. Optionale Parameter bieten verschiedene Möglichkeiten zum Filtern von Informationen. Ausführliche Informationen finden Sie im Abschnitt zu Parametern unter [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 
 
 ## Anzeigen von Informationen zu allen Ihren Konferenzgeräten
@@ -58,5 +58,5 @@ Wenn Sie das Cmdlet **Get-CsMeetingRoom** ohne Parameter anwenden, werden Inform
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsMeetingRoom](get-csmeetingroom.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 

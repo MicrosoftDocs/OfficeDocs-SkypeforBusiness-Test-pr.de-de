@@ -43,7 +43,7 @@ Konfigurationseinstellungen für die Pushbenachrichtigung können Sie auch mit d
         EnableApplePushNotificationService     : False
         EnableMicrosoftPushNotificationService : False
 
-Weitere Informationen finden Sie im Hilfethema für das [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration)-Cmdlet.
 
 ## Siehe auch
 

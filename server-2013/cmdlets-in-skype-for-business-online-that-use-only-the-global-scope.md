@@ -32,25 +32,25 @@ Die beiden Befehle sind identisch, da Windows PowerShell standardmäßig die glo
 
 Die folgenden Cmdlets funktionieren nur im globalen Gültigkeitsbereich:
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
 
-  - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
+  - [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
 
-  - [Get-CsTenantPublicProvider](get-cstenantpublicprovider.md)
+  - [Get-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantPublicProvider)
 
-  - [Remove-CsVoicePolicy](remove-csvoicepolicy.md)
+  - [Remove-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsVoicePolicy)
 
-  - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
+  - [Set-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingConfiguration)
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 
 Beachten Sie, dass das Cmdlet **Remove-CsVoicePolicy** eine Art von Anomalie darstellt. Zum Ersten setzt dieses Cmdlet nicht voraus, dass Sie den Parameter **Identity** angeben:
 
@@ -92,5 +92,5 @@ Zum Zweiten wird die globale VoIP-Richtlinie mit dem Cmdlet **Remove-CsVoicePoli
 #### Konzepte
 
 [Identitäten, Bereiche und Mandanten](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Die Lync Online-Cmdlets](the-skype-for-business-online-cmdlets.md)
+[Die Lync Online-Cmdlets](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

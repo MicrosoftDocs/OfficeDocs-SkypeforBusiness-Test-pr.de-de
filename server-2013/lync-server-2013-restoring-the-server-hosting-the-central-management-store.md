@@ -132,7 +132,7 @@ Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in 
     
 
     > [!TIP]
-    > Anstatt den Topologie-Generator auszuführen, können Sie die einzelnen Datenbanken mithilfe des <STRONG>Install-CsDatabase</STRONG>-Cmdlets erstellen und die Spiegelung mithilfe des Cmdlets <STRONG>Install-CsMirrorDatabase</STRONG> konfigurieren. Ausführliche Informationen finden Sie unter <A href="install-csdatabase.md">Install-CsDatabase</A> und <A href="install-csmirrordatabase.md">Install-CsMirrorDatabase</A>.
+    > Anstatt den Topologie-Generator auszuführen, können Sie die einzelnen Datenbanken mithilfe des <STRONG>Install-CsDatabase</STRONG>-Cmdlets erstellen und die Spiegelung mithilfe des Cmdlets <STRONG>Install-CsMirrorDatabase</STRONG> konfigurieren. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.
 
 
 

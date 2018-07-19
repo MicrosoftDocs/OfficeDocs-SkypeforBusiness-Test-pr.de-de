@@ -50,5 +50,5 @@ Sie können die Konfigurationseinstellungen für Clientversionen mithilfe des **
         DefaultURL    :
         Enabled       : True
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsClientVersionConfiguration](get-csclientversionconfiguration.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration).
 

@@ -59,7 +59,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen Workflow für Sammelanschl
     
 
     > [!TIP]
-    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe der Lync Server-Systemsteuerung oder mithilfe des <STRONG>Set-CsExternalAccessPolicy</STRONG> -Cmdlets konfigurieren, um den EnableOutsideAccess -Parameter auf True festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Partnerverbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Nähere Informationen dazu, wie sich Richtlinien auf Benutzer auswirken, finden Sie unter <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation in Lync Server 2013</A>. Nähere Informationen zur Partnerverbundeinstellung finden Sie unter <A href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</A>.
+    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe der Lync Server-Systemsteuerung oder mithilfe des <STRONG>Set-CsExternalAccessPolicy</STRONG> -Cmdlets konfigurieren, um den EnableOutsideAccess -Parameter auf True festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Partnerverbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Nähere Informationen dazu, wie sich Richtlinien auf Benutzer auswirken, finden Sie unter <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation in Lync Server 2013</A>. Nähere Informationen zur Partnerverbundeinstellung finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>.
 
     
 
@@ -257,7 +257,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen Workflow für Sammelanschl
     
 
     > [!TIP]
-    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -265,7 +265,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen Workflow für Sammelanschl
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    Ausführliche Informationen zum Erstellen der Warteschleife finden Sie unter [New-CsRgsQueue](new-csrgsqueue.md).
+    Ausführliche Informationen zum Erstellen der Warteschleife finden Sie unter [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Definieren Sie die durchzuführende Standardaktion, wenn ein Workflow während der Geschäftszeiten geöffnet wird, und speichern Sie sie in einer Variablen. Führen Sie an der Befehlszeile folgenden Befehl aus:
     
@@ -282,7 +282,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen Workflow für Sammelanschl
 
 6.  Wenn Sie Geschäftszeiten und Feiertage definieren möchten, müssen Sie diese erstellen, bevor Sie den Workflow erstellen oder ändern. Ausführliche Informationen finden Sie unter [(Optional) Definieren von Geschäftszeiten für Reaktionsgruppen in Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) und [(Optional) Definieren von Feiertagsschemas für Reaktionsgruppen in Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  Wenn Sie Ansagen für Anrufe wünschen, die außerhalb der Geschäftszeiten oder an Feiertagen empfangen werden, definieren Sie die Ansage mithilfe des **New-CsRgsPrompt**-Cmdlets, und definieren Sie mithilfe des **New-CsRgsCallAction**-Cmdlets die Aktion, die im Anschluss an die Ansage ausgeführt werden soll. Ausführliche Informationen finden Sie unter [New-CsRgsPrompt](new-csrgsprompt.md) und [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  Wenn Sie Ansagen für Anrufe wünschen, die außerhalb der Geschäftszeiten oder an Feiertagen empfangen werden, definieren Sie die Ansage mithilfe des **New-CsRgsPrompt**-Cmdlets, und definieren Sie mithilfe des **New-CsRgsCallAction**-Cmdlets die Aktion, die im Anschluss an die Ansage ausgeführt werden soll. Ausführliche Informationen finden Sie unter [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) und [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Rufen Sie den Dienstnamen für den Lync Server-Reaktionsgruppendienst ab, und weisen Sie ihn einer Variablen zu. Führen Sie an der Befehlszeile folgenden Befehl aus:
     
@@ -303,7 +303,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen Workflow für Sammelanschl
     
 
     > [!TIP]
-    > Ausführliche Informationen zu zusätzlichen optionalen Parametern finden Sie unter <A href="new-csrgsworkflow.md">New-CsRgsWorkflow</A> oder <A href="set-csrgsworkflow.md">Set-CsRgsWorkflow</A>
+    > Ausführliche Informationen zu zusätzlichen optionalen Parametern finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> oder <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
 
 
@@ -319,8 +319,8 @@ Verwenden Sie eines der folgenden Verfahren, um einen Workflow für Sammelanschl
 
 #### Weitere Ressourcen
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

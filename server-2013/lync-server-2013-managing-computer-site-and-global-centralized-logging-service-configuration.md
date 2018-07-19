@@ -31,7 +31,7 @@ Beispiel:
 
 
 
-Bei der Ausführung der Befehle [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md) und [Update-CsClsLogging](update-csclslogging.md) kann mit dem Parameter "–Computers" ein einzelner Computerbereich definiert werden. Der Parameter "–Computers" akzeptiert eine kommagetrennte Liste vollqualifizierter Domänennamen (FQDNs) für den Zielcomputer.
+Bei der Ausführung der Befehle [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) und [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) kann mit dem Parameter "–Computers" ein einzelner Computerbereich definiert werden. Der Parameter "–Computers" akzeptiert eine kommagetrennte Liste vollqualifizierter Domänennamen (FQDNs) für den Zielcomputer.
 
 
 > [!TIP]
@@ -43,7 +43,7 @@ Standort- und globale Bereiche werden in den Cmdlets **New-**, **Set-** und **Re
 
 
 > [!IMPORTANT]
-> Die aufgeführten Befehle enthalten möglicherweise Parameter und Konzepte, die in anderen Abschnitten behandelt werden. Die Beispielbefehle sollen die Verwendung des Parameters <STRONG>–Identity</STRONG> für die Definition eines Bereichs zeigen. Die anderen Parameter sind der Vollständigkeit halber und zur Angabe des Bereichs enthalten. Ausführliche Informationen zu den <STRONG>Set-CsClsConfiguration</STRONG>-Cmdlets finden Sie in der Dokumentation zu <A href="set-csclsconfiguration.md">Set-CsClsConfiguration</A>.
+> Die aufgeführten Befehle enthalten möglicherweise Parameter und Konzepte, die in anderen Abschnitten behandelt werden. Die Beispielbefehle sollen die Verwendung des Parameters <STRONG>–Identity</STRONG> für die Definition eines Bereichs zeigen. Die anderen Parameter sind der Vollständigkeit halber und zur Angabe des Bereichs enthalten. Ausführliche Informationen zu den <STRONG>Set-CsClsConfiguration</STRONG>-Cmdlets finden Sie in der Dokumentation zu <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</A>.
 
 
 
@@ -129,7 +129,7 @@ Der Befehl teilt dem CLSAgent auf allen Computern und in allen Pools am Standort
     
 
     > [!TIP]
-    > "New-CsClsConfiguration" bietet Zugriff auf eine Vielzahl optionaler Konfigurationseinstellungen. Detaillierte Informationen zu den Konfigurationsoptionen finden Sie unter <A href="get-csclsconfiguration.md">Get-CsClsConfiguration</A> und <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Grundlegendes zu Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst</A>.
+    > "New-CsClsConfiguration" bietet Zugriff auf eine Vielzahl optionaler Konfigurationseinstellungen. Detaillierte Informationen zu den Konfigurationsoptionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</A> und <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Grundlegendes zu Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst</A>.
 
     
     Wenn Sie z. B. eine neue Konfiguration erstellen möchten, die einen Netzwerkordner für Cachedateien, den Rollover-Zeitraum für die Protokolldateien und die Rollover-Größe für die Protokolldateien definiert, können Sie folgenden Befehl eingeben:
@@ -167,8 +167,8 @@ Wenn Sie eine Konfiguration auf Standortebene löschen, verwendet der Standort a
 #### Weitere Ressourcen
 
 [Verwalten der Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst mithilfe von PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 
