@@ -45,5 +45,5 @@ In den Themen in diesem Abschnitt werden die Konfigurationsoptionen, Parameter u
 #### Konzepte
 
 [Übersicht über den zentralisierten Protokollierungsdienst](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Cmdlets für die zentralisierte Protokollierung](lync-server-2013-centralized-logging-cmdlets.md)
+[Cmdlets für die zentralisierte Protokollierung](https://docs.microsoft.com/en-us/powershell/module/skype/)
 
