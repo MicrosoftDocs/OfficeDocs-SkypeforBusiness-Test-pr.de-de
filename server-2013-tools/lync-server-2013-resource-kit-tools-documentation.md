@@ -428,6 +428,7 @@ Der Verwendungszweck des Anrufparkserver-Tool besteht darin, Befehlzeilenzugriff
 
 Es liegen keine Anforderungen vor, wenn dieses Tool auf demselben Computer wie der Anrufparkserver ausgeführt wird. Wenn dieses Tool auf einem Remotecomputer ausgeführt wird, muss die von Lync Server 2013 verwendete SQL Server-Datenbank so konfiguriert sein, dass Remotezugriff zulässig ist. Die "Anrufparkuhr" muss mit einer SQL Server-Datenbankverbindungszeichenfolge so konfiguriert sein, dass sie eine Verbindung mit SQL Server des Pools herstellt. Diese SQL Server-Datenbankverbindungszeichenfolge wird in der Konfigurationsdatei **parkometer.exe.config** definiert. Diese muss sich im selben Verzeichnis wie die Datei "parkometer.exe" befinden. Die folgende XML-Datei ist ein Beispiel für eine "parkometer.exe.config"-Datei. Die Parameter, die konfiguriert werden müssen, sind Benutzername (beispielsweise meineDomäne\\Administrator), Kennwort (beispielsweise MeinKennwort) und Hostname (beispielsweise MeinServer).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -438,6 +439,7 @@ Es liegen keine Anforderungen vor, wenn dieses Tool auf demselben Computer wie d
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## Beispiele
 
