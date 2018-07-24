@@ -104,39 +104,21 @@ Unterstützte Edgefailoverszenarien mit DNS-Lastenausgleich umfassen Punkt-zu-Pu
 
 **\*** Failover für Verbindungen mit öffentlichen Chatdiensten und Partnerverbund mit Servern, auf denen Office Communications Server nicht mit DNS-Lastenausgleich verfügbar ist. Das Failover für Exchange UM (Remotebenutzer) mit DNS-Lastenausgleich erfordert Exchange Server 2010 Support Package 1 oder neuer.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398990.note(OCS.15).gif" title="note" alt="note" />Hinweis:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><br />
-Für Topologien mit einem einzelnen Edgeserver und mit einem skalierten Edgeserver (mit DNS-Lastenausgleich) kann Folgendes verwendet werden:
-<ul>
-<li><p>Routingfähige öffentliche IP-Adressen</p></li>
-<li><p>Nicht-routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressenübersetzung (Network Address Translation, NAT) verwendet wird</p>
-<div class="alert">
-
-> [!TIP]
-> Bei Verwendung einer öffentlichen oder privaten IP-Adresse mit NAT, verwenden Sie weiterhin dieselbe Anzahl an IP-Adressen basierend auf Ihrer Konfigurationsauswahl im Topologie-Generator. Sie können den Edgeserver entweder für die Verwendung einer einzelnen IP-Adresse mit unterschiedlichen Ports für Dienste konfigurieren oder unterschiedliche IP-Adressen für Dienste mit demselben Port (standardmäßig TCP&nbsp;443) verwenden.
-
-
-</div></li>
-</ul>
-Wenn Sie sich für die Verwendung von nicht-routingfähigen privaten IP-Adressen mit NAT entscheiden:
-<ul>
-<li><p>Sie müssen routingfähige private IP-Adressen für alle drei externen Schnittstellen verwenden.</p></li>
-<li><p>Sie müssen ein symmetrisches NAT-Gerät für eingehenden und ausgehenden Datenverkehr konfigurieren.</p></li>
-</ul>
-Für eine Topologie mit skaliertem Edgeserver (mit Hardwarelastenausgleich) müssen öffentliche IP-Adressen verwendet werden.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Für Topologien mit einem einzelnen Edgeserver und mit einem skalierten Edgeserver (mit DNS-Lastenausgleich) kann Folgendes verwendet werden:
+> <ul>
+> <li><p>Routingfähige öffentliche IP-Adressen</p></li>
+> <li><p>Nicht-routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressenübersetzung (Network Address Translation, NAT) verwendet wird</p>
+  > [!TIP]  
+  > Bei Verwendung einer öffentlichen oder privaten IP-Adresse mit NAT, verwenden Sie weiterhin dieselbe Anzahl an IP-Adressen basierend auf Ihrer Konfigurationsauswahl im Topologie-Generator. Sie können den Edgeserver entweder für die Verwendung einer einzelnen IP-Adresse mit unterschiedlichen Ports für Dienste konfigurieren oder unterschiedliche IP-Adressen für Dienste mit demselben Port (standardmäßig TCP&nbsp;443) verwenden.
+> </li>
+> </ul>
+> Wenn Sie sich für die Verwendung von nicht-routingfähigen privaten IP-Adressen mit NAT entscheiden:
+> <ul>
+> <li><p>Sie müssen routingfähige private IP-Adressen für alle drei externen Schnittstellen verwenden.</p></li>
+> <li><p>Sie müssen ein symmetrisches NAT-Gerät für eingehenden und ausgehenden Datenverkehr konfigurieren.</p></li>
+> </ul>
+> Für eine Topologie mit skaliertem Edgeserver (mit Hardwarelastenausgleich) müssen öffentliche IP-Adressen verwendet werden.
 
 
 Lync Server 2013 unterstützt das Platzieren von externen Zugriffs-, Webkonferenz- und A/V-Edgeschnittstellen hinter einem Router oder einer Firewall, die eine Netzwerkadressenübersetzung (NAT) für Topologien mit einzelnen sowie skalierten und konsolidierten Edgeservern durchführen.

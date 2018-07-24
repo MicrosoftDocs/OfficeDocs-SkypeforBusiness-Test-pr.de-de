@@ -25,18 +25,8 @@ Bevor Sie Ihre VoIP-Routingkonfiguration tatsächlich bereitstellen, sollten Sie
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Wenn Sie einen Teil Ihrer VoIP-Routingkonfiguration löschen, beispielsweise einen Wählplan, eine VoIP-Richtlinie, VoIP-Route oder Telefonverwendung, sollten Sie Ihre Testfälle für das VoIP-Routing überprüfen und aktualisieren. Die Lync Server-Systemsteuerung zeigt keine Warnungen zu Testfällen an, die aufgrund geänderter Konfigurationen nicht mehr gültig sind.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Wenn Sie einen Teil Ihrer VoIP-Routingkonfiguration löschen, beispielsweise einen Wählplan, eine VoIP-Richtlinie, VoIP-Route oder Telefonverwendung, sollten Sie Ihre Testfälle für das VoIP-Routing überprüfen und aktualisieren. Die Lync Server-Systemsteuerung zeigt keine Warnungen zu Testfällen an, die aufgrund geänderter Konfigurationen nicht mehr gültig sind.
 
 
 ## In diesem Abschnitt
