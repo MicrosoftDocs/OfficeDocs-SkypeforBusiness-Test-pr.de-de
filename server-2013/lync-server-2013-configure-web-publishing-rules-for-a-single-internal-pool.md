@@ -146,18 +146,8 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
 
 11. Klicken Sie auf den Namen der Serverfarm. In der Featureansicht von IIS-Manager doppelklicken Sie unter **Serverfarm** auf **Routingregeln** . Deaktivieren Sie im Dialogfeld "Routingregeln" unter "Routing" das Kontrollkästchen neben "SSL-Verschiebung zulassen". Wenn die Möglichkeit zum Deaktivieren dieses Kontrollkästchens nicht besteht, aktivieren Sie das Kontrollkästchen für **URL-Rewrite zur Untersuchung eingehender Anforderungen verwenden** . Klicken Sie auf **Übernehmen** , um Ihre Änderungen zu speichern.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>SSL-Verschiebung über den Reverseproxy wird nicht unterstützt.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+	> SSL-Verschiebung über den Reverseproxy wird nicht unterstützt.
 
 
 12. Wiederholen Sie die Schritte 5-11 für jede URL, die durch den Reverseproxy übergeben werden muss. Eine allgemeine Liste wäre z. B. die folgende:

@@ -45,18 +45,8 @@ Am 1. Juli 2012 wird das neue Zertifikat als das aktuelle OAuthTokenIssuer-Zer
 
 Falls Sie Windows PowerShell nicht verwenden möchten, können Sie auch mithilfe der MMC-Konsole "Zertifikate" ein Zertifikat von einem Front-End-Server exportieren und anschließend dieses Zertifikat auf allen Ihren anderen Front-End-Servern importieren. Dabei müssen Sie unbedingt den privaten Schlüssel zusammen mit dem Zertifikat selbst exportieren.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>In diesem Fall muss das Verfahren auf jedem Front-End-Server ausgeführt werden. Beim Exportieren und Importieren von Zertifikaten auf diese Weise repliziert Lync Server 2013 dieses Zertifikat nicht auf jedem Front-End-Server.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> In diesem Fall muss das Verfahren auf jedem Front-End-Server ausgeführt werden. Beim Exportieren und Importieren von Zertifikaten auf diese Weise repliziert Lync Server 2013 dieses Zertifikat nicht auf jedem Front-End-Server.
 
 
 Nachdem das Zertifikat auf allen Ihren Front-End-Servern importiert wurde, kann es dann anstatt mit Windows PowerShell mithilfe des Lync Server-Bereitstellungs-Assistenten zugewiesen werden. Führen Sie zum Zuweisen eines Zertifikats mithilfe des Bereitstellungs-Assistenten die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:

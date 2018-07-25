@@ -113,18 +113,8 @@ Der nicht standardmäßige SQL Server-Port und -Alias müssen in der Datenbankin
     
     ![Erstellen eines neuen Aliases](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Erstellen eines neuen Aliases")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Achten Sie darauf, den gleichen nicht standardmäßigen Port einzugeben, den Sie im vorherigen Schritt verwendet haben, da dies der Port ist, auf dem SQL Server empfangsbereit ist. Wenn ein konfigurierter Alias sich mit dem falschen SQL Server-FQDN oder der falschen Instanz verbindet, deaktivieren Sie das zugehörige Netzwerkprotokoll und aktivieren Sie es dann erneut. Dadurch werden die zwischengespeicherten Verbindungsinformationen gelöscht und der Client kann sich korrekt verbinden.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+	> Achten Sie darauf, den gleichen nicht standardmäßigen Port einzugeben, den Sie im vorherigen Schritt verwendet haben, da dies der Port ist, auf dem SQL Server empfangsbereit ist. Wenn ein konfigurierter Alias sich mit dem falschen SQL Server-FQDN oder der falschen Instanz verbindet, deaktivieren Sie das zugehörige Netzwerkprotokoll und aktivieren Sie es dann erneut. Dadurch werden die zwischengespeicherten Verbindungsinformationen gelöscht und der Client kann sich korrekt verbinden.
 
 
 **Erstellen eines DNS CNAME Resource Record**

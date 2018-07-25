@@ -41,18 +41,8 @@ Um Reaktionsgruppen aus einem Vorversionspool zu Lync Server 2013 zu migrieren, 
 
 Im Anschluss an die Migration der Reaktionsgruppen müssen Sie die URL aktualisieren, die von formellen Agents zum An- und Abmelden bei Reaktionsgruppen verwendet wird. Außerdem müssen Sie mit dem Lync Server-Systemsteuerung- oder mit dem Lync Server-Verwaltungsshell-Cmdlet überprüfen, ob alle Agentgruppen, Warteschlangen und Workflows erfolgreich verschoben wurden.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bei der Migration von Reaktionsgruppen werden die Office Communications Server 2007 R2-Reaktionsgruppen nicht entfernt. Es wird auch nicht empfohlen, die Office Communications Server 2007 R2-Reaktionsgruppen zu entfernen. Wenn Sie eine Office Communications Server 2007 R2-Reaktionsgruppe entfernen, können die Reaktionsgruppen in Lync Server 2013 nicht mehr verwendet werden.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Bei der Migration von Reaktionsgruppen werden die Office Communications Server 2007 R2-Reaktionsgruppen nicht entfernt. Es wird auch nicht empfohlen, die Office Communications Server 2007 R2-Reaktionsgruppen zu entfernen. Wenn Sie eine Office Communications Server 2007 R2-Reaktionsgruppe entfernen, können die Reaktionsgruppen in Lync Server 2013 nicht mehr verwendet werden.
 
 
 

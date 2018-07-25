@@ -23,18 +23,8 @@ Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gr
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Die Auswahl des verwendeten Hashdigests und Signaturalgorithmus hängt von den Clients und Servern ab, die das Zertifikat verwenden sollen, sowie von den anderen Computern und Geräten, mit denen Clients und Server kommunizieren sollen, die ebenfalls imstande sein müssen, die im Zertifikat benutzten Algorithmen zu verwenden. Informationen zu den vom Betriebssystem und einigen Clientanwendungen Digestlängen finden Sie unter <a href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Die Auswahl des verwendeten Hashdigests und Signaturalgorithmus hängt von den Clients und Servern ab, die das Zertifikat verwenden sollen, sowie von den anderen Computern und Geräten, mit denen Clients und Server kommunizieren sollen, die ebenfalls imstande sein müssen, die im Zertifikat benutzten Algorithmen zu verwenden. Informationen zu den vom Betriebssystem und einigen Clientanwendungen Digestlängen finden Sie unter <a href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</a>.
 
 
 Für jeden Standard Edition-Server oder Front-End-Server werden bis zu vier Zertifikate benötigt: das oAuthTokenIssuer -Zertifikat, ein Standardzertifikat, ein internes Webzertifikat und ein externes Webzertifikat. Es ist jedoch möglich, mit geeigneten Einträgen für alternative Antragstellernamen ein einzelnes Standardzertifikat sowie das oAuthTokenIssuer -Zertifikat anzufordern und zuzuweisen. Ausführliche Informationen zu den Zertifikatanforderungen finden Sie unter [Anforderungen an Zertifikate für interne Server in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md). Ausführliche Informationen zum Anfordern, Zuweisen und Installieren des oAuthTokenIssuer -Zertifikats finden Sie unter [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md).

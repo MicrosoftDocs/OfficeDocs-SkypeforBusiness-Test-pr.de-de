@@ -43,18 +43,8 @@ Nach der Migration der Reaktionsgruppen müssen Sie Lync Server-Systemsteuerung-
 
 Wenn Sie Reaktionsgruppen migrieren, werden die Lync Server 2010-Reaktionsgruppen nicht entfernt. Wenn Sie nach der Migration Reaktionsgruppen mithilfe von Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell verwalten, können Sie sowohl die Lync Server 2010- als auch die Lync Server 2013-Reaktionsgruppen sehen. Sie sollten nur Updates für die Lync Server 2013-Reaktionsgruppen installieren. Die Lync Server 2010-Reaktionsgruppen werden nur zu Wiederherstellungszwecken beibehalten.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nachdem die Migration abgeschlossen und neue Reaktionsgruppen erstellt wurden, werden in der Lync Server-Systemsteuerung und in der Lync Server-Verwaltungsshell die Lync Server 2010- und Lync Server 2013-Versionen der einzelnen Reaktionsgruppen angezeigt. Verwenden Sie nicht Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell zum Entfernen der Lync Server 2010-Reaktionsgruppen. Wenn Sie eine Reaktionsgruppe entfernen, stellt die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, die Arbeit ein. Die Lync Server 2010-Reaktionsgruppen werden entfernt, wenn Sie den Lync Server 2010-Pool außer Betrieb nehmen.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Nachdem die Migration abgeschlossen und neue Reaktionsgruppen erstellt wurden, werden in der Lync Server-Systemsteuerung und in der Lync Server-Verwaltungsshell die Lync Server 2010- und Lync Server 2013-Versionen der einzelnen Reaktionsgruppen angezeigt. Verwenden Sie nicht Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell zum Entfernen der Lync Server 2010-Reaktionsgruppen. Wenn Sie eine Reaktionsgruppe entfernen, stellt die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, die Arbeit ein. Die Lync Server 2010-Reaktionsgruppen werden entfernt, wenn Sie den Lync Server 2010-Pool außer Betrieb nehmen.
 
 
 
