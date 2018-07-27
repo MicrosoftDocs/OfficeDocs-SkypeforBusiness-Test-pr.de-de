@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Bei der Auswahl einer Topologie können Sie eine der folgenden unterstützten Optionen verwenden:
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie bereits Erfahrung mit Microsoft Lync Server 2010 haben, werden Sie feststellen, dass die meisten Schritte im Vergleich zur Vorgängerversion unverändert sind, sofern nicht anders angegeben.
 
 
@@ -109,7 +109,7 @@ Unterstützte Edgefailoverszenarien mit DNS-Lastenausgleich umfassen Punkt-zu-Pu
 > <ul>
 > <li><p>Routingfähige öffentliche IP-Adressen</p></li>
 > <li><p>Nicht-routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressenübersetzung (Network Address Translation, NAT) verwendet wird</p>
-  > [!TIP]  
+  > [!NOTE]  
   > Bei Verwendung einer öffentlichen oder privaten IP-Adresse mit NAT, verwenden Sie weiterhin dieselbe Anzahl an IP-Adressen basierend auf Ihrer Konfigurationsauswahl im Topologie-Generator. Sie können den Edgeserver entweder für die Verwendung einer einzelnen IP-Adresse mit unterschiedlichen Ports für Dienste konfigurieren oder unterschiedliche IP-Adressen für Dienste mit demselben Port (standardmäßig TCP&nbsp;443) verwenden.
 > </li>
 > </ul>

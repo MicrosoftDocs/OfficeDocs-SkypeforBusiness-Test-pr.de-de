@@ -20,7 +20,7 @@ Zum Einrichten eines Partnerverbunds mit einem Microsoft Lync Online 2010-Kunden
   - Konfigurieren Sie die Unterstützung für die Domäne des Lync Online 2010-Kunden (z. B. "contoso.onmicrosoft.com"). Wie im Abschnitt [Voraussetzungen für den Partnerverbund mit einem Lync Online-Kunden](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) dieser Dokumentation beschrieben, sollten Sie den Partnerverbund für Ihre Organisation bereits aktiviert haben. Zum Aktivieren des Partnerverbunds muss die Methode zur Steuerung des Zugriffs durch Partnerdomänen angegeben werden. Wenn in Ihrer Organisation die Ermittlung verwendet wird, kann die Domäne optional der Liste der zugelassenen Domänen Ihrer Organisation hinzugefügt werden. Wenn Sie die Domänenermittlung nicht aktiviert haben, müssen Sie den Domänennamen des Lync Online-Kunden Ihrer Liste der zulässigen Domänen hinzufügen. Sie können einen Domänennamen entweder mit der Lync Server-Systemsteuerung oder mit dem Cmdlet **New-CSAllowedDomain** hinzufügen. Ausführliche Informationen zur Verwendung der Lync Server-Systemsteuerung, auch zum Aktivieren der Ermittlung von Domänen, finden Sie unter [Verwalten von SIP-Partnerverbundanbietern für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) in der Betriebsdokumentation. Ausführliche Informationen zum Hinzufügen einer Domäne mit dem Cmdlet **New-CSAllowedDomain** finden Sie unter [New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain) in der Betriebsdokumentation.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ein Lync Online-Kunde kann über mehrere Domänen verfügen. Wenn Sie einen Partnerverbund mit mehreren Domänen einrichten möchten, müssen Sie die Unterstützung für jede der betreffenden Domänen konfigurieren. Zudem muss der Administrator des Lync Online-Kunden den Partnerverbund für jede dieser Domänen aktivieren.
 
 
@@ -28,7 +28,7 @@ Zum Einrichten eines Partnerverbunds mit einem Microsoft Lync Online 2010-Kunden
   - Konfigurieren Sie die Unterstützung für den Hostinganbieter der Lync Online 2010-Kundendomäne, mit der Sie einen Partnerverbund einrichten möchten. Verwenden Sie das Verfahren in diesem Abschnitt, um die Unterstützung für Hostinganbieter zu konfigurieren.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Schritt ist nur für den Partnerverbund mit einer Domäne eines Lync Online-Kunden erforderlich, nicht für den Partnerverbund mit einer Domäne, die lokal am Standort eines Verbundpartners bereitgestellt wurde.
 
 

@@ -30,7 +30,7 @@ Die erforderlichen Zertifikate für die Unterstützung des Zugriffs durch extern
 Wenngleich Sie eine öffentliche Zertifizierungsstelle für das interne Edgezertifikat verwenden können, wird die Verwendung einer internen Unternehmenszertifizierungsstelle für diese anderen Zertifikate empfohlen, um die Kosten für Zertifikate zu minimieren. Eine Zusammenfassung der Anforderungen für Zertifikate für Edgeserver finden Sie unter [Zertifikatanforderungen für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Bei der Installation eines Edgeserver umfasst Setup einen Zertifikats-Assistenten, der die Aufgaben zum Anfordern, Zuweisen und Installieren von Zertifikaten vereinfacht (eine Beschreibung finden Sie im Abschnitt <A href="lync-server-2013-set-up-edge-certificates.md">Einrichten von Edgezertifikaten für Lync Server 2013</A>). Wenn Sie die Zertifikate vor der Installation eines Edgeserver anfordern möchten (um bei der eigentlichen Bereitstellung der Edgeserver-Komponenten Zeit zu sparen), können Sie zu diesem Zweck interne Server verwenden. Sie müssen lediglich sicherstellen, dass die Zertifikate exportierbar sind und alle erforderlichen alternativen Antragstellernamen enthalten. Die Verfahren zur Verwendung interner Server zum Anfordern von Zertifikaten sind in dieser Dokumentation nicht beschrieben.
 
 

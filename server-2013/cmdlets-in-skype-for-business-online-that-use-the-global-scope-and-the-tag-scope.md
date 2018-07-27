@@ -28,7 +28,7 @@ Wenn Sie eine benutzerbasierte Richtlinie mit der Identität **RedmondAccessPoli
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
 
-> [!TIP]
+> [!NOTE]
 > Beim Verweis auf eine benutzerbasierte Richtlinie ist das Tag <STRONG>prefix</STRONG> optional. Die folgende Syntax, die das Präfix enthält, ist ebenfalls gültig:<BR>Get-CsExternalAccessPolicy –Identity "tag:RedmondAccessPolicy"
 
 
@@ -54,7 +54,7 @@ Die folgenden Cmdlets funktionieren sowohl im globalen, als auch im benutzerbasi
   - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
 
-> [!TIP]
+> [!NOTE]
 > Trotz des Namens sind Wählpläne, funktional gesehen, Richtlinien. Der Begriff <EM>Wählplan</EM> wird anstelle von Wählrichtlinie verwendet, um die Terminologie im Hinblick auf ältere Versionen von Lync Server konsistent zu halten.
 
 

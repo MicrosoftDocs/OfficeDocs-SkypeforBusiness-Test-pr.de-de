@@ -24,7 +24,7 @@ Selbst wenn die Informationen auf dem Zertifikat gültig sind, muss es eine Mög
 Jedes Zertifikat ist mit einem öffentlichen Schlüssel verbunden. Der auf dem Zertifikat benannte Server verfügt über einen entsprechenden privaten Schlüssel, der nur ihm bekannt ist. Ein sich verbindender Client oder Server verwendet den öffentlichen Schlüssel, um eine beliebige Information zu verschlüsseln und sendet diese an den Server. Wenn der Server die Information entschlüsselt und als Klartext zurückgibt, kann die sich verbindende Entität sicher sein, dass der Server über den privaten Schlüssel zum Zertifikat verfügt und es sich daher um den auf dem Zertifikat benannten Server handelt.
 
 
-> [!TIP]
+> [!NOTE]
 > Nicht alle öffentlichen Zertifizierungsstellen sind kompatibel mit den Anforderungen von Lync Server&nbsp;2013-Zertifikaten. Wir empfehlen Ihnen, für öffentliche Zertifikate auf die Auflistung von zertifizierten öffentlichen Zertifizierungsstellenanbietern zurückzugreifen. Ausführliche Informationen finden Sie unter „Partner für Unified Communications-Zertifikate“ unter <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.
 
 
@@ -38,7 +38,7 @@ Lync Server 2013 erfordert, dass alle Serverzertifikate mindestens einen Sperrli
 Lync Server 2013 erfordert, dass alle Serverzertifikate die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für den Zweck der Serverauthentifizierung unterstützen. Die Konfiguration des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat für den Zweck der Serverauthentifizierung gültig ist. Diese EKU ist wesentlich für MTLS. Es ist möglich, mehr als einen Eintrag in der EKU zu haben und damit das Zertifikat für mehrere Zwecke zu aktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Die EKU für die Clientauthentifizierung wird für ausgehende MTLS-Verbindungen von Live Communications Server 2003 und Live Communications Server 2005 benötigt, ist aber nicht mehr erforderlich. Dennoch muss diese EKU auf Edgeservern vorhanden sein, die sich über öffentliche Chatverbindungen mit AOL verbinden.
 
 

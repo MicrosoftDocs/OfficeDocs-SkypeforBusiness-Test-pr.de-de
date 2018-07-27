@@ -20,7 +20,7 @@ Wenn Sie die AutoErmittlung für die Clients mobiler Geräte verwenden möchten,
 Wenn Sie HTTPS für anfängliche Lync Server 2013-AutoErmittlungsdienst-Anforderungen verwenden und die Listen der alternativen Antragstellernamen für die Reverseproxyzertifikate aktualisieren möchten, müssen Sie das aktualisierte öffentliche Zertifikat dem SSL-Listener (Secure Sockets Layer) auf dem Reverseproxy zuweisen. Ausführliche Informationen zu den erforderlichen Einträgen für die alternativen Antragstellernamen finden Sie unter [Technische Anforderungen für die Mobilität in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Dann müssen Sie den bestehenden Listener für die externen Webdienste bearbeiten oder eine neue Webveröffentlichungsregel für die externe AutoErmittlungsdienst-URL erstellen. Wenn Sie nicht bereits eine Webveröffentlichungsregel für die externe Lync Server 2013-Webdienste-URL für den Front-End-Pool haben, müssen Sie auch dafür eine Regel veröffentlichen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Veröffentlichungsregel und der Listener für Reverseproxys können sowohl für die externen Webdienste als auch für den AutoErmittlungsdienst gelten, solange das dem Listener zugewiesene Zertifikat jeweils den erforderlichen Antragstellernamen und den alternativen Antragstellernamen für beides enthält. Ausführliche Informationen zur Standardkonfiguration des Weblisteners und die Veröffentlichungsregel finden Sie unter <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Einrichten von Reverseproxyservern für Lync Server 2013</A>.
 
 
@@ -30,7 +30,7 @@ Wenn Sie HTTP für die anfänglichen AutoErmittlungsdienst-Anforderungen verwend
 Die Vorgehensweisen in diesem Abschnitt beschreiben, wie die neuen Webveröffentlichungsregeln in Microsoft Forefront Threat Management Gateway 2010 für die automatische Ermittlung erstellt oder bearbeitet werden können.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei diesen Vorgehensweisen wird vorausgesetzt, dass die Standard Edition von Forefront Threat Management Gateway (TMG) 2010 installiert ist. Wenn Sie einen anderen Reverseproxy verwenden, sind die Vorgänge ähnlich, müssen jedoch der Dokumentation für das Drittanbieterprodukt zugeordnet werden.
 
 

@@ -38,7 +38,7 @@ Bevor Sie mit der Vorbereitung von Active Directory-Domänendienste für Lync Se
   - Die Gesamtstruktur, in der Sie Lync Server bereitstellen, wird auf eine Gesamtstrukturfunktionsebene von Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 oder mindestens Windows Server 2003 heraufgestuft.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Informationen zum Ändern der Funktionsebene von Domänen oder Gesamtstrukturen finden Sie in der TechNet-Bibliothek unter "Heraufstufen von Domänen- und Gesamtstrukturfunktionsebenen" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=263775">http://go.microsoft.com/fwlink/?linkid=263775</A>.
 
 

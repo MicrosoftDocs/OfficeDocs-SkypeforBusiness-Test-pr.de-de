@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Lync Server 2013 unterstützt Notrufe der erweiterten Notfalldienste (Enhanced 9-1-1, E9-1-1) von Lync-Clients und Lync Phone Edition-Geräten. Wenn Sie Lync Server 2013 für E9-1-1 konfigurieren, enthalten über Lync 2013 oder Lync Phone Edition getätigte Notrufe Standortinformationen für Notrufmaßnahmen (Emergency Response Location, ERL) aus der Standortinformationsdienst-Datenbank. Verwenden Sie die Verfahren in diesem Abschnitt, um die Standortrichtlinie zu verwalten.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zum Bereitstellen erweiterter Enterprise-VoIP-Features, z.&nbsp;B. E9-1-1 und Standortinformationsdienst, finden Sie unter <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Bereitstellen von erweiterten Enterprise-VoIP-Features in Lync Server 2013</A>.
 
 

@@ -22,7 +22,7 @@ Wenn eine SNMP-Anwendung installiert ist und der Standortinformationsdienst kein
 Ausführliche Informationen finden Sie unter [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
 
-> [!TIP]
+> [!NOTE]
 > MAC-Adressen sind auf Computern unter Windows&nbsp;8 nicht verfügbar.
 
 

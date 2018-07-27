@@ -40,7 +40,7 @@ Vor der Außerbetriebnahme eines Pools müssen Sie für jedes Konferenzverzeichn
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
 
-> [!TIP]
+> [!NOTE]
 > Möglicherweise tritt ein Fehler auf (siehe unten), der dadurch verursacht wird, dass die Lync Server-Verwaltungsshell einen aktualisierten Berechtigungssatz von Active Directory benötigt. Sie können den Fehler beheben, indem Sie das aktuelle Fenster schließen, eine neue Lync Server-Verwaltungsshell öffnen und den Befehl erneut ausführen.
 
 

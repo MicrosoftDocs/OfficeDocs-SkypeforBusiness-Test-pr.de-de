@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-18_
 Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu löschen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die globale PIN-Richtlinie kann nicht gelöscht werden.
 
 

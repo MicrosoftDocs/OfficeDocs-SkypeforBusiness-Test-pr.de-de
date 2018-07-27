@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Sie können detaillierte Informationen zu bereits importierten Geräteupdateregeln anzeigen, einschließlich Typ, Modell und Marke der Geräte, auf die das Update zutrifft, Version und Typ des Updates sowie Gebietsschema und Pool für das Update. Die Informationen stehen für alle importierten Geräteupdateregeln zur Verfügung – Regeln mit ausstehender Genehmigung, bereitgestellte (genehmigte), zurückgerufene (wiederhergestellte) und nicht verwendete (zurückgesetzte) Regeln. Sie können entweder über die Lync Server-Systemsteuerung oder die Windows PowerShell auf diese Informationen zugreifen.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zum Importieren, Genehmigen, Zurücksetzen, Wiederherstellen und Entfernen von Regeln finden Sie in den Themen, die unter <A href="lync-server-2013-device-update-rules.md">Geräteaktualisierungsregeln in Lync Server&nbsp;2013</A> aufgelistet sind.
 
 
@@ -36,7 +36,7 @@ Sie können detaillierte Informationen zu bereits importierten Geräteupdaterege
 Detaillierte Informationen zu allen Geräteupdateregeln können Sie auch mithilfe der Windows PowerShell und dem **Get-CsDeviceUpdateRule**-Cmdlet anzeigen. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 

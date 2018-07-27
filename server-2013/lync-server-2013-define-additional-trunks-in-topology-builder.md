@@ -22,13 +22,13 @@ Ein Trunk ist eine durch folgendes Tupel eindeutig identifizierte logische Verbi
 { Vermittlungsserver-FQDN, Vermittlungsserver-Überwachungsport (TLS oder TCP) : Gateway-IP und FQDN, Gatewayüberwachungsport}
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie ein PSTN-Gateway und einen Stammtrunk mit mindestens einem verbundenen oder eigenständigen Vermittlungsserver oder Pool wie unter <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definieren eines Gateways im Topologie-Generator in Lync Server 2013</A> in der Bereitstellungsdokumentation beschrieben eingerichtet haben.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie mindestens einen internen Front-End-Pool oder Standard Edition-Server an mindestens einem zentralen Standort wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in Lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in Lync Server 2013</A> in der Bereitstellungsdokumentation beschrieben eingerichtet haben.
 
 
@@ -44,7 +44,7 @@ Ein Trunk ist eine durch folgendes Tupel eindeutig identifizierte logische Verbi
 3.  Geben Sie in **Neuen Trunk definieren** einen Anzeigenamen ein, um den Trunk eindeutig zu identifizieren. Zwei Trunks mit demselben Namen sind nicht zulässig.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie TLS (Transport Layer Security) als Transporttyp angeben, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) anstelle der IP-Adresse des Vermittlungsserverpeers angeben.
 
 
@@ -58,7 +58,7 @@ Ein Trunk ist eine durch folgendes Tupel eindeutig identifizierte logische Verbi
 6.  Klicken Sie unter **SIP-Transportprotokoll** auf den vom Peer verwendeten Transporttyp.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Aus Sicherheitsgründen wird dringend empfohlen, für den Vermittlungsserver einen Peer bereitzustellen, der TLS verwenden kann.
 
 
@@ -68,12 +68,12 @@ Ein Trunk ist eine durch folgendes Tupel eindeutig identifizierte logische Verbi
 8.  Geben Sie unter **Zugeordneter Port des Vermittlungsservers** den Überwachungsport ein, über den der Vermittlungsserver SIP-Nachrichten vom Peer empfängt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit der Unterstützung mehrerer Trunks in Lync Server 2013 können keine zwei Trunks mit unterschiedlichen Trunknamen für denselben <STRONG>Zugeordneten Port des Vermittlungsservers</STRONG> und <STRONG>Überwachungsport für IP/PSTN-Gateway</STRONG> konfiguriert werden.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit der Unterstützung mehrerer Trunks in Lync Server 2013 können mehrere SIP-Signalports auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Beim Definieren eines Trunks muss sich der Wert für <STRONG>Zugeordneter Port des Vermittlungsservers</STRONG> innerhalb des vom Vermittlungsserver erlaubten Bereichs für Überwachungsports für das entsprechenden Protokoll befinden. Dieser Portbereich wird unter Lync Server 2013 und Vermittlungsserverpools definiert. Klicken Sie mit der rechten Maustaste auf den entsprechenden Vermittlungsserverpool, und wählen Sie <STRONG>Eigenschaften bearbeiten</STRONG> aus. Geben Sie den Portbereich im Feld <STRONG>Überwachungsports</STRONG> an.
 
 

@@ -26,7 +26,7 @@ Ausführliche Informationen finden Sie unter „Vorbereiten der Ausfallsicherhei
 2.  Verwenden Sie in der Lync Server-Verwaltungsshell das Cmdlet **New-CSVoiceMailReroutingConfiguration**, um die Rufnummer der automatischen Telefonzentrale als Rufnummer der automatischen Exchange UM-Telefonzentrale in der Konfiguration für die Voicemailumleitung der Survivable Branch-Anwendung oder des Survivable Branch-Servers festzulegen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie die Voicemailumleitungseinstellungen ändern müssen, verwenden Sie das Cmdlet <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG>. Ausführliche Informationen zu den Cmdlets <STRONG>New-</STRONG> und <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG> finden Sie in den Hilfethemen der Shell.
 
 
@@ -34,7 +34,7 @@ Ausführliche Informationen finden Sie unter „Vorbereiten der Ausfallsicherhei
 3.  Legen Sie die Exchange UM-Teilnehmerzugriffsnummer der Exchange UM-Wähleinstellungen des Zweigstellenbenutzers als Exchange UM-Teilnehmerzugriffsnummer in der Konfiguration für die Voicemailumleitung der Survivable Branch-Anwendung oder des Survivable Branch-Servers fest.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Konfigurieren Sie die Exchange UM-Wähleinstellungen des Benutzers so, dass sämtlichen Zweigstellenbenutzern, die während eines WAN-Ausfalls auf die Funktionen zum Abrufen von Voicemail zugreifen müssen, nur ein Satz mit Wähleinstellungen zugeordnet ist.
 
 

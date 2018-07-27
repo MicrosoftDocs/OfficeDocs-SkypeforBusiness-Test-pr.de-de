@@ -42,7 +42,7 @@ Für Anrufe, die aufgrund von Anrufsteuerungsrichtlinien nicht erfolgreich durch
 Bei der Aufzeichnung von Kommunikationsdatensätzen werden Informationen zu Anrufen erfasst, die an das Festnetz oder an einen Voicemaildienst umgeleitet werden. Da das Internet nicht als sekundäre Option, sondern als alternativer Pfad behandelt wird, werden bei der Aufzeichnung von Kommunikationsdatensätzen keine Informationen zu Anrufen erfasst, die an das Internet umgeleitet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Hinterlassen von Voicemail wird aufgrund von Bandbreitenbeschränkungen nicht abgelehnt.
 
 

@@ -32,7 +32,7 @@ Sie können das Planungstool mehrfach ausführen, die Fragen auf unterschiedlich
 Wenn Sie mit dem Ergebnis zufrieden sind, können Sie mit dem Planungstool ein Diagramm der geplanten Bereitstellung erstellen. Dieses Diagramm können Sie beim Erstellen der Bereitstellung im Topologie-Generator verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei dem in dieser Version von Lync Server 2013 enthaltenen Planungstool handelt es sich um eine Vorabversion. Beachten Sie, dass die Kapazitätsplanungswerte im Planungstool vorläufig sind und nicht für die finale Version unterstützt werden.
 
 

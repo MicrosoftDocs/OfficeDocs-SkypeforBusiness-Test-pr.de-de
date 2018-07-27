@@ -36,7 +36,7 @@ Zur Ausführung der Active Directory-Vorbereitungsaufgaben sind die folgenden Ko
   - Die Lync Server-Hauptkomponenten (OCScore.msi)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie die Lync Server-Verwaltungsshell zur Active Directory-Vorbereitung verwenden möchten, müssen Sie zunächst mithilfe des Lync Server-Bereitstellungs-Assistenten die Hauptkomponenten installieren.
 
 
@@ -44,7 +44,7 @@ Zur Ausführung der Active Directory-Vorbereitungsaufgaben sind die folgenden Ko
   - Microsoft .NET Framework 4.5
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für Windows Server 2012 und Windows Server 2012 R2 wird .NET Framework&nbsp;4.5 über den Server-Manager installiert und aktiviert. Ausführliche Informationen finden Sie unter "Microsoft .NET Framework&nbsp;4.5" in <A href="lync-server-2013-additional-software-requirements.md">Zusätzliche Softwareanforderungen für Lync Server 2013</A>. Für Windows Server&nbsp;2008&nbsp;R2 müssen Sie <A href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework&nbsp;4.5</A> von der Microsoft-Website herunterladen und installieren.
 
 
@@ -52,7 +52,7 @@ Zur Ausführung der Active Directory-Vorbereitungsaufgaben sind die folgenden Ko
   - Remoteserver-Verwaltungstools (RSAT)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie die Schritte zur Active Directory-Vorbereitung nicht auf einem Domänencontroller, sondern auf einem Mitgliedsserver ausführen, werden einige Remoteserver-Verwaltungstools benötigt. Installieren Sie die AD&nbsp;DS-Snap-Ins und Befehlszeilentools sowie das Active Directory-Modul für die Windows PowerShell über den Knoten mit den AD&nbsp;DS- und AD&nbsp;LDS-Tools im Server-Manager.
 
 
@@ -60,7 +60,7 @@ Zur Ausführung der Active Directory-Vorbereitungsaufgaben sind die folgenden Ko
   - Microsoft Visual C++ 11 Redistributable
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn diese erforderliche Komponente noch nicht auf dem Computer installiert ist, werden Sie beim Ausführen von Setup zur Installation aufgefordert. Das Paket wird Ihnen zur Verfügung gestellt, sodass Sie es nicht separat erwerben müssen.
 
 
@@ -180,7 +180,7 @@ Bei Verwendung von "Ldifde.exe" zum Importieren der Schemadateien, müssen Sie u
 4.  VersionSchema.ldf
 
 
-> [!TIP]
+> [!NOTE]
 > Die vier IDF-Dateien befinden sich im Verzeichnis "\Support\Schema" des Installationsmediums oder Downloads.
 
 
@@ -194,7 +194,7 @@ Beispiel:
     ldifde -i -v -k -s DC1 -f ServerSchema.ldf -c DC=X "DC=contoso,DC=com" -j C:\BatchImportLogFile -b Administrator contoso password
 
 
-> [!TIP]
+> [!NOTE]
 > Verwenden Sie den Parameter "b" nur, wenn Sie als ein anderer Benutzer angemeldet sind. Ausführliche Informationen zu den erforderlichen Benutzerrechten finden Sie im Abschnitt "Administratorrechte und -rollen" weiter oben in diesem Thema.
 
 

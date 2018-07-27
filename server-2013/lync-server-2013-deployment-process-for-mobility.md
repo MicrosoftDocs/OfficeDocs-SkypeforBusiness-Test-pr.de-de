@@ -97,7 +97,7 @@ In diesem Abschnitt werden die für die Bereitstellung des Lync Server 2013-Mobi
 <li><p>Verwenden Sie das <strong>Test-CsFederatedPartner</strong>-Cmdlet zum Testen der Verbundkonfiguration und das <strong>Test-CsMCXPushNotification</strong>-Cmdlet zum Testen von Pushbenachrichtigungen.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Pushbenachrichtigungen werden für Lync 2010 Mobile-Clients auf Apple-Geräten und Windows Phone verwendet.<BR>Pushbenachrichtigungen sind nur für Lync 2013&nbsp;Mobile-Clients auf Windows Phone-Geräten erforderlich.
 
 

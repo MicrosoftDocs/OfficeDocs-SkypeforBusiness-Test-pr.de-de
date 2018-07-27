@@ -20,13 +20,13 @@ Beim Bereitstellen von Einwahlkonferenzen müssen Sie Telefonnummern einrichten,
 Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die Regionen Ihrer Einwahlkonferenzen planen und anschließend Wählpläne für die Regionen konfigurieren. Ausführliche Informationen zu Regionen finden Sie unter [Anforderungen für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in der Planungsdokumentation. Ausführliche Informationen zum Konfigurieren von Wählplänen für Einwahlkonferenzen finden Sie unter [Konfigurieren von Wählplänen für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können eine neue Zugriffsnummer erst dann für Einwahlkonferenzen verwenden, wenn die Replikation der Active Directory-Domänendienste (AD&nbsp;DS) für diese Zugriffsnummer abgeschlossen ist. Die Replikation kann mehrere Stunden in Anspruch nehmen.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Nach dem Erstellen von Zugriffsnummern für die Einwahl können Sie den Anzeigenamen für die Active Directory-Kontaktobjekte modifizieren, sodass Benutzer die richtige Zugriffsnummer einfacher identifizieren können. Verwenden Sie das Cmdlet <STRONG>Set-CsDialInConferencingAccessNumber</STRONG>, um den Anzeigenamen zu ändern. Active Directory-Objekte sollten nicht manuell geändert werden. Ausführliche Informationen zum Ändern einer Zugriffsnummer finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zum Cmdlet <STRONG>Set-CsDialInConferencingAccessNumber</STRONG>.
 
 

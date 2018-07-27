@@ -20,7 +20,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-02_
 1.  Suchen Sie die Datei **Company\_Phone\_Number\_Normalization\_Rules.txt** im Stamm des freigegebenen Adressbuchordners heraus, und kopieren Sie sie in den Stamm des freigegebenen Adressbuchordners im Lync Server 2013-Pilotpool.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Beispiele für die Normalisierungsregeln für Adressbücher wurden in Ihrem ABS Web-Komponentendateiverzeichnis installiert. Der Pfad lautet <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Diese Datei kann in <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;umbenannt und in das Stammverzeichnis des freigegebenen Adressbuchordners kopiert werden. Der Pfad für das in <STRONG>$serverX</STRONG> freigegebene Adressbuch wird zum Beispiel ähnlich aussehen wie <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
 
 

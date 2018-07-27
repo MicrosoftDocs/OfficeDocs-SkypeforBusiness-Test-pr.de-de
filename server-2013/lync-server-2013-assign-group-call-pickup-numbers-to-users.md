@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 Nachdem Sie der Anrufparkorbit-Tabelle Gruppennummern für die Gruppenanrufannahme hinzugefügt haben, können Sie die Gruppen den Benutzern zuweisen. Verwenden Sie das SEFAUtil-Resource Kit-Tool (Secondary Extension Feature Activation), um Gruppen für die Anrufannahme den Benutzern zuzuweisen.
 
 
-> [!TIP]
+> [!NOTE]
 > Weisen Sie in einer Hybridbereitstellung keine Gruppenanrufannahme-Gruppe zu Benutzern zu, die online verwaltet werden. Benutzer, die online verwaltet werden, können nicht an der Gruppenanrufannahme teilnehmen. Das heißt, ihre Anrufe können nicht von anderen Benutzern angenommen werden, und sie können nicht die Anrufe anderer Benutzer entgegennehmen.
 
 

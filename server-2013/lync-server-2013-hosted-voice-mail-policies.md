@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 Eine *Richtlinie für gehostete Voicemail* stellt der Lync Server 2013 ExUM-Routinganwendung Informationen zum Routing von Anrufen für Benutzer bereit, deren Postfächer über einen gehosteten Exchange-Dienst verwaltet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Richtlinien für gehostete Voicemail sind nur für die Integration von Lync Server 2013 in gehostete Exchange UM-Dienste erforderlich. Für die Integration in lokale Exchange UM-Dienste werden die Richtlinien nicht benötigt.
 
 
@@ -34,7 +34,7 @@ Der Bereich einer Richtlinie für gehostete Voicemail bestimmt die Hierarchieebe
   - Eine *Benutzerrichtlinie* kann sich nur auf einzelne Benutzer oder Benutzergruppen auswirken. Zum Erzwingen einer Richtlinie auf Benutzerebene müssen Sie die Richtlinie explizit auf einzelne Benutzer, Gruppen oder Kontaktobjekte anwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > In den meisten Fällen ist nur eine Richtlinie für gehostete Voicemail erforderlich. Häufig können Sie die globale Richtlinie ändern, um alle Anforderungen zu erfüllen. Wenn Sie mehrere Richtlinien für gehostete Voicemail bereitstellen, gelten alle diese Richtlinien auf Benutzerebene.
 
 
@@ -46,7 +46,7 @@ In einer Richtlinie für gehostete Voicemail sind zwei Attribute definiert, welc
   - **Destination :** Der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des gehosteten Exchange UM-Diensts. Dieser Wert wird vom lokalen Lync Server-Edgeserver zu Routingzwecken verwendet.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der FQDN für Exchange Online ist exap.um.outlook.com .
 
 
@@ -54,8 +54,8 @@ In einer Richtlinie für gehostete Voicemail sind zwei Attribute definiert, welc
   - **Organization :** Der FQDN des Mandanten im gehosteten Exchange UM-Dienst, der die Postfächer Ihrer Lync Server 2013-Benutzer verwaltet. Eine Voicemailrichtlinie kann mehrere Organisationen umfassen. Wenn die Richtlinie für mehr als eine Organisation gilt, muss dieses Attribut eine durch Trennzeichen getrennte Liste der Exchange Server-Mandanten enthalten, welche die Postfächer Ihrer Lync Server 2013-Benutzer verwalten.
 
 
-> [!TIP]
-> Der Administrator für Mandanten Ihres gehosteten Exchange UM-Diensts stellt die erforderlichen Werte für die Einstellungen der Attribute "Destination" und "Organization" bereit. Zum Erstellen und Konfigurieren einer neuen Richtlinie müssen Sie das Cmdlet "New-CsHostedVoicemailPolicy" ausführen. Wenn Sie eine vorhandene Richtlinie (z.&nbsp;B. die globale Richtlinie) ändern möchten, verwenden Sie das Cmdlet "set-cshostedvoicemailpolicy".
+> [!NOTE]
+> Der Administrator für Mandanten Ihres gehosteten Exchange UM-Diensts stellt die erforderlichen Werte für die Einstellungen der Attribute "Destination" und "Organization" bereit. Zum Erstellen und Konfigurieren einer neuen Richtlinie müssen Sie das Cmdlet "New-CsHostedVoicemailPolicy" ausführen. Wenn Sie eine vorhandene Richtlinie (z.&nbsp;B. die globale Richtlinie) ändern möchten, verwenden Sie das Cmdlet "Set-CsHostedVoicemailPolicy".
 
 
 
@@ -63,7 +63,7 @@ Ausführliche Informationen zum Verwalten von Richtlinien für gehostete Voicema
 
   - New-CsHostedVoicemailPolicy
 
-  - set-cshostedvoicemailpolicy
+  - Set-CsHostedVoicemailPolicy
 
   - Get-CsHostedVoicemailPolicy
 

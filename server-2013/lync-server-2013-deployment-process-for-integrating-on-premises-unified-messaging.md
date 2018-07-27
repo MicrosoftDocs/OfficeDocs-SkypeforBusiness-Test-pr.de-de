@@ -143,7 +143,7 @@ Wenn Sie Exchange Unified Messaging (UM) in Lync Server 2013 integrieren möchte
 <td><p>Wenn Sie eine Integration in Exchange 2007 SP1 oder neuestes Service Pack oder Exchange 2010 planen, erstellen Sie einen neuen Enterprise-VoIP-Wählplan, dessen Name mit dem vollqualifizierten Domänennamen (FQDN) des Enterprise-VoIP-Wählplans übereinstimmt.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Sie müssen dies für jeden UM-Wählplan durchführen.
 
 
@@ -151,7 +151,7 @@ Wenn Sie Exchange Unified Messaging (UM) in Lync Server 2013 integrieren möchte
 <p>Wenn Sie eine Integration in Exchange 2010 SP1 beabsichtigen, stellen Sie sicher, dass geeignete auf globaler, Standort- oder Poolebene geltende Enterprise-VoIP-Wählpläne konfiguriert wurden.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie eine Integration in Exchange 2010 SP1 planen, müssen die Namen des Lync Server-Wählplans und des Exchange UM-SIP-Wählplans nicht übereinstimmen.
 
 
@@ -177,7 +177,7 @@ Wenn Sie Exchange Unified Messaging (UM) in Lync Server 2013 integrieren möchte
 </div>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Zum Erstellen von Kontaktobjekten muss der Benutzer, der <STRONG>ocsumutil.exe</STRONG> ausführt, über geeignete Berechtigungen für die Active Directory-Organisationseinheit (Organizational Unit, OU) verfügen, in der die neuen Kontaktobjekte gespeichert werden. Diese Berechtigungen können mit dem Cmdlet <STRONG>Grant-CsOUPermission</STRONG> gewährt werden. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

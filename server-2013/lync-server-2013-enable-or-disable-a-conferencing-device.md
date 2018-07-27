@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-20_
 Konferenzgeräte können mit den Cmdlets **Enable-CsMeetingRoom** und **Disable-CsMeetingRoom** aktiviert und deaktiviert werden. Diese Cmdlets können entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 

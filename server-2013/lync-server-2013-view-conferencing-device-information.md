@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-20_
 Mit dem Cmdlets Windows PowerShell und **Get-CsMeetingRoom** können Sie Informationen zu den Konferenzgeräten abrufen, die für die Verwendung in Ihrer Organisation konfiguriert sind. Führen Sie das Cmdlet **Get-CsMeetingRoom** entweder in der Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell aus.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 

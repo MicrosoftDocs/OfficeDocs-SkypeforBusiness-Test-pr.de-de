@@ -32,7 +32,7 @@ Dieses Thema bietet einen Überblick über die Konfigurationsanforderungen, die 
 Bei einer Netzwerkregion handelt es sich um einen Netzwerkhub oder Netzwerkbackbone, der ausschließlich in der Konfiguration von Anrufsteuerung (Call Admission Control, CAC), E9-1-1 und Medienumgehung verwendet wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Netzwerkregionen sind nicht mit Lync Server-Regionen für Einwahlkonferenzen identisch, die zum Zuordnen von Zugriffsnummern für Einwahlkonferenzen zu einem oder mehreren Sätzen mit Wähleinstellungen in Lync Server erforderlich sind. Ausführliche Informationen zu Regionen für Einwahlkonferenzen finden Sie unter <A href="lync-server-2013-dial-in-conferencing-requirements.md">Anforderungen für Einwahlkonferenzen in Lync Server 2013</A> in der Planungsdokumentation.
 
 
@@ -50,7 +50,7 @@ Um einen zentralen Lync Server-Standort zu einer Netzwerkregion zuzuordnen, gebe
 Ein Netzwerkstandort stellt einen geografischen Standort dar, z. B. ein Zweigstellenbüro, ein regionales Büro oder ein Hauptbüro. Jeder Netzwerkstandort muss einer bestimmten Netzwerkregion zugeordnet sein.
 
 
-> [!TIP]
+> [!NOTE]
 > Netzwerkstandorte werden ausschließlich von den erweiterten Enterprise-VoIP-Funktionen verwendet. Sie sind nicht mit Zweigstellenstandorten identisch, die Sie in Ihrer Lync Server-Topologie konfigurieren können. Ausführliche Informationen zu Zweigstellenstandorten finden Sie unter <A href="lync-server-2013-reference-topologies.md">Referenztopologien in Lync Server 2013</A> in der Planungsdokumentation. Siehe auch <A href="lync-server-2013-supported-topologies.md">Unterstützte Topologien in Lync Server 2013</A> in der Unterstützungsdokumentation.
 
 

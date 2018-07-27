@@ -26,7 +26,7 @@ Einige Lync Server 2013-Rollen führen die Webdienste auf Port 4443 der Interne
 3.  Wenn der Taskstatus auf der Seite **Befehle ausführen** als abgeschlossen angezeigt wird, klicken Sie auf **Fertig stellen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können auch die Datei "bootstrapper.exe" oder das Cmdlet <STRONG>Enable-CsComputer</STRONG> ausführen, um den Server erneut zu aktivieren.
 
 

@@ -37,7 +37,7 @@ Eine lokale Lync Server 2013-Bereitstellung umfasst Folgendes:
 In diesem Abschnitt werden die Standorte und Komponenten einer Lync Server 2013-Bereitstellung beschrieben. Ausführliche Informationen zur Planung von Lync Server 2013-Standorten, -Topologien und -Komponenten finden Sie unter [Topologiegrundlagen, die Sie vor der Planung für Lync Server 2013 kennen sollten](lync-server-2013-topology-basics-you-must-know-before-planning.md) und [Referenztopologien in Lync Server 2013](lync-server-2013-reference-topologies.md) in der Planungsdokumentation. Ausführliche Informationen zur Integration von Komponenten mit einer vorherigen Version finden Sie unter [Unterstützte Migrationspfade und Koexistenzszenarien in Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Erweiterte Pools werden für die Serverrollen Front-End, Edge, Mediation und Director nicht unterstützt.
 
 
@@ -67,7 +67,7 @@ Auch wenn die Topologie eines zentralen Standorts einen Front-End-Pool oder eine
   - Reverseproxy, der zwar keine Lync Server 2013-Komponente ist, aber benötigt wird, wenn die Freigabe von Webinhalten für Partnerbenutzer oder der Mobilitätsdatenverkehr unterstützt werden soll. Sie können einen Reverseproxyserver nicht mit einer Lync Server 2013-Serverrolle verbinden. Allerdings können Sie Reverseproxyunterstützung für eine Lync Server 2013-Bereitstellung implementieren, indem Sie die Unterstützung auf einem vorhandenen Reverseproxyserver in Ihrer Organisation konfigurieren, der für andere Anwendungen genutzt wird. Ausführliche Informationen zu Reverseproxyservern finden Sie unter [Einrichten von Reverseproxyservern für Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) in der Bereitstellungsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013 werden A/V-Konferenzfunktion, Überwachung und Archivierung auf Front-End-Servern ausgeführt. Es handelt sich hierbei nicht mehr um separate Serverrollen.
 
 
@@ -89,7 +89,7 @@ Alle am zentralen Standort bereitgestellten Front-End-Pools und Server der Stand
   - Archiving
 
 
-> [!TIP]
+> [!NOTE]
 > Ein Exchange UM-Server kann mit der Lync Server 2013-Bereitstellung implementiert werden, wenn Sie die Integration von Exchange 2013 Unified Messaging unterstützen möchten, ist aber keine Komponente des Lync Server 2013-Standorts.
 
 
@@ -107,7 +107,7 @@ Mehrere zentrale Standorte können außerdem folgende Komponenten gemeinsam nutz
   - Monitoring
 
 
-> [!TIP]
+> [!NOTE]
 > Ein Exchange UM-Server kann in Ihrer Lync Server 2013-Bereitstellung implementiert und von mehreren zentralen Standorten gemeinsam genutzt werden, es handelt sich jedoch nicht um eine Komponente des Lync Server 2013-Standorts.
 
 

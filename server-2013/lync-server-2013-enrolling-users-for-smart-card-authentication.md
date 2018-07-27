@@ -28,7 +28,7 @@ Weitere Informationen zur Registrierung im Auftrag von Benutzern als Enrollment 
 3.  Navigieren Sie zur Seite **Zertifizierungsstellen-Webregistrierung** (z. B. "https://MyCA.contoso.com/certsrv").
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie Internet Explorer 10 verwenden, müssen Sie diese Website möglicherweise im Kompatibilitätsmodus anzeigen.
 
 
@@ -70,7 +70,7 @@ Weitere Informationen zur Registrierung im Auftrag von Benutzern als Enrollment 
 10. Wenn Sie dazu aufgefordert werden, geben Sie die PIN ein, die zum Erstellen der virtuellen SmartCard verwendet wurde.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Standardwert der PIN für virtuelle SmartCards ist "12345678".
 
 
@@ -78,7 +78,7 @@ Weitere Informationen zur Registrierung im Auftrag von Benutzern als Enrollment 
 11. Nachdem das Zertifikat ausgestellt wurde, klicken Sie auf **Dieses Zertifikat installieren**, um den Registrierungsvorgang abzuschließen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn bei der Zertifikatanforderung ein Fehler mit der Meldung "Der Webbrowser unterstützt nicht die Generierung von Zertifikatanforderungen" auftritt, kann das Problem auf drei verschiedene Weisen gelöst werden: 
     > <OL>
     > <LI>

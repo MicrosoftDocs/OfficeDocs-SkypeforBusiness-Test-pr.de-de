@@ -48,13 +48,13 @@ Reaktionsgruppenanwendung verwendet die folgenden Ports:
   - **Port 8404**   Dieser Port wird für die Kommunikation zwischen Servern verwendet.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Port wird für den Matchmakingdienst verwendet und ist erforderlich, wenn die Reaktionsgruppenanwendung in einem Pool mit mehr als einem Front-End-Server bereitgestellt wird.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet <STRONG>Set-CsApplicationServer</STRONG> ändern können. Weitere Informationen zu diesem Cmdlet finden Sie in der Dokumentation zu Lync Server-Verwaltungsshell.
 
 
@@ -90,7 +90,7 @@ Sie können Microsoft Expression Encoder 4 verwenden, um eine Datei in das WMA-
 Das Konfigurationstool für Reaktionsgruppen unterstützt die in der nachstehenden Tabelle aufgeführten Kombinationen aus Betriebssystemen und Webbrowsern.
 
 
-> [!TIP]
+> [!NOTE]
 > 32-Bit- und 64-Bit-Versionen des jeweiligen Betriebssystems werden unterstützt. Für Internet Explorer werden nur 32-Bit-Versionen unterstützt.
 
 
@@ -145,7 +145,7 @@ Das Konfigurationstool für Reaktionsgruppen unterstützt die in der nachstehend
 Die Agentkonsole unterstützt die in der folgenden Tabelle aufgeführten Kombinationen aus Betriebssystemen und Webbrowsern.
 
 
-> [!TIP]
+> [!NOTE]
 > 32-Bit- und 64-Bit-Versionen des jeweiligen Betriebssystems werden unterstützt. Für Internet Explorer werden nur 32-Bit-Versionen unterstützt.
 
 

@@ -26,7 +26,7 @@ Beim Konfigurieren von IP-Adressen in Lync Server 2013 haben Sie drei Optionen. 
 In den folgenden Abschnitten wird die Kompatibilität zwischen diesen drei Konfigurationen in Bezug auf verschiedene Features von Lync Server beschrieben.
 
 
-> [!TIP]
+> [!NOTE]
 > Client- oder Serverkonfiguration mit reinem IPv6 wird nur zu Labor- oder Validierungszwecken unterstützt. Eine reine IPv6-Konfiguration wird in der Produktionsbereitstellung nicht unterstützt.
 
 
@@ -340,7 +340,7 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und exter
 Bereitstellungen, die Anrufsteuerung (Call Admission Control, CAC), E9-1-1-Notrufdienste oder Medienumgehung beinhalten, müssen als Implementierung nur mit IPv4 oder als Dualer-Stapel-Implementierung konfiguriert werden.
 
 
-> [!TIP]
+> [!NOTE]
 > In einer Implementierung mit dualem Stapel versucht Lync selbst dann, wenn ein Lync-Client über IPv6 eine Verbindung mit einem Lync Server herstellt, eine geeignete IPv4-Adresse zur Unterstützung von E9-1-1-Notrufdiensten zuzuordnen.
 
 

@@ -20,7 +20,7 @@ Nach dem Installieren und Konfigurieren der Anwendung zum Parken von Anrufen mü
   - Rufen Sie einen Benutzer an, bei dem das Parken von Anrufen aktiviert ist, und bitten Sie ihn oder sie, den Anruf zu parken.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie Parken von Anrufen kurz vor dem Testen in der VoIP-Richtlinie aktiviert haben, muss dieser Benutzer sich von Lync Server abmelden und dann wieder anmelden, damit die Option zum Parken von Anrufen in der Liste zur Anrufweiterleitung angezeigt wird.
 
 

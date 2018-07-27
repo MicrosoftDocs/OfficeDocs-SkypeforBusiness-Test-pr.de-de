@@ -66,7 +66,7 @@ Sie können einen Benutzer aus Ihrem Office Communications Server 2007 R2-Pool i
     ![Ausgabe von Get-CsUser-Cmdlet mit Filter Identity](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe von Get-CsUser-Cmdlet mit Filter Identity")  
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zum <STRONG>Get-CsUser</STRONG> -Cmdlet erhalten Sie, indem Sie folgenden Befehl ausführen: <STRONG>Get-Help Get-CsUser -Detailed</STRONG>
 
 

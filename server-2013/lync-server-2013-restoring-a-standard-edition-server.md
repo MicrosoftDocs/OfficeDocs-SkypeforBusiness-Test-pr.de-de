@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 Führen Sie die Verfahren in diesem Abschnitt beim Ausfall eines Standard Edition-Servers aus, auf dem der zentrale Verwaltungsspeicher nicht gehostet wird. Beim Ausfall des zentralen Verwaltungsspeichers lesen Sie die Informationen unter [Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher hostet](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen. Sie können dieses Abbild dann als Rollbackpunkt verwenden, falls Probleme bei der Wiederherstellung auftreten. Es ist sinnvoll, das Abbild nach der Installation des Betriebssystems und von SQL&nbsp;Server zu erstellen und die Zertifikate wiederherzustellen oder erneut zu registrieren.
 
 
@@ -28,7 +28,7 @@ Führen Sie die Verfahren in diesem Abschnitt beim Ausfall eines Standard Editio
 1.  Voraussetzung ist ein bereinigter oder neuer Server, der denselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der ausgefallene Computer aufweist. Installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her bzw. registrieren Sie sie erneut.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Folgen Sie den Verfahren zur Bereitstellung der Server in Ihrer Organisation, um diesen Schritt durchzuführen.
 
 

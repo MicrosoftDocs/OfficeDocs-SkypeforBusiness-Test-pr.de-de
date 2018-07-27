@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-19_
 Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche spezifischen Domänen einen Partnerverbund mit Ihrer Organisation eingehen können. Konfigurieren Sie eine oder mehrere spezifische externe Domänen als zulässige Partnerdomänen. Fügen Sie hierzu jede Domäne der Liste zulässiger Domänen hinzu. Selbst wenn die Suche von Verbundpartnern für Ihre Organisation aktiviert ist, führen Sie diesen Schritt aus, wenn es sich bei der Domäne um einen Verbundpartner handelt, der mit mehr als 1.000 Ihrer Benutzer kommunizieren oder mehr als 20 Nachrichten pro Sekunde senden muss. Ist die Suche von Verbundpartnern für Ihre Organisation nicht aktiviert, können nur Benutzer aus externen Domänen am Instant Messaging und an Konferenzen mit Benutzern Ihrer Organisation teilnehmen, die Sie der Liste zulässiger Domänen hinzugefügt haben. Wenn Sie den Zugriff einer Partnerdomäne auf einen bestimmten Server beschränken möchten, auf dem der Zugriffs-Edgedienst des Verbundpartners ausgeführt wird, können Sie für jede Domäne in der Liste zulässiger Domänen den Domänennamen des Servers angeben, auf dem der Zugriffs-Edgedienst ausgeführt wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Dieses Verfahren beschreibt, wie Sie die Unterstützung für bestimmte Domänen konfigurieren. Zur Implementierung der Unterstützung für Partnerbenutzer gehört jedoch auch, dass Sie die Unterstützung für Partnerbenutzer für Ihre Organisation aktivieren sowie Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer mit Partnerbenutzern zusammenarbeiten können. Ausführliche Informationen zum Aktivieren der Unterstützung für Partnerbenutzer finden Sie unter <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer in Lync Server 2013</A>. Ausführliche Informationen zum Konfigurieren von Richtlinien zur Steuerung des Partnerverbunds finden Sie unter <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs in Lync Server 2013</A>.
 
 
@@ -38,7 +38,7 @@ Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie 
       - Geben Sie unter **Domänenname (oder FQDN)** den Namen der Verbundpartnerdomäne ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Dieser Name muss eindeutig sein und darf noch nicht als zulässige Domäne für diesen Server vorliegen, auf dem der Zugriffs-Edgedienst ausgeführt wird. Der Name darf höchstens 256&nbsp;Zeichen lang sein.<BR>Bei der Suche nach dem Namen der Verbundpartnerdomäne wird ein Suffixabgleich durchgeführt. Wenn Sie beispielsweise <STRONG>contoso.com</STRONG> eingeben, wird als Suchergebnis auch die Domäne <STRONG>it.contoso.com</STRONG> zurückgegeben.<BR>Eine Verbundpartnerdomäne kann nicht gleichzeitig blockiert und zugelassen werden. Lync Server 2013 verhindert dies automatisch, sodass Sie Ihre Listen nicht synchronisieren müssen.
 
     

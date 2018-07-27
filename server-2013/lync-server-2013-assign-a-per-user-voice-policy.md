@@ -30,7 +30,7 @@ Globale VoIP-Richtlinien und VoIP-Richtlinien für einen Standort werden automat
 5.  Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **VoIP-Richtlinie** die Benutzerrichtlinie aus, die Sie anwenden möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit den Einstellungen <STRONG>&lt;Automatisch&gt;</STRONG> werden die Standardeinstellungen des Servers oder die globalen Richtlinieneinstellungen angewendet.
 
 

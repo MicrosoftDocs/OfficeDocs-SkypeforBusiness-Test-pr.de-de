@@ -34,7 +34,7 @@ Testfälle, die mithilfe der Lync Server-Systemsteuerung erstellt werden können
 6.  Klicken Sie auf **Commit** und anschließend auf **Commit für alle** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie eine VTEST-Datei importieren, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um den Testfall zu veröffentlichen. Einzelheiten dazu finden Sie in der Betriebsdokumentation unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A>.
 
 

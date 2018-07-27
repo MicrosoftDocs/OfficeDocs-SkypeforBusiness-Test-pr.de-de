@@ -20,7 +20,7 @@ Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie mindestens als Mitg
 Der DNS-Lastenausgleich (Domain Name System) sorgt für eine ausgewogene Verteilung des Netzwerkdatenverkehrs von Lync Server 2013, etwa des SIP- und Mediendatenverkehrs. Der DNS-Lastenausgleich wird für Front-End-Pools, Edgeserverpools, Director-Pools und eigenständige Vermittlungsserverpools unterstützt. Für einen Pool, der für den DNS-Lastenausgleich konfiguriert ist, müssen zwei vollqualifizierte Domänennamen (FQDNs) definiert werden: der reguläre Pool-FQDN (beispielsweise "pool1.contoso.com"), der vom DNS-Lastenausgleich verwendet und in die physischen IP-Adressen der Server im Pool aufgelöst wird, und ein weiterer FQDN für die Webdienste des Pools (z. B. "web1.contoso.net"), der in die virtuelle IP-Adresse des Pools aufgelöst wird. Ausführliche Informationen zum DNS-Lastenausgleich finden Sie unter [DNS-Lastenausgleich in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in der Planungsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Hardwarelastenausgleich ist weiterhin für den HTTPS-Datenverkehr zwischen Client und Server erforderlich.
 
 
@@ -40,7 +40,7 @@ Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie folgende Schrit
 3.  Aktivieren Sie zufällige IP-Adressen oder (für Windows Server DNS) Roundrobin.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Roundrobin sollte standardmäßig aktiviert werden.
 
 
@@ -125,7 +125,7 @@ Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie folgende Schrit
     ![DNS-Roundrobin (Dialogfeld)](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS-Roundrobin (Dialogfeld)")
 
 
-> [!TIP]
+> [!NOTE]
 > Diese Funktion sollte standardmäßig aktiviert werden.
 
 

@@ -74,7 +74,7 @@ Der Abschnitt zur Integrität stellt eine visuelle Anzeige der Integrität der L
 ## Weitere Hinweise zum Webportal für die Verwaltung
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Aus Sicherheitsgründen werden Sie im Webportal für die Verwaltung automatisch alle 15 Minuten abgemeldet.</P>

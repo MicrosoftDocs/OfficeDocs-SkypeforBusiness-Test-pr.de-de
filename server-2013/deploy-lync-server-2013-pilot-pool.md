@@ -20,7 +20,7 @@ Einer der ersten Schritte, die für die Migration zu Lync Server 2013 erforderli
 Beim Bereitstellen eines Pilotpools verwenden Sie den Assistenten zum Definieren eines neuen Front-End-Pools. Sie sollten dieselben Funktionen und Arbeitslasten in Ihrem Lync Server 2013-Pilotpool bereitstellen, die bereits in Ihrem Lync Server 2010-Pool vorhanden sind. Wenn Sie den Archivierungsserver, Monitoring-Server oder System Center Operations Manager zum Archivieren oder Überwachen der Lync Server 2010-Umgebung bereitgestellt haben und Sie die Archivierung oder Überwachung in der Migration fortsetzen möchten, müssen Sie diese Funktionen auch in der Pilotumgebung bereitstellen. Mit der Version, die sie zum Archivieren oder Überwachen der Lync Server 2010-Umgebung bereitgestellt haben, werden die Daten in der Lync Server 2013-Umgebung nicht erfasst.
 
 
-> [!TIP]
+> [!NOTE]
 > Im nachfolgenden Verfahren werden Funktionen und Einstellungen erläutert, die Sie im Rahmen des allgemeinen Bereitstellungsprozesses für den Pilotpool berücksichtigen sollten. In diesem Abschnitt sind nur die wichtigsten zu beachtenden Punkte für die Bereitstellung Ihres Pilotpools hervorgehoben. Ausführliche Schritte finden Sie im Bereitstellungshandbuch für <A href="lync-server-2013-deploying-lync-server.md">Bereitstellen von Lync Server&nbsp;2013</A>.
 
 

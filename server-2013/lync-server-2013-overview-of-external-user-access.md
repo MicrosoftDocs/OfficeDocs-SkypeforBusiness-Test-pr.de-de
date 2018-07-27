@@ -22,7 +22,7 @@ In dieser Dokumentation wird der Begriff *externer Benutzer* zur Definition eine
   - **Partnerbenutzer**   Benutzer, die ein Konto bei einer als vertrauenswürdig eingestuften Kunden- oder Partnerorganisation haben, wie Lync Server 2010, Lync Server 2013 oder Office Communications Server 2007 R2. Partnerbenutzer können auch Benutzer definierter Partnerorganisationen sein, die XMPP über den XMPP-Proxy auf dem Edgeserver und das XMPP-Gateway auf dem Front-End-Server oder im Pool verwenden. Eine definierte vertrauenswürdige Beziehung, also ein Verbund, hat keinen Bezug zu einer vertrauenswürdigen Active Directory-Domänendienste-Beziehung und ist davon nicht abhängig.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für AOL und Yahoo! wurde die Einstellung des Diensts für Juni 2014 angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.
 
 

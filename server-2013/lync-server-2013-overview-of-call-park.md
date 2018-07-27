@@ -34,7 +34,7 @@ Wenn Sie die Funktion zum Parken von Anrufen bereitstellen, müssen Sie Durchwah
 Sie können darüber hinaus weitere Einstellungen für das Parken von Anrufen konfigurieren, wie z. B., an welches Ziel Anrufe bei einem Timeout umgeleitet werden und ob für den Anrufer Musik wiedergegeben wird, während der Anruf geparkt ist. Außerdem können Sie die Musikdatei angeben, die beim Parken des Anrufs wiedergegeben wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Angepasste Musikdateien für geparkte Anrufe werden im Rahmen des Notfallwiederherstellungsprozesses von Lync Server 2013 nicht gesichert und gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt oder gelöscht werden. Bewahren Sie stets eine separate Sicherungskopie der für geparkte Anrufe hochgeladenen angepassten Musikdateien auf.
 
 

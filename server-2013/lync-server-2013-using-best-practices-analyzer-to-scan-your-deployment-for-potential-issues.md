@@ -40,7 +40,7 @@ Zum Ausführen einer Best Practices Analyzer-Überprüfung müssen Sie Folgendes
       - Zum Angeben verschiedener Anmeldeinformationen, die Sie für Active Directory Domain Services, Edgeserver oder Exchange Server verwenden möchten, klicken Sie auf **Erweiterte Anmeldeoptionen anzeigen**, aktivieren Sie alle Kontrollkästchen, für die separate Anmeldeinformationen erforderlich sind, geben Sie die Anmeldeinformationen für jedes aktivierte Kontrollkästchen an, und klicken Sie dann auf **Mit Active Directory-Server verbinden**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Vor dem Beginn der Überprüfung führt Best Practices Analyzer eine Netzwerk- und Berechtigungsprüfung durch, um sicherzustellen, dass die angegebenen Kontoanmeldeinformationen gültig sind und Best Practices Analyzer eine Verbindung mit Active Directory Domain Services herstellen kann. Wird das Tool auf einem Arbeitsgruppenserver ausgeführt, überprüft es auch, ob eine Verbindung mit Edgeservern im Umkreisnetzwerk möglich ist (falls diese in die Überprüfung eingeschlossen sind).
 
 
@@ -58,7 +58,7 @@ Zum Ausführen einer Best Practices Analyzer-Überprüfung müssen Sie Folgendes
       - Klicken Sie zum Anzeigen anderer Berichte auf **Andere Berichte**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Nähere Informationen zu Best Practices Analyzer-Berichten und den darin identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Anzeigen und Verwenden von Berichten, die von Best Practices Analyzer erstellt wurden</A> und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analysieren und Beheben von Problemen, die von Best Practices Analyzer erkannt wurden</A>.
 
 

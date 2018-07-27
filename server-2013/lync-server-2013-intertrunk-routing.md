@@ -17,9 +17,9 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-20_
 
 Lync Server 2013 kann eine IP-Nebenstellenanlage mit einem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz) verbinden, damit Anrufe von einer Nebenstellenanlage (Private Branch Exchange, PBX) an das PSTN-Gateway sowie eingehende Festnetzanrufe an ein Nebenstellentelefon weitergeleitet werden können. Entsprechend kann Lync Server 2013 zwei oder mehr IP-Nebenstellensysteme (IP-PBX-Systeme) miteinander verbinden, damit Anrufe zwischen Nebenstellentelefonen in den verschiedenen IP-Nebenstellensystemen getätigt und angenommen werden können.
 
-Dieses Feature für das Intertrunk-Routing kann mithilfe des Lync Server-Verwaltungsshell-Cmdlets **set-cstrunkconfiguration** und dem neuen PstnUsages -Parameter konfiguriert werden. Mit diesem Parameter werden die zu verwendenden PSTN-Verwendungseinträge angegeben. Ein Trunk bestimmt mithilfe dieser PSTN-Verwendung eine Route und leitet alle eingehenden Anrufe entsprechend weiter.
+Dieses Feature für das Intertrunk-Routing kann mithilfe des Lync Server-Verwaltungsshell-Cmdlets **Set-CsTrunkConfiguration** und dem neuen PstnUsages -Parameter konfiguriert werden. Mit diesem Parameter werden die zu verwendenden PSTN-Verwendungseinträge angegeben. Ein Trunk bestimmt mithilfe dieser PSTN-Verwendung eine Route und leitet alle eingehenden Anrufe entsprechend weiter.
 
-    set-cstrunkconfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
+    Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
 Das folgende Diagramm veranschaulicht, wie Lync Server 2013 eine Verbindung zwischen einem PSTN-Gateway und einer IP-Nebenstellenanlage herstellt.
 

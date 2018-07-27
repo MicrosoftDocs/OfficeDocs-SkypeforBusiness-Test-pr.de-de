@@ -28,7 +28,7 @@ Bandbreitenrichtlinien werden im Rahmen der Anrufsteuerung eingesetzt, um die Ba
 4.  Klicken Sie auf der Seite **Bandbreitenrichtlinie** auf das Richtlinienprofil der Bandbreite, das Sie löschen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können auch mehrere Profile auf einmal löschen. Drücken Sie dazu die STRG-TASTE, und halten Sie sie gedrückt, während Sie mit der Maus auf die einzelnen Profile klicken. Wenn Sie alle Profile auswählen möchten, klicken Sie einfach im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
 
 

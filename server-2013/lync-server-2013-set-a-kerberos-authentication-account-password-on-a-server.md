@@ -36,7 +36,7 @@ Bei Verwendung des Cmdlets **Set-CsKerberosAccountPassword** zum Festlegen des K
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie müssen den Parameter "UserAccount" im Format "Domäne\Benutzer" angeben. Das Format "Benutzer@Domäne.Erweiterung" wird zur Referenzierung der für die Kerberos-Authentifizierung erstellten Computerobjekte nicht unterstützt.
 
     

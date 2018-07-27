@@ -48,7 +48,7 @@ In Lync Server 2013 können Sie den Standardzeitraum zwischen Clientanfragen nac
           - **Haftungsausschluss**   Diese Option entspricht der Option **Diese Option entspricht der Option**; allerdings kann der Benutzer die Eingabeaufforderung nicht ohne Eingabe der Standortinformationen verwerfen. Der Benutzer kann zwar einen Notruf absetzen, es können jedoch ohne Eingabe der Informationen keine weiteren Anrufe getätigt werden. Außerdem wird dem Benutzer ein Haftungsausschluss angezeigt, der ihn auf die möglichen Folgen hinweist, wenn er keine Standortinformationen eingibt. Zum Festlegen des Haftungsausschlusstexts müssen Sie mithilfe der Lync Server-Verwaltungsshell das Cmdlet **Set-CsLocationPolicy** oder **New-CsLocationPolicy** mit dem Parameter "EnhancedEmergencyServiceDisclaimer" auszuführen. Ausführliche Informationen finden Sie unter [Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy) oder [New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy) in der Lync Server-Verwaltungsshell-Dokumentation.
             
 
-            > [!TIP]
+            > [!NOTE]
             > In Lync Server 2013 können Sie eine Ortungsrichtlinie zum Festlegen verschiedener Haftungsausschlüsse für verschiedene Gebietschemas oder Benutzersätze verwenden. In Lync Server 2010 war dagegen nur das Festlegen eines globalen Haftungsauschlusses für die gesamte Organisation möglich.
 
     

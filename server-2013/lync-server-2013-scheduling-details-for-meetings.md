@@ -28,7 +28,7 @@ Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die gro
       - Wenn die Besprechung nur intern ist, legen Sie den Zugriffstyp für die Besprechung auf **Jeder innerhalb meiner Organisation** fest.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Vermeiden Sie es, den Zugriffstyp für die Besprechung auf <STRONG>Von mir eingeladene Personen in meinem Unternehmen</STRONG> festzulegen. Wenn Sie diese Einstellung verwenden, müssen Besprechungsorganisatoren die E-Mail-Adressen aller Benutzer zur Eingeladenenliste hinzufügen, und Sie können keine Verteilergruppe einladen.<BR>Vermeiden Sie es, den Zugriffstyp für die Besprechung auf <STRONG>Nur ich, der Besprechungsorganisator</STRONG> festzulegen, da diese Einstellung erfordert, dass jeder Besprechungsteilnehmer, auch die Referenten, zur Laufzeit der Besprechung zum Wartebereich hinzugefügt werden muss. Der Verantwortliche für die Durchführung der großen Besprechung muss dann ständig die Wartebereichsliste überwachen und neue Benutzer im Wartebereich zur Besprechung zulassen.
 
 
@@ -42,7 +42,7 @@ Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die gro
       - Die von der eine Besprechung anfordernden Person vorgelegte Liste mit Referenten
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der Zugriffstyp der Besprechung auf <STRONG>Von mir ausgewählte Personen</STRONG> festgelegt ist, müssen Sie jeden Teilnehmer einer großen Besprechung explizit als eingeladenen Benutzer hinzufügen.
 
 
@@ -54,7 +54,7 @@ Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die gro
       - Die von eine große Besprechung anfordernden Personen vorgelegte Liste mit Referenten
     
 
-    > [!TIP]
+    > [!NOTE]
     > Indem Sie die Referenten explizit verwalten, können Sie ihre Anzahl steuern und auf eine so kleine Zahl begrenzen, dass eine effektive große Besprechung möglich ist. Wenn die Mehrheit der Besprechungsteilnehmer nur eine Teilnehmerrolle hat, verringert sich die Wahrscheinlichkeit, dass Personen versehentlich die Steuerung der Präsentation übernehmen, eine PowerPoint-Präsentation löschen, Referenten stummschalten bzw. die Stummschaltung aufheben oder die Besprechung auf andere Weise stören.
 
 

@@ -46,7 +46,7 @@ Verwenden Sie eine der folgenden Prozeduren, um einen Parken von Anrufen-Orbitbe
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 

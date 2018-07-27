@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Führen Sie die folgenden Schritte aus, um eine Konferenzrichtlinie auf Benutzer- oder Standortebene zu löschen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die globale Konferenzrichtlinie kann nicht gelöscht werden.
 
 

@@ -20,7 +20,7 @@ Nach dem Erstellen einer Lync Server-Benutzerrichtlinie müssen Sie sie auf die 
 Einzelheiten zur Funktionsweise von Archivierungsrichtlinien, einschließlich der Hierarchie für globale, Standort- und Benutzerrichtlinien, finden Sie unter [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder Betriebsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Damit Sie die Archivierung konfigurieren und verwenden können, müssen Sie sie zunächst bereitstellen. Ausführliche Informationen hierzu finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-deploying-archiving.md">Bereitstellen der Archivierung in Lync Server 2013</A>.<BR>Wenn Sie die Microsoft Exchange-Integration für Ihre Bereitstellung aktiviert haben, wird mithilfe von Compliance-Archivrichtlinien in Exchange festgelegt, ob die Archivierung für die Benutzer aktiviert wird, die in Exchange 2013 verwaltet werden und die ihre Postfächer in Compliance-Archive verschoben haben. Einzelheiten dazu finden Sie unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung beim Verwenden von Exchange Server-Integration</A> in der Bereitstellungsdokumentation.<BR>Vor dem Aktivieren der Archivierung sollten Sie alle entsprechenden Optionen in den Archivierungskonfigurationen angeben. Ausführliche Informationen hierzu finden Sie unter <A href="lync-server-2013-configuring-archiving-options.md">Konfigurieren von Archivierungsoptionen</A> in der Bereitstellungsdokumentation.
 
 
@@ -38,7 +38,7 @@ Einzelheiten zur Funktionsweise von Archivierungsrichtlinien, einschließlich de
 5.  Wählen Sie für **Lync Server-Benutzer bearbeiten** unter **Archivierungsrichtlinie** die anzuwendende Richtlinie zur Benutzerarchivierung aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit den Einstellungen <STRONG>&lt;Automatisch&gt;</STRONG> werden die Standardeinstellungen der Serverinstallation angewendet. Diese Einstellungen werden vom Server automatisch übernommen.
 
 

@@ -60,7 +60,7 @@ Wenn Sie einen Enterprise-Server bereitstellen, muss dauerhaft eine Mindestanzah
 
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013 müssen die Dienste nach jedem Hinzufügen oder Entfernen eines Front-End-Servers zu bzw. aus dem Pool neu gestartet werden. Das Entfernen und Hinzufügen von Servern sollte als separater Vorgang ausgeführt werden. Verwenden Sie beispielsweise den folgenden Ablauf, um zwei Front-End-Server hinzuzufügen und zwei Front-End-Server zu entfernen: 
 > <OL>
 > <LI>
@@ -109,7 +109,7 @@ Nachdem Sie Ihre Topologie definiert haben, führen Sie die folgenden Schritte a
       - **Monitoring**   Mit dem Monitoring Server können Sie numerische Daten zur Medienqualität im Netzwerk und an den Endpunkten, Nutzungsinformationen in Bezug auf VoIP-Anrufe (Voice over IP), Sofortnachrichten, A/V-Unterhaltungen (Audio/Video), Besprechungen, Anwendungsfreigaben und Dateiübertragungen sowie Fehlerinformationen und Informationen zur Problembehandlung bei Anruffehlern erfassen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Zum Aktivieren der Anrufsteuerung in Ihrer Bereitstellung müssen Sie diese Funktion in genau einem Pool pro zentralem Standort aktivieren. Die Anrufsteuerung wird empfohlen, wenn Sie VoIP-Funktionen oder die A/V-Konferenzfunktion bereitstellen.
 
     
@@ -175,7 +175,7 @@ Nachdem Sie Ihre Topologie definiert haben, führen Sie die folgenden Schritte a
       - Wenn Sie den Vermittlungsserver als eigenständigen Server bereitstellen möchten, deaktivieren Sie das entsprechende Kontrollkästchen. Sie stellen den Vermittlungsserver in einem separaten Bereitstellungsschritt bereit, nachdem die Bereitstellung des Front-End-Servers vollständig abgeschlossen wurde.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es wird empfohlen, wenn möglich den Vermittlungsserver zu verbinden. Ausführliche Informationen zur Unterstützung von verbundenen oder eigenständigen Vermittlungsservern finden Sie unter <A href="lync-server-2013-components-and-topologies-for-mediation-server.md">Komponenten und Topologien für den Vermittlungsserver in Lync Server 2013</A> in der Planungsdokumentation.
 
 
@@ -242,7 +242,7 @@ Nachdem Sie Ihre Topologie definiert haben, führen Sie die folgenden Schritte a
     2.  Optional geben Sie die externe Basis-URL im Feld **Externe Basis-URL** ein. Die externe Basis-URL wird zur Unterscheidung dieser URL von Ihrer internen Domänenbenennung eingegeben. Beispiel: der Name Ihrer internen Domäne lautet "contoso.net", der Name Ihrer externen Domäne lautet "contoso.com". Zur Definition der URL würden Sie den Domänennamen "contoso.com" verwenden. Dies ist auch im Fall eines Reverseproxys wichtig. Der Domänenname der externen Basis-URL würde dem Domänennamen des vollqualifizierten Domänennamens des Reverseproxys entsprechen. Für Instant Messaging und Anwesenheit ist kein HTTP-Zugriff auf den Front-End-Pool erforderlich.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Zur Verwendung des DNS-Lastenausgleichs müssen Sie die entsprechenden DNS-Einträge erstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configure-dns-for-load-balancing.md">Konfigurieren von DNS für den Lastenausgleich in Lync Server 2013</A>.
 
 
@@ -256,7 +256,7 @@ Nachdem Sie Ihre Topologie definiert haben, führen Sie die folgenden Schritte a
     Wenn der Office Web Apps-Server außerhalb Ihrer internen Firewall bereitgestellt wird, wählen Sie die Option **Office Web Apps Server wird in einem externen Netzwerk (z. B. Perimeternetzwerk/Internet) bereitgestellt** aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013</A>.
 
 

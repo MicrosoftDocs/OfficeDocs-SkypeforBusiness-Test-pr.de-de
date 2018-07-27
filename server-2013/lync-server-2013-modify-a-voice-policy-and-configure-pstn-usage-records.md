@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn Sie eine neue VoIP-Richtlinie erstellen möchten, finden Sie das entsprechende Verfahren unter [Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn ein Benutzer einer VoIP-Richtlinie ohne zugeordnete PSTN-Verwendungsdatensätze (Public Switched Telephone Network, Telefonfestnetz) zugewiesen wird, kann der Benutzer keine ausgehenden Anrufe tätigen. Eine Liste aller in Ihrer Enterprise-VoIP-Bereitstellung verfügbaren PSTN-Verwendungsdatensätze und deren Eigenschaften finden Sie unter <A href="lync-server-2013-view-pstn-usage-records.md">Anzeigen von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.
 
 
@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
 4.  Doppelklicken Sie auf der Seite **VoIP-Richtlinie** auf den Namen einer VoIP-Richtlinie.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Bereich und der Name wurden bei Erstellung der VoIP-Richtlinie festgelegt. Sie können nicht geändert werden.
 
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
       - Die **Voicemailumgehung** verhindert, dass Anrufe unmittelbar an das Voicemailsystem des Mobiltelefons des Benutzers weitergeleitet werden, wenn gleichzeitiges Klingeln konfiguriert ist und das Telefon deaktiviert ist, keine Akkukapazitäten mehr hat oder sich außerhalb des abgedeckten Bereichs befindet.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Dieses Feature ist nur über die Lync Server-Verwaltungsshell konfigurierbar.
 
     
@@ -67,7 +67,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
       - **Außerkraftsetzen der Bandbreitenrichtlinie** ermöglicht Administratoren das Außerkraftsetzen der Entscheidungen der Anrufsteuerungsrichtlinie für einen bestimmten Benutzer. Diese Option ist standardmäßig deaktiviert.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Die Richtlinie wird nur für eingehende Anrufe an den Benutzer, nicht jedoch für ausgehende Anrufe außer Kraft gesetzt, die vom Benutzer getätigt werden. Nachdem die Sitzung hergestellt wurde, wird die Bandbreitenauslastung genau aufgezeichnet. Diese Einstellung sollte sparsam verwendet werden.
 
     
@@ -86,7 +86,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
         2.  Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Datensatz ein. Sie könnten beispielsweise einen PSTN-Verwendungsdatensatz namens **Redmond** für Vollzeitbeschäftigte in Redmond und einen weiteren Datensatz namens **RedmondTemps** für Mitarbeiter mit Zeitverträgen erstellen.
             
 
-            > [!TIP]
+            > [!NOTE]
             > Der Name des PSTN-Verwendungsdatensatzes muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Datensatzes kann das Feld <STRONG>Name</STRONG> nicht mehr bearbeitet werden.
 
         
@@ -121,7 +121,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
 8.  Ordnen Sie die PSTN-Verwendungsdatensätze zur Erzielung optimaler Leistung an. Wenn Sie die Position eines Datensatzes in der Liste ändern möchten, markieren Sie den Datensatznamen, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Reihenfolge, in der PSTN-Verwendungsdatensätze in der VoIP-Richtlinie aufgeführt werden, ist relevant. Lync Server durchläuft die Liste von oben nach unten. Es wird empfohlen, die Liste nach Verwendungshäufigkeit zu strukturieren. Beispiel: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 
@@ -145,7 +145,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
             2.  Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Datensatz ein.
                 
 
-                > [!TIP]
+                > [!NOTE]
                 > Der Name des PSTN-Verwendungsdatensatzes muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Datensatzes kann das Feld <STRONG>Name</STRONG> nicht mehr bearbeitet werden.
 
             
@@ -180,7 +180,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
 10. (Optional) Geben Sie eine Nummer zum Testen der VoIP-Richtlinie ein, und klicken Sie auf **Los**. Die Testergebnisse werden unter **Übersetzte Nummer für Test** angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine VoIP-Richtlinie speichern, die den Test nicht bestanden hat, und sie später neu konfigurieren. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen des VoIP-Routings in Lync Server 2013</A>.
 
 
@@ -190,7 +190,7 @@ Führen Sie die folgenden Schritte aus, um eine VoIP-Richtlinie zu ändern. Wenn
 12. Klicken Sie auf der Seite **VoIP-Richtlinie** auf **Commit**, und klicken Sie anschließend auf **Commit für alle**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

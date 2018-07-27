@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-02-07_
 Der einheitliche Kontaktspeicher ermöglicht es Benutzern, eine einzige Kontaktliste zu führen, deren Kontakte dann in vielen Anwendungen verfügbar sind (z. B. in Microsoft Lync 2013, Microsoft Outlook 2013 und Microsoft Outlook Web App 2013). Wenn Sie den einheitlichen Kontaktspeicher für einen Benutzer aktivieren, werden dessen Kontakte nicht in Microsoft Lync Server 2013 gespeichert und über das SIP-Protokoll abgerufen, sondern in Microsoft Exchange Server 2013 gespeichert und von Exchange-Webdiensten abgerufen.
 
 
-> [!TIP]
+> [!NOTE]
 > Technisch gesehen werden die Kontaktinformationen in zwei Ordnern gespeichert, die sich im Exchange 2013-Postfach des Benutzers befinden. Die Kontakte selbst werden in einem Ordner mit dem Namen "Lync-Kontakte" gespeichert, der für Endbenutzer sichtbar ist. Die Metadaten zu den Kontakten werden in einem Unterordner gespeichert, der für Endbenutzer nicht sichtbar ist.
 
 
@@ -64,7 +64,7 @@ Anschließend können Sie diese neue benutzerbezogene Richtlinie (NoUnifiedConta
 Dieser Befehl weist die neue Richtlinie dem Benutzer "Ken Myer" zu und verhindert auch, dass dessen Kontakte zum einheitlichen Kontaktspeicher migriert werden.
 
 
-> [!TIP]
+> [!NOTE]
 > In manchen Fällen können Sie den gleichen Endeffekt erzielen, indem Sie einfach die Zuweisung der aktuellen Benutzerdienste-Richtlinie für den Benutzer aufheben. Das wäre zum Beispiel der Fall, wenn dem Benutzer "Ken Myer" eine benutzerbezogene Benutzerdienste-Richtlinie zugewiesen ist, die den einheitlichen Kontaktspeicher aktiviert, während die globale Richtlinie die Verwendung des einheitlichen Kontaktspeichers verbietet. In solch einem Fall können Sie die Zuweisung der benutzerbezogenen Benutzerdienste-Richtlinie für Ken aufheben. Ken würde dann automatisch von der globalen Richtlinie verwaltet werden und somit keinen Zugriff auf den einheitlichen Kontaktspeicher mehr besitzen.<BR>Wenn Sie eine vorhandene Zuweisung einer benutzerbezogenen Richtlinie wieder aufheben möchten, verwenden Sie den gleichen Befehl wie oben, nur dass Sie diesmal den Parameter "PolicyName" auf den Wert "Null" setzen:<BR>Grant-CsUserServicesPolicy –Identity "Ken Myer" –PolicyName $Null
 
 

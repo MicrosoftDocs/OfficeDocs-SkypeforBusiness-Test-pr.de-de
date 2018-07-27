@@ -34,7 +34,7 @@ In den meisten Bereitstellungen von Microsoft Lync Server 2013 mit Anrufsteuerun
 6.  Geben Sie im Feld **Maske** einen numerischen Wert von 1 bis 32 ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Wert stellt die Bitmaske dar, die auf das erstellte Subnetz angewendet werden soll.
 
 

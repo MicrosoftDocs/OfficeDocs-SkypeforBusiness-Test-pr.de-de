@@ -51,7 +51,7 @@ Die folgende Tabelle zeigt eine Übersicht über den E9-1-1-Bereitstellungsproze
 <td><ol>
 <li><p>Erstellen Sie einen neuen PSTN-Verwendungseintrag. Hierbei handelt es sich um den gleichen Namen, der in der Standortrichtlinie für die Einstellung <strong>PSTN-Verwendung</strong> verwendet wird.</p></li>
 <li><p>Erstellen Sie eine VoiP-Route, oder weisen Sie dem im vorherigen Schritt erstellten PSTN-Verwendungseintrag eine solche zu, und verweisen Sie das Gatewayattribut auf den E9-1-1-SIP-Trunk oder das ELIN-Gateway.</p></li>
-<li><p>Stellen Sie für SIP-Trunk-E9-1-1-Dienstanbieter den Trunk, der E9-1-1-Anrufe über das SIP verwaltet, so ein, dass PIDF-LO-Daten mithilfe des <strong>set-cstrunkconfiguration –EnablePIDFLOSupport</strong>-Cmdlets weitergegeben werden.</p></li>
+<li><p>Stellen Sie für SIP-Trunk-E9-1-1-Dienstanbieter den Trunk, der E9-1-1-Anrufe über das SIP verwaltet, so ein, dass PIDF-LO-Daten mithilfe des <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong>-Cmdlets weitergegeben werden.</p></li>
 <li><p>Optional können Sie für SIP-Trunk-E9-1-1-Dienstanbieter eine lokale PSTN-Route für Anrufe erstellen oder zuweisen, die nicht vom SIP-Trunk des E9-1-1-Dienstanbieters verwaltet werden. Diese Route wird verwendet, wenn keine Verbindung zum E9-1-1-Dienstanbieter besteht. Wenn dies von Ihrem E9-1-1-Dienstanbieter unterstützt wird, weisen Sie dem Gateway eine Trunkkonfigurationsregel zu, die die Notrufzeichenfolge in die DID (Direct Inward Dialing)-Nummer des nationalen/regionalen Telefoncenters für Notrufe (Emergency Call Response Center, ECRC) übersetzt.</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>

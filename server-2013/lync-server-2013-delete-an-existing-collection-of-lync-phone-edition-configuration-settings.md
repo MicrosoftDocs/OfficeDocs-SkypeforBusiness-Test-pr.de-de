@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Wenn Sie für Geräte, auf denen Lync Phone Edition ausgeführt wird, eine Auflistung von Einstellungen nicht mehr verwenden möchten, löschen Sie die Auflistung. Wenn Sie eine Auflistung für einen Standort löschen, gelten die globalen Einstellungen für die Telefone an diesem Standort. Die globale Auflistung kann nicht gelöscht werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Anstatt eine Auflistung zu löschen, können Sie auch nur einige der Einstellungen ändern. Ausführliche Informationen hierzu finden Sie unter <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Lync Phone Edition</A>.
 
 
@@ -34,7 +34,7 @@ Wenn Sie für Geräte, auf denen Lync Phone Edition ausgeführt wird, eine Aufli
 4.  Klicken Sie auf der Seite **Gerätekonfiguration** auf die Auflistung, die Sie löschen möchten, klicken Sie auf das Menü **Bearbeiten** und dann auf **Löschen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie die globale Auflistung löschen, werden die Einstellungen lediglich auf die Standardeinstellungen zurückgesetzt. Die Auflistung verschwindet nicht.
 
 

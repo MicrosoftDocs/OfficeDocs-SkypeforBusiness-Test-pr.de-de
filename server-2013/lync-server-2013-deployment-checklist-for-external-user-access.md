@@ -71,7 +71,7 @@ Halten Sie sich bei der Bereitstellung des Umkreisnetzwerks und der Edgeserver a
 <td><p>Gruppe <strong>Domänen-Admins</strong> und Gruppe <strong>RTCUniversalServerAdmins</strong> oder <strong>CsAdmins</strong></p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Sie können eine Topologie unter Verwendung eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, für die Veröffentlichung einer Topologie ist jedoch ein Konto erforderlich, das Mitglied der Gruppe <STRONG>Domänen-Admins</STRONG> und der Gruppe <STRONG>RTCUniversalServerAdmins</STRONG> ist.
 
 

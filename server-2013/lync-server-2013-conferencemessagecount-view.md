@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Die ConferenceMessageCount-Ansicht speichert Informationen darüber, wie viele Nachrichten durch einen Benutzer an eine Konferenz gesendet wurden. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 
 
-> [!TIP]
+> [!NOTE]
 > Die ConferenceMessageCount-Ansicht enthält neben den unten aufgeführten Spalten alle Spalten der <A href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails-Ansicht</A>.
 
 

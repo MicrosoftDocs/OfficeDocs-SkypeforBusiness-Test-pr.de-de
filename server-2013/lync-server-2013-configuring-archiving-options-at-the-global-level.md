@@ -20,7 +20,7 @@ Wenn Sie Ihrer Topologie die Archivierung hinzufügen und die Topologie veröffe
 Ausführliche Informationen zur Funktionsweise der Archivierungskonfigurationen, einschließlich der Hierarchie für globale, Standort- und Poolkonfigurationen, finden Sie unter [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungs-, Bereitstellungs- oder Betriebsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie sollten alle entsprechenden Optionen für die Archivierungskonfigurationen angeben, bevor Sie die Archivierung aktivieren.
 
 

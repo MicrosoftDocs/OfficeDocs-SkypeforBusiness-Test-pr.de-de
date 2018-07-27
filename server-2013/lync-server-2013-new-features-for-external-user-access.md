@@ -28,7 +28,7 @@ Lync Server 2013 führt neue Funktionen ein, die die Möglichkeiten und Kommunik
   - **Extensible Messaging and Presence Protocol (XMPP)**     Lync Server 2013 führt einen vollintegrierten XMPP-Proxy (auf den Edgeservern bereitgestellt) und ein XMPP-Gateway ein, das auf Ihren Front-End-Servern bereitgestellt wird. Sie können einen XMPP-Verbund als optionale Komponente bereitstellen. Das Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways ermöglicht Ihren Microsoft Lync 2013-Benutzern das Hinzufügen von Kontakten von XMPP-basierten Partnern für Chat und Anwesenheit.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die XMPP-Dienste in Lync Server 2013 bieten zurzeit nur Sofortnachrichten und Anwesenheit zwischen Lync-Clients und XMPP-basierten Kontakten.
 
 
@@ -36,7 +36,7 @@ Lync Server 2013 führt neue Funktionen ein, die die Möglichkeiten und Kommunik
   - **Mobilitätsdienste für mobile Clients**    Die in einem Kundenupdate für Lync Server 2010 eingeführten Mobilitätsdienste in Lync Server 2013 ermöglichen Microsoft Lync Mobile-Clients auf Mobiltelefonen und Tablets bei Verwendung unterstützter Mobilgeräte (Apple iOS, Android, Windows Phone oder Nokia) Aktivitäten wie das Senden und Empfangen von Sofortnachrichten, das Anzeigen von Kontakten und der Anwesenheit. Zudem unterstützen Mobilgeräte einige Enterprise-VoIP-Features, beispielsweise die Teilnahme an einer Besprechung durch Klicken, geschäftlich Anrufen, Erreichbarkeit unter einer Nummer, Voicemail und Anrufe in Abwesenheit.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Mobilitätsdienste nutzen den Reverseproxy und veröffentlichte Dienste, die auf Ihren Front-End-Servern bereitgestellt sind. Auf den Edgeservern sind keine Änderungen erforderlich.
 
 

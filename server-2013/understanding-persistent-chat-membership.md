@@ -48,7 +48,7 @@ Zu den **AllowedMembers** einer Kategorie müssen alle Benutzer gehören, die ei
 Kategorien können auch eingesetzt werden, um chinesische Mauern zu errichten. Chinesische Mauern verhindern das Auftreten von Interessenkonflikten in einer Organisation. Ein Administrator kann z. B. Chatrooms in einer Kategorie erstellen, die nur für Händler vorgesehen ist, während die Chatrooms in einer anderen Kategorie ausschließlich durch Analysten genutzt werden können.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013, Server für beständigen Chat wird kein Zugriff von Partnerbenutzern unterstützt. Sofern Chats von Partnerbenutzern in früheren Versionen von Server für beständigen Chat vorhanden sind, werden diese migriert. Die Partnerbenutzer werden als deaktivierte Prinzipale hinzugefügt.
 
 

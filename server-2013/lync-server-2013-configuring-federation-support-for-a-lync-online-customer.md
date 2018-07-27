@@ -24,7 +24,7 @@ Sie können Benutzern in Ihrer Organisation auf die folgende Art Kommunikationsd
 Wenn Sie Lync 2013 in Ihrer Organisation bereitstellen, können Sie mit den Domänen eines oder mehrerer Microsoft Lync Online 2010-Kunden einen Partnerverbund bilden. Sie müssen die Unterstützung für die Domäne und die Benutzer des Lync Online-Kunden konfigurieren, um den Partnerverbund zwischen Benutzern Ihrer lokalen Lync 2013-Bereitstellung und Benutzern eines Lync Online 2010-Kunden zu aktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > In dieser Dokumentation werden nur die Verfahren zur Konfiguration Ihrer Organisation für die Unterstützung von Verbünden mit Lync Online 2010-Kunden beschrieben. Es werden darin keine Verfahren für die Konfiguration des Lync Online 2010-Kunden für die Unterstützung von Verbünden beschrieben. Weitere Informationen zu Lync Online-Diensten finden Sie in Lync Online unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x407</A>.
 
 

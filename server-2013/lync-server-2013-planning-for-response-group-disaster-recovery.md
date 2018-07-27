@@ -22,7 +22,7 @@ In diesem Abschnitt werden einige Methoden zum Vorbereiten von Reaktionsgruppen 
 Beachten Sie beim Vorbereiten und Ausführen von Notfallwiederherstellungsverfahren Folgendes.
 
 
-> [!TIP]
+> [!NOTE]
 > In einer Koexistenzumgebung werden nur die Lync Server 2013-Reaktionsgruppen für die in diesem Dokument beschriebenen Verfahren zur Notfallwiederherstellung unterstützt.
 
 
@@ -40,7 +40,7 @@ Beachten Sie beim Vorbereiten und Ausführen von Notfallwiederherstellungsverfah
   - Das Importieren von Reaktionsgruppen in einen Sicherungspool vor dem Ausführen eines Notfallwiederherstellungs- oder Failoververfahrens ist möglich. Das Importieren von Reaktionsgruppen im Voraus reduziert die Downtime, da der Lync Server-Reaktionsgruppendienst im Sicherungspool wiederhergestellt werden kann, sobald Anrufe an den Sicherungspool weitergeleitet werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Reaktionsgruppenanwendung kann keine Agents erreichen, die in einem inaktiven Pool verwaltet werden, bis das Failover abgeschlossen ist. Währenddessen bearbeitet die Reaktionsgruppenanwendung Anrufe wie bei einer Nichtverfügbarkeit dieser Agents.
 
 
@@ -58,7 +58,7 @@ Während der Failoverphase der Notfallwiederherstellung befinden sich die Reakti
 Wenn Sie die Wiederherstellung durch das Erstellen eines neuen Pools mit einem anderen FQDN durchführen, müssen Sie den neuen Pool als Besitzer der Reaktionsgruppen zuordnen, wenn Sie diese importieren. Der Besitz von Reaktionsgruppen verbleibt beim ursprünglichen Pool, außer Sie ordnen den Besitz explizit neu zu, indem Sie das Cmdlet **Import-CsRgsConfiguration** mit dem Parameter "-OverwriteOwner" ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie müssen den Parameter "-OverwriteOwner" auch dann verwenden, wenn Sie den Pool während des Wiederherstellungsvorgangs neu erstellt haben (d.&nbsp;h. die Reaktionsgruppe-Datenbank ist leer), unabhängig davon, ob Sie denselben FQDN verwenden. Wenn Sie den Pool nicht neu erstellt haben, müssen Sie den Parameter "-OverwriteOwner" nicht verwenden, die Verwendung dieses Parameters ist jedoch zulässig, wenn Sie Reaktionsgruppen in den ursprünglichen Pool zurückimportieren.
 
 
@@ -108,7 +108,7 @@ Nähere Informationen zum Ausführen dieser Schritte finden Sie unter [Verfahren
 <td><p>Führen Sie das Cmdlet <strong>Import-CsRgsConfiguration</strong> aus, um die Sicherung der Lync Server-Reaktionsgruppendienst-Konfiguration vom primären Pool auf den Sicherungspool zu übertragen.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Verwenden Sie den Parameter "-ReplaceExistingSettings", wenn Sie die Reaktionsgruppe-Einstellungen auf Anwendungsebene im Sicherungspool durch die Einstellungen aus dem primären Pool ersetzen möchten. Wenn Sie die Einstellungen auf Anwendungsebene nicht vom primären Pool auf den Sicherungspool übertragen und der primäre Pool nicht wiederhergestellt werden kann, gehen die Einstellungen aus dem primären Pool verloren.
 
 
@@ -166,7 +166,7 @@ Nähere Informationen zum Ausführen dieser Schritte finden Sie unter [Verfahren
 <li><p>Führen Sie das Cmdlet <strong>Import-CsRgsConfiguration</strong> aus, um die Reaktionsgruppen zurück in den primären Pool zu importieren.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Wenn der primäre Pool nicht wiederhergestellt werden kann und Sie einen neuen Pool als Ersatz bereitstellen, verwenden Sie den Parameter "-ReplaceExistingSettings", um die Einstellungen auf Anwendungsebene vom Sicherungspool auf den neuen Pool zu übertragen. Wenn Sie die Einstellungen aus dem Sicherungspool nicht übertragen, verwendet der neue Pool die Standardeinstellungen.
 
 

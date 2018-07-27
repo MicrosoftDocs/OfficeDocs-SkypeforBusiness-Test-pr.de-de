@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 Sie können das folgende Verfahren verwenden, um ein zuvor hinzugefügtes Benutzerkonto in Lync Server 2013 zu entfernen.
 
 
-> [!TIP]
+> [!NOTE]
 > Durch das Entfernen eines Benutzers gehen alle Einstellungen verloren, die für das Benutzerkonto konfiguriert wurden. Sie können ein Benutzerkonto auch vorübergehend deaktivieren. Informationen hierzu finden Sie im Thema <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Aktivieren oder Reaktivieren von Benutzerkonten für Lync Server</A>.
 
 

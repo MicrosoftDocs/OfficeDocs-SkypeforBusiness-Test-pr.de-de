@@ -20,7 +20,7 @@ Genau wie mit dem Cmdlet **Test-CsTopology** können Sie auch mit Best Practice 
 Neben der Überprüfung der Gültigkeit der gesamten Lync Server-Topologie, können Sie mit **Test-CsTopology** die Gültigkeit eines spezifischen Diensts prüfen. Ausführliche Informationen zur Verwendung des Cmdlets zum Testen bestimmter Dienste finden Sie unter [Test-CsTopology](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTopology) in der Lync Server-Verwaltungsshell-Dokumentation. Nutzen Sie die folgenden Informationen, um Probleme mit Ihrer Topologie zu lösen.
 
 
-> [!TIP]
+> [!NOTE]
 > Je nach Konfiguration Ihrer Edgeserver und den entsprechenden Einstellungen im Umkreisnetzwerk, inklusive Firewall- Einstellungen und Berechtigungen, kann Best Practices Analyzer möglicherweise nicht auf Ihre Edgeserver zugreifen, um diese zu scannen. Wenn Sie die Edgeserver scannen lassen und die Berichte anzeigen, dass ein Zugriffsproblem für die Edgeserver vorliegt, deaktivieren Sie das Kontrollkästchen <STRONG>Edgeserver</STRONG>, und führen Sie den Scanvorgang erneut aus, um zu verhindern, dass das Problem in den Berichten aufgelistet wird.
 
 

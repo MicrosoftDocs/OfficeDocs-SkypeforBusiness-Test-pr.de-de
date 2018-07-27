@@ -26,7 +26,7 @@ Wenn ein Lync-Client den Standort vom Standortinformationsdienst abruft, ist dar
 ELIN-Gateways unterstützen Notrufe nur innerhalb des Netzwerks Ihrer Organisation. Notrufe von außerhalb dieses Netzwerks werden nicht unterstützt.
 
 
-> [!TIP]
+> [!NOTE]
 > Nähere Informationen über die Verwendung einer SIP-Trunkverbindung für Notrufe finden Sie unter <A href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk in Lync Server 2013</A>.
 
 

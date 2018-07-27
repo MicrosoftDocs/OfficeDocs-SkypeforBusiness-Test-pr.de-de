@@ -22,7 +22,7 @@ Wenn Sie Benutzern ermöglichen möchten, die Einstellungen für die Remoteanruf
 Wenn Sie eine vorhandene Communications Server 2007 R2- oder Communications Server 2007-Bereistellung haben, verwenden Communicator 2007 R2- und Communicator 2007-Clients während der parallelen Migration weiterhin Gruppenrichtlinien. Wenn Sie jedoch Richtlinieneinstellungen auf Lync-Clients übertragen möchten, müssen Sie die entsprechenden In-Band-Bereitstellungseinstellungen von Lync Server konfigurieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie müssen einem Benutzer sowohl einen Anschluss-URI als auch einen Anschlussserver-URI bereitstellen, damit er Remoteanrufsteuerung nutzen kann. Verwenden Sie unbedingt die vom Gateway für diese Einstellungen benötigte Syntax, wie in <A href="lync-server-2013-deployment-tasks-for-remote-call-control.md">Bereitstellungsaufgaben für die Remoteanrufsteuerung in Lync Server 2013</A> beschrieben.<BR>Vergewissern Sie sich, dass die Domäne für den Anschlussserver-URI der während der Konfiguration der statischen Route zum Gateway im Parameter <STRONG>MatchUri</STRONG> -Parameter angegebenen Zieldomäne entspricht.<BR>Der Anschluss-URI gibt die dem Benutzer zugewiesene Rufnummer im E.164-Format mit dem Präfix "TEL:" an (zum Beispiel "tel:+14255550150"). Wenn Sie eine Durchwahlnummer konfigurieren möchten, lautet das Format "tel:+14255550150;ext=111". Wenn Sie den Anschluss-URI für den Benutzer bereits konfiguriert haben und der Wert sich nicht geändert hat, müssen Sie den Anschluss-URI nicht erneut angeben, wenn Sie die Remoteanrufsteuerung für diesen Benutzer aktivieren.
 
 

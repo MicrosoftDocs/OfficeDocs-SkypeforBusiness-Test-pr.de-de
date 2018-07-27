@@ -26,7 +26,7 @@ Die Softwareunterstützung für Clients und Geräte einer Lync Server 2013-Berei
   - [So werden Benutzerfotos in Lync angezeigt](how-user-photos-are-displayed-in-lync.md)
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Phone Edition kann mit Lync Server 2013 ebenso wie mit Lync Server 2010 verwendet werden. Nähere Informationen über die Softwareunterstützung für diese Geräte finden Sie in den folgenden Themen in der TechNet-Bibliothek von Lync Server 2010: 
 > <UL>
 > <LI>

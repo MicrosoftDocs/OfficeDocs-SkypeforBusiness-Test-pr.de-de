@@ -48,7 +48,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
         Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
     
 
-    > [!TIP]
+    > [!NOTE]
     > Standardmäßig werden von "Search-CsClsLogging" die Ergebnisse der Suche an die Konsole gesendet. Wenn Sie die Suchergebnisse in einer Datei speichern möchten, verwenden Sie dazu "–OutputFilePath <EM>&lt;Vollqualifizierter Dateipfad&gt;</EM>. Um den Parameter "–OutputFilePath" zu definieren, geben Sie einen Pfad und einen Dateinamen als Teil des Parameters in Form einer Zeichenfolge zwischen Anführungszeichen ein, z.&nbsp;B. "C:\LogFiles\SearchOutput.txt". In diesen Beispiel müssen Sie sicherstellen, dass das Verzeichnis "C:\LogFiles" vorhanden ist und Sie über Lese- und Schreibberechtigungen (NTFS-Berechtigungen) für Dateien in diesem Ordner verfügen. An die Ausgabe werden immer Daten angefügt, sie wird nicht überschrieben. Wenn Sie separate Dateien benötigen, geben Sie unterschiedliche Dateinamen für die einzelnen Suchvorgänge an.
 
     
@@ -93,7 +93,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die angegebene Uhrzeit- und Datumszeichenfolge kann "Datum Uhrzeit" oder "Uhrzeit Datum" lauten. Der Befehl analysiert die Zeichenfolge und verwendet die entsprechenden Werte für Datum und Uhrzeit.
 
 

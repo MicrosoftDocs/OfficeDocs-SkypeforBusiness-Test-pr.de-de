@@ -30,7 +30,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 5.  Geben Sie im Abschnitt **Neue Regionenverbindung** im Feld **Name** einen Wert ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Wert muss innerhalb der Lync Server 2013-Bereitstellung eindeutig sein.
 
 

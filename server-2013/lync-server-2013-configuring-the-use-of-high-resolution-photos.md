@@ -26,7 +26,7 @@ In Microsoft Lync Server 2013 können Fotos jedoch im Microsoft Exchange Server 
   - 648 x 648 Pixel für die Verwendung in Lync 2013 und Microsoft Lync Web App.
 
 
-> [!TIP]
+> [!NOTE]
 > Sofern Sie ausreichende Ressourcen besitzen, empfiehlt es sich, Fotos im Format 648 x 648 Pixel hochzuladen. Dies sorgt für eine maximale Auflösung und optimale Bildqualität in allen Office 2013-Anwendungen. Ein JPEG-Foto mit 648 x 648 Pixel und einer Tiefe von 24 Bit ergibt eine Datei mit einer Größe von rund 240 KB. Dies bedeutet, dass Sie für je vier Benutzerfotos rund ein MB Festplattenspeicher benötigen.
 
 
@@ -40,7 +40,7 @@ Hochauflösende Fotos, auf die mit den Exchange-Webdiensten zugegriffen wird, k�
 Im ersten Befehl des obigen Beispiels wird das Get-Content-Cmdlet verwendet, um die Inhalte der Datei "C:\\Photos\\Kenmyer.jpg" zu lesen und diese Daten in einer Variablen namens "$photo" zu speichern. Im zweiten Befehl wird das Exchange-Cmdlet "Set-UserPhoto" genutzt, um das Foto hochzuladen und mit dem Benutzerkonto von Ken Myer zu verbinden.
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Beispiel wird der Active Directory-Anzeigename von Ken Myer als Benutzerkontoidentität verwendet. Sie können ein Benutzerkonto auch über andere IDs referenzieren, wie die SMTP-Adresse des Benutzers oder dessen Benutzerprinzipalnamen. Weitere Informationen finden Sie in der Dokumentation zum Set-UserPhoto-Cmdlet unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268536%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=268536&amp;clcid=0x407</A>
 
 

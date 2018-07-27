@@ -26,7 +26,7 @@ Im Rahmen dieses Themas werden die Anforderungen bezüglich der Infrastruktur un
   - Für die Veröffentlichung eines Enterprise Edition- Front-End-Pools muss der SQL Server-basierte Back-End-Server mit der Domäne verbunden werden, in der Sie die Server bereitstellen. Der Server muss online und mithilfe der entsprechenden Firewallregeln konfiguriert sein, um Remotebenutzern zur Verfügung zu stehen. Ausführliche Informationen zum Festlegen von Firewallausnahmen finden Sie unter [Grundlegendes zu den Firewallanforderungen für SQL Server mit Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md). Weitere Details über die Konfiguration von SQL Server finden Sie unter [Konfigurieren von SQL Server für Lync Server 2013](lync-server-2013-configure-sql-server-for-lync-server.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Standard Edition-Server verfügt über eine verbundene Datenbank, die die veröffentlichte Konfiguration übernimmt. Sie müssen zunächst den Installationsschritt <STRONG>Ersten Standard Edition-Server vorbereiten</STRONG> im Lync Server-Bereitstellungs-Assistent ausführen.
 
 

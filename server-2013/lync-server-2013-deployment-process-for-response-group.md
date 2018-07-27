@@ -68,7 +68,7 @@ Dieser Abschnitt enthält eine Übersicht über die Phasen und Schritte zum Bere
 <li><p>Verwenden Sie das Konfigurationstool für Reaktionsgruppen oder die Lync Server-Verwaltungsshell, um Workflows (Sammelanschlüsse oder interaktive Sprachantwort (Interactive Voice Response, IVR)) wie zum Beispiel benutzerdefinierte Geschäftszeiten und Feiertage für Reaktionsgruppen zu erstellen.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Auf das Konfigurationstool für Reaktionsgruppen können Sie über die Lync Server-Systemsteuerung zugreifen.
 
 

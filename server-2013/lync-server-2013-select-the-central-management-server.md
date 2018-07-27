@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-01-02_
 Bevor Sie Ihre Topologie definieren und konfigurieren können, müssen Sie zunächst den Speicherort für die Installation des zentraler Verwaltungsservers angeben.
 
 
-> [!TIP]
+> [!NOTE]
 > Dies wird erst wirksam, wenn Sie eine Topologie im Topologie-Generator veröffentlicht haben. Führen Sie zum Festlegen des zentraler Verwaltungsservers vor dem Erstellen und Veröffentlichen der Topologie <STRONG>Set-CSConfigurationStoreLocation</STRONG> aus.
 
 

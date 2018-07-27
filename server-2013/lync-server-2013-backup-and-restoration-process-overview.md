@@ -52,7 +52,7 @@ Wenn ein Server ausfällt, auf dem Lync Server ausgeführt wird, beinhaltet die 
   - Wenn auf dem Server eine Serverrolle gehostet wurde, führen Sie immer die Schritte 1 bis 4 des Lync Server-Bereitstellungs-Assistenten aus, um die lokalen Konfigurationsdateien und die Serverrollenkomponenten zu installieren, Zertifikate zuzuweisen und die Dienste zu starten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn auf dem Server eine mit der Serverrolle verbundene Datenbank gehostet wurde, wird die Datenbank durch Ausführen des Schritts&nbsp;2 des Lync Server-Bereitstellungs-Assistenten wiederhergestellt.
 
 

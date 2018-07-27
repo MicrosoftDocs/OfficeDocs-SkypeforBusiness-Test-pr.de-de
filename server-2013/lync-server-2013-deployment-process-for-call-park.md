@@ -40,7 +40,7 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte zum Bereitstellen d
 <td><p>Verwenden Sie die Lync Server-Systemsteuerung oder das Cmdlet <strong>New-CSCallParkOrbit</strong>, um die Orbitbereiche in der Orbittabelle für das Parken von Anrufen zu erstellen und die Bereiche dem Anwendungsdienst zuzuordnen, der die Anwendung zum Parken von Anrufen hostet.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Für eine nahtlose Integration in vorhandene Wähleinstellungen werden Orbitbereiche typischerweise als ein Block virtueller Durchwahlnummern konfiguriert. Das Zuweisen von DID-Nummern (Direct Inward Dialing) als Orbitnummern in der Orbittabelle für das Parken von Anrufen wird nicht unterstützt.
 
 
@@ -79,14 +79,14 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte zum Bereitstellen d
 <td><p>Verwenden Sie die Lync Server-Systemsteuerung oder das <strong>Set-CSVoicePolicy</strong> -Cmdlet mit der Option <strong>EnableCallPark</strong> , um das Parken von Anrufen für Benutzer in der VoIP-Richtlinie zu aktivieren.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > In der Standardeinstellung ist die Parken von Anrufen für alle Benutzer deaktiviert.
 
 
 </div>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie mehrere VoIP-Richtlinien verwenden, stellen Sie sicher, dass die Eigenschaft "EnableCallPark" nicht nur für die Standardrichtlinie, sondern für alle VoIP-Richtlinien festgelegt ist.
 
 

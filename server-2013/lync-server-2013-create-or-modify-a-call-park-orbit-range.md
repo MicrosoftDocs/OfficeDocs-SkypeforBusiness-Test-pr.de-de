@@ -30,7 +30,7 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
       - Um einen neuen Orbitbereich zu erstellen, klicken Sie auf **Neu** . Geben Sie im Feld **Name** einen Namen zur Identifizierung dieses Nummernbereichs ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Nachdem Sie den Orbitbereich in die Datenbank geschrieben haben, können Sie den Namen nicht mehr ändern.
 
     
@@ -39,7 +39,7 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
 5.  Geben Sie im ersten Feld **Nummernbereich** die Startnummer für den Bereich von Durchwahlen für diesen Orbit zum Parken von Anrufen ein, und geben Sie dann im zweiten Feld **Nummernbereich** die letzte Nummer für den Bereich ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > <UL>
     > <LI>
     > <P>Die Startnummer für den Bereich muss kleiner oder gleich der letzten Nummer im Bereich sein.</P>

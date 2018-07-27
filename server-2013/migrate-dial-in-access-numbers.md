@@ -42,7 +42,7 @@ Sie müssen die Migration von Einwahlnummern abschließen, die auf einen Lync Se
 
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, das Verschieben von Einwahlnummern zu einem Zeitpunkt mit möglichst geringer Netzwerkauslastung vorzunehmen, für den Fall, dass es zu einem kurzen Dienstausfall kommt.
 
 
@@ -64,7 +64,7 @@ Sie müssen die Migration von Einwahlnummern abschließen, die auf einen Lync Se
 6.  Überprüfen Sie, dass keine Einwahlnummern für den Lync Server 2010-Pool zurückbleiben, aus dem Sie migrieren.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn alle Einwahlnummern auf den Lync Server 2013-Pool verweisen, können Sie den Lync Server 2010-Pool außer Betrieb nehmen.
 
 

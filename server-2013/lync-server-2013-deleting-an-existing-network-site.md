@@ -28,7 +28,7 @@ Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Regi
 4.  Klicken Sie auf der Seite **Standort** auf den Standort, den Sie löschen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können mehrere Standorte in einem Arbeitsschritt löschen. Drücken Sie hierzu STRG, und wählen Sie bei gedrückter STRG-TASTE mehrere Standorte aus. Wenn Sie alle Standorte auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
 
 

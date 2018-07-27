@@ -20,7 +20,7 @@ Konferenzgeräte stellen Lync Phone Edition-Features in Konferenzräumen bereit 
 In den Themen dieses Abschnitts erfahren Sie, wie Ihre Konferenzgeräte eingerichtet und verwaltet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Weitere Informationen zu den für die Verwendung mit Lync Server 2013 unterstützten Konferenzgeräte finden Sie auf der Webseite <A href="http://technet.microsoft.com/de-de/lync/gg278164.aspx">Für Microsoft Lync qualifizierte Telefone und Geräte</A>.
 
 

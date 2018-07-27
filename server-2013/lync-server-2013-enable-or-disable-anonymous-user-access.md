@@ -20,7 +20,7 @@ Anonyme Benutzer sind Benutzer, die nicht über ein Benutzerkonto in Active Dire
 Wenn Sie den Zugriff durch anonyme Benutzer zu einem späteren Zeitpunkt temporär oder dauerhaft unterbinden möchten, können Sie die Option für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Zugriff durch anonyme Benutzer für Ihre Organisation zu aktivieren oder zu deaktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Durch Aktivieren des Zugriffs durch anonyme Benutzer für Ihre Organisation geben Sie lediglich an, dass Ihre Server, auf denen der Zugriffs-Edgedienst ausgeführt wird, den Zugriff durch anonyme Benutzer unterstützen. Anonyme Benutzer können erst an Besprechungen in Ihrer Organisation teilnehmen, wenn Sie zusätzlich mindestens eine Konferenzrichtlinie konfigurieren und auf einen oder mehrere Benutzer oder Benutzergruppen anwenden. Nur Benutzer, denen eine Konferenzrichtlinie zur Unterstützung anonymer Benutzer zugeordnet ist, können anonyme Benutzer zu Besprechungen einladen. Ausführliche Informationen zum Konfigurieren von Konferenzrichtlinien zur Unterstützung des Einladens von anonymen Benutzern finden Sie unter <A href="lync-server-2013-conferencing-policies.md">Konferenzrichtlinien in Lync Server 2013</A>.
 
 

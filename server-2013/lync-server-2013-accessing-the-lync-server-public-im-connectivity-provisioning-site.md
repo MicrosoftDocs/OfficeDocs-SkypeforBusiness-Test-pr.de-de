@@ -120,7 +120,7 @@ Der Administrator muss in der Lync Server-Systemsteuerung mindestens eine Richtl
 Der Administrator muss in der Lync Server-Verwaltungsshell die Lync-Clientrichtlinie so konfigurieren, dass Skype als weiterer PIC-Anbieter angezeigt wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Benutzer von PIC-Dienstanbietern können erst dann an Chatunterhaltungen oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie zudem mindestens eine Richtlinie (Schritt 2 an früher Stelle in diesem Verfahren) zur Unterstützung der Verbindung zu öffentlichen Instant Messaging-Anbietern konfiguriert haben.<BR>Informationen zum Konfigurieren des Partnerverbunds und von PIC finden Sie unter "Aktivieren oder Deaktivieren des Partnerverbunds und der Anbindung an öffentliche Instant Messaging-Dienste" an <A href="http://go.microsoft.com/fwlink/p/?linkid=306063">http://go.microsoft.com/fwlink/p/?LinkId=306063</A>.<BR>Informationen zum Konfigurieren von mindestens einer Richtlinie zur Unterstützung des Benutzerzugriffs im Partnerverbund finden Sie unter "Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs" an <A href="http://go.microsoft.com/fwlink/p/?linkid=306064">http://go.microsoft.com/fwlink/p/?LinkId=306064</A>.
 
 

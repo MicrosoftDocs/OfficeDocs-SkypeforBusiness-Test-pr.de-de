@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-20_
 Eine *Richtlinie für gehostete Voicemail* stellt der Lync Server 2013 ExUM-Routinganwendung Informationen zum Routing von Anrufen für Benutzer bereit, deren Postfächer über einen gehosteten Exchange-Dienst verwaltet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > In der Regel ist nur eine Richtlinie für gehostete Voicemail erforderlich. In vielen Fällen können Sie die globale Richtlinie ändern, um alle Anforderungen zu erfüllen. Wenn Sie eine Richtlinie auf Standortebene erstellen, wird diese automatisch allen Benutzern zugewiesen, die am angegebenen Standort verwaltet werden. Wenn Sie eine Richtlinie auf Benutzerebene erstellen, müssen Sie diese Benutzern, Gruppen und Kontaktobjekten explizit zuweisen. Es ist möglich, mehrere Richtlinien für gehostete Voicemail bereitzustellen, in diesem Fall müssen die Richtlinien jedoch auf Benutzerbasis zugewiesen werden.
 
 

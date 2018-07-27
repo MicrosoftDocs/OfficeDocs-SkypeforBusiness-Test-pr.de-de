@@ -28,7 +28,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es können in einem Arbeitsschritt nur Informationen zu einer Regionenverbindung angezeigt werden.
 
 

@@ -20,7 +20,7 @@ Wenn Ihre Organisation über Benutzer verfügt, die an lokalen Lync Server 2013-
 Einwahlkonferenzen sind eine optionale Funktion bei der Bereitstellung von Lync Server 2013-Konferenzen. Wenngleich Einwahlkonferenzen einige Lync Server 2013-Komponenten verwenden, die auch von Enterprise-VoIP verwendet werden, ist die Bereitstellung von Enterprise-VoIP nicht erforderlich, um Einwahlkonferenzen bereitzustellen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Einwahlkonferenzen bereitstellen, müssen Sie diese Funktion in jedem Pool bereitstellen, in dem Lync Server 2013-Konferenzen bereitgestellt werden. Sie müssen nicht in jedem Pool Zugriffsnummern zuweisen, aber Sie müssen die Einwahlfunktion in jedem Pool bereitstellen. Diese Anforderung muss für die Funktion für aufgezeichnete Namen erfüllt werden, wenn ein Benutzer eine Zugriffsnummer aus einem Pool wählt, um an einer Lync Server 2013-Konferenz in einem anderen Pool teilzunehmen.
 
 
@@ -38,7 +38,7 @@ Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonym
 Unternehmensbenutzer oder Konferenzleiter, die einer für den Zugriff per Einwahl aktivierten Konferenz beitreten, wählen eine der Zugriffsnummern für die Konferenz und werden anschließend zur Eingabe der Konferenz-ID aufgefordert. Wenn der Konferenzleiter der Besprechung noch nicht beigetreten ist, können Benutzer entweder ihre Unified Communications-Durchwahl (UC) (oder die vollständige Telefonnummer) und PIN eingeben oder warten, bis der Konferenzleiter bestätigt, dass sie zur Konferenz zugelassen werden. Besprechungsorganisatoren können der Besprechung als Konferenzleiter beitreten, indem sie lediglich ihre PIN eingeben. Der Front-End-Server verwendet die Kombination aus der vollständigen Telefonnummer oder Durchwahl und der PIN, um Unternehmensbenutzer eindeutig ihren Active Directory-Anmeldeinformationen zuzuordnen. So werden Unternehmensbenutzer anhand ihres Namens in der Konferenz authentifiziert und identifiziert. Unternehmensbenutzer können auch eine Konferenzrolle übernehmen, die vom Organisator vorgegeben ist.
 
 
-> [!TIP]
+> [!NOTE]
 > Unternehmensbenutzer, die sich über ein IP-Bürotelefon oder über Lync Server 2013 oder Lync 2010-Vermittlung einwählen, werden nicht zur Eingabe ihrer Telefonnummer aufgefordert, da sie bereits authentifiziert sind.
 
 
@@ -46,7 +46,7 @@ Unternehmensbenutzer oder Konferenzleiter, die einer für den Zugriff per Einwah
 Anonyme Benutzer, die einer Einwahlkonferenz beitreten möchten, wählen eine der Zugriffsnummern für die Konferenz und werden zur Eingabe der Konferenz-ID aufgefordert. Nicht authentifizierte anonyme Benutzer werden zudem zur Aufzeichnung ihres Namens aufgefordert. Der aufgezeichnete Name identifiziert nicht authentifizierte Benutzer in der Konferenz. Anonyme Benutzer werden erst zur Konferenz zugelassen, wenn mindestens ein Konferenzleiter oder authentifizierter Benutzer beigetreten ist. Das Zuweisen einer vordefinierten Rolle zu anonymen Benutzern ist nicht möglich.
 
 
-> [!TIP]
+> [!NOTE]
 > Unternehmensbenutzer, die ihre Telefonnummer und PIN nicht eingeben, werden nicht authentifiziert. Diese Benutzer werden zur Aufzeichnung ihres Namens aufgefordert und in der Konferenz als anonyme Benutzer behandelt.
 
 
@@ -56,7 +56,7 @@ Zu einem geplanten Zeitpunkt kann der Besprechungsorganisator den Zugriff auf di
 Für eingewählte Teilnehmer werden unabhängig davon, ob sie sich über das Festnetz einwählen oder nicht, während der Konferenz persönliche Ansagen wiedergegeben. Diese Informationen umfassen z. B., ob die Teilnehmer stumm geschaltet wurden oder nicht, ob die Besprechung aufgezeichnet wird oder ob Benutzer in der Lobby warten.
 
 
-> [!TIP]
+> [!NOTE]
 > Für Teilnehmer, die sich nicht einwählen, sondern der Besprechung über einen Link beitreten, werden keine persönlichen Ansagen wiedergegeben.
 
 

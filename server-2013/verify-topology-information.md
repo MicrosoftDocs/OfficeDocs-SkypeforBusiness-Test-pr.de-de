@@ -26,7 +26,7 @@ Wenn Sie sicherstellen möchten, dass die Zusammenführung erfolgreich abgeschlo
 3.  Stellen Sie sicher, dass die FQDNs für die zusammenzuführenden Pools und Server angezeigt werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Unter <STRONG>BackCompatSite</STRONG> werden keine Informationen für Serverrollen angezeigt, die mit einem Front-End-Server oder Standard Edition-Server verbunden sind. Es werden nur die Serverrollen angezeigt, die für die Interoperabilität zwischen Office Communications Server 2007 R2 und Lync Server 2013 erforderlich sind.
 
 
@@ -48,7 +48,7 @@ Sie können auch die Systemsteuerung für Lync Server 2013 verwenden, um die zus
 Wenn Sie weitere Einzelheiten zu einem zusammengeführten Pool anzeigen möchten, verwenden Sie das Cmdlet **Get-CsPool** . Zusätzlich zu den Informationen, die im Topologie-Generator und in der Systemsteuerung für Lync Server 2013 verfügbar sind, zeigt dieses Cmdlet die Dienste an, die im Lync Server 2013-Pool ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie die Topologie nach dem Ausführen des Zusammenführungs-Assistenten im Topologie-Generator veröffentlichen, werden Konferenzverzeichnisse mit Lync Server 2013 zusammengeführt. Konferenzverzeichnisse können Sie überprüfen, indem Sie das Cmdlet <STRONG>Get-CsConferenceDirectory</STRONG> ausführen.
 
 

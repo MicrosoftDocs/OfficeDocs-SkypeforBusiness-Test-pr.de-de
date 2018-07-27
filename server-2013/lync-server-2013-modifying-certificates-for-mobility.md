@@ -120,7 +120,7 @@ Bevor Sie beginnen, sollten Sie daran denken, dass Sie entweder ein einzelnes St
         "Thumbprint" steht für den Fingerabdruck, der für die neu ausgestellten Zertifikate angezeigt wird.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Anmerkung: Die Schritte 12 und 13 sollten nur dann ausgeführt werden, wenn über das verwendete Konto mit entsprechenden Berechtigungen auf die Zertifizierungsstelle zugegriffen werden kann. Steht ein Konto mit den entsprechenden Berechtigungen nicht zur Verfügung oder Sie nutzen eine öffentliche oder entfernte Zertifizierungsstelle für Ihre Zertifikate, müssen Sie Ihre Zertifikate über den am Anfang des Artikels angesprochenen Bereitstellungs-Assistenten von Lync Server anfordern.
 
 

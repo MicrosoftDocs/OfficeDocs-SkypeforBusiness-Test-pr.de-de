@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Lync Server verwendet SIP-Trunks, um einen Notruf an den E9-1-1-Dienstanbieter weiterzuleiten. Sie können für E9-1-1 an einem zentralen Standort, an mehreren zentralen Standorten oder an jeder Zweigstelle einrichten. Wenn jedoch die WAN-Verbindung zwischen dem Standort des Anrufers und dem Standort, an dem der Notfalldienst-SIP-Trunk gehostet wird, nicht verfügbar ist, ist für einen Anruf von einem Benutzer an dem nicht verbundenen Standort ein spezieller Telefonverwendungsdatensatz in der VoIP-Richtlinie des Benutzers erforderlich, der den Anruf über das lokale PSTN-Gateway an das ECRC weiterleitet. Das gleiche trifft zu, wenn in der Anrufsteuerung Begrenzungen für gleichzeitige Anrufe aktiviert sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Es gibt zwei Methoden, um einen SIP-Trunk in einer Lync Server-Umgebung zu implementieren: 
 > <UL>
 > <LI>

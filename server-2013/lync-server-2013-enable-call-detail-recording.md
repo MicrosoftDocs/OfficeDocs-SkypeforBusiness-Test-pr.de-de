@@ -20,7 +20,7 @@ Bei der Aufzeichnung von Kommunikationsdatensätzen werden Nutzungs- und Diagnos
 Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdatensätzen (KDS) in der gesamten Organisation oder für jeden Standort in Ihrer Organisation zu aktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Zur Aktivierung von KDS müssen Sie die Überwachung und eine Überwachungsdatenbank konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-monitoring.md">Bereitstellen des Monitoring Servers</A>.
 
 
@@ -36,7 +36,7 @@ Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdate
 4.  Klicken Sie auf der Seite **Aufzeichnung von Kommunikationsdatensätzen** in der Tabelle auf den geeigneten Standort, klicken Sie auf **Aktion** und anschließend auf **KDS aktivieren**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > KDS ist standardmäßig aktiviert.
 
 

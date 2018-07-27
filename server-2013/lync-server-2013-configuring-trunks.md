@@ -32,7 +32,7 @@ Ausführliche Informationen finden Sie unter [Planen der PSTN-Konnektivität in 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Im Rahmen der Trunkkonfiguration können Sie die Lync Server 2013-Medienumgehung aktivieren, die eine Umgehung des Vermittlungsservers für Medien ermöglicht. Trunks können mit oder ohne Medienumgehung konfiguriert werden, die Aktivierung dieser Funktion wird jedoch dringend empfohlen. Nähere Informationen finden Sie in der Planungsdokumentation unter <A href="lync-server-2013-planning-for-media-bypass.md">Planung der Medienumgehung in Lync Server 2013</A>.
 
 

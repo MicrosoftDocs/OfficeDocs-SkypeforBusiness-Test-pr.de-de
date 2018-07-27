@@ -40,7 +40,7 @@ Ausführliche Informationen hierzu finden Sie in der Bereitstellungsdokumentatio
 ## Vorbereitung für Active Directory-Domänendienste
 
 
-> [!TIP]
+> [!NOTE]
 > Wir empfehlen Ihnen, globale Einstellungen an den Konfigurationscontainer statt an den Systemcontainer bereitstellen. Damit wird die Sicherheit nicht verbessert, es kann aber zu Skalierbarkeitsverbesserungen für einige Active Directory-Domänendienste-Topologien führen. Wenn Sie von Microsoft Office Communications Server&nbsp;2007 migrieren und den Systemcontainer verwendet haben, aber die Verwendung des Konfigurationscontainers planen, MÜSSEN Sie die Einstellungen im Systemcontainer verschieben, BEVOR Sie Upgradevorbereitungen treffen. Informationen zum Migrieren Ihrer Systemcontainereinstellungen zum Konfigurationscontainer finden Sie unter Office Communications Server 2007 Global Settings Migration Tool unter <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>.
 
 
@@ -68,7 +68,7 @@ Während der Vorbereitung der Gesamtstruktur erstellt Lync Server 2013 verschied
 Ausführliche Informationen zu den bestimmten universellen Gruppen, die während der Vorbereitung von AD für Lync Server erstellt werden, sowie den Dienst- und Administrationgruppen, die den Infrastrukturgruppen hinzugefügt werden, finden Sie in der Bereitstellungsdokumentation unter [Änderungen bei der Gesamtstrukturvorbereitung in Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 unterstützt die universellen Gruppen in den Betriebssystemen Windows Server 2012 für Server mit Lync Server 2013 und Windows Server 2003 für Domänencontroller. Mitglieder universeller Gruppen können andere Gruppen und Konten aus beliebigen Domänen in der Domänen- oder Gesamtstruktur umfassen und über Berechtigungen für beliebige Domänen in der Domänen- oder Gesamtstruktur verfügen. Durch die Unterstützung universeller Gruppen in Verbindung mit der Delegierung administrativer Aufgaben wird die Verwaltung einer Lync Server-Bereitstellung vereinfacht. Beispielsweise ist es nicht erforderlich, eine Domäne einer anderen hinzuzufügen, um einem Administrator die Verwaltung beider Domänen zu ermöglichen.
 
 

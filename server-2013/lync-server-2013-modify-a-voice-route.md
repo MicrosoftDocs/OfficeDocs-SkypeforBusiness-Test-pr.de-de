@@ -50,7 +50,7 @@ In diesem Thema wird erläutert, wie Sie eine VoIP-Route bearbeiten. Information
 9.  Klicken Sie auf **Hinzufügen**, um der VoIP-Route einen oder mehrere PSTN-Trunks (Public Switched Telephone Network Telefonfestnetz) zuzuordnen, und wählen Sie aus der Liste einen Trunk aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Ihre Bereitstellung Microsoft Office Communications Server 2007 R2-Vermittlungsserver umfasst, sind diese ebenfalls in der Liste verfügbar.
 
 
@@ -58,7 +58,7 @@ In diesem Thema wird erläutert, wie Sie eine VoIP-Route bearbeiten. Information
 10. Wenn Sie der VoIP-Route eine oder mehrere PSTN-Verwendungen zuordnen möchten, klicken Sie auf **Auswählen**, und wählen Sie in der Liste der PSTN-Verwendungsdatensätze, die für Ihre Enterprise-VoIP-Bereitstellung definiert wurden, einen Eintrag aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Informationen zur Anzeige der Eigenschaften aller verfügbaren PSTN-Verwendungen finden Sie unter <A href="lync-server-2013-view-pstn-usage-records.md">Anzeigen von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.<BR>Informationen zum Erstellen oder Bearbeiten von PSTN-Verwendungsdatensätzen finden Sie unter <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A> oder <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.
 
 
@@ -66,7 +66,7 @@ In diesem Thema wird erläutert, wie Sie eine VoIP-Route bearbeiten. Information
 11. Ordnen Sie die PSTN-Verwendungsdatensätze zur Erzielung optimaler Leistung an. Wenn Sie die Position eines Datensatzes in der Liste ändern möchten, markieren Sie den Datensatznamen, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Im Gegensatz zu einer VoIP-Richtlinie, bei der die Reihenfolge der PSTN-Verwendungsdatensätze eine wichtige Rolle spielt, ist die Reihenfolge von PSTN-Verwendungsdatensätzen in einer VoIP-Route unerheblich. Dennoch wird empfohlen, die Liste nach Verwendungshäufigkeit zu strukturieren. Beispiel: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Lync Server durchläuft die Liste von oben nach unten.)
 
 
@@ -74,7 +74,7 @@ In diesem Thema wird erläutert, wie Sie eine VoIP-Route bearbeiten. Information
 12. (Optional) Geben Sie im Feld **Geben Sie eine übersetzte Nummer für den Test ein**, und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb des Felds angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine VoIP-Route speichern, die den Test nicht bestanden hat, und sie später neu konfigurieren. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen des VoIP-Routings in Lync Server 2013</A>.
 
 
@@ -84,7 +84,7 @@ In diesem Thema wird erläutert, wie Sie eine VoIP-Route bearbeiten. Information
 14. Klicken Sie auf der Seite **Route** auf **Commit** und anschließend auf **Commit für alle**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei jeder Erstellung oder Änderung einer VoIP-Route müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

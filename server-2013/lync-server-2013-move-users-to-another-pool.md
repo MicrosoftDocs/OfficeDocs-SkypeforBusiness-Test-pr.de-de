@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-03-11_
 Sie können die Lync Server-Systemsteuerung verwenden, um Benutzer einem bestimmten Server oder Pool zuzuordnen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie in einer komplexen Active Directory-Umgebung alle vorhandenen Benutzer aus einem Quellpool mit Microsoft Office Communications Server 2007 R2 oder einer früheren Version in einen Lync Server 2013-Zielpool verschieben, kann dies die Active Directory-Replikation verlangsamen. Dies können Sie vermeiden, indem Sie Benutzer aus Pools mit Microsoft Office Communications Server 2007 R2 oder einer früheren Version anhand von Suchfiltern getrennt verschieben. Oder Sie verwenden die Lync Server-Verwaltungsshell, um Benutzer mithilfe von Cmdlets zu verschieben. Darüber hinaus können Sie die Filterfunktion auch für Lync Server 2013-Benutzer verwenden.
 
 
@@ -84,7 +84,7 @@ Sie können die Lync Server-Systemsteuerung verwenden, um Benutzer einem bestimm
 6.  Klicken Sie im Menü **Aktion** auf **Alle Benutzer in Pool verschieben**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn ein Filter auf eine vorhandene Gruppe von Benutzern angewendet wird, gilt die Option <STRONG>Alle Benutzer in Pool verschieben</STRONG> für die gefilterte Teilmenge der Benutzer, nicht für <STRONG><EM>alle möglichen</EM></STRONG> Benutzer.
 
 

@@ -34,7 +34,7 @@ Weisen Sie Ihre Benutzer an, die Lync-Einstellungen auf Ihren Windows Phones wie
 3.  Tippen Sie auf das leere Feld und geben Sie den vollqualifizierten Domänennamen (FQDN) oder die URL für Exchange-Webdienste ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können entweder den FQDN oder die volle URL Ihres Exchange-Webdiensteservers angeben. Wenn Sie den FQDN angeben, werden das Protokoll (https://) und der Exchange-Webdienstepfad (/ews/exchange.asmx) automatisch hinzugefügt. Wenn Ihr Exchange-Webdienstepfad anders lautet, können Sie die volle URL angeben.
 
 

@@ -44,7 +44,7 @@ Es empfiehlt sich, eine separate VoIP-Richtlinie auf Benutzerebene für Benutzer
 Damit sichergestellt ist, dass eingehende Anrufe an Zweigstellenbenutzer diese Benutzer erreichen, wenn das Zweigstellengateway oder die Windows-Komponente des Standorts mit der Survivable Branch-Anwendung nicht verfügbar ist (dies würde beispielsweise geschehen, wenn die Survivable Branch-Anwendung oder das Zweigstellengateway zu Wartungszwecken heruntergefahren wäre), erstellen Sie auf dem Gateway eine Failoverroute (oder erarbeiten Sie zusammen mit Ihrem DID-Anbieter (Direct Inward Dialing) eine Lösung), um eingehende Anrufe an den Sicherungs-Registrierungspool am zentralen Standort umzuleiten. Von dort aus werden die Anrufe über die WAN-Verbindung an Zweigstellenbenutzer weitergeleitet. Stellen Sie sicher, dass die Route Nummern so übersetzt, dass sie den zulässigen Telefonnummernformaten des PSTN-Gateways oder eines anderen Trunkpeers entspricht. Ausführliche Informationen zum Erstellen einer Failoverroute finden Sie unter [Konfigurieren einer Failoverroute in Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Erstellen Sie außerdem Wählpläne auf Dienstebene für den Trunkt, der dem Gateway an der Zweigstelle zugeordnet ist, damit eingehende Anrufe normalisiert werden. Wenn in einer Zweigstelle zwei Survivable Branch-Anwendungen vorhanden sind, können Sie für beide einen Wählplan auf Standortebene erstellen, es sei denn, es wird für jede ein eigener Plan auf Dienstebene benötigt.
 
 
-> [!TIP]
+> [!NOTE]
 > Um den Verbrauch der Ressourcen eines zentralen Standorts durch Zweigstellenbenutzer zu ermitteln, die für Anwesenheits-, Konferenz- oder Failoverfunktionen vom zentralen Standort abhängen, sollten Sie jeden Zweigstellenbenutzer so betrachten, als wäre er für den zentralen Standort registriert. Für die Anzahl von Zweigstellenbenutzern (einschließlich der für eine Survivable Branch-Anwendung registrierten Benutzer) gelten gegenwärtig keine Einschränkungen.
 
 
@@ -188,7 +188,7 @@ Die erforderliche Hardware und Software sind in der Survivable Branch-Anwendung 
 Wenn die DNS-Server des Unternehmens sich nur an zentralen Standorten befinden, können Zweigstellenbenutzer während eines WAN-Ausfalls keine Verbindung zu diesen herstellen, daher tritt bei der Lync Server-Ermittlung, die DNS SRV (Ressourceneintrag für Dienste) verwendet, ein Fehler auf. Damit eine sofortige Umleitung während eines WAN-Ausfalls gewährleistet ist, müssen DNS-Einträge am Zweigstellenstandort zwischengespeichert werden. Wenn der Zweigstellenrouter die DNS-Zwischenspeicherung unterstützt, aktivieren Sie sie. Sie können auch einen DNS-Server in der Zweigstelle bereitstellen. Dies kann ein eigenständiger Server oder eine Version der Survivable Branch-Anwendung sein, die DNS-Funktionen unterstützt. Ausführliche Informationen erhalten Sie beim Anbieter der Survivable Branch-Anwendung.
 
 
-> [!TIP]
+> [!NOTE]
 > Es ist nicht erforderlich, an jedem Zweigstellenstandort einen Domänencontroller zu verwenden. Die Survivable Branch-Anwendung authentifiziert Clients über ein spezielles Zertifikat, das dem Client als Antwort auf seine Zertifikatanforderung bei der Anmeldung gesendet wird.
 
 

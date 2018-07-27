@@ -40,7 +40,7 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
   - Grenzwert für Videositzung: 700 KBit/s
 
 
-> [!TIP]
+> [!NOTE]
 > Der Mindestgrenzwert für Audiositzungen ist 40&nbsp;KBit/s. Der Mindestgrenzwert für Videositzungen ist 100&nbsp;KBit/s.
 
 

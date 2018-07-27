@@ -317,7 +317,7 @@ Einige Attribute weisen eine Bitmaskenwert auf. Bei diesen Attributen wird jede 
 <p>Gültige Werte sind <strong>TRUE</strong> oder <strong>FALSE</strong>.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Live Communications Server 2003 unterstützt keine BENOTIFY-Anforderungen. Zur Interoperabilität mit Serveranwendungen, die mit der Live Communications Server 2003-Server-API geschrieben wurden und auf Live Communications Server 2005 oder auf Servern von Drittanbietern ausgeführt werden, können BENOTIFY-Anforderungen deaktiviert werden, indem dieser Wert auf <STRONG>FALSE</STRONG> festgelegt wird. BENOTIFY ist derzeit kein Bestandteil des SIP-Standardisierungsprozesses der IETF (Internet Engineering Task Force).
 
 

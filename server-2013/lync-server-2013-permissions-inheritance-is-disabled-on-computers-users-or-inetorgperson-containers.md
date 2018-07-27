@@ -96,7 +96,7 @@ Sie benötigen die Benutzerrechte der Gruppe "Domänen-Admins" oder äquivalente
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie die Domänenvorbereitung für die Gesamtstruktur-Stammdomäne in einer gesperrten Active Directory-Umgebung ausführen, müssen Sie berücksichtigen, dass Lync Server auf die Schema- und Konfigurationscontainer von Active Directory zugreifen muss.<BR>Wenn die Standardberechtigung für authentifizierte Benutzer aus den Schema- bzw. Konfigurationscontainern in AD DS entfernt wurde, verfügen nur Mitglieder der Gruppe "Schema-Admins" (für Schemacontainer) bzw. "Organisations-Admins" (für Konfigurationscontainer) über Zugriff auf den jeweiligen Container. Da "Setup.exe", die Lync Server-Verwaltungsshell-Cmdlets und die Lync Server-Systemsteuerung auf diese Container zugreifen müssen, tritt bei Ausführen von Setup und bei der Installation der Verwaltungstools ein Fehler auf, wenn der ausführende Benutzer nicht über die Benutzerrechte der Gruppe "Schema-Admins" oder "Organisations-Admins" verfügt.<BR>Um dieses Problem zu beheben, müssen Sie der Gruppe "RTCUniversalGlobalWriteGroup" Lese- und Schreibberechtigungen für die Schema- und Konfigurationscontainer gewähren.
 
 

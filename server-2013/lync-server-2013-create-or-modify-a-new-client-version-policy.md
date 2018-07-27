@@ -26,7 +26,7 @@ Clientversionsrichtlinien dienen zum Festlegen der in Ihrer Umgebung unterstütz
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Registerkarte <STRONG>Clientversionsrichtlinie</STRONG> ist standardmäßig ausgewählt.
 
 

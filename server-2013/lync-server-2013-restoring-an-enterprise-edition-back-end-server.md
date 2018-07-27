@@ -26,7 +26,7 @@ Wenn Sie einen Back-End-Server der Enterprise-Edition gespiegelt haben und nur d
 Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter [Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher hostet](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Bei einem Fehler auf dem Enterprise Edition-Mitgliedsserver, der nicht der Back-End-Server ist, lesen Sie die Anleitungen unter [Wiederherstellen eines Enterprise Edition-Mitgliedsservers](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen. Sie können dieses Abbild dann als Rollbackpunkt verwenden, falls Probleme bei der Wiederherstellung auftreten. Es ist sinnvoll, das Abbild nach der Installation des Betriebssystems und von SQL&nbsp;Server zu erstellen und die Zertifikate wiederherzustellen oder erneut zu registrieren.
 
 
@@ -36,7 +36,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
 1.  Voraussetzung ist ein bereinigter oder neuer Server, der denselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Computer aufweist. Installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her bzw. registrieren Sie sie erneut.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Gehen Sie nach den in Ihrer Organisation gültigen Verfahren für die Serverbereitstellung vor, um diesen Schritt durchzuführen.
 
 
@@ -46,7 +46,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
 3.  Installieren Sie SQL Server 2012 oder SQL Server 2008 R2, wobei Sie die gleichen Instanznamen verwenden wie vor dem Ausfall.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Je nach vorhandener Bereitstellung umfasst der Back-End-Server möglicherweise mehrere verbundene oder separate Datenbanken. Führen Sie das gleiche Verfahren zum Installieren von SQL&nbsp;Server durch, mit dem Sie auch ursprünglich den Server bereitgestellt haben, einschließlich SQL&nbsp;Server-Berechtigungen und -Anmeldungen.
 
 
@@ -64,7 +64,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
     5.  Folgen Sie den Anweisungen im Assistenten zum **Veröffentlichen der Topologie**. Wählen Sie auf der Seite **Datenbanken erstellen** die Datenbanken aus, die erneut erstellt werden sollen.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Auf der Seite <STRONG>Datenbanken erstellen</STRONG> werden nur eigenständige Datenbanken angezeigt.
 
     
@@ -73,7 +73,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
     7.  Folgen Sie den Anweisungen auf den weiteren Seiten des Assistenten, und klicken Sie dann auf **Fertig stellen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Anstatt den Topologie-Generator auszuführen, können Sie die einzelnen Datenbanken mithilfe des <STRONG>Install-CsDatabase</STRONG>-Cmdlets erstellen und die Spiegelung mithilfe des Cmdlets <STRONG>Install-CsMirrorDatabase</STRONG> konfigurieren. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

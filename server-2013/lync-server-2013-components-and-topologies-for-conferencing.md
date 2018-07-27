@@ -42,7 +42,7 @@ Für Einwahlkonferenzen werden zusätzlich zu den Anforderungen, die auch für W
       - Session Border Controller (SBC) (für einen Anbieter von Internettelefoniediensten, mit dem durch Konfigurieren eines SIP-Trunks eine Verbindung hergestellt wird)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie außerdem Enterprise-VoIP, sind Vermittlungsserver und PSTN-Gateways Teil der Enterprise-VoIP-Bereitstellung. Wenn Sie keine Enterprise-VoIP-Funktionen bereitstellen, müssen Sie mindestens einen Vermittlungsserver und mindestens ein PSTN-Gateway, eine IP-Nebenstellenanlage oder einen SBC für Einwahlkonferenzen bereitstellen.
 
 
@@ -72,7 +72,7 @@ Sie können Einwahlkonferenzen in folgenden Topologien und Konfigurationen berei
 Sie können den Anwendungsdienst, die Konferenzzentrale und die Konferenzankündigungsanwendung an einem zentralen Standort bereitstellen, aber nicht an einem Zweigstellenstandort.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Einwahlkonferenzen bereitstellen, müssen Sie diese Funktion in jedem Pool bereitstellen, in dem Lync Server 2013-Konferenzen bereitgestellt werden. Sie müssen nicht in jedem Pool Zugriffsnummern zuweisen, aber Sie müssen die Funktion für Einwahlkonferenzen in jedem Pool bereitstellen. Diese Anforderung muss für die Funktion für aufgezeichnete Namen erfüllt werden, wenn ein Benutzer eine Zugriffsnummer aus einem Pool wählt, um an einer Lync Server 2013-Konferenz in einem anderen Pool teilzunehmen.
 
 
@@ -96,7 +96,7 @@ Lync Server 2013 bietet folgende Möglichkeiten zum Konfigurieren des Office Web
 Unabhängig von der ausgewählten Topologie ist es entscheidend, dass die korrekten Firewallports geöffnet sind. Sie müssen sicherstellen, dass DNS-Namen, IP-Adressen und Ports nicht durch Firewalls auf dem Office Web Apps-Server, das Lastenausgleichssystem oder Lync Server blockiert werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Eine weitere Option zum Bereitstellen von externem Zugriff auf den Office Web Apps-Server besteht darin, den Server im Umkreisnetzwerk bereitzustellen. Wenn Sie sich dafür entscheiden, denken Sie daran, dass für das Setup des Office Web Apps-Servers der Servercomputer ein Mitglied der Active Directory-Domäne sein muss. Es wird davon abgeraten, den Office Web Apps-Server im Umkreisnetzwerk zu installieren, es sei denn, Ihre Netzwerkrichtlinie lässt zu, dass Computer im Umkreisnetzwerk Active Directory-Domänenmitglieder sind. Stattdessen sollten Sie den Office Web Apps-Server im internen Netzwerk installieren und externen Benutzern Zugriff über Ihren Reverseproxyserver ermöglichen.
 
 

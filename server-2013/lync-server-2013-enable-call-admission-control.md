@@ -50,7 +50,7 @@ Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokum
 5.  Aktivieren Sie auf der Seite **Globale Einstellungen bearbeiten** das Kontrollkästchen **Anrufsteuerung aktivieren**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie die Anrufsteuerung innerhalb Ihrer Bereitstellung deaktivieren möchten, deaktivieren Sie dieses Kontrollkästchen.
 
 

@@ -50,7 +50,7 @@ Ausführliche Informationen zur Verwendung des [Set-CsUser](https://docs.microso
           - AD DS-Anzeigename des Benutzers (zum Beispiel "Ken Myer"). Wenn der Anzeigename als Identitätswert verwendet wird, können Sie das Sternchen (\*) als Platzhalterzeichen nutzen. Der Identitätswert "\* Smith" gibt beispielsweise alle Benutzer zurück, deren Anzeigename auf den Zeichenfolgenwert "Smith" endet.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Der Active Directory-SAM-Kontoname eines Benutzers kann nicht als Identitätswert verwendet werden, da dieser Name innerhalb der Gesamtstruktur nicht unbedingt eindeutig ist.
 
 

@@ -24,7 +24,7 @@ Stellen Sie in Ihrem Umkreisnetzwerk (auch als überwachtes Subnetz bezeichnet) 
 Je nach Ihren Anforderungen können Sie einen oder mehrere Edgeserver an einem oder mehreren Standorten bereitstellen. In diesem Abschnitt werden Szenarios für den Zugriff externer Benutzer in Lync Server 2013 beschrieben, und es wird erläutert, wie Sie eine Edge- und Reveresproxytopologie planen können.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie brauchen zwar einen Edgeserver, um Enterprise-VoIP und externen Benutzerzugriff zu unterstützen, doch geht es in diesem Abschnitt primär um die Unterstützung von Instant Messaging, Anwesenheit, A/V-Konferenzen, Partnerverbünden, Webkonferenzen und Lync Mobile. Ausführliche Informationen zur Unterstützung von Enterprise-VoIP finden Sie unter <A href="lync-server-2013-planning-for-enterprise-voice.md">Planen von Enterprise-VoIP in Lync Server 2013</A> in der Planungsdokumentation.
 
 

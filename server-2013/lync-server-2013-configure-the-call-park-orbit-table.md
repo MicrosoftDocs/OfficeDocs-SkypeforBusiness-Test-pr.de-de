@@ -26,7 +26,7 @@ Die Funktion zum Parken von Anrufen verwendet Orbits für das Parken von Anrufen
 Verwenden Sie für Ihre Orbitbereiche Blöcke virtueller Durchwahlnummern (Durchwahlnummern, denen kein Benutzer oder Telefon zugewiesen ist).
 
 
-> [!TIP]
+> [!NOTE]
 > Das Zuweisen von DID-Nummern (Direct Inward Dialing) als Orbitnummern in der Orbittabelle für das Parken von Anrufen wird nicht unterstützt.
 
 

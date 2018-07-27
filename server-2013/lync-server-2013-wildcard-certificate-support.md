@@ -48,7 +48,7 @@ In diesem Thema nicht behandelte Serverrollen:
   - Interner Edgeserver
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für die interne Edgeserver-Schnittstelle kann dem SAN ein Platzhaltereintrag zugewiesen werden und wird unterstützt. Der SAN für den internen Edgeserver wird nicht abgefragt. Ein Platzhalter-SAN-Eintrag ist somit wertlos.
 
 

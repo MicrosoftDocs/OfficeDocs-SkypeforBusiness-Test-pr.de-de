@@ -32,7 +32,7 @@ Neben den Leistungsindikatoren für die CPU- und Speicherauslastung können Sie 
   - **ASP.NET\\Requests Queued** (sollte immer Null sein).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn diese Werte erreicht oder überschritten werden, sollten Sie die Kapazitätsplanung für die Computer, die die Webdienste hosten, überarbeiten und die Größenanpassung für die CPU, die Anzahl von Kernen sowie den Arbeitsspeicher neu berechnen.
 
 
@@ -52,7 +52,7 @@ Neben den Leistungsindikatoren für die CPU- und Speicherauslastung können Sie 
   - **ASP.NET\\Requests Queued** (sollte immer Null sein).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn diese Werte erreicht oder überschritten werden, sollten Sie die Kapazitätsplanung für die Computer, die die Webdienste hosten, überarbeiten und die Größenanpassung für die CPU, die Anzahl von Kernen sowie den Arbeitsspeicher neu berechnen.
 
 

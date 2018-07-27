@@ -62,7 +62,7 @@ Beachten Sie, dass sich der Bereichsname für einen Mandanten normalerweise vom 
 Nachdem das Skript ausgeführt wurde, müssen Sie eine Vertrauensstellung zwischen Lync Server 2013 und dem Autorisierungsserver und eine zweite Vertrauensstellung zwischen Exchange 2013 und dem Autorisierungsserver konfigurieren. Das ist nur mithilfe der Microsoft Online Services-Cmdlets möglich.
 
 
-> [!TIP]
+> [!NOTE]
 > Für den Fall, dass Sie die Microsoft Online Services-Cmdlets nicht installiert haben, müssen Sie zwei Dinge erledigen, bevor Sie fortfahren. Laden Sie zunächst die 64-Bit-Version des Microsoft Online Services-Anmelde-Assistenten herunter und installieren Sie sie. Nach Abschluss der Installation laden Sie die 64-Bit-Version des Microsoft Online Services-Modul für Windows PowerShell herunter und installieren Sie sie. Ausführliche Informationen zur Installation und Verwendung des Microsoft Online Services-Moduls finden Sie auf der Website zu Office 365. Die dort verfügbaren Anweisungen enthalten auch Informationen zur Konfiguration der einmaligen Anmeldung (Single Sign-On, SSO), des Partnerverbunds und der Synchronisierung zwischen Office 365 und Active Directory.<BR>Wenn Sie diese Cmdlets nicht installiert haben, schlägt Ihr Skipt fehl, weil das Get-CsTenant-Cmdlet nicht verfügbar ist.
 
 

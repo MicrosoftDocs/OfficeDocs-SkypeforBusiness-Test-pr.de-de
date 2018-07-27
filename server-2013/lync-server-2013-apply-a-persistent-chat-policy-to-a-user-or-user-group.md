@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-06_
 Benutzern, die für Lync Server 2013 aktiviert wurden, können Sie entsprechende Richtlinien zuweisen, um sie für den Server für beständigen Chat zu aktivieren oder zu deaktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie den Server für beständigen Chat konfigurieren und verwenden möchten, müssen Sie zunächst mit dem Topologie-Generator die Server für beständigen Chat-Unterstützung der Topologie hinzufügen und die Topologie anschließend veröffentlichen. Einzelheiten dazu finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Informationen zum Konfigurieren der Konfigurationseinstellungen für den Server für beständigen Chat finden Sie unter <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
@@ -38,7 +38,7 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Benutzerric
 5.  Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **Beständiger Chat-Richtlinie** die Beständiger Chat-Benutzerrichtlinie aus, die Sie zuweisen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Einstellung <STRONG>&lt;Automatisch&gt;</STRONG> wendet die standardmäßig effektive Richtlinie an. Diese Einstellungen werden automatisch vom Server angewendet.
 
 

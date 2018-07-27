@@ -28,7 +28,7 @@ Die Konferenzrichtlinie ist eine Benutzerkontoeinstellung, die die Konferenzmög
   - **Ausgehende Verbindung für Teilnehmer zulassen, die nicht für Enterprise-VoIP aktiviert sind**    Diese Einstellung ermöglicht Teilnehmern und Organisatoren von Besprechungen, die nicht für Enterprise-VoIP aktiviert sind, eine ausgehende Telefonnummer zu wählen, um am Audioteil der Konferenz teilzunehmen. Der ausgehende Anruf wird auf der Grundlage der dem Organisator zugewiesenen VoIP-Richtlinie autorisiert. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig nicht ausgewählt. Diese Einstellung ist standardmäßig deaktiviert.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Damit ein Organisator, der nicht für Enterprise-VoIP aktiviert ist, diese Möglichkeit aktivieren kann, muss ihm eine entsprechende VoIP-Richtlinie zugewiesen sein, die ihn autorisiert, bei einer durch einen Benutzer organisierten Konferenz ausgehende Anrufe durchzuführen. Eine VoIP-Richtlinie kann einem Benutzer, der nicht für Enterprise-VoIP aktiviert ist, über die Lync Server-Verwaltungsshell zugewiesen werden. Wenn dem Benutzer nicht explizit eine VoIP-Richtlinie zugewiesen wurde, wird die VoIP-Richtlinie des Standorts verwendet, um die Auswahlanforderung zu autorisieren.&nbsp;Gibt es keine Standortrichtlinie, wird die globale VoIP-Richtlinie verwendet.
 
 

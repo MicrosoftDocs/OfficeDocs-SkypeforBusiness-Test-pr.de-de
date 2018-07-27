@@ -28,7 +28,7 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
     Sie können die Einstellung **Standort erforderlich** konfigurieren, um das Clientverhalten zu definieren. Lautet die Einstellung **Nein**, so wird der Benutzer nicht zur Eingabe eines Standorts aufgefordert. Lautet die Einstellung **Ja**, wird der Benutzer zur Eingabe eines Standorts aufgefordert, kann die Eingabeaufforderung jedoch verwerfen. Mit der Einstellung **Haftungsausschluss** wird der Benutzer zur Eingabe eines Standorts aufgefordert. Wenn der Benutzer versucht, diese Aufforderung zu verwerfen, wird ebenfalls ein Haftungsausschluss angezeigt. In allen Fällen kann der Benutzer den Client weiterhin verwenden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Haftungsausschluss wird nicht angezeigt, wenn der Benutzer vor der Aktivierung für E9-1-1 bereits manuell einen Standort eingegeben hat. Aktualisierte Versionen des Haftungsausschlusses werden Benutzern nicht angezeigt, die den Haftungsausschluss bereits angezeigt haben.
 
 
@@ -39,7 +39,7 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
     Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In Lync Server 2013 können Sie mithilfe der Standortrichtlinie unterschiedliche Haftungsausschlüsse für verschiedene Gebietsschemas oder verschiedene Benutzergruppen festlegen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Diese Standortrichtlinieneinstellung weicht von Lync Server 2010 ab, wo Sie mit dem <STRONG>Set-CsEnhancedEmergencyServiceDisclaimer</STRONG>-Cmdlet einen globalen Haftungsausschluss für die gesamte Organisation festgelegt haben. Falls bereits ein globaler Haftungsausschluss vorhanden ist, müssen Sie diesen Haftungsausschluss in der Standortrichtlinie angeben. Das heißt, Lync Server 2013 verwendet nur in der Standortrichtlinie angegebene Haftungsausschlüsse.
 
 
@@ -50,7 +50,7 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
     Diese Wählzeichenfolge (ohne das vorangestellte Pluszeichen "+", aber einschließlich etwaiger Normalisierungen durch den Wählplan des Lync-Benutzers) kennzeichnet einen Anruf als Notruf. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Ihre Organisation kein Präfix für den externen Zugriff auf Leitungen verwendet, müssen Sie keine entsprechende Normalisierungsregel für den Wählplan erstellen, mit der der Zeichenfolge 911 ein Pluszeichen "+" hinzugefügt wird, bevor der Anruf auf einem Lync-Poolserver an das Ausgangsrouting gesendet wird. Das Pluszeichen "+" wird vom Lync-Client aufgrund der Standortrichtlinie automatisch vorangestellt. Wenn an Ihrem Standort jedoch ein Präfix für den externen Zugriff verwendet wird, müssen Sie der betreffenden Wählplanrichtlinie eine Normalisierungsregel hinzufügen, mit der das Präfix für den externen Zugriff entfernt und das Pluszeichen "+" hinzugefügt wird. Wenn an Ihrem Standort beispielsweise 9 als Präfix für den externen Zugriff verwendet wird, und ein Benutzer "9 911" wählt, um einen Notruf abzusetzen, verwendet der Client die Wählplanrichtlinie, um die gewählte Nummer zu "+911" zu normalisieren, bevor sie von den Routen im Standortprofil des Anrufers ausgewertet wird.
 
 
@@ -66,7 +66,7 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
     Der Name der PSTN-Verwendung mit den Routingpfaden, die bestimmen, an welchen SIP-Trunk bzw. an welches PSTN- oder ELIN-Gateway Notrufe weitergeleitet werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Einer Standortrichtlinie kann nur eine Verwendung zugewiesen werden. Diese PSTN-Verwendung setzt die PSTN-Verwendungen außer Kraft, die der VoIP-Richtlinie des Benutzers zugewiesen sind. Dies gilt jedoch nur für Anrufe, die mit der Notrufwählzeichenfolge oder einer der Masken für Notrufwählzeichenfolge abgesetzt werden.
 
 

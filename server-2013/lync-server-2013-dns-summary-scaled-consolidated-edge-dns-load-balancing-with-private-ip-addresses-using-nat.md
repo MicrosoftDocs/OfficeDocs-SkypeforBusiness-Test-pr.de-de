@@ -50,7 +50,7 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
     Diesem Netzwerkadapter sind drei private IP-Adressen zugeordnet, z. B. "10.45.16.10" für den Zugriffsedge, "10.45.16.20" für Webkonferenzedge und "10.45.16.30" für AV-Edge.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es ist möglich, eine einzelne IP-Adresse für alle drei Edgedienstschnittstellen zu verwenden. Dies wird jedoch nicht empfohlen. Obwohl Sie dadurch IP-Adressen sparen können, sind für jeden Dienst andere Portnummern erforderlich. Die Standardportnummer lautet 443/TCP. Dadurch wird sichergestellt, dass die meisten Remotefirewalls den Datenverkehr zulassen. Eine Änderung der Portwerte in (beispielsweise) 5061/TCP für den Zugriffs-Edgedienst, 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den AV-Edgedienst kann zu Problemen für Remotebenutzer führen, wenn eine Firewall, hinter der sie sich befinden, den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Zudem wird die Fehlerbehebung bei Verwendung von drei eindeutiger IP-Adressen vereinfacht, da in diesem Fall nach IP-Adressen gefiltert werden kann.
 
     
@@ -67,7 +67,7 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
     Private Webkonferenz- und A/V-Edge-IP-Adressen sind zusätzliche IP-Adressen im Abschnitt **Erweitert** der Eigenschaften von **Internetprotokoll Version 4 (TCP/IPv4)** und **Internetprotokoll Version 6 (TCP/IPv6)** der **Eigenschaften von LAN-Verbindung** in Windows Server.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Konfigurieren von zwei Netzwerkadaptern für den Edgeserver ist eine von zwei möglichen Optionen. Die andere Option besteht darin, einen einzigen Netzwerkadapter für die interne Schnittstelle und drei Netzwerkadapter für die externe Schnittstelle des Edgeservers zu verwenden. Der wichtigste Vorteil dieser Option ist ein separater Netzwerkadapter pro Edgeserverdienst und eine möglicherweise präzisere Datenerfassung, falls eine Problembehandlung erforderlich ist.
 
 

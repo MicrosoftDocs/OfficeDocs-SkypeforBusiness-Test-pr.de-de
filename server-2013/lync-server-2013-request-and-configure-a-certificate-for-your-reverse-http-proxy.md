@@ -61,7 +61,7 @@ Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reversepro
 <td><p>Einfache URL für Besprechungen</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Alle einfachen URLs für Besprechungen müssen in den alternativen Antragstellernamen enthalten sein. Jede SIP-Domäne muss über mindestens eine aktive einfache URL für Besprechungen verfügen.
 
 
@@ -84,7 +84,7 @@ Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reversepro
 <td><p>lyncdiscover.contoso.com</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie auch mit Microsoft Exchange Server arbeiten, müssen Sie zusätzlich Reverseproxyregeln für die AutoErmittlung- und Webdienste-URLs von Exchange konfigurieren.
 
 
@@ -95,7 +95,7 @@ Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reversepro
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Ihre interne Bereitstellung mehr als einen Standard Edition-Server oder Front-End-Pool umfasst, müssen Sie Webveröffentlichungsregeln für jeden externen FQDN der Webfarm konfigurieren. Außerdem benötigen Sie entweder ein Zertifikat und einen Weblistener für jeden Eintrag, oder Sie müssen ein Zertifikat anfordern, dessen Liste alternativer Antragstellernamen die Namen enthält, die von allen Pools verwendet werden. Diese müssen einem Weblistener zugewiesen und in mehreren Webveröffentlichungsregeln gemeinsam verwendet werden.
 
 
@@ -105,13 +105,13 @@ Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reversepro
 Eine Zertifikatanforderung erstellen Sie auf dem Reverseproxy. Sie erstellen eine Anforderung auf einem anderen Computer, müssen das signierte Zertifikat mit dem privaten Schlüssel aber exportieren und in den Reverseproxy importieren, sobald Sie es von der öffentlichen Zertifizierungsstelle erhalten haben.
 
 
-> [!TIP]
+> [!NOTE]
 > Eine Zertifikatanforderung oder Zertifikatsignieranforderung (Certificate Signing Request, CSR) ist eine Anforderung, in der eine vertrauenswürdige öffentliche Zertifizierungsstelle gebeten wird, den öffentlichen Schlüssel des anfordernden Computers zu überprüfen und zu signieren. Wenn ein Zertifikat generiert wird, werden ein öffentlicher Schlüssel und ein privater Schlüssel erstellt. Nur der öffentliche Schlüssel wird freigegeben und signiert. Wie dem Namen zu entnehmen ist, wird der öffentliche Schlüssel für jede öffentliche Anforderung bereitgestellt. Der öffentliche Schlüssel ist für die Verwendung durch Clients, Server und sonstige anfordernde Elemente vorgesehen, die Informationen sicher austauschen und die Identität eines Computers überprüfen müssen. Der private Schlüssel wird sicher verwahrt und nur von dem Computer, der das Schlüsselpaar erstellt hat, dazu verwendet, Nachrichten zu entschlüsselm, die mit seinem öffentlichen Schlüssel verschlüsselt wurden. Der private Schlüssel kann für andere Zwecke verwendet werden. Für Reverseproxyzwecke ist Datenverschlüsselung die Hauptverwendung. Zweitrangig ist die Zertifikatauthentifizierung auf Zertifikatschlüsselebene eine weitere Verwendung. Diese ist aber auf die Überprüfung beschränkt, dass das anfordernde Element den öffentlichen Schlüssel des Computers hat oder dass der Computer, für den Sie einen öffentlichen Schlüssel haben, tatsächlich der Computer ist, der er vorgibt zu sein.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Ihre Edgeserver-Zertifikate und Reverseproxyzertifikate gleichzeitig planen, sollten Sie daran denken, dass es ein großes Maß an Übereinstimmung zwischen den beiden Zertifikatanforderungen gibt. Wenn Sie Ihr Edgeserver-Zertifikat konfigurieren und anfordern, können Sie die alternativen Edgeserver- und Reverseproxy-Antragstellennamen kombinieren. Sie können dasselbe Zertifikat für Ihren Reverseproxy verwenden, wenn Sie das Zertifikat und den privaten Schlüssel exportieren, die exportierte Datei auf den Reverseproxy kopieren, das Zertifikat/Schlüssel-Paar importieren und dieses dann in späteren Schrittfolgen nach Bedarf zuweisen. Informationen zu den Zertifikatanforderungen finden Sie hier: für den Edgeserver&nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">Planen von Edgeserver-Zertifikaten in Lync Server 2013</A> und für den Reverseproxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Zertifikatzusammenfassung für Reverseproxy in Lync Server 2013</A>. Achten Sie darauf, dass Sie das Zertifikat mit einem exportierbaren privaten Schlüssel erstellen. Ein Erstellen des Zertikats und der Zertifikatanforderung mit einem exportierbaren Schlüssel ist für Edgeserver erforderlich, die in einem Pool zusammengefasst sind. Dies ist also gängige Praxis, und der Zertifikat-Assistent im Lync Server-Bereitstellungs-Assistent für den Edgeserver ermöglicht es Ihnen, die Option <STRONG>Privaten Schlüssel exportierbar machen</STRONG> festzulegen. Nachdem Sie die Zertikatanforderung von der öffentlichen Zertifizierungsstelle zurückerhalten haben, exportieren Sie das Zertifikat und den privaten Schlüssel. Ausführliche Informationen, wie ein Zertifikat mit einem privaten Schlüssel erstellt und exportiert werden kann, finden Sie im Abschnitt "So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool" im Thema <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Einrichten der Zertifikate für die externe Edgeschnittstelle für Lync Server 2013</A>. Die Zertifikatdatei muss die Erweiterung <STRONG>PFX</STRONG> haben.
 
 

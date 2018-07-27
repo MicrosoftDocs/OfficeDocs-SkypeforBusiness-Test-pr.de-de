@@ -24,7 +24,7 @@ Mithilfe der Registrierung können Sie Proxyserver-Authentifizierungsmethoden ko
   - **Zertifikatauthentifizierung**   Dies ist die neue Authentifizierungsmethode, wenn der Server Zertifikate von Lync Phone Edition-Clients, Telefonen in öffentlichen Bereichen und Lync 2013 abrufen muss. Auf Lync Phone Edition-Clients stellt Lync Server 2013 nach der Anmeldung des Benutzers und einer erfolgreichen PIN-Authentifizierung den SIP-URI für das Telefon bereit und gibt ein signiertes Lync Server-Zertifikat oder ein Benutzerzertifikat aus, das Joe (z. B. SN=joe@contoso.com) gegenüber dem Telefon identifiziert. Dieses Zertifikat wird für die Authentifizierung beim Registrierungsdienst und den Webdiensten verwendet.
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet.
 
 

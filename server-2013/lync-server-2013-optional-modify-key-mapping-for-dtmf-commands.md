@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-30_
 Einwahlkonferenzbenutzer können DTMF-Befehle (Dual-Tone Multi-Frequency) mithilfe der Tasten ihres Telefons ausführen. Mit DTMF-Befehlen können Benutzer, die sich bei einer Konferenz einwählen, Konferenzeinstellungen mit der Telefontastatur steuern (z. B. eigene Person stummschalten bzw. Stummschaltung der eigenen Person aufheben oder Konferenz sperren bzw. entsperren). Sie können Cmdlets verwenden, um die Tastaturzuordnung für die DTMF-Befehle zu ändern. Dieser Schritt ist optional.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Verwendung dieser Cmdlets und den möglichen DTMF-Optionen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation oder in der Lync Server-Verwaltungsshell-Befehlszeilenhilfe.
 
 

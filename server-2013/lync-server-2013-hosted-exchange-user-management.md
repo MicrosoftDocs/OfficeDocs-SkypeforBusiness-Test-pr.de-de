@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Zur Bereitstellung von Voicemaildiensten für Lync Server 2013-Benutzer, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden, müssen Sie die Benutzerkonten für gehostete Voicemail aktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Bevor ein Lync Server 2013-Benutzerkonto für gehostete Voicemail aktiviert werden kann, muss eine Richtlinie für gehostete Voicemail bereitgestellt werden, die auf das entsprechende Benutzerkonto angewendet wird. Diese Richtlinie kann auf globaler, Standort- oder Benutzerebene eingerichtet werden, solange sie auf das Benutzerkonto angewendet wird, das Sie aktivieren möchten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Richtlinien für gehostete Voicemail in Lync Server 2013</A>.
 
 
@@ -72,7 +72,7 @@ Die folgende Tabelle zeigt die Schlüssel/Wert-Paare und ihren Ursprung.
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn das Attribut bereits andere Werte als eines der Lync Server 2013-Schlüssel/Wert-Paare (CSHostedVoiceMail=0 oder CSHostedVoiceMail=1) enthält, weist eine Warnung darauf hin, dass das Attribut möglicherweise durch eine andere Anwendung verwaltet wird. Beispielsweise wird eine Warnung angezeigt, wenn das Schlüssel/Wert-Paar ExchangeHostedVoiceMail=0 oder ExchangeHostedVoiceMail=1 bereits vorhanden ist. In diesem Fall können Sie den Wert in Active Directory bearbeiten oder mit dem folgenden Cmdlet auf "null" setzen:<BR>Set-CsUser -identity user -HostedVoicemail $null
 
 

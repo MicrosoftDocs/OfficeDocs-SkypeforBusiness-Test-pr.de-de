@@ -28,13 +28,13 @@ Folgende lokale Topologien für Active Directory-Domänendienste werden von Lync
   - Mehrere Gesamtstrukturen in einer Topologie mit Ressourcengesamtstruktur
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 unterstützt keine Domänen mit einfacher Bezeichnung. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne namens <STRONG>contoso.local</STRONG> unterstützt, eine Stammdomäne mit einfacher Bezeichnung namens <STRONG>local</STRONG> hingegen nicht. Ausführliche Informationen finden Sie im Microsoft&nbsp;Knowledge Base-Artikel&nbsp;300684 "Informationen zur Konfiguration von Active Directory-Domänen mit DNS-Namen mit einfacher Bezeichnung" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=143752">http://go.microsoft.com/fwlink/?linkid=143752</A>.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 unterstützt die Umbenennung von Domänen nicht. Wenn Sie eine Domäne umbenennen müssen, in der Lync Server bereitgestellt ist, müssen Sie zuerst Lync Server deinstallieren, die Domäne umbenennen und Lync Server dann wieder installieren.
 
 

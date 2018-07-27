@@ -59,7 +59,7 @@ Instead, use syntax such as the following, which combines both the Get-CsVoiceNo
 Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Test-CsVoiceNormalizationRule -DialedNumber "12065551219"
 
 
-> [!TIP]
+> [!NOTE]
 > . Or, you can also use this approach to retrieve an instance of a rule and then test that rule against a specified phone number:
 
 

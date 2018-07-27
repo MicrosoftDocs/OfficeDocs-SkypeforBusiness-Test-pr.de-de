@@ -30,7 +30,7 @@ Im Gegensatz zu TDM (Time Division Multiplexing)-Telefonen und Telefonen in eine
 Wenn Sie ein ELIN-Gateway verwenden, fügen Sie der Standortinformationsdienst-Datenbank ebenfalls ERLs hinzu, jedoch integrieren Sie eine ELIN-Nummer für jeden Standort. Die ELIN-Nummer wird während eines Notrufs zur Notrufnummer. Sie müssen dann sicherstellen, dass der PSTN-Netzbetreiber die ELINs in die ALI (Automatic Location Identification)-Datenbank hochlädt.
 
 
-> [!TIP]
+> [!NOTE]
 > Analoge Geräte, die mit Lync verbunden sind, können keine Standortinformationen vom Standortinformationsdienst empfangen oder Standorte an den E9-1-1-Dienstanbieter übertragen. Wenn Sie einen SIP-Trunk-E9-1-1-Dienstanbieter verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, stehen Ihnen zwei Optionen zur Verfügung: 
 > <UL>
 > <LI>

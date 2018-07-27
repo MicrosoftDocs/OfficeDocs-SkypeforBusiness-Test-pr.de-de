@@ -22,7 +22,7 @@ Während der Domänenvorbereitung, die bei der Installation von Lync Server durc
 Beachten Sie, dass dieses Cmdlet nur der Gruppe "RTCUniversalServerAdmins" Berechtigungen erteilt; das Cmdlet kann keiner anderen Sicherheitsgruppe oder einzelnen Benutzern Berechtigungen gewähren.
 
 
-> [!TIP]
+> [!NOTE]
 > <STRONG>Enable-CsTopology</STRONG> ist das wichtigste Cmdlet, mit dem Sie der Gruppe "RTCUniversalServerAdmins" das Einrichten und Bereitstellen von Lync Server 2013 ermöglichen.
 
 
@@ -38,7 +38,7 @@ Beachten Sie, dass dieses Cmdlet nur der Gruppe "RTCUniversalServerAdmins" Berec
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn die Organisationseinheit nicht die oberste Ebene ist, müssen Sie den vollständigen Domänennamen angeben.
 
     

@@ -28,7 +28,7 @@ Bei der IPv6-Unterstützung in Lync Server 2013 ist es jedoch erforderlich, für
 Neu in Edgeserver sind ein vollständig integrierter XMPP-Proxy (der auf den Edgeservern bereitgestellt wird) und ein XMPP-Gateway (das auf Ihren Front-End-Servern bereitgestellt wird). Als optionale Komponenten können Sie XMPP-Verbund bereitstellen. Durch Hinzufügen und Konfigurieren des XMPP-Proxys und XMPP-Gateways können Sie es Ihren Microsoft Lync 2013-Benutzern ermöglichen, Kontakte von XMPP-basierten Partnern für Sofortnachrichten- und Anwesenheitsfunktionen hinzuzufügen.
 
 
-> [!TIP]
+> [!NOTE]
 > Zum gegenwärtigen Zeitpunkt bieten die XMPP-Dienste im Edgeserver nur Sofortnachrichten- und Anwesenheitsfunktionalität zwischen Lync&nbsp;Server-Clients und XMPP-basierten Kontakten. Außerdem wird XMPP nur an einem einzigen Standort gehostet.
 
 
@@ -70,7 +70,7 @@ Die AutoErmittlungs-Funktion in Lync Server 2013 ermöglicht es Clients, zusätz
 Die im kumulativen Update für Lync Server 2010: November 2011 eingeführten Mobilitätsdienste in Lync Server 2013 machen auf Mobiltelefonen mit Lync Mobile und Tablets mit einem unterstützten Betriebssystem (Apple iOS, Android, Windows Phone) sowie Mobilgeräten von Nokia das Durchführen bestimmter Aktivitäten möglich, wie das Senden und Empfangen von Sofortnachrichten, das Anzeigen von Kontakten und von Anwesenheit. Außerdem werden von mobilen Geräten einige Enterprise-VoIP-Features unterstützt, wie zum Beispiel die Teilnahme an einer Konferenz per Mausklick, Anruf über Arbeitsplatz, Erreichbarkeit unter einer einzigen Nummer, Voicemail und Benachrichtigung zu entgangenen Anrufen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Mobilitätsdienste verwenden den Reverseproxy und veröffentlichte Dienste, die auf Ihren Front-End-Servern bereitgestellt sind. Änderungen an Edgeservern sind nicht erforderlich. Sie benötigen wenigstens ausgehendes SIP/TCP/5061 von dem Server, auf dem der Lync Server-Zugriffs-Edgedienst ausgeführt wird.
 
 

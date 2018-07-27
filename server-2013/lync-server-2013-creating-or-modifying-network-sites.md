@@ -30,7 +30,7 @@ Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Regi
 5.  Geben Sie unter **Neuer Standort** im Feld **Name** einen Namen für den Standort ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Standortnamen müssen innerhalb der Lync Server 2013-Bereitstellung eindeutig sein.
 
 
@@ -40,7 +40,7 @@ Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Regi
 7.  (Optional) Wenn Sie Bandbreitenbeschränkungen für Audio- oder Videoanrufe für diesen Standort festlegen möchten, wählen Sie das Bandbreitenrichtlinienprofil mit den passenden Einstellungen in der Dropdownliste **Bandbreitenrichtlinie** aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Auf der Seite <STRONG>Richtlinienprofil</STRONG> in der Gruppe <STRONG>Netzwerkkonfiguration</STRONG> können Sie die Details der verfügbaren Bandbreitenrichtlinienprofile anzeigen oder ein neues Bandbreitenrichtlinienprofil erstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Erstellen oder Ändern von Bandbreitenrichtlinienprofilen</A>.
 
 
@@ -48,7 +48,7 @@ Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Regi
 8.  (Optional) Wenn Sie Ortungseinstellungen für diesen Standort bereitstellen möchten, wählen Sie in der Dropdownliste **Ortungsrichtlinie** eine Ortungsrichtlinie aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Ortungsrichtlinie weist dem Standort bestimmte E9-1-1- und Clientstandorteinstellungen zu. Auf der Seite <STRONG>Ortungsrichtlinie</STRONG> in der Gruppe <STRONG>Netzwerkkonfiguration</STRONG> können Sie die Details der verfügbaren Ortungsrichtlinien anzeigen oder eine neue Ortungsrichtlinie erstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-viewing-location-policy-information.md">Anzeigen von Informationen zu Ortungsrichtlinien</A>.
 
 
@@ -58,7 +58,7 @@ Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Regi
 10. Klicken Sie auf **Commit**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Beim Erstellen eines neuen Netzwerkstandorts verwenden Sie nicht die Tabelle <STRONG>Zugeordnete Subnetze</STRONG>. Sie ordnen einem Standort ein Subnetz zu, wenn Sie das Subnetz erstellen oder ändern. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-or-modify-network-subnets.md">Erstellen oder Ändern von Netzwerksubnetzen</A>.
 
 
@@ -92,7 +92,7 @@ Sie können die Tabelle **Zugeordnete Subnetze** auf dieser Seite nicht ändern.
 4.  Klicken Sie auf der Seite **Standort** auf den Standort, den Sie löschen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können mehrere Standorte in einem Arbeitsschritt löschen. Drücken Sie hierzu STRG, und wählen Sie bei gedrückter STRG-TASTE mehrere Standorte aus. Wenn Sie alle Standorte auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
 
 

@@ -20,7 +20,7 @@ Microsoft Lync Server 2013 verwendet Zertifikate zum gegenseitigen Authentifizie
 Das Zertifikat, das den externen Schnittsellen des Edgeservers zugewiesen ist, wird von einer öffentlichen Zertifizierungsstelle angefordert. Öffentliche Zertifizierungsstellen, die nachweislich erfolgreich Zertifikate für Unified Communications bereitgestellt haben, sind im folgenden Artikel aufgeführt: <http://go.microsoft.com/fwlink/?linkid=3052>. Beim Anfordern des Zertifikats können Sie die vom Lync Server-Bereitstellungs-Assistenten generierte Zertifikatanforderung verwenden oder aber das Zertifikat manuell oder mithilfe eines Prozesses der öffentlichen Zertifizierungsstelle anfordern. Das Zertifikat wird der Zugriffs-Edgedienst-Schnittstelle, der Webkonferenz-Edgedienst-Schnittstelle und dem Audio-/Video-Authentifizierungsdienst zugewiesen. Der Audio-/Video-Authentifizierungsdienst sollte nicht mit dem A/V-Edgedienst verwechselt werden, der kein Zertifikat zum Verschlüsseln der Audio- und Videostreams verwendet. Die interne Edgeserverschnittstelle kann ein Zertifikat von einer internen Zertifizierungsstelle (innerhalb Ihrer Organisation) oder ein Zertifikat von einer öffentlichen Zertifizierungsstelle verwenden. Das Zertifikat der internen Schnittstelle verwendet nur den SN-Eintrag und benötigt bzw. verwendet keine SAN-Einträge.
 
 
-> [!TIP]
+> [!NOTE]
 > Die folgende Tabelle zeigt zu Referenzzwecken einen sekundären SIP-Eintrag ( sip.fabrikam.com ) in der Liste für alternative Antragstellernamen. Für jede SIP-Domäne in Ihrer Organisation müssen Sie einen entsprechenden FQDN in der Liste der alternativen Antragstellernamen des Zertifikats hinzufügen.
 
 

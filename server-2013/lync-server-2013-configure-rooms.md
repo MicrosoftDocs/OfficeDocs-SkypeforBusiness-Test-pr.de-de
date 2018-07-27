@@ -32,7 +32,7 @@ Mit Server für beständigen Chat können Benutzer zusammenarbeiten, indem Sie N
 Wenn eine Nachricht gelöscht wird, kann diese Aktion nicht rückgängig gemacht werden. Wenn ein Beständiger Chat-Kompatibilitätsserver aktiviert wird, werden alte Nachrichten in der Kompatibilitätsdatenbank gespeichert.
 
 
-> [!TIP]
+> [!NOTE]
 > Diese Datenverwendung des Chatrooms gilt für die Lync Server 2013-, Server für beständigen Chat-API Application, außer wenn die Administratorrolle involviert ist. Die Server für beständigen Chat-API kann nicht verwendet werden, um beliebige Administratorvorgänge auszuführen. Diese Vorgänge müssen Sie in der Lync Server-Verwaltungsshell ausführen.
 
 

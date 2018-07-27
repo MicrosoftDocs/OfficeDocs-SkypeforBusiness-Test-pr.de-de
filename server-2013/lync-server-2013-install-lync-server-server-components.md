@@ -36,7 +36,7 @@ Der Lync Server-Bereitstellungs-Assistent wird zum Installieren der Komponenten 
 7.  Nachdem die Lync Server 2013-Komponenten eingerichtet wurden und Sie die Protokolle ggf. geprüft haben, klicken Sie auf **Fertig stellen**, um diesen Installationsschritt abzuschließen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie aufgefordert werden, den Server neu zu starten (dies ist der Fall, wenn Windows Desktop Experience installiert werden musste), sollten Sie dies unbedingt tun. Nach erfolgtem Neustart müssen Sie dann diese Schritte ab Schritt 3 oben noch einmal wiederholen (d.&nbsp;h. führen Sie Schritt 2 im Bereitstellungs-Assistenten noch einmal aus).
 
 

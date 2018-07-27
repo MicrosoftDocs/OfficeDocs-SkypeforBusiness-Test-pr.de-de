@@ -28,7 +28,7 @@ Um zusätzlich von Ihrer Investition in Lync Server zu profitieren, können Sie 
   - **Öffentliche Benutzer**   Benutzer öffentlicher Instant Messaging-Dienste (z. B. die von Windows Live, Yahoo\! und AOL bereitgestellten Chatdienste) sowie Benutzer von Anbietern und Servern, die XMPP (Extensible Messaging and Presence Protocol) verwenden (z. B. Google Talk).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Beachten Sie, dass für Verbindungen mit öffentlichen Instant Messaging-Diensten wie Windows Live, AOL und Yahoo! möglicherweise eine separate Lizenz erforderlich ist.
 
     

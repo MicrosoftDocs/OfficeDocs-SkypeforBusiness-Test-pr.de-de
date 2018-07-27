@@ -30,7 +30,7 @@ Das Verwalten von Benutzern auf einer Survivable Branch-Anwendung oder einem Sur
 2.  Führen Sie in der Lync Server-Verwaltungsshell das **Move-CsUser**-Cmdlet aus, um Benutzer zu verschieben.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können auch die Lync Server-Systemsteuerung verwenden, um die Voraussetzungen zu überprüfen und Benutzer zu platzieren.
 
 

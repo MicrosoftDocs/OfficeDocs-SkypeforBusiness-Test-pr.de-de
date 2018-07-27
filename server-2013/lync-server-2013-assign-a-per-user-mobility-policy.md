@@ -42,7 +42,7 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
     4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
@@ -51,7 +51,7 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
 6.  Klicken Sie in den Suchergebnissen auf einen Benutzer, klicken Sie auf **Aktion** und anschließend auf **Richtlinien zuweisen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie dieselbe benutzerbasierte Mobilitätsrichtlinie auf mehrere Benutzer anwenden möchten, wählen Sie mehrere Benutzer in den Suchergebnissen aus, klicken Sie auf <STRONG>Aktionen</STRONG> und anschließend auf <STRONG>Richtlinien zuweisen</STRONG>.
 
 
@@ -59,7 +59,7 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
 7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Mobilitätsrichtlinie** eine der folgenden Aktionen aus:
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
@@ -68,7 +68,7 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
       - Klicken Sie auf der Seite **Mobilitätsrichtlinie** auf den Namen einer benutzerbasierten Mobilitätsrichtlinie, die Sie zuvor definiert haben.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Um besser entscheiden zu können, welche Richtlinie zugewiesen werden soll, klicken Sie auf einen Richtliniennamen und anschließend auf <STRONG>Anzeigen</STRONG>, um die in der Richtlinie definierten Benutzerrechte und -berechtigungen anzuzeigen.
 
 

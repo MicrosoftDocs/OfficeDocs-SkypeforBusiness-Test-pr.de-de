@@ -30,7 +30,7 @@ Im Folgenden sind die vier Benutzerrollen für Server für beständigen Chat auf
   - **Ersteller:** Benutzer, die zum Erstellen von Chatrooms berechtigt sind. Diese Benutzer befinden sich in der Liste **Ersteller** von bestimmten Kategorien. Sie können Chatrooms in dieser Kategorie erstellen, eine Mitgliedschaft gemäß dieser Kategorie zuweisen sowie Manager zum Verwalten von Chatrooms zuweisen. Der Benutzer, der einen Chatroom erstellt, wird automatisch als Manager des Chatrooms hinzugefügt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Als Ersteller besitzt ein Benutzer lediglich die Rechte zum Erstellen von Chatrooms. Durch die automatische Heraufstufung zum Manager erhält der Ersteller die Berechtigung, Mitgliedschaften, Manager usw. für die erstellten Chatdienste zu verfeinern.
 
     

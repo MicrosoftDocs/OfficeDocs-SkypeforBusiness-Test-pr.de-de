@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 Wurde ein Benutzer für Lync Server aktiviert, können Sie den SIP-Partnerverbund, den XMPP-Partnerverbund, den Zugriff durch Remotebenutzer und Verbindungen mit öffentlichen Instant Messaging-Diensten in Lync Server-Systemsteuerung konfigurieren, indem Sie bestimmten Benutzern die entsprechenden Richtlinien zuweisen. Wenn Sie beispielsweise eine Richtlinie für die Unterstützung des Remotebenutzerzugriffs erstellt haben, müssen Sie diese auf den Benutzer anwenden, damit der Benutzer von einem Remotestandort aus eine Verbindung mit Lync Server herstellen und mit internen Benutzern zusammenarbeiten kann.
 
 
-> [!TIP]
+> [!NOTE]
 > Um den Zugriff durch externe Benutzer zu unterstützen, müssen Sie die Unterstützung für jeden Typ des externen Benutzerzugriffs aktivieren, der unterstützt werden soll, sowie die entsprechenden Richtlinien und andere Optionen zur Verwendungssteuerung konfigurieren. Ausführliche Informationen hierzu finden Sie unter <A href="lync-server-2013-configuring-support-for-external-user-access.md">Konfigurieren der Unterstützung für den externen Benutzerzugriff in Lync Server 2013</A> in der Bereitstellungsdokumentation oder unter <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Verwalten von Partnerverbünden und externem Zugriff auf Lync Server 2013</A> in der Betriebsdokumentation.
 
 
@@ -38,7 +38,7 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie 
 5.  Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **Richtlinie für den externen Zugriff** die Benutzerrichtlinie aus, die Sie anwenden möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit den Einstellungen <STRONG>&lt;Automatisch&gt;</STRONG> werden die Standardeinstellungen des Servers oder die globalen Richtlinieneinstellungen angewendet.
 
 

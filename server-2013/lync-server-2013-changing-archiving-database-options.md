@@ -28,7 +28,7 @@ Für beide Änderungen müssen Sie den Topologie-Generator ausführen, die Ände
 1.  Melden Sie sich auf einem Computer, auf dem Lync Server 2013 ausgeführt wird oder auf dem die Lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Gruppe **Benutzer** ist (oder mit einem Konto mit äquivalenten Benutzerrechten).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Gruppe <STRONG>Benutzer</STRONG> ist. Zum Veröffentlichen einer Topologie (erforderlich zum Hinzufügen einer Komponente zur Topologie) müssen Sie aber ein Konto verwenden, das Mitglied der Gruppe <STRONG>Domänen-Admins</STRONG> und der Gruppe <STRONG>RTCUniversalServerAdmins</STRONG> ist und über Vollzugriff (Lesen, Schreiben und Ändern) für die Dateifreigabe verfügt, die Sie für den Lync Server 2013-Dateispeicher verwenden, damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) konfigurieren kann. Alternativ dazu können Sie ein Konto mit äquivalenten Rechten verwenden.
 
 

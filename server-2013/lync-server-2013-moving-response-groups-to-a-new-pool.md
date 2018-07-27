@@ -20,7 +20,7 @@ In Lync Server 2013 werden neue Cmdlets unterstützt, um Reaktionsgruppen zwisch
 Führen Sie die Schritte des folgenden Verfahrens aus, um Reaktionsgruppen von einem Front-End-Pool in einen Front-End-Pool mit einem unterschiedlichen FQDN zu verschieben.
 
 
-> [!TIP]
+> [!NOTE]
 > In einer Koexistenzumgebung können Sie Reaktionsgruppen nur zwischen Lync Server 2013-Front-End-Pools verschieben.
 
 
@@ -52,7 +52,7 @@ Führen Sie die Schritte des folgenden Verfahrens aus, um Reaktionsgruppen von e
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
     
 
-    > [!TIP]
+    > [!NOTE]
     > Zu den Einstellungen auf Anwendungsebene gehören die Standardkonfiguration für die Musikeinspielung in der Warteschleife, die Standardaudiodatei für die Musikeinspielung in der Warteschleife, die Toleranzperiode für den Rückruf bei Halten des Agents sowie die Anrufkontextkonfiguration. Zum Anzeigen dieser Konfigurationseinstellungen führen Sie das <STRONG>Get-CsRgsConfiguration</STRONG>-Cmdlet aus. Ausführliche Informationen zu diesem Cmdlet finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
 
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2017-02-07_
 Zur Verwendung von Lync Web App müssen Sie über eine der folgenden unterstützten Betriebssystem- und Browserkombinationen verfügen.
 
 
-> [!TIP]
+> [!NOTE]
 > Für bestimmte Lync Web App-Features, einschließlich computerbasierter Sprach- und Videofunktionen, Freigabe und Anzeigen der laufenden Bildschirmfreigabe, ist ein Plug-In erforderlich. Sie können das Freigabe-Plug-In installieren, wenn Sie der Besprechung beitreten, oder wenn Sie eines dieser Features aufrufen. 1
 
 

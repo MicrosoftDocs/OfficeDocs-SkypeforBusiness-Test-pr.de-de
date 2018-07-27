@@ -22,7 +22,7 @@ Wenn Sie Kontaktobjekte für eine automatische Telefonzentrale und für den Teil
   - Hinzufügen der Kontaktobjekte zu den Unified Messaging-Sammelanschlüssen
 
 
-> [!TIP]
+> [!NOTE]
 > Damit Sie die Cmdlets <STRONG>Get-CsExUmContact</STRONG> und <STRONG>Move-CsExUmContact</STRONG> verwenden können, müssen Sie ein Mitglied der Gruppe <STRONG>RTCUniversalUserAdmins</STRONG> sein und Organisationseinheitenberechtigung für die Organisationseinheit innehaben, in der die Kontaktobjekte gespeichert sind. Die Berechtigung für Organisationseinheiten kann mithilfe des <STRONG>Grant-OUPermission</STRONG>-Cmdlets erteilt werden.
 
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-08_
 Nachdem Sie Ihre Topologie veröffentlicht haben, benötigt der Lync Server-Bereitstellungs-Assistent Zugriff auf die Dateien im zentralen Verwaltungsspeicher, um den Bereitstellungsprozess auf dem Server zu starten. Im internen Netzwerk sind die Daten direkt auf den Servern verfügbar, jedoch haben Edgeserver, die sich nicht in der internen Domäne befinden, keinen Zugriff auf die Daten. Um die Daten der Topologiekonfiguration für eine Edgeserverbereitstellung verfügbar zu machen, müssen Sie die Topologiedaten in eine Datei exportieren und diese auf einen externen Datenträger kopieren (dies kann z. B. ein USB-Laufwerk oder eine Netzwerkfreigabe sein, das bzw. die auf dem Edgeserver verfügbar ist), bevor Sie den Lync Server-Bereitstellungs-Assistenten auf dem Edgeserver ausführen. Verwenden Sie das folgende Verfahren, um die Daten der Topologiekonfiguration für den bereitzustellenden Edgeserver verfügbar zu machen.
 
 
-> [!TIP]
+> [!NOTE]
 > Nachdem Sie Lync Server 2013 auf einem Edgeserver installiert haben, können Sie den Edgeserver unter Verwendung der Verwaltungstools im internen Netzwerk verwalten. So wird die Konfiguration automatisch auf jeden bereitgestellten Edgeserver repliziert. Die einzigen Aufgaben, die auf dem Edgeserver ausgeführt werden müssen, sind das Zuweisen und Installieren von Zertifikaten sowie das Beenden und Starten von Diensten.
 
 

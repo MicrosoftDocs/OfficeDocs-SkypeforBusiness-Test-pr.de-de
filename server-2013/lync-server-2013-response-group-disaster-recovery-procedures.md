@@ -120,7 +120,7 @@ Verwenden Sie diese Schritte im folgenden Verfahren, um sich auf den Lync Server
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie einen Pool während der Wiederherstellung neu erstellen, und zwar entweder mit dem gleichen oder einem komplett anderen vollqualifizierten Domänennamen, müssen Sie den Parameter "-OverwriteOwner" verwenden. Daumenregel: Sie können den Parameter "-OverwriteOwner" immer verwenden, wenn Sie Reaktionsgruppen wieder in den primären Pool importieren.
 
     
@@ -191,7 +191,7 @@ Verwenden Sie diese Schritte im folgenden Verfahren, um sich auf den Lync Server
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
 
-    > [!TIP]
+    > [!NOTE]
     > In diesem Schritt wird eine neue Datei mit der exportierten Konfiguration erstellt und dann aus dem Sicherungspool entfernt.
 
 

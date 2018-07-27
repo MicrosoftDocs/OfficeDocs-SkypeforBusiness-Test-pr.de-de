@@ -50,7 +50,7 @@ Nachdem der Monitorknotencomputer neu gestartet wurde, ist der nächste Schritt 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
 
-> [!TIP]
+> [!NOTE]
 > Wie bereits erwähnt, kann die Datei "Watchernode.msi" auch über ein Befehlsfenster mit Eingabeaufforderung ausgeführt werden. Klicken Sie zum Öffnen eines Befehlsfensters auf <STRONG>Start</STRONG>, klicken Sie mit der rechten Maustaste auf <STRONG>Eingabeaufforderung</STRONG>, und klicken Sie dann auf <STRONG>Als Administrator ausführen</STRONG>. Geben Sie den bereits gezeigten Befehl ein, nachdem das Befehlsfenster geöffnet wurde.
 
 

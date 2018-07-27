@@ -20,7 +20,7 @@ Sie können die globale Standardrichtlinie verwenden, um Einstellungen der Funkt
 Die globale Richtlinie kann nicht gelöscht werden. Wenn Sie versuchen, die globale Richtlinie zu löschen, wird die Konfiguration auf die Standardwerte zurückgesetzt.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie den Server für beständigen Chat konfigurieren und verwenden möchten, müssen Sie zunächst mit dem Topologie-Generator die Server für beständigen Chat-Unterstützung der Topologie hinzufügen und die Topologie anschließend veröffentlichen. Einzelheiten dazu finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Informationen zum Konfigurieren der Konfigurationseinstellungen für den Server für beständigen Chat finden Sie unter <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Konfigurieren von Optionen für den Server für beständigen Chat auf globaler oder Poolebene in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

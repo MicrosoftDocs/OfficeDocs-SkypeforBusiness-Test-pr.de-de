@@ -35,7 +35,7 @@ In der folgenden Tabelle sind die Gruppen aufgeführt, deren Mitglied ein Benutz
 <td><p>Mitglied der lokalen Administratorgruppe auf dem Computer, auf dem die ausführbare Datei ausgeführt wird. Mitglied der Gruppe &quot;Domänen-Benutzer&quot; zum Lesen von Informationen in Active Directory-Domänendienste. Diese Berechtigungsstufe ist erforderlich, da für die automatische Installation der erforderlichen MSI-Pakete auf dem lokalen Computer Lese- und Schreibberechtigungen für geschützte Ressourcen des lokalen Computers – z. B. Verzeichnisse unter &quot;Programme&quot; oder geschützte Registrierungseinträge wie der Schlüssel &quot;Local Machine&quot; – benötigt werden.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Es ist möglich, Installationsberechtigungen an Benutzer oder Gruppen zu delegieren, die Sie nicht in die Gruppe "Domänen-Admins" aufnehmen möchten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-granting-setup-permissions.md">Gewähren von Setupberechtigungen in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
@@ -46,7 +46,7 @@ In der folgenden Tabelle sind die Gruppen aufgeführt, deren Mitglied ein Benutz
 <td><p>Mitglied der lokalen Administratorgruppe auf dem Computer, auf dem die ausführbare Datei ausgeführt wird. Mitglied der Gruppe &quot;Domänen-Benutzer&quot; zum Lesen von Informationen in AD DS. Diese Berechtigungsstufe ist erforderlich, da für die automatische Installation der erforderlichen MSI-Pakete auf dem lokalen Computer Lese- und Schreibberechtigungen für geschützte Ressourcen des lokalen Computers - z. B. Verzeichnisse unter &quot;Programme&quot; oder geschützte Registrierungseinträge wie der Schlüssel &quot;Local Machine&quot; - benötigt werden. Mitgliedschaft in der Gruppe &quot;RtcUniversalReadOnlyAdmins&quot; zum Lesen des zentralen Verwaltungsspeichers erforderlich.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Windows&nbsp;Vista-Betriebssystem oder Windows&nbsp;7-Betriebssystem ausführen, werden Sie von der Benutzerkontensteuerung (User Account Control, UAC) aufgefordert, mit der Installation fortzufahren. Wenn Sie über ein Standardbenutzerkonto angemeldet sind, muss ein Mitglied der lokalen Administratorgruppe die erforderlichen Anmeldeinformationen eingeben, wenn Sie zur Angabe eines Kontos mit Berechtigungen zum Installieren der Software aufgefordert werden.
 
 

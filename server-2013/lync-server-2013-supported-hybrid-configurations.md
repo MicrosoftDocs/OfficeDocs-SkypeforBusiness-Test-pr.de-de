@@ -54,7 +54,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <p>Weitere Informationen finden Sie unter <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Konfigurieren von Microsoft Lync Server 2013 zur Verwendung des einheitlichen Kontaktspeichers</a></p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Setzt Exchange 2013 voraus.<BR>Ein Lync 2013-Desktopclient ist erforderlich.
 
 
@@ -63,7 +63,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <p>Weitere Informationen finden Sie unter <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Konfigurieren der Verwendung von hoch auflösenden Fotos in Microsoft Lync Server 2013</a></p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Setzt Exchange 2013 voraus.
 
 
@@ -75,7 +75,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <p>Weitere Informationen finden Sie unter <a href="lync-server-2013-deployment-checklist-for-archiving.md">Prüfliste zur Bereitstellung für die Archivierung in Lync Server 2013</a></p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Setzt Exchange 2013 voraus.
 
 
@@ -83,7 +83,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Durchsuchen von archivierten Inhalten</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Setzt Exchange 2013 voraus.
 
 
@@ -105,7 +105,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Kontaktliste (über den einheitlichen Kontaktspeicher). Weitere Informationen finden Sie unter <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Konfigurieren von Microsoft Lync Server 2013 zur Verwendung des einheitlichen Kontaktspeichers</a></p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Nur Lync Server 2013. Ein Lync 2013-Desktopclient ist erforderlich.
 
 
@@ -131,7 +131,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Kontaktfoto in hoher Auflösung in Lync 2013-Client.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Setzt Microsoft Exchange Server 2013 voraus. Wird in Lync Web App nicht unterstützt, wenn Benutzer auf Skype for Business Online gehostet werden.
 
 
@@ -153,7 +153,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Kontaktliste (über den einheitlichen Kontaktspeicher)</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013-Client erforderlich
 
 

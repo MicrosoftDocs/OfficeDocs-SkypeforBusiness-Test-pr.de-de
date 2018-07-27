@@ -43,7 +43,7 @@ Zum Ausführen der Cmdlet öffnen Sie eine Lync Server-Verwaltungsshell mit der 
 4.  Importieren Sie gesicherte Workflows des Lync Server-Reaktionsgruppendiensts von Pool A in Pool B.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Derzeit erfordert das Cmdlet <STRONG>Import-CsRgsConfiguration</STRONG>, dass sich die Warteschlangen- und Workflownamen in Pool&nbsp;A von den Warteschlangen- und Workflownamen in Pool&nbsp;B unterscheiden. Unterscheiden sich die Namen nicht, tritt beim Ausführen des Cmdlets <STRONG>Import-CsRgsConfiguration</STRONG> ein Fehler auf, und die Warteschlangen und Workflows müssen in Pool&nbsp;B. umbenannt werden, bevor mit dem Cmdlet <STRONG>Import-CsRgsConfiguration</STRONG> fortgefahren werden kann.
 
     
@@ -80,7 +80,7 @@ Zum Ausführen der Cmdlet öffnen Sie eine Lync Server-Verwaltungsshell mit der 
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Schritt ist für Bereiche nicht zugewiesener Nummern, bei denen "Exchange UM" als Ankündigungsdienst ausgewählt ist, nicht erforderlich.
 
 
@@ -185,7 +185,7 @@ Zum Ausführen der Cmdlet öffnen Sie eine Lync Server-Verwaltungsshell mit der 
       - (Optional) Entfernen Sie aus Pool B die in Pool C erneut erstellen Ankündigungen, wenn diese in Pool B nicht mehr verwendet werden. Verwenden Sie zum Entfernen der Ankündigungen das Cmdlet **Remove-CsAnnouncement**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Dieser Schritt ist für Bereiche nicht zugewiesener Nummern, die "Exchange UM" als Ankündigungsdienst verwenden, nicht erforderlich.
 
 
@@ -259,7 +259,7 @@ Zum Ausführen der Cmdlet öffnen Sie eine Lync Server-Verwaltungsshell mit der 
             Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - }
         
 
-        > [!TIP]
+        > [!NOTE]
         > Für Benutzer, die in SBAs gehostet sind, die Pool&nbsp;A zugewiesen sind, erfolgt ein Dienstausfall, bis diese Benutzer in Pool&nbsp;C verschoben werden.
 
 

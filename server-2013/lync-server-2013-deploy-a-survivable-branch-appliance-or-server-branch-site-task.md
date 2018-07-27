@@ -32,7 +32,7 @@ Führen Sie, nachdem Sie die Schritte im Abschnitt [Bereitstellen einer Survivab
   - Installieren Sie Microsoft Lync Server 2010 auf einem Computer mit Windows Server 2008 oder Windows Server 2008 R2 wie jede andere Lync Server 2013-Serverrolle.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Weitere Informationen zur Installation von Lync Server finden Sie unter <A href="lync-server-2013-deploying-lync-server.md">Bereitstellen von Lync Server&nbsp;2013</A> in der Bereitstellungsdokumentation.
 
 
