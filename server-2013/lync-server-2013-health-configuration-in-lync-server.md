@@ -35,7 +35,7 @@ Die Zustandsüberwachung in Lync Server 2013 basiert auf System Center Operation
 
   - **Höhere Anrufzuverlässigkeitsabdeckung.** Im Lync Server 2010 Management Pack wurden Anrufzuverlässigkeitswarnungen eingeführt, um schwerwiegende Konnektivitätsprobleme zu erkennen, durch die Audioanrufe von Endbenutzern beeinträchtigt werden. Die Lync Server 2013 Management Packs unterstützen nun Peer-zu-Peer-Chatnachrichten und sonstige grundlegende Konferenzfeatures, um die Abdeckung zu maximieren und gleichzeitig das Rauschen zu reduzieren.
 
-  - **Abhängigkeitsüberwachung.**Lync Server-Szenarien können aufgrund einer Reihe von externen Faktoren fehlschlagen. Beispielsweise, weil IIS offline ist, aufgrund eingeschränkter CPU- und Arbeitsspeicherressourcen sowie aufgrund von Datenträgerproblemen. Die neuen Management Packs überprüfen mehrere kritische Abhängigkeiten, um sicherzustellen, dass sich die Administratoren über deren Auswirkungen bewusst sind.
+  - **Abhängigkeitsüberwachung.** Lync Server-Szenarien können aufgrund einer Reihe von externen Faktoren fehlschlagen. Beispielsweise, weil IIS offline ist, aufgrund eingeschränkter CPU- und Arbeitsspeicherressourcen sowie aufgrund von Datenträgerproblemen. Die neuen Management Packs überprüfen mehrere kritische Abhängigkeiten, um sicherzustellen, dass sich die Administratoren über deren Auswirkungen bewusst sind.
 
   - **Erweiterte Berichterstellung.** Es gibt eine Reihe von Berichten, damit Administratoren die Szenarioverfügbarkeit abschätzen, die Kapazität planen sowie die Komponenten mit den meisten Problemen ermitteln können.
 

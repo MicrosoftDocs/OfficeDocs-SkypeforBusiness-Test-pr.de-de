@@ -1,6 +1,8 @@
 - name: Microsoft Lync Server 2013
   href: microsoft-lync-server-2013.md
   items:
+  - name: Lync Server-Verwaltungsshell
+    href: lync-server-2013-lync-server-management-shell.md
   - name: Rechtliche Informationen
     href: lync-server-2013-legal-information.md
   - name: Barrierefreiheit für Menschen mit Behinderung
@@ -3042,6 +3044,8 @@
   - name: Vorgänge
     href: lync-server-2013-operations.md
     items:
+    - name: Feature management in Lync Server 2013
+      href: this-topic-is-no-longer-available.md  
     - name: Operations Guide
       href: lync-server-2013-operations-guide.md
       items:
@@ -3998,7 +4002,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
       - name: Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:

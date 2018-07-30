@@ -33,7 +33,7 @@ Organisationen mit einer lokalen Bereitstellung von Lync Server müssen die folg
 
   - Konfigurieren Sie HTTP-Proxys im Unternehmen so, dass diese HTTP-Datenverkehr von Lync Server zulassen. Fügen Sie erforderlichenfalls Ausnahmen für die Dienste AutoErmittlung, Lync Web App und Webticket hinzu.
 
-  - Installieren Sie auf Clients Windows 8.1 und die neueste Version von Windows Store-App für Lync, um ein Anmeldeproblem zu beheben, das im Allgemeinen auftritt, wenn Sie mehrere Domänen verwenden (zum Beispiel wenn der SIP-URI **userA@domainZ.com**, der Edgeserver aber **sip.domainX.com** ist).
+  - Installieren Sie auf Clients Windows 8.1 und die neueste Version von Windows Store-App für Lync, um ein Anmeldeproblem zu beheben, das im Allgemeinen auftritt, wenn Sie mehrere Domänen verwenden (zum Beispiel wenn der SIP-URI <strong>userA@domainZ.com</strong>, der Edgeserver aber **sip.domainX.com** ist).
 
 Wenn für Ihre Organisation ein Abonnement bei Lync Online oder Office 365 besteht und Sie Ihren eigenen Domänennamen verwenden, müssen Sie weitere Schritte ausführen, um Ihr Netzwerk für die automatische Ermittlung von Lync-Servern einzurichten. Auf mobilen Geräten sind die Netzwerkkonfigurationsanforderungen für Windows Store-App für Lync und Lync identisch. Gehen Sie gemäß den Anweisungen vor, die Sie unter "Set up your network" im Office 365 Wiki-Artikel "Set up Lync mobile devices" finden, der unter [http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822) verfügbar ist.
 

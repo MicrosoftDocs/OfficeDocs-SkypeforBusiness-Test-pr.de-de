@@ -89,7 +89,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-27_
 
 **F: Wie kann ich die Lync-Skype-Konnektivität in einem Szenario mit geteilter Domäne aktivieren?**
 
-**A:**In einem Szenario mit geteilter Domäne, d. h. wenn Sie sowohl Lync Online 2013 als auch lokal Lync Server nutzen und die Benutzer sowohl online als auch lokal die gleiche SIP-Domäne verwenden, aktivieren Sie die Lync-Skype-Konnektivität mit zwei Schritten in der nachstehenden Reihenfolge:
+**A:** In einem Szenario mit geteilter Domäne, d. h. wenn Sie sowohl Lync Online 2013 als auch lokal Lync Server nutzen und die Benutzer sowohl online als auch lokal die gleiche SIP-Domäne verwenden, aktivieren Sie die Lync-Skype-Konnektivität mit zwei Schritten in der nachstehenden Reihenfolge:
 
 1.  Richten Sie die Lync-Skype-Konnektivität lokal wie in der Anleitung zur Bereitstellung von Verbindungen mit öffentlichen Instant Messaging-Diensten beschrieben ein.
 

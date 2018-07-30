@@ -68,7 +68,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 #### Weitere Ressourcen
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)  
-[Set-CsNetworkRegionLink](href: https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)  
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
