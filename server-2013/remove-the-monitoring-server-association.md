@@ -28,7 +28,7 @@ Zum Entfernen des Monitoring-Server müssen Sie die Abhängigkeit vom zugeordnet
 4.  Bei einer Zuordnung von Survivable Branch-Server erweitern Sie **Zweigniederlassungen** , den Namen des Zweigniederlassung und dann **Survivable Branch Appliances** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > <STRONG>Survivable Branch Appliances</STRONG> auf der Benutzeroberfläche gilt sowohl für Survivable Branch-Server als auch für Survivable Branch-Anwendung.
 
 

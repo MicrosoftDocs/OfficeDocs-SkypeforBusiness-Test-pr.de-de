@@ -49,7 +49,7 @@ Wenn Sie Lync Server 2013 bereitstellen und die Topologie veröffentlichen, wird
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
         
 
-        > [!TIP]
+        > [!NOTE]
         > Sie können anstelle des Benutzeranzeigenamens auch einen Benutzeralias oder einen SIP-URI verwenden.
 
         
@@ -59,7 +59,7 @@ Wenn Sie Lync Server 2013 bereitstellen und die Topologie veröffentlichen, wird
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
         
 
-        > [!TIP]
+        > [!NOTE]
         > Im vorstehenden Beispiel wird mit dem ersten Befehl eine neue benutzerbezogene Richtlinie mit dem Namen <EM>UCS Enabled Users</EM> erstellt, für die das Flag „UcsAllowed“ auf „True“ festgelegt ist. Mit dem zweiten Befehl wird die Richtlinie dem Benutzer mit dem Anzeigename „Ken Myer“ zugewiesen, d.&nbsp;h., Ken Myer ist ab sofort für den einheitlichen Kontaktspeicher aktiviert.
 
 

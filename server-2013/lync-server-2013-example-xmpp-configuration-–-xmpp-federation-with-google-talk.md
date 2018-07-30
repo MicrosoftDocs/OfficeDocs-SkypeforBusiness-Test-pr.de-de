@@ -38,7 +38,7 @@ Eine Beispielkonfiguration für die Bereitstellung des XMPP-Proxys definiert ein
 7.  Klicken Sie auf dem Edgeserver im Lync Server-Bereitstellungs-Assistenten neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Erneut ausführen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie den Edgeserver zum ersten Mal bereitstellen, wird Ausführen anstelle von Erneut ausführen angezeigt.
 
 
@@ -72,7 +72,7 @@ Eine Beispielkonfiguration für die Bereitstellung des XMPP-Proxys definiert ein
 18. Geben Sie auf der Seite **Weitere alternative Antragstellernamen konfigurieren** zusätzliche alternative Antragstellernamen an, die benötigt werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Falls der XMPP-Proxy installiert ist, wird standardmäßig der Domänenname (z.&nbsp;B. contoso.com ) in den SAN-Einträgen aufgefüllt. Für den Fall, dass Sie weitere Einträge benötigen, fügen Sie sie in diesem Schritt hinzu.
 
 

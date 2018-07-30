@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 In diesem Abschnitt werden die Installation von Lync Server 2013 und die Einrichtung der Serverrollen für den Standard Edition-Server und den Front-End-Pool behandelt. Dies umfasst u. a. Front-End-Server und Serverrollen, die gemeinsam mit den Front-End-Servern ausgeführt werden. Zum Installieren und Einrichten von Serverrollen führen Sie den Lync Server-Bereitstellungs-Assistenten auf jedem Computer aus, auf dem eine Serverrolle installiert wird. Sie können mit dem Bereitstellungs-Assistenten alle vier Bereitstellungsschritte ausführen. Dies umfasst u. a. die Installation des lokalen Konfigurationsspeichers, die Installation der Front-End-Server, die Konfiguration von Zertifikaten und das Starten von Diensten.
 
 
-> [!TIP]
+> [!NOTE]
 > Bevor Sie Serverrollen einrichten können, müssen Sie eine Topologie erfolgreich veröffentlicht haben. Ausführliche Informationen zum Veröffentlichen einer Topologie finden Sie unter <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Abschließen und Implementieren des Topologieentwurfs in Lync Server 2013</A>.
 
 

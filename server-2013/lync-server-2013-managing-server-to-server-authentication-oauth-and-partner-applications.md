@@ -22,7 +22,7 @@ In Lync Server 2013 ist der Ansatz zur Verwendung einer standardisierten Methode
 Die OAuth-Authentifizierung umfasst normalerweise drei Parteien: einen einzelnen Autorisierungsserver und die beiden Bereiche, die miteinander kommunizieren müssen. (Sie können auch eine Server-zu-Server-Authentifizierung durchführen, ohne einen Autorisierungsserver zu verwenden; dieser Prozess wird weiter unten in diesem Dokument erläutert.) Sicherheitstoken werden vom Autorisierungsserver (auch Sicherheitstokenserver genannt) für die beiden Bereiche ausgestellt, die miteinander kommunizieren müssen. Diese Token stellen sicher, dass die Kommunikation aus dem einen Bereich für den anderen Bereich als vertrauenswürdig gilt. Der Autorisierungsserver kann beispielsweise Token ausstellen, die sicherstellen, dass Benutzer aus einem bestimmten Lync Server 2013-Bereich auf einen angegebenen Exchange 2013-Bereich zugreifen können und umgekehrt.
 
 
-> [!TIP]
+> [!NOTE]
 > Ein Bereich ist einfach ein Sicherheitscontainer. Standardmäßig wird von Lync Server 2013 Ihre SIP-Standarddomäne als OAuth-Bereich verwendet.
 
 
@@ -52,7 +52,7 @@ Zum Konfigurieren einer Server-zu-Server-Authentifizierung für eine lokale Impl
   - Der Server, mit dem Lync Server 2013 kommuniziert, muss eine "Partneranwendung sein". Wenn beispielsweise Lync Server 2013 mit Exchange 2013 kommunizieren muss, dann müssen Sie Exchange als Partneranwendung konfigurieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei einer "Partneranwendung" handelt es sich um eine beliebige Anwendung, mit der Lync Server 2013 direkt (also ohne Umweg über den Sicherheitstokenserver eines Drittanbieters) Sicherheitstoken austauschen kann.
 
 

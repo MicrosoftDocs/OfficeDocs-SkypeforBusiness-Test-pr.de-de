@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein, oder an Sie müssen geeignete Berechtigungen delegiert worden sein. Ausführliche Informationen zum Delegieren von Berechtigungen finden Sie unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md). In Abhängigkeit von Ihrer Organisation und den Anforderungen zum Anfordern von Zertifikaten sind möglicherweise weitere Gruppenmitgliedschaften erforderlich. Wenden Sie sich an die Gruppe, die Ihre Public Key-Infrastruktur-Zertifizierungsstelle verwaltet.
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 bietet Unterstützung für die SHA-2-Suite (SHA-2 verwendet Digestlängen von 224, 256, 384 oder 512 Bits) von Digesthash- und Signaturalgorithmen für Verbindungen von Clients, die neben Lync Phone Edition die Betriebssysteme Windows&nbsp;7, Windows Server&nbsp;2008&nbsp;R2, Windows Server&nbsp;2008, Windows Vista oder Windows&nbsp;XP ausführen. Damit der externe Zugriff über die SHA-2-Suite unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die auch ein Zertifikat mit einem Digest gleicher Bitlänge ausstellen kann.
 
 
@@ -54,7 +54,7 @@ Verwenden Sie das folgende Verfahren, um die Standard Edition-Server- oder Front
 7.  Klicken Sie auf der Seite **Alternative Zertifikatvorlage angeben** auf **Weiter** , um die standardmäßige Webservervorlage zu verwenden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Falls Ihre Organisation eine Vorlage zur Nutzung als Alternative für die Standardvorlage für die Webserver-Zertifizierungsstelle erstellt hat, aktivieren Sie das Kontrollkästchen, und geben Sie den Namen der alternativen Vorlage ein. Sie müssen den vom Zertifizierungsstellenadministrator angegebenen Vorlagennamen eingeben.
 
 
@@ -62,7 +62,7 @@ Verwenden Sie das folgende Verfahren, um die Standard Edition-Server- oder Front
 8.  Geben Sie auf der Seite **Namens- und Sicherheitseinstellungen** einen Wert für **Anzeigename** ein, anhand dessen das Zertifikat und sein Zweck bestimmt werden. Falls leer gelassen, wird ein Name automatisch generiert. Geben Sie in **Bitlänge** die Bitlänge des Schlüssels ein, oder übernehmen Sie den Standardwert von 2048 Bits. Durch Auswahl der Option **Privaten Schlüssel des Zertifikats als exportierbar markieren** können Sie bei Bedarf das Zertifikat und den privaten Schlüssel in andere Systeme verschieben oder kopieren. Klicken Sie anschließend auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Lync Server 2013 stellt minimale Anforderungen an einen exportierbaren privaten Schlüssel. Eine solche Stelle befindet sich auf den Edgeservern in einem Pool, in dem der Mediarelay-Authentifizierungsdienst Kopien des Zertifikats anstelle einzelner Zertifikate für jede Instanz im Pool verwendet.
 
 
@@ -88,7 +88,7 @@ Verwenden Sie das folgende Verfahren, um die Standard Edition-Server- oder Front
 18. Wählen Sie auf der Seite **Zertifikatspeicher** das von Ihnen angeforderte Zertifikat aus. Klicken Sie auf **Zertifikatdetails anzeigen** , wenn Sie das Zertifikat anzeigen möchten, und klicken Sie zum Fortfahren auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn auf der Seite <STRONG>Status der Onlinezertifikatsanforderung</STRONG> ein Problem mit dem Zertifikat gemeldet wird (wenn das Zertifikat beispielsweise als ungültig angezeigt wird), kann das Anzeigen des tatsächlichen Zertifikats bei der Lösung des Problems helfen. Zwei häufige Ursachen dafür, dass ein Zertifikat als ungültig angezeigt wird, sind das zuvor erwähnte fehlende Zertifikat der vertrauenswürdigen Stammzertifizierungsstelle und ein fehlender privater Schlüssel, der dem Zertifikat zugeordnet ist. Informationen zur Lösung dieser beiden Probleme finden Sie in der Dokumentation der Zertifizierungsstelle.
 
 

@@ -115,7 +115,7 @@ In der folgenden Tabelle ist aufgeführt, welche Kombinationen von Client- und S
 3Die Anwesenheits- und Chatfeatures in Office Communicator 2007 R2 sind mit Lync Server 2013 kompatibel, nicht jedoch die Konferenzfeatures. Während der Migration von Office Communications Server 2007 R2 eignet sich Office Communicator 2007 R2 für Anwesenheits- und Chatinteroperabilität, Benutzer sollten jedoch Lync Web App 2013 verwenden, um an Lync Server 2013-Besprechungen teilzunehmen.
 
 
-> [!TIP]
+> [!NOTE]
 > Nähere Informationen darüber, wie Lync Server 2013-Clients mit Clients aus älteren Versionen von Lync Server und Office Communications Server koexistieren und interagieren können, finden Sie unter <A href="lync-server-2013-client-interoperability-in-lync-2013.md">Clientinteroperabilität in Lync 2013</A> in der Planungsdokumentation.
 
 

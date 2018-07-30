@@ -20,7 +20,7 @@ Die Unterstützung von Szenarien mit Remoteanrufsteuerung in Lync Server 2013 er
 Durch die Integration von Nebenstellenanlagen und Lync Server 2013 können Benutzer, die für Remoteanrufsteuerung aktiviert sind, ihre Nebenstellentelefone über die Benutzeroberfläche von Lync 2013 auf die folgenden Weisen steuern:
 
 
-> [!TIP]
+> [!NOTE]
 > Welche Remoteanrufsteuerungsfunktionen für den Benutzern letztendlich verfügbar sind, hängt von den Funktionen der Nebenstellenanlage ab, die zum Hosten des Nebenstellentelefons eines Benutzers verwendet wird.
 
 
@@ -32,7 +32,7 @@ Durch die Integration von Nebenstellenanlagen und Lync Server 2013 können Benut
   - Beantworten eines eingehenden Anrufs mit einer Sofortnachricht
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dies ist möglich, wenn die Telefonnummer des Anrufers einer Sofortnachrichtenadresse in der globalen Adressliste Ihrer Organisation, in der Lync-Kontaktliste des Anrufempfängers oder in der Organisation eines Verbundpartners zugeordnet werden kann.
 
 

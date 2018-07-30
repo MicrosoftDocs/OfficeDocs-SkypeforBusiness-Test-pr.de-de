@@ -22,7 +22,7 @@ An der Microsoft Lync Server 2013-Überwachungsstruktur wurden wesentliche Ände
   - Weniger Komplexität beim Setup und der Verwaltung von Lync Server. Da die Überwachungsdienste auf jedem Front-End-Server automatisch gemeinsam ausgeführt werden, müssen Sie die Überwachungsserverrolle nicht mehr installieren, konfigurieren und verwalten.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Archivierungsserverrolle ist in Lync Server 2013 ebenfalls veraltet. Genau wie die Überwachungsdienste werden auch die Lync Server 2013-Archivierungsdienste jetzt auf jedem Front-End-Server gemeinsam ausgeführt. Dies sollte beachtet werden, da Überwachung und Archivierung oft auf derselben SQL Server-Datenbankinstanz ausgeführt werden.
 
 
@@ -36,7 +36,7 @@ Erwartungsgemäß haben diese Änderungen erhebliche Auswirkungen darauf, wie Ü
 Oft ist es zwar einfacher, die Überwachung gleichzeitig mit der Erstellung eines neuen Pool zu aktivieren, es ist jedoch auch möglich, bei deaktivierter Überwachung einen neuen Pool zu erstellen. In diesem Fall können Sie später den Topologie-Generator verwenden, um den Dienst zu aktivieren. Mithilfe des Topologie-Generators kann die Überwachung für einen Pool aktiviert bzw deaktiviert, oder ein Pool kann einem anderen Überwachungsspeicher zugeordnet werden. Beachten Sie, dass weiterhin mindestens ein Überwachungsspeicher erstellt werden muss, auch wenn keine Überwachungsserverrolle mehr vorhanden ist: Back-End-Datenbanken, die zum Speichern der vom Überwachungsdienst gesammelten Daten dienen. Diese Back-End-Datenbanken können mithilfe von Microsoft SQL Server 2008 R2 oder Microsoft SQL Server 2012 erstellt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn die Überwachung für einen Pool aktiviert wurde können Sie den Sammlungsprozess von Überwachungsdaten deaktivieren, ohne Ihre Topologie zu ändern, da Lync Server-Verwaltungsshell eine Möglichkeit bietet, die Aufzeichnung von Kommunikationsdatensätzen (KDS) und QoE-Daten zu deaktivieren (und später erneut zu aktivieren). Weitere Informationen finden Sie in diesem Dokument im Abschnitt "Konfigurieren von KDS (Aufzeichnung von Kommunikationsdatensätzen) und QoE (Quality of Experience)-Einstellungen".
 
 
@@ -44,7 +44,7 @@ Oft ist es zwar einfacher, die Überwachung gleichzeitig mit der Erstellung eine
 Eine weitere bedeutende Verbesserung der Überwachung in Lync Server 2013 besteht darin, dass Lync Server-Überwachungsberichte jetzt IPv6 unterstützen. In Berichten, die das Feld "IP-Adresse" verwenden, werden entweder IPv4- oder IPv6-Adressen angezeigt. Dies hängt von Folgendem ab: 1) von der verwendeten SQL-Abfrage und 2) ob die IPv6-Adresse in der Überwachungsdatenbank gespeichert ist.
 
 
-> [!TIP]
+> [!NOTE]
 > Vergewissern Sie sich, dass der Starttyp des SQL Server-Agent-Diensts „Automatisch“ ist und der SQL Server-Agent-Dienst für die SQL-Instanz mit den Überwachungsdatenbanken ausgeführt wird, damit die SQL Server-Wartungsaufträge für die Standardüberwachung plangemäß unter der Kontrolle des SQL Server-Agent-Diensts ausgeführt werden können.
 
 

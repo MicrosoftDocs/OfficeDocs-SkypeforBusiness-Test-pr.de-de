@@ -126,7 +126,7 @@ In Lync 2010 werden Benutzerfotos auf dem Server vom Adressbuchdienst verwaltet.
 Im Anwesenheitsstatus enthaltene Benutzerfotos verfügen außerdem über einen zugewiesenen Hashwert, den der Lync-Client verwendet, um zu bestimmen, ob ein neueres Bild vorhanden ist. Der Client wird automatisch über Änderungen an der im Anwesenheitsstatus verwendeten Bilddatei benachrichtigt.
 
 
-> [!TIP]
+> [!NOTE]
 > Da Fotos nicht in der GalContacts.db-Datenbank gespeichert werden, ist das Herunterladen von Benutzerfotos nicht von der Einstellung <STRONG>AddressBookAvailability</STRONG> in der Clientrichtlinie abhängig (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>).
 
 
@@ -202,7 +202,7 @@ Sie können die Clientrichtlinie zur Aktivierung der Einstellung **Bild von Weba
 Wenn ein Bild an das Postfach des Benutzers hochgeladen wird, erstellt Exchange automatisch eine Version mit niedrigerer Auflösung des Bilds, die in Clientanwendungen verwendet werden kann. Das Benutzerfoto wird außerdem in AD DS aktualisiert.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn eine Bilddatei in AD DS aktualisiert wird, wird ein 48 x 48 Pixel großes Bild erstellt und für "thumbnailPhoto" in AD DS verwendet. Jedes vorhandene Bild wird ersetzt. Wenn Sie also ein 96 x 96 Pixel großes Bild zu AD DS hinzugefügt haben, wird dieses mit dem neuen 48 x 48 Pixel großen Bild überschrieben. Das ist nur wichtig, wenn Sie Benutzer in Ihrer Umgebung haben, die Lync 2010-Clients verwenden, da diese Clients Benutzerfotos von AD DS erhalten. Sie können 96 x 96 Pixel große Bilder importieren, um die von AD DS erstellten Bilder zu ersetzen, wenn Lync 2010-Clients in Ihrer Organisation vorhanden sind.
 
 

@@ -36,7 +36,7 @@ Für die Installation der aktuellen Version von Server für beständigen Chat si
   - Ein Server (oder mehrere Server, wenn Spiegelung eingesetzt wird), der als Host für die SQL Server-Back-End-Datenbank dient, in der die Beständiger Chat-Inhaltsdatenbank für Chatroominhalte, Räume und Kategorien gespeichert wird.
     
 
-    > [!TIP]
+    > [!NOTE]
     > In der Back-End-Datenbank werden Chatverlaufsdaten gespeichert, die Informationen zu Kategorien und Beständiger Chat-Räumen enthalten, die erstellt werden.
 
 

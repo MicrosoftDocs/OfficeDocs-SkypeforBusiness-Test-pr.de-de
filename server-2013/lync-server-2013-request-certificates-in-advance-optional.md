@@ -22,7 +22,7 @@ Lync Server 2013-Setup umfasst den Zertifikat-Assistenten, der die Aufgaben zum 
 Diese Bereitstellungsdokumentation enthält Verfahren zur Verwendung des Zertifikat-Assistenten zum Anfordern von Zertifikaten im Rahmen des Setup-Prozesses. Beschreibungen hierzu finden Sie in den Abschnitten [Konfigurieren von Zertifikaten für Server in Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md), [Konfigurieren von Zertifikaten für den Director in Lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md) und [Installieren der Dateien für den Vermittlungsserver in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) in dieser Bereitstellungsdokumentation. Wenn Sie Zertifikate im Voraus anfordern, müssen Sie die Verfahren zur Zertifikatbereitstellung in den betreffenden Abschnitten entsprechend ändern, da die Zertifikate nicht zum Bereitstellungszeitpunkt angefordert, sondern importiert und zugewiesen werden müssen.
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 umfasst die Unterstützung für SHA-256-Zertifikate für Verbindungen von Clients, auf denen die Betriebssysteme Windows Vista, Windows Server&nbsp;2008, Windows Server&nbsp;2008&nbsp;R2 und Windows 7 sowie Lync Phone Edition ausgeführt werden. Damit der externe Zugriff über SHA-256 unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die SHA-256 verwendet.
 
 

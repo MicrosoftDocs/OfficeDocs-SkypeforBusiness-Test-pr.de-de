@@ -66,7 +66,7 @@ KDS-Konfigurationseinstellungen können Sie mit der Lync Server-Systemsteuerung 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die neuen Cmdlets New-CsCdrConfiguration und Set-CsCdrConfiguration enthalten zusätzliche Optionen, die in der Lync Server-Systemsteuerung nicht verfügbar sind. Weitere Informationen finden Sie in den Hilfethemen <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A>.
 
 

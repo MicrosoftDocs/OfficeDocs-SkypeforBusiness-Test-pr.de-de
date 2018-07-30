@@ -72,7 +72,7 @@ Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokum
       - **EnabledSharedAddressSpace** gibt an, ob der Hostinganbieter in einem Szenario mit freigegebenem SIP-Adressraum (getrennte Domäne) verwendet wird.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Bevor Sie <CODE>EnableSharedAddressSpace</CODE> auf „True“ festlegen, versuchen Sie, den Partnerverbund-SRV-Eintrag intern aufzulösen. Wenn dieser Eintrag intern aufgelöst werden kann, müssen Sie die Einträge _sipfederationtls._tcp.&lt;domain&gt; und _sip._tls.&lt;domain&gt; im internen DNS erstellen. Diese Einträge müssen auf die externe IP-Adresse der Zugriffsschnittstelle des Edgeservers verweisen.
 
     

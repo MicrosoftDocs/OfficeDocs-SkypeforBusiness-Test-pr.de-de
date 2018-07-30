@@ -246,7 +246,7 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 <p>Für diesen Konferenzen werden die folgenden weiteren Methoden für die Zusammenarbeit genutzt:</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Die Summe dieser Zahlen beträgt mehr als 100&nbsp;%, da in einer Konferenz mehrere Methoden zur Zusammenarbeit verwendet werden können.
 
 

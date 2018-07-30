@@ -32,7 +32,7 @@ Wenn Sie einen Benutzer in einen Lync Server 2013-Pool verschieben, werden die D
 
 
 
-> [!TIP]
+> [!NOTE]
 > Das Verwalten von Benutzern in Lync Server 2013 erfordert nicht, dass Sie gleichzeitig geupgradete Clients bereitstellen. Neue Funktionen stehen den Benutzern nur dann zur Verfügung, wenn sie ein Upgrade auf die neue Clientsoftware durchgeführt haben.
 
 

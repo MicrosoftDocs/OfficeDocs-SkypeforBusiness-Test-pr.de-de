@@ -26,7 +26,7 @@ Clientversionsrichtlinien dienen zum Festlegen der in Ihrer Umgebung unterstütz
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Registerkarte <STRONG>Clientversionsrichtlinie</STRONG> ist standardmäßig ausgewählt.
 
 
@@ -41,7 +41,7 @@ Clientversionsrichtlinien dienen zum Festlegen der in Ihrer Umgebung unterstütz
 
 ## Erstellen oder Ändern von Clientversionsrichtlinien mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Clientversionsrichtlinien mit dem Cmdlet **New-CsClientVersionPolicy** erstellen und sie dann mit dem Cmdlet **set-csclientversionpolicy** ändern. Diese Cmdlets können Sie entweder in der Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Sie können Clientversionsrichtlinien mit dem Cmdlet **New-CsClientVersionPolicy** erstellen und sie dann mit dem Cmdlet **Set-CsClientVersionPolicy** ändern. Diese Cmdlets können Sie entweder in der Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## So erstellen Sie eine neue Clientversionsrichtlinie mit Standortbereichszuweisung
 
@@ -55,5 +55,5 @@ Sie können Clientversionsrichtlinien mit dem Cmdlet **New-CsClientVersionPolicy
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Einzelheiten dazu finden Sie in den Hilfethemen zu den Cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) und [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+Einzelheiten dazu finden Sie in den Hilfethemen zu den Cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) und [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 

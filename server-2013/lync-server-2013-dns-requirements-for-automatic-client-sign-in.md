@@ -24,7 +24,7 @@ Zur Unterstützung der automatischen Clientanmeldung müssen Sie folgende Aufgab
   - Erstellen Sie einen internen DNS-SRV-Eintrag zur Unterstützung der automatischen Clientanmeldung für diesen Server oder Pool.
     
 
-    > [!TIP]
+    > [!NOTE]
     > In den folgenden Eintragsanforderungen bezieht sich die SIP-Domäne auf den Hostabschnitt der SIP-URIs, die Benutzern zugewiesen sind. Wenn die SIP-URIs beispielsweise das Format "*@contoso.com" aufweisen, bezeichnet "contoso.com" die SIP-Domäne. Die SIP-Domäne unterscheidet sich häufig von der internen Active Directory-Domäne. In einer Organisation können auch mehrere SIP-Domänen unterstützt werden.
 
 
@@ -68,7 +68,7 @@ Die folgende Tabelle enthält einige der erforderlichen Beispieleinträge für d
 
 
 
-> [!TIP]
+> [!NOTE]
 > In der Standardeinstellung müssen bei Abfragen für DNS-Einträge die Domänennamen im Benutzernamen und im SRV-Eintrag genau übereinstimmen. Wenn bei DNS-Abfragen des Clients stattdessen die Suffixe verglichen werden sollen, können Sie die Gruppenrichtlinie "DisableStrictDNSNaming" konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-clients-and-devices.md">Planen von Clients und Geräten in Lync Server 2013</A> in der Planungsdokumentation.
 
 

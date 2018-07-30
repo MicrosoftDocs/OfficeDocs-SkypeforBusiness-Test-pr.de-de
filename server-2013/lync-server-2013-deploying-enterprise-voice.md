@@ -28,7 +28,7 @@ Zum Bereitstellen der Enterprise-VoIP müssen Sie Folgendes ausführen:
 4.  Den Topologieentwurf gemäß den Anweisungen unter [Definieren und Konfigurieren der Topologie in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) in der Bereitstellungdokumentation im Topologie-Generator öffnen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Installation des Topologie-Generators ist Bestandteil des Bereitstellungsprozesses des internen Pools gehört. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-install-lync-server-administrative-tools.md">Installieren von Lync Server 2013-Verwaltungstools</A> in der Bereitstellungsdokumentation.
 
 

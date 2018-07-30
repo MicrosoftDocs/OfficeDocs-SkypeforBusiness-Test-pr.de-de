@@ -70,19 +70,19 @@ Ist eine Verbindung erfolgreich, gibt der AutoErmittlungsdienst alle Webdienste-
 Wenn die kumulativen Updates für Lync Server 2013: Februar 2013 installiert wurden, gibt er AutoErmittlungsdienst auch Verweise auf Intern/UCWA, Extern/UCWA und UCWA zurück. Diese Einträge verweisen auf die Unified Communications Web API (UCWA)-Webkomponente. Derzeit wird nur der Eintrag "UCWA" verwendet und bietet einen Verweis auf eine URL für die Webkomponente. UCWA wird von Lync 2013 Mobile-Clients anstatt des von den Lync 2010 Mobile-Clients verwendeten Mobilitätsdiensts (Mcx) verwendet.
 
 
-> [!TIP]
+> [!NOTE]
 > Beim Erstellen von SRV-Einträgen muss berücksichtigt werden, dass die Einträge auf einen DNS-A- oder DNS-AAAA-Eintrag (wenn Sie IPv6-Adressen nutzen) in derselben Domäne zeigen, in welcher der DNS-SRV-Eintrag erstellt wird. Wenn sich der SRV-Eintrag z.&nbsp;B. in der Domäne "contoso.com" befindet, kann sich der DNS-A- oder und DNS-AAAA-Eintrag (wenn Sie IPv6-Adressen nutzen), auf den er zeigt, nicht in der Domäne "fabrikam.com" befinden.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die Standardkonfiguration ermöglicht es, dass der Datenverkehr des mobilen Clients über die externe Website erfolgt. Sie können Einstellungen ändern, damit nur die interne URL zurückgegeben wird, wenn Sie dies bevorzugen. Bei dieser Konfiguration können Benutzer auf ihren mobilen Geräten mobile Lync-Anwendungen nur verwenden, wenn sie sich im Firmennetzwerk befinden. Zur Definition dieser Konfiguration müssen Sie das Cmdlet <STRONG>Set-CsMcxConfiguration</STRONG> ausführen.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Obwohl mobile Anwendungen auch eine Verbindung mit anderen Lync Server 2013-Diensten wie dem Adressbuchdienst herstellen können, werden interne Webanforderungen mobiler Anwendungen nur an den externen Web-FQDN für den Mobilitätsdienst geleitet. Für andere Dienstanforderungen, beispielsweise Adressbuchanforderungen, ist diese Konfiguration nicht erforderlich.
 
 
@@ -166,7 +166,7 @@ Wenn für Clients, auf denen Lync ausgeführt wird, die automatische Konfigurati
   - **Gruppenrichtlinienobjekte**   Verwenden Sie Gruppenrichtlinienobjekte zum Auffüllen der richtigen Serverwerte.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit dieser Option wird die automatische Konfiguration nicht aktiviert, der Prozess der manuellen Konfiguration wird jedoch automatisiert. Daher werden die SRV-Einträge für die automatische Konfiguration bei Verwendung dieses Ansatzes nicht benötigt.
 
 
@@ -194,7 +194,7 @@ Wenn für Clients, auf denen Lync ausgeführt wird, die automatische Konfigurati
         dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
 
 
-> [!TIP]
+> [!NOTE]
 > Der FQDN des Front-End-Pools wird zweimal aufgeführt, jedoch mit unterschiedlichen IP-Adressen. Der Grund dafür ist, dass ein DNS-Lastenausgleich verwendet wird. Bei Verwendung von Hardwarelastenausgleich wäre nur ein einzelner Front-End-Pool-Eintrag vorhanden. Zudem weisen die Beispiele "contoso.com" und "fabrikam.com" unterschiedliche FQDN-Werte des Front-End-Pools auf, die IP-Adressen sind jedoch gleich. Der Grund dafür ist, dass Benutzer, die sich über eine der SIP-Domänen anmelden, denselben Front-End-Pool für die automatische Konfiguration verwenden.
 
 
@@ -202,7 +202,7 @@ Wenn für Clients, auf denen Lync ausgeführt wird, die automatische Konfigurati
 Ausführliche Informationen finden Sie im DMTF-Blog-Artikel "Communicator Automatic Configuration and Split-Brain DNS" unter [http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707).
 
 
-> [!TIP]
+> [!NOTE]
 > Die Inhalte der Blogs und die zugehörige URL können ohne vorherige Ankündigung geändert werden.
 
 
@@ -327,7 +327,7 @@ Wenn z. B. drei Front-End-Server im Pool "pool01.contoso.com" vorhanden sind, w
   - Wenn der Client mit keinem der zwischengespeicherten Einträge eine Verbindung herstellen kann, wird der Benutzer darüber informiert, dass gegenwärtig keine Server mit Lync Server 2013 verfügbar sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Der DNS-basierte Lastenausgleich unterscheidet sich von DNS-Roundrobin (DNS RR). Dieser letztgenannte Mechanismus bezieht sich typischerweise auf einen Lastenausgleich, bei dem DNS zur Bereitstellung einer anderen Reihenfolge von IP-Adressen für die Server in einem Pool eingesetzt wird. Mit DNS RR ist typischerweise nur ein Lastenausgleich, jedoch kein Failover möglich. Wenn die Verbindung mit der IP-Adresse, die über die DNS-A- und DNS-AAAA-Abfrage (wenn Sie IPv6-Adressen nutzen) zurückgegeben wurde, nicht hergestellt werden kann, tritt für die Verbindungsherstellung ein Fehler auf. Daher ist DNS-Roundrobin allein weniger zuverlässig als der DNS-basierte Lastenausgleich. Sie können DNS-Roundrobin gemeinsam mit dem DNS-Lastenausgleich verwenden.
 
 

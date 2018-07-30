@@ -30,7 +30,7 @@ In den meisten Bereitstellungen von Microsoft Lync Server 2013 mit Anrufsteuerun
 4.  Klicken Sie auf der Seite **Subnetz** auf das Subnetz, das Sie löschen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können mehrere Subnetze in einem Arbeitsschritt löschen. Drücken Sie hierzu STRG, und wählen Sie bei gedrückter STRG-TASTE mehrere Subnetze aus. Wenn Sie alle Subnetze auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
 
 

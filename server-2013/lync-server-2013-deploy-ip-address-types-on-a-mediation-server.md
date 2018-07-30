@@ -30,7 +30,7 @@ Verwenden Sie den Topologie-Generator und führen Sie die Schritte des folgenden
       - **Alle konfigurierten IP-Adressen verwenden**. Wählen Sie diese Option, wenn Sie zulassen möchten, dass eine beliebige auf dem Computer festgelegte IP-Adresse verwendet wird.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Diese Option wird für IP Version 6-Konfigurationen (IPv6) empfohlen.
 
     
@@ -41,7 +41,7 @@ Verwenden Sie den Topologie-Generator und führen Sie die Schritte des folgenden
       - **PSTN-IP-Adresse**. Geben Sie eine PSTN-IP-Adresse an, wenn auf dem Front-End-Server ein Vermittlungsserver gemeinsam ausgeführt wird. Diese Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Die Installation zusätzlicher Netzwerkschnittstellenkarten (NICs) zur Unterstützung der IP-Adresskonfiguration des PSTN für Lync Server 2013 wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Lync Server 2013 finden Sie unter <A href="lync-server-2013-server-hardware-platforms.md">Serverhardwareplattformen für Lync Server&nbsp;2013</A>.
 
 

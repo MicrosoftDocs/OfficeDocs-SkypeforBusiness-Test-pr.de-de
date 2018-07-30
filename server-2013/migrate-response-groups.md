@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-09-23_
 Nachdem Ihre Benutzer in Lync Server 2013-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Dies beinhaltet das Kopieren von Agent-Gruppen, Warteschlangen, Workflows und Audiodateien sowie das Verschieben von Reaktionsgruppe-Kontaktobjekten aus der Bereitstellung der Vorversion in den Lync Server 2013-Pool. Nach der Migrierung Ihrer Reaktionsgruppen aus der Vorversion, werden Anrufe an den Reaktionsgruppen von der Reaktionsgruppenanwendung im Lync Server 2013-Pool abgewickelt. Der Vorversionspool wickelt keine Anrufe an Reaktionsgruppen mehr ab.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können Reaktionsgruppen zwar migrieren, bevor Sie alle Benutzer in den Lync Server 2013-Pool verschoben haben, es wird jedoch empfohlen, alle Benutzer zuerst zu verschieben. Insbesondere Benutzer, die Reaktionsgruppen-Agents sind, haben keine vollständige Funktionalität bei neuen Funktionen, bevor sie in den Lync Server 2013-Pool verschoben werden.
 
 
@@ -26,7 +26,7 @@ Nachdem Ihre Benutzer in Lync Server 2013-Pools verschoben wurden, können Sie I
 Bevor Sie Reaktionsgruppen verschieben, müssen Sie einen Lync Server 2013-Pool bereitstellen, der die Reaktionsgruppenanwendung beinhaltet. Die Reaktionsgruppenanwendung wird bei der Bereitstellung von Enterprise-VoIP standardmäßig installiert und aktiviert. Sie können sicherstellen, dass die Reaktionsgruppenanwendung installiert ist, indem Sie das **Get-CsService –ApplicationServer**-Cmdlet ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können neue Lync Server 2013-Reaktionsgruppen im Lync Server 2013-Pool erstellen, bevor Sie Ihre Reaktionsgruppen aus der Vorversion migrieren.
 
 

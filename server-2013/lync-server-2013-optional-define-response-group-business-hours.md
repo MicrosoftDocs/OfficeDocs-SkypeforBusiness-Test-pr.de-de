@@ -20,13 +20,13 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur Anrufbeantwortung zur Verfügung steht, und es werden die Aktionen angegeben, die für Anrufe außerhalb der Geschäftszeiten ausgeführt werden sollen. Reaktionsgruppenadministratoren können mit dem **New-CsRgsHoursOfBusiness**-Cmdlet vordefinierte Zeitpläne erstellen, die Sie für eine beliebige Anzahl von Reaktionsgruppen verwenden können.
 
 
-> [!TIP]
+> [!NOTE]
 > Beim Erstellen oder Ändern eines Workflows können Sie einen benutzerdefinierten Zeitplan angeben, der nur für diesen Workflow gilt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Erstellen oder Ändern eines Workflows für Sammelanschlüsse in Lync Server 2013</A> oder <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Erstellen oder Ändern eines interaktiven Workflows in Lync Server 2013</A>.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn ein Workflow als verwalteter Workflow definiert wird, kann jeder Benutzer, dem die Rolle CsResponseGroupManager zugewiesen ist, benutzerdefinierte Geschäftszeiten für die von ihnen verwalteten Workflows festlegen und ändern.
 
 
@@ -45,7 +45,7 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
 
 3.  Führen Sie für jeden einzelnen Stundenbereich, den Sie definieren möchten, folgenden Befehl aus:
     
-        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Führen Sie zum Erstellen der Geschäftszeitenauflistung, welche die definierten Bereiche verwendet, folgenden Befehl aus:
     
@@ -67,6 +67,6 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
 
 #### Weitere Ressourcen
 
-[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

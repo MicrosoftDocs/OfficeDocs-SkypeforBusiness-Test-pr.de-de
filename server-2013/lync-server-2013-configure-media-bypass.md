@@ -20,7 +20,7 @@ In diesem Abschnitt wird vorausgesetzt, dass Sie bereits mindestens einen Vermit
 Außerdem wird vorausgesetzt, dass Sie zumindest einen Gatewaypeer zur Bereitstellung von PSTN-Verbindungen wie in [Definieren eines Gateways im Topologie-Generator in Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md) beschrieben festgelegt haben. Wenn es sich bei dem Peer, mit dem Sie sich verbinden, um den SBC eines SIP-Trunkinganbieter handelt, sollten Sie sich vergewissern, dass dieser ein qualifizierter Anbieter ist und die Medienumgehung unterstützt. Viele SIP-Trunkinganbieter lassen für den SBC nur den Empfang von Datenverkehr vom Vermittlungsserver zu. In diesem Fall darf die Medienumgehung für den betreffenden Trunk nicht aktiviert werden. Darüber hinaus können Sie die Medienumgehung nur aktivieren, wenn Ihre Organisation dem SIP-Trunkinganbieter ihre internen Netzwerk-IP-Adressen offenlegt.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur für die Produkte und Versionen unterstützt, die auf der Webseite für das Unified Communications Open Interoperability Program \endash Lync Server unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268730">http://go.microsoft.com/fwlink/?linkid=268730</A> aufgelistet werden.
 
 

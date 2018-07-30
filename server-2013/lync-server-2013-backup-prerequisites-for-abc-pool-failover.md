@@ -30,7 +30,7 @@ Um alle Vorteile des ABC-Poolfailoververfahrens zu nutzen, müssen Sie vor dem A
     Die Reaktionsgruppenanwendung kann nur einen Satz von Einstellungen auf Anwendungsebene pro Pool speichern. Der Zugriff auf diese Einstellungen erfolgt über die **Get-CsRgsConfiguration**-Cmdlets. Die Einstellungen umfassen die Standardkonfiguration für Wartemusik, die Standardaudiodatei für Wartemusik, die Kulanzfrist für Agentrückrufe und die Anrufkontextkonfiguration. Diese Einstellungen können aus einem Pool in einen anderen übertragen werden, indem das Cmdlet **Import-CsRgsConfiguration** mit dem Parameter **ReplaceExistingSettings** ausgeführt wird. Dieser Vorgang setzt jedoch nur alle Einstellungen auf Anwendungsebene im Zielpool außer Kraft.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bewahren Sie an einem separaten Standort eine Sicherungskopie aller ursprünglichen Audiodateien auf, die zum Konfigurieren der Reaktionsgruppenanwendung verwendet wurden (d.&nbsp;h alle Aufnahmen oder Wartemusikdateien).
 
     
@@ -40,7 +40,7 @@ Um alle Vorteile des ABC-Poolfailoververfahrens zu nutzen, müssen Sie vor dem A
         Example: Xcopy  "<Pool A File Store Path>\LyncFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Destination:  Backup location 1>"
     
 
-    > [!TIP]
+    > [!NOTE]
     > In der Anwendung zum Parken von Anrufen kann nur ein Satz von Einstellungen und eine angepasste Wartemusik-Audiodatei pro Pool gespeichert werden. Der Zugriff auf diese Einstellungen erfolgt über das Cmdlet <STRONG>Get-CsCpsConfiguration</STRONG>. Da der Notfallwiederherstellungsmechanismus für das Parken von Anrufen auf der Anwendung zum Parken von Anrufen des Sicherungspools basiert, werden die Einstellungen des primären Pools bei einem Notfall nicht gesichert oder beibehalten. Bei einem Verlust des primären Pools können diese Einstellungen nicht wiederhergestellt werden. Wenn ein neuer Pool als Ersatz für den primären Pool bereitgestellt wird, müssen die Einstellungen für das Parken von Anrufen und angepasste Wartemusik-Audiodateien erneut konfiguriert werden.
 
 

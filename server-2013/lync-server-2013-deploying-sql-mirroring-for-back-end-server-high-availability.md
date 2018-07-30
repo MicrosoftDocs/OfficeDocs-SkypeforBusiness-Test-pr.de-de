@@ -61,7 +61,7 @@ Bei der SQL-Spiegelung können Sie die Topologie für die Spiegelung entweder be
 
 
 
-> [!TIP]
+> [!NOTE]
 > Sie müssen eine Dateifreigabe erstellen, an die die Spiegeldateien geschrieben werden, und der Dienst, unter dem SQL Server und SQL Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server-Dienst unter dem Netzwerkdienstkontext ausgeführt wird, können Sie &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ des Prinzipal- und des Spiegel-SQL-Servers zu den Freigabeberechtigungen hinzufügen. Das $-Zeichen ist wichtig, um anzugeben, dass es sich um ein Computerkonto handelt.
 
 

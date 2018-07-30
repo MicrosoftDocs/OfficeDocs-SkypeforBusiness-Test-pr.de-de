@@ -30,7 +30,7 @@ Erstellen Sie ein einzelnes öffentliches Zertifikat, stellen Sie sicher, dass e
 
 
 
-> [!TIP]
+> [!NOTE]
 > Das mit Lync Server 2013 eingeführte Bereitstellen von Audio/Video-Authentifizierungszertifikaten vor der Ablaufzeit des aktuellen Zertifikats erfordert einige zusätzliche Planungsschritte. Statt nur ein Zertifikat mit mehreren Zwecken für die externe Edgeschnittstelle brauchen Sie jetzt zwei Zertifikate: eines, das dem Zugriffs-Edgedienst und dem Webkonferenz-Edgedienst zugewiesen ist, und eines für den A/V-Edgedienst. Zusätzliche Informationen finden Sie unter <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate</A>
 
 

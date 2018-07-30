@@ -48,7 +48,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     ![Netzwerktopologiebeispiel mit drei Netzwerkregionen](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Netzwerktopologiebeispiel mit drei Netzwerkregionen")  
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Anrufsteuerung in einem MPLS-Netzwerk mit Lync Server 2013</A> in der Planungsdokumentation.
 
     
@@ -88,7 +88,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </table>
     
 
-    > [!TIP]
+    > [!NOTE]
     > In Abhängigkeit von Ihrer Lync Server-Topologie kann derselbe zentrale Standort mehreren Netzwerkregionen zugeordnet werden.
 
 
@@ -266,7 +266,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8&nbsp;Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:<BR><STRONG>Quelle :</STRONG> CS-Bandbreitenrichtliniendienst (Core)<BR><STRONG>Ereignisnummer :</STRONG> 36034<BR><STRONG>Ebene :</STRONG> 2<BR><STRONG>Beschreibung :</STRONG> Die Subnetze für die folgenden IP-Adressen: &lt;Liste der IP-Adressen&gt; ist entweder nicht konfiguriert, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Ursache :</STRONG> Die Subnetze für die zugehörigen IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Lösung :</STRONG> Fügen Sie gemäß der IP-Adressenliste den Netzwerkkonfigurationseinstellungen Subnetze hinzu, und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.<BR>Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet, oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen: 
     > <OL>
     > <LI>
@@ -432,7 +432,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 8.  Definieren einer Route zwischen jedem Netzwerkregionenpaar.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für die Route zwischen den Regionen "Nordamerika" und "APAC" sind zwei Verbindungen erforderlich, da keine Region vorhanden ist, die die Regionen direkt miteinander verbindet.
 
     
@@ -535,7 +535,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 Nachdem Sie die erforderlichen Informationen zusammengetragen haben, können Sie die Anrufsteuerung entweder mit der Lync Server-Verwaltungsshell oder der Lync Server-Systemsteuerung bereitstellen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenngleich Sie mit der Lync Server-Systemsteuerung die meisten Aufgaben in Bezug auf die Netzwerkkonfiguration ausführen können, müssen Sie zum Erstellen von Subnetzen und standortübergreifenden Verbindungen die Lync Server-Verwaltungsshell verwenden. Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für das Cmdlet <STRONG>New-CsNetworkSubnet</STRONG> und das Cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG>.
 
 

@@ -22,7 +22,7 @@ Zum Verwalten von Telefonen in öffentlichen Bereichen erstellen Sie Active Dire
 Die Themen in diesem Abschnitt veranschaulichen, wie Sie Kontaktobjekte für Telefone in öffentlichen Bereichen erstellen, ändern, löschen und konfigurieren können. Zudem erfahren Sie, wie Sie Konfigurationsinformationen zu den Telefonen in öffentlichen Bereichen in Ihrer Bereitstellung anzeigen können.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei Telefonen in öffentlichen Bereichen haben Sie die Wahl zwischen dem Aastra 6721ip (Telefon in öffentlichen Bereichen), dem IP-Telefon HP 4110 und dem IP-Telefon Polycom CX500 (Telefon in öffentlichen Bereichen). Das IP-Konferenztelefon Polycom CX3000 ist eine weitere Variante für ein Telefon in öffentlichen Bereichen. Es ist jedoch nur für die Verwendung in Konferenzräumen vorgesehen. Ausführliche Informationen zu den Telefonen in öffentlichen Bereichen finden Sie im Abschnitt "Telefone in öffentlichen Bereichen" im Thema <A href="http://technet.microsoft.com/de-de/library/gg398958(v=ocs.14).aspx">Auswählen neuer Geräte</A>.
 
 

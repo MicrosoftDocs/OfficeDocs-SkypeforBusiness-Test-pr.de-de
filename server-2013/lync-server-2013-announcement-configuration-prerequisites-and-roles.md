@@ -50,7 +50,7 @@ Für die Konfiguration der Ansageanwendung ist eine der folgenden Administratorr
   - **CsViewOnlyAdministrator**   Mit dieser Administratorrolle können Sie die Bereitstellung anzeigen, um die Integrität zu überwachen.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013</A> in der Planungsdokumentation.
 
 

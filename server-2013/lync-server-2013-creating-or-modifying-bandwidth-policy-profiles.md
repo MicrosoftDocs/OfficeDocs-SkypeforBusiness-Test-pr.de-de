@@ -42,7 +42,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 11. Klicken Sie auf **Commit**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Beim Erstellen eines neuen Bandbreitenrichtlinienprofils werden die Bandbreiteneinschränkungen nicht automatisch erzwungen. Sie müssen das Richtlinienprofil zunächst einem Standort zuordnen. Ausführliche Informationen zum Zuordnen eines Richtlinienprofils zu einem Standort finden Sie unter <A href="lync-server-2013-creating-or-modifying-network-sites.md">Erstellen oder Ändern von Netzwerkstandorten</A>.
 
 
@@ -64,7 +64,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 7.  Klicken Sie auf **Commit**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Beim Ändern des Bandbreitenrichtlinienprofils werden die Bandbreiteneinschränkungen aller Netzwerkstandorte, die diesem Bandbreitenrichtlinienprofil zugeordnet sind, umgehend aktualisiert.
 
 

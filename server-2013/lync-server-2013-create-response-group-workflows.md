@@ -20,7 +20,7 @@ Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur 
 Sie verwenden das Konfigurationstool für Reaktionsgruppen zum Erstellen von Workflows. Sie können auf das Konfigurationstool für Reaktionsgruppen über die Reaktionsgruppenseite der Lync Server-Systemsteuerung zugreifen.
 
 
-> [!TIP]
+> [!NOTE]
 > Vor dem Erstellen eines Workflows müssen Sie zuerst Agentgruppen und Warteschleifen erstellen, die vom Workflow verwendet werden sollen.
 
 

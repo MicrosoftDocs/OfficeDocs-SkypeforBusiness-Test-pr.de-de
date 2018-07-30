@@ -20,7 +20,7 @@ Videokonferenzen in der Galerieansicht werden in Lync Server 2013 in der Konfere
 Wenn das Video eines Konferenzteilnehmers nicht verfügbar ist, kann die Verwendung der Galerieansicht für den Benutzer durch das Bereitstellen hochauflösender Fotos verbessert werden. Dies ist eine neue Funktion in Lync Server 2013. Hochauflösende Fotos sind eine Alternative zu den kleineren Kontaktfotos mit begrenzter Auflösung, die in Active Directory-Domänendienste gespeichert werden. Hochauflösende Fotos werden im Exchange 2013-Postfach des Benutzers gespeichert. Aus diesem Grund ist die Integration von Lync Server 2013 in Exchange 2013 erforderlich. Nähere Informationen finden Sie im NextHop-Blog-Artikel "Integrating Exchange 2013 and Lync Server 2013" unter [http://go.microsoft.com/fwlink/?linkid=260987\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=260987%26clcid=0x407).
 
 
-> [!TIP]
+> [!NOTE]
 > Die Inhalte der Blogs und die zugehörige URL können ohne vorherige Ankündigung geändert werden.
 
 

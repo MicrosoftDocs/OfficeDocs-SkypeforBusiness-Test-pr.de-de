@@ -24,7 +24,7 @@ Alle Server, auf denen Lync Server ausgeführt wird, müssen bestimmte Mindestsy
 
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Unterstützung für Active Directory, unterstützten Topologien, dem Verbinden von Servern und anderen Unterstützungsproblemen finden Sie unter <A href="lync-server-2013-supportability.md">Unterstützung für Lync Server 2013</A>.
 
 

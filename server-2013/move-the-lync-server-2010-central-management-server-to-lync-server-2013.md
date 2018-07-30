@@ -50,7 +50,7 @@ Gehen Sie wie in diesem Abschnitt beschrieben vor, um die Lync Server 2013- Fron
 4.  Auf der Seite **Befehle ausführen** installieren Sie SQL Server Express als zentralen Verwaltungsserver. Die erforderlichen Firewallregeln werden erstellt. Klicken Sie auf **Fertig stellen** , wenn die Installation der Datenbank und der erforderlichen Software abgeschlossen ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Erstinstallation kann einige Zeit in Anspruch nehmen, und auf dem Zusammenfassungsbildschirm zur Befehlsausgabe werden keine Aktualisierungen angezeigt. Dies hängt mit der Installation der SQL Server Express zusammen. Sie können den Fortschritt der Datenbankinstallation im Task-Manager überwachen.
 
 
@@ -100,7 +100,7 @@ Gehen Sie wie in diesem Abschnitt beschrieben vor, um die Lync Server 2013- Fron
         Get-CsManagementStoreReplicationStatus
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei der Replikation kann es eine Weile dauern, bis alle aktuellen Replikate aktualisiert wurden.
 
 

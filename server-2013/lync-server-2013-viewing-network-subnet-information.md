@@ -28,7 +28,7 @@ Mit dem folgenden Verfahren können Sie ein Netzwerksubnetz anzeigen. In Lync Se
 4.  Klicken Sie auf der Seite **Subnetz** auf das Subnetz, das Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können nur jeweils ein Subnetz anzeigen.
 
 

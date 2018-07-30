@@ -24,7 +24,7 @@ Zum Definieren einer Standortrichtlinie für Subnetze müssen Sie folgende Aufga
 Ausführliche Informationen zu Netzwerkstandorten finden Sie unter [Lync Server-Standorte für Lync Server 2013](lync-server-2013-sites.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Netzwerkstandorte für eine weitere VoIP-Funktion erstellen und für dieselben Standorte die erweiterten Notrufdienste (E9-1-1) konfigurieren möchten, können Sie die vorhandenen Standorte zur Verwendung von E9-1-1 ändern.
 
 

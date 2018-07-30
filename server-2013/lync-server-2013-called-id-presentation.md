@@ -30,7 +30,7 @@ Mithilfe einer der beiden folgenden Methoden können Sie eine Übersetzungsregel
   - Schreiben Sie reguläre Ausdrücke manuell, um das Vergleichsmuster und die Übersetzungsregel zu definieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Verwendung von regulären Ausdrücken finden Sie in "Reguläre Ausdrücke von .NET Framework" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x407</A>.
 
 

@@ -20,7 +20,7 @@ Bei der QoE-Datenerfassung (Quality of Experience) werden numerische Daten aufge
 Verwenden Sie das folgende Verfahren, um QoE in der gesamten Organisation oder für jeden Standort in Ihrer Organisation zu aktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Zur Aktivierung von QoE müssen Sie zunächst die Überwachung und eine Monitoring-Back-End-Datenbank konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-monitoring.md">Bereitstellen des Monitoring Servers</A>.
 
 

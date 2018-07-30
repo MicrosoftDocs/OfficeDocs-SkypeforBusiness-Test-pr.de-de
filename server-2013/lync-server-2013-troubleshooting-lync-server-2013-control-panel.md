@@ -22,7 +22,7 @@ Dieses Thema enthält Informationen und Vorgehensweisen, die die Fehlerbehandlun
 Lync Server-Systemsteuerung erfordert die Installation von Microsoft Silverlight-Browser-Plug-In Version 4.0.50524.0 oder höher. Wenn Silverlight nicht installiert ist, oder eine niedrigere Version installiert ist, folgen Sie den Anweisungen in der Meldung, um die benötigte Version zu installieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Andere Softwareanforderungen für Lync Server-Systemsteuerung hängen vom Betriebssystem ab, unter dem Lync Server-Systemsteuerung und alle anderen Lync Server 2013-Verwaltungstools installiert werden können. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-server-and-tools-operating-system-support.md">Betriebssystemunterstützung für Server und Tools in Lync Server 2013</A> in der Unterstützungsdokumentation.
 
 
@@ -44,7 +44,7 @@ Wenn Sie eine einfache URL für den Zugriff auf die Lync Server-Systemsteuerung 
 Schrittanleitungen für die Konfiguration der URL für den Verwaltungszugriff finden Sie unter [Bearbeiten oder Konfigurieren einfacher URLs in Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) in der Bereitstellungsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Ist auf Ihrem Webserver mehr als ein Netzwerkadapter vorhanden, müssen Sie für jeden zusätzlichen Netzwerkadapter manuelle DNS-Konfigurationen vornehmen, damit DNS-Auflösung ordnungsgemäß funktioniert.
 
 

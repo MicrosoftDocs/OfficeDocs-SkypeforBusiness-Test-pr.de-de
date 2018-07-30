@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Die VoIPDetails-Ansicht speichert Informationen zu Peer-zu-Peer-Sitzungen, an denen mindestens ein VoIP-Benutzer teilnimmt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 
 
-> [!TIP]
+> [!NOTE]
 > Neben den unten aufgeführten Spalten enthält die VoIPDetails-Ansicht alle Spalten in der <A href="lync-server-2013-sessiondetails-view.md">SessionDetails-Ansicht</A>.
 
 

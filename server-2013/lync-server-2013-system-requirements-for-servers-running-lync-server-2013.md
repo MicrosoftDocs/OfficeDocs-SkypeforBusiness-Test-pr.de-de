@@ -16,7 +16,7 @@ ms.translationtype: HT
 _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu den Hardwareanforderungen finden Sie unter <A href="lync-server-2013-server-hardware-platforms.md">Serverhardwareplattformen für Lync Server&nbsp;2013</A>.
 
 
@@ -44,7 +44,7 @@ Für Standard Edition- und Enterprise Edition-Server können die folgenden Betri
 Installieren Sie die Betriebssystemsoftware auf dem Front-End-Server des Standard Edition- oder Enterprise Edition-Servers. Wenden Sie alle Updates in der vorgesehenen Reihenfolge an, um das Betriebssystem auf den neuesten Stand zu bringen und die Organisationsstandards in Bezug auf Updates zu erfüllen. Ausführliche Informationen zu den Betriebssystemanforderungen finden Sie in der Unterstützungsdokumentation unter [Betriebssystemunterstützung für Server und Tools in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Damit Lync Server 2013 unter Windows Server 2012 R2 funktionieren kann, müssen Sie ggf. den Wert eines Registrierungsschlüssels in Windows Server ändern. Diese Änderung ist ggf. notwendig, damit Zertifikate korrekt funktionieren und Clients sich bei Survivable Branch-Anwendungen registrieren können. Weitere Informationen finden Sie unter <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>.
 
 
@@ -64,7 +64,7 @@ Darüber hinaus sind die Windows PowerShell-Befehlszeilenschnittstelle 3.0 und M
 Für Lync Server 2013 muss auf jedem Computer, der Teil der Lync Server-Topologie ist, Windows PowerShell 3.0 installiert sein. Detaillierte Informationen zur Installation von Windows PowerShell 3.0 finden Sie unter [Installieren von Windows PowerShell 3.0 für Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Unter Windows Server&nbsp;2008&nbsp;R2 mit SP1 kann die Windows PowerShell-Befehlszeilenschnittstelle 3.0 nicht vor der Installation von Microsoft .NET Framework 4.5 installiert werden.
 
 

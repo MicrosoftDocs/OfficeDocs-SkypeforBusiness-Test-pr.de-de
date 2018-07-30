@@ -109,7 +109,7 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber ausreichend Server gestartet werden können, damit kein Quoromverlust auf Poolebene auftritt), können Sie das Cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** verwenden, damit der Pool aus diesem Quorumverlust auf Routinggruppenebene wiederhergestellt werden und Fortschritte machen kann. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
 
-> [!TIP]
+> [!NOTE]
 > Da Lync Server die primäre SQL-Datenbank als Zeuge verwendet, fällt der gesamte Pool aus, wenn Sie die primäre Datenbank herunterfahren, zur Spiegelkopie wechseln und ausreichend Front-End-Server herunterfahren, sodass nicht genügend gemäß der vorstehenden Tabelle aktiv sind. Weitere Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=393672">Datenbank-Spiegelungszeuge</A>.
 
 

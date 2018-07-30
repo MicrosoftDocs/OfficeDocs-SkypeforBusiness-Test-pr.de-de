@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
       - Klicken Sie auf eine der Einwahlnummern in der Liste, klicken Sie auf **Bearbeiten** und anschließend auf **Details anzeigen**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Die Suche nach den Inhalten einer Spalte in der Liste der Zugriffsnummern für die Einwahl über das Suchfeld führt möglicherweise nicht zu den erwarteten Ergebnissen. Sortieren Sie die Liste stattdessen nach der gewünschten Spalte, um nach der Zugriffsnummer für die Einwahl zu suchen, die Sie anzeigen oder ändern möchten.
 
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
 5.  Geben Sie im Feld **Anzeigenummer** die Telefonnummer ein, die PSTN-Telefonbenutzer (Public Switched Telephone Network, Telefonfestnetz) wählen, um an einer Konferenz teilzunehmen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Diese Nummer wird in Besprechungseinladungen und auf der Webseite mit den Einstellungen für die Einwahlkonferenz angezeigt.
 
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
 6.  Geben Sie in **Anzeigename** eine Beschreibung für die Zugriffsnummer für die Einwahl ein. Dieser Name wird der Zugriffsnummer für die Einwahl in den Lync-Suchergebnissen zugeordnet.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Name wird im Client angezeigt, wenn ein Benutzer die Einwahlnummer wählt.
 
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
 7.  Geben Sie im Feld **Anschluss-URI** die E.164-Nummer der Zugriffsnummer für die Einwahl im TEL-URI-Format ein, einschließlich des +-Symbols vor der Nummer und ohne Leerzeichen. Beispiel: tel:+14255550200.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Anschluss-URI kann nicht für eine andere Einwahlnummer für Einwahlkonferenzen verwendet werden.
 
 
@@ -72,7 +72,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
       - Geben Sie in das Textfeld einen eindeutigen SIP-URI für diese Zugriffsnummer für Einwahlkonferenzen ein. Dieser SIP-URI wird an verschiedenen Stellen angezeigt, z. B. in Anrufbenachrichtigungen sowie in früheren Versionen von Communicator-Clients.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Dieser SIP-URI kann nicht für eine andere Zugriffsnummer für Einwahlkonferenzen verwendet werden. Der SIP-URI kann nach der Erstellung der Zugriffsnummer nicht geändert werden. Die einzige Möglichkeit zum Ändern des SIP-URI besteht darin, die Zugriffsnummer zu löschen und neu zu erstellen.
 
     
@@ -81,7 +81,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
 9.  Klicken Sie unter **Pool** auf den Pool, der die Instanz der Konferenzzentrale ausführt, die diese Einwahlnummer unterstützt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der Pool nach dem Erstellen der Zugriffsnummer geändert werden muss, müssen Sie das Cmdlet <STRONG>Move-CsApplicationEndpoint</STRONG> verwenden oder die Zugriffsnummer löschen und neu erstellen.
 
 
@@ -89,7 +89,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
 10. Klicken Sie unter **Primäre Sprache** auf die Sprache, in der Ansagen für diese Einwahlnummer wiedergegeben werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei der primären Sprache handelt es sich um die Sprache, die die Konferenzzentrale zum Beantworten des Anrufs verwendet. Die unterstützten Sprachen werden auf der Webseite mit den Einstellungen für die Einwahlkonferenz neben den verschiedenen Zugriffsnummern angezeigt.
 
 
@@ -97,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um eine Einwahlnummer für Einwahlkonfer
 11. (Optional) Klicken Sie unter **Sekundäre Sprachen (maximal vier)** auf **Hinzufügen** , wählen Sie eine oder mehrere zusätzliche Sprachen aus, die für Anrufer dieser Zugriffsnummer für die Einwahl unterstützt werden sollen, und klicken Sie dann auf **OK** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können für jede Zugriffsnummer für die Einwahl bis zu vier sekundäre Sprachen auswählen. Benutzer können beim Einwählen in eine Konferenz eine sekundäre Sprache auswählen, bevor sie die Konferenz-ID eingeben.
 
 

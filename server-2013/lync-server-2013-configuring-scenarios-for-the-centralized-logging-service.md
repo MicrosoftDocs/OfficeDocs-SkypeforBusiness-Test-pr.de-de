@@ -76,7 +76,7 @@ Wie bereits einführend im Abschnitt [Übersicht über den zentralisierten Proto
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bekanntermaßen wird in der Windows PowerShell die Konvention für die Erstellung einer Hashtabelle unter Verwendung von <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> als <EM>Splatten</EM> bezeichnet. Ausführliche Informationen zum Splatten in Windows PowerShell erhalten Sie unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x407</A>.
 
 
@@ -134,7 +134,7 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Nachdem das Modul erfolgreich geladen wurde, gelangen Sie wieder zur Windows PowerShell-Eingabeaufforderung. Zur Bestätigung, dass das Modul geladen wurde und dass "Edit-CsClsScenario" verfügbar ist, geben Sie <CODE>Get-Help Edit-CsClsScenario</CODE> ein. Daraufhin sollte die grundlegende Kurzfassung der Syntax für EditCsClsScenario angezeigt werden.
 
 
@@ -144,7 +144,7 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
         Remove-Module ClsController
     
 
-    > [!TIP]
+    > [!NOTE]
     > Nachdem das Modul erfolgreich entladen wurde, gelangen Sie wieder zur Windows PowerShell-Eingabeaufforderung. Geben Sie <CODE>Get-Help Edit-CsClsScenario</CODE> ein, um zu bestätigen, dass das Modul entladen wurde. Windows PowerShell sucht daraufhin erfolglos die Hilfe für das Cmdlet.
 
 

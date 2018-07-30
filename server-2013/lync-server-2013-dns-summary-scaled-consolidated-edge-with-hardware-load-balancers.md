@@ -42,7 +42,7 @@ Sie können auf jedem Ihrer Edgeserver wie folgt zwei Netzwerkadapter konfigurie
     Diesem Netzwerkadapter wurden drei öffentliche IP-Adressen zugewiesen, zum Beispiel 131.107.155.10 für den Zugriffs-Edgedienst, 131.107.155.20 für den Webkonferenz-Edgedienst und 131.107.155.30 für den A/V-Edgedienst.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die IP-Adressen, die den tatsächlichen externen Netzwerkschnittstellen des Edgeservers zugewiesen werden, hängen u.&nbsp;U. davon ab, welches Hardwaregerät zum Lastenausgleich Sie wählen. Lesen Sie die Dokumentation für Ihr Hardwaregerät zum Lastenausgleich, um die tatsächlichen IP-Adressenanforderungen zu verstehen.<BR>Es ist möglich, jedoch nicht zu empfehlen, eine einzelne IP-Adresse für alle drei Edgedienst-Schnittstellen zu verwenden. Dadurch werden zwar IP-Adressen gespart, aber für jeden Dienst sind unterschiedliche Portnummern erforderlich. Die Standardportnummer ist 443/TCP, womit sichergestellt wird, dass die meisten Remotefirewalls den Datenverkehr zulassen. Wenn Sie die Portwerte z.&nbsp;B. in 5061/TCP für den Zugriffs-Edgedienst ändern, könnten 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den A/V-Edgedienst Probleme für Remotebenutzer verursachen, wenn deren Firewall den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Darüber hinaus wird durch drei eindeutige IP-Adressen die Problembehandlung vereinfacht, da nach der IP-Adresse gefiltert werden kann.
 
     
@@ -51,7 +51,7 @@ Sie können auf jedem Ihrer Edgeserver wie folgt zwei Netzwerkadapter konfigurie
     IP-Adressen für den Webkonferenz-Edgedienst und den A/V-Edgedienst sind als sekundär festgelegt.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Konfigurieren von zwei Netzwerkadaptern für den Edgeserver ist eine von zwei möglichen Optionen. Die andere Option besteht darin, einen einzigen Netzwerkadapter für die interne Schnittstelle und drei Netzwerkadapter für die externe Schnittstelle des Edgeservers zu verwenden. Der wichtigste Vorteil dieser Option ist ein separater Netzwerkadapter pro Edgeserverdienst und eine möglicherweise präzisere Datenerfassung, falls eine Problembehandlung erforderlich ist.
 
 

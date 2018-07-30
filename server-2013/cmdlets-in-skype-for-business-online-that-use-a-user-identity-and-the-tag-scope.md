@@ -26,7 +26,7 @@ Bei der Zuordnung von Richtlinien zu Benutzern sind zwei Aspekte zu beachten. Zu
 Dieser Befehl schlägt fehl, weil es keine Notwendigkeit gibt, eine globale Richtlinie zuzuordnen. Wenn Sie einen Benutzer mithilfe einer globalen Richtlinie verwalten möchten, stellen Sie einfach sicher, dass Sie diesem Benutzer keine benutzerbasierte Richtlinie zuordnen. Wenn dem Benutzer keine benutzerbasierte Richtlinie zugeordnet wurde, wird der Benutzer automatisch mit der globalen Richtlinie verwaltet.
 
 
-> [!TIP]
+> [!NOTE]
 > Wie müssen Sie jedoch vorgehen, wenn dem Benutzer früher eine benutzerbasierte Richtlinie zugeordnet wurde und Sie die Zuordnung der Richtlinie nun aufheben möchten, damit der Benutzer nun mit der globalen Richtlinie verwaltet wird? In dem Fall verwenden Sie zuerst die folgende Syntax, mit der die Zuordnung der benutzerbasierten Richtlinie aufgehoben wird, indem dem Benutzer eine Null-Richtlinie zugeordnet wird:<BR>Grant-CsVoicePolicy –Identity "Ken Myer" –PolicyName $Null
 
 

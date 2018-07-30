@@ -20,7 +20,7 @@ Die AutoErmittlung und die Unterstützung von Clients, die die AutoErmittlung ve
 Wenn Sie sich bei den ersten Lync Server 2013-AutoErmittlungsanfragen für die Verwendung von HTTPS entscheiden und die Listen der alternativen Antragstellernamen in den Reverseproxyzertifikaten aktualisieren, müssen Sie das aktualisierte öffentliche Zertifikat dem SSL-Listener (Secure Sockets Layer) auf dem Reverseproxy zuweisen. Nach der erforderlichen Aktualisierung des externen (öffentlichen) Zertifikats ist der Eintrag des alternativen Antragstellernamens (Subject Alternate Name, SAN) für "lyncdiscover.\<domain name\>" enthalten. Anschließend müssen Sie den vorhandenen Listener für die externen Webdienste ändern oder eine neue Webveröffentlichungsregel für externe AutoErmittlungsdienst-URL erstellen, z. B. **lyncdiscover.contoso.com**. Wenn noch keine Webveröffentlichungsregel für die externe Lync Server 2013-Webdienste-URL für Ihren Front-End-Pool und Directorpool (bei einer Bereitstellung von Directors) vorhanden ist, müssen Sie auch dafür eine Regel veröffentlichen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Veröffentlichungsregel und der Listener für Reverseproxys können sowohl für die externen Webdienste als auch für den AutoErmittlungsdienst gelten, solange das dem Listener zugewiesene Zertifikat jeweils den erforderlichen Antragstellernamen und den alternativen Antragstellernamen für beides enthält. Ausführliche Informationen zur Standardkonfiguration des Weblisteners und die Veröffentlichungsregel finden Sie unter <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Einrichten von Reverseproxyservern für Lync Server 2013</A>.
 
 
@@ -30,7 +30,7 @@ Wenn Sie HTTP für die anfänglichen AutoErmittlungsdienst-Anforderungen verwend
 Die Vorgehensweisen in diesem Abschnitt beschreiben, wie die neuen Webveröffentlichungsregeln in Microsoft Forefront Threat Management Gateway 2010 für die automatische Ermittlung erstellt oder bearbeitet werden können.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei diesen Vorgehensweisen wird vorausgesetzt, dass die Standard Edition von Forefront Threat Management Gateway (TMG) 2010 installiert ist. Wenn Sie einen anderen Reverseproxy verwenden, sind die Vorgänge ähnlich, müssen jedoch der Dokumentation für das Drittanbieterprodukt zugeordnet werden.
 
 

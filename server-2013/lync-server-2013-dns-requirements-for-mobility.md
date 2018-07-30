@@ -107,7 +107,7 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 
 
 
-> [!TIP]
+> [!NOTE]
 > Der Datenverkehr von Lyncdiscover, auch als AutoErmittlung bekannt, wird über den Reverseproxy geleitet. Der SRV-Eintrag zeigt auf einen Eintrag, der über den Zugriffs-Edgedienst aufgelöst wird.
 
 

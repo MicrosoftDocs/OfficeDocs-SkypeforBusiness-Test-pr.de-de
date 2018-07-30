@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Sie sollten Ihr Betriebssystem und Ihre Anwendungen gemäß den bewährten Methoden für die jeweilige Komponente sichern und schützen. In diesem Abschnitt wird beschrieben, wie Sie Anwendungsserver sichern und schützen und mithilfe von Gruppenrichtlinien Sicherheitssperren implementieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können auch die Datenbanken sichern und schützen, die für Ihre Microsoft Lync Server 2013-Bereitstellung verwendet werden. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-hardening-and-protecting-databases.md">Sichern und Schützen der Datenbanken von Lync Server 2013</A>.
 
 

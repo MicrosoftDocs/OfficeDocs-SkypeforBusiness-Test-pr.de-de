@@ -58,7 +58,7 @@ Beim Planen Ihrer Lync Server 2013-Bereitstellung ordnen Sie den Reverseproxyfea
       - Der Office Web Apps-Server wird bei Konferenzen als Teil der Lync Server-Topologie definiert und konfiguriert.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Der Office Web Apps-Server ist ein separater Rollenserver und wird nicht als Teil der externen Webdienste konfiguriert. Dieser Server wird für den Clientzugriff separat veröffentlicht.
 
 

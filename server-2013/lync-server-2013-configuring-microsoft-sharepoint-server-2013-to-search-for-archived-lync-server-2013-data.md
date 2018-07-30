@@ -45,7 +45,7 @@ Nachdem Exchange Web Services installiert wurde, müssen Sie die Server-zu-Serve
     $service.Update()
 
 
-> [!TIP]
+> [!NOTE]
 > Achten Sie darauf, den URI für Ihren AutoErmittlungsdienst zu verwenden. Verwenden Sie nicht die Beispiels-URI "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1".
 
 
@@ -77,7 +77,7 @@ Nachdem die Server-zu-Server-Authentifizierung zwischen Exchange und SharePoint 
     New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 
 
-> [!TIP]
+> [!NOTE]
 > "eDiscovery" steht für "electronic Discovery" (elektronische Ermittlung) und bezeichnet in der Regel das Durchsuchen von elektronischen Archiven nach Elementen, die in einem Gerichtsverfahren als Beweismittel zulässig sind.
 
 

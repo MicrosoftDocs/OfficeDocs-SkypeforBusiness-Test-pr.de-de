@@ -32,7 +32,7 @@ Sie können Ortungsrichtlinien in der Systemsteuerung für Lync Server 2013 in d
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können jeweils nur Informationen zu einer Ortungsrichtlinie anzeigen.
 
 

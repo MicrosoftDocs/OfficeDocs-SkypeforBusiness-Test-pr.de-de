@@ -30,7 +30,7 @@ Lync Server 2013 unterstützt die folgenden Versionen:
 Sie können Exchange UM mit Lync Server 2013 oder einer Lync Server 2013-Datenbank verbinden. Sie können Exchange UM und Lync Server 2013 in separaten Gesamtstrukturen installieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei Enterprise-VoIP-Bereitstellungen mit Integration einer Nebenstellenanlage ist Exchange UM möglicherweise nicht erforderlich, da Voicemail und die dazugehörigen Dienste den Benutzern ggf. über die Nebenstellenanlage bereitgestellt werden können. Wenn Sie die Nebenstellenanlage zu einem späteren Zeitpunkt aufgeben (z.&nbsp;B. bei der Bereitstellung von SIP-Trunking für PSTN-Festnetzkonnektivität), müssen Sie Exchange UM neu konfigurieren, um Benutzern, die bisher das Voicemailsystem der Nebenstellenanlage genutzt haben, Voicemailfunktionen zu bieten.
 
 

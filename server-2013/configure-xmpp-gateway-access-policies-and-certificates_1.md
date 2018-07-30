@@ -24,7 +24,7 @@ Ein XMPP-Partnerverbund definiert eine externe Bereitstellung auf der Basis des 
 Wenn Sie Richtlinien zur Unterstützung von XMPP-Verbundpartnern konfigurieren, gelten die Richtlinien für Benutzer von XMPP-Partnerdomänen, jedoch nicht für Benutzer von SIP-Chatdienstanbietern (z. B. Windows Live) oder SIP-Partnerdomänen. Sie konfigurieren einen XMPP-Verbundpartner für jede XMPP-Partnerdomäne, zu der die Benutzer Kontakte hinzufügen und mit der sie kommunizieren dürfen sollen. Sobald die Richtlinien eingerichtet sind, müssen Sie die XMPP-Gatewayzertifikate konfigurieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Um mit der Migration von XMPP-Gateways beginnen zu können, müssen Sie das Lync Server 2013-XMPP-Gateway bereitstellen und Zugriffsrichtlinien konfigurieren, um Benutzer für das Lync Server 2013-XMPP-Gateway zu aktivieren. Alle Benutzer müssen in die Lync Server 2013-Bereitstellung verschoben werden, bevor Sie diese Schritte durchführen. Ausführliche Informationen finden Sie unter <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">Konfigurieren eines XMPP-Gateways in Lync Server 2013</A>.
 
 

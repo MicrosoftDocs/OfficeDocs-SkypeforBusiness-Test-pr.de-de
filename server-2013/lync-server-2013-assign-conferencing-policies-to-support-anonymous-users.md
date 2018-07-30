@@ -20,7 +20,7 @@ Standardmäßig werden alle Benutzer daran gehindert, anonyme Benutzer zur Teiln
 Verwenden Sie das Verfahren in diesem Abschnitt, um eine bereits erstellte Konferenzrichtlinie auf einen oder mehrere Benutzer oder Benutzergruppen anzuwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Neben der Konfiguration und Anwendung einer Richtlinie müssen Sie außerdem die Unterstützung für anonyme Benutzer für Ihre Organisation aktivieren, um Benutzern das Einladen anonymer Benutzer zu ermöglichen. Ausführliche Informationen hierzu finden Sie unter <A href="lync-server-2013-configure-policies-to-control-public-user-access.md">Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs in Lync Server 2013</A>.
 
 
@@ -48,7 +48,7 @@ Verwenden Sie das Verfahren in diesem Abschnitt, um eine bereits erstellte Konfe
 8.  Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **Konferenzrichtlinie** die Benutzerrichtlinie mit der Konfiguration für den anonymen Benutzerzugriff aus, die Sie auf diesen Benutzer anwenden möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Einstellungen <STRONG>&lt;Automatisch&gt;</STRONG> wenden die Einstellungen der Standardserverinstallation an und werden vom Server automatisch zugewiesen.
 
 

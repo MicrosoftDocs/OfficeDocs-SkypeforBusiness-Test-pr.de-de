@@ -50,7 +50,7 @@ Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in 
       - **RegistrarPool** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools, in dem der Registrierungsdienst ausgeführt wird.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Exchange UM-Kontaktobjekte können nicht in Pools verschoben werden, die Bestandteile von Lync Server 2013-Bereitstellungen vor Lync Server 2013 sind.
 
     

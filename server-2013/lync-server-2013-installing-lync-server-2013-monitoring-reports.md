@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Microsoft Lync Server 2013-Überwachungsberichte bieten Ihnen umfassende Informationen zur Qualität und Quantität der Kommunikationssitzungen, die in Ihrer Organisation stattfinden. Die Überwachungsberichte werden jedoch nicht automatisch installiert, wenn Sie Lync Server 2013 installieren. Sie müssen die Überwachungsberichte separat installieren, nachdem Lync Server auf dem Computer installiert wurde.
 
 
-> [!TIP]
+> [!NOTE]
 > Es empfiehlt sich, die Überwachungsberichte auf demselben Computer zu intstallieren, auf dem auch die Überwachungsdatenbank installiert ist. Somit wird die Zuweisung von Zugriffsberechtigungen für die Berichte vereinfacht: wenn die Überwachungsberichte auf dem Computer installiert sind, der auch als Host für den Überwachungsspeicher fungiert, müssen Sie keine Berechtigungen zuweisen, die einer Datenbank auf dem Computer gestatten, mit Reporting Services zu interagieren, wenn diese auf einem zweiten Computer ausgeführt werden.
 
 
@@ -34,7 +34,7 @@ Lync Server Die Überwachungsberichte umfassen 30 Berichte, die detaillierte Inf
 Weitere Informationen erhalten Sie in der Dokumentation zu den Überwachungsberichten.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013 gibt es einen weiteren neuen Bericht, den QoE Call Detail Subreport- Dieser Bericht dient jedoch in erster Linie internen Zwecken und soll nicht direkt aufgerufen werden.
 
 

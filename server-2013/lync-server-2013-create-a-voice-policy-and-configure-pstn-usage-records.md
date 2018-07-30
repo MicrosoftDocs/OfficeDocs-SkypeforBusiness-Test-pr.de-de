@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstellen. Wenn Sie eine VoIP-Richtlinie bearbeiten möchten, finden Sie weitere Informationen unter [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag zugeordnet sein. Informationen zum Anzeigen einer Liste aller in Ihrer Enterprise-VoIP-Bereitstellung verfügbaren PSTN-Verwendungseinträge und deren Eigenschaften finden Sie unter <A href="lync-server-2013-view-pstn-usage-records.md">Anzeigen von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.
 
 
@@ -40,7 +40,7 @@ Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstelle
 5.  Wenn Sie eine VoIP-Richtlinie auf Benutzerebene erstellen, geben Sie im Feld **Name** einen beschreibenden Namen für die Richtlinie ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei Erstellung einer VoIP-Richtlinie auf Standortebene wird das Feld <STRONG>Name</STRONG> unter <STRONG>Neue VoIP-Richtlinie</STRONG> mit dem Standortnamen vorausgefüllt und kann nicht geändert werden.
 
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstelle
       - **Voicemail-Escape** verhindert, dass Anrufe sofort an das Voicemail-System des Mobiltelefons des Benutzers weitergeleitet werden, wenn das gleichzeitige Klingeln konfiguriert ist und das Handy ausgeschaltet, entladen oder ohne Netz ist.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Dieses Feature kann nur über die Lync Server-Verwaltungsshell konfiguriert werden.
 
     
@@ -73,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstelle
       - **Außerkraftsetzung der Bandbreitenrichtlinie** ermöglicht es Administratoren, Richtlinienentscheidungen im Rahmen der Anrufsteuerung für einen bestimmten Benutzer außer Kraft zu setzen. Diese Option ist standardmäßig deaktiviert.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Die Richtlinie wird nur für eingehende Anrufe an den Benutzer, nicht jedoch für ausgehende Anrufe außer Kraft gesetzt, die vom Benutzer getätigt werden. Nachdem die Sitzung hergestellt wurde, wird die Bandbreitenauslastung genau aufgezeichnet. Diese Einstellung sollte sparsam verwendet und für angemessene Entscheidungen der Anrufsteuerung reserviert werden.
 
     
@@ -92,7 +92,7 @@ Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstelle
         2.  Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. Sie könnten beispielsweise einen PSTN-Verwendungseintrag namens **Redmond** für Vollzeitbeschäftigte in Redmond und einen weiteren Eintrag namens **RedmondTemps** für Mitarbeiter mit Zeitverträgen erstellen.
             
 
-            > [!TIP]
+            > [!NOTE]
             > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld <STRONG>Name</STRONG> nicht mehr bearbeitet werden.
 
         
@@ -151,7 +151,7 @@ Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstelle
             2.  Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein.
                 
 
-                > [!TIP]
+                > [!NOTE]
                 > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld <STRONG>Name</STRONG> nicht mehr bearbeitet werden.
 
             
@@ -186,7 +186,7 @@ Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstelle
 11. (Optional) Geben Sie eine Nummer zum Testen der VoIP-Richtlinie ein, und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Übersetzte Nummer für Test** angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine VoIP-Richtlinie speichern, die den Test nicht bestanden hat, und sie später neu konfigurieren. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen des VoIP-Routings in Lync Server 2013</A>.
 
 
@@ -196,7 +196,7 @@ Führen Sie die folgenden Schritte aus, um eine neue VoIP-Richtlinie zu erstelle
 13. Klicken Sie auf der Seite **VoIP-Richtlinie** auf **Commit ausführen**, und klicken Sie anschließend auf **Commit für alle Elemente ausfhren**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit für alle Elemente ausführen</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

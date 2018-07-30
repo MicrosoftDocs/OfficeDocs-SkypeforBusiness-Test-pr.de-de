@@ -18,13 +18,13 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Wenn ein Anrufer eine Reaktionsgruppe anruft, wird der Anruf basierend auf einem Sammelanschluss oder den interaktiven Sprachantworten des Anrufers an einen Agent weitergeleitet. Die Reaktionsgruppenanwendung verwendet standardmäßige Reaktionsgruppenroutingmethoden, um den Anruf an den nächsten verfügbaren Agent weiterzuleiten. Die Methoden zur Anrufweiterleitung umfassen serielles, Longest-Idle-, paralleles, Roundrobin- sowie das neue Routing über die Telefonzentrale (hier werden bei einem eingehenden Anruf alle Agents gleichzeitig angerufen) unabhängig von ihrem aktuellen Anwesenheitsstatus. Wenn keine Agents verfügbar sind, wird der Anruf in einer Warteschleife platziert, bis ein Agent verfügbar ist. Wenn sich ein Anrufer in der Warteschleife befindet, wird Musik wiedergegeben, bis ein verfügbarer Agent den Anruf entgegennimmt. Ist die Warteschleife belegt oder wenn für einen Anruf ein Timeout auftritt, während er sich in der Warteschleife befindet, kann für den Anrufer eine Nachricht wiedergegeben werden, und anschließend wird der Anrufer entweder getrennt oder an ein anderes Ziel übergeben. Wenn ein Agent den Anruf entgegennimmt, kann dem Anrufer abhängig davon, wie der Administrator die Reaktionsgruppe konfiguriert, die Identität des Agents angezeigt werden. Bei Agents kann es sich um formelle Agents handeln, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe an die Gruppe entgegennehmen können, oder um informelle Agents, die sich nicht bei der Gruppe an- und abmelden müssen, um Anrufe zu beantworten.
 
 
-> [!TIP]
+> [!NOTE]
 > Nur lokale Benutzer können Agents sein. Wenn ein Agent von der lokalen Verwendung zur Onlinebereitstellung wechselt, werden die Anrufe der Reaktionsgruppe nicht mehr an diesen Agent weitergeleitet.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die Reaktionsgruppenanwendung verwendet einen internen Dienst, den Matchmakingdienst, um Anrufe in der Warteschleife zu platzieren und verfügbare Agents zu ermitteln. Jeder Computer, auf dem die Reaktionsgruppenanwendung ausgeführt wird, führt den Matchmakingdienst aus. Pro Lync Server-Pool ist jedoch jeweils nur ein Matchmakingdienst aktiv, die anderen Dienste sind passiv. Wenn der aktive Matchmakingdienst aufgrund eines ungeplanten Ausfalls nicht mehr verfügbar ist, wird einer der passiven Matchmakingdienste aktiv. Die Reaktionsgruppenanwendung versucht, Unterbrechungen beim Anrufrouting und Queuing zu vermeiden. Beim Wechsel des aktiven Matchmakingdiensts gehen Anrufe, die zum Zeitpunkt des Wechsels übergeben werden, jedoch verloren. Wenn der Wechsel z.&nbsp;B. durch den Ausfall des Front-End-Servers bedingt wird, gehen zusätzlich alle vom aktiven Matchmakingdienst auf diesem Front-End-Server verarbeiteten Anrufe verloren.
 
 
@@ -117,7 +117,7 @@ Reaktionsgruppenmanager können die folgenden Tools verwenden, um die ihnen zuge
   - Lync Server-Systemsteuerung
     
 
-    > [!TIP]
+    > [!NOTE]
     > Reaktionsgruppenmanager können nur Reaktionsgruppeneinstellungen mit diesem Tool verwalten. Andere Lync Server-Einstellungen sind für die Manager nicht verfügbar.
 
 

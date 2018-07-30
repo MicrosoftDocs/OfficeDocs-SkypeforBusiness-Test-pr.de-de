@@ -16,7 +16,7 @@ ms.translationtype: HT
 _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie die Medienumgehung bereits für Trunkverbindungen zwischen dem Vermittlungsserver und einem Peer (PSTN)-Gateway, einer IP-Nebenstellenanlage oder dem Session Border Controller (SBC) eines Anbieters von Internettelefoniediensten (ITSP) für einen bestimmten Standort oder Dienst konfiguriert haben, für den die Medienverarbeitung durch den Vermittlungsserver umgangen werden soll.<BR>In diesem Thema wird außerdem angenommen, dass Sie alle zentralen Standorte und Zweigstellenstandorte im Topologie-Generator so konfiguriert haben, dass sie der Konfiguration für Netzwerkregion, Netzwerkstandort und Subnetz entsprechen, die Sie gemäß den Schritten in <A href="lync-server-2013-create-or-modify-a-network-region.md">Erstellen oder Ändern einer Netzwerkregion in Lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013</A> und <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013</A> durchgeführt haben. Falls die Konfigurationen nicht übereinstimmen, ist die Medienumgehung nicht erfolgreich.
 
 
@@ -28,7 +28,7 @@ Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, 
   - Die Anrufsteuerung (Call Admission Control, CAC) zur Bandbreitenverwaltung ist aktiviert.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zu den Überlegungen im Hinblick auf Anrufsteuerung und Medienumgehung finden Sie im Abschnitt zur Anrufsteuerung von PSTN-Verbindungen unter <A href="lync-server-2013-media-bypass-and-mediation-server.md">Medienumgehung und Vermittlungsserver in Lync Server 2013</A> in der Planungsdokumentation.
 
 
@@ -54,7 +54,7 @@ Zur ordnungsgemäßen Funktion der Medienumgehung muss die Definition eines Stan
 6.  Falls erforderlich, aktivieren Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte aktivieren**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Aktivieren Sie dieses Kontrollkästchen nur dann, wenn Sie über einen oder mehrere große Standorte ohne Bandbreiteneinschränkungen verfügen (z.&nbsp;B. ein großer Hauptstandort), die einer bestimmten Region zugeordnet sind, und Sie außerdem über einige Zweigstellen mit Bandbreiteneinschränkungen verfügen, die derselben Region zugeordnet sind. Wenn Sie die Umgehung für nicht zugeordnete Standorte aktivieren, wird die Konfiguration optimiert, da Sie nur die den Zweigstandorten zugeordneten Subnetze angeben, statt sämtliche, allen Standorten zugeordnete Subnetze angeben zu müssen. Es wird empfohlen, dieses Kontrollkästchen nicht zu aktivieren, wenn die Anrufsteuerung aktiviert wurde.
 
 

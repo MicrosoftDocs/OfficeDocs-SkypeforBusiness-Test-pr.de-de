@@ -32,7 +32,7 @@ Stellen Sie sicher, dass Ihre Umgebung für die Enterprise-VoIP-Bereitstellung m
       - **CsAdministrator:** Diese Administratorrolle kann sämtliche Aufgaben ausführen, die mit "CsVoiceAdministrator" und "CsUserAdministrator" ausgeführt werden können.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Delegierung ermöglicht es, dass mehrere Administratoren an Ihrer Lync Server-Bereitstellung arbeiten, ohne dass unnötig Zugriff auf Ressourcen gewährt wird.
 
 
@@ -40,7 +40,7 @@ Stellen Sie sicher, dass Ihre Umgebung für die Enterprise-VoIP-Bereitstellung m
   - Es wurde mithilfe einer Zertifizierungsstelleninfrastruktur von Microsoft oder einem Drittanbieter eine Managed Key-Infrastruktur (MKI) bereitgestellt und konfiguriert.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zu Zertifikatanforderungen in Lync Server finden Sie in der Planungsdokumentation unter <A href="lync-server-2013-certificate-infrastructure-requirements.md">Anforderungen in Bezug auf die Zertifikatinfrastruktur für Lync Server 2013</A> .
 
 
@@ -52,7 +52,7 @@ Wenn Sie den Vermittlungsserver bei der Front-End-Bereitstellung gemeinsam mit j
 Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll. Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen. Vor der Implementierung müssen alle primären Rufnummern normalisiert (richtig formatiert) und unter Verwendung der Lync Server-Systemsteuerung in die Eigenschaft **Anschluss-URI** für jeden Benutzer kopiert werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Beispiele für primäre Rufnummern, die für eine Enterprise-VoIP-Bereitstellung erforderlich sind, finden Sie im Abschnitt <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln in Lync Server 2013</A> von <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln in Lync Server 2013</A> in der Planungsdokumentation.
 
 

@@ -48,7 +48,7 @@ Mit dem Cmdlet **Get-CsKerberosAccountAssignment** können Sie Informationen zu 
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
 
-        > [!TIP]
+        > [!NOTE]
         > Bei Angabe von "*SiteName" als Filterparameter werden Informationen zu sämtlichen Standorten zurückgegeben, deren Standort-ID den angegebenen Standortnamen enthält (z.&nbsp;B. alle Standorte mit der Zeichenfolge "Redmond" in der Standort-ID).
 
 

@@ -72,7 +72,7 @@ Benutzerbasierte Richtlinien müssen vom Office 365-Support für Sie erstellt we
     Identity : tag:AllowPublicIMCommunication
 
 
-> [!TIP]
+> [!NOTE]
 > Das Tag-<STRONG>Präfix</STRONG> stammt aus der Frühzeit der Entwicklung von Lync Server 2010. In dieser Zeit wurden benutzerbasierte Richtlinien als <EM>Tagrichtlinien</EM> bezeichnet und anhand des Tag-<STRONG>Präfix</STRONG> identifiziert. Diese Richtlinien werden heute treffender als <EM>benutzerbasierte Richtlinien</EM> bezeichnet, und der Tagbereich wird – ebenfalls treffender – als <EM>benutzerbasierter Bereich</EM> bezeichnet. Aus technischen Gründen wurde das Tag-<STRONG>Präfix</STRONG> jedoch nie geändert.
 
 

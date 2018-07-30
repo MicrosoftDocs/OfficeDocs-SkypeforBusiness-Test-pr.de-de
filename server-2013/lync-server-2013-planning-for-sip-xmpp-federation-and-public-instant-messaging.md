@@ -65,7 +65,7 @@ Für den Partnerverbund zwischen Microsoft Lync Server 2013, Lync Server 2010 un
 
         
 
-        > [!TIP]
+        > [!NOTE]
         > Für neue SIP-Partnerverbunddomänenmüssen Sie eine Eingabe in <STRONG>Domänenname (oder FQDN)</STRONG> für Microsoft Lync Online, Microsoft Office 365 vornehmen. Für Microsoft Lync Server 2013, Lync Server 2010 und Office Communications Server müssen Sie auch eine Eingabe für <STRONG>Zugriffs-Edgedienst (FQDN)</STRONG> vornehmen.
 
     

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Im vorliegenden Thema werden die Bereitstellungsaufgaben beschrieben, die Sie zum Aktivieren der Remoteanrufsteuerung (Remote Call Control, RCC) für Benutzer in Ihrer Lync Server-Umgebung ausführen müssen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Benutzer migrieren, die zuvor für die Remoteanrufsteuerung in Microsoft Office Communicator 2007 R2 oder Lync Server aktiviert waren, müssen Sie zusätzliche Bereitstellungsaufgaben ausführen, bevor Sie mit den Bereitstellungsaufgaben für die Remoteanrufsteuerung beginnen können, die in diesem Thema beschrieben werden. Während der Migration zu nm-ocs-14-2nd müssen Einträge für vertrauenswürdige Anwendungen (vormals als <EM>Einträge für autorisierte Hosts</EM> bezeichnet) mithilfe der Verwaltungstools für Office Communications Server 2007 R2 oder nm-ocs-13-2nd entfernt werden.<BR>Ausführliche Informationen zum Entfernen von Einträgen für autorisierte Hosts finden Sie unter <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Entfernen eines autorisierten Legacyhosts in Lync Server 2013 (optional)</A>.
 
 

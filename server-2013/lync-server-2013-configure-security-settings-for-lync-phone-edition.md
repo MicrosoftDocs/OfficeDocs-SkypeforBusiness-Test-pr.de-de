@@ -32,7 +32,7 @@ Verbessern Sie über die SIP-Sicherheitseinstellung und Einstellungen für die T
 6.  Aktivieren oder deaktivieren Sie in **Gerätekonfiguration bearbeiten** unter **Telefonsperre** das Kontrollkästchen **Gerätesperre erzwingen** (standardmäßig ausgewählt), und geben Sie die minimale PIN-Länge (standardmäßig 6 Zeichen) und die Timeoutdauer (standardmäßig 10 Minuten) an. Es wird empfohlen, die genannten Standardwerte zu verwenden oder die PIN-Länge zu erhöhen bzw. die Timeoutdauer herabzusetzen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen erhalten Sie unter <A href="lync-server-2013-enforce-phone-locking.md">Erzwingen von Telefonsperren</A>.
 
 

@@ -22,7 +22,7 @@ Benutzer werden immer unter Lync Server verwaltet. Ist die Microsoft Exchange-In
 Ausführliche Informationen zur Funktionsweise von Archivierungsrichtlinien, einschließlich zur Hierarchie für globale, standortbezogene und benutzerbezogene Richtlinien, finden Sie unter [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie für Ihre Bereitstellung die Microsoft Exchange-Integration aktiviert haben, wird mithilfe von Richtlinien des Exchange-Compliance-Archivs gesteuert, ob die Archivierung für die unter Exchange 2013 verwalteten Benutzer aktiviert wird. Die Archivierung für diese Benutzer erfordert, dass für ihre Postfächer das Compliance-Archiv festgelegt wird. Ausführliche Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung beim Verwenden von Exchange Server-Integration</A>.<BR>Geben Sie in den Archivierungskonfigurationen erst alle erforderlichen Optionen ein, bevor Sie die Archivierung aktivieren. Ausführliche Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-configuring-archiving-options.md">Konfigurieren von Archivierungsoptionen</A>.
 
 

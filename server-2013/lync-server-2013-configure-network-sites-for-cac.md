@@ -28,7 +28,7 @@ In der CAC-Beispielbereitstellung weist die Region "Nordamerika" sechs Standorte
 Die Beispielnetzwerktopologie finden Sie unter [Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Im folgenden Verfahren wird die Lync Server-Verwaltungsshell zum Erstellen eines Netzwerkstandorts verwendet. Ausführliche Informationen zur Verwendung der Lync Server-Systemsteuerung zum Erstellen eines Netzwerkstandorts finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013</A>.
 
 

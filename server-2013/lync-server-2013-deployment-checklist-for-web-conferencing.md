@@ -47,7 +47,7 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 <td><p>Konferenzen werden auf Front-End-Servern in einem Front-End-Pool und auf Standard Edition-Servern ausgeführt. Es bestehen keine zusätzlichen Hardware- oder Softwareanforderungen, die die Installationsanforderungen für diese Server übersteigen.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 nutzt Office Web Apps und den Office Web Apps-Server, um die Freigabe und das Rendern von PowerPoint-Präsentationen durchzuführen. Informationen zur Installation und Konfiguration von Office Web Apps-Server finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013</A>.
 
 

@@ -26,7 +26,7 @@ Wenn Sie während des Migrationsvorgangs Archivierungs- und Überwachungsfunktio
   - Während der Koexistenz der Vorversionsbereitstellung und der Lync Server 2013-Bereitstellung sammelt die Lync Server 2010-Version des Archivierungsservers und Monitoring Servers Daten von Benutzern, die in Lync Server 2010-Pools verwaltet werden. Unter Lync Server 2013 werden vom Archivierungsserver und vom Monitoring Server Daten von Benutzern gesammelt, die in Lync Server 2013-Pools verwaltet werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie während des Migrationsvorgangs den Edgeserver der Vorversion noch zusammen mit dem neuen Lync Server 2013-Pilotpool verwenden, sammelt die Lync Server 2010-Version des Archivierungsservers noch immer Daten von Benutzern, die in Lync Server 2010-Pools verwaltet werden, und unter Lync Server 2013 werden vom Archivierungsserver noch Daten von Benutzern gesammelt, die in Lync Server 2013-Pools verwaltet werden.
 
 

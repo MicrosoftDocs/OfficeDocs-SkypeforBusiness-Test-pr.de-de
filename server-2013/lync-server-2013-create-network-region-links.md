@@ -60,7 +60,7 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen "North America
 8.  Klicken Sie optional auf **Bandbreitenrichtlinie**, und wählen Sie das Bandbreitenrichtlinienprofil aus, das Sie auf die Netzwerkregionenverbindung anwenden möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenden Sie nur dann eine Bandbreitenrichtlinie an, wenn die Netzwerkregionenverbindung eine Bandbreiteneinschränkung aufweist und Sie die Anrufsteuerung verwenden möchten, um den Mediendatenverkehr in dieser Verbindung zu steuern.
 
 

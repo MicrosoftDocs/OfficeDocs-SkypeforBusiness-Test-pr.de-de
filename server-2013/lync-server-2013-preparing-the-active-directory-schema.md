@@ -30,7 +30,7 @@ Alle LDF-Dateien werden während der Schemavorbereitung installiert – unabhän
 Die Lync Server-Schemaerweiterungen werden in allen Domänen repliziert, was sich auf den Netzwerkdatenverkehr auswirkt. Führen Sie die Schemavorbereitung zu einem Zeitpunkt aus, zu dem die Netzwerkauslastung möglichst gering ist.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn in Ihrer Lync Server 2013-Bereitstellung mobile Clients mit Microsoft®&nbsp;Office Communicator Mobile&nbsp;2007&nbsp;R2 für Java und Microsoft®&nbsp;Office Communicator Mobile für Nokia&nbsp;1.0 unterstützt werden sollen, müssen Sie das Active Directory-Schema für Microsoft Office Communications Server 2007 R2 während der Installation von Lync Server 2013 vorbereiten. Die erforderliche Software und Begleitdokumentation finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>.
 
 

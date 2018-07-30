@@ -20,7 +20,7 @@ Zur Implementierung des SIP-Trunkings müssen Sie die Verbindung über einen Ver
 Jeder Vermittlungsserver verfügt über eine interne und eine externe Netzwerkschnittstelle. Die interne Schnittstelle stellt eine Verbindung mit den Front-End-Servern her. Die externe Schnittstelle wird häufig als Gatewayschnittstelle bezeichnet, da sie traditionell zur Verbindungsherstellung zwischen dem Vermittlungsserver und einem PSTN-Gateway oder einer IP-Nebenstellenanlage dient. Zur Implementierung eines SIP-Trunks verbinden Sie die externe Schnittstelle des Vermittlungsservers mit der externen Edgekomponente des Anbieters von Internettelefoniediensten (Internet Telephony Service Provider, ITSP).
 
 
-> [!TIP]
+> [!NOTE]
 > Die externe Edgekomponente des ITSP kann ein SBC (Session Border Controller), ein Router oder ein Gateway sein.
 
 
@@ -50,7 +50,7 @@ Je nach geografischer Lage der Standorte und abhängig davon, wie viel Datenverk
 Die Entscheidung zur Bereitstellung des zentralisierten oder verteilten SIP-Trunkings erfordert eine Kosten-Nutzen-Analyse. In einigen Fällen kann es vorteilhaft sein, sich für das verteilte Bereitstellungsmodell zu entscheiden, auch wenn es nicht notwendig ist. In einer vollständig zentralisierten Bereitstellung wird der gesamte Zweigstellendatenverkehr über WAN-Verbindungen geroutet. Statt für die erforderliche Bandbreite Gebühren für WAN-Verbindungen zu zahlen, möchten Sie möglicherweise das verteilte SIP-Trunking verwenden. Sie können beispielsweise einen Standard Edition-Server an der Zweigstelle bereitstellen und einen Partnerverbund mit dem zentralen Standort einrichten, oder Sie möchten vielleicht eine Survivable Branch-Anwendung oder einen Survivable Branch-Server mit einem kleinen Gateway bereitstellen.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zum verteilten SIP-Trunking finden Sie unter <A href="lync-server-2013-branch-site-sip-trunking.md">SIP-Trunking für Zweigstellenstandorte in Lync Server 2013</A>.
 
 
@@ -82,7 +82,7 @@ Die für eine Implementierung erforderliche Bandbreite richtet sich nach der ben
 Spitzenbandbreite für den SIP-Trunk = Max. gleichzeitige Anrufe x (64 KBit/s + Headergröße)
 
 
-> [!TIP]
+> [!NOTE]
 > Die Headergröße beträgt maximal 20&nbsp;Byte.
 
 

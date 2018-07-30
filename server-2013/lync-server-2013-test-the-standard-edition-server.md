@@ -24,7 +24,7 @@ Das folgende Verfahren beschreibt, wie die Bereitstellung eines Standard Edition
 2.  Wenn das Benutzerobjekt derzeit angemeldet ist, melden Sie es ab und wieder an, um die neue Gruppenzuweisung zu registrieren.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei dem Benutzerkonto darf es sich nicht um den lokalen Administrator des Servers handeln, auf dem Lync Server 2013 Standard Edition ausgeführt wird. Wenn Sie der Gruppe "CsAdministors" nicht die entsprechenden Benutzer und Gruppen hinzufügen, erhalten Sie beim Öffnen der Systemsteuerung für Lync Server 2013 die folgende Fehlermeldung: "Nicht autorisiert: Der Zugriff wird aufgrund eines Fehlers bei der rollenbasierten Zugriffssteuerung verweigert."
 
 

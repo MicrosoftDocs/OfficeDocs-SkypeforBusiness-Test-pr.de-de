@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-15_
 Sie müssen DNS-Einträge (Domain Name System) für interne und externe Edgeschnittstellen konfigurieren, sowohl für Edgeserver- als auch für Reverseproxyschnittstellen. Edgeserver sind standardmäßig nicht Mitglied einer Domäne und haben keinen vollqualifizierten Domänennamen. Der Edgeserver wird nur durch den kurzen Computernamen bezeichnet und nicht durch einen vollqualifizierten Domänennamen. Der Topologie-Generator verwendet jedoch FQDNs und keine Kurznamen. Der Name des Edgeservers muss mit dem vom Topologie-Generator verwendeten FQDN übereinstimmen. Hierzu definieren Sie ein DNS-Suffix, das, wenn es mit dem Computernamen kombiniert wird, den erwarteten FQDN ergibt. Nutzen Sie das unter "So fügen Sie das DNS-Suffix zum Computernamen eines Edgeservers hinzu, der nicht Mitglied einer Domäne ist" beschriebene Verfahren, um das DNS-Suffix zum Computernamen hinzuzufügen.
 
 
-> [!TIP]
+> [!NOTE]
 > Standardmäßig verwendet DNS einen Roundrobin-Algorithmus für die Rotation von Ressourceneintragsdaten, die in Abfrageantworten zurückgegeben werden, wenn für einen abgefragten DNS-Domänennamen mehrere Ressourceneinträge desselben Typs vorhanden sind. Der DNS-Lastenausgleich in Lync Server 2013 stützt sich auf DNS Round Robin als Teil des DNS-Lastenausgleichsmechanismus. Stellen Sie sicher, dass die Round Robin-Einstellung nicht deaktiviert ist. Stellen Sie bei Verwendung eines DNS-Servers ohne Windows-Betriebssystem außerdem sicher, dass die Round Robin-Verteilungsreihenfolge für Ressourceneinträge aktiviert ist.
 
 

@@ -62,7 +62,7 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 </ul>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Die Archivierung wird auf Front-End-Servern in einem Enterprise-Pool und Standard Edition-Servern ausgeführt. Abgesehen von den herkömmlichen Anforderungen zur Installation dieser Server bestehen keine zusätzlichen Hardware- oder Softwareanforderungen.
 
 

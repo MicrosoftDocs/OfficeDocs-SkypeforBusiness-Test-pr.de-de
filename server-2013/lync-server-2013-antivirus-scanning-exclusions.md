@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-02_
 Damit das Virenschutzprogramm die Ausführung von Lync Server 2013 nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Server oder jede Serverrolle mit Lync Server 2013, auf dem bzw. der ein Virenschutzprogramm ausgeführt wird, ausschließen. Die folgenden Prozesse und Verzeichnisse sollten einbezogen werden:
 
 
-> [!TIP]
+> [!NOTE]
 > Die Ordner- und Dateispeicherorte in der folgenden Liste sind die Standardspeicherorte für Lync Server 2013. Falls Sie andere Speicherorte als die Standardspeicherorte verwendet haben, schließen Sie statt der hier aufgeführten Standardspeicherorte die Speicherorte aus, die Sie für Ihre Organisation angegeben haben.
 
 

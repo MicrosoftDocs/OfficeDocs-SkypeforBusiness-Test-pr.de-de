@@ -16,7 +16,7 @@ ms.translationtype: HT
 _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie die Medienumgehung für Trunkverbindungen mit einem Peer (PSTN-Gateway, IP-Nebenstellenanlage oder Session Border Controller [SBC] des Anbieters von Internettelefoniediensten) bereits für einen bestimmten Standort oder Dienst konfiguriert haben, für den die Medienverarbeitung durch den Vermittlungsserver umgangen werden soll.
 
 
@@ -26,7 +26,7 @@ Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, 
 Im vorliegenden Thema wird beschrieben, wie Sie mithilfe der Lync Server-Systemsteuerung und der Lync Server-Verwaltungsshell die globalen Einstellungen für die Medienumgehung konfigurieren können.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie diese Schritte zum Konfigurieren der Medienumgehung verwenden, wird von einer guten Konnektivität zwischen Clients und dem Vermittlungsserverpeer ausgegangen (z.&nbsp;B. einem PSTN-Gateway, einer IP-Nebenstellenanlage oder einem SBC beim SIP-Trunking-Anbieter). Wenn für die Verbindung Bandbreiteneinschränkungen gelten, kann die Medienumgehung nicht auf den Anruf angewendet werden. Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur für die Produkte und Versionen unterstützt, die auf der Webseite für das Unified Communications Open Interoperability Program – Lync Server unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x407</A> aufgelistet werden.
 
 

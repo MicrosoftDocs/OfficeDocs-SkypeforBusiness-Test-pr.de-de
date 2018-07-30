@@ -36,7 +36,7 @@ Die automatische Telefonzentrale ist eine Exchange UM-Funktion zum Konfigurieren
 Exchange UM umfasst Faxfunktionen, über die die Benutzer eingehende Faxe in ihren Exchange-Postfächern empfangen können. Ausführliche Informationen zu diesem Thema finden Sie auf der Seite "Unified Messaging" in der Microsoft Exchange Server-Dokumentation unter [http://go.microsoft.com/fwlink/?linkid=135652\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=135652%26clcid=0x407).
 
 
-> [!TIP]
+> [!NOTE]
 > Die Faxdienste des Exchange UM-Servers stehen nicht in Lync Server-Bereistellungen zur Verfügung, die in Microsoft Exchange Server 2010, Exchange 2010 mit dem neuesten Service Pack oder Exchange 2013 integriert sind.
 
 

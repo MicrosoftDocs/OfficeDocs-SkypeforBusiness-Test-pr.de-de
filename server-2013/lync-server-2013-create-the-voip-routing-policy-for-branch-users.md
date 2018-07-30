@@ -28,7 +28,7 @@ Es wird empfohlen, eine separate Voice-over-IP-Richtlinie (VoIP) für Benutzer a
 4.  Legen Sie eine Alternativroute für das Survivable Branch-Anwendung- oder Survivable Branch-Server-Gateway fest, die auf den Sicherungsregistrierungspool (gemeinsam ausgeführt mit dem Vermittlungsserver) am zentralen Standort verweist. (Weitere Informationen finden Sie in der Herstellerdokumentation zur Survivable Branch-Anwendung oder dem Survivable Branch-Server.)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Diese Alternativroute stellt sicher, dass eingehende Anrufe beim Zweigstellenbenutzer empfangen werden können, wenn die Survivable Branch-Anwendung oder der Survivable Branch-Server nicht zur Verfügung stehen (beispielsweise bei Ausfällen aufgrund einer Wartung). Wenn Registrierung und Vermittlungsserver auf der Survivable Branch-Anwendung oder dem Survivable Branch-Server nicht verfügbar sind und der Benutzer beim Sicherungsregistrierungspool am zentralen Standort registriert ist, können eingehende Anrufe weiterhin an den Benutzer geroutet werden.
 
 

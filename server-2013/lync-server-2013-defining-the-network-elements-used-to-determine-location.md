@@ -48,7 +48,7 @@ Bei dieser Standortmethode wird davon ausgegangen, dass die BSSID der einzelnen 
 Verwaltete Ethernet-Switches, die LLDP-MED (Link Layer Discovery Protocol-Media Endpoint Discover) unterstützen, können die ID- und Portinformationen eines Netzwerks für einen kompatiblen LLDP-MED-Client bereitstellen, die dann wiederum bei der Standortdatenbank abgefragt werden, um den Standort des Geräts anzugeben. Sie können Erwartungsregellisten ausschließlich der Switch-Chassis-ID zuordnen oder sie alternativ auf Portebene zuweisen.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013 wird die Verwendung von LLDP-MED zur Bestimmung der Standorte nur für Lync Phone Edition-Geräte und Lync 2013 bei einer Ausführung unter Windows&nbsp;8 unterstützt. Wenn Sie Layer-2-Daten auf Switchebene verwenden müssen, um den Standort anderer verkabelter PC-basierter Lync-Clients zu ermitteln, müssen Sie die Client-MAC-Adressen-Methode verwenden.
 
 
@@ -70,7 +70,7 @@ Wenn das Subnetz einen zu großen Bereich umfasst, müssen Sie möglicherweise e
 Wenn Sie die MAC-Adresse eines Clientcomputers zum Ermitteln des Aufrufers verwenden möchten, benötigen Sie verwaltete Ethernet-Switches. Außerdem müssen Sie eine Drittanbieter-SNMP-Lösung bereitstellen, die die MAC-Adressen von Lync-Clients ermittelt, die mit (oder über) diese Switches verbunden sind. Die SNMP-Lösung fragt kontinuierlich die verwalteten Switches ab, um die aktuelle Zuordnung der Endpunkt-MAC-Adressen zu erhalten, die mit den einzelnen Ports verbunden sind, und ermittelt die zugehörigen Port-IDs. Bei einer Lync-Client-Anforderung an den Standortinformationsdienst fragt der Standortinformationsdienst unter Verwendung der Client-MAC-Adresse die Drittanbieteranwendung ab und gibt übereinstimmende IP-Adressen und Port-IDs zurück. Der Standortinformationsdienst verwendet diese Informationen, um seine veröffentlichte Layer-2-Standortzuordnung nach einem übereinstimmenden Datensatz abzufragen, und gibt den Standort des Clients zurück. Bei Verwendung dieser Option müssen Sie sicherstellen, dass die Switch-Port-Identifizierer zwischen der SNMP-Anwendung und den Datenbankeinträgen zu den veröffentlichten Standorten konsistent sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Einige Drittanbieter-SNMP-Lösungen unterstützen auch nicht verwaltete Zugriffsswitches. Wenn der Switch, der Informationen für den Lync-Client bereitstellt, nicht verwaltet ist, aber über einen Uplink zu einem verwalteten Verteilerswitch verfügt, kann der verwaltete Switch die MAC-Adressen der Clients an die SNMP-Anwendung zurückmelden, die mit dem Zugriffsswitch verbunden sind. Anhand dieser Informationen kann der Standortinformationsdienst den Standort des Benutzers ermitteln. Es ist auch möglich, nur eine einzelne Erwartungsregelliste für alle Ports in einem nicht verwalteten Switch zuzuweisen. In diesem Fall ist die Standortgenauigkeit nur auf Chassis-Ebene des Zugriffsswitchs und nicht auf Portebene verfügbar.
 
 

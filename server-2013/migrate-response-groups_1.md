@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-19_
 Nachdem die Benutzer in die Lync Server 2013-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Das Migrieren der Reaktionsgruppen schließt das Kopieren von Agentgruppen, Warteschlangen, Workflows und Audiodateien sowie das Verschieben von Reaktionsgruppe-Kontaktobjekten von der Vorversionsbereitstellung in den Lync Server 2013-Pool ein. Nach der Migration der Vorversionsreaktionsgruppen werden Anrufe an die Reaktionsgruppen von der Reaktionsgruppenanwendung im Lync Server 2013 verarbeitet. Anrufe für Reaktionsgruppen werden nicht mehr vom Vorversionspool verarbeitet.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können Reaktionsgruppen zwar migrieren, bevor Sie alle Benutzer in den Lync Server 2013-Pool verschoben haben, es wird jedoch empfohlen, alle Benutzer zuerst zu verschieben. Insbesondere Benutzer, die Reaktionsgruppen-Agents sind, haben keine vollständige Funktionalität bei neuen Funktionen, bevor sie in den Lync Server 2013-Pool verschoben werden.
 
 
@@ -26,7 +26,7 @@ Nachdem die Benutzer in die Lync Server 2013-Pools verschoben wurden, können Si
 Bevor Sie Reaktionsgruppen verschieben, müssen Sie einen Lync Server 2013-Pool bereitstellen, der die Reaktionsgruppenanwendung beinhaltet. Die Reaktionsgruppenanwendung wird bei der Bereitstellung von Enterprise-VoIP standardmäßig installiert und aktiviert. Sie können sicherstellen, dass die Reaktionsgruppenanwendung installiert ist, indem Sie das **Get-CsService–ApplicationServer**-Cmdlet ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können neue Lync Server 2013-Reaktionsgruppen im Lync Server 2013-Pool erstellen, bevor Sie Ihre Reaktionsgruppen aus der Vorversion migrieren.
 
 
@@ -80,7 +80,7 @@ Im folgenden Verfahren zum Migrieren von Reaktionsgruppe-Konfigurationen wird da
 5.  Wenn Sie die Registerkarte "Reaktionsgruppe" für Microsoft Office Communicator 2007 R2 in Ihrer Office Communications Server 2007 R2-Umgebung bereitgestellt haben, entfernen Sie die Registerkarte aus der Office Communicator 2007 R2-Datei "tabs.xml".
     
 
-    > [!TIP]
+    > [!NOTE]
     > Formelle Agents verwendeten die Reaktionsgruppen-Registerkarte zur Anmeldung an die entsprechenden Reaktionsgruppen, bevor sie Anrufe empfangen konnten. Wenn Sie die Registerkarte "Reaktionsgruppe" bereitgestellt haben, haben Sie den Speicherort der Office Communicator 2007 R2-Datei "tabs.xml" vor der Bereitstellung ausgewählt.
 
 
@@ -88,12 +88,12 @@ Im folgenden Verfahren zum Migrieren von Reaktionsgruppe-Konfigurationen wird da
 6.  Informieren Sie Benutzer über die aktualisierte URL, die Agents zur An- und Abmeldung bei ihren Reaktionsgruppen benötigen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > In der Regel lautet die URL "https://webpoolFQDN/RgsClients/Tab.aspx", wobei <EM>webpoolFQDN</EM> für den vollqualifizierten Domänenname (FQDN) des Webpools steht, der dem Pool zugeordnet ist, den Sie eben nach Lync Server 2013 verschoben haben.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Schritt ist nicht mehr erforderlich, nachdem Benutzer auf Lync 2013 aktualisiert haben, da die URL im Menü <STRONG>Tools</STRONG> in Lync verfügbar ist.
 
 

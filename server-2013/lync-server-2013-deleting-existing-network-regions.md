@@ -28,7 +28,7 @@ Eine Netzwerkregion verbindet verschiedene Teile eines Netzwerks, das sich über
 4.  Klicken Sie auf der Seite **Region** auf die Region, die Sie löschen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können mehrere Regionen in einem Arbeitsschritt löschen. Drücken Sie hierzu STRG, und wählen Sie bei gedrückter STRG-TASTE mehrere Regionen aus. Wenn Sie alle Regionen auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
 
 

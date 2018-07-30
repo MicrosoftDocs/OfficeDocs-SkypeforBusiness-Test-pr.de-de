@@ -20,7 +20,7 @@ VoIP-Richtlinien, PSTN-Verwendungsdatensätze und VoIP-Routen stehen in enger Be
 Der empfohlene Workflow für eine neue Enterprise-VoIP-Bereitstellung besteht darin, zunächst eine VoIP-Richtlinie mit den geeigneten PSTN-Verwendungsdatensätzen zu konfigurieren und anschließend den einzelnen PSTN-Verwendungsdatensätzen die entsprechenden Routen zuzuordnen.
 
 
-> [!TIP]
+> [!NOTE]
 > Außerdem können Sie VoIP-Richtlinien auf <EM>Benutzerebene</EM> erstellen und sie einzelnen Benutzern oder Gruppen zuweisen.
 
 

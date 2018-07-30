@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-07-11_
 Im folgenden Abschnitt wird beschrieben, wie Lync Server 2013 mit dem Kumulativen Update: Juli 2013 konfiguriert wird, um passive Authentifizierung zu unterstützen. Nach der Aktivierung müssen Lync-Benutzer, die für zweistufige Authentifizierung aktiviert sind, eine physische oder virtuelle SmartCard und eine gültige PIN für die Anmeldung beim Lync 2013-Client mit dem Kumulativen Update: Juli 2013 verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Kunden wird dringend empfohlen, passive Authentifizierung für Registrierungsstellen und Webdienste auf der Dienstebene zu aktivieren. Wenn die passive Authentifizierung für Registrierungsstellen und Webdienste auf der globalen Ebene aktiviert wird, führt dies wahrscheinlich zu organisationsweiten Authentifizierungsfehlern für Benutzer, die sich nicht mit dem Lync 2013-Desktopclient mit dem Kumulativen Update: Juli 2013 anmelden.
 
 
@@ -35,7 +35,7 @@ In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfig
 
 3.  Erstellen Sie auf der Lync Server-Verwaltungsshell-Befehlszeile eine neue Webdienstkonfiguration für jeden Directorserver, Enterprise Pool und Standard Edition-Server, der für die passive Authentifizierung aktiviert werden soll, indem Sie den folgenden Befehl ausführen:
     
-        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
 
     > [!WARNING]

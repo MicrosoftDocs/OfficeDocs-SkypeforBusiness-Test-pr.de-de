@@ -86,13 +86,13 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 
 
 
-> [!TIP]
+> [!NOTE]
 > Externer Datenverkehr wird über den Reverseproxy geleitet.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Clients mobiler Geräte unterstützen nicht mehrere SSL-Zertifikate (Secure Sockets Layer) von verschiedenen Domänen. Daher wird die CNAME-Umleitung an verschiedene Domänen nicht über HTTPS unterstützt. Beispielsweise wird ein DNS-CNAME-Eintrag für "lyncdiscover.contoso.com", der eine Weiterleitung an eine Adresse von "director.contoso.net" vornimmt, nicht über HTTPS unterstützt. In einer solchen Topologie muss ein Client für ein mobiles Gerät HTTP für die erste Anforderung verwenden, sodass die CNAME-Umleitung über HTTP aufgelöst wird. Für die nachfolgenden Anforderungen wird dann HTTPS verwendet. Um dieses Szenario zu unterstützen, müssen Sie den Reverseproxy mit einer Webveröffentlichungsregel für Port&nbsp;80 (HTTP) konfigurieren. Ausführliche Informationen finden Sie im Abschnitt "So erstellen Sie eine Webveröffentlichungsregel für Port 80" unter <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Konfigurieren des Reverseproxys für Mobilität in Lync Server 2013</A>. Die CNAME-Umleitung an dieselbe Domäne wird über HTTPS unterstützt. In diesem Fall deckt das Zertifikat der Zieldomäne die ursprüngliche Domäne ab.
 
 

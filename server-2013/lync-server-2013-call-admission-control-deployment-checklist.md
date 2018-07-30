@@ -20,7 +20,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-22_
   - Wenn ein oder mehrere Edgeserver bereitgestellt wurden, muss die IP-Adresse jeder externen Schnittstelle der Subnetzliste in den Netzwerkkonfigurationseinstellungen mit der Bitmaske 32 hinzugefügt werden. Sie sollten dieses Subnetz (IP-Adresse) außerdem der Netzwerkstandort-ID für den geografischen Standort zuordnen, an dem der A/V-Edgedienst bereitgestellt wurde.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Zum Implementieren der Anrufsteuerung sind keine Edgeserver erforderlich.
 
 

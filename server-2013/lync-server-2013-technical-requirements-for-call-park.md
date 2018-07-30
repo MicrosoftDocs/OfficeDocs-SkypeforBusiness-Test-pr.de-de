@@ -42,7 +42,7 @@ Die Anwendung zum Parken von Anrufen verwendet den folgenden Port:
   - **Port 5075**   Wird für SIP-Überwachungsanforderungen verwendet.
 
 
-> [!TIP]
+> [!NOTE]
 > Dieser Port ist die Standardeinstellung, die Sie mit dem Cmdlet <STRONG>Set-CsApplicationServer</STRONG> ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 
@@ -52,7 +52,7 @@ Die Anwendung zum Parken von Anrufen verwendet den folgenden Port:
 Die Anwendung zum Parken von Anrufen unterstützt für Wartemusik lediglich WMA-Dateien (Windows Media Audio). Sie können Dateien für Wartemusik mit Microsoft Expression Encoder 4 anpassen. Expression Encoder 4 kann von der Webseite "Expression Encoder 4" unter der folgenden Adresse heruntergeladen werden: [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Verwenden Sie das Tool, um die Datei in ein WMA-Format zu konvertieren. Das empfohlene Format für Wartemusikdateien für die Parken von Anrufen ist Media Audio 9, 44 kHz, 16 Bit, Mono, CBR oder 32 KBit/s.
 
 
-> [!TIP]
+> [!NOTE]
 > Die konvertierte Datei wird über das Telefon nur mit 16&nbsp;kHz abgespielt, auch wenn diese mit 44&nbsp;kHz aufgezeichnet wurde.
 
 

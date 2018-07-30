@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Zusätzlich zu den Anforderungen im Hinblick auf Hardware und Betriebssystem, die für Serverplattformen erfüllt werden müssen, erfordert Lync Server 2013 die Installation zusätzlicher Software auf den Servern, die Sie bereitstellen.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu den Plattformanforderungen für Server mit Lync Server finden Sie unter <A href="lync-server-2013-server-hardware-platforms.md">Serverhardwareplattformen für Lync Server&nbsp;2013</A> und <A href="lync-server-2013-server-and-tools-operating-system-support.md">Betriebssystemunterstützung für Server und Tools in Lync Server 2013</A>. Einzelheiten zu den Systemanforderungen für Clientcomputer und -geräte finden Sie unter <A href="lync-server-2013-planning-for-clients-and-devices.md">Planen von Clients und Geräten in Lync Server 2013</A> in der Planungsdokumentation. Ausführliche Informationen zu den Softwareanforderungen für Verwaltungstools finden Sie unter <A href="lync-server-2013-administrative-tools-software-requirements.md">Softwareanforderungen für Verwaltungstools in Lync Server 2013</A>.
 
 

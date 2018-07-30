@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um eine Konferenzrichtlinie auf Benutzer
       - Klicken Sie auf **Standortrichtlinie**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie eine Richtlinie erstellen möchten. Klicken Sie in der Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Der Standortname wird als Name der Konferenzrichtlinie übernommen und kann nicht geändert werden.
 
 

@@ -50,7 +50,7 @@ Verwenden Sie zum Deaktivieren der Exchange-Archivierung einen ähnlichen Befehl
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn die Eigenschaft <STRONG>EnableArchiving</STRONG> auf <STRONG>None</STRONG> gesetzt ist, werden in Lync Server überhaupt keine Chat- und Webkonferenzaufzeichnungen archiviert. In diesem Fall ignoriert der Server einfach den für <STRONG>EnableExchangeArchiving</STRONG> konfigurierten Wert.
 
 
@@ -66,7 +66,7 @@ Die Exchange-Archivierung kann auch mithilfe der Lync Server-Systemsteuerung akt
 4.  Aktivieren Sie nach Auswahl der zu archivierenden Elemente das Kontrollkästchen **Exchange Server-Integration** , um die Exchange-Archivierung zu aktivieren. Deaktivieren Sie dieses Kontrollkästchen, um die Exchange-Archivierung zu deaktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Kontrollkästchen <STRONG>Exchange Server-Integration</STRONG> ist nicht verfügbar, wenn <STRONG>Archivierungseinstellung</STRONG> auf <STRONG>Archivierung deaktivieren</STRONG> festgelegt ist. Sie müssen zuerst die Archivierung und dann die Exchange-Archivierung aktivieren.
 
 

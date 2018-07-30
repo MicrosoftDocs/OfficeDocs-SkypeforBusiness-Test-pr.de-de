@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 Verwenden Sie das folgende Verfahren, um die Gruppenanrufannahme für einen Benutzer zu deaktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie die Gruppenanrufannahme für einen Benutzer deaktivieren, wird die Nummer für die Anrufannahmegruppe verworfen, die dem Benutzer zugewiesen war. Wenn Sie die Gruppenanrufannahme für diesen Benutzer erneut aktivieren möchten, müssen Sie auch die Nummer für die Anrufannahmegruppe erneut mithilfe des Parameters "/enablegrouppickup" zuweisen.
 
 

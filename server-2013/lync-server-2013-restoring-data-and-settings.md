@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-17_
 Wenn Sie eine Notfallwiederherstellungstopologie mit Poolpaaren implementiert haben und einer dieser Front-End-Pools ausgefallen ist und Sie den Dienst für Benutzer schnell wieder bereitstellen müssen, lesen Sie die Informationen unter [Ausführen eines Failovers für einen Pool in Lync Server 2013](lync-server-2013-failing-over-a-pool.md). Nutzen Sie andernfalls die Informationen in den folgenden Themen und die Arbeitsblätter unter [Arbeitsblätter zur Sicherung und Wiederherstellung](lync-server-2013-backup-and-restoration-worksheets.md), um Lync Server nach einem Fehler oder Ausfall wiederzustellen.
 
 
-> [!TIP]
+> [!NOTE]
 > Führen Sie die in diesem Dokument beschriebenen Wiederherstellungsverfahren zur Reduzierung der Ausfallzeit und möglicher Datenverluste nur durch, wenn die Verfahren zur Problembehandlung bei der Erkennung und Lösung des Problems nicht effektiv sind. Versuchen Sie, während der Problembehandlung die Auswirkungen auf andere Server und Komponenten zu minimieren, wenn Sie die Server herunterfahren und neu starten.
 
 

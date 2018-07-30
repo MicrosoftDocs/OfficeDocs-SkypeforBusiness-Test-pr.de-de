@@ -20,7 +20,7 @@ Halten Sie sich bei der Bereitstellung der Anrufsteuerung an die folgenden bewä
   - Stellen Sie sicher, dass WANs für den aktuellen und den erwarteten Mediendatenverkehr angemessen ausgelegt sind.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es empfiehlt sich, bei der Bandbreiteneinschränkungen einen Puffer einzurechnen. Manche Szenarien, zum Beispiel Racebedingungen, wirken sich auf die verwendete Gesamtbandbreite aus und können zu Situationen führen, in denen die Bandbreiteneinschränkung überschritten wird. Wenn beispielsweise zwei Anrufe gestartet werden, während der Mediendatenverkehr sich einer Bandbreiteneinschränkung nähert, wird möglicherweise einer der beiden Anrufe abgewiesen, weil der andere zuerst gestartet wurde.
 
 
@@ -32,7 +32,7 @@ Halten Sie sich bei der Bereitstellung der Anrufsteuerung an die folgenden bewä
   - Wenn Sie blockierte Anrufe zum PSTN umleiten möchten, überprüfen Sie die Funktionalität und die Kapazität des PSTN. Weitere Informationen hierzu finden Sie unter [Planen des VoIP-Routings für ausgehende Anrufe in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Kapazität bezieht sich auf die Anzahl der Ports, die Sie zur Unterstützung einer möglichen PSTN-Umleitung öffnen müssen.
 
 

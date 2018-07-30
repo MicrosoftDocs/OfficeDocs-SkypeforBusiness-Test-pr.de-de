@@ -141,7 +141,7 @@ Wenn Sie den Standardwert für UseNormalizationRules auf "False" festlegen, soda
     
       - Wenn Ihre Bereitstellung eine Kombination aus Lync Server 2013 und Lync Server 2010 oder Office Communications Server 2007 R2 umfasst, führen Sie das folgende Cmdlet aus, und weisen Sie es jedem Lync Server 2013-Pool in der Topologie zu:
         
-            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Warten Sie, bis die CMS-Replikation für alle Pools erfolgt ist.
 
@@ -508,7 +508,7 @@ Wenn Sie beim Konferenzbeitritt via Lync Web App eine Aktualisierung auf die neu
 ## In einigen Fällen unterstützt ein Lync-Client, der auf einem Computer ausgeführt wird, der für die Verwendung eines dualen IPv4- und IPv6-Stapels konfiguriert ist, Funktionalitäten nicht, die sich auf das IP-Subnetz des Computers stützen, wie E911, Medienumgehung, Anrufsteuerung und standortbasiertes Routing (3335508)
 
 
-> [!TIP]
+> [!NOTE]
 > Die Informationen in diesem Abschnitt beziehen sich auf kumulierte Updates für Lync Server&nbsp;2013: February&nbsp;2013.
 
 
@@ -568,7 +568,7 @@ Durch diese Problemumgehung wird der Anwesenheitsstatus von Benutzern, die in Of
 ## Ein Anrufer hört möglicherweise während der Einrichtung eines Anrufs mit dem empfangenden Teilnehmer eine Sekunde Wartemusik (3334097)
 
 
-> [!TIP]
+> [!NOTE]
 > Die Informationen in diesem Abschnitt beziehen sich auf kumulierte Updates für Lync Server&nbsp;2013: February&nbsp;2013.
 
 
@@ -656,7 +656,7 @@ Das Problem kann nicht umgangen werden. Der geparkte Anruf sollte abgerufen werd
 ## Einschränkungen des Planungstools (3331056 and 3331059)
 
 
-> [!TIP]
+> [!NOTE]
 > Die Informationen in diesem Abschnitt beziehen sich auf kumulierte Updates für Lync Server&nbsp;2013: February&nbsp;2013.
 
 
@@ -816,7 +816,7 @@ Wenn Sie dieses Problem beheben möchten, aktualisieren Sie die Seite von Lync S
 ## Die Indizierung im Adressbuch funktioniert in einigen Sprachen nicht erwartungsgemäß (3336047)
 
 
-> [!TIP]
+> [!NOTE]
 > Die Informationen in diesem Abschnitt beziehen sich auf kumulierte Updates für Lync Server&nbsp;2013: February&nbsp;2013.
 
 
@@ -870,7 +870,7 @@ Wenn Sie eine Sprache mit neutralem Gebietsschema auswählen möchten, achten Si
 ## Für die Gebietsschemas Aserbaidschanisch und Usbekisch besteht in einigen Webbrowsern bei der Verwendung des Lync-Webplaners, bei der Einwahl, in Join Launcher, bei der Verwaltung beständiger Chatrooms und in OCTab nur eingeschränkte Unterstützung (3336748)
 
 
-> [!TIP]
+> [!NOTE]
 > Die Informationen in diesem Abschnitt beziehen sich auf kumulierte Updates für Lync Server&nbsp;2013: February&nbsp;2013.
 
 

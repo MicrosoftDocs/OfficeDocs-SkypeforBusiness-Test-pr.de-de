@@ -46,7 +46,7 @@ Verwenden Sie eines der folgenden Verfahren zum Löschen nicht zugewiesener Numm
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 

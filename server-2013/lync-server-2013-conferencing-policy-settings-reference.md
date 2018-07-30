@@ -104,7 +104,7 @@ In der folgenden Tabelle werden alle Konferenzrichtlinieneinstellungen aufgefüh
 <td><p>Ermöglicht es externen und anonymen Teilnehmern, die Steuerung der freigegebenen Anwendung eines anderen Benutzers zu übernehmen.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Wenn diese Einstellung aktiviert, die Einstellung <STRONG>Übernahme der Steuerung durch Teilnehmer zulassen</STRONG> jedoch deaktiviert ist, wird diese Einstellung außer Kraft gesetzt.
 
 

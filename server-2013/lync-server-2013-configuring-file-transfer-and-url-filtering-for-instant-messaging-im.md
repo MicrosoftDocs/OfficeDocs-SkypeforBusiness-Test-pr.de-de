@@ -34,7 +34,7 @@ Die Konfiguration des intelligenten Sofortnachrichtenfilters umfasst Folgendes:
 Vor dem Bereitstellen des Tools für intelligente Sofortnachrichtenfilter müssen Sie verstehen, wie Filteroptionen auf Nachrichten angewendet werden, die von einem Server mit Lync Server 2013 an einen anderen Server weitergeleitet werden. Die Art der Anwendung von Filteroptionen ist konsistent. Dabei spielt es keine Rolle, ob die Server sich in einer einzigen Organisation oder in mehreren Organisationen befinden. Die Konsistenz betrifft die Art und Weise, wie benutzerdefinierte Hinweise und Warntexte in Nachrichten eingefügt und an Server gesendet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Der Sofortnachrichtenfilter erhöht den Umfang der zum Verarbeiten von URLs in einer Nachricht erforderlichen CPU-Ressourcen. Diese erhöhten CPU-Anforderungen wirken sich auch auf die Leistung von Lync Server aus.
 
 
@@ -48,7 +48,7 @@ Wenn eine Sofortnachricht zwischen Servern übermittelt wird, gelten die folgend
   - Wenn ein Server (Server1) eine Warnung zu einer Sofortnachricht mit einem aktiven Link hinzufügt, kann ein nachfolgender Server (Server2), der diese Sofortnachricht empfängt, eine andere Aktion für diesen aktiven Link in der Sofortnachricht ausführen und die Nachricht z. B. blockieren oder eine Warnung hinzufügen. Wenn Server2 so konfiguriert ist, dass er lediglich eine Warnung für diese URL hinzufügt, wird die frühere, von Server1 hinzugefügte Warnung entfernt, und die auf Server2 konfigurierte Warnung wird am Anfang der Sofortnachricht eingefügt.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei Ausführung von Lync Server 2013 in einer gemischten Umgebung ist mindestens Live Communications Server&nbsp;2005 mit SP1 erforderlich, um den intelligenten Sofortnachrichtenfilter zu verwenden. Der intelligente Sofortnachrichtenfilter wird in Live Communications Server&nbsp;2005 ohne SP1 nicht unterstützt.
 
 
@@ -96,7 +96,7 @@ Bei Auswahl von **Links blockieren** oder **Warnmeldung senden** sind die folgen
 Die Filterung bei der Dateiübertragung wirkt sich sowohl auf Sofortnachrichten als auch auf Konferenzen aus. Für Konferenzen wirken sich diese Einstellungen auf die Handzettelfunktion im Office Live Meeting 2007-Client und auf die Multimediawiedergabefunktionen aus.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server können zudem Optionen für die Dateiübertragung festgelegt werden. Diese serverseitigen Optionen werden zusätzlich zu den in Lync Server verfügbaren clientseitigen Steuerelementen bereitgestellt.
 
 

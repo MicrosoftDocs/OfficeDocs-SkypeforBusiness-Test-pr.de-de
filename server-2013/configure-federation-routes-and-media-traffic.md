@@ -146,7 +146,7 @@ Verwenden Sie die nachfolgenden Verfahren, um die Partnerverbundroute und die Me
 2.  Erweitern Sie den Knoten, klicken Sie mit der rechten Maustaste auf den aufgelisteten Edgeserver, und klicken Sie anschließend auf **Eigenschaften bearbeiten** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Partnerverbund kann nur für einen einzelnen Edgepool aktiviert werden. Wählen Sie bei mehreren Edgepools den Edgepool aus, den Sie als Partnerverbund- Edgepool verwenden möchten.
 
 
@@ -180,7 +180,7 @@ Verwenden Sie die nachfolgenden Verfahren, um die Partnerverbundroute und die Me
 3.  Warten Sie, bis die Active Directory-Replikation für alle Pools in der Bereitstellung ausgeführt worden ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Möglicherweise wird die folgende Meldung angezeigt:<BR><STRONG>Warnung: Die Topologie enthält mehrere Partner-Edgeserver. Dies kann während der Migration zu einer höheren Version des Produkts geschehen. In diesem Fall wird nur ein Edgeserver aktiv für den Partnerverbund verwendet. Stellen Sie sicher, dass der externe DNS-SRV-Eintrag auf den richtigen Edgeserver verweist. Wenn Sie mehrere Partnerverbund-Edgeserver bereitstellen möchten, die gleichzeitig aktiv sind (kein Migrationsszenario), stellen Sie sicher, dass alle Verbundpartner Lync Server verwenden. Stellen Sie außerdem sicher, dass der externe DNS-SRV-Eintrag alle partnerverbundfähigen Edgeserver auflistet.</STRONG><BR>Diese Warnung entspricht der Erwartung und kann problemlos ignoriert werden.
 
 
@@ -192,7 +192,7 @@ Verwenden Sie die nachfolgenden Verfahren, um die Partnerverbundroute und die Me
 2.  Aktualisieren Sie die externen Firewall-Routingregeln oder die Einstellungen für das Hardwaregerät zum Lastenausgleich, sodass SIP-Datenverkehr für den externen Zugriff (meist Port 443) und den Partnerverbund (meist Port 5061) nicht an den Edgeserver der Vorversion, sondern an den Lync Server 2013- Edgeserver gesendet wird.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie kein Hardwaregerät zum Lastenausgleich zur Verfügung haben, müssen Sie den DNS-A-Eintrag für den Partnerverbund aktualisieren, um das Problem für den neuen Lync Server-Zugriffs-Edgeserver zu lösen. Damit es mit geringstmöglicher Störung abgeschlossen werden kann, sollte Sie den TLL-Wert für den externen FQDN des Lync Server-Zugriffsedge reduzieren, sodass der Partnerverbund und der Remotezugriff schnell aktualisiert werden können, wenn die DNS aktualisiert wird, damit auf den neuen Lync Server-Zugriffsedge verwiesen werden kann.
 
 

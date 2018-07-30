@@ -20,7 +20,7 @@ System Center Operations Manager ist von sich aus lediglich in der Lage, einen k
   - Das Komponenten- und Benutzer-Management Pack (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) verfolgt Lync Server-Probleme, die in Ereignisprotokollen aufgezeichnet, durch Leistungsindikatoren erfasst oder in den Datenbanken für Kommunikationsdatensätze (Call Detail Records - CDR) oder QoE-Daten (Quality of Experience) protokolliert wurden. Bei schwerwiegenden Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per E-Mail, Sofortnachricht oder SMS benachrichtigt werden. SMS ist die Technologie, die verwendet wird, um Textnachrichten von einem Mobilgerät an ein anderes zu senden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Weitere Informationen zur Konfiguration der Operations Manager-Benachrichtigung finden Sie unter "Benachrichtigung konfigurieren" in der TechNet-Bibliothek unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x407</A>.
 
 

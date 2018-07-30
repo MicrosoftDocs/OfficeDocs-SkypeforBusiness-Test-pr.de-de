@@ -44,7 +44,7 @@ Bei einer Anwesenheitsrichtlinie handelt es sich um einen Satz von Einschränkun
 <p>Wenn für diese Einstellung der Wert 0 festgelegt wird, bedeutet dies, dass das Benutzer- oder Kontaktobjekt nicht von anderen Teilnehmern abonniert werden kann.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Bei Festlegung auf einen hohen Wert kann sich diese Einstellung deutlich auf die Leistung auswirken, und der durchschnittliche Benutzer verfügt über eine große Anzahl an Benutzern, die seine Anwesenheitsinformationen abonniert haben.
 
 

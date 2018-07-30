@@ -28,7 +28,7 @@ Im Folgenden finden Sie die Anforderungen für das öffentliche Zertifikat, das 
   - Der Antragstellername für das Zertifikat ist der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) oder die virtuelle IP-Adresse (VIP) eines Hardwaregeräts zum Lastenausgleich der externen Zugriffs-Edgedienst-Schnittstelle (zum Beispiel access.contoso.com ).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für Lync Server 2013 ist dies nicht mehr zwingend erforderlich, wird jedoch aus Gründen der Kompatibilität mit Office Communications Server weiterhin empfohlen.
 
 
@@ -38,7 +38,7 @@ Im Folgenden finden Sie die Anforderungen für das öffentliche Zertifikat, das 
       - Die externe Zugriffs-Edgedienst-Schnittstelle für den Zugriff oder die VIP eines Hardwaregeräts zum Lastenausgleich (zum Beispiel sip.contoso.com ).
         
 
-        > [!TIP]
+        > [!NOTE]
         > Auch wenn der Antragstellername des Zertifikats dem FQDN des Zugriffsedges entspricht, muss der alternative Antragstellername auch den FQDN des Zugriffs-Edgeservers enthalten, da TLS (Transport Layer Security) den Antragstellernamen ignoriert und zur Überprüfung die Einträge für alternative Antragstellernamen verwendet.
 
     
@@ -49,7 +49,7 @@ Im Folgenden finden Sie die Anforderungen für das öffentliche Zertifikat, das 
       - Der A/V-Edgedienst verwendet die Einträge für Antragstellername oder den alternativen Antragstellernamen nicht.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Reihenfolge der FQDNs in den alternativen Antragstellernamen spielt keine Rolle.
 
 

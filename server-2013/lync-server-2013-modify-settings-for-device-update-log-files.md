@@ -97,7 +97,7 @@ Protokolleinstellungen können global oder auf Standortebene geändert und angew
 Einstellungen für Protokolldateien der Geräteaktualisierung können Sie mithilfe von Windows PowerShell und dem Cmdlet **Set-CsDeviceUpdateConfiguration** löschen. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 

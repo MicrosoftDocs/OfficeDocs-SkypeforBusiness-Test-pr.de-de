@@ -210,7 +210,7 @@ Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche A
 
 
 
-> [!TIP]
+> [!NOTE]
 > <STRONG>*</STRONG>ACEs, die nicht vererbt werden, gewähren keinen Zugriff auf untergeordnete Objekte im betreffenden Container. ACEs, die vererbt werden, gewähren Zugriff auf untergeordnete Objekte im betreffenden Container.
 
 

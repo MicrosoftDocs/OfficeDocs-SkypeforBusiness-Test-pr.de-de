@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-02_
 Lync Server 2013 unterstützt zwei Workflowtypen: Sammelanschluss und IVR (Interactive Voice Response). Beim Erstellen eines Workflows können Sie mithilfe des Konfigurationstool für Reaktionsgruppen die zu verwendende Warteschleife sowie andere Einstellungen angeben, z. B. eine Willkommensnachricht, Wartemusik, Geschäftszeiten und Fragen, welche dem Anrufer von der Reaktionsgruppenanwendung gestellt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Vor dem Erstellen eines Workflows müssen Sie zuerst Agentgruppen und Warteschleifen erstellen, die vom Workflow verwendet werden sollen. Wenn Sie vordefinierte Geschäftszeiten und Feiertage erstellen möchten, die für mehrere Workflows verwendet werden können, müssen Sie auch diese Geschäftszeiten und Feiertage vor dem Workflow erstellen, der diese verwenden soll.
 
 

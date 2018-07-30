@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Microsoft Lync 2013 weist eine neu gestaltete Benutzeroberfläche sowie wichtige neue Funktionen auf. Administratoren finden den Client jetzt im Setupprogramm von Office integriert. Dies sorgt für eine einfachere Bereitstellung von Office und erleichtert die Anpassung von Clients in Ihrer Organisation.
 
 
-> [!TIP]
+> [!NOTE]
 > Eine illustrierte Ansicht der Aktualisierungen der Lync 2013-Benutzeroberfläche finden Sie in "Neuigkeiten in Lync 2013" unter <A href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</A>.
 
 
@@ -36,7 +36,7 @@ In früheren Versionen von Lync und Office Communicator war es möglich, die Ins
   - Verwenden der Befehlszeilenoptionen für das Setup
 
 
-> [!TIP]
+> [!NOTE]
 > Frühere Versionen von Lync oder von Office Communicator werden vom Setupprogramm von Lync 2013 nicht deinstalliert. Der Lync 2013-Client wird parallel zu anderen Lync- oder Office Communicator-Clients installiert.
 
 

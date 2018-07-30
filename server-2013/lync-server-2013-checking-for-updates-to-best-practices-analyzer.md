@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Beim Starten von Best Practices Analyzer steht die Option zum Suchen nach aktuellen Updates für das Tool zur Verfügung. Ist ein Update verfügbar, können Sie es herunterladen. Wenn Sie keine Updates herunterladen möchten oder Best Practices Analyzer nicht auf das Internet zugreifen kann, können Sie weiterhin die auf dem Computer vorhandene Version verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn für den Internetzugriff Proxyauthentifizierung erforderlich ist, kann Best Practices Analyzer nicht auf neue Updates für den Download zugreifen. Sie können jedoch die aktuelle Version von "RtcBPA.msi" im Microsoft Download Center unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=266539&amp;clcid=0x407</A> manuell herunterladen. Wenn Sie die Datei heruntergeladen haben, können Sie sie auf den Computer kopieren, auf dem Best Practices Analyzer aktualisiert werden soll, und mithilfe der MSI-Datei die neue Version des Tools auf diesem Computer installieren.
 
 

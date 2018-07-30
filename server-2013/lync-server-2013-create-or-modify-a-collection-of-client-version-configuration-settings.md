@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Die Konfigurationseinstellungen für Clientversionen werden verwendet, um die Clientversionskontrolle zu aktivieren und zu deaktivieren. Die globale Clientversionskonfiguration wird zusammen mit Lync Server installiert und zum Aktivieren bzw. Deaktivieren der Clientversionskontrolle für die gesamte Serverbereitstellung verwendet. Sie können auch Konfigurationseinstellungen für Clientversionen für einzelne Standorte konfigurieren. Sie können Konfigurationseinstellungen für Clientversionen entweder in der Systemsteuerung für Lync Server 2013 oder in der Verwaltungsshell für Lync Server 2013 erstellen oder ändern.
 
 
-> [!TIP]
+> [!NOTE]
 > Da anonyme Benutzer keinem Benutzer, Standort oder Dienst zugeordnet sind, unterliegen anonyme Benutzer ausschließlich globalen Richtlinien.
 
 

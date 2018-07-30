@@ -26,7 +26,7 @@ Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackb
 Die Beispielnetzwerktopologie für die Anrufsteuerung umfasst drei Regionen: Nordamerika, EMEA und APAC. Jede Region verfügt über einen eigenen zentralen Standort. Der Name des zentralen Standorts in der Region "North America" lautet CHICAGO. Das folgende Beispiel zeigt, wie Sie die Region "North America" mithilfe des **New-CsNetworkRegion**-Cmdlets erstellen können.
 
 
-> [!TIP]
+> [!NOTE]
 > Im folgenden Verfahren wird die Lync Server-Verwaltungsshell zum Erstellen einer Netzwerkregion verwendet. Ausführliche Informationen zum Verwenden der Lync Server-Systemsteuerung zum Erstellen einer Netzwerkregion finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-region.md">Erstellen oder Ändern einer Netzwerkregion in Lync Server 2013</A>.
 
 

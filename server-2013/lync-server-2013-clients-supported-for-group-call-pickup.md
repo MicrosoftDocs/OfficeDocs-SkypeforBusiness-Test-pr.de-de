@@ -24,7 +24,7 @@ Zum Entgegennehmen von Anrufen, die für Gruppenanrufannahme-Mitglieder eingehen
   - Lync Phone Edition
 
 
-> [!TIP]
+> [!NOTE]
 > Benutzer können einen beliebigen dieser Clients verwenden, um Anrufe für Gruppenanrufannahme-Mitglieder entgegenzunehmen, aber die Benutzer müssen in einem Lync Server 2013-Pool verwaltet werden, auf den die kumulativen Updates für Lync Server 2013 vom Februar 2013 angewendet wurden.
 
 

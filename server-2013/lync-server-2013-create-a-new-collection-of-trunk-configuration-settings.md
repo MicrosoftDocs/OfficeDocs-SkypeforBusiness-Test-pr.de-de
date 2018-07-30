@@ -146,7 +146,7 @@ Beim Erstellen der Konfigurationseinstellungen für einen SIP-Trunk mit Lync Ser
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die Lync Server CsTrunkConfiguration-Cmdlets unterstützen weitere Eigenschaften, die nicht in Lync Server-Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema für das <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</A>-Cmdlet.
 
 

@@ -30,7 +30,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie die Bereitstellung des Front-En
 2.  Wenn das Benutzerobjekt derzeit angemeldet ist, melden Sie es ab und wieder an, um die neue Gruppenzuweisung zu registrieren.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei dem Benutzerkonto darf es sich nicht um den lokalen Administrator eines Servers handeln, auf dem Lync Server 2013 ausgeführt wird.
 
 

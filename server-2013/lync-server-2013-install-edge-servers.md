@@ -28,7 +28,7 @@ Wenn Sie alle Edgeserver mit dem Bereitstellungs-Assistenten installiert und die
 3.  Starten Sie den Bereitstellungs-Assistenten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie in einer Meldung dazu aufgefordert werden, Microsoft Visual C++ Redistributable zu installieren, klicken Sie auf <STRONG>Ja</STRONG> . Im nächsten Dialogfeld können Sie den vorgegebenen <STRONG>Installationsspeicherort</STRONG> akzeptieren oder auf <STRONG>Durchsuchen</STRONG> klicken, um einen alternativen Speicherort anzugeben. Klicken Sie anschließend auf <STRONG>Installieren</STRONG> . Aktivieren Sie im nächsten Dialogfeld das Kontrollkästchen <STRONG>Ich stimme den Bedingungen des Lizenzvertrags zu</STRONG> , und klicken Sie auf <STRONG>OK</STRONG> .
 
 

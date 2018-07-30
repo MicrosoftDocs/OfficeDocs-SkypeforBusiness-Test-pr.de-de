@@ -59,7 +59,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 5.  Akzeptieren Sie entweder die Standardorganisationseinheit im Feld **Kontakt** , oder klicken Sie auf **Durchsuchen** , um die Option **Auswahl der Organisationseinheit** zu starten. Im Feld **Auswahl der Organisationseinheit** können Sie eine Organisationseinheit auswählen und auf **OK** klicken, oder Sie können auf **Neue Organisationseinheit erstellen** klicken, um unter dem Stamm oder einer anderen Organisationseinheit in der Domäne eine neue Organisationseinheit anzulegen (z. B. "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"). Klicken Sie anschließend auf **OK** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Distinguished Name (DN) der von Ihnen ausgewählten bzw. erstellten Organisationseinheit wird jetzt im Feld <STRONG>Organisationseinheit</STRONG> angezeigt.
 
 
@@ -67,7 +67,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 6.  Übernehmen Sie entweder den im Feld **Name** angezeigten Standardnamen für die Wähleinstellungen, oder geben Sie einen neuen Anzeigenamen für das zu erstellende Kontaktobjekt ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie ein Kontaktobjekt für den Teilnehmerzugriff erstellen, können Sie es z.&nbsp;B. einfach "Teilnehmerzugriff" nennen.
 
 
@@ -75,7 +75,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 7.  Übernehmen Sie im Feld **SIP-Adresse** entweder die Standard-SIP-Adresse, oder geben Sie eine neue Adresse ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie eine neue SIP-Adresse eingeben, muss diese mit <STRONG>SIP:</STRONG> beginnen (d.&nbsp;h. "SIP:" einschließlich Doppelpunkt).
 
 
@@ -83,7 +83,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 8.  Wählen Sie in der Liste **Server oder Pool** den Standard Edition-Server oder Front-End-Pool aus, in dem das Kontaktobjekt aktiviert werden soll.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei dem ausgewählten Pool sollte es sich vorzugsweise um den Pool mit den für Enterprise-VoIP und Exchange UM aktivierten Benutzern handeln.
 
 
@@ -95,7 +95,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 11. Wiederholen Sie die Schritte 1 bis 10 für alle weiteren zu erstellenden Kontaktobjekte.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie sollten für jede automatische Telefonzentrale mindestens einen Kontakt erstellen. Falls Sie den externen Zugriff ermöglichen möchten, benötigen Sie außerdem ein Kontaktobjekt für den Teilnehmerzugriff und DID-Nummern (Direct Inward Dial).
 
 

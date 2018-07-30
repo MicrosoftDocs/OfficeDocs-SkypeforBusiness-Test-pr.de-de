@@ -20,7 +20,7 @@ Reaktionsgruppen sind eine Anrufverwaltungsfunktion, mit der Sie Anrufe für ein
 Um die Reaktionsgruppen zu verwalten, konfigurieren Sie Agentgruppen, Warteschlangen und Workflows. Diese legen fest, wie ein Anruf vom Zeitpunkt der Tätigung bis hin zur Beantwortung durch einen Agent verarbeitet wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie über mehr als 300&nbsp;Workflows in einem einzelnen Pool Ihrer Reaktionsgruppenbereitstellung verfügen, sollten Sie die Workflows mithilfe von Lync Server-Verwaltungsshell-Cmdlets erstellen. Wenn Sie das Reaktionsgruppen-Konfigurationstool zum Erstellen von Workflows für einen Pool mit mehr als 300&nbsp;Workflows verwenden, wird für das Laden der Webseite sehr viel Zeit benötigt.
 
 

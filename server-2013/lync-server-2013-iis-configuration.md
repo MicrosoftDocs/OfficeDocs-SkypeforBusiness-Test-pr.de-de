@@ -124,7 +124,7 @@ Unter dem Betriebssystem Windows Server 2008 R2 SP1 x64 können Sie auch Windo
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
 
 
-> [!TIP]
+> [!NOTE]
 > Die anonyme Authentifizierung wird bei der Installation der IIS-Serverrolle standardmäßig installiert. Sie können die anonyme Authentifizierung nach der Installation von IIS verwalten. Ausführliche Informationen finden Sie unter "Aktivieren der anonymen Authentifizierung (IIS&nbsp;7)" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=203935">http://go.microsoft.com/fwlink/?linkid=203935</A>.
 
 
@@ -132,7 +132,7 @@ Unter dem Betriebssystem Windows Server 2008 R2 SP1 x64 können Sie auch Windo
 Die folgende Tabelle enthält die erforderlichen IIS 8.0- und IIS 8.5 Rollendienste für Windows Server 2012 und Windows Server 2012 R2.
 
 
-> [!TIP]
+> [!NOTE]
 > Für Windows Server 2012 und Windows Server 2012 R2 wurde das Cmdlet Add-WindowsFeature durch das Cmdlet Install-WindowsFeature ersetzt. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>.
 
 

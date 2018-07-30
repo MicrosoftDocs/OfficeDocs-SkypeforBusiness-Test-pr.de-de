@@ -44,7 +44,7 @@ Zur Erstellung einer Dienstqualitätsrichtlinie zur Verwaltung von Audiodaten m�
 10. Wählen Sie unter der Überschrift **Geben Sie die Quellportnummer an** die Option **Von dieser Quellportnummer bzw. diesem -bereich** aus. Geben Sie im zugehörigen Textfeld den Typ des Portbereichs ein, der für die Audioübertragungen reserviert ist. Wenn Sie beispielsweise die Ports ab Port 49152 bis zum Port 57500 für den Audiodatenverkehr reserviert haben, geben Sie den Portbereich mithilfe des folgenden Formats ein: **49152:57500** . Klicken Sie auf **Fertig stellen** .
 
 
-> [!TIP]
+> [!NOTE]
 > Der DSCP-Wert 46 ist ein etwas beliebiger Wert: obwohl der DSCP-Wert 46 oft verwendet wird, um Audiopakete zu markieren, müssen Sie den DSCP-Wert 46 nicht zur Audiokommunikation verwenden. Wenn Sie bereits die Dienstqualität implementiert haben und Sie einen anderen DSCP-Code für Audiodaten verwenden (z. B. DSCP-Wert 40), dann sollten Sie die Dienstqualitätsrichtlinie zur Verwendung desselben Codes (d. h. 40 für Audiodaten) konfigurieren. Wenn Sie dabei sind, die Dienstqualität (Quality of Service) zu implentieren, wird empfohlen, den DSCP-Wert 46 für Audiodaten zu verwenden, da dieser Wert der am häufigsten verwendete Wert zur Markierung der Audiopakete ist.
 
 

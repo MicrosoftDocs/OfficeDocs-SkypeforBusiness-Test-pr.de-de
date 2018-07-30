@@ -32,7 +32,7 @@ Verwenden Sie das folgende Verfahren, um einen Nummernbereich für die Gruppenan
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
 

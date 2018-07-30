@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Organisationen mit einer lokalen Bereitstellung von Lync Server müssen die folgenden Voraussetzungen erfüllen, damit Windows Store-App für Lync unterstützt wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Führen Sie für Lync Server 2010 auf allen Servern das kumulative Update für Lync Server 2010 vom Februar 2012 oder höher aus (verfügbar unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</A>). Soll es Benutzern möglich sein, an Besprechungen teilzunehmen, führen Sie auf den Servern das kumulative Update für Lync Server 2010 vom Oktober 2012 aus (verfügbar unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</A>).
 
 

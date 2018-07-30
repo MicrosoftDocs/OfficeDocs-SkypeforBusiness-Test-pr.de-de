@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-05-25_
 Führen Sie das folgende Verfahren aus, um das Zertifikat Ihrer virtuellen Internetinformationsdienste (Internet Information Services, IIS)-Verzeichnisse zu konfigurieren oder um die ordnungsgemäße Konfiguration der Zertifizierung zu überprüfen. Führen Sie das folgende Verfahren auf jedem Server mit IIS in Ihrem internen Lync Server-Pool sowie auf den optionalen Director- oder Directorpool-Servern aus.
 
 
-> [!TIP]
+> [!NOTE]
 > Mit dem folgenden Verfahren wird eine Anfrage eines kombinierten Zertifikats definiert, das für alle Zwecke von Lync Server, interne Websites und externe Websites in IIS verwendet wird. Mit Lync Server 2010 wurde ein Satz von Lync Server-Verwaltungsshell- Windows PowerShell-Cmdlets für den Ausdruckszweck der Verwaltung von Zertifikatanforderung, -import und -zuweisung eingeführt. Bei dem Verfahren wird angenommen, dass eine intern bereitgestellte Zertifizierungsstelle existiert, die die Anfrage verarbeiten kann. Wenn Sie öffentliche Zertifikate für Ihre Lync Server-Zwecke verwenden oder Ihre Zertifizierungsstelle eine Offline-Anfrage erfordert, finden Sie in der detaillierten Syntax in diesem Thema Informationen zum -Output -Parameter. <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
@@ -32,7 +32,7 @@ Führen Sie das folgende Verfahren aus, um das Zertifikat Ihrer virtuellen Inter
 3.  Wählen Sie im **Internetinformationsdienste-Manager** den **ServerName** und in der Ansicht **Features** die **Serverzertifikate** aus, klicken Sie mit der rechten Maustaste, und wählen Sie **Feature öffnen** aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn dem Server Zertifikate zugewiesen sind, werden sie in der Ansicht "Features" für Serverzertifikate angezeigt. Wenn ein Zertifikat vorhanden ist, das die Anforderungen für die externe Website in IIS erfüllt, können Sie dieses Zertifikat erneut verwenden. Um ein Zertifikat anzuzeigen, klicken Sie mit der rechten Maustaste darauf, und wählen Sie <STRONG>Anzeigen</STRONG> aus.
 
 
@@ -56,7 +56,7 @@ Führen Sie das folgende Verfahren aus, um das Zertifikat Ihrer virtuellen Inter
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Standardmäßig füllt "Request-CsCertificate" das Feld "Antragstellername" mit dem Server- oder Poolnamen und Einträge im Feld "Alternativer Antragstellername" mit dem Server-FQDN, dem Pool-FQDN, den FQDNs für einfache URLs sowie den FQDNs für interne und externe Webdienste aus. Dies geschieht durch einen Verweis auf das Topologiedokument in Ihrer Bereitstellung. Wenn ein Wert fehlt und Sie den -Verbose-Parameter angegeben haben, werden Sie darüber benachrichtigt, dass die berechneten und tatsächlichen Werte für alternative Namen nicht übereinstimmen, jedoch nicht darüber, welche Werte fehlen. Sie erhalten den vollständigen berechneten Wert, auf den das Cmdlet verweist. Verwenden Sie die berechnete Zeichenfolge für alternative Namen in der Ausgabe, um ein neues Zertifikat anzufordern, das alle Werte enthält.
 
     

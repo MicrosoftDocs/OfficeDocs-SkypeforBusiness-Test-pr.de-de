@@ -26,7 +26,7 @@ Wenn Sie während der Phase der Migration und Koexistenz Archivierungs- und Übe
   - Während der Koexistenz der Vorversionsbereitstellung und der Lync Server 2013-Bereitstellung sammelt die Office Communications Server 2007 R2-Version des Archivierungsservers und Monitoring Servers Daten von Benutzern, die in Office Communications Server 2007 R2-Pools verwaltet werden. Die Lync Server 2013-Version des Archivierungsservers und Monitoring Servers sammelt Daten von Benutzern, die in Lync Server 2013-Pools verwaltet werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Während der Migrationsphase, wenn Sie die Edgeserver der Vorversion noch zusammen mit dem neuen Lync Server 2013-Pilotpool verwenden, sammelt die Office Communications Server 2007 R2-Version des Archivierungsservers noch immer Daten von Benutzern, die in Office Communications Server 2007 R2-Pools verwaltet werden, und die Lync Server 2013-Version des Archivierungsservers sammelt noch Daten von Benutzern, die in Lync Server 2013-Pools verwaltet werden.
 
 

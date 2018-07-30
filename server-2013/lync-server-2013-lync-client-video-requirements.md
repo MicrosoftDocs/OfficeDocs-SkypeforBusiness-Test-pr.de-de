@@ -44,7 +44,7 @@ In Lync 2013 wird eine Hardwarebeschleunigung für die Videocodierung und -decod
 </ul>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu den Decodierungsmodi finden Sie unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268530%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=268530&amp;clcid=0x407</A>.
 
 
@@ -70,7 +70,7 @@ In Lync 2013 wird eine Hardwarebeschleunigung für die Videocodierung und -decod
 <td><p>USB-Videokameras mit integrierter H.264-Hardwarecodierung entsprechend der USB Video Class (UVC-)Spezifikation Version 1.5.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Lync 2013 unterstützt UVC 1.5-Kameras mit Windows 8 oder Windows 8.1, da Windows 8 UVC 1.5 unterstützt. Da Windows 7 UVC 1.5 nicht unterstützt, behandelt Lync 2013 UVC 1.5-Kameras als normale Kameras ohne Hardwarecodierung.
 
 
@@ -84,7 +84,7 @@ In Lync 2013 wird eine Hardwarebeschleunigung für die Videocodierung und -decod
 </ul>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu den Decodierungsmodi finden Sie unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268530%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=268530&amp;clcid=0x407</A>.
 
 
@@ -110,7 +110,7 @@ In Lync 2013 wird eine Hardwarebeschleunigung für die Videocodierung und -decod
 <td><p>USB-Videokameras mit integrierter H.264-Hardwarecodierung entsprechend der USB Video Class (UVC-)Spezifikation Version 1.5.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Lync 2013 unterstützt UVC 1.5-Kameras mit Windows 8 oder Windows 8.1, da Windows 8 UVC 1.5 unterstützt. Da Windows 7 UVC 1.5 nicht unterstützt, behandelt Lync 2013 UVC 1.5-Kameras als normale Kameras ohne Hardwarecodierung.
 
 
@@ -301,7 +301,7 @@ Die folgenden drei Tabellen erläutern die maximale Codierungs- und Decodierungs
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die WinSAT-Bewertung ist unter Windows 7 auf maximal 7,9 beschränkt. Die maximale Codierungsfähigkeit für einen Computer ohne hardwarebeschleunigten Codierer kann daher nur unter Windows 8 oder Windows 8.1 erreicht werden, wo der maximale WinSAT-Wert bei 9,9 liegt.
 
 

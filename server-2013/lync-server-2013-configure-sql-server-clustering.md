@@ -32,7 +32,7 @@ Wenn Sie SQL Server installieren, sollten Sie auch SQL Server Management Studio 
 1.  Nachdem Sie das SQL Server-Clustering installiert und konfiguriert haben, definieren Sie den SQL Server-Speicher im Topologie-Generator mit dem virtuellen Clusternamen der SQL Server-Instanz (wie konfiguriert beim Einrichten des SQL Server-Clusters) und dem Instanzennamen der SQL Server-Datenbank. Anders als bei einem einzelnen SQL Server-basierten Server verwenden Sie für einen geclusterten SQL Server-basierten Server den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des virtuellen Knotens.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die einzelnen Windows Server-Clusterknoten müssen für den Topologie-Generator nicht konfiguriert werden. Sie verwenden ausschließlich den virtuellen SQL&nbsp;Server-Clusternamen.
 
 
@@ -42,7 +42,7 @@ Wenn Sie SQL Server installieren, sollten Sie auch SQL Server Management Studio 
 3.  Stellen Sie mithilfe von SQL Server Management Studio sicher, dass die Standardeinstellungen für Datenbankordner und Protokolldateienordner den richtigen Datenträgerfreigaben im SQL Server-Cluster zugeordnet sind. Dieses Verfahren ist erforderlich, wenn Sie Datenbanken mit dem Topologie-Generator erstellen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie SQL Server Management Studio nicht installiert haben, können Sie die Installation nachholen, indem Sie die SQL&nbsp;Server-Installation erneut ausführen und das Verwaltungstool als zusätzliches Feature für die vorhandene SQL&nbsp;Server-Bereitstellung auswählen.
 
 

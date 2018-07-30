@@ -50,7 +50,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
       - Zum Anpassen des Logos, das in der Besprechungseinladung angezeigt wird, geben Sie in **Logo-URL** den Speicherort des Logos ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Das Logo muss ein GIF- oder JPG-Bild mit einer Größe von 188&nbsp;x&nbsp;30&nbsp;Pixeln sein.
 
     

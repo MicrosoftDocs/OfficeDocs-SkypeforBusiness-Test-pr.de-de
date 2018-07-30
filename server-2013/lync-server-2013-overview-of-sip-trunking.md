@@ -48,7 +48,7 @@ VoIP-Funktionen sind häufig die wichtigste Motivation für die Bereitstellung v
   - E9-1-1-Notrufdienste ermöglichen es der Rettungsleitstelle, die den Notruf entgegennimmt, basierend auf der Telefonnummer den geografischen Standort des Anrufers zu ermitteln.
 
 
-> [!TIP]
+> [!NOTE]
 > Erkundigen Sie sich bei Ihrem ITSP, welche Dienste unterstützt werden und für Ihre Organisation aktiviert werden können.
 
 

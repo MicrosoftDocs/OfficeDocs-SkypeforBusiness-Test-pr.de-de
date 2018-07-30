@@ -42,7 +42,7 @@ Konfigurieren Sie mit der Lync Server-Verwaltungsshell einen Hostinganbieter auf
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
 
-> [!TIP]
+> [!NOTE]
 > Sollten Sie Office 365 über 21Vianet in China nutzen, ersetzen Sie den Wert für den Parameter <STRONG>ProxyFqdn</STRONG> in diesem Beispiel ("exap.um.outlook.com") durch FQDN den Dienst, der in China von 21Vianet bereitgestellt wird: "exap.um.partner.outlook.cn".
 
 

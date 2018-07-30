@@ -54,7 +54,7 @@ Die folgende Abbildung zeigt die Signal- und Medienprotokolle, die der Vermittlu
 ![Vermittlungsserverprotokolle (Diagramm)](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Vermittlungsserverprotokolle (Diagramm)")
 
 
-> [!TIP]
+> [!NOTE]
 > Bei Verwendung von TCP oder RTP/RTCP (anstelle von SRTP oder SRTCP) zwischen dem PSTN-Gateway und dem Vermittlungsserver im Netzwerk sollten Sie geeignete Maßnahmen ergreifen, um die Sicherheit und den Datenschutz innerhalb des Netzwerks sicherzustellen.
 
 

@@ -52,7 +52,7 @@ Sie müssen separate und verschiedene Computer, auf denen Microsoft SQL Server 2
 In Topologie-Generator wird die folgende Meldung angezeigt, um Sie über dieses Problem zu informieren: "SQL-Server \[FQDN des Servers\] enthält bereits eine Hostingrolle "Benutzerspeicher" für SQL-Instanzen."
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Serverrollen bereitstellen möchten, die in Ihrer Lync Server 2013-Bereitstellung neu eingeführt wurden, empfiehlt es sich, zuerst für die vorhandene Bereitstellung gemäß der Migrationsdokumentation und der Bereitstellungsdokumentation ein Upgrade durchzuführen und anschließend die neuen Serverrollen den Beschreibungen in der Planungsdokumentation und in der Bereitstellungsdokumentation entsprechend bereitzustellen. Wenn Sie eine vorherige Gruppenchatversion migrieren, migrieren Sie diese zuletzt, nachdem Sie den Prozess zum Migrieren aller anderen Komponenten von Lync Server 2010 oder Office Communications Server 2007 R2 abgeschlossen haben.
 
 

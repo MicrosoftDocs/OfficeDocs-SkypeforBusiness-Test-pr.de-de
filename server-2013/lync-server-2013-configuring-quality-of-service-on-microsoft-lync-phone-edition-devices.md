@@ -34,7 +34,7 @@ Wenn Sie an Ihren UC-Telefonkonfigurationseinstellungen keine Änderungen vorgen
 Für die Dienstqualität ist nur eine dieser Eigenschaften von Interesse: "VoiceDiffServTag". Die Eigenschaft "VoiceDiffServTag" stellt den DSCP-Wert dar, der dem von einem Lync Phone Edition-Gerät stammenden Sprachdatenverkehr zugeordnet ist.
 
 
-> [!TIP]
+> [!NOTE]
 > Der Parameter "Voice8021p" wird in Lync Server 2013 nicht mehr unterstützt. Obwohl er für die Abwärtskompatibiltät mit Microsoft Lync Server 2010 weiterhin gültig ist, hat er keine Auswirkung auf Geräte, die mit Lync Server 2013 verwendet werden.
 
 

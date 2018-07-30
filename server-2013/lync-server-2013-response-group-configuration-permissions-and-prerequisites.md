@@ -111,7 +111,7 @@ Für die Konfiguration von Reaktionsgruppen müssen Sie über mindestens eine de
 
 
 
-> [!TIP]
+> [!NOTE]
 > <STRONG>(1)</STRONG> Ein Active Directory-Domänendienste-Benutzerobjekt muss Mitglied der spezifischen angegebenen Active Directory-Sicherheitsgruppe sein. Ein Administrator oder ein anderes delegiertes Mitglied der Active Directory-Gruppe mit entsprechenden Berechtigungen zum Hinzufügen von Benutzern zu einer Sicherheitsgruppe (beispielsweise Administratoren, Kontenoperatoren) muss ein Benutzerobjekt zur aufgeführten Gruppe oder Sicherheitsgruppe hinzufügen, damit der Benutzer die aufgeführten Funktionen nutzen kann. <STRONG>(2)</STRONG> Nur für Workflows, die der CsResponseGroupAdministrator dem CsResponseGroupManager zugewiesen hat. <STRONG>(3)</STRONG> Ein Reaktionsgruppe-Manager kann ein anderes Mitglied des CsResponseGroupManagers einem Workflow zuweisen, den der aktuelle Manager bereits verwaltet. <STRONG>(4)</STRONG> Der CsViewOnlyAdministrator kann nur Lync Server-Verwaltungsshell-Cmdlets mit der Zeichenfolge "Get" ausführen.
 
 
@@ -171,7 +171,7 @@ Führen Sie zum Ändern der Datei "Web.config" die folgenden Schritte aus:
 Dieser Abschnitt ist nur relevant, wenn Ihre Organisation Yi-, Meng- oder Zang-Zeichen unterstützen muss.
 
 
-> [!TIP]
+> [!NOTE]
 > Weitere Informationen zu Yi-, Meng- und Zang-Zeichen sowie zu ihrer möglichen Bedeutung für Ihre Bereitstellung finden Sie in den Informationen zu den GB18030-Zeichensätzen unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=240223">http://go.microsoft.com/fwlink/?linkid=240223</A>.
 
 

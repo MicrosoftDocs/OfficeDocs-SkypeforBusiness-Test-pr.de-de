@@ -44,7 +44,7 @@ Bei jedem Edgeserver handelt es sich um einen mehrfach vernetzten Computer mit e
 2.  Konfigurieren Sie für die externe Schnittstelle drei statische IP-Adressen im externen Subnetz des Umkreisnetzwerks (auch als überwachtes Subnetz bezeichnet), und verweisen Sie das Standardgateway auf die interne Schnittstelle der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Netzwerkadapters, sodass diese auf ein DNS-Umkreisserverpaar verweisen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es ist möglich, für diese Schnittstelle nur eine einzige IP-Adresse zu verwenden, hierfür müssen Sie allerdings die Portzuweisungen in nicht standardmäßige Werte ändern. Dies wird beim Erstellen der Topologie im Topologie-Generator festgelegt.
 
 
@@ -66,7 +66,7 @@ Bei jedem Edgeserver handelt es sich um einen mehrfach vernetzten Computer mit e
 2.  Konfigurieren Sie in der externen Schnittstelle drei statische IP-Adressen im externen Subnetz des Umkreisnetzwerks. Sie konfigurieren zudem das Standardgateway auf der externen Schnittstelle. Definieren Sie beispielsweise den Internetrouter oder die externe Firewall als Standardgateway. Konfigurieren Sie die DNS-Einstellungen, sodass diese auf einen DNS-Server, jedoch vorzugsweise auf ein externes DNS-Serverpaar verweisen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es ist möglich, jedoch nicht empfehlenswert, für die externe Schnittstelle nur eine einzige IP-Adresse zu verwenden. Hierfür müssen Sie allerdings die Portzuweisungen in nicht standardmäßige Werte ändern und sich vom Standardport 443 wegbewegen, der gewöhnlich "firewallfreundlich" für die Clientkonfiguration ist. Sie bestimmen die IP-Adresseneinstellung und die Porteinstellungen, wenn Sie die Topologie im Topologie-Generator erstellen.
 
 

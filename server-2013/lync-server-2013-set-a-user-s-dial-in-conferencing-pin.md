@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-10_
 Zur Teilnahme an einer Einwahlkonferenz als authentifizierter Benutzer benötigt ein Lync Server 2013-Benutzer mit AD DS-Anmeldeinformationen (Active Directory Domain Services, Active Directory-Domänendienste) eine persönliche Identifikationsnummer (PIN). Wenn ein Benutzer die PIN für die Einwahlkonferenz vergisst oder nicht über Lync Server festgelegt hat, können Sie die PIN des Benutzers über die Lync Server-Systemsteuerung festlegen. Die PIN kann entweder automatisch generiert oder manuell erstellt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Bestimmte Eigenschaften der PIN, beispielsweise die Mindestlänge, können als Richtlinie konfiguriert werden. Zusätzlich zur globalen Richtlinie können Sie eine PIN-Richtlinie für einzelne Standorte oder Benutzer konfigurieren. Ausführliche Informationen zur Konfiguration einer PIN-Richtlinie finden Sie unter <A href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Konfigurieren von PIN-Regeln (persönliche Identifikationsnummer) für Einwahlkonferenzen in Lync Server 2013</A>.
 
 
@@ -48,14 +48,14 @@ Zur Teilnahme an einer Einwahlkonferenz als authentifizierter Benutzer benötigt
     4.  Je nachdem, welche Benutzereigenschaft Sie ausgewählt haben, geben Sie nun die Kriterien ein, mit denen Sie die Suchergebnisse filtern möchten, oder treffen eine entsprechende Auswahl in der Dropdownliste.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG> , um zusätzliche Suchklauseln einzugeben.
 
     
     5.  Klicken Sie auf **Suchen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ist die PIN gesperrt, müssen Sie die Sperre zunächst aufheben, bevor Sie die PIN festlegen können. Klicken Sie zum Aufheben der Sperre auf den Benutzer, dann auf <STRONG>Aktion</STRONG> und auf <STRONG>PIN entsperren</STRONG> .
 
 

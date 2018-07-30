@@ -36,7 +36,7 @@ Für Einwahlkonferenzen sind die folgenden  Lync Server 2013-Komponenten erford
 Sie stellen diese Komponenten bereit, wenn Sie mit dem Topologie-Generator Ihre Topologie definieren und veröffentlichen und anschließend einen Front-End-Pool oder Standard Edition-Server bereitstellen. Wenn Sie Enterprise-VoIP bereitstellen, muss diese Bereitstellung vor der Konfiguration von Einwahlkonferenzen erfolgen. Wenn Sie Enterprise-VoIP nicht bereitstellen, können Sie einen Vermittlungsserver und ein PSTN-Gateway bei der Bereitstellung Ihres Front-End-Pools oder Standard Edition-Servers einrichten.
 
 
-> [!TIP]
+> [!NOTE]
 > Stellen Sie bei einem Upgrade von Office Communications Server 2007 R2 auf Lync Server 2013 Einwahlkonferenzen in allen Pools bereit, die zum Hosten von Lync Server 2013-Konferenzen dienen sollen. Ausführliche Informationen zum Migrieren von Einwahlkonferenzen finden Sie unter&nbsp; <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration von Office Communications Server 2007 R2 zu Lync Server 2013</A>.
 
 
@@ -50,7 +50,7 @@ Dieser Abschnitt setzt voraus, dass Sie die folgenden Schritte ausgeführt haben
   - Die Topologie veröffentlicht sowie den Front-End-Pool oder Standard Edition-Server eingerichtet haben. Weitere Informationen zum Veröffentlichen der Topologie und Installieren von  Lync Server 2013 finden Sie unter [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungdokumentation.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei der Installation Ihrer veröffentlichten Topologie wird die Webseite mit Einstellungen für Einwahlkonferenzen als Teil der Webdienste auf dem Front-End-Server oder Standard Edition-Server installiert.
 
     

@@ -24,13 +24,13 @@ In Lync Server 2013 wird die AutoErmittlung erweitert, um dem Client mitzuteilen
 Im Folgenden wird ein typisches AutoErmittlung-Antwortdokument von einem Lync-Webdienst aufgegliedert und jede darin enthaltene Zeile erläutert. So ist es am einfachsten, das AutoErmittlung-Antwortdokument zu interpretieren und zu verstehen, wie die Webdienste dem Client anhand dieses Dokuments die zur Verfügung stehenden Features mitteilen.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei den folgenden Angaben wird angenommen, dass sich der Benutzer durch Beantworten einer Authentifizierungsanfrage bereits beim Homeserver authentifiziert hat.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Der Lync-AutoErmittlung-Webdienst ist in den <STRONG>Microsoft Office-Protokollen</STRONG> im Abschnitt zu den <STRONG>Offenen Spezifikationen</STRONG> der MSDN Library (<STRONG>Microsoft Developer Network</STRONG>) definiert. Ausführliche Informationen finden Sie im Dokument mit den vollständigen Spezifikationen zum Lync-AutoErmittlung-Webdienstprotokoll unter: <A class=uri href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?linkid=273839</A>. Informationen zur Authentifizierung finden Sie auf der Seite "OC Authentication Web Service Protocol" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?linkid=279015</A>.
 
 

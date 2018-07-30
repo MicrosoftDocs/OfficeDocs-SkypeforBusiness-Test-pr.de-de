@@ -80,7 +80,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-27_
   - SIP-Domäne/n (Session Initiation Protocol). Dies ist das Domänensuffix des SIP URI, den die Benutzer derzeit für Chatunterhaltungen verwenden. Wenn es in Ihrer Organisation mehr als eine SIP-Domäne gibt, geben Sie das Suffix jeder Domäne an, die für Chatnachrichten verwendet wird. Geben Sie beispielsweise für "Benutzer1@contoso.com" als SIP-Domäne "contoso.com" an, für "Benutzer1@example.fabrikam.com" geben Sie "example.fabrikam.com" als SIP-Domäne an.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Geben Sie nur das Domänensuffix der SIP-Domäne an. Geben Sie keine FQDNs für die SIP-Domäne an, auch nicht den FQDN für den Zugriffs-Edgedienst.
 
 

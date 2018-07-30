@@ -268,7 +268,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <td><p>Speichert für jeden VoIP/PSTN-Anruf mit zwei Parteien Informationen zum Anruf, wie z. B. die Telefon-ID des VoIP-Telefons, das verwendete Gateway und welche Partei getrennt wurde. Die Start-/Endzeiten von Anrufen und den Antwortcode finden Sie in der <a href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in Lync Server 2013</a>.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Wenn eine Anrufpartei ein VoIP-Benutzer ist oder wenn ein Vermittlungsserver am Anruf beteiligt war, wird in dieser Tabelle ein Datensatz erstellt. Informationen zu VoIP/VoIP-Anrufen ohne Festnetztelefon werden in der <A href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in Lync Server 2013</A> erfasst.
 
 
@@ -298,7 +298,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 <td><p>Für jeden Notruf, wie z. B. einen erweiterten 9-1-1-Anruf (E9-1-1) werden Standortinformationen zum Anruf gespeichert. Die Start-/Endzeiten von Anrufen und den Antwortcode finden Sie in der <a href="lync-server-2013-sessiondetails-table.md">SessionDetails-Tabelle in Lync Server 2013</a>.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Diese Tabelle enthält nur den Standort-BLOB für den E9-1-1-Anruf. Weitere ausführliche Informationen zum Anruf finden Sie in der <STRONG>SessionDetails</STRONG> -Tabelle.
 
 

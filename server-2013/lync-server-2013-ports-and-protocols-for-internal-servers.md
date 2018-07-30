@@ -26,7 +26,7 @@ In diesem Abschnitt werden die von Servern, Lastenausgleichssystemen und Clients
 ## Port- und Protokolldetails
 
 
-> [!TIP]
+> [!NOTE]
 > Die Windows-Firewall muss ausgeführt werden, bevor Sie die Lync Server-Dienste auf einem Server starten, da Lync Server dann die erforderlichen Ports in der Firewall öffnet.
 
 
@@ -431,7 +431,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 
 
 
-> [!TIP]
+> [!NOTE]
 > In einigen Szenarien mit Remoteanrufsteuerung ist eine TCP-Verbindung zwischen dem Front-End-Server oder dem Director und der Nebenstellenanlage erforderlich. Wenngleich TCP-Port&nbsp;5060 in Lync Server nicht mehr verwendet wird, können Sie bei der Bereitstellung der Remoteanrufsteuerung eine Konfiguration mit vertrauenswürdigen Servern erstellen, in der der FQDN des Anschlussservers für die Remoteanrufsteuerung dem TCP-Port zugeordnet wird, der vom Front-End-Server oder vom Director zur Verbindung mit der Nebenstellenanlage verwendet wird. Ausführliche Informationen hierzu finden Sie im Abschnitt zum Cmdlet <STRONG>CsTrustedApplicationComputer</STRONG> in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 
@@ -730,13 +730,13 @@ Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss 
 **\*** Zum Konfigurieren spezieller Ports für diese Medientypen verwenden Sie das Cmdlet **CsConferencingConfiguration** (Parameter **ClientMediaPortRangeEnabled**, **ClientMediaPort** und **ClientMediaPortRange**).
 
 
-> [!TIP]
+> [!NOTE]
 > Zum Festlegen von Progammen für Lync-Clients müssen die erforderlichen Betriebssystemfirewall-Ausnahmen auf dem Clientcomputer automatisch erstellt werden.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die für den externen Benutzerzugriff verwendeten Ports werden für jedes Szenario benötigt, in dem der Client die Firewall der Organisation durchqueren muss (z.&nbsp;B. bei externer Kommunikation oder bei Besprechungen, die von anderen Organisationen gehostet werden).
 
 

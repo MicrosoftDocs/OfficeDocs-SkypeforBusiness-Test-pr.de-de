@@ -28,7 +28,7 @@ Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten 
 4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da für jede Microsoft Lync Server 2013-Bereitstellung nur ein Netzwerk konfiguriert werden kann, werden in der Liste nie mehrere Netzwerkkonfigurationen angezeigt. Die globale Konfiguration kann nicht umbenannt werden.
 
 

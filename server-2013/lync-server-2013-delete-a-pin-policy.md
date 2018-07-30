@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie (persönliche Identifikationsnummer) zu löschen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die globale PIN-Richtlinie kann nicht gelöscht werden.
 
 

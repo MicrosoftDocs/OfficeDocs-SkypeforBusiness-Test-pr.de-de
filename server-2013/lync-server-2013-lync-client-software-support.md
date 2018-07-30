@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 In diesem Abschnitt wird die Softwareunterstützung für Lync 2013 und das Onlinebesprechungs-Add-In für Lync 2013 zusammengefasst.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Onlinebesprechungs-Add-In für Lync&nbsp;2013, das die Besprechungsverwaltung aus dem Outlook für Messaging und Zusammenarbeit unterstützt, wird automatisch mit Lync 2013 installiert.
 
 
@@ -45,7 +45,7 @@ In diesem Abschnitt wird die Softwareunterstützung für Lync 2013 und das Onlin
 <p>Windows Server 2008 R2 mit neuestem Service Pack</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Lync 2013 und das Onlinebesprechungs-Add-In für Lync&nbsp;2013 werden unter Windows Vista oder Windows XP (alle Versionen) nicht unterstützt.
 
 
@@ -64,7 +64,7 @@ In diesem Abschnitt wird die Softwareunterstützung für Lync 2013 und das Onlin
 <p>Webbrowser Mozilla Firefox</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Falls Sie Lync mit Microsoft Exchange Online verwenden und Ihre Organisation einen authentifizierenden HTTP-Proxy bereitgestellt hat, ist Internet Explorer&nbsp;9 oder Internet Explorer&nbsp;8 erforderlich.
 
 

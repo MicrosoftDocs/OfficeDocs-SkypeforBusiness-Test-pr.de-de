@@ -20,7 +20,7 @@ Sie können das Lync Server 2013Tool Best Practices Analyzer verwenden, um Ihre 
 Bevor Sie Ihre Suche starten, sollten Sie sicherstellen, dass alle Komponenten in Ihrer Lync Server 2013-Umgebung ausgeführt werden und online sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Abhängig von der Konfiguration ihrer Edgeserver und sämtlicher zugehöriger Umkreisnetzwerkeinstellungen, einschließlich Firewall-Einstellungen und Berechtigungen, kann Best Practices Analyzer möglicherweise nicht auf Ihre Edgeserver zugreifen und sie durchsuchen. Wenn Sie Edgeserver in Ihre Suche einschließen und die Berichte angeben, dass ein Problem mit dem Zugriff auf Edgeserver vorliegt, müssen Sie Edgeserver möglicherweise aus den Durchsuchungsoptionen entfernen und die Suche erneut ausführen, damit das Problem nicht im Bericht erscheint.
 
 

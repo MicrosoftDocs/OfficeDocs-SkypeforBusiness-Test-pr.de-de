@@ -44,7 +44,7 @@ Der Computer mit Exchange Server muss mit einem Serverzertifikat konfiguriert se
 3.  Wählen Sie unter **Download eines Zertifizierungsstellenzertifikats, einer Zertifikatkette oder einer Zertifikatsperrliste** die **Kodierungsmethode für Base 64** aus, und klicken Sie dann auf **Download des Zertifizierungsstellenzertifikats**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können in diesem Schritt auch die DER-Codierung (Distinguished Encoding Rules) angeben. Beachten Sie Folgendes, wenn Sie die DER-Codierung auswählen: Der Dateityp im nächsten Schritt dieses Verfahrens und in Schritt&nbsp;10 unter <STRONG>So installieren Sie das Zertifizierungsstellenzertifikat</STRONG> ist P7B und nicht CER.
 
 
@@ -104,7 +104,7 @@ Der Computer mit Exchange Server muss mit einem Serverzertifikat konfiguriert se
 6.  Geben Sie unter **Identifikationsinformationen für Offlinevorlage** im Feld **Name** den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Computers mit Exchange Server ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie müssen den FQDN des Exchange Server-Computers eingeben, damit die Kommunikation funktioniert.
 
 
@@ -132,7 +132,7 @@ Der Computer mit Exchange Server muss mit einem Serverzertifikat konfiguriert se
     2.  "Importieren eines Exchange-Zertifikats" unter [http://go.microsoft.com/fwlink/?linkid=195496\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=195496%26clcid=0x407)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Im Feld <STRONG>Antragstellername</STRONG> des Zertifikats müssen Sie den FQDN des Exchange Server-Computers eingeben, damit die Kommunikation funktioniert.
 
 
@@ -148,7 +148,7 @@ Der Computer mit Exchange Server muss mit einem Serverzertifikat konfiguriert se
 4.  Doppelklicken Sie auf das Zertifikat, wenn Sie Detailinformationen einsehen und sich vergewissern möchten, dass das Zertifikat gültig ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es kann eine Weile dauern, bis das Zertifikat als gültig angezeigt wird.
 
 
@@ -156,7 +156,7 @@ Der Computer mit Exchange Server muss mit einem Serverzertifikat konfiguriert se
 5.  Starten Sie den Microsoft Exchange Unified Messaging-Dienst.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Server, auf dem Exchange Server&nbsp;2007&nbsp;SP1 Unified Messaging ausgeführt wird, ruft automatisch das richtige Zertifikat ab.
 
 

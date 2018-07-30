@@ -141,7 +141,7 @@ Die Tabelle folgt den Referenzarchitekturen aus dem Abschnitt zur Planung. Ausf�
 
 
 
-> [!TIP]
+> [!NOTE]
 > VIP = Virtuelle IP-Adresse für ein Hardwaregerät zum Lastenausgleich
 
 

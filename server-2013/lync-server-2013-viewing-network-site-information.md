@@ -28,7 +28,7 @@ Netzwerkstandorte sind Niederlassungen oder Standorte, die in jeder Region einer
 4.  Klicken Sie auf der Seite **Website** auf die Website, die Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können jeweils nur Informationen für einen Standort anzeigen.
 
 

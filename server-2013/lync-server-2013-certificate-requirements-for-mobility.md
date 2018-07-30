@@ -28,7 +28,7 @@ Zur Unterstützung der automatischen Ermittlung müssen Sie für folgende Zertif
 In diesem Abschnitt werden die Einträge für alternative Antragstellernamen beschrieben, die zur Unterstützung der automatischen Ermittlung für Zertifikate erforderlich sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Das erneute Ausstellen von Zertifikaten mithilfe einer internen Zertifizierungsstelle ist normalerweise ein einfacher Vorgang. Das Hinzufügen mehrerer Einträge für alternative Antragstellernamen zu öffentlichen Zertifikaten, die vom Reverseproxy verwendet werden, kann jedoch aufwendig sein. Wenn Sie über viele SIP-Domänen verfügen und das Hinzufügen alternativer Antragstellernamen daher sehr zeitaufwendig ist, können Sie Reverseproxy zum Verwenden von HTTP für die anfängliche AutoErmittlungsdienst-Anforderung verwenden, anstatt zum Verwenden von HTTPS (die Standardkonfiguration). Ausführliche Informationen finden Sie unter <A href="lync-server-2013-technical-requirements-for-mobility.md">Technische Anforderungen für die Mobilität in Lync Server 2013</A>.
 
 
@@ -60,7 +60,7 @@ In diesem Abschnitt werden die Einträge für alternative Antragstellernamen bes
 
 
 
-> [!TIP]
+> [!NOTE]
 > Alternativ können Sie SAN=*.&lt;sipDömäne&gt; verwenden.
 
 
@@ -92,7 +92,7 @@ In diesem Abschnitt werden die Einträge für alternative Antragstellernamen bes
 
 
 
-> [!TIP]
+> [!NOTE]
 > Alternativ können Sie SAN=*.&lt;sipDömäne&gt; verwenden.
 
 
@@ -120,13 +120,13 @@ In diesem Abschnitt werden die Einträge für alternative Antragstellernamen bes
 
 
 
-> [!TIP]
+> [!NOTE]
 > Sie weisen dieses SAN dem Zertifikat zu, das dem SSL-Listener auf dem Reverseproxy zugewiesen ist.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Ihr Reverseproxy-Listener verfügt über alternative Antragstellernamen für die externen Webdienste-URLs (z.&nbsp;B. "SAN=lyncwebextpool01.contoso.com" und "dirwebexternal.contoso.com", wenn Sie den optionalen Director bereitgestellt haben).
 
 

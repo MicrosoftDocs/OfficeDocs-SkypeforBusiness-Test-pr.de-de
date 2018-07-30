@@ -32,7 +32,7 @@ Die Dateispeicher der Standard Edition befinden Sie in der Regel auf dem Standar
         Enable-CsTopology
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Schritt ist nur erforderlich, wenn Sie den Topologie-Generator nicht während des Wiederherstellungsvorgangs bereits ausgeführt haben.
 
 

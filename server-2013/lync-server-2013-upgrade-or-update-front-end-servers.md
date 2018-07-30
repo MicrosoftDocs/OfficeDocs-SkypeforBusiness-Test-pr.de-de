@@ -36,7 +36,7 @@ Wenn Sie Server upgraden, müssen Sie dies für jede Upgradedomäne einzeln ausf
     1.  Stoppen Sie neue Verbindungen mit den Front-End-Servern, die Sie upgraden möchten, über das Cmdlet `Stop-CsWindowsService -Graceful -Verbose`.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie diese Serverupgrades während einer geplanten Serverstillstandszeit ausführen, können Sie das Cmdlet ohne den Parameter -<STRONG>Graceful</STRONG> ausführen: <STRONG>Stop-CsWindowsService</STRONG>. Hiermit werden die Dienste sofort heruntergefahren, ohne dass gewartet wird, bis alle vorhandenen Dienstanforderungen abgearbeitet wurden.
 
     

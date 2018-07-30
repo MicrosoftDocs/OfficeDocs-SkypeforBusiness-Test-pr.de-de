@@ -24,7 +24,7 @@ In Microsoft Lync Server 2013 werden mithilfe der Überwachung Nutzungsinformati
   - Andere Benutzer über eine Peer-zu-Peer-Unterhaltung wie Sofortnachrichten oder Audioanruf
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 protokolliert beispielsweise die folgenden Informationen über die jeweilige Sitzung: Wer hat wen angerufen? Welche Endpunkte waren an der Sitzung beteiligt? Wie lange hat die Sitzung gedauert? Wie wurde die Qualität der Sitzung empfunden? Der Anruf selbst wird von Lync Server jedoch nicht aufgezeichnet. Dies gilt auch für Sofortnachrichtensitzungen: Lync Server zeichnet zwar Informationen zu den Sofortnachrichtensitzungen auf, Datensätze für jede einzelne Sofortnachricht, die im Rahmen einer Sitzung gesendet wird, werden jedoch nicht verwaltet.
 
 

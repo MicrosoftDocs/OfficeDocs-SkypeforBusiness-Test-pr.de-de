@@ -19,7 +19,7 @@ Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig d
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-"Set-CsAddressBookConfiguration" ähnelt dem Cmdlet "new-csaddressbookconfiguration", wird jedoch zum Ändern einer vorhandenen Konfiguration verwendet.
+"Set-CsAddressBookConfiguration" ähnelt dem Cmdlet "New-CsAddressBookConfiguration", wird jedoch zum Ändern einer vorhandenen Konfiguration verwendet.
 
 Beispiel:
 

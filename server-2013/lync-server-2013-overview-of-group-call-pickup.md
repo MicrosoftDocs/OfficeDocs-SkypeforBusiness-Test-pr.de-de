@@ -24,7 +24,7 @@ In Umgebungen, in denen sich Benutzer nicht in einer offenen Büroanordnung befi
 Die Gruppenanrufannahme basiert auf der Anwendung zum Parken von Anrufen. Wenn Sie die Gruppenanrufannahme bereitstellen, konfigurieren Sie Orbittabelle für das Parken von Anrufen mit separaten Durchwahlnummernbereichen, die als Nummern für die Anrufannahmegruppe festgelegt sind. Wie bei Orbitnummern zum Parken von Anrufen muss es sich auch bei Nummern für die Anrufannahmegruppe um virtuelle Durchwahlen handeln, denen kein Benutzer oder Telefon zugewiesen ist. In jedem Front-End-Pool, in dem Sie die Gruppenanrufannahme bereitstellen, kann mindestens ein Nummernbereich für die Anrufannahmegruppe vorhanden sein. Die Gruppennummernbereiche müssen in der Lync Server-Bereitstellung global eindeutig sein.
 
 
-> [!TIP]
+> [!NOTE]
 > Nummernbereiche, die in der Orbittabelle für das Parken von Anrufen als Nummern für die Gruppenanrufannahme festgelegt sind, können nicht mithilfe der Lync Server-Systemsteuerung verwaltet oder angezeigt werden. Die einzige Möglichkeit zum Anzeigen aller Nummernbereiche in der Orbittabelle für das Parken von Anrufen ist die Verwendung der Lync Server-Verwaltungsshell. Entsprechen können Nummern für die Gruppenanrufannahme nur mithilfe der Lync Server-Verwaltungsshell hinzugefügt, geändert oder entfernt werden.
 
 
@@ -32,13 +32,13 @@ Die Gruppenanrufannahme basiert auf der Anwendung zum Parken von Anrufen. Wenn S
 Nach dem Konfigurieren der Nummern für die Anrufannahmegruppe weisen Sie Benutzer einer Anrufannahmegruppe zu. Die Anrufe jedes Benutzers, der einer Anrufannahmegruppe zugewiesen ist, können von anderen Personen angenommen werden. Wenn ein Anruf an einen Benutzer eingeht, der einer Anrufannahmegruppe zugewiesen ist, kann ein beliebiger anderer Benutzer diesen Anruf annehmen, indem er manuell die Nummer für die Anrufannahmegruppe wählt. Der Benutzer, der den Anruf annimmt, muss kein Mitglied der Gruppe sein. Wenn ein Anruf von einem anderen Benutzer angenommen wird, wird eine Benachrichtigung an den Benutzer gesendet, dessen Nummer ursprünglich gewählt wurde.
 
 
-> [!TIP]
+> [!NOTE]
 > Ein Benutzer kann nur in einer Anrufannahmegruppe Mitglied sein.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Ein Anruf an ein Mitglied einer Anrufannahmegruppe kann zwar von jedem Benutzer in der Lync Server-Bereitstellung angenommen werden, der betreffende Benutzer muss jedoch die richtige Nummer für die Anrufannahmegruppe wählen.
 
 
@@ -54,7 +54,7 @@ Die Gruppenanrufannahme kann nicht zum Annehmen der folgenden Anruftypen verwend
   - Anrufe von Kontakten, denen die private Beziehung "Freunde und Familie" zugewiesen wurde
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ein Benutzer, der Mitglied einer Anrufannahmegruppe ist, kann die Annahme bestimmter Anrufe über die Gruppenanrufannahme verhindern, indem er den Kontakt im Lync-Client als persönlichen Kontakt kennzeichnet. Zum Kennzeichnen eines Kontakts als persönlichen Kontakt legen Sie die private Beziehung für den Kontakt auf "Freunde und Familie" fest. Eingehende Anrufe von Kontakten mit der privaten Beziehung "Freunde und Familie" können nicht über die Gruppenanrufannahme angenommen werden.
 
 
@@ -62,7 +62,7 @@ Die Gruppenanrufannahme kann nicht zum Annehmen der folgenden Anruftypen verwend
   - Videoteil von Audio-/Videoanrufen
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn ein Benutzer einen Audio-/Videoanruf annimmt, empfängt der Benutzer nur den Audioteil. Der Anruf kann entweder vom Anrufer oder von der Person, die den Anruf annimmt, hochgestuft und damit der Videoteil hinzugefügt werden.
 
 

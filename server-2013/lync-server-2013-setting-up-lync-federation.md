@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hinzufügen der Features für Partnerverbundszenarien ganz einfach. Wenn Sie noch keine Edgeserver eingerichtet haben, müssen Sie diese Einrichtung zuerst durchführen. Ausführliche Informationen finden Sie unter [Planen des Zugriffs externer Benutzer in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in der Planungsdokumentation und [Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in der Bereitstellungsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie eine beliebige Kombination von XMPP-Partnerverbund, Lync-Partnerverbund oder Konnektivität mit öffentlichen Chatdiensten einrichten möchten, können Sie diese Partnerverbundtypen gleichzeitig oder nacheinander bereitstellen. Wenn Sie die Optionen über den Topologie-Generator und die Lync Server-Verwaltungsshell konfigurieren und dann den Bereitstellungs-Assistenten auf den Edgeserver ausführen, nachdem Sie die Optionen für einen, zwei oder drei Partnerverbundtypen konfiguriert haben, können Sie die Anzahl der erforderlichen Schritte reduzieren.
 
 
@@ -121,7 +121,7 @@ Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hin
 3.  Definieren und konfigurieren Sie Richtlinien mithilfe der Lync Server-Systemsteuerung oder der Lync Server-Verwaltungsshell und den entsprechenden Cmdlets. Ausführliche Informationen zu den Lync Server-Verwaltungsshell-Cmdlets finden Sie unter [Cmdlets für Partnerverbund und externen Zugriff in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/).
     
 
-    > [!TIP]
+    > [!NOTE]
     > In Lync Room System (LRS) wird die Schaltfläche "Teilnehmen" nicht für Besprechungen angezeigt, die von Organisatoren in Lync-Verbundpartnern gesendet werden. Damit ein Link für die Besprechungsteilnahme in LRS angezeigt wird, muss die sendende Organisation TNEF über das folgende Cmdlet aktivieren:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Beachten Sie, dass dies nicht LRS-spezifisch ist. In Outlook und Lync würden in diesem Fall ebenfalls keine Links zum Teilnehmen angezeigt werden, da MAPI-Eigenschaften nicht transportiert werden. Im Fall von Outlook kann der Benutzer aber die Besprechungseinladung öffnen und auf die Besprechungs-URL klicken. Wenn TNEFEnabled auf "True" gesetzt ist, entfernt Exchange 2013 MAPI-Eigenschaften einschließlich OnlineMeetingExternalLink nicht und die Schaltfläche "Teilnehmen" wird in der Erinnerung angezeigt.
 
 

@@ -24,7 +24,7 @@ Die Reaktionsgruppenanwendung bietet Spracherkennung und Text-zu-Sprache-Funktio
 Interaktive Workflows unterstützen bis zu zwei Frageebenen mit jeweils vier möglichen Antworten. Dem Anrufer wird vom interaktiven Sprachantwortsystem eine Frage gestellt. Je nachdem, wie der Anrufer die Frage beantwortet, wird er entweder in einer Warteschleife platziert, oder es wird ihm eine zweite Frage gestellt. Die zweite Frage kann ebenfalls vier mögliche Antworten haben. Abhängig von der Antwort auf die Frage der zweiten Ebene wird der Anrufer an die geeignete Warteschleife weitergeleitet.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Anrufflüsse mithilfe der Lync Server-Verwaltungsshell entwerfen, können Sie eine beliebige Anzahl von Ebenen für IVR-Fragen und eine beliebige Anzahl von Antworten definieren. Aus Gründen der Benutzerfreundlichkeit wird jedoch empfohlen, nicht mehr als drei Frageebenen und pro Ebene nicht mehr als fünf Antworten zu definieren. Darüber hinaus kann ein Anruffluss, der über mehr als zwei Frageebenen und pro Ebene über mehr als vier Antworten verfügt, nicht mithilfe der Systemsteuerung für Lync Server 2013 bearbeitet werden.
 
 

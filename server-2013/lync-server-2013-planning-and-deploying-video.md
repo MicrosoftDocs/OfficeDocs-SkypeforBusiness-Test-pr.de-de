@@ -24,7 +24,7 @@ In Lync Server 2013 gibt es die folgenden neuen Videofeatures:
   - **H.264-Video**   Der H.264-Videocodec ist nun der Standard für die Videocodierung auf Lync 2013-Clients. H.264-Video unterstützt mehr Bildschirmauflösungen und Frameraten und verbessert die Videoskalierbarkeit.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Lync Server 2013 unterstützt weiterhin den VC1-Codec für die Interoperabilität mit vorherigen Versionen von Lync. Ausführliche Informationen und Hintergrundinformation zum neuen Videocodec finden Sie im Blogbeitrag "Video Interoperability in Lync&nbsp;2013" von Jeff Schertz unter <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>.
 
 

@@ -74,7 +74,7 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>0 = Ausführbar (Standard)</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > "ApplicationInstallPath" erforderlich.
 
 
@@ -87,7 +87,7 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>Vollständiger Pfad der ausführbaren Datei.</p>
 <div class="alert">
 
-> [!TIP]
+> [!NOTE]
 > Muss angegeben werden, falls "ApplicationType" gleich 0 (ausführbar) ist.
 
 

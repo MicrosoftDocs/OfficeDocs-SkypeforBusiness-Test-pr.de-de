@@ -42,7 +42,7 @@ Beim Exportieren Ihres Entwurfs nach Microsoft Excel wird ein Bericht in Form ei
 Beim Exportieren Ihres Entwurfs nach Microsoft Visio wird ein Diagramm erstellt, das Sie zur Dokumentation Ihrer konfigurierten Topologie und Infrastruktur verwenden können. Das importierte Diagramm kann bearbeitet und neu angeordnet werden, um Ihre Dokumentationsanforderungen zu erfüllen. Das typische Visio-Diagramm umfasst Folgendes:
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Ihr Entwurf so groß ist, dass mehr als drei Front-End-Server erforderlich sind, wird für Front-End-Pool, Front-End-Server, für den Computer mit SQL Server, IP-Adressen und FQDNs eine zusätzliche Seite erstellt.
 
 

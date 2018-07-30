@@ -26,7 +26,7 @@ Beispiel:
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 
-> [!TIP]
+> [!NOTE]
 > Windows PowerShell bietet Ihnen mehr Optionen und zusätzliche Konfigurationsoptionen, die mit CLSController.exe nicht verfügbar sind. CLSController bietet ein schnelles, präzises Verfahren zum Ausführen von Befehlen, ist aber auf den für den CLSController verfügbaren Befehlssatz beschränkt. Windows PowerShell ist nicht auf die Befehle beschränkt, die für den Befehlsprozessor des CLSControllers verfügbar sind, und bietet einen größeren Befehlssatz und mehr Optionen. Beispiel: CLSController.exe bietet Ihnen Optionen für "–computers" und "–pools". Mit der Windows PowerShell können Sie in den meisten Befehlen Computer oder Pools angeben, und wenn Sie neue Szenarien definieren (CLSController besitzt eine begrenzte Anzahl Szenarien, die nicht durch den Benutzer geändert werden können), können Sie einen Standort- oder einen globalen Bereich definieren. Diese leistungsstarke Funktion der Windows PowerShell erlaubt Ihnen die Definition eines Szenarios im Standort- oder im globalen Bereich, während die tatsächliche Protokollierung auf einen Computer oder Pool beschränkt wird.<BR>Zwischen den Eingabezeilenbefehlen, die in der Windows PowerShell oder im CLSController ausgeführt werden können, bestehen fundamentale Unterschiede. Die Windows PowerShell bietet reichhaltige Verfahren für die Konfiguration und Definition von Szenarien sowie zur sinnvollen Wiederverwendung dieser Szenarien in Ihren Fehlerbehebungsszenarien. Während der CLSController eine schnelle und effiziente Möglichkeit bietet, Befehle einzugeben und Ergebnisse zu erhalten, ist der Befehlssatz für den CLSController auf die begrenzte Anzahl der über die Befehlszeile verfügbaren Befehle beschränkt. Anders als Windows PowerShell-Cmdlets kann der CLSController keine neuen Szenarien definieren oder den Bereich auf Standort- oder globaler Ebene verwalten und ist durch einen begrenzten Befehlssatz eingeschränkt, der nicht dynamisch konfiguriert werden kann. Während der CLSController eine schnelle Ausführung ermöglicht, bietet die Windows PowerShell die Möglichkeit, die Funktion des Zentraler Protokollierungsdiensts über die Grenzen des CLSControllers hinaus zu erweitern.
 
 
@@ -34,7 +34,7 @@ Beispiel:
 Bei der Ausführung der Befehle [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) und [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) kann mit dem Parameter "–Computers" ein einzelner Computerbereich definiert werden. Der Parameter "–Computers" akzeptiert eine kommagetrennte Liste vollqualifizierter Domänennamen (FQDNs) für den Zielcomputer.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können ebenso "–Pools" angeben und eine kommagetrennte Liste mit Pools übergeben, in denen die Protokollierungsbefehle ausgeführt werden sollen.
 
 
@@ -112,7 +112,7 @@ Der Befehl teilt dem CLSAgent auf allen Computern und in allen Pools der Bereits
         Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40 -EtlFileFolder "C:\LogFiles\Tracing" 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wie im Beispiel gezeigt, ist der Standardspeicherort der Protokolldateien "%TEMP%\Tracing". Da es jedoch der CLSAgent ist, der die Datei tatsächlich schreibt, und da der CSLAgent als Netzwerkdienst ausgeführt wird, wird die Variable %TEMP% zu "%WINDIR%\ServiceProfiles\NetworkService\AppData\Local" erweitert.
 
 
@@ -128,7 +128,7 @@ Der Befehl teilt dem CLSAgent auf allen Computern und in allen Pools am Standort
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
 
-    > [!TIP]
+    > [!NOTE]
     > "New-CsClsConfiguration" bietet Zugriff auf eine Vielzahl optionaler Konfigurationseinstellungen. Detaillierte Informationen zu den Konfigurationsoptionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</A> und <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Grundlegendes zu Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst</A>.
 
     
@@ -151,7 +151,7 @@ Das Erstellen neuer Konfigurationen und die Definition neuer Eigenschaften für 
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dies ist die neue Konfiguration, die im Verfahren "So erstellen Sie eine neue Konfiguration des Zentraler Protokollierungsdiensts" erstellt wurde.
 
 

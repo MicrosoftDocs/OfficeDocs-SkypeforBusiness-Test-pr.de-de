@@ -36,7 +36,7 @@ Bevor Sie Microsoft Lync Server 2013 für Notfalldienste (E9-1-1) konfigurieren,
     Eine automatische Standorterkennung ist nur für Clients verfügbar, die sich innerhalb des Netzwerks der Organisation befinden. Ihre Organisation muss daher entscheiden, ob E9-1-1-Anrufe von Lync-Clients, die sich nicht vor Ort befinden, unterstützt werden sollen. Möchten Sie es Benutzern beispielsweise ermöglichen, Notrufe zu tätigen, wenn sie von zu Hause aus oder bei einem Kunden arbeiten? Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, kann der Client den Benutzer zur Angabe eines Standorts auffordern. Da diese von den Benutzern angegebenen Standorte jedoch nicht vorab mit der MSAG (Master Street Address Guide)-Datenbank abgeglichen werden können, muss eine verantwortliche Person beim Anbieter für die Notrufunterstützung die Gültigkeit des Standorts in einem Gespräch mit dem Anrufer überprüfen, bevor der Anruf an die Rettungsleitstelle weitergeleitet wird.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Lync-Clients von Benutzern, die über VPNs eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, können interne IP-Adressinformationen abrufen. Da diese Adressen jedoch nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es sehr wichtig, dass VPN-Subnetze aus dem Standortinformationsdienst ausgeschlossen werden.
 
 

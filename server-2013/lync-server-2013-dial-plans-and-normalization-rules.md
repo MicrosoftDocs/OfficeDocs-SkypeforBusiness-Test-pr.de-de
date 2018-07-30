@@ -26,7 +26,7 @@ Der *Bereich* eines Wählplans bestimmt die Hierarchieebene, auf der der Wählpl
 Clients rufen die Bereichsebene für Wählpläne durch In-Band-Bereitstellungseinstellungen ab, die bereitgestellt werden, wenn Benutzer sich bei Lync Server anmelden. Als Administrator können Sie Bereichsebenen für Wählpläne über die Lync Server-Systemsteuerung verwalten und zuweisen.
 
 
-> [!TIP]
+> [!NOTE]
 > Der PSTN-Gateway-Wählplan auf Dienstebene wird auf eingehende Anrufe von einem bestimmten Gateway angewendet.
 
 
@@ -86,7 +86,7 @@ Wenn Sie Einwahlkonferenzen bereitstellen, müssen Sie eine Region angeben, um d
 Sie können ein aus bis zu vier Zeichen (\#, \* und 0-9) bestehendes Präfix für den externen Zugriff angeben, wenn die Benutzer ein oder mehrere zusätzliche Ziffern (z. B. 9) wählen müssen, um eine externe Leitung zu erhalten.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie ein Präfix für den externen Zugriff eingeben, müssen Sie keine zusätzliche Normalisierungsregel zur Unterstützung des Präfixes erstellen.
 
 
@@ -267,7 +267,7 @@ Die folgende Tabelle veranschaulicht beispielhafte Wähleinstellungen für Redmo
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die Namen der Normalisierungsregeln in der vorstehenden Tabelle enthalten keine Leerzeichen. Dies ist durchaus möglich. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er "5 digit extension" oder "5-digit Extension" lautet.
 
 

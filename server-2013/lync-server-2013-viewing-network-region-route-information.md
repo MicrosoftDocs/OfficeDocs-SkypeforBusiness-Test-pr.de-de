@@ -28,7 +28,7 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 4.  Klicken Sie auf der Seite **Regionsroute** auf die Regionsroute, die Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können nur jeweils eine Regionsroute anzeigen.
 
 

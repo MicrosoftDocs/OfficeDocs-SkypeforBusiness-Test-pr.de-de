@@ -34,7 +34,7 @@ Verwenden Sie das folgende Verfahren, um die Überprüfungsergebnisse anzuzeigen
 1.  Melden Sie sich auf einem Computer an, auf dem Best Practices Analyzer installiert ist. Verwenden Sie dabei ein Konto, das Mitglied des Kontos für lokale Benutzer ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können zwar die Ergebnisse einer Überprüfung anzeigen, wenn Sie ein Konto verwenden, das Mitglied der lokalen Administratorengruppe ist; Sie können jedoch nur eine Überprüfung ausführen, wenn Sie über die erforderlichen Benutzerrechte und Berechtigungen verfügen. Ausführliche informationen finden Sie unter <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Voraussetzungen hinsichtlich Gruppenmitgliedschaften und Benutzerberechtigungen für Best Practices Analyzer</A>.
 
 
@@ -48,14 +48,14 @@ Verwenden Sie das folgende Verfahren, um die Überprüfungsergebnisse anzuzeigen
       - Wenn Sie Berichte aus der Liste der lokal gespeicherten Überprüfungsergebnisse anzeigen möchten, klicken Sie auf den Namen der Überprüfung, und klicken Sie dann auf **Bericht für diese Überprüfung anzeigen**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Von Best Practices Analyzer wird die Liste der lokalen Dateien aus dem Ordner „<EM>&lt;systemDrive&gt;</EM>\Dokumente und Einstellungen\<EM>&lt;Benutzer&gt;</EM>\Application Data\Microsoft\RtcBPA“ erstellt.
 
     
       - Wenn Sie Berichte zu Ergebnissen einer Überprüfung anzeigen möchten, die sich an einem anderen Speicherort befinden, klicken Sie auf **Überprüfung importieren**, suchen Sie nach der Datei, in der die Überprüfungsergebnisse enthalten sind, und klicken Sie dann auf **Öffnen**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn die Version von Best Practices Analyzer auf diesem Computer nicht mit der Version übereinstimmt, die verwendet wurde, um die Daten in der importierten Datei zu erfassen, wird die Datei von dem Tool auf Ihrem Computer möglicherweise nach dem Import erneut analysiert.
 
 
@@ -69,7 +69,7 @@ Verwenden Sie das folgende Verfahren, um die Überprüfungsergebnisse anzuzeigen
       - Wenn Sie sonstige Berichte anzeigen möchten, klicken Sie auf **Sonstige Berichte**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zu den Best Practices Analyzer-Berichten und den darin ermittelten Problemen finden Sie in den Abschnitten <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Anzeigen und Verwenden von Berichten, die von Best Practices Analyzer erstellt wurden</A> und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analysieren und Beheben von Problemen, die von Best Practices Analyzer erkannt wurden</A>.
 
 

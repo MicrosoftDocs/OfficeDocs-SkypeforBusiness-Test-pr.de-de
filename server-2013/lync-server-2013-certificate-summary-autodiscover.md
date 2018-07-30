@@ -32,7 +32,7 @@ Die Entscheidung, ob auf Reverseproxys alternative Antragstellernamen verwendet 
 Das erneute Ausstellen von Zertifikaten durch eine interne Zertifizierungsstelle ist normalerweise ein einfacher Vorgang. Bei öffentlichen Zertifikaten, die für die Webdienst-Veröffentlichungsregel verwendet werden, kann das Hinzufügen mehrerer alternativer Antragstellernamen jedoch aufwendig sein. Zur Umgehung dieses Problems wird die anfängliche Verbindung der automatischen Ermittlung über Port 80 unterstützt, die dann an Port 8080 für den Director oder den Front-End-Server umgeleitet wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie in der Lync Server 2013-Infrastruktur interne Zertifikate verwenden, die von einer internen Zertifizierungsstelle (ZS) ausgestellt werden, und planen, eine WLAN-Verbindung für mobile Geräte zu unterstützen, muss entweder die Stammzertifikatkette von der internen ZS auf den mobilen Geräten installiert sein, oder Sie müssen für die Lync Server 2013-Infrastruktur ein öffentliches Zertifikat verwenden.
 
 
@@ -68,7 +68,7 @@ In den folgenden Tabellen werden die Einträge von zusätzlichen alternativen An
 
 
 
-> [!TIP]
+> [!NOTE]
 > Sie weisen das soeben aktualisierte Zertifikat mit dem neuen SAN-Eintrag dem Standardzertifikat zu. Alternativ können Sie auch SAN=*.<EM>&lt;sipdomäne&gt;</EM>verwenden.
 
 
@@ -100,7 +100,7 @@ In den folgenden Tabellen werden die Einträge von zusätzlichen alternativen An
 
 
 
-> [!TIP]
+> [!NOTE]
 > Sie weisen das soeben aktualisierte Zertifikat mit dem neuen SAN-Eintrag dem Standardzertifikat zu. Alternativ können Sie auch SAN=*.<EM>&lt;sipdomäne&gt;</EM>verwenden.
 
 
@@ -128,7 +128,7 @@ In den folgenden Tabellen werden die Einträge von zusätzlichen alternativen An
 
 
 
-> [!TIP]
+> [!NOTE]
 > Sie weisen das soeben aktualisierte Zertifikat mit dem neuen SAN-Eintrag dem SSL-Listener auf dem Reverseproxy zu.
 
 

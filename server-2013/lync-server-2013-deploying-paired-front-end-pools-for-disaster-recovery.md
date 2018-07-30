@@ -66,7 +66,7 @@ Sie können die Notfallwiederherstellungstopologie eines Paars von Front-End-Poo
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
 
 
-> [!TIP]
+> [!NOTE]
 > Die Option <STRONG>Automatisches Failover und Failback für Sprachdienste</STRONG> und die zugehörigen Zeitintervalle in Topologie-Generator gelten nur für die Sprachflexibilitätsfeatures, die in Lync Server 2010 eingeführt wurden. Die Auswahl dieser Option bewirkt nicht, dass das in diesem Dokument erörterte Poolfailover automatisch erfolgt. Um ein Poolfailover oder -failback durchzuführen, muss ein Administrator das Failover- bzw. Failback-Cmdlets immer manuell aufrufen.
 
 

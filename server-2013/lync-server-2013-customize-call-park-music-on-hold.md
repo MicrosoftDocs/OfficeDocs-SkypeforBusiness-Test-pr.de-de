@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-10_
 Sie können Ihre eigene Musikdatei für die Wartemusik anstelle der Standardmusikdatei von Lync Server 2013 festlegen. Verwenden Sie zum Anpassen der Wartemusik das Cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie die Wartemusik anpassen und die gleiche Musikdatei für mehrere Standorte verwenden möchten, müssen Sie die Musikdatei für jeden Standort konfigurieren, in dem die Anwendung zum Parken von Anrufen ausgeführt wird.
 
 
@@ -34,7 +34,7 @@ Sie können Ihre eigene Musikdatei für die Wartemusik anstelle der Standardmusi
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
 
-    > [!TIP]
+    > [!NOTE]
     > Verwenden Sie das Cmdlet <STRONG>Get-CsService</STRONG>, um den Dienst zu ermitteln. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     

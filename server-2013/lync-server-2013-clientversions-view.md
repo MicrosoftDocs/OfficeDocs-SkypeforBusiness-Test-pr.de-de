@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 In der **ClientVersions**-Ansicht werden Informationen zu den verschiedenen Clienttypen und -versionen gespeichert werden, die an in der Datenbank aufgezeichneten Sitzungen beteiligt sind. Jeder Eintrag in dieser Ansicht steht für eine Clientversion. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 
 
-> [!TIP]
+> [!NOTE]
 > Für bestimmte Spalten können mehrere Einträge vorhanden sein.
 
 

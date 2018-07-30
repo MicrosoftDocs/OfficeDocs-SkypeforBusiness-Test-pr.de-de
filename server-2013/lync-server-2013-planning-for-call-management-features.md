@@ -22,7 +22,7 @@ Enterprise-VoIP-Anrufverwaltungsfeatures steuern, wie eingehende Anrufe weiterge
   - **Gruppenannahme**:   Ermöglicht VoIP-Benutzern das Annehmen von Anrufen, die an andere VoIP-Benutzer eingehen, die Annahmegruppen zugewiesen sind.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Gruppenannahme ist ein neues Feature, das mit den kumulativen Updates für Lync Server 2013: Februar&nbsp;2013 bereitgestellt wird.
 
 

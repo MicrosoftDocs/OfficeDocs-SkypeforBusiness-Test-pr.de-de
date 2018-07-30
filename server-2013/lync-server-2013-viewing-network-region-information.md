@@ -28,7 +28,7 @@ Eine Netzwerkregion verbindet mehrere Teile eines Netzwerks, das sich über vers
 4.  Klicken Sie auf der Seite **Region** auf die Region, die Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können immer nur eine Region anzeigen.
 
 

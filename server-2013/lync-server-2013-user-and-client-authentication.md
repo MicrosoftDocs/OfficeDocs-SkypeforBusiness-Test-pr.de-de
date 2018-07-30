@@ -24,7 +24,7 @@ Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen a
   - **NTLM-Protokoll** für Benutzer mit Active Directory-Anmeldeinformationen, die sich von einem Endpunkt außerhalb der Unternehmensfirewall verbinden. Der Zugriffs-Edgedienst leitet Anmeldeanforderungen an einen Director, falls vorhanden, oder einen Front-End-Server zur Authentifizierung weiter. Der Zugriffs-Edgedienst selbst führt keine Authentifizierung durch.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da der Angriffsschutz des NTLM-Protokolls schwächer ist als der von Kerberos, minimieren einige Unternehmen die Nutzung von NTLM. Deshalb ist der Zugriff auf Lync Server 2013 möglicherweise auf interne oder über eine VPN- oder DirectAccess-Verbindung verbundene Clients beschränkt.
 
 

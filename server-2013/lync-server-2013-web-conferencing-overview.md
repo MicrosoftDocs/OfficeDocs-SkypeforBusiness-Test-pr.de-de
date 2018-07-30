@@ -30,7 +30,7 @@ Mit der Abstimmungsfunktion wird die Zusammenarbeit verbessert, da Referenten um
 Während einer Konferenz können Sie Ihren gesamten Desktop, eine einzelne Anwendung oder einzelne Monitore in einer Umgebung mit mehreren Monitoren freigeben. Andere Teilnehmer der Konferenz können nicht nur die Inhalte sehen, sondern auch die Kontrolle über Ihren Bildschirm anfordern und mit Ihrer Erlaubnis mit den Inhalten interagieren (einschließlich Bildlauf und Bearbeitung).
 
 
-> [!TIP]
+> [!NOTE]
 > Teilnehmer, die bei der Konferenz nur zusehen, können ebenfalls die Kontrolle übernehmen und während der Besprechung Inhalte freigeben.
 
 

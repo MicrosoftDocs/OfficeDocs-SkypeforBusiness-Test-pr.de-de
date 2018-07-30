@@ -72,7 +72,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-02_
 17. Klicken Sie nach Abschluss des Assistenten für die Veröffentlichung auf **Fertig stellen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Schließen Sie das nächste Thema <A href="import-policies-and-settings.md">Importieren von Richtlinien und Einstellungen</A> ab, um sicherzustellen, dass die Richtlinieneinstellungen der Vorversion in Lync Server 2013 importiert werden.
 
 

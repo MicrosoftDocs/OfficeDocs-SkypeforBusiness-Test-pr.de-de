@@ -38,7 +38,7 @@ Diese Optionen umfassen folgende Arten des externen Zugriffs:
     Sie können die Option **Kommunikation mit XMPP-Verbundpartnern aktivieren** auswählen, wenn Sie zuvor die Option **Kommunikation mit Partnerbenutzern aktivieren** ausgewählt haben. XMPP-Verbünde sind Verbünde mit Organisationen, die das Extensible Messaging and Presence Protocol (XMPP) verwenden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie XMPP-Verbünde aktivieren, müssen Sie auch die Bereitstellung des <STRONG>XMPP-Verbunds</STRONG> im Edgepools-Konfigurationsabschnitt von Topologie-Generator auswählen. Durch das Konfigurieren von XMPP-Verbünden wird ein XMPP-Proxy in der Edgeserver sowie ein XMPP-Gateway in der Front-End-Server bereitgestellt.
 
 
@@ -60,7 +60,7 @@ Diese Optionen umfassen folgende Arten des externen Zugriffs:
 
 
 
-> [!TIP]
+> [!NOTE]
 > Neben dem Aktivieren der Unterstützung für den externen Benutzerzugriff müssen Sie auch Richtlinien konfigurieren, um die Verwendung des externen Benutzerzugriffs in Ihrer Organisation zu steuern, bevor den Benutzern ein beliebiger Typ des externen Benutzerzugriffs zur Verfügung steht. Ausführliche Informationen zur Erstellung, Konfiguration und Anwendung von Richtlinien für den externen Benutzerzugriff finden Sie unter <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer in Lync Server 2013</A>.
 
 

@@ -40,7 +40,7 @@ A server that is running Lync Server on a Windows Server operating system recor
   - **Lync Server 2013**   The logging tool records significant events related to authentication, connections, and user actions. After enabling diagnostic logging, you can view the log entries in Event Viewer.
 
 
-> [!TIP]
+> [!NOTE]
 > We do not recommend that you use the maximum logging settings unless you are instructed to do this by Microsoft Customer Support Services. Maximum logging drains significant resources and can give many “false positives,” that is, errors that get logged only at maximum logging but are really expected and are not a cause of concern. We also recommend that you do not enable diagnostic logging permanently. Use it only when troubleshooting.
 
 
