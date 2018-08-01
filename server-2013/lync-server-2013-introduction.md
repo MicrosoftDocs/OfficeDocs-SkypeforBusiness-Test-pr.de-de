@@ -36,7 +36,7 @@ In dieser Tabelle und den folgenden Abschnitten werden die Hauptfunktionen oder 
 <td><p>Instant Messaging und Anwesenheit</p></td>
 <td><p>Instant Messaging und Anwesenheitsinformationen unterstützen Benutzer bei der effizienten Suche und Kommunikation.</p>
 <p>Die Chatnachrichtenfunktion bietet eine Instant Messaging-Plattform mit Unterhaltungsverlauf und unterstützt Verbindungen mit öffentlichen Chatdiensten für Benutzer öffentlicher Chatnetzwerke wie z. B. MSN/Windows Live, Yahoo!, AOL und Google Talk.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > <UL>

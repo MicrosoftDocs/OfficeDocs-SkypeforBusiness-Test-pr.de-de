@@ -65,7 +65,7 @@ Für eine optimale Leistung wird empfohlen, Lync Server auf Servern mit Hardware
 <td><p>Netzwerk</p></td>
 <td><ul>
 <li><p>1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Dualkonfigurationen oder mehrfach vernetzte Konfigurationen werden für Front-End-Server, Back-End-Server, Standard Edition-Server und Server für beständigen Chat nicht unterstützt.<BR>Verbindungen über ILO, DRAC usw., die für das Betriebssystem nicht verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.
@@ -119,7 +119,7 @@ Für eine optimale Leistung wird empfohlen, Lync Server auf Servern mit Hardware
 <td><ul>
 <li><p>1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist). Für Edgeserver sind 2 Netzwerkschnittstellen erforderlich, und für eigenständige Vermittlungsserver werden sie unterstützt.</p></li>
 </ul>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Dualkonfigurationen oder mehrfach vernetzte Konfigurationen werden für Directors nicht unterstützt.<BR>Verbindungen über ILO, DRAC usw., die für das Betriebssystem nicht verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.

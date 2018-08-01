@@ -106,7 +106,7 @@ Nähere Informationen zum Ausführen dieser Schritte finden Sie unter [Verfahren
 <tr class="even">
 <td><p>Während des Ausfalls</p></td>
 <td><p>Führen Sie das Cmdlet <strong>Import-CsRgsConfiguration</strong> aus, um die Sicherung der Lync Server-Reaktionsgruppendienst-Konfiguration vom primären Pool auf den Sicherungspool zu übertragen.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Verwenden Sie den Parameter "-ReplaceExistingSettings", wenn Sie die Reaktionsgruppe-Einstellungen auf Anwendungsebene im Sicherungspool durch die Einstellungen aus dem primären Pool ersetzen möchten. Wenn Sie die Einstellungen auf Anwendungsebene nicht vom primären Pool auf den Sicherungspool übertragen und der primäre Pool nicht wiederhergestellt werden kann, gehen die Einstellungen aus dem primären Pool verloren.
@@ -119,7 +119,7 @@ Nähere Informationen zum Ausführen dieser Schritte finden Sie unter [Verfahren
 <tr class="odd">
 <td><p>Nach dem Importieren</p></td>
 <td><p>Führen Sie Reaktionsgruppe-Cmdlets entweder mit dem Parameter &quot;-ShowAll&quot; (um alle Reaktionsgruppen anzuzeigen) oder dem Parameter &quot;-Owner&quot; (um nur importierte Reaktionsgruppen anzuzeigen) aus, um zu überprüfen, ob alle Reaktionsgruppenkonfigurationen in den Sicherungspool importiert wurden.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Wenn Sie weder den Parameter "-ShowAll" noch den Parameter "-Owner" verwenden, werden die in den Sicherungspool importierten Reaktionsgruppen nicht in den von den Cmdlets zurückgegebenen Ergebnissen aufgeführt.
@@ -144,7 +144,7 @@ Nähere Informationen zum Ausführen dieser Schritte finden Sie unter [Verfahren
 <li><p>Alle formellen Agents müssen sich bei ihren formellen Gruppen im Sicherungspool erneut anmelden.</p></li>
 <li><p>Verwalten von Konfigurationsänderungen:</p>
 <p>Reaktionsgruppen im Sicherungspool können unabhängig davon, ob sie in den Sicherungspool importiert wurden oder im Besitz des Sicherungspools sind, während des Ausfalls normal geändert werden.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Verwenden Sie die Lync Server-Verwaltungsshell zum Verwalten der Reaktionsgruppen, die Sie in den Sicherungspool importiert haben. Sie können diese Reaktionsgruppen nicht mithilfe der Lync Server-Systemsteuerung verwalten, während sie sich im Sicherungspool befinden.
@@ -164,7 +164,7 @@ Nähere Informationen zum Ausführen dieser Schritte finden Sie unter [Verfahren
 <td><p>Nach dem Failback</p></td>
 <td><ul>
 <li><p>Führen Sie das Cmdlet <strong>Import-CsRgsConfiguration</strong> aus, um die Reaktionsgruppen zurück in den primären Pool zu importieren.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Wenn der primäre Pool nicht wiederhergestellt werden kann und Sie einen neuen Pool als Ersatz bereitstellen, verwenden Sie den Parameter "-ReplaceExistingSettings", um die Einstellungen auf Anwendungsebene vom Sicherungspool auf den neuen Pool zu übertragen. Wenn Sie die Einstellungen aus dem Sicherungspool nicht übertragen, verwendet der neue Pool die Standardeinstellungen.

@@ -56,7 +56,7 @@ In der folgenden Tabelle sind die Schritte aufgelistet, die erforderlich sind, u
 <td><p></p></td>
 <td><p>Vorbereiten der Active Directory-Synchronisierung</p></td>
 <td><p>Die Active Directory-Synchronisierung sorgt dafür, dass Ihre lokale Active Directory-Bereitstellung ständig mit Office 365 synchronisiert ist. Dadurch können Sie synchronisierte Versionen aller Benutzerkonten und -gruppen erstellen. Zudem wird die Synchronisierung der globalen Adressenliste (GAL) aus Ihrer lokalen Microsoft Exchange Server-Umgebung mit Microsoft Exchange Online ermöglicht.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Sie müssen die AD-Konten für alle Lync-Benutzer in Ihrem Unternehmen zwischen der lokalen und der Onlinebereitstellung von Lync synchronisieren. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.

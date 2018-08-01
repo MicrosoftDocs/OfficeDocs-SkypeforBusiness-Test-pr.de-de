@@ -98,7 +98,7 @@ Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hin
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Erstellen oder Bearbeiten von gehosteten SIP-Verbundanbietern in Lync Server 2013</a></p></li>
     </ul></td>
     <td><p>Dieser Partnerverbundtyp definiert Dienste und Hostinganbieter, die Sie für Ihre Benutzer konfigurieren möchten. Zu den typischen Verwendungen gehört die Konfiguration für öffentliche Chatanbieter wie Windows Live Messenger, Yahoo! und AOL sowie für Hostinganbieter, z. B. Lync Online und Office 365.</p>
-    <div class="alert">
+    <div>
 
     > [!IMPORTANT]
     > <UL>

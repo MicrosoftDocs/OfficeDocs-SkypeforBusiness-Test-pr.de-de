@@ -53,7 +53,7 @@ Beim Konfigurieren von DNS (Domain Name System) für öffentliche Chatdienste we
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Zugriffs-Edgedienst-Schnittstelle: Diese Schnittstelle ist für die automatische DNS-Suche Ihres Verbunds durch andere potenzielle Verbundpartner erforderlich und wird als “Zugelassene SIP-Domänen” bezeichnet (in Vorgängerversionen: erweiterter Verbund). Wiederholen Sie sie je nach Bedarf für alle SIP-Domänen mit Lync-fähigen Benutzern.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Dieser SRV-Eintrag ist für Mobilität und Push Notification Clearing House erforderlich. Erstellen und veröffentlichen Sie bei mehreren SIP-Domänen SRV-Einträge für alle Domänen mit Lync Mobile-Clients. Der Pushbenachrichtigungsdienst und der Apple-Pushbenachrichtigungsdienst funktionieren möglicherweise nicht wie erwartet, wenn kein expliziter SRV-Eintrag für alle von der Bereitstellung unterstützten SIP-Domänen vorliegt.

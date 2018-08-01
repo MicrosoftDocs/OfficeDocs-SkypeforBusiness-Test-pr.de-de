@@ -50,14 +50,14 @@ Dieser Abschnitt bietet eine Übersicht über die Schritte zur Bereitstellung de
 <tr class="even">
 <td><p>Konfigurieren von Nummernbereichen für die Anrufannahme in der Orbittabelle für das Parken von Anrufen</p></td>
 <td><p>Verwenden Sie das Cmdlet <strong>New-CSCallParkOrbit</strong>, um Nummernbereiche für die Anrufannahme in der Orbittabelle für das Parken von Anrufen zu erstellen und den Nummernbereiche für die Anrufannahme den Typ &quot;GroupPickup&quot; zuzuweisen.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Sie müssen die Lync Server-Verwaltungsshell zum Erstellen, Ändern, Entfernen und Anzeigen von Nummern für die Gruppenanrufannahme in der Orbittabelle für das Parken von Anrufen verwenden. Nummern für die Gruppenanrufannahme sind in Lync Server-Systemsteuerung nicht verfügbar.
 
 
 </div>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Um eine nahtlose Integration in vorhandene Wählpläne zu ermöglichen, sind Nummernbereiche in der Regel als Block virtueller Durchwahlnummern konfiguriert. Das Zuweisen von DID (Direct Inward Dialing)-Nummern als Orbitnummern in der Orbittabelle für das Parken von Anrufen wird nicht unterstützt.

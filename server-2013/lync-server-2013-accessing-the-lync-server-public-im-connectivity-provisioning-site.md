@@ -61,7 +61,7 @@ Der Bereitstellungsprozess für die Lync-Skype-Konnektivität wurde im Vergleich
 <li><p>Klicken Sie auf der Seite <strong>Initiate a Provisioning Request</strong> (Bereitstellungsprozess starten) auf den entsprechenden Link zum Starten eines Bereitstellungsprozesses.</p></li>
 <li><p>Geben Sie auf der Seite <strong>Specify Provisioning Information</strong> (Bereitstellungsinformationen angeben) den <strong>FQDN des Zugriffs-Edgediensts</strong> an, z. B. <strong>accessedge.contoso.com</strong>.</p></li>
 <li><p>Geben Sie mindestens einen SIP-Domänennamen ein und klicken Sie auf <strong>Hinzufügen</strong>.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Es sind mindestens ein Zugriffs-Edgeserver und eine SIP-Domäne erforderlich, um den Bereitstellungsprozess abzuschließen. Die SIP-Domäne und der Zugriffs-Edgeserver müssen aktiv sein, funktionieren und im Netzwerk erreichbar sein.
@@ -79,7 +79,7 @@ Der Bereitstellungsprozess für die Lync-Skype-Konnektivität wurde im Vergleich
 <li><p>Klicken Sie auf der Seite <strong>Initiate a Provisioning Request</strong> (Bereitstellungsprozess starten) auf den entsprechenden Link zum Starten eines Bereitstellungsprozesses.</p></li>
 <li><p>Geben Sie auf der Seite <strong>Specify Provisioning Information</strong> (Bereitstellungsinformationen angeben) den <strong>FQDN des Zugriffs-Edgediensts</strong> an, z. B. <strong>accessedge.contoso.com</strong>.</p></li>
 <li><p>Geben Sie mindestens einen SIP-Domänennamen ein und klicken Sie auf <strong>Hinzufügen</strong>.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Es sind mindestens ein Zugriffs-Edgeserver und eine SIP-Domäne erforderlich, um den Bereitstellungsprozess abzuschließen. Die SIP-Domäne und der Zugriffs-Edgeserver müssen aktiv sein, funktionieren und im Netzwerk erreichbar sein.

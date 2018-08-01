@@ -95,7 +95,7 @@ In diesem Abschnitt werden die für die Bereitstellung des Lync Server 2013-Mobi
 <li><p>Wenn Sie Pushbenachrichtigungen über ein WLAN-Netzwerk unterstützen möchten, konfigurieren Sie eine ausgehende Firewallregel für TCP-Port 5223.</p></li>
 <li><p>Verwenden Sie das <strong>Set-CsPushNotificationConfiguration</strong>-Cmdlet, um Pushbenachrichtigungen an den Apple Push Notification Service (APNS) und Microsoft Push Notification Service (MPNS) zu unterstützen. Dieses Feature ist standardmäßig deaktiviert.</p></li>
 <li><p>Verwenden Sie das <strong>Test-CsFederatedPartner</strong>-Cmdlet zum Testen der Verbundkonfiguration und das <strong>Test-CsMCXPushNotification</strong>-Cmdlet zum Testen von Pushbenachrichtigungen.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Pushbenachrichtigungen werden für Lync 2010 Mobile-Clients auf Apple-Geräten und Windows Phone verwendet.<BR>Pushbenachrichtigungen sind nur für Lync 2013&nbsp;Mobile-Clients auf Windows Phone-Geräten erforderlich.
