@@ -315,7 +315,7 @@ Einige Attribute weisen eine Bitmaskenwert auf. Bei diesen Attributen wird jede 
 <td><p>msRTCSIP-EnableBestEffortNotify (veraltet)</p></td>
 <td><p>Dieses Attribut steuert, ob ein Server als Antwort auf die SUBSCRIBE-Anforderung eines Clients eine BENOTIFY-Anforderung (Best Effort NOTIFY) anstelle einer NOTIFY-Anforderung generiert. BENOTIFY ist eine leistungsoptimierende Erweiterung des Subscribe-Notification-Handshakes, bei der der Server BENOTIFY-Anforderungen anstelle normaler NOTIFY-Anforderungen generiert. Die verbesserte Leistung ist darauf zurückzuführen, dass für eine BENOTIFY-Anforderung keine 200 OK-Antwort vom Client erforderlich ist, wie dies bei NOTIFY-Anforderungen der Fall ist.</p>
 <p>Gültige Werte sind <strong>TRUE</strong> oder <strong>FALSE</strong>.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Live Communications Server 2003 unterstützt keine BENOTIFY-Anforderungen. Zur Interoperabilität mit Serveranwendungen, die mit der Live Communications Server 2003-Server-API geschrieben wurden und auf Live Communications Server 2005 oder auf Servern von Drittanbietern ausgeführt werden, können BENOTIFY-Anforderungen deaktiviert werden, indem dieser Wert auf <STRONG>FALSE</STRONG> festgelegt wird. BENOTIFY ist derzeit kein Bestandteil des SIP-Standardisierungsprozesses der IETF (Internet Engineering Task Force).

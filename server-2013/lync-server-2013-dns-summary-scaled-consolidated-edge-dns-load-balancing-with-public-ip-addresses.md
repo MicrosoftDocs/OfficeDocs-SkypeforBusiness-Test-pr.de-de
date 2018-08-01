@@ -155,7 +155,7 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Schnittstelle des SIP- Zugriffs-Edgediensts. Erforderlich für die automatische DNS-Suche eines Verbunds mit anderen potenziellen Verbundpartnern, bezeichnet als &quot;Zugelassene SIP-Domäne&quot; (in Vorgängerversionen als erweiterter Verbund bezeichnet).</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Wird ggf. für alle SIP-Domänen mit Lync-fähigen Benutzern und Microsoft Lync Mobile-Clients wiederholt, die entweder den Pushbenachrichtigungsdienst oder den Apple-Pushbenachrichtigungsdienst verwenden.

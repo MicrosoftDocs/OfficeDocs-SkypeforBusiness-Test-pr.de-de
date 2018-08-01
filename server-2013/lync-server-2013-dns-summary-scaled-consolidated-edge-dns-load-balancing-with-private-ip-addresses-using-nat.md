@@ -154,7 +154,7 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Schnittstelle des SIP-Zugriffs-Edgeservers. Erforderlich für die automatische DNS-Suche Ihres Verbunds nach weiteren potenziellen Verbundpartnern, bezeichnet als &quot;Zugelassene SIP-Domäne&quot; (in Vorgängerversionen als erweiterter Verbund bezeichnet). Wiederholen Sie den Vorgang ggf. für alle SIP-Domänen mit für Lync aktivierten Benutzern.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Dieser SRV-Eintrag ist für die Mobilität und das Clearing House für Pushbenachrichtigungen erforderlich

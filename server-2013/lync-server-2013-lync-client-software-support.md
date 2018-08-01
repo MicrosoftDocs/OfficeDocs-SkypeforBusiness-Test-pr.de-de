@@ -43,7 +43,7 @@ In diesem Abschnitt wird die Softwareunterstützung für Lync 2013 und das Onlin
 <p>Windows 8</p>
 <p>Windows 7-Betriebssystem</p>
 <p>Windows Server 2008 R2 mit neuestem Service Pack</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync 2013 und das Onlinebesprechungs-Add-In für Lync&nbsp;2013 werden unter Windows Vista oder Windows XP (alle Versionen) nicht unterstützt.
@@ -62,7 +62,7 @@ In diesem Abschnitt wird die Softwareunterstützung für Lync 2013 und das Onlin
 <p>Internet Explorer 8-Internetbrowser</p>
 <p>Internet Explorer 7-Internetbrowser</p>
 <p>Webbrowser Mozilla Firefox</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Falls Sie Lync mit Microsoft Exchange Online verwenden und Ihre Organisation einen authentifizierenden HTTP-Proxy bereitgestellt hat, ist Internet Explorer&nbsp;9 oder Internet Explorer&nbsp;8 erforderlich.

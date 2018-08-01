@@ -43,7 +43,7 @@ In der folgenden Tabelle werden die Schritte beschrieben, die erforderlich sind,
 <td><p>Erweitert das Active Directory-Schema, indem neue Klassen und Attribute hinzugefügt werden, die von Lync Server verwendet werden.</p>
 <p>Führen Sie diesen Schritt einmal für jede Gesamtstruktur in Ihrer Bereitstellung aus, in der Lync Server bereitgestellt werden soll.</p></td>
 <td><p>Für den Schemamaster in der Stammdomäne jeder Gesamtstruktur, in der Lync Server bereitgestellt werden soll.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Sie müssen diesen Schritt nicht in der Stammdomäne ausführen, wenn Sie über Berechtigungen für den Schemamaster verfügen, Sie müssen jedoch Mitglied der Gruppe "Schema-Admins" in der Stammdomäne und Mitglied der Gruppe "Organisations-Admins" auf dem Schemamaster sein. Führen Sie diesen Schritt in einer Topologie mit Ressourcengesamtstruktur nur in der Ressourcengesamtstruktur aus, nicht in Benutzergesamtstrukturen. Führen Sie diesen Schritt in einer Topologie mit zentraler Gesamtstruktur nur in der zentralen Gesamtstruktur aus, nicht in Benutzergesamtstrukturen.
@@ -57,7 +57,7 @@ In der folgenden Tabelle werden die Schritte beschrieben, die erforderlich sind,
 <td><p>Erstellt globale Einstellungen und universelle Gruppen, die von Lync Server verwendet werden.</p>
 <p>Führen Sie diesen Schritt einmal für jede Gesamtstruktur in Ihrer Bereitstellung aus, in der Lync Server bereitgestellt werden soll.</p></td>
 <td><p>In der Stammdomäne jeder Gesamtstruktur, in der Lync Server bereitgestellt werden soll. Zum Ausführen dieses Schritts müssen Sie Mitglied der Gruppe &quot;Organisations-Admins&quot; sein.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Führen Sie diesen Schritt in einer Topologie mit Ressourcengesamtstruktur nur in der Ressourcengesamtstruktur aus, nicht in Benutzergesamtstrukturen. Führen Sie diesen Schritt in einer Topologie mit zentraler Gesamtstruktur nur in der zentralen Gesamtstruktur aus, nicht in Benutzergesamtstrukturen.
@@ -70,7 +70,7 @@ In der folgenden Tabelle werden die Schritte beschrieben, die erforderlich sind,
 <td><p><a href="lync-server-2013-preparing-domains.md">Vorbereiten von Domänen für Lync Server 2013</a></p></td>
 <td><p>Fügt Berechtigungen für Objekte hinzu, die von Mitgliedern der universellen Gruppen verwendet werden.</p>
 <p>Führen Sie diesen Schritt einmal für jede Benutzer- oder Serverdomäne aus.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Wenn Sie von Lync Server 2013 zu Lync Server 2010 migrieren, werden Sie möglicherweise vom Bereitstellungs-Assistenten darüber informiert, dass die Domänenvorbereitung bereits abgeschlossen ist. Sie müssen die Domänenvorbereitung nicht erneut ausführen. Die Berechtigungen in Lync Server 2013 wurden in Lync Server 2010 geändert.

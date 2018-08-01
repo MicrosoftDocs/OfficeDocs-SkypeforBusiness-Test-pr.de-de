@@ -82,7 +82,7 @@ Mithilfe des XMPP-Verbunds wird eine externe Bereitstellung definiert, die auf d
 <td><p>Bestimmen Sie die Optionen, die der vorhandenen Edgebereitstellung hinzugefügt werden sollen</p></td>
 <td><p>Führen Sie den Topologie-Generator aus, um die Edgeservereinstellungen zu bearbeiten und die Topologie zu erstellen und zu veröffentlichen. Die vorhandene Edgetopologie repliziert Ändeurngen vom zentralen Verwaltungsspeicher auf den Edgeserver.</p></td>
 <td><p>Gruppe &quot;Domänen-Admins&quot; und Gruppe &quot;RTCUniversalServerAdmins&quot;</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Sie können eine Topologie unter Verwendung eines Kontos bearbeiten, das Mitglied der lokalen Benutzergruppe ist. Für die Veröffentlichung einer Topologie ist jedoch ein Konto erforderlich, das Mitglied der Gruppe "Domänen-Admins" und der Gruppe "RTCUniversalServerAdmins" ist.
