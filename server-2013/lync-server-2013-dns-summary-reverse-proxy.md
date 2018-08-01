@@ -62,7 +62,7 @@ Sie können die zwei Netzwerkadapter auf Ihrem Reverseproxy folgendermaßen konf
 <td><p>webdirext.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Externe Webdienste für die Directors- oder Director-Pools in Ihrer Bereitstellung. Sie können so viele Directors definieren, wie separate Directors vorhanden sind, die ggf. mit anderen SIP-Domänen verknüpft sind.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Das Definieren der DNS-Einträge für und das Veröffentlichen der Directors ist keine Entscheidung für entweder den Front-End-Pool oder die Director. Sie müssen sowohl die externen Webdienste für Director als auch Front-End-Pool definieren und veröffentlichen, wenn Sie Directors verwenden. Bestimmte Datenverkehrstypen (zur Authentifizierung und zu anderen Zwecken) werden zuerst an die Director gesendet, sofern in der Topologie definiert.

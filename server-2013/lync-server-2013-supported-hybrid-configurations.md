@@ -52,7 +52,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender</p></li>
 <li><p>Kontaktliste (über den einheitlichen Kontaktspeicher)</p>
 <p>Weitere Informationen finden Sie unter <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Konfigurieren von Microsoft Lync Server 2013 zur Verwendung des einheitlichen Kontaktspeichers</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Setzt Exchange 2013 voraus.<BR>Ein Lync 2013-Desktopclient ist erforderlich.
@@ -61,7 +61,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 </div></li>
 <li><p>Kontaktfoto in hoher Auflösung in Lync 2013-Client und Lync Web App.</p>
 <p>Weitere Informationen finden Sie unter <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Konfigurieren der Verwendung von hoch auflösenden Fotos in Microsoft Lync Server 2013</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Setzt Exchange 2013 voraus.
@@ -73,7 +73,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Das Protokoll von &quot;Verpasste Unterhaltungen&quot; und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.</p></li>
 <li><p>Inhalt wird in Exchange archiviert (Chat und Besprechung).</p>
 <p>Weitere Informationen finden Sie unter <a href="lync-server-2013-deployment-checklist-for-archiving.md">Prüfliste zur Bereitstellung für die Archivierung in Lync Server 2013</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Setzt Exchange 2013 voraus.
@@ -81,7 +81,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 
 </div></li>
 <li><p>Durchsuchen von archivierten Inhalten</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Setzt Exchange 2013 voraus.
@@ -103,7 +103,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Teilnehmen an Onlinebesprechungen in mobilen Clients</p></li>
 <li><p>Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender</p></li>
 <li><p>Kontaktliste (über den einheitlichen Kontaktspeicher). Weitere Informationen finden Sie unter <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Konfigurieren von Microsoft Lync Server 2013 zur Verwendung des einheitlichen Kontaktspeichers</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Nur Lync Server 2013. Ein Lync 2013-Desktopclient ist erforderlich.
@@ -129,7 +129,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Chat/Anwesenheit in mobilen Clients</p></li>
 <li><p>Das Protokoll von &quot;Verpasste Unterhaltungen&quot; und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.</p></li>
 <li><p>Kontaktfoto in hoher Auflösung in Lync 2013-Client.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Setzt Microsoft Exchange Server 2013 voraus. Wird in Lync Web App nicht unterstützt, wenn Benutzer auf Skype for Business Online gehostet werden.
@@ -151,7 +151,7 @@ In der folgenden Tabelle werden die Features aufgeführt, die in einer Hybridber
 <li><p>Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender</p></li>
 <li><p>Das Protokoll von &quot;Verpasste Unterhaltungen&quot; und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.</p></li>
 <li><p>Kontaktliste (über den einheitlichen Kontaktspeicher)</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Lync Server 2013-Client erforderlich

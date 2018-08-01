@@ -43,7 +43,7 @@ Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reversepro
 <td><p>Alternativer Antragstellername</p></td>
 <td><p>Pool-FQDN</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Der Antragstellername muss ebenfalls in den alternativen Antragstellernamen vorhanden sein.
@@ -59,7 +59,7 @@ Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reversepro
 <tr class="even">
 <td><p>Alternativer Antragstellername</p></td>
 <td><p>Einfache URL für Besprechungen</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Alle einfachen URLs für Besprechungen müssen in den alternativen Antragstellernamen enthalten sein. Jede SIP-Domäne muss über mindestens eine aktive einfache URL für Besprechungen verfügen.
@@ -82,7 +82,7 @@ Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reversepro
 <td><p>Alternativer Antragstellername</p></td>
 <td><p>URL des externen AutoErmittlungsdiensts</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Wenn Sie auch mit Microsoft Exchange Server arbeiten, müssen Sie zusätzlich Reverseproxyregeln für die AutoErmittlung- und Webdienste-URLs von Exchange konfigurieren.

@@ -156,7 +156,7 @@ Wenn Sie eine Tabelle bevorzugen, in der die Anforderungen aufgelistet sind:
 <td><p>Anonymer Benutzerzugriff auf Besprechungen und Konferenzen</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in Lync Server 2013</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Zudem müssen Sie die folgenden Konfigurationseinstellungen unter <STRONG>Konferenzrichtlinien</STRONG> beachten: <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Erstellen oder Ändern einer Konferenzrichtlinie in Lync Server 2013</A> und <A href="lync-server-2013-conferencing-policy-settings-reference.md">Referenz zu den Konferenzrichtlinieneinstellungen</A>

@@ -141,7 +141,7 @@ Wenn Sie Exchange Unified Messaging (UM) in Lync Server 2013 integrieren möchte
 <tr class="even">
 <td><p>Konfigurieren Sie Lync Server 2013-Wählpläne.</p></td>
 <td><p>Wenn Sie eine Integration in Exchange 2007 SP1 oder neuestes Service Pack oder Exchange 2010 planen, erstellen Sie einen neuen Enterprise-VoIP-Wählplan, dessen Name mit dem vollqualifizierten Domänennamen (FQDN) des Enterprise-VoIP-Wählplans übereinstimmt.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Sie müssen dies für jeden UM-Wählplan durchführen.
@@ -149,7 +149,7 @@ Wenn Sie Exchange Unified Messaging (UM) in Lync Server 2013 integrieren möchte
 
 </div>
 <p>Wenn Sie eine Integration in Exchange 2010 SP1 beabsichtigen, stellen Sie sicher, dass geeignete auf globaler, Standort- oder Poolebene geltende Enterprise-VoIP-Wählpläne konfiguriert wurden.</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Wenn Sie eine Integration in Exchange 2010 SP1 planen, müssen die Namen des Lync Server-Wählplans und des Exchange UM-SIP-Wählplans nicht übereinstimmen.
@@ -168,14 +168,14 @@ Wenn Sie Exchange Unified Messaging (UM) in Lync Server 2013 integrieren möchte
 </ul>
 <p>Dieses Tool untersucht Active Directory auf Exchange UM-Einstellungen und ermöglicht es dem Lync Server 2013-Administrator, Kontaktobjekte anzuzeigen, zu erstellen und zu bearbeiten.</p></td>
 <td><p>RTCUniversalServerAdmins <em>und</em> RTCUniversalUserAdmins</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Zur erfolgreichen Ausführung von "ocsumutil.exe" muss der Benutzer beiden dieser Gruppe angehören.
 
 
 </div>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > Zum Erstellen von Kontaktobjekten muss der Benutzer, der <STRONG>ocsumutil.exe</STRONG> ausführt, über geeignete Berechtigungen für die Active Directory-Organisationseinheit (Organizational Unit, OU) verfügen, in der die neuen Kontaktobjekte gespeichert werden. Diese Berechtigungen können mit dem Cmdlet <STRONG>Grant-CsOUPermission</STRONG> gewährt werden. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
