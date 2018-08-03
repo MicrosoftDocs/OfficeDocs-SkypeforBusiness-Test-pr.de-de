@@ -49,7 +49,7 @@ Verwenden Sie das folgende Verfahren, um die Überprüfungsergebnisse anzuzeigen
         
 
         > [!NOTE]
-        > Von Best Practices Analyzer wird die Liste der lokalen Dateien aus dem Ordner „<EM>&lt;systemDrive&gt;</EM>\Dokumente und Einstellungen\<EM>&lt;Benutzer&gt;</EM>\Application Data\Microsoft\RtcBPA“ erstellt.
+        > Von Best Practices Analyzer wird die Liste der lokalen Dateien aus dem Ordner „<EM>&lt;systemDrive&gt;</EM>\Dokumente und Einstellungen\\<EM>&lt;Benutzer&gt;</EM>\Application Data\Microsoft\RtcBPA“ erstellt.
 
     
       - Wenn Sie Berichte zu Ergebnissen einer Überprüfung anzeigen möchten, die sich an einem anderen Speicherort befinden, klicken Sie auf **Überprüfung importieren**, suchen Sie nach der Datei, in der die Überprüfungsergebnisse enthalten sind, und klicken Sie dann auf **Öffnen**.

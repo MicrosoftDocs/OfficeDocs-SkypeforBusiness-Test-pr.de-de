@@ -109,8 +109,8 @@ Unterstützte Edgefailoverszenarien mit DNS-Lastenausgleich umfassen Punkt-zu-Pu
 > <ul>
 > <li><p>Routingfähige öffentliche IP-Adressen</p></li>
 > <li><p>Nicht-routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressenübersetzung (Network Address Translation, NAT) verwendet wird</p>
-  > [!NOTE]  
-  > Bei Verwendung einer öffentlichen oder privaten IP-Adresse mit NAT, verwenden Sie weiterhin dieselbe Anzahl an IP-Adressen basierend auf Ihrer Konfigurationsauswahl im Topologie-Generator. Sie können den Edgeserver entweder für die Verwendung einer einzelnen IP-Adresse mit unterschiedlichen Ports für Dienste konfigurieren oder unterschiedliche IP-Adressen für Dienste mit demselben Port (standardmäßig TCP&nbsp;443) verwenden.
+    > [!NOTE]  
+    > Bei Verwendung einer öffentlichen oder privaten IP-Adresse mit NAT, verwenden Sie weiterhin dieselbe Anzahl an IP-Adressen basierend auf Ihrer Konfigurationsauswahl im Topologie-Generator. Sie können den Edgeserver entweder für die Verwendung einer einzelnen IP-Adresse mit unterschiedlichen Ports für Dienste konfigurieren oder unterschiedliche IP-Adressen für Dienste mit demselben Port (standardmäßig TCP&nbsp;443) verwenden.
 > </li>
 > </ul>
 > Wenn Sie sich für die Verwendung von nicht-routingfähigen privaten IP-Adressen mit NAT entscheiden:
