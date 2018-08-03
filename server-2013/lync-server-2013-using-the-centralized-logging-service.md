@@ -30,7 +30,7 @@ Bei dem Dienst Zentraler Protokollierungsdienst handelt es sich um eine neue Fun
       - Sie können einen vorhandenen *Anbieter* verwenden oder einen neuen Anbieter erstellen. Der *Anbieter* definiert, was bei der Protokollierungssitzung erfasst wird, welche Detailebene gilt, welche Komponenten nachverfolgt werden und welche Flags angewendet werden.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Wenn Sie mit der Verwendung von OCSLogger vertraut sind: Der Begriff <EM>Anbieter</EM> bezieht sich auf die Sammlung der <STRONG>Komponenten</STRONG> (z.&nbsp;B. S4, SIPStack), einen <STRONG>Protokollierungstyp</STRONG> (z.&nbsp;B. WPP, EventLog oder IIS logfile), eine <STRONG>Ablaufverfolgungsstufe</STRONG> (z.&nbsp;B. All, verbose, debug) sowie <STRONG>Flags</STRONG> (z.&nbsp;B. TF_COMPONENT, TF_DIAG). Diese Elemente werden im Anbieter definiert (eine Windows PowerShell-Variable) und an den Zentraler Protokollierungsdienst-Befehl weitergegeben.
 
     

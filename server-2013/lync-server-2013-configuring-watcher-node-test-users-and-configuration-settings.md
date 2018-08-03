@@ -167,7 +167,7 @@ Mithilfe des zuvor genannten Befehls werden je nach den synthetischen Transaktio
     DataConference
 
 
-> [!NOTE]
+> [!TIP]
 > Wenn Sie die synthetischen Transaktionen in alphabetischer Reihenfolge anzeigen möchten, verwenden Sie stattdessen den folgenden Befehl:<BR>Get-CsWatcherNodeConfiguration –Identity "atl-cs-001.litwareinc.com" | Select-Object –ExpandProperty Tests | Sort-Object
 
 

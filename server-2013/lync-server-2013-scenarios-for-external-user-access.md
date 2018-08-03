@@ -28,7 +28,7 @@ In diesem Abschnitt werden die Szenarien für Edgeserver-Bereitstellungen defini
 Bei Verwendung dieses Prozesses können Sie die Konfiguration aller möglichen Features planen und dokumentieren, die Sie für Ihre Benutzer bereitstellen möchten. Sie können jedoch Verbund- und Mobilitätsdienste hinzufügen, nachdem Sie den Edgeserver bereitgestellt und den fehlerfreien Betrieb überprüft haben, bevor Sie weitere Features hinzufügen. Der Prozess zum Hinzufügen von Features zu einer vorhandenen Edgeserver-Bereitstellung wird im Abschnitt zur Bereitstellung erläutert. Ausführliche Informationen zum Bereitstellen finden Sie unter [Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Indem Sie Pläne für diese Features in den anfänglichen Planungsprozess aufnehmen, können Sie Vorbereitungen für die DNS-, Firewall- und Zertifikatanforderungen für die hinzugefügten Features treffen. Dadurch wird das Erwerben von Zertifikaten und Konfigurieren von DNS- und Port-/Protokollanforderungen im Voraus ermöglicht.
 
 
-> [!NOTE]
+> [!TIP]
 > Wenn die Edgeserver und den Reverseproxy installieren und Features (z.&nbsp;B. Verbund und Mobilität) später hinzufügen möchten, ermitteln Sie, welche Zertifikate Sie für alle Dienste nach der Bereitstellung benötigen. Wenn Sie die Zertifikate für alle Features im Voraus planen und erwerben (unabhängig davon, ob sie anfänglich bereitgestellt werden), müssen Sie später keine neuen Zertifikate bestellen, um die Anforderungen des Verbunds (d.&nbsp;h. auf den Edgeservern) oder des Reverseproxys (d.&nbsp;h. für Mobilitätsdienste) zu erfüllen.
 
 
@@ -103,7 +103,7 @@ Bei Verwendung dieses Prozesses können Sie die Konfiguration aller möglichen F
 
 
 
-> [!NOTE]
+> [!TIP]
 > Die folgenden Szenarioabschnitte enthalten Referenzarchitekturen, Beispiel-DNS, Port-/Protokolldefinitionen und Zertifikatanforderungen. Darüber hinaus sind Diagramme für Ihr DNS, Ihre Port-/Protokolldefinitionen und Zertifikatanforderungen enthalten. Die Diagramme enthalten eine Vorlage, die Sie ausfüllen und an andere Teams (z.&nbsp;B. das Netzwerkteam, PKI (Public Key Infrastructure)-Team oder Serverbereitstellungsteam) weiterleiten können. Das Ziel der Diagramme besteht darin, die Kommunikation zu verbessern und eine erfolgreiche Weiterleitung der erforderlichen Edgeserver-Konfigurationselemente an die Personen zu gewährleisten, die die Konfiguration tatsächlich vornehmen. Es wird empfohlen, die Diagramme und zugehörigen Referenzarchitekturen zum Planen der Bereitstellung zu verwenden.
 
 

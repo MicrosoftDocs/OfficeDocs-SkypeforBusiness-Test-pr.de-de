@@ -45,7 +45,7 @@ Ausführliche Informationen zum Arbeiten mit Netzwerksubnetzen finden Sie in der
   - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
 
-> [!NOTE]
+> [!TIP]
 > Wenn Sie mit vielen Subnetzen arbeiten, wird die Verwendung einer CSV-Datei (mit durch Trennzeichen getrennten Werten) empfohlen, um Subnetze Standorten zuzuordnen. Die CSV-Datei muss die folgenden vier Spalten enthalten: <STRONG>IP-Adresse</STRONG>, <STRONG>Maske</STRONG>, <STRONG>Beschreibung</STRONG>, <STRONG>Netzwerkstandort-ID</STRONG>.
 
 

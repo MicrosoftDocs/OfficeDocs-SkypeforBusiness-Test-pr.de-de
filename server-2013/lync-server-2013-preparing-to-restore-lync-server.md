@@ -108,7 +108,7 @@ Beim Wiederherstellen eines Servers müssen Sie mit einem neuen oder neu formati
   - Software zum Erstellen von Systemimages.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Es wird empfohlen, ein Systemimage zu erstellen, nachdem Sie das Betriebssystem und SQL&nbsp;Server installiert haben und bevor Sie mit der Wiederherstellung beginnen. Sollte bei der Wiederherstellung etwas schief gehen, können Sie dann mithilfe dieses Images ein Rollback ausführen.
 
 

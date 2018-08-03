@@ -24,7 +24,7 @@ Zum Erstellen einer neuen Ansage müssen Sie die folgenden Schritte ausführen:
 3.  Führen Sie das Cmdlet **New-CsAnnouncement** aus, um die Ansage zu erstellen und zu benennen. Diesen Schritt führen Sie aus, um Ankündigungen zu erstellen, die Audioansagen, eine Text-zu-Sprache-Ansage (Text-to-Speech, TTS) oder keine Ansage enthalten.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Möglicherweise möchten Sie eine Ankündigung erstellen (wenn Sie z.&nbsp;B. Anrufe an ein bestimmtes Ziel durchstellen möchten, ohne eine Nachricht wiederzugeben.
 
 

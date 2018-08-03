@@ -20,7 +20,7 @@ Der Lync Server-Webdienst **AutoErmittlungsdienst** war zuerst mit dem kumulativ
 Der AutoErmittlungsdienst fungiert als zentraler Ort für alle Clients zum Abfragen von Informationen zu verfügbaren Diensten und Features sowie zum Kontaktieren der Dienste – entweder über einen vollqualifizierten Domänennamen oder den Verweis auf eine Web-URL. Die AutoErmittlung stellt eine Reihe von Features bereit, und jeder Client stellt Anforderungen basierend auf den Features, die er verwenden kann. Ein Lync 2013-Desktopclient verwendet die AutoErmittlung z. B. zum Bestimmen der externen Webdienste, verwendet jedoch nicht die Mobilitätsdienste (Mcx). Zum ordnungsgemäßen Definieren und Aktivieren Ihrer Clients für die Verwendung der verfügbaren Features sollten die Szenarien definiert werden, die es einem Client ermöglichen, AutoErmittlungseinträge effektiv zu identifizieren und zu nutzen. Für die Verwendung der AutoErmittlung erfordert Ihre Bereitstellung, dass ein Reverseproxy die Lync Server-Webdienste veröffentlicht, das DNS-Einträge für das Auflösen von DNS-Abfragen für den Lync Server-AutoErmittlungsdienst und die Lync Server-Webdienste konfiguriert sind, sowie dass Zertifikatdienste ordnungsgemäß für Ihr bestimmtes Szenario konfiguriert sind.
 
 
-> [!NOTE]
+> [!TIP]
 > Technische Details zu den Funktionen der Elemente in den AutoErmittlungs-Anfragen/Antworten finden Sie unter <A href="lync-server-2013-understanding-autodiscover.md">Grundlegendes zur AutoErmittlung</A>.
 
 

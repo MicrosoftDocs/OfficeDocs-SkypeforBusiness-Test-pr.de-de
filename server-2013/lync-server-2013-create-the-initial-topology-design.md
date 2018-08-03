@@ -40,7 +40,7 @@ Nachdem Sie die Installation des Lync Server 2013, Planungstools abgeschlossen 
 4.  Beantworten Sie die Fragen in jedem Abschnitt, indem Sie die geeigneten Kriterien für Ihren Entwurf auswählen, und klicken Sie anschließend auf **Weiter** , um mit der nächsten Seite des Assistenten fortzufahren. Klicken Sie auf **Zurück** , um Änderungen auf vorhergehenden Seiten vorzunehmen.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Jede Seite bietet eine Beschreibung der Auswahlkriterien sowie Empfehlungen basierend auf bevorzugten Vorgehensweisen und der Kapazitätsplanung. Wenn Sie weitere Informationen benötigen, klicken Sie auf <STRONG>Weitere Informationen</STRONG> , um die Lync Server 2013-Planungsdokumentation auf der Microsoft TechNet-Website aufzurufen. Für den Zugriff auf die Microsoft TechNet-Website ist eine Internetverbindung erforderlich.
 
 

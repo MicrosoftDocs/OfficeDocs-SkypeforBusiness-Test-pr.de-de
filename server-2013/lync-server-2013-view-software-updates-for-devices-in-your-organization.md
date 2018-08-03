@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 In Lync Server 2013 verwenden Sie den Geräteaktualisierungswebdienst zum Anzeigen und Verwalten von Softwareupdates für die Geräte in Ihrer Organisation. Diese Updates stehen in Form von CAB-Dateien auf der Microsoft-Supportwebsite zur Verfügung: [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x407). Nach dem Download der CAB-Datei führen Sie das **Import-CSdeviceUpdate**-Cmdlet aus, um die Geräteupdateregeln aus der CAB-Datei zu importieren. Ausführliche Informationen zum **Import-CSdeviceUpdate**-Cmdlet finden Sie unter [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 
-> [!NOTE]
+> [!TIP]
 > Bevor Sie ein neues Update in Ihrer Organisation bereitstellen, sollten Sie seine ordnungsgemäße Funktion auf einem Testgerät überprüfen.
 
 

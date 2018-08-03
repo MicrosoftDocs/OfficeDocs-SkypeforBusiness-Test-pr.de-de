@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-16_
 Die AutoErmittlung wurde für Lync Server mit dem kumulativen Update für Lync Server 2010: November 2011 eingeführt. Der Hauptzweck dieser Erstimplementierung der AutoErmittlung bestand in der Bereitstellung einer Methode für Lync Mobile zum Identifizieren des Mobilitätsdiensts (Mcx). Der AutoErmittlungsdienst in Lync Server 2013 ist mittlerweile ein Dienst, der von allen Clients zum Identifizieren von Server- und Benutzerdiensten verwendet wird. Der AutoErmittlungsdienst von Microsoft Lync Server 2013 wird auf Directors und Front-End-Server ausgeführt.
 
 
-> [!NOTE]
+> [!TIP]
 > Weitere technische Informationen zur AutoErmittlung und der Kommunikation an Clients finden Sie unter <A href="lync-server-2013-understanding-autodiscover.md">Grundlegendes zur AutoErmittlung</A>.<BR>Bei der Mobilität handelt es sich noch um ein eigenständiges Szenario und die Mobilitätsdienste erfordern individuelle Planung. Zusätzliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-mobility.md">Planen der Mobilität in Lync Server&nbsp;2013</A>.
 
 

@@ -20,7 +20,7 @@ Die Konfiguration von Chatrooms für Chats vom Typ Beständiger Chat erfolgt im 
 Benutzer, die in einer bestimmten Kategorie **Ersteller** sind, können den Lync-Client zum Erstellen und Verwalten von Chatrooms verwenden. Benutzer, die für einen bestimmten Chatroom als Manager bestimmt wurden, können den Chatroom auch fortlaufend verwalten, indem sie beispielsweise dessen Eigenschaften oder Mitgliedschaften bearbeiten.
 
 
-> [!NOTE]
+> [!TIP]
 > Administratoren für Chats vom Typ Beständiger Chat können auch Ersteller sein, und sie unterliegen nicht den für die Ersteller festgelegten Einschränkungen.
 
 

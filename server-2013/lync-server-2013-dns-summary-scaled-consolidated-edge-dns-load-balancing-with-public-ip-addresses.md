@@ -68,7 +68,7 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
     Die privaten IP-Adressen des Webkonferenz-Edgediensts und A/V-Edgediensts sind zusätzliche IP-Adressen im Abschnitt **Erweitert** der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** in **Eigenschaften von LAN-Verbindung** von Windows Server.
 
 
-> [!NOTE]
+> [!TIP]
 > Das Konfigurieren von zwei Netzwerkadaptern für den Edgeserver ist eine von zwei möglichen Optionen. Die andere Option besteht darin, einen einzigen Netzwerkadapter für die interne Schnittstelle und drei Netzwerkadapter für die externe Schnittstelle des Edgeservers zu verwenden. Der wichtigste Vorteil dieser Option ist ein separater Netzwerkadapter pro Edgeserverdienst und eine möglicherweise präzisere Datenerfassung, falls eine Problembehandlung erforderlich ist.
 
 

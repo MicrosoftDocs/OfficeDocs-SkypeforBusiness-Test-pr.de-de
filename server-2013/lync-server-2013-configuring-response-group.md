@@ -22,7 +22,7 @@ Die erforderlichen Komponenten für Reaktionsgruppen werden bei der Bereitstellu
 In diesem Abschnitt wird die Konfiguration von Lync Server 2013- Reaktionsgruppen behandelt. Es wird davon ausgegangen, dass Sie die Planungsabschnitte zu Reaktionsgruppen gelesen und einen Enterprise Edition-Server oder Standard Edition-Server mit Enterprise-VoIP bereitgestellt haben.
 
 
-> [!NOTE]
+> [!TIP]
 > Ausführliche Informationen und ein Beispielskript für die Erstellung einer Reaktionsgruppe mithilfe der Lync Server-Verwaltungsshell finden Sie unter "Creating Your First Response Group Using Lync Server Management Shell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>.
 
 

@@ -71,7 +71,7 @@ Wenn Sie mit dem Arbeiten in Lync fertig sind, können Sie die Anzeige schließe
 <td><p>Hiermit wird die mit Ihrer Benutzer-ID verknüpfte Lync-Sitzung beendet, Lync wird jedoch im Hintergrund weiter ausgeführt. Wenn Sie sich abmelden, wird das Abmeldefenster angezeigt.</p>
 <div>
 
-> [!NOTE]
+> [!TIP]
 > Wählen Sie bei der Abmeldung auf <STRONG>Meine Anmeldeinformationen löschen</STRONG> aus, um den Datensatz mit Ihrer Anmelde-ID und dem Kennwort vom Computer zu entfernen. Dies vereinfacht möglicherweise den Support bei der Behandlung von Anmeldeproblemen. Außerdem trägt es dazu bei, Ihre Anmeldeinformationen zu sichern, da es nicht autorisierten Benutzern so erschwert wird, sich mit Ihren Anmeldeinformationen anzumelden.
 
 

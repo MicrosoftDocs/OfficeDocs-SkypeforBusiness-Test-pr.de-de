@@ -24,7 +24,7 @@ Stellen Sie vor dem Ausführen der Gesamtstrukturvorbereitung manuell sicher, da
 2.  Öffnen Sie den ADSI-Editor, indem Sie nacheinander auf **Start** , **Verwaltung** und dann auf **ADSI-Editor** klicken.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Alternativ dazu können Sie <STRONG>adsiedit.msc</STRONG> auch über die Befehlszeile ausführen.
 
 

@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Quelldaten ordnungsgemäß für 
 2.  Prüfen Sie Ihre Chatrooms und Ihre Kategoriekonfiguration für Lync Server 2010-Gruppenchat oder Office Communications Server 2007 R2  Gruppenchat. Alle Änderungen an Kategorien, Chatrooms oder Add-Ins in Ihrer bestehenden Vorversionsbereitstellung werden mit dem Gruppenchat-Verwaltungstool ausgeführt.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Alle Änderungen an Kategorien, Chatrooms oder Add-Ins in Ihrer Bereitstellung von Lync Server 2013, Server für beständigen Chat werden mit der Lync Server-Systemsteuerung oder mit Windows PowerShell-Cmdlets ausgeführt.
 
     

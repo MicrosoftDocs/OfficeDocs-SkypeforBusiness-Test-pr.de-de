@@ -32,7 +32,7 @@ Wenn in Ihrer Organisation anstelle der drei integrierten Container (für Benutz
 Ausführliche Informationen zur Verwendung des **Grant-CsOuPermission**-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 
-> [!NOTE]
+> [!TIP]
 > Ausführliche Informationen zu den ACEs, die im Domänenstamm und in den Benutzer-, Computer- und Domänencontrollercontainern erstellt werden, finden Sie unter <A href="lync-server-2013-changes-made-by-domain-preparation.md">Änderungen bei der Domänenvorbereitung in Lync Server 2013</A>.
 
 

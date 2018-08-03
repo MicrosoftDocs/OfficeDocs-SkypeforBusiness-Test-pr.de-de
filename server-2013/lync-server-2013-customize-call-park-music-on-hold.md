@@ -34,7 +34,7 @@ Sie können Ihre eigene Musikdatei für die Wartemusik anstelle der Standardmusi
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
 
-    > [!NOTE]
+    > [!TIP]
     > Verwenden Sie das Cmdlet <STRONG>Get-CsService</STRONG>, um den Dienst zu ermitteln. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     

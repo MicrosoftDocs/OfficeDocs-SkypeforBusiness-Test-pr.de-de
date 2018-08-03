@@ -38,7 +38,7 @@ Standardmäßig werden einfache URLs in der folgenden Form konfiguriert (z. B. 
 2.  Geben Sie im Feld **URL für Verwaltungszugriff** die einfache URL ein, die Sie für den Verwaltungszugriff auf die Systemsteuerung für Lync Server 2013 verwenden möchten, und klicken Sie auf **OK** .
     
 
-    > [!NOTE]
+    > [!TIP]
     > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Möglichkeit ist <STRONG>https://admin.</STRONG> <EM>&lt;Domäne&gt;</EM> .
 
     

@@ -42,7 +42,7 @@ Nach dem Migrieren zu Lync Server 2013 müssen Sie die Auswirkung der Änderung 
 2.  Wählen Sie im linken Bereich den Eintrag **Einfache URLs** aus. Geben Sie dann unter dem Feld **URL für Verwaltungszugriff** die einfache URL ein, die Sie für den Verwaltungszugriff auf Systemsteuerung für Lync Server 2013 verwenden möchten, und klicken Sie anschließend auf **OK** .
     
 
-    > [!NOTE]
+    > [!TIP]
     > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Möglichkeit ist <STRONG>https://admin.</STRONG> <EM>&lt;Domäne&gt;</EM> .
 
 

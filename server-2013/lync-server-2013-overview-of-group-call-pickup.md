@@ -54,7 +54,7 @@ Die Gruppenanrufannahme kann nicht zum Annehmen der folgenden Anruftypen verwend
   - Anrufe von Kontakten, denen die private Beziehung "Freunde und Familie" zugewiesen wurde
     
 
-    > [!NOTE]
+    > [!TIP]
     > Ein Benutzer, der Mitglied einer Anrufannahmegruppe ist, kann die Annahme bestimmter Anrufe über die Gruppenanrufannahme verhindern, indem er den Kontakt im Lync-Client als persönlichen Kontakt kennzeichnet. Zum Kennzeichnen eines Kontakts als persönlichen Kontakt legen Sie die private Beziehung für den Kontakt auf "Freunde und Familie" fest. Eingehende Anrufe von Kontakten mit der privaten Beziehung "Freunde und Familie" können nicht über die Gruppenanrufannahme angenommen werden.
 
 

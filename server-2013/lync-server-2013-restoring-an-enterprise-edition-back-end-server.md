@@ -26,7 +26,7 @@ Wenn Sie einen Back-End-Server der Enterprise-Edition gespiegelt haben und nur d
 Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter [Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher hostet](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Bei einem Fehler auf dem Enterprise Edition-Mitgliedsserver, der nicht der Back-End-Server ist, lesen Sie die Anleitungen unter [Wiederherstellen eines Enterprise Edition-Mitgliedsservers](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
 
-> [!NOTE]
+> [!TIP]
 > Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen. Sie können dieses Abbild dann als Rollbackpunkt verwenden, falls Probleme bei der Wiederherstellung auftreten. Es ist sinnvoll, das Abbild nach der Installation des Betriebssystems und von SQL&nbsp;Server zu erstellen und die Zertifikate wiederherzustellen oder erneut zu registrieren.
 
 
@@ -73,7 +73,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
     7.  Folgen Sie den Anweisungen auf den weiteren Seiten des Assistenten, und klicken Sie dann auf **Fertig stellen**.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Anstatt den Topologie-Generator auszuführen, können Sie die einzelnen Datenbanken mithilfe des <STRONG>Install-CsDatabase</STRONG>-Cmdlets erstellen und die Spiegelung mithilfe des Cmdlets <STRONG>Install-CsMirrorDatabase</STRONG> konfigurieren. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

@@ -26,7 +26,7 @@ Für die Remoteanrufsteuerung muss jeder Lync Server-Pool mit einem Pfad von die
 3.  Führen Sie einen der folgenden Schritte aus, um eine statische Route zu erstellen und in die Variable "$TLSRoute" oder "$TCPRoute" einzufügen:
     
 
-    > [!NOTE]
+    > [!TIP]
     > Zum Abgleich von untergeordneten Domänen einer Domäne können Sie im Parameter "MatchUri" einen Platzhalterwert angeben. Beispiel: <STRONG>*.contoso.net</STRONG> . Dieser Wert gilt für alle Domänen, die auf das Suffix <STRONG>contoso.net</STRONG> enden.
 
     

@@ -57,7 +57,7 @@ Ausführliche Informationen zum Erstellen von Clientversionsrichtlinien auf Benu
 6.  Klicken Sie in den Suchergebnissen auf einen Benutzer, klicken Sie auf **Aktion** und anschließend auf **Richtlinien zuweisen**.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Wenn Sie dieselbe benutzerbasierte Clientversionsrichtlinie auf mehrere Benutzer anwenden möchten, wählen Sie mehrere Benutzer in den Suchergebnissen aus, klicken Sie auf <STRONG>Aktionen</STRONG> und anschließend auf <STRONG>Richtlinien zuweisen</STRONG>.
 
 
@@ -74,7 +74,7 @@ Ausführliche Informationen zum Erstellen von Clientversionsrichtlinien auf Benu
       - Klicken Sie auf der Seite **Clientversionsrichtlinie** auf den Namen einer Clientversionsrichtlinie auf Benutzerebene, die Sie zuvor definiert haben.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Um besser entscheiden zu können, welche Richtlinie zugewiesen werden soll, klicken Sie auf einen Richtliniennamen und anschließend auf <STRONG>Anzeigen</STRONG>, um die in der Richtlinie definierten Benutzerrechte und -berechtigungen anzuzeigen.
 
 

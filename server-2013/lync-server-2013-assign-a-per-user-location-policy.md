@@ -50,7 +50,7 @@ Ausführliche Informationen zur Erstellung von Standortrichtlinien finden Sie un
     4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
@@ -59,7 +59,7 @@ Ausführliche Informationen zur Erstellung von Standortrichtlinien finden Sie un
 6.  Klicken Sie in den Suchergebnissen auf einen Benutzer, klicken Sie auf **Aktion** und anschließend auf **Richtlinien zuweisen**.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Wenn Sie dieselbe Benutzerortungsrichtlinie auf mehrere Benutzer anwenden möchten, wählen Sie mehrere Benutzer in den Suchergebnissen aus, klicken Sie auf <STRONG>Aktionen</STRONG> und anschließend auf <STRONG>Richtlinien zuweisen</STRONG>.
 
 
@@ -76,7 +76,7 @@ Ausführliche Informationen zur Erstellung von Standortrichtlinien finden Sie un
       - Klicken Sie auf den Namen einer Benutzerortungsrichtlinie, die Sie zuvor durch Ausführen des Cmdlets **New-CsLocationPolicy** definiert haben.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Um besser entscheiden zu können, welche Richtlinie zugewiesen werden soll, klicken Sie auf einen Richtliniennamen und anschließend auf <STRONG>Anzeigen</STRONG>, um die in der Richtlinie definierten Benutzerrechte und -berechtigungen anzuzeigen.
 
 

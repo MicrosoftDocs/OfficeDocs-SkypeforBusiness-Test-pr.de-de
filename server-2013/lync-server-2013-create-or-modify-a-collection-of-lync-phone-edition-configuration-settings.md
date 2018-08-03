@@ -34,7 +34,7 @@ Zu den Konfigurationseinstellungen zählen der Auflistungsname, der Geltungsbere
       - Zum Bearbeiten von Einstellungen in einer vorhandenen Auflistung klicken Sie auf die Auflistung und dann auf das Menü **Bearbeiten**. Wählen Sie **Details anzeigen** und nehmen Sie Ihre Änderungen vor.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Wenn Sie wieder die Standardeinstellungen für die globale Auflistung verwenden möchten, klicken Sie auf das Menü <STRONG>Bearbeiten</STRONG>, dann auf <STRONG>Löschen</STRONG> und schließlich auf <STRONG>OK</STRONG>. Hierdurch wird die globale Auflistung nicht gelöscht; die Einstellungen werden lediglich auf die Standardwerte zurückgesetzt.
 
 
