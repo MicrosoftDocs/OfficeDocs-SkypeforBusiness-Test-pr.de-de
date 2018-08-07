@@ -56,7 +56,7 @@ Das Mobilitätsfeature wurde mit den kumulativen Updates für Lync Server 2013:
 Apple iPad-Benutzer haben Zugriff auf erweiterte Funktionen. Nach dem Beitritt zu einer Besprechung mittels Audiorückruf kann ein iPad-Benutzer hochgeladene Microsoft PowerPoint-Präsentationen in einer Besprechung anzeigen, die Anwendungs- und Desktopfreigabe nutzen sowie die Teilnehmerliste der Besprechung anzeigen und Benachrichtigungen zu anderen Inhaltstypen erhalten, die in der Besprechung freigegeben werden.
 
 
-> [!NOTE]
+> [!TIP]
 > Mit dem Feature "Erreichbarkeit unter einer Nummer" kann der Benutzer die Anrufe, die unter seiner geschäftlichen Telefonnummer eingehen, auf einem Mobiltelefon entgegennehmen. Mit dem Feature "Geschäftlich anrufen" des Lync Mobile-Clients kann der Benutzer einen ausgehenden Anruf tätigen und hierzu eine geschäftliche Telefonnummer anstelle der Mobiltelefonnummer verwenden. Zum Verwenden dieses Features kann ein Benutzer entweder direkt vom Mobiltelefon aus wählen oder die Dial-Out-Konferenz verwenden. Bei der ausgehenden Verbindung fordert der Client Mcx oder UCWA ( Lync Mobile-Version) auf, den Anruf zu tätigen. Der Server initiiert den Anruf und ruft dann den Benutzer auf dem Mobiltelefon zurück. Wenn der Benutzer antwortet, beendet der Server den Anruf, indem der andere Teilnehmer angerufen wird. Mithilfe des Features "Geschäftlich anrufen" können Benutzer einen Anruf unter ihrer geschäftlichen Identität tätigen. Der Anrufempfänger sieht also nicht die Mobiltelefonnummer des Anrufers, und für den Anrufer fallen keine Gebühren für ausgehende Anrufe an.
 
 

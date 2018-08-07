@@ -42,7 +42,7 @@ Sie können die PIN eines Benutzers im Bereich **Users** des Systemsteuerung fü
     4.  Geben Sie je nach ausgewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
@@ -75,7 +75,7 @@ Sie können die PIN eines Benutzers im Bereich **Users** des Systemsteuerung fü
     4.  Geben Sie je nach ausgewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     

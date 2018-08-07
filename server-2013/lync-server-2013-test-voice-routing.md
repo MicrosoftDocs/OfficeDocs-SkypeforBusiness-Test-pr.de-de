@@ -20,7 +20,7 @@ Unter Verwendung der Registerkarte **Test für VoIP-Routing** in der Lync Server
 Bevor Sie Ihre VoIP-Routingkonfiguration tatsächlich bereitstellen, sollten Sie die Konfiguration mithilfe verschiedener Telefonnummern testen, um sicherzustellen, dass die Konfiguration die gewünschten Ergebnisse liefert.
 
 
-> [!NOTE]
+> [!TIP]
 > Mithilfe der Befehle <STRONG>Testfälle exportieren</STRONG> und <STRONG>Testfälle importieren</STRONG> können Sie Testfälle für das VoIP-Routing speichern und zur Verwendung auf einem anderen Computer importieren.
 
 

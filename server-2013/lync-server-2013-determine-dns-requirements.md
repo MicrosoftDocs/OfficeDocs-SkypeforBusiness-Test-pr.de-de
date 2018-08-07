@@ -76,7 +76,7 @@ Wenn die kumulativen Updates für Lync Server 2013: Februar 2013 installiert w
 
 
 
-> [!NOTE]
+> [!TIP]
 > Die Standardkonfiguration ermöglicht es, dass der Datenverkehr des mobilen Clients über die externe Website erfolgt. Sie können Einstellungen ändern, damit nur die interne URL zurückgegeben wird, wenn Sie dies bevorzugen. Bei dieser Konfiguration können Benutzer auf ihren mobilen Geräten mobile Lync-Anwendungen nur verwenden, wenn sie sich im Firmennetzwerk befinden. Zur Definition dieser Konfiguration müssen Sie das Cmdlet <STRONG>Set-CsMcxConfiguration</STRONG> ausführen.
 
 

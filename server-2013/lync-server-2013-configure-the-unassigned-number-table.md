@@ -26,7 +26,7 @@ Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich da
 
 
 
-> [!NOTE]
+> [!TIP]
 > Wenn ein Anruf bei einer nicht zugewiesenen Nummer eingeht, durchsucht Lync Server die Tabelle nicht zugewiesener Rufnummern von oben nach unten und verwendet den ersten übereinstimmenden Bereich. Sie sollten also als letzte Lösungsmöglichkeit eine Aktion definieren, die für den letzten Bereich in der Tabelle ausgeführt werden soll.
 
 

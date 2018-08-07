@@ -70,7 +70,7 @@ Handelt es sich um eine Benutzerrichtlinie, müssen Sie die Richtlinie auch auf 
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
 
-    > [!NOTE]
+    > [!TIP]
     > Der Parameter „EnablePublicCloudAudioVideoAccess“ weist keine entsprechende Auswahl in Lync Server-Systemsteuerung auf.
 
 

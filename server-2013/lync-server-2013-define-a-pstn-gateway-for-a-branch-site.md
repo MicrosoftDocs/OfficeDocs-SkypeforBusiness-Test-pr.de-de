@@ -49,7 +49,7 @@ Führen Sie dieses Verfahren am zentralen Standort aus, der mindestens einen Fro
 
 
 
-> [!NOTE]
+> [!TIP]
 > Verwenden Sie das Cmdlet <STRONG>Set-CsPstnGateway</STRONG>, um die Eigenschaften eines PSTN-Gateways zu ändern. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A> in der Lync Server-Verwaltungsshell-Hilfe.
 
 

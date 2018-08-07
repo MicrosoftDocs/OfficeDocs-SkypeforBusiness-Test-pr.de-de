@@ -30,7 +30,7 @@ Um alle Vorteile des ABC-Poolfailoververfahrens zu nutzen, müssen Sie vor dem A
     Die Reaktionsgruppenanwendung kann nur einen Satz von Einstellungen auf Anwendungsebene pro Pool speichern. Der Zugriff auf diese Einstellungen erfolgt über die **Get-CsRgsConfiguration**-Cmdlets. Die Einstellungen umfassen die Standardkonfiguration für Wartemusik, die Standardaudiodatei für Wartemusik, die Kulanzfrist für Agentrückrufe und die Anrufkontextkonfiguration. Diese Einstellungen können aus einem Pool in einen anderen übertragen werden, indem das Cmdlet **Import-CsRgsConfiguration** mit dem Parameter **ReplaceExistingSettings** ausgeführt wird. Dieser Vorgang setzt jedoch nur alle Einstellungen auf Anwendungsebene im Zielpool außer Kraft.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Bewahren Sie an einem separaten Standort eine Sicherungskopie aller ursprünglichen Audiodateien auf, die zum Konfigurieren der Reaktionsgruppenanwendung verwendet wurden (d.&nbsp;h alle Aufnahmen oder Wartemusikdateien).
 
     

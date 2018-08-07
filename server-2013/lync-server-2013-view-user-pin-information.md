@@ -48,7 +48,7 @@ Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt 
     4.  Je nachdem, welche Benutzereigenschaft Sie ausgewählt haben, geben Sie nun die Kriterien ein, mit denen Sie die Suchergebnisse filtern möchten, oder treffen eine entsprechende Auswahl in der Dropdownliste.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Um Ihrer Abfrage weitere Suchklauseln hinzuzufügen, klicken Sie auf <STRONG>Filter hinzufügen</STRONG>.
 
     

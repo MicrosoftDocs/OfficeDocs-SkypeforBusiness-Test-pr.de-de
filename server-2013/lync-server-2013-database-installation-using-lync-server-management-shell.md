@@ -58,7 +58,7 @@ Für die Installation von Datenbanken verwendet **Install-CsDatabase** drei prim
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
     
 
-    > [!NOTE]
+    > [!TIP]
     > Der optionale Parameter "Report" ist nützlich, wenn Sie den Installationsvorgang dokumentieren.
 
 
@@ -96,7 +96,7 @@ Für die Installation von Datenbanken verwendet **Install-CsDatabase** drei prim
         -Report "C:\Logs\InstallDatabases.html"
     
 
-    > [!NOTE]
+    > [!TIP]
     > Der optionale Parameter "Report" ist nützlich, wenn Sie den Installationsvorgang dokumentieren.
 
 

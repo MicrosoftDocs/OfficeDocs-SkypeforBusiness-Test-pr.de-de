@@ -54,7 +54,7 @@ Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen
       - Folgen Sie den Anweisungen des Assistenten, bis die Aufforderung **Spiegeldatenbank erstellen** angezeigt wird. Wählen Sie die zu installierende Datenbank aus, und stellen Sie dieses Prozess fertig.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Anstatt den Topologie-Generator auszuführen, können Sie die Spiegelung mithilfe des <STRONG>Install-CsMirrorDatabase</STRONG>-Cmdlets konfigurieren. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

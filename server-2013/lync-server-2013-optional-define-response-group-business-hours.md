@@ -20,7 +20,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur Anrufbeantwortung zur Verfügung steht, und es werden die Aktionen angegeben, die für Anrufe außerhalb der Geschäftszeiten ausgeführt werden sollen. Reaktionsgruppenadministratoren können mit dem **New-CsRgsHoursOfBusiness**-Cmdlet vordefinierte Zeitpläne erstellen, die Sie für eine beliebige Anzahl von Reaktionsgruppen verwenden können.
 
 
-> [!NOTE]
+> [!TIP]
 > Beim Erstellen oder Ändern eines Workflows können Sie einen benutzerdefinierten Zeitplan angeben, der nur für diesen Workflow gilt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Erstellen oder Ändern eines Workflows für Sammelanschlüsse in Lync Server 2013</A> oder <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Erstellen oder Ändern eines interaktiven Workflows in Lync Server 2013</A>.
 
 

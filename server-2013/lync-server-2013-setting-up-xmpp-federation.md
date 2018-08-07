@@ -32,7 +32,7 @@ Zum Bereitstellen des XMPP-Proxys auf dem Edgeserver müssen Sie den Edgeserver 
 6.  Klicken Sie auf dem Edgeserver im Bereitstellungs-Assistenten neben Schritt 3: Zertifikate anfordern, installieren oder zuweisen auf Erneut ausführen.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Wenn Sie den Edgeserver zum ersten Mal bereitstellen, wird Ausführen anstelle von Erneut ausführen angezeigt.
 
 
@@ -66,7 +66,7 @@ Zum Bereitstellen des XMPP-Proxys auf dem Edgeserver müssen Sie den Edgeserver 
 17. Geben Sie auf der Seite "Zusätzliche alternative Antragstellernamen konfigurieren" alle erforderlichen zusätzlichen alternativen Antragstellernamen an.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Falls der XMPP-Proxy installiert ist, wird standardmäßig der Domänenname (z.&nbsp;B. contoso.com ) in den SAN-Einträgen aufgefüllt. Für den Fall, dass Sie weitere Einträge benötigen, fügen Sie sie in diesem Schritt hinzu.
 
 
@@ -154,7 +154,7 @@ Zum Bereitstellen des XMPP-Proxys auf dem Edgeserver müssen Sie den Edgeserver 
 10. Veröffentlichen Sie die Topologie. Einzelheiten dazu finden Sie unter [Veröffentlichen der Topologie in Lync Server 2013](lync-server-2013-publish-your-topology.md).
     
 
-    > [!NOTE]
+    > [!TIP]
     > Obgleich für gewöhnlich nicht erforderlich, sollten Sie die Edgeserver neu starten.
 
 

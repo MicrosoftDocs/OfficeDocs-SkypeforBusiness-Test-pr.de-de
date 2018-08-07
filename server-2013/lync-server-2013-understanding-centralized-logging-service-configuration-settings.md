@@ -26,7 +26,7 @@ Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
     Get-CsClsConfiguration
 
 
-> [!NOTE]
+> [!TIP]
 > Sie können den Bereich der zurückgegebenen Konfigurationseinstellungen beschränken oder erweitern, indem Sie <CODE>-Identity</CODE> und einen Bereich, z.&nbsp;B. "Site:Redmond", so definieren, dass nur die CsClsConfiguration für den Standort Redmond zurückgegeben wird. Wenn Sie Details über einen bestimmten Teil der Konfiguration erhalten möchten, können Sie die Ausgabe an ein anderes Windows PowerShell-Cmdlet weiterleiten. Um beispielsweise Details über die Szenarien zu erhalten, die in der Konfiguration für den Standort "Redmond" definiert sind, geben Sie Folgendes ein: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
 

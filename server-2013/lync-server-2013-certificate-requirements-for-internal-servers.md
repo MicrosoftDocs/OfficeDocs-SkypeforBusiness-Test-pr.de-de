@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2017-02-17_
 Zu den internen Servern, auf denen Lync Server ausgeführt wird und die Zertifikate benötigen, gehören z. B. Standard Edition-Server, Enterprise Edition-Front-End-Server, Vermittlungsserver und Director. Die folgende Tabelle enthält die Zertifikatanforderungen für diese Server. Sie können den Zertifikat-Assistenten von Lync Server verwenden, um diese Zertifikate anzufordern.
 
 
-> [!NOTE]
+> [!TIP]
 > Platzhalterzertifikate werden für die alternativen Antragstellernamen unterstützt, die den einfachen URLs auf dem Front-End-Pool, dem Front-End-Server oder dem Director zugeordnet sind. Ausführliche Informationen zur Platzhalterzertifikatunterstützung finden Sie unter <A href="lync-server-2013-wildcard-certificate-support.md">Unterstützung von Platzhalterzertifikaten in Lync Server 2013</A>.
 
 

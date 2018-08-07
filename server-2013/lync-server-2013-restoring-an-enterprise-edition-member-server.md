@@ -28,7 +28,7 @@ Bei einem Ausfall eines Servers, auf dem eine der folgenden Serverrollen ausgef√
   - Edgeserver
 
 
-> [!NOTE]
+> [!TIP]
 > Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen. Sie k√∂nnen dieses Abbild dann als Rollbackpunkt verwenden, falls Probleme bei der Wiederherstellung auftreten. Es ist sinnvoll, das Abbild nach der Installation des Betriebssystems und von SQL&nbsp;Server zu erstellen und die Zertifikate wiederherzustellen oder erneut zu registrieren.
 
 

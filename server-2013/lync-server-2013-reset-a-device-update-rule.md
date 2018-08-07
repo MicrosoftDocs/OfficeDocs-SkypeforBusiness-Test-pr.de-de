@@ -44,7 +44,7 @@ Sie können eine Geräteupdateregel entweder mithilfe von Lync Server-Systemsteu
 5.  Klicken Sie auf **Aktion**, und klicken Sie dann auf **Ausstehende Updates abbrechen**.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Wenn Sie ganz sicher sind, dass Sie die abgebrochenen Geräteupdateregeln nie wieder einführen möchten, können Sie sie löschen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-remove-a-device-update-rule.md">Entfernen einer Geräteaktualisierungsregel</A>.
 
 

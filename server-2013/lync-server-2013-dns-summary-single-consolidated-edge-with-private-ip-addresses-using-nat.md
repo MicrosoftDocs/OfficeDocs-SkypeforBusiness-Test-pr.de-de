@@ -51,7 +51,7 @@ Sie können die zwei Netzwerkadapter auf Ihrem Edgeserver folgendermaßen konfig
     IP-Adressen für Webkonferenzen und A/V-Edge sind als sekundär festgelegt.
 
 
-> [!NOTE]
+> [!TIP]
 > Das Konfigurieren von zwei Netzwerkadaptern für den Edgeserver ist eine von zwei möglichen Optionen. Die andere Option besteht darin, einen einzigen Netzwerkadapter für die interne Schnittstelle und drei Netzwerkadapter für die externe Schnittstelle des Edgeservers zu verwenden. Der wichtigste Vorteil dieser Option ist ein separater Netzwerkadapter pro Edgeserverdienst und eine möglicherweise präzisere Datenerfassung, falls eine Problembehandlung erforderlich ist.
 
 

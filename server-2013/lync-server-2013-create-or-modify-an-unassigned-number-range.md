@@ -75,7 +75,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
 10. Stellen Sie sicher, dass die Bereiche nicht zugewiesener Nummern auf der Seite **Nicht zugewiesene Nummer** in der gewünschten Reihenfolge angezeigt werden. Wenn Sie die Position eines Bereichs in der Tabelle ändern möchten, klicken Sie auf einen oder mehrere aufeinanderfolgende Namen in der Liste der Bereiche, und klicken Sie anschließend auf den Aufwärts- oder Abwärtspfeil.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Lync Server durchsucht die Tabelle nicht zugewiesener Nummern von oben nach unten und verwendet den ersten Bereich, der mit der nicht zugewiesenen Nummer übereinstimmt. Wenn sich Bereiche überlappen und auf einen Bereich als letzte Aktion zurückgegriffen werden soll, stellen Sie sicher, dass sich dieser Bereich ganz unten in der Liste befindet.
 
 
@@ -91,7 +91,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
 3.  Verwenden Sie **New-CsUnassignedNumber**zum Erstellen eines neuen Bereichs nicht zugewiesener Nummern. Verwenden Sie **Set-CsUnassignedNumber** zum Ändern eines vorhandenen Bereichs nicht zugewiesener Nummern.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Wenn sich Bereiche überlappen und die Bereiche in einer bestimmten Reihenfolge angewendet werden sollen, fügen Sie den Parameter "Priority" ein. Daraufhin wird der Bereich mit der höchsten Priorität für den Anruf angewendet.
 
     

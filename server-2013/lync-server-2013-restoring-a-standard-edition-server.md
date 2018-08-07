@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 Führen Sie die Verfahren in diesem Abschnitt beim Ausfall eines Standard Edition-Servers aus, auf dem der zentrale Verwaltungsspeicher nicht gehostet wird. Beim Ausfall des zentralen Verwaltungsspeichers lesen Sie die Informationen unter [Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher hostet](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
 
 
-> [!NOTE]
+> [!TIP]
 > Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen. Sie können dieses Abbild dann als Rollbackpunkt verwenden, falls Probleme bei der Wiederherstellung auftreten. Es ist sinnvoll, das Abbild nach der Installation des Betriebssystems und von SQL&nbsp;Server zu erstellen und die Zertifikate wiederherzustellen oder erneut zu registrieren.
 
 

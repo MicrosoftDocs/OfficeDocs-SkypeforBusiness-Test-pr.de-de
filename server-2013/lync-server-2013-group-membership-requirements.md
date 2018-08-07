@@ -35,7 +35,7 @@ In der folgenden Tabelle sind die Gruppen aufgeführt, deren Mitglied ein Benutz
 <td><p>Mitglied der lokalen Administratorgruppe auf dem Computer, auf dem die ausführbare Datei ausgeführt wird. Mitglied der Gruppe &quot;Domänen-Benutzer&quot; zum Lesen von Informationen in Active Directory-Domänendienste. Diese Berechtigungsstufe ist erforderlich, da für die automatische Installation der erforderlichen MSI-Pakete auf dem lokalen Computer Lese- und Schreibberechtigungen für geschützte Ressourcen des lokalen Computers – z. B. Verzeichnisse unter &quot;Programme&quot; oder geschützte Registrierungseinträge wie der Schlüssel &quot;Local Machine&quot; – benötigt werden.</p>
 <div>
 
-> [!NOTE]
+> [!TIP]
 > Es ist möglich, Installationsberechtigungen an Benutzer oder Gruppen zu delegieren, die Sie nicht in die Gruppe "Domänen-Admins" aufnehmen möchten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-granting-setup-permissions.md">Gewähren von Setupberechtigungen in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
