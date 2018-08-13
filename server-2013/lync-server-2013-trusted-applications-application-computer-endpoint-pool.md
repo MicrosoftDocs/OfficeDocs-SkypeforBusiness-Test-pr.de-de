@@ -23,7 +23,7 @@ Gehen Sie zum Verwalten vertrauenswürdiger Anwendungen für Lync Server 2013 wi
 
 ## Zugehörige Abschnitte
 
-[Cmdlets für vertrauenswürdige Anwendungen](lync-server-2013-trusted-applications-cmdlets.md)
+[Cmdlets für vertrauenswürdige Anwendungen](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## Siehe auch
 

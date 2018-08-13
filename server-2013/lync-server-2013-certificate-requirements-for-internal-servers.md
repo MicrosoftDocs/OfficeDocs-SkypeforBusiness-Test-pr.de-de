@@ -34,13 +34,13 @@ In der folgenden Tabelle werden die Zertifikatanforderungen nach Serverrolle fü
 Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für Server automatisch konfiguriert wird, wenn Sie den Zertifikat-Assistenten zum Anfordern von Zertifikaten verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Der Anzeigename jedes Zertifikats muss im Computerspeicher eindeutig sein.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie sipinternal.contoso.com oder sipexternal.contoso.com in Ihrem DNS konfiguriert haben, müssen Sie diese zum alternativen Antragstellernamen des Zertifikats hinzufügen.
 
 

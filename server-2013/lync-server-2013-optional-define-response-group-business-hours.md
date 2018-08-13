@@ -26,7 +26,7 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn ein Workflow als verwalteter Workflow definiert wird, kann jeder Benutzer, dem die Rolle CsResponseGroupManager zugewiesen ist, benutzerdefinierte Geschäftszeiten für die von ihnen verwalteten Workflows festlegen und ändern.
 
 
@@ -67,6 +67,6 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
 
 #### Weitere Ressourcen
 
-[New-CsRgsTimeRange](new-csrgstimerange.md)  
-[New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

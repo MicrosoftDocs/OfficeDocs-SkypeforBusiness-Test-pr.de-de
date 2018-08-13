@@ -16,7 +16,7 @@ ms.translationtype: HT
 _**Letztes Änderungsdatum des Themas:** 2012-09-12_
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie die globalen Einstellungen für die Medienumgehung sowie die Netzwerkregion und Netzwerkstandorte für die Medienumgehung konfiguriert haben.
 
 

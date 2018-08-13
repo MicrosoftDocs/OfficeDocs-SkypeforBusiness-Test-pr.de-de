@@ -25,7 +25,7 @@ Wenn ein Client sich außerhalb des Netzwerks oder in einem nicht definierten Su
 Wenn ein Benutzer manuell einen Standort eingibt, wird dieser basierend auf der MAC-Adresse des Standardgateways für das Netzwerk des Clients zugeordnet und in einer benutzerspezifischen Tabelle auf dem Client gespeichert. Kehrt der Benutzer an einen zuvor gespeicherten Standort zurück, wird der Lync-Client automatisch auf diesen Standort eingestellt.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können nur den aktuellen Standort Ihres Clients ändern. Darüber hinaus können Sie jeden Standort, der in der Tabelle des lokalen Benutzers gespeichert ist, löschen.
 
 

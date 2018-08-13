@@ -30,7 +30,7 @@ Wie in der Abbildung gezeigt, wird das virtuelle private IP-Netzwerk (IP-VPN) f�
 
 
 
-> [!TIP]
+> [!NOTE]
 > Für SIP-Trunking wird die Bereitstellung eines eigenständigen Vermittlungsservers dringend empfohlen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Bereitstellen von Vermittlungsservern und Definieren von Peers in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

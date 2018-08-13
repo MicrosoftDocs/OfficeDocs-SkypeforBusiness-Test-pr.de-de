@@ -69,7 +69,7 @@ Wenn Sie mit dem Arbeiten in Lync fertig sind, können Sie die Anzeige schließe
 <tr class="even">
 <td><p>Abmelden</p></td>
 <td><p>Hiermit wird die mit Ihrer Benutzer-ID verknüpfte Lync-Sitzung beendet, Lync wird jedoch im Hintergrund weiter ausgeführt. Wenn Sie sich abmelden, wird das Abmeldefenster angezeigt.</p>
-<div class="alert">
+<div>
 
 > [!TIP]
 > Wählen Sie bei der Abmeldung auf <STRONG>Meine Anmeldeinformationen löschen</STRONG> aus, um den Datensatz mit Ihrer Anmelde-ID und dem Kennwort vom Computer zu entfernen. Dies vereinfacht möglicherweise den Support bei der Behandlung von Anmeldeproblemen. Außerdem trägt es dazu bei, Ihre Anmeldeinformationen zu sichern, da es nicht autorisierten Benutzern so erschwert wird, sich mit Ihren Anmeldeinformationen anzumelden.
@@ -100,7 +100,7 @@ Einige Organisationen verwenden mittlerweile einen mehrstufigen Anmeldevorgang, 
 Bevor Sie sich mit einer SmartCard anmelden können, muss die Karte "registriert" werden – das bedeutet, dass Ihre Benutzeranmeldeinformationen für die Karte kenntlich gemacht werden müssen. Dies muss unabhängig davon erfolgen, ob es sich um eine physische oder um eine virtuelle Karte handelt. Möglicherweise wurde dieser Vorgang bereits von Ihrem Lync Server-Administrator durchgeführt. Erkundigen Sie sich bei ihm, wenn Sie nicht sicher sind, ob dieser Vorgang bereits ausgeführt wurde.
 
 
-> [!TIP]
+> [!NOTE]
 > Da jede virtuelle SmartCard immer nur dem Gerät zugeordnet ist, auf dem sie installiert ist, wird für jeden Windows&nbsp;8-Computer, den Sie verwenden, eine eigene Karte benötigt.
 
 
@@ -114,7 +114,7 @@ Bevor Sie sich mit einer SmartCard anmelden können, muss die Karte "registriert
     Fragen Sie Ihren Lync Server-Administrator nach der Webadresse dieser Ressource, wenn Sie sie nicht kennen. Die URL sieht ungefähr wo aus: "https://MyCA.\[ihrfirmenname\].com/certsrv".
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie Internet Explorer 10 verwenden, müssen Sie diese Website möglicherweise im Kompatibilitätsmodus anzeigen.
 
 
@@ -146,7 +146,7 @@ Bevor Sie sich mit einer SmartCard anmelden können, muss die Karte "registriert
 9.  Wenn Sie dazu aufgefordert werden, geben Sie Ihre PIN (Personal Identification Number) ein, und klicken Sie dann auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der für Sie zuständige Mitarbeiter des technischen Supports Ihnen keine besondere PIN für die Registrierung Ihrer SmartCard gegeben hat, verwenden Sie die Standard-PIN für SmartCards, nämlich 12345678.
 
 
@@ -158,7 +158,7 @@ Bevor Sie sich mit einer SmartCard anmelden können, muss die Karte "registriert
 12. Wenn Sie dazu aufgefordert werden, geben Sie Ihre PIN (Personal Identification Number) ein, und klicken Sie dann auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der für Sie zuständige Mitarbeiter des technischen Supports Ihnen keine besondere PIN für die Registrierung Ihrer SmartCard gegeben hat, verwenden Sie die Standard-PIN für SmartCards, nämlich 12345678.
 
 
@@ -186,7 +186,7 @@ Vor der erstmaligen Verwendung Ihrer SmartCard empfiehlt es sich, auf der Lync-A
 4.  Geben Sie die PIN-Nummer für Ihre SmartCard ein, und klicken Sie dann auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Ihnen keine SmartCard-PIN von Ihrem Supportmitarbeiter zugewiesen wurde, verwenden Sie den Standardwert, nämlich 12345678.
 
 

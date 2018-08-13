@@ -42,7 +42,7 @@ Sie können die zwei Netzwerkadapter auf Ihrem Edgeserver folgendermaßen konfig
     Diesem Netzwerkadapter sind drei öffentliche IP-Adressen zugewiesen, z. B. 131.107.155.10 für den Zugriffs-Edgeserver, 131.107.155.20 für den Webkonferenz-Edgeserver und 131.107.155.30 für den A/V-Edgeserver.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es ist möglich, eine einzelne IP-Adresse für alle drei Edgedienstschnittstellen zu verwenden. Dies wird jedoch nicht empfohlen. Obwohl Sie dadurch IP-Adressen sparen können, sind für jeden Dienst andere Portnummern erforderlich. Die Standardportnummer lautet 443/TCP. Dadurch wird sichergestellt, dass die meisten Remotefirewalls den Datenverkehr zulassen. Eine Änderung der Portwerte in (beispielsweise) 5061/TCP für den Zugriffs-Edgedienst, 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den AV-Edgedienst kann zu Problemen für Remotebenutzer führen, wenn eine Firewall, hinter der sie sich befinden, den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Zudem wird die Fehlerbehebung bei Verwendung von drei eindeutiger IP-Adressen vereinfacht, da in diesem Fall nach IP-Adressen gefiltert werden kann.
 
     
@@ -144,7 +144,7 @@ Sie können die zwei Netzwerkadapter auf Ihrem Edgeserver folgendermaßen konfig
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Schnittstelle des SIP-Zugriffs-Edgeservers. Erforderlich für die automatische DNS-Suche Ihres Verbunds nach weiteren potenziellen Verbundpartnern, bezeichnet als &quot;Zugelassene SIP-Domäne&quot; (in Vorgängerversionen als erweiterter Verbund bezeichnet). Wiederholen Sie den Vorgang ggf. für alle SIP-Domänen mit für Lync aktivierten Benutzern.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Dieser SRV-Eintrag ist für die Mobilität und das Clearing House für Pushbenachrichtigungen erforderlich

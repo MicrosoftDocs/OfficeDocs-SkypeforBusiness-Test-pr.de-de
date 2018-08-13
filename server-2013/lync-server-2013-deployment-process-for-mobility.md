@@ -75,14 +75,14 @@ In diesem Abschnitt werden die für die Bereitstellung des Lync Server 2013-Mobi
 <tr class="even">
 <td><p>Testen Ihrer Mobilitätsbereitstellung für Lync 2010 Mobile mithilfe des Mcx-Mobilitätsdiensts</p></td>
 <td><p>Führen Sie <strong>Test-CsMcxP2PIM</strong> aus, um das Senden einer Sofortnachricht von einer Person an eine andere zu testen.</p>
-<p>In der Cmdlet-Dokumentation zu Lync Server-Verwaltungsshell für <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a> finden Sie eine vollständige Liste der Optionen.</p></td>
+<p>In der Cmdlet-Dokumentation zu Lync Server-Verwaltungsshell für <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> finden Sie eine vollständige Liste der Optionen.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Überprüfen der Mobilitätsbereitstellung in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Testen Ihrer Mobilitätsbereitstellung für Lync 2013 Mobile-Clients mithilfe der UCWA-Webkomponenten</p></td>
 <td><p>Verwenden Sie das Cmdlet <strong>Test-CsUcwaConference</strong> zum Testen und Überprüfen, ob vordefinierte Testbenutzer oder zwei tatsächliche Benutzer mithilfe der UCWA eine Konferenz erstellen und daran teilnehmen können.</p>
-<p>In der Cmdlet-Dokumentation zu Lync Server-Verwaltungsshell für <a href="test-csucwaconference.md">Test-CsUcwaConference</a> finden Sie eine vollständige Liste der Optionen.</p></td>
+<p>In der Cmdlet-Dokumentation zu Lync Server-Verwaltungsshell für <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> finden Sie eine vollständige Liste der Optionen.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Überprüfen der Mobilitätsbereitstellung in Lync Server 2013</a></p></td>
 </tr>
@@ -95,9 +95,9 @@ In diesem Abschnitt werden die für die Bereitstellung des Lync Server 2013-Mobi
 <li><p>Wenn Sie Pushbenachrichtigungen über ein WLAN-Netzwerk unterstützen möchten, konfigurieren Sie eine ausgehende Firewallregel für TCP-Port 5223.</p></li>
 <li><p>Verwenden Sie das <strong>Set-CsPushNotificationConfiguration</strong>-Cmdlet, um Pushbenachrichtigungen an den Apple Push Notification Service (APNS) und Microsoft Push Notification Service (MPNS) zu unterstützen. Dieses Feature ist standardmäßig deaktiviert.</p></li>
 <li><p>Verwenden Sie das <strong>Test-CsFederatedPartner</strong>-Cmdlet zum Testen der Verbundkonfiguration und das <strong>Test-CsMCXPushNotification</strong>-Cmdlet zum Testen von Pushbenachrichtigungen.</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Pushbenachrichtigungen werden für Lync 2010 Mobile-Clients auf Apple-Geräten und Windows Phone verwendet.<BR>Pushbenachrichtigungen sind nur für Lync 2013&nbsp;Mobile-Clients auf Windows Phone-Geräten erforderlich.
 
 

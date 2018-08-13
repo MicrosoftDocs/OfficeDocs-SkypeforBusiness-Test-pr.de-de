@@ -44,7 +44,7 @@ In diesem Thema wird beschrieben, wie der DNS-SRV-Eintrag konfiguriert wird, der
 9.  Klicken Sie auf **Host, der diesen Dienst anbietet:** , und geben Sie dann den vollqualifizierten Domänennamen (FQDN) des Lync Server 2013  Edgepools ein, der Zugriff auf das Lync Server 2013-System für vertrauenswürdige externe Clients bietet.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Domäne muss auch als autorisierende akzeptierte Domäne in den Exchange Online-Einstellungen eingerichtet werden. Ausführliche Informationen finden Sie im Thema zum Erstellen von akzeptierten Domänen unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=229762">http://go.microsoft.com/fwlink/?linkid=229762</A>.
 
 

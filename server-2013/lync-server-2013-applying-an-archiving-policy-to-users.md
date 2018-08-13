@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Wenn ein Benutzer für Lync Server 2013 aktiviert wurde und Sie eine oder mehrere Benutzerrichtlinien für die Archivierung von Benutzern erstellt haben, die in Lync Server 2013 untergebracht sind, können Sie für einzelne Benutzer Archivierungsunterstützung implementieren, indem Sie auf diese Benutzer oder Benutzergruppen die entsprechenden Richtlinien anwenden. Wenn Sie zum Beispiel eine Richtlinie zur Unterstützung der Archivierung von internen Kommunikationsvorgängen erstellen, können Sie diese auf mindestens einen Benutzer oder eine Benutzergruppe anwenden, um die Archivierung von deren Kommunikation in Lync Server 2013 zu unterstützen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie bei Ihrer Bereitstellung Microsoft Exchange-Integration aktiviert haben, steuern Exchange- Compliance-Archivrichtlinien, ob für die auf Exchange 2013 befindlichen Benutzer Archivierung aktiviert ist und deren Postfächer archiviert werden sollen. Einzelheiten dazu finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung beim Verwenden von Exchange Server-Integration</A>.<BR>Bevor Sie Archivierung aktivieren, sollten Sie in den Archivierungskonfigurationen alle entsprechenden Optionen angeben. Weitere Informationen dazu finden Sie in der Betriebsdokumentation unter <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Verwalten von Konfigurationsoptionen für die Archivierung in Lync Server 2013 für Ihre Organisation, Standorte und Pools</A>.
 
 
@@ -38,7 +38,7 @@ Gehen Sie nach der in diesem Thema aufgeführten Anleitung vor, um eine zuvor er
 5.  Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **Archivierungsrichtlinie** die Benutzerrichtlinie für Archivierung aus, die Sie anwenden möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit den Einstellungen <STRONG>&lt;Automatisch&gt;</STRONG> werden die Standardeinstellungen der Serverinstallation angewendet. Diese Einstellungen werden vom Server automatisch übernommen.
 
 
@@ -57,7 +57,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Lync ServerW
 
 ## Zuweisen einer benutzerbezogenen Archivierungsrichtlinie zu mehreren Benutzern
 
-  - Der folgende Befehl weist die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zu, deren Konten sich auf dem Registrierungsstellenpool "atl-cs-001.litwareinc.com" befinden. Einzelheiten über den in diesem Befehl verwendeten Filter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Der folgende Befehl weist die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zu, deren Konten sich auf dem Registrierungsstellenpool "atl-cs-001.litwareinc.com" befinden. Einzelheiten über den in diesem Befehl verwendeten Filter-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -67,7 +67,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Lync ServerW
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Details dazu finden Sie in der Dokumentation zum [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md)-Cmdlet.
+Details dazu finden Sie in der Dokumentation zum [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

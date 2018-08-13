@@ -28,7 +28,7 @@ Eine Netzwerkregion verbindet mehrere Teile eines Netzwerks, das sich über vers
 4.  Klicken Sie auf der Seite **Region** auf die Region, die Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können immer nur eine Region anzeigen.
 
 
@@ -55,7 +55,7 @@ Informationen zur Netzwerkregion können Sie mit der Windows PowerShell und dem 
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Weitere Informationen finden Sie im Hilfethema für das [Get-CsNetworkRegion](get-csnetworkregion.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)-Cmdlet.
 
 ## Siehe auch
 

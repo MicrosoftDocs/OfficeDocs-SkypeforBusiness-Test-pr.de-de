@@ -52,17 +52,21 @@ Sie können die Notfallwiederherstellungstopologie eines Paars von Front-End-Poo
 10. Verwenden Sie die folgenden Cmdlets, um zu erzwingen, dass die Benutzer- und Konferenzdaten beider Pools miteinander synchronisiert werden:
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     
     Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu prüfen. Stellen Sie sicher, dass der Status für beide Richtungen stabil ist.
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
 
 
-> [!TIP]
+> [!NOTE]
 > Die Option <STRONG>Automatisches Failover und Failback für Sprachdienste</STRONG> und die zugehörigen Zeitintervalle in Topologie-Generator gelten nur für die Sprachflexibilitätsfeatures, die in Lync Server 2010 eingeführt wurden. Die Auswahl dieser Option bewirkt nicht, dass das in diesem Dokument erörterte Poolfailover automatisch erfolgt. Um ein Poolfailover oder -failback durchzuführen, muss ein Administrator das Failover- bzw. Failback-Cmdlets immer manuell aufrufen.
 
 

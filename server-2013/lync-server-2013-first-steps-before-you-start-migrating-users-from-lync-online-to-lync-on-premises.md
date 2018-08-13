@@ -26,16 +26,22 @@ Bevor Sie beginnen, Lync Online-Benutzer zu Ihrer lokalen Umgebung zu verschiebe
     Nach der Installation des Moduls können Sie eine Remotesitzung einrichten, indem Sie die folgenden Cmdlets in die Lync Server-Verwaltungsshell eingeben:
     
         Import-Module LyncOnlineConnector
+
+       &nbsp;
     
         $cred = Get-Credential
+
+       &nbsp;
     
         $CSSession = New-CsOnlineSession -Credential $cred
+
+       &nbsp;
     
         Import-PSSession $CSSession -AllowClobber
     
-    Weitere Informationen zum Einrichten einer Remote-PowerShell-Sitzung mit Skype for Business Online finden Sie unter [Herstellen der Verbindung zu Lync Online mit Windows PowerShell](connecting-to-skype-for-business-online-by-using-windows-powershell.md).
-    
-    Weitere Informationen zur Verwendung des Skype for Business Online PowerShell-Moduls finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+  Weitere Informationen zum Einrichten einer Remote-PowerShell-Sitzung mit Skype for Business Online finden Sie unter [Herstellen der Verbindung zu Lync Online mit Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+  
+  Weitere Informationen zur Verwendung des Skype for Business Online PowerShell-Moduls finden Sie unter [Verwenden von Windows PowerShell zum Verwalten von Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
   - Lync Online muss für den freigegebenen SIP-Adressbereich konfiguriert sein. Starten Sie dafür zunächst eine Remote-Powershell-Sitzung mit Lync Online. Führen Sie dann das folgende Cmdlet aus:
     

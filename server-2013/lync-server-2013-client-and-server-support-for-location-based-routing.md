@@ -142,8 +142,8 @@ In der folgenden Tabelle sind die Clients gekennzeichnet, die standortbasiertes 
   
 
 
-> [!TIP]
-> Wenn Sie VoIP für Lync Mobile 2013-Clients deaktivieren möchten, weisen Sie eine Mobilitätsrichtlinie zu, in der für alle Benutzer, für die standortbasiertes Routing aktiviert ist, die Einstellung "IP-Audio/Video aktivieren" deaktiviert wird. Ausführlichere Informationen zu Mobilitätsrichtlinien finden Sie unter <A href="new-csmobilitypolicy.md">New-CsMobilityPolicy</A>.
+> [!NOTE]
+> Wenn Sie VoIP für Lync Mobile 2013-Clients deaktivieren möchten, weisen Sie eine Mobilitätsrichtlinie zu, in der für alle Benutzer, für die standortbasiertes Routing aktiviert ist, die Einstellung "IP-Audio/Video aktivieren" deaktiviert wird. Ausführlichere Informationen zu Mobilitätsrichtlinien finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 

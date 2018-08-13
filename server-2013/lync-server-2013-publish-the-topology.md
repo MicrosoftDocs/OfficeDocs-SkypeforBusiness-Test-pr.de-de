@@ -20,13 +20,13 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
 Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie die Topologie im zentralen Verwaltungsspeicher veröffentlichen. Mit dem zentralen Verwaltungsspeicher erzielen Sie eine zuverlässige, schematisierte Speicherung der Daten, die zum Definieren, Einrichten, Warten, Verwalten, Beschreiben und zum Betrieb einer Lync Server 2013-Bereitstellung benötigt werden. Darüber hinaus werden die Daten überprüft, zur Sicherstellung einer konsistente Konfiguration beizutragen. Alle Änderungen an diesen Konfigurationsdaten erfolgen im zentralen Verwaltungsspeicher, wodurch Synchronisierungsprobleme beseitigt werden. Schreibgeschützte Kopien der Daten werden auf alle Server in der Topologie repliziert, Edgeserver eingeschlossen.
 
 
-> [!TIP]
+> [!NOTE]
 > SQL Server benötigt mindestens 20 GB freien Festplattenspeicher, damit die anfängliche Topologie erfolgreich veröffentlicht werden kann und um den zentralen Verwaltungsserver zu erstellen.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Nur Enterprise Edition: Zum Veröffentlichen der Topologie muss der SQL&nbsp;Server-basierte Back-End-Server online und über die eingerichteten Firewallausnahmen erreichbar sein. Ausführliche Informationen zum Festlegen von Firewallausnahmen finden Sie unter <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Grundlegendes zu den Firewallanforderungen für SQL&nbsp;Server mit Lync Server 2013</A>. Ausführliche Informationen zum Konfigurieren von SQL&nbsp;Server finden Sie unter <A href="lync-server-2013-configure-sql-server-for-lync-server.md">Konfigurieren von SQL&nbsp;Server für Lync Server&nbsp;2013</A>.
 
 
@@ -44,7 +44,7 @@ Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie d
 5.  Wählen Sie auf der Seite **Datenbanken erstellen** die Datenbanken, die Sie veröffentlichen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie nicht die geeigneten Rechte zum Erstellen der Datenbanken besitzen, können Sie die Kontrollkästchen neben diesen Datenbanken deaktivieren. Ein anderer Benutzer mit geeigneten Rechten kann die Datenbanken später erstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Bereitstellungsberechtigungen für SQL Server in Lync Server 2013</A>.
 
 

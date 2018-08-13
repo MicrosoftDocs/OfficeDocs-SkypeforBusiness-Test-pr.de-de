@@ -32,7 +32,7 @@ Der Administrator für gehostete Exchange-Mandanten verwaltet Kontaktobjekte anh
 4.  Der Exchange-Administrator weist die Rufnummern den entsprechenden Exchange UM-Wähleinstellungen für die automatische Telefonzentrale und den Teilnehmerzugriff zu.
 
 
-> [!TIP]
+> [!NOTE]
 > Im Gegensatz zu lokalen Bereitstellungen müssen keine Lync Server 2013-Wähleinstellungen für die Kontaktobjekte konfiguriert werden.
 
 
@@ -40,7 +40,7 @@ Der Administrator für gehostete Exchange-Mandanten verwaltet Kontaktobjekte anh
 ## Konfigurieren von gehosteten Kontaktobjekten
 
 
-> [!TIP]
+> [!NOTE]
 > Bevor Lync Server 2013-Kontaktobjekte für gehostete Exchange UM-Dienste aktiviert werden können, muss eine Richtlinie für gehostete Voicemail erstellt werden, die auf diese Objekte angewendet werden kann. Diese Richtlinie kann auf globaler, Standort- oder Benutzerebene eingerichtet werden, vorausgesetzt, sie lässt sich auf das Kontaktobjekt anwenden, das Sie aktivieren möchten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Richtlinien für gehostete Voicemail in Lync Server 2013</A>.
 
 

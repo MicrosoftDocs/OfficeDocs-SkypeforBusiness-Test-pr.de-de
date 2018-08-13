@@ -18,16 +18,14 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Sie können die Konfigurationseinstellungen für den Geräteaktualisierungsdienst mit den Cmdlets Lync Server-Verwaltungsshell und **Get-CsDeviceUpdateConfiguration** anzeigen, die Sie über die Verwaltungsshell für Lync Server 2013 oder eine Remotesitzung von Windows PowerShell ausführen können.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
 
 
 
-  - 
-    
-    Zum Anzeigen von Informationen zu allen VoIP-Routen geben Sie den folgenden Befehl in der Lync Server-Verwaltungsshell ein und drücken Sie die EINGABETASTE:
+  - Zum Anzeigen von Informationen zu allen VoIP-Routen geben Sie den folgenden Befehl in der Lync Server-Verwaltungsshell ein und drücken Sie die EINGABETASTE:
     
         Get-CsDeviceUpdateConfiguration
     
@@ -42,5 +40,5 @@ Sie können die Konfigurationseinstellungen für den Geräteaktualisierungsdiens
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-Ausführliche Informationen zu diesem Cmdlet finden Sie im Hilfethema unter [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md).
+Ausführliche Informationen zu diesem Cmdlet finden Sie im Hilfethema unter [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 

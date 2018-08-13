@@ -44,7 +44,7 @@ Starten Sie mithilfe des folgenden Verfahrens den Bereitstellungs-Assistenten lo
 1.  Melden Sie sich auf dem Computer, auf dem der Topologie-Generator installiert ist, als Mitglied der Gruppe "Domänen-Admins" oder "RTCUniversalServerAdmins" an.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Gruppe "Benutzer" ist. Zum Lesen, Veröffentlichen oder Aktivieren einer Topologie, die zum Installieren eines Servers mit Lync Server 2013 erforderlich ist, benötigen Sie jedoch ein Konto, das Mitglied der Gruppe "Domänen-Admins" sowie der Gruppe "RTCUniversalServerAdmins" ist und über Vollzugriffsberechtigungen (Lesen, Schreiben und Ändern) für die Dateifreigabe verfügt, die Sie für den Archivierungsdateispeicher verwenden, damit der Topologie-Generator die erforderliche DACL (Discretionary Access Control List) konfigurieren kann. Alternativ dazu können Sie ein Konto mit entsprechenden Rechten verwenden .
 
 
@@ -56,7 +56,7 @@ Starten Sie mithilfe des folgenden Verfahrens den Bereitstellungs-Assistenten lo
 Öffnen Sie die Systemsteuerung für Lync Server 2013 mithilfe eines der folgenden Verfahren, um die Konfiguration von Servern, Benutzern, Clients und Geräten in Ihrer Umgebung zu verwalten.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können ein Benutzerkonto verwenden, das der Rolle "CsAdministrator" zugewiesen wurde, um beliebige Aufgaben in Systemsteuerung für Lync Server 2013 auszuführen. Sie können andere Rollen verwenden, um sich bei Systemsteuerung für Lync Server 2013 anzumelden und spezifische Verwaltungsaufgaben auszuführen, abhängig von der Aufgabe, die Sie ausführen müssen. So können Sie beispielsweise "CSArchivingAdministrator" für die Verwaltung der Archivierung in Systemsteuerung für Lync Server 2013 verwenden. Ausführliche Informationen zu Rollen finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013</A> in der Planungsdokumentation. Ausführliche Informationen zu den Rollen, die zum Durchführen einer bestimmten Aufgabe verwendet werden können, finden Sie in der Dokumentation für die entsprechende Aufgabe.
 
 
@@ -84,7 +84,7 @@ Starten Sie mithilfe des folgenden Verfahrens den Bereitstellungs-Assistenten lo
 Öffnen Sie die Verwaltungsshell für Lync Server 2013 mithilfe des folgenden Verfahrens, um Server, Benutzer, Clients und Geräte in Ihrer Umgebung unter Verwendung der Befehlszeile zu verwalten.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können ein Benutzerkonto verwenden, das der Rolle "CsAdministrator" zugewiesen wurde, um beliebige Aufgaben in Verwaltungsshell für Lync Server 2013 auszuführen. Melden Sie sich über andere Rollen an, um spezifische Verwaltungsaufgaben auszuführen, abhängig von der Aufgabe, die Sie ausführen müssen. So können Sie beispielsweise "CSArchivingAdministrator" zum Ausführen von Cmdlets für die Archivierungsverwaltung verwenden. Ausführliche Informationen zu Rollen finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013</A> in der Planungsdokumentation. Ausführliche Informationen zu den Rollen, die zum Ausführen eines bestimmten Cmdlets verwendet werden können, finden Sie in der Dokumentation für das entsprechende Cmdlet.<BR>Sie können auch bestimmte Cmdlets mithilfe eines Benutzerkontos in den Gruppen "RTCUniversalServerAdmins", "RTCUniversalUserAdmins" oder "RTCUniversalReadOnlyAdmins" ausführen, abhängig vom Cmdlet.
 
 

@@ -24,7 +24,7 @@ Zur Ermöglichung von Notfallwiederherstellungsprozeduren müssen Sie separate E
 Wenn Sie mehrere Standorte mit jeweils einem Pool mit Edgeservern besitzen und ein gesamter Edgepool ausfällt, funktionieren die Remotezugriffsdienste weiterhin ohne Aktion durch den Administrator. Wenn Sie Edgepools an verschiedenen Standorten erstellen, können Sie nicht denselben FQDN verwenden. Jeder Edgepool muss eindeutige FQDNs (intern und extern) haben. Die Edgepools verwenden keine Reverseproxy-Veröffentlichungsregeln, um mit den Front-End-Servern zu kommunizieren. Ein automatisches Failover findet statt, wenn der Client die DNS-Servicedatensätze für den Remotezugriff erneut abfragt und Remotebenutzer zu den Edgeservern an einem anderen Standort weitergeleitet werden. Der Client probiert jeden externen Edge-FQDN gemäß der Priorität der DNS-SRV-Datensätze aus.
 
 
-> [!TIP]
+> [!NOTE]
 > Damit das Failover reibungslos funktioniert, muss die Firewall zulassen, dass die Front-End-Server von jedem Pool mit allen Edgeservern kommunizieren können.
 
 

@@ -26,7 +26,7 @@ Zur Planung der Anrufsteuerung (Call Admission Control, CAC) sind detaillierte I
 4.  Ermitteln Sie die Bandbreiteneinschränkungen für jede WAN-Verbindung.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Bandbreiteneinschränkungen beziehen sich darauf, wie viel Bandbreite einer WAN-Verbindung für Enterprise-VoIP und Audio/Video-Datenverkehr reserviert wird. Wenn eine WAN-Verbindung als eine Verbindung mit "Bandbreiteneinschränkungen" beschrieben wird, liegt die Bandbreitengrenze der WAN-Verbindung unter dem erwarteten Spitzendatenverkehr über diese Verbindung.
 
 
@@ -40,7 +40,7 @@ Zur Erläuterung dieser Konzepte wird die in der folgenden Abbildung dargestellt
 ![Litware Inc.: Netzwerktopologiebeispiel](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc.: Netzwerktopologiebeispiel")
 
 
-> [!TIP]
+> [!NOTE]
 > Alle Netzwerkstandorte sind einer Netzwerkregion zugeordnet. Beispielsweise sind die Standorte "Portland", "Reno" und "Albuquerque" in der Region "Nordamerika" enthalten. In dieser Abbildung werden nur WAN-Verbindungen mit Bandbreiteneinschränkungen gezeigt, auf die Anrufsteuerungsrichtlinien angewendet werden. Die Netzwerkstandorte&nbsp;"Chicago", "New York" und "Detroit" werden innerhalb des Regionenovals "Nordamerika" angezeigt, da sie keine Bandbreiteneinschränkungen aufweisen und für diese Standorte daher keine Richtlinien für die Anrufsteuerung erforderlich sind.
 
 
@@ -60,7 +60,7 @@ Die hier vorgestellte Beispieltopologie umfasst drei Netzwerkregionen: Nordamer
 Die Anrufsteuerung erfordert, dass jeder Netzwerkregion ein zentraler Lync Server-Standort zugeordnet ist. Ausgewählt wird der zentrale Standort, der die beste Netzwerkverbindung und die höchste Bandbreite aller Standorte in dieser Netzwerkregion bietet. In der oben gezeigten beispielhaften Netzwerktopologie sind drei Netzwerkregionen aufgeführt, jede mit einem zentralen Standort zur Verwaltung der Entscheidungen im Rahmen der Anrufsteuerung. Die geeignete Zuordnung für das vorangehende Beispiel wird in der folgenden Tabelle gezeigt.
 
 
-> [!TIP]
+> [!NOTE]
 > Die zentralen Standorte müssen nicht den Netzwerkstandorten entsprechen. In den Beispielen in dieser Dokumentation stimmen die Namen einiger zentraler Standorte – Chicago, London und Peking – mit den Namen von Netzwerkstandorten überein. Doch selbst wenn ein zentraler Standort und ein Netzwerkstandort denselben Namen aufweisen, ist der zentrale Standort ein Element der Lync Server-Topologie. Der Netzwerkstandort hingegen ist Teil des Gesamtnetzwerks, in dem die Lync Server-Topologie definiert wurde.
 
 
@@ -138,13 +138,13 @@ Bandbreitenrichtlinien für die Anrufsteuerung können einige oder alle der folg
   - Maximal reservierte Bandbreite für einen einzelnen Videoanruf (Sitzung)
 
 
-> [!TIP]
+> [!NOTE]
 > Alle Bandbreitenwerte für die Anrufsteuerung stellen Maximalwerte für die <EM>unidirektionale</EM> Bandbreitenbeschränkung dar.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die Lync Server 2013-Features für VoIP-Richtlinien bieten die Möglichkeit, Bandbreitenrichtlinienüberprüfungen für eingehende Anrufe beim Benutzer außer Kraft zu setzen (dies ist für vom Benutzer getätigte ausgehende Anrufe nicht möglich). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Ausführliche Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A> oder <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.
 
 
@@ -215,7 +215,7 @@ Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pr
 
 
 
-> [!TIP]
+> [!NOTE]
 > Bandbreitenanforderungen berücksichtigen einen Overhead für: Ethernet II, IP, User Datagram Protocol (UDP), RTP (Real-Time Transport Protocol) und SRTP (Secure Real-Time Transport Protocol). Ebenfalls enthalten ist ein Overhead von 10&nbsp;KBit/s für RTCP.
 
 

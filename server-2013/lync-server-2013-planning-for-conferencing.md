@@ -30,7 +30,7 @@ Lync Server 2013 unterstützt sowohl geplante als auch spontane Konferenzen.
 Bei der Bereitstellung eines Lync Server 2013- Front-End-Servers können Sie wählen, ob Sie auch die Webkonferenzfunktion, die A/V-Konferenzfunktion und die Einwahlkonferenzfunktion bereitstellen. Die Instant Messaging-Konferenzfunktionen werden immer automatisch zusammen mit den Sofortnachrichten-Unterhaltungsfunktionen auf dem Lync Server 2013- Front-End-Server bereitgestellt.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Ihre Bereitstellung Besprechungen umfasst, die mithilfe von Office Communicator 2007 R2-Clients (einschließlich der Live Meeting-Konsole oder dem Konferenz-Add-In für Microsoft Office Outlook) organisiert wurden, bestehen für die Besprechungen nach der Migration zu Lync Server 2013 folgende Einschränkungen: 
 > <UL>
 > <LI>

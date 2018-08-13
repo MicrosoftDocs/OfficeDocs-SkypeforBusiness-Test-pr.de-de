@@ -40,7 +40,7 @@ In diesen Tabellen werden die Features angegeben, die Lync-Benutzern in einer lo
 
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Ausführliche Informationen zu Lync Online-Abonnementplänen finden Sie unter "Lync Online-Dienstbeschreibung" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</A>.</P>
@@ -871,7 +871,7 @@ In diesen Tabellen werden die Features angegeben, die Lync-Benutzern in einer lo
 ## Konferenzunterstützung
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Lync Online&nbsp;Eigenständig, Plan&nbsp;1 umfasst keine Lync-Besprechungsfeatures.</P>
@@ -1372,7 +1372,7 @@ In diesen Tabellen werden die Features angegeben, die Lync-Benutzern in einer lo
 ## Telefonieunterstützung
 
 
-> [!TIP]
+> [!NOTE]
 > Lync-Sprachfeatures sind auf bestimmte Lync Online-Abonnementpläne beschränkt. Ausführliche Informationen finden Sie im Thema "Lync-Sprachfeatures" in der Dienstbeschreibung zu Lync Online unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=282430">http://go.microsoft.com/fwlink/?linkid=282430</A>.
 
 

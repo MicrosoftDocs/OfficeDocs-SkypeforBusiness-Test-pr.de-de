@@ -25,9 +25,9 @@ Führen Sie auf dem Edgeserver die folgenden Konfigurationsaufgaben aus, um Ihre
 
 Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zu den folgenden Cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 
 > [!IMPORTANT]
@@ -72,7 +72,7 @@ Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokum
       - **EnabledSharedAddressSpace** gibt an, ob der Hostinganbieter in einem Szenario mit freigegebenem SIP-Adressraum (getrennte Domäne) verwendet wird.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Bevor Sie <CODE>EnableSharedAddressSpace</CODE> auf „True“ festlegen, versuchen Sie, den Partnerverbund-SRV-Eintrag intern aufzulösen. Wenn dieser Eintrag intern aufgelöst werden kann, müssen Sie die Einträge _sipfederationtls._tcp.&lt;domain&gt; und _sip._tls.&lt;domain&gt; im internen DNS erstellen. Diese Einträge müssen auf die externe IP-Adresse der Zugriffsschnittstelle des Edgeservers verweisen.
 
     
@@ -96,5 +96,5 @@ Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokum
 
 #### Weitere Ressourcen
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

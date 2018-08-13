@@ -46,7 +46,7 @@ Ein verteiltes SIP-Trunking ist nur in den folgenden Fällen erforderlich:
 Die Entscheidung zur Bereitstellung des zentralisierten oder verteilten SIP-Trunkings erfordert eine Kosten-Nutzen-Analyse. In einigen Fällen kann es vorteilhaft sein, sich für das verteilte Bereitstellungsmodell zu entscheiden, auch wenn es nicht erforderlich ist. In einer vollständig zentralisierten Bereitstellung wird der gesamte Zweigniederlassungsdatenverkehr über WAN-Verbindungen geroutet. Statt für die erforderliche Bandbreite Gebühren für WAN-Verbindungen zu zahlen, möchten Sie möglicherweise das verteilte SIP-Trunking verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen dazu, aus welchen Gründen und in welcher Weise Sie das SIP-Trunking verwenden könnten, finden Sie unter <A href="lync-server-2013-branch-site-sip-trunking.md">SIP-Trunking für Zweigstellenstandorte in Lync Server 2013</A> in der Planungsdokumentation.
 
 

@@ -19,7 +19,7 @@ Führen Sie die Schritte in diesem Verfahren aus, um Lync Server 2013-Benutzerko
 
 Ausführliche Informationen finden Sie unter [Benutzerverwaltung für gehostete Exchange-Dienste in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in der Planungsdokumentation.
 
-Ausführliche Informationen zur Verwendung des [Set-CsUser](set-csuser.md)-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+Ausführliche Informationen zur Verwendung des [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ Ausführliche Informationen zur Verwendung des [Set-CsUser](set-csuser.md)-Cmdle
           - AD DS-Anzeigename des Benutzers (zum Beispiel "Ken Myer"). Wenn der Anzeigename als Identitätswert verwendet wird, können Sie das Sternchen (\*) als Platzhalterzeichen nutzen. Der Identitätswert "\* Smith" gibt beispielsweise alle Benutzer zurück, deren Anzeigename auf den Zeichenfolgenwert "Smith" endet.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Der Active Directory-SAM-Kontoname eines Benutzers kann nicht als Identitätswert verwendet werden, da dieser Name innerhalb der Gesamtstruktur nicht unbedingt eindeutig ist.
 
 

@@ -34,7 +34,7 @@ Wenn Sie an den Einstellungen auf einer Seite in der Gruppe Änderungen durchgef
 6.  Klicken Sie auf **Commit** und anschließend auf **Commit für alle** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie eine VoIP-Konfigurationsdatei importieren, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

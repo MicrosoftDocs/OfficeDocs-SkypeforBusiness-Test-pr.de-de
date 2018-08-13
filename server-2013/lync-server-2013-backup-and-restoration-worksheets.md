@@ -20,7 +20,7 @@ Der Sicherungs- und Wiederherstellungsplan für Ihre Organisation sollte Informa
 Verwenden Sie die folgenden Arbeitsblätter zum Aufzeichnen der erforderlichen Informationen zum Sichern und Wiederherstellen der Datenbank, des Dateispeicher und der Einstellungsinformationen für einen Lync Server-Pool oder Standard Edition-Server. Bewahren Sie mindestens eine Kopie dieser Arbeitsblätter an einem sicheren Speicherort auf, damit leicht darauf zugegriffen werden kann, wenn Lync Server wiederhergestellt werden muss.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Arbeitsblätter in diesem Abschnitt enthalten nur die erforderlichen Informationen zum Wiederherstellen der Daten und Einstellungen von Lync Server-Datenbanken und Servern. Wenn Sie weitere Wiederherstellungsinformationen dokumentieren müssen, z.&nbsp;B. Informationen zur Wiederherstellung von Betriebssystemen und anderer Software, verwenden Sie für diese Anforderungen die Bereitstellungspläne und Sicherungs- und Wiederherstellungspläne Ihrer Organisation.
 
 

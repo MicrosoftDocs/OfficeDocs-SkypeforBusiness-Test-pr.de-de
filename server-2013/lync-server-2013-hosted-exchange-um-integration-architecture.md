@@ -30,7 +30,7 @@ Die folgenden Modi werden unterstützt:
   - **Gemischte Bereitstellung :** Ihre Lync Server 2013-Bereitstellung umfasst einige Benutzerpostfächer auf lokalen Exchange-Servern sowie Postfächer, die in einem gehosteten Exchange-Rechenzentrum verwaltet werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die gemischte Bereitstellung kann als Übergangslösung bei der Evaluierung und bei einer in Phasen durchgeführten Migration von Benutzern zu gehosteten Exchange UM-Diensten oder als dauerhafte Lösung eingesetzt werden, wenn Sie einige Exchange UM-Dienste nach der Migration weiterhin lokal verwalten möchten.
 
 
@@ -42,7 +42,7 @@ Zur Integration von Lync Server 2013 in eine lokale Exchange UM-Bereitstellung g
 Zur Integration von Lync Server 2013 in gehostete Exchange UM-Dienste müssen Sie einen *freigegebenen SIP-Adressraum* konfigurieren. In dieser Konfiguration steht derselbe SIP-Domänenadressraum sowohl für Lync Server 2013 als auch für den Dienstanbieter für gehostete Exchange UM-Dienste zur Verfügung.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Verwendung des freigegebenen SIP-Adressraums ähnelt dem Ansatz in einer standortübergreifenden Lync Server 2013-Umgebung, bei dem einige Benutzer in der lokalen Bereitstellung und andere in einer gehosteten Umgebung verwaltet werden (z.&nbsp;B. Lync Online). Die SIP-Domäne wird zwischen den Umgebungen aufgeteilt. Wenn Sie Lync Server 2013 in eine Umgebung mit gehosteten Exchange UM-Diensten integrieren, stellen Sie sicher, dass Sie den Exchange UM-Dienstanbieter in den freigegebenen Adressraum aufnehmen.
 
 

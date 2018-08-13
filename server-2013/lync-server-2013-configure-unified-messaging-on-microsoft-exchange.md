@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (UM) auf einem Microsoft Exchange Server für die Verwendung mit Enterprise-VoIP konfigurieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Cmdlet-Beispiele in diesem Thema zeigen die Syntax für die Exchange 2007-Version der Exchange-Verwaltungsshell. Wenn Sie Exchange 2010 oder Exchange 2013 ausführen, finden Sie weitere Informationen in der entsprechenden Dokumentation (siehe Verweis).
 
 
@@ -45,7 +45,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (UM) auf ei
       - Informationen zur Vorgehensweise für Exchange 2013 finden Sie auf der Seite "Unified Messaging" unter [http://go.microsoft.com/fwlink/?linkid=266579\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=266579%26clcid=0x407).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ob Sie die Sicherheitsstufe <STRONG>SIPSecured</STRONG> oder <STRONG>Secured</STRONG> auswählen, hängt davon ab, ob SRTP (Secure Real-time Transport Protocol) für die Medienverschlüsselung aktiviert oder deaktiviert ist. Für die Lync Server 2010-Integration in Exchange UM sollte die Einstellung mit der Verschlüsselungsstufe in der Lync Server-Medienkonfiguration übereinstimmen. Die Lync Server-Medienkonfiguration kann durch Ausführen des Cmdlets <STRONG>Get-CsMediaConfiguration</STRONG> angezeigt werden. Ausführliche Informationen finden Sie unter "Get-CsMediaConfiguration" in der Lync Server-Verwaltungsshell-Dokumentation.<BR>Ausführliche Informationen zur Auswahl der geeigneten VoIP-Sicherheitseinstellungen finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Bereitstellungsprozess für die Integration von lokalen Unified Messaging-Diensten und Lync Server 2013</A>.
 
 
@@ -67,7 +67,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (UM) auf ei
 3.  Notieren Sie die Namen aller UM-Wählpläne. Je nach Version von Exchange Server benötigen Sie später den FQDN jedes Wählplans als Name für den zugehörigen Wählplan in Lync Server, damit die Wählplannamen übereinstimmen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Namen der Lync Server-Wähleinstellungen müssen nur dann den Namen der UM-Wähleinstellungen entsprechen, wenn die UM-Wähleinstellungen auf einer Exchange-Version <EM>vor</EM> Exchange&nbsp;2010&nbsp;SP1 ausgeführt werden.
 
 
@@ -90,7 +90,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (UM) auf ei
             set-umserver -instance $ums[0]
     
 
-    > [!TIP]
+    > [!NOTE]
     > Vergewissern Sie sich vor dem Ausführen des folgenden Schritts, dass für alle Enterprise-VoIP-Benutzer ein Exchange Server-Postfach konfiguriert wurde.<BR>Informationen zur Vorgehensweise für Exchange 2007 finden Sie in der Exchange Server 2007-TechNet-Bibliothek unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268685%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=268685&amp;clcid=0x407</A>.<BR>Informationen zur Vorgehensweise für Exchange 2010 finden Sie in der Exchange Server 2010-TechNet-Bibliothek unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268686%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=268686&amp;clcid=0x407</A>.<BR>Wenn Sie eine Postfachrichtlinie für jeden in Schritt&nbsp;1 erstellten Satz mit Wähleinstellungen festlegen, verwenden Sie entweder die Standardrichtlinie oder eine von Ihnen selbst erstellte Richtlinie.
 
 
@@ -116,7 +116,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (UM) auf ei
 6.  Deaktivieren Sie über die Exchange-Verwaltungsshell oder -Verwaltungskonsole ausgehende Anrufe für alle IP-Gateways, mit Ausnahme des Ihren Wähleinstellungen zugeordneten IP-Gateways.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Schritt ist notwendig, damit ausgehende Anrufe des Exchange Server&nbsp;Unified Messaging-Servers an externe Benutzer (z.&nbsp;B. in Szenarien mit Wiedergabe über Telefon) die Unternehmensfirewall zuverlässig passieren.
 
     
@@ -161,7 +161,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (UM) auf ei
 8.  Ordnen Sie den UM-Wähleinstellungen Exchange UM-Benutzer zu (von denen jeder mit einem Exchange-Postfach konfiguriert sein sollte), und erstellen Sie einen SIP-URI für jeden Benutzer.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Beim Wert von <STRONG>SIPResourceIdentifier</STRONG> im folgenden Beispiel muss es sich um die SIP-Adresse des Lync Server-Benutzers handeln.
 
     

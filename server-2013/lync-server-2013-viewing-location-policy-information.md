@@ -32,7 +32,7 @@ Sie können Ortungsrichtlinien in der Systemsteuerung für Lync Server 2013 in d
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können jeweils nur Informationen zu einer Ortungsrichtlinie anzeigen.
 
 
@@ -49,8 +49,8 @@ Standardmäßig ist eine einzige Richtlinie (Global) vorhanden, die nicht gelös
 
 #### Weitere Ressourcen
 
-[New-CsLocationPolicy](new-cslocationpolicy.md)  
-[Set-CsLocationPolicy](set-cslocationpolicy.md)  
-[Remove-CsLocationPolicy](remove-cslocationpolicy.md)  
-[Get-CsLocationPolicy](get-cslocationpolicy.md)
+[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
+[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
+[Remove-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsLocationPolicy)  
+[Get-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsLocationPolicy)
 

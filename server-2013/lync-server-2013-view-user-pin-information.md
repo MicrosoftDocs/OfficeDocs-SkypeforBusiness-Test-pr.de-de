@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Lync Server 2013-Benutzer mit Anmeldeinformationen für die Active Directory-Domänendienste (Active Directory Domain Services, AD DS) eine persönliche Identifikationsnummer (PIN). Sie können die PIN-Informationen eines Benutzers über die Systemsteuerung für Lync Server 2013 anzeigen.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können verschiedene PIN-Statusinformationen anzeigen. Dazu gehört u. a. ob eine PIN festgelegt wurde oder wann die PIN zum letzten Mal geändert wurde. Die aktuelle PIN wird beim Betrachten des PIN-Status jedoch nicht angezeigt. Wenn ein Benutzer seine PIN verloren hat, kann diese mit den in <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Festlegen der Einwahlkonferenz-PIN eines Benutzers in Lync Server 2013</A> beschriebenen Verfahren zurückgesetzt werden.
 
 
@@ -55,7 +55,7 @@ Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt 
     5.  Klicken Sie auf **Suchen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ist die PIN gesperrt, müssen Sie die Sperre zunächst aufheben, bevor Sie die PIN festlegen können. Klicken Sie zum Aufheben der Sperre auf den Benutzer, dann auf <STRONG>Aktion</STRONG> und auf <STRONG>PIN entsperren</STRONG>.
 
 
@@ -80,7 +80,7 @@ Sie können die PIN-Informationen für Benutzer mit dem Get-CsClientPinInfo-Cmdl
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-Weitere Informationen finden Sie im Hilfethema zum [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer)-Cmdlet.
 
 ## Siehe auch
 

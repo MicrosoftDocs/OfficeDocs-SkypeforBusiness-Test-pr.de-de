@@ -22,11 +22,11 @@ Der Zentraler Protokollierungsdienst wird durch Einstellungen und Parameter gest
 > Nicht alle Windows PowerShell-Cmdlets, die für den Zentraler Protokollierungsdienst aufgelistet werden, sind für die Verwendung mit lokalen Lync Server 2013-Bereitstellungen vorgesehen. Auch wenn die folgenden Cmdlets scheinbar funktionieren, sind sie nicht für die Ausführung mit lokalen Lync Server 2013-Bereitstellungen entwickelt worden: 
 > <UL>
 > <LI>
-> <P><STRONG>"CsClsRegion"-Cmdlets:</STRONG> <A href="get-csclsregion.md">Get-CsClsRegion</A>, <A href="set-csclsregion.md">Set-CsClsRegion</A>, <A href="new-csclsregion.md">New-CsClsRegion</A> und <A href="remove-csclsregion.md">Remove-CsClsRegion</A>.</P>
+> <P><STRONG>"CsClsRegion"-Cmdlets:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</A>.</P>
 > <LI>
-> <P><STRONG>"CsClsSearchTerm"-Cmdlets:</STRONG> <A href="get-csclssearchterm.md">Get-CsClsSearchTerm</A> und <A href="set-csclssearchterm.md">Set-CsClsSearchTerm</A>.</P>
+> <P><STRONG>"CsClsSearchTerm"-Cmdlets:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</A>.</P>
 > <LI>
-> <P><STRONG>"CsClsSecurityGroup"-Cmdlets:</STRONG> <A href="get-csclssecuritygroup.md">Get-CsClsSecurityGroup</A>, <A href="set-csclssecuritygroup.md">Set-CsClsSecurityGroup</A>, <A href="new-csclssecuritygroup.md">New-CsClsSecurityGroup</A> und <A href="remove-csclssecuritygroup.md">Remove-CsClsSecurityGroup</A>.</P></LI></UL>Die in diesen Cmdlets definierten Einstellungen können ein nachteiliges Verhalten weder verhindern noch verursachen, sind aber für die Verwendung mit Microsoft Office 365 vorgesehen und liefern in lokalen Bereitstellungen nicht die erwarteten Ergebnisse. Das bedeutet nicht, dass diese Cmdlets in lokalen Bereitstellungen nicht von Nutzen sind, ihre Verwendung ist aber ein komplexes Thema, dessen Beschreibung den Rahmen dieser Dokumentation sprengen würde.
+> <P><STRONG>"CsClsSecurityGroup"-Cmdlets:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSecurityGroup">Get-CsClsSecurityGroup</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSecurityGroup">Set-CsClsSecurityGroup</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsSecurityGroup">New-CsClsSecurityGroup</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsSecurityGroup">Remove-CsClsSecurityGroup</A>.</P></LI></UL>Die in diesen Cmdlets definierten Einstellungen können ein nachteiliges Verhalten weder verhindern noch verursachen, sind aber für die Verwendung mit Microsoft Office 365 vorgesehen und liefern in lokalen Bereitstellungen nicht die erwarteten Ergebnisse. Das bedeutet nicht, dass diese Cmdlets in lokalen Bereitstellungen nicht von Nutzen sind, ihre Verwendung ist aber ein komplexes Thema, dessen Beschreibung den Rahmen dieser Dokumentation sprengen würde.
 
 
 
@@ -45,5 +45,5 @@ In den Themen in diesem Abschnitt werden die Konfigurationsoptionen, Parameter u
 #### Konzepte
 
 [Übersicht über den zentralisierten Protokollierungsdienst](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Cmdlets für die zentralisierte Protokollierung](lync-server-2013-centralized-logging-cmdlets.md)
+[Cmdlets für die zentralisierte Protokollierung](https://docs.microsoft.com/en-us/powershell/module/skype/)
 

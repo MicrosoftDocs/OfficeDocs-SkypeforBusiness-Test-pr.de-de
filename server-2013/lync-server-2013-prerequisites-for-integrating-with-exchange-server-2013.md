@@ -58,7 +58,7 @@ Nach dem Konfigurieren des AutoErmittlungsdiensts müssen Sie die "OAuth"-Konfig
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc
 
 
-> [!TIP]
+> [!NOTE]
 > Der <STRONG>Identity</STRONG>-Parameter im obigen Befehl ist optional. Der Grund hierfür ist, dass Lync Server nur eine einzige, globale Auflistung von "OAuth"-Konfigurationseinstellungen zulässt. Das bedeutet unter anderem, dass Sie die URL für den AutoErmittlungsdienst mithilfe dieses etwas einfacheren Befehls konfigurieren können:<BR><STRONG>Set-CsOAuthConfiguration–ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"</STRONG><BR>Wenn Sie mit der Technologie noch nicht so vertraut sind, ist "OAuth" ein Standardautorisierungsprotokoll, das von vielen wichtigen Websites verwendet wird. Bei "OAuth" werden Benutzeranmeldeinformationen und -kennwörter nicht von einem Computer zum anderen übergeben. Stattdessen basieren Authentifizierung und Autorisierung auf dem Austausch von Sicherheitstoken. Diese Token erteilen für einen bestimmte Zeitspanne Zugriff auf einen bestimmten Satz Ressourcen.
 
 

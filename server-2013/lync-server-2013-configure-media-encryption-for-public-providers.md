@@ -32,11 +32,13 @@ Wenn Sie einen A/V-Verbund (Audio/Video) mit Windows Live Messenger implementier
 2.  Geben Sie an der Eingabeaufforderung die folgenden Befehle ein:
     
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+
+       &nbsp;
     
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Schritt ist erforderlich, weil Windows Live Messenger die Audio-/Videoverschlüsselung nicht unterstützt. Mithilfe des Befehls wrid die globale Richtlinie auf eine Einstellung zur Unterstützung der Verschlüsselung festgelegt, anstatt die Verschlüsselung der Audio-/Videodaten zu fordern. Auf Clients, die die Verschlüsselung unterstützen, wird die Verschlüsselung weiterhin verwendet, dies ist beispielsweise bei Lync 2013 der Fall.
 
 

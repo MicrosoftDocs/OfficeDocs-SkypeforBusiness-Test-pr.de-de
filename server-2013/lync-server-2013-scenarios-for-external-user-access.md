@@ -34,7 +34,7 @@ Bei Verwendung dieses Prozesses können Sie die Konfiguration aller möglichen F
 
 
 
-> [!TIP]
+> [!NOTE]
 > Alle Edgedienste werden auf jedem Edgeserver ausgeführt. Dienste können nicht auf zwei unterschiedliche Edgeserver aufgeteilt werden. Wenn Sie aus Gründen der Skalierbarkeit einen Edgepool bereitstellen, werden alle Edgedienste auf jedem Edgeserver im Pool bereitgestellt. XMPP-Verbund, Office Communications Server und Lync Server-Verbund, Verbindungen zu öffentlichen Instant&nbsp;Messaging-Diensten und Clientmobilität sind zusätzliche Dienste, , die nach der Bereitstellung des ersten Edgeservers oder Edgepools bereitgestellt werden können. Bei den Mobilitätsdiensten handelt es sich um ein Feature, das den Reverseproxy verwendet. Bei der Installation der Mobilitätsdienste werden den Edgeservern keine Features hinzugefügt, es ist jedoch eine Neukonfiguration des Reverseproxys erforderlich. Die Spalte <STRONG>Installationsziel</STRONG>, in der diese Features aufgeführt sind, enthält eine Planungsanweisung in der zugehörigen Spalte unter <STRONG>Abschnitt(e) zur Planung von Edgeservern</STRONG> für die gleichzeitige Planung dieser Features, die bei der Installation und Konfiguration der Edgeserver bereitgestellt werden sollen.
 
 

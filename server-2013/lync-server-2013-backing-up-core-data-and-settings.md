@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-04-23_
 Bei den folgenden Verfahren werden Lync Server-Verwaltungsshell-Cmdlets verwendet, um Sicherungsdateien für Einstellungen und Daten für wichtige Dienste zu erstellen. Ausführliche Informationen zu den in diesem Abschnitt eingesetzten Tools und Angaben dazu, wo Sie diese finden, erhalten Sie unter [Anforderungen für die Sicherung und Wiederherstellung: Tools und Berechtigungen](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md). Einzelheiten zum Sichern von Archivierungs- und Überwachungsdaten finden Sie unter [Sichern von Archivierungs- und Überwachungsdatenbanken](lync-server-2013-backing-up-archiving-and-monitoring-databases.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Der Schritt zum Sichern des zentralen Verwaltungsspeichers umfasst die Einstellungen und die Konfiguration für die Archivierung und das Monitoring.
 
 
@@ -42,7 +42,7 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
         Export-CsConfiguration -FileName "C:\Config.zip"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit diesem Schritt werden die Topologie, die Richtlinien und die Konfigurationseinstellungen für Lync Server in eine Datei exportiert. Weitere Schritte sind zum Sichern der Topologiedaten nicht erforderlich.
 
 

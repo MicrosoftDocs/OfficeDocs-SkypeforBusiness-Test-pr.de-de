@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-06_
 In der Systemsteuerung für Lync Server 2013 können Sie im Abschnitt **Konfiguration für Beständiger Chat** auf der Seite **Beständiger Chat** Einstellungen für Beständiger Chat global konfigurieren, die auf alle Serverpools für beständigen Chat oder einen bestimmten Serverpool für beständigen Chat angewendet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie den Server für beständigen Chat konfigurieren und verwenden möchten, müssen Sie zunächst mit dem Topologie-Generator die Server für beständigen Chat-Unterstützung der Topologie hinzufügen und die Topologie anschließend veröffentlichen. Einzelheiten dazu finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

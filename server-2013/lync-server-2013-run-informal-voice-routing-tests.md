@@ -58,7 +58,7 @@ Sie können mit dem Dialogfeld **Testfallinformationen für das VoIP-Routing ers
     2.  Beachten Sie, dass die verbleibenden Felder im Dialogfeld **Testfallinformationen für das VoIP-Routing speichern** schreibgeschützt sind und mit den Daten *und* Ergebnissen aus der informellen Testkonfiguration vorausgefüllt werden. Stellen Sie sicher, dass dies die Konfiguration ist, die Sie für den Testfall speichern möchten.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Die Werte aus den Testergebnissen werden folgendermaßen zum Vorausfüllen der Felder im Dialogfeld <STRONG>Testfallinformationen für das VoIP-Routing speichern</STRONG> verwendet: 
         > <UL>
         > <LI>
@@ -74,7 +74,7 @@ Sie können mit dem Dialogfeld **Testfallinformationen für das VoIP-Routing ers
 11. Klicken Sie auf **Commit** und anschließend auf **Commit für alle**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie einen Testfall für das VoIP-Routing erstellen, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um den Testfall zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

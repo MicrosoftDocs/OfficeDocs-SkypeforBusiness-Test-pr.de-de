@@ -57,8 +57,7 @@ Für den Partnerverbund zwischen Microsoft Lync Server 2013, Lync Server 2010 un
 
   - Bestimmen Sie Ihre Anforderungen für die Erkennung von Partnerverbunddomänen:
     
-      -   
-        Für die manuelle Konfiguration des Partnerverbunds benötigen Sie den vollqualifizierten Domänennamen (FQDN) des Edgeservers des Partners und den Domänennamen, oder Onlinedomänennamen, der in der Lync Server-Systemsteuerung unter **Partnerverbund und externer Zugriff**, **SIP-Partnerverbunddomänen** eingegeben wird. Erstellen Sie eine **neue** Richtlinie, oder **bearbeiten** Sie eine vorhandene Richtlinie, um Domänen anhand des FQDN zuzulassen oder zu blockieren.
+      - Für die manuelle Konfiguration des Partnerverbunds benötigen Sie den vollqualifizierten Domänennamen (FQDN) des Edgeservers des Partners und den Domänennamen, oder Onlinedomänennamen, der in der Lync Server-Systemsteuerung unter **Partnerverbund und externer Zugriff**, **SIP-Partnerverbunddomänen** eingegeben wird. Erstellen Sie eine **neue** Richtlinie, oder **bearbeiten** Sie eine vorhandene Richtlinie, um Domänen anhand des FQDN zuzulassen oder zu blockieren.
         
 
         > [!WARNING]
@@ -66,12 +65,11 @@ Für den Partnerverbund zwischen Microsoft Lync Server 2013, Lync Server 2010 un
 
         
 
-        > [!TIP]
+        > [!NOTE]
         > Für neue SIP-Partnerverbunddomänenmüssen Sie eine Eingabe in <STRONG>Domänenname (oder FQDN)</STRONG> für Microsoft Lync Online, Microsoft Office 365 vornehmen. Für Microsoft Lync Server 2013, Lync Server 2010 und Office Communications Server müssen Sie auch eine Eingabe für <STRONG>Zugriffs-Edgedienst (FQDN)</STRONG> vornehmen.
 
     
-      -   
-        Für die Partnerverbunderkennung, bei der Partner Ihren Edgeserver erkennen können, erstellen Sie einen SRV-Eintrag in Ihrem externen DNS (\_sipfederationtls.\_tcp.contoso.com), der auf Port 5061 und den Hosteintrag (A) Ihres Edgeservers verweist.
+      - Für die Partnerverbunderkennung, bei der Partner Ihren Edgeserver erkennen können, erstellen Sie einen SRV-Eintrag in Ihrem externen DNS (\_sipfederationtls.\_tcp.contoso.com), der auf Port 5061 und den Hosteintrag (A) Ihres Edgeservers verweist.
         
 
         > [!IMPORTANT]
@@ -145,14 +143,11 @@ Die Bereitstellung und Konfiguration von XMPP wird unter [Bereitstellen des Zugr
 
 In den folgenden Themen finden Sie Anleitungen, wie Zertifikate, Firewallports und DNS-Einträge für die Typen der unterstützten Partnerverbundszenarios definiert werden.
 
-  -   
-    [Zertifikatzusammenfassung – SIP, XMPP-Partnerverbund und öffentliche Chatdienste](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Zertifikatzusammenfassung – SIP, XMPP-Partnerverbund und öffentliche Chatdienste](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [Portzusammenfassung – SIP, XMPP-Partnerverbund und Chat in öffentlichen Netzen](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Portzusammenfassung – SIP, XMPP-Partnerverbund und Chat in öffentlichen Netzen](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [DNS-Zusammenfassung - SIP-, XMPP-Partnerverbund und öffentliche Chatdienste](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [DNS-Zusammenfassung - SIP-, XMPP-Partnerverbund und öffentliche Chatdienste](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 ## Siehe auch
 

@@ -62,7 +62,7 @@ Sie können auf die Diagrammansicht zeigen und Details zu den Nachrichten und In
 3.  Klicken Sie auf **Call Flow** (Anruffluss).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie auf eine Nachricht oder Ablaufverfolgung klicken, die nicht Bestandteil eines Anrufflusses ist, wird das Diagramm nicht angezeigt. Außerdem wird unten in Snooper eine Statusmeldung angezeigt, dass diese Nachricht nicht für den Anruffluss in Frage kommt. Wählen Sie eine andere Nachricht oder Ablaufverfolgung aus. Der Anruffluss wird angezeigt, falls die Nachricht oder Ablaufverfolgung Bestandteil eines Anrufflusses ist.
 
 

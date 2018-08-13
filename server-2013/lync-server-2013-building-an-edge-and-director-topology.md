@@ -26,7 +26,7 @@ Sie können Edgeserverkomponenten erst bereitstellen, wenn mindestens ein intern
 Ausführliche Informationen zu diesen Tools finden Sie unter [Prüfliste zur Bereitstellung für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie den Topologie-Generator zum Definieren einer vollständigen Topologie (einschließlich Edgetopologie) verwendet haben, können Sie die Aufgaben <A href="lync-server-2013-define-your-edge-topology.md">Definieren der Edgetopologie in Lync Server 2013</A> und <A href="lync-server-2013-publish-your-topology.md">Veröffentlichen der Topologie in Lync Server 2013</A> in diesem Abschnitt überspringen. Sie müssen jedoch die Aufgabe <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportieren der Lync Server 2013-Topologie und Kopieren auf externe Medien zur Edgeinstallation</A> ausführen.
 
 

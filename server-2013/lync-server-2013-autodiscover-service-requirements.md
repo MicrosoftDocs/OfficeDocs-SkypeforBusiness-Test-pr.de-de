@@ -50,7 +50,7 @@ Angenommen, ein mobiler Client, auf dem Lync Mobile ausgeführt wird, ist für d
     In diesem Szenario sind zur Unterstützung der Mobilität keine Zertifikatänderungen erforderlich.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a.&nbsp;&nbsp;&nbsp;Der Webserver antwortet mit "Server Hello" und ohne Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;Das mobile Gerät, auf dem Lync Mobile ausgeführt wird, beendet die Sitzung umgehend.<BR>Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a.&nbsp;&nbsp;&nbsp;Der Webserver antwortet mit "Server Hello" und einem Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;Das mobile Gerät, auf dem Lync Mobile ausgeführt wird, überprüft das Zertifikat und schließt den Handshake ab.
 
 

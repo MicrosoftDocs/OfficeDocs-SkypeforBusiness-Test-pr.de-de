@@ -20,7 +20,7 @@ Lync Server 2013 ermöglicht Ihnen das Angeben der Clientversionen, die in Ihrer
 Zusätzlich zum Erstellen einer globalen Richtlinie können Sie Clientversionsrichtlinien für einen bestimmten Dienst oder Standort erstellen oder Richtlinien auf Benutzerebene definieren, die einzelnen Benutzern zugewiesen werden können. Die Clientversionsrichtlinie auf Benutzerebene kann über die Gruppe **Benutzer** in der Lync Server-Systemsteuerung einzelnen Benutzern zugewiesen werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Da anonyme Benutzer keinem Benutzer, Standort oder Dienst zugeordnet sind, unterliegen anonyme Benutzer ausschließlich globalen Richtlinien.
 
 
@@ -40,7 +40,7 @@ Zusätzlich zum Erstellen einer globalen Richtlinie können Sie Clientversionsri
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Registerkarte <STRONG>Clientversionsrichtlinie</STRONG> ist standardmäßig ausgewählt.
 
 
@@ -54,7 +54,7 @@ Zusätzlich zum Erstellen einer globalen Richtlinie können Sie Clientversionsri
       - Klicken Sie auf einen der definierten Clienttypen in der Liste, und klicken Sie dann auf **Details einblenden**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können den Clienttyp mithilfe von Platzhalterzeichen angeben.
 
 
@@ -72,7 +72,7 @@ Zusätzlich zum Erstellen einer globalen Richtlinie können Sie Clientversionsri
       - Geben Sie in **Update** die Nummer ein, die der aktualisierten Version des Clients entspricht.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können die Clientversionsnummer mithilfe von Platzhalterzeichen angeben.
 
 
@@ -98,7 +98,7 @@ Zusätzlich zum Erstellen einer globalen Richtlinie können Sie Clientversionsri
       - Klicken Sie auf **Zulassen und aktualisieren**, um dem Client die Anmeldung zu erlauben und Updates über Windows Server Update Service oder Microsoft Update abzurufen. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt wurde.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie diese Aktion auswählen, wird eine Benachrichtigung angezeigt, sobald sich Benutzer das nächste Mal bei Lync 2013 anmelden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft&nbsp;Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
 
     

@@ -111,7 +111,7 @@ Jede Abbildung in der Lync Server 2013-Hilfe, z. B. Screenshots, Diagramme, Flu
 Die folgenden Abschnitte enthalten Informationen zu den Features, Produkten und Diensten, mit denen Windows für Personen mit Behinderungen einfacher einzusetzen ist.
 
 
-> [!TIP]
+> [!NOTE]
 > Die in diesem Abschnitt enthaltenen Informationen gelten nur für Benutzer, die Microsoft-Produkte in den USA lizenzieren lassen. Wenn Sie dieses Produkt außerhalb der USA erworben haben, enthält das Softwarepaket eine Karte mit zusätzlichen Informationen, aus der die Telefonnummern und die Adressen des Microsoft-Supportdiensts hervorgehen. Diese Informationen finden Sie auch auf der Microsoft-Website zur Barrierefreiheit unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=18139">http://go.microsoft.com/fwlink/?linkid=18139</A>. In Ihrer Niederlassung erhalten Sie Informationen darüber, welche der in diesem Abschnitt beschriebenen Produkte und Dienste in Ihrer Region verfügbar sind. Weitere Informationen zu den Barrierefreiheitsfeatures, die in Microsoft-Produkten enthalten sind, finden Sie auf der Website zur Barrierefreiheit in Microsoft-Produkten.
 
 

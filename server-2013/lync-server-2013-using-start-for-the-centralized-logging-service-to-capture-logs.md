@@ -24,7 +24,7 @@ Das Standardszenario heißt **AlwaysOn**. AlwaysOn soll dazu dienen, das Szenari
 Mit dem Zentraler Protokollierungsdienst können Befehle auf zwei Arten ausgegeben werden. Eine Reihe von Themen konzentriert sich voll und ganz auf die Verwendung von Windows PowerShell über die Lync Server-Verwaltungsshell. Die Möglichkeit, zahlreiche komplexe Konfigurationen und Befehle nutzen zu können, spricht für Windows PowerShell zur Verwendung von Zentraler Protokollierungsdienst. Da Windows PowerShell über die Lync Server-Verwaltungsshell beinahe für alle Funktionen in Lync Server verfügbar ist, werden nur die Windows PowerShell-Befehle besprochen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie den in der Befehlszeile verfügbaren eingeschränkten Befehlssatz verwenden möchten, erhalten Sie durch Eingabe von <CODE>ClsController.exe</CODE> Hilfe zu "CLSController.exe". <STRONG>ClsController.exe</STRONG> wird standardmäßig in folgendem Verzeichnis installiert: C:\Programme\Microsoft Lync Server 2013\ClsAgent.
 
 
@@ -42,15 +42,15 @@ Mit dem Zentraler Protokollierungsdienst können Befehle auf zwei Arten ausgegeb
         Start-CsClsLogging -Scenario AlwaysOn
     
 
-    > [!TIP]
-    > Für das AlwaysOn-Szenario ist keine Standarddauer festgelegt. Das Szenario wird so lange ausgeführt, bis Sie es mit dem Cmdlet <STRONG>Stop-CsClsLogging</STRONG> explizit beenden. Ausführliche Informationen finden Sie unter <A href="stop-csclslogging.md">Stop-CsClsLogging</A>. Für alle anderen Szenarios gilt eine Standarddauer von 4&nbsp;Stunden.
+    > [!NOTE]
+    > Für das AlwaysOn-Szenario ist keine Standarddauer festgelegt. Das Szenario wird so lange ausgeführt, bis Sie es mit dem Cmdlet <STRONG>Stop-CsClsLogging</STRONG> explizit beenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</A>. Für alle anderen Szenarios gilt eine Standarddauer von 4&nbsp;Stunden.
 
 
 
 3.  Drücken Sie zum Ausführen des Befehls die EINGABETASTE.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es kann einen kurzen Moment dauern (30 bis 60&nbsp;Sekunden), bis der Befehl ausgeführt und der Status von den Computern in Ihrer Bereitstellung abgerufen wird.
 
     
@@ -62,7 +62,7 @@ Mit dem Zentraler Protokollierungsdienst können Befehle auf zwei Arten ausgegeb
     
 
     > [!IMPORTANT]
-    > Sie können jederzeit insgesamt zwei&nbsp;Szenarien auf einem beliebigen Computer ausführen. Hat der Befehl einen globalen Gültigkeitsbereich, werden die Szenarien auf allen Computern in Ihrer Bereitstellung ausgeführt. Wenn Sie ein drittes Szenario starten möchten, müssen Sie die Protokollierung für den Computer, Pool, Standort oder globalen Gültigkeitsbereich beenden, für den das neue Szenario ausgeführt werden soll. Haben Sie einen globalen Gültigkeitsbereich gestartet, können Sie die Protokollierung für mindestens ein Szenario für mindestens einen Computer oder Pool beenden. Ausführliche Informationen zur Verwaltung der ausgeführten Szenarien finden Sie unter <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Verwenden von "Stop" für den zentralisierten Protokollierungsdienst</A> und <A href="stop-csclslogging.md">Stop-CsClsLogging</A>.
+    > Sie können jederzeit insgesamt zwei&nbsp;Szenarien auf einem beliebigen Computer ausführen. Hat der Befehl einen globalen Gültigkeitsbereich, werden die Szenarien auf allen Computern in Ihrer Bereitstellung ausgeführt. Wenn Sie ein drittes Szenario starten möchten, müssen Sie die Protokollierung für den Computer, Pool, Standort oder globalen Gültigkeitsbereich beenden, für den das neue Szenario ausgeführt werden soll. Haben Sie einen globalen Gültigkeitsbereich gestartet, können Sie die Protokollierung für mindestens ein Szenario für mindestens einen Computer oder Pool beenden. Ausführliche Informationen zur Verwaltung der ausgeführten Szenarien finden Sie unter <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Verwenden von "Stop" für den zentralisierten Protokollierungsdienst</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</A>.
 
 
 

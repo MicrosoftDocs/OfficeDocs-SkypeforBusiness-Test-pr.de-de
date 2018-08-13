@@ -34,7 +34,7 @@ Die in diesem Abschnitt beschriebenen Parameter gelten für Anrufe mit zwei und 
     Beispiel: Wenn Sie 2.000 KBit/s angeben, kann Lync Server jeweils 2.000 KBit/s für den Haupt- und 2.000 KBit/s für den Panoramavideo-Stream senden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die maximale Video-Netzwerkbandbreite für einen Lync 2013-Endpunkt beträgt 8.000&nbsp;KBit/s für das Haupt- und 2.500&nbsp;KBit/s für das Panoramavideo. Diese Höchstwerte werden nur erreicht, wenn mehrere Videos gesendet oder empfangen werden. Ausführliche Informationen finden Sie im Abschnitt "Netzwerkbelegung durch Mediendatenverkehr" in <A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Anforderungen hinsichtlich der Netzwerkbandbreite für Mediendatenverkehr</A>. In diesem Abschnitt sind die maximale und typische Videostream-Bandbreite für alle unterstützen Auflösungen aufgeführt.
 
 
@@ -44,7 +44,7 @@ Die in diesem Abschnitt beschriebenen Parameter gelten für Anrufe mit zwei und 
     Der Standardwert für **TotalReceiveVideoBitRateKb** ist 50.000 KBit/s. Wenn die **EnableMultiviewJoin**-Einstellung für die Katalogansicht auf "True" festgelegt ist, darf **TotalReceiveVideoBitRateKb** nicht auf weniger als 420 KBit/s festgelegt sein. Wenn die **EnableMultiviewJoin**-Einstellung für die Katalogansicht auf "True" festgelegt ist, darf **TotalReceiveVideoBitRateKb** nicht auf weniger als 100 KBit/s festgelegt sein. Wenn **EnableMultiviewJoin** auf "True" festgelegt ist und Sie den Wert auf weniger als 420 KBit/s festlegen, werden die Werte standardmäßig auf den Schwellenwert festgelegt. Dieser Schwellenwert verhindert versehentliche Fehlkonfigurationen, die eine schlechte Benutzererfahrung zur Folge haben könnten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zur <STRONG>EnableMultiviewJoin</STRONG>-Einstellung finden Sie unter <A href="lync-server-2013-configuring-gallery-view.md">Konfigurieren der Katalogansicht</A>.
 
 
@@ -64,7 +64,7 @@ Die in diesem Abschnitt beschriebenen Parameter gelten für Anrufe mit zwei und 
   - **MaxVideoRateAllowed**   Diese Einstellung für einzelne Pools gibt die Höchstrate an, mit der Videosignale an die Clientendpunkte übermittelt werden. Sie gilt nur für vorige Versionen von Lync Server-Clients.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Lync Server 2013-Clients ignorieren diese Einstellung und verwenden stattdessen die Einstellung "TotalReceiveVideoBitRateKb" in der Konferenzrichtlinie.
 
     

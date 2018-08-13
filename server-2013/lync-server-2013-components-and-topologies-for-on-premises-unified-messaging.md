@@ -38,7 +38,7 @@ Lync Server 2013 unterstützt die folgenden Topologien für die Exchange UM-Inte
   - Mehrere Gesamtstrukturen (also Ressourcengesamtstruktur). Lync Server 2013 wird in einer einzigen Gesamtstruktur bereitgestellt, und die Benutzer werden anschließend auf mehrere Gesamtstrukturen verteilt. Die Exchange UM-Attribute der Benutzer müssen in der Lync Server 2013-Gesamtstruktur repliziert werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Exchange kann in mehreren Gesamtstrukturen bereitgestellt werden. Jede Exchange-Organisation kann Exchange UM für die Benutzer bereitstellen, oder Exchange UM kann in derselben Gesamtstruktur wie Lync Server 2013 bereitgestellt werden.
 
 

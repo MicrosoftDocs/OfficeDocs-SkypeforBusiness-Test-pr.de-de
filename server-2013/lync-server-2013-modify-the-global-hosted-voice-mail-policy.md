@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-24_
 
 Die neue *globale* Richtlinie für gehostete Voicemail wird zusammen mit Lync Server 2013 installiert. Sie können diese Richtlinie Ihren Anforderungen entsprechend ändern, Sie können sie jedoch weder umbenennen noch löschen. Wenn Sie die globale Richtlinie ändern möchten, verwenden Sie das Cmdlet "Set-CsHostedVoicemailPolicy", um die Parameter auf die für Ihre spezielle Bereitstellung geeigneten Werte zu setzen.
 
-Ausführliche Informationen zum Cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md) finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+Ausführliche Informationen zum Cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 ## So ändern Sie die globale Richtlinie für gehostete Voicemail
 
@@ -34,7 +34,7 @@ Ausführliche Informationen zum Cmdlet [Set-CsHostedVoicemailPolicy](set-cshoste
       - **Organization** gibt eine durch Trennzeichen getrennte Liste der Exchange-Mandanten an, die Lync Server-Benutzer verwalten. Für jeden Mandanten muss der vollqualifizierte Domänenname des Mandanten im gehosteten Exchange-Dienst angegeben werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Im vorherigen Cmdlet-Beispiel ersetzt der Wert "corp1.litwareinc.com" einen beliebigen Wert, der im Parameter "Organization" möglicherweise bereits vorhanden ist. Wenn die Richtlinie beispielsweise bereits eine durch Trennzeichen getrennte Liste mit Organisationen enthält, wird die gesamte Liste ersetzt. Wenn Sie nicht die gesamte Liste ersetzen, sondern der Liste eine Organisation hinzufügen möchten, führen Sie einen Befehl wie den folgenden aus.
 
     

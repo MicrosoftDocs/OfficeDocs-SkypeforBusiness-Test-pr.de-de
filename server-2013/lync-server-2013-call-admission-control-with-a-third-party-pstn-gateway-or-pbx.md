@@ -34,7 +34,7 @@ In diesem Beispiel wird die Anrufsteuerung zwischen dem Vermittlungsserver und e
 Dies gilt sowohl für eingehende PSTN-Anrufe an einen Client an Netzwerkstandort 1 als auch für ausgehende PSTN-Anrufe, die von einer Clientanwendung an Netzwerkstandort 1 aus getätigt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Stellen Sie sicher, dass das IP-Subnetz, dem das PSTN-Gateway angehört, konfiguriert und Netzwerkstandort 2 zugeordnet ist.<BR>Stellen Sie sicher, dass das IP-Subnetz, dem beide Schnittstellen des Vermittlungsservers angehören, konfiguriert und Netzwerkstandort 1 zugeordnet ist.<BR>Ausführliche Informationen finden Sie unter <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013</A>.
 
 
@@ -56,7 +56,7 @@ In diesem Beispiel wird die Anrufsteuerung zwischen dem Vermittlungsserver und d
 Dies gilt sowohl für eingehende PSTN-Anrufe an einen Client an Netzwerkstandort 1 als auch für ausgehende PSTN-Anrufe, die von einem Client an Netzwerkstandort 1 aus getätigt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Stellen Sie sicher, dass das IP-Subnetz, dem der Medienendpunkt angehört, konfiguriert und Netzwerkstandort 2 zugeordnet ist.<BR>Stellen Sie sicher, dass das IP-Subnetz, dem beide Schnittstellen des Vermittlungsservers angehören, konfiguriert und Netzwerkstandort 1 zugeordnet ist.<BR>Ausführliche Informationen finden Sie unter <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013</A>.
 
 
@@ -74,7 +74,7 @@ Wenn ein Lync-Clientbenutzer an Netzwerkstandort 1 einen Anruf an einen Benutzer
 Für Anrufe, die vom Drittanbieter-Endpunkt ausgehen, stehen die Informationen über dieses Endpunktgerät zum Zeitpunkt der Sitzungsanforderung zur Verfügung, und Prüfungen in Bezug auf die Anrufsteuerung können auf beiden Seiten des Vermittlungsservers durchgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Stellen Sie sicher, dass das IP-Subnetz, dem die Endpunktgeräte angehören, konfiguriert und Netzwerkstandort 2 zugeordnet ist.<BR>Stellen Sie sicher, dass das IP-Subnetz, dem beide Schnittstellen des Vermittlungsservers angehören, konfiguriert und Netzwerkstandort 1 zugeordnet ist.<BR>Ausführliche Informationen finden Sie unter <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013</A>.
 
 

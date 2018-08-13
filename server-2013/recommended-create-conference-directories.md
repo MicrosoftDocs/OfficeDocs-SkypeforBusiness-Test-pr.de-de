@@ -39,5 +39,5 @@ Indem mehrere Konferenzverzeichnisse erstellt werden, wird sichergestellt, dass 
 
 #### Weitere Ressourcen
 
-[New-CsConferenceDirectory](new-csconferencedirectory.md)
+[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
 

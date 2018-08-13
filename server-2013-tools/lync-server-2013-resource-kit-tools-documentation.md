@@ -86,7 +86,7 @@ Das ABSConfig-Tool kann mithilfe der Datei "absConfig.exe" gestartet werden. Das
 Im ABS-Konfigurationstool von Lync Server 2013 können Attribute (Zeilen) entfernt werden, indem das Aktivierungskontrollkästchen für das jeweilige Attribut deaktiviert wird. Dies hat dieselbe Wirkung wie das Löschen der Zeile in Lync Server 2010.
 
 
-> [!TIP]
+> [!Note]
 > Das Aktivierungskontrollkästchen befindet sich in der Spalte ganz rechts. Möglicherweise müssen Sie einen Bildlauf nach rechts durchführen, um die Spalte anzuzeigen.
 
 
@@ -158,7 +158,7 @@ Auf der Registerkarte **Machine Info** werden die Details des ausgewählten Band
 Auf der Registerkarte **Topology Info** wird eine Liste aller Verbindungen angezeigt, die in den Netzwerkkonfigurationseinstellungen konfiguriert sind. Für jede Verbindung wird die Audio- und Videobandbreitenkapazität angezeigt. Zusätzlich wird die aktuell verwendete Bandbreite in KB/s und als Prozentsatz der Kapazität angezeigt. Das Tool verwendet Farbcodierungen zum Hervorheben von Verbindungen, die eine Nutzung aufweisen, die fast der Kapazität entspricht, was es Administratoren ermöglicht, solche Verbindungen schnell zu isolieren.
 
 
-> [!TIP]
+> [!Note]
 > Wenn es beim Herstellen einer Verbindung mit einem der konfigurierten Bandbreitenrichtliniendienste zu einem Fehler im Bandbreitenrichtliniendienst-Überwachungstool kommt, werden die Informationen auf den Registerkarten <STRONG>Machine Info</STRONG> und <STRONG>Topology Info</STRONG> nicht aufgefüllt. Es ist aber möglich, dass das Tool anfangs eine Verbindung mit dem Dienst herstellt, die dann später verloren geht. In solchen Fällen werden Administratoren eventuell veraltete Informationen angezeigt. Es gibt einen Zeitstempel <STRONG>Last Updated</STRONG> auf beiden Registerkarten, mit dessen Hilfe Administratoren bestimmen können, wann die Daten zum letzten Mal für einen bestimmten Bandbreitenrichtliniendienst aktualisiert wurden.
 
 
@@ -272,7 +272,7 @@ Die folgenden Dateiverzeichnisse können vom Benutzer wie gezeigt angegeben werd
 ![Dateiverzeichnisse in der Bandbreitennutzungsanalyse](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Dateiverzeichnisse in der Bandbreitennutzungsanalyse")
 
 
-> [!TIP]
+> [!Note]
 > Stellen Sie sicher, dass dem Benutzer des Tools ausreichender Dateizugriff auf den Ordnerspeicherort der Serverprotokolle und der temporären Dateien gewährt wird.
 
 
@@ -426,8 +426,10 @@ Der Verwendungszweck des Anrufparkserver-Tool besteht darin, Befehlzeilenzugriff
 
 ## Anforderungen
 
-Es liegen keine Anforderungen vor, wenn dieses Tool auf demselben Computer wie der Anrufparkserver ausgeführt wird. Wenn dieses Tool auf einem Remotecomputer ausgeführt wird, muss die von Lync Server 2013 verwendete SQL Server-Datenbank so konfiguriert sein, dass Remotezugriff zulässig ist. Die "Anrufparkuhr" muss mit einer SQL Server-Datenbankverbindungszeichenfolge so konfiguriert sein, dass sie eine Verbindung mit SQL Server des Pools herstellt. Diese SQL Server-Datenbankverbindungszeichenfolge wird in der Konfigurationsdatei **parkometer.exe.config** definiert. Diese muss sich im selben Verzeichnis wie die Datei "parkometer.exe" befinden. Die folgende XML-Datei ist ein Beispiel für eine "parkometer.exe.config"-Datei. Die Parameter, die konfiguriert werden müssen, sind Benutzername (beispielsweise meineDomäne\\Administrator), Kennwort (beispielsweise MeinKennwort) und Hostname (beispielsweise MeinServer).
+Es liegen keine Anforderungen vor, wenn dieses Tool auf demselben Computer wie der Anrufparkserver ausgeführt wird. Wenn dieses Tool auf einem Remotecomputer ausgeführt wird, muss die von Lync Server 2013 verwendete SQL Server-Datenbank so konfiguriert sein, dass Remotezugriff zulässig ist. Die "Anrufparkuhr" muss mit einer SQL Server-Datenbankverbindungszeichenfolge so konfiguriert sein, dass sie eine Verbindung mit SQL Server des Pools herstellt. Diese SQL Server-Datenbankverbindungszeichenfolge wird in der Konfigurationsdatei **parkometer.exe.config** definiert. Diese muss sich im selben Verzeichnis wie die Datei "parkometer.exe" befinden. Die folgende 
+-Datei ist ein Beispiel für eine "parkometer.exe.config"-Datei. Die Parameter, die konfiguriert werden müssen, sind Benutzername (beispielsweise meineDomäne\\Administrator), Kennwort (beispielsweise MeinKennwort) und Hostname (beispielsweise MeinServer).
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -438,6 +440,7 @@ Es liegen keine Anforderungen vor, wenn dieses Tool auf demselben Computer wie d
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## Beispiele
 
@@ -546,7 +549,7 @@ DBAnalyze ist ein Befehlszeilentool, das Administratoren bei der Erfassung von A
   - **Diagnosemodus (Diagnostic)** Erstellt einen Bericht, der Informationen zu Tabellen (Anzahl der Datensätze, Fragmentierung, Datengröße und Indexgröße) sowie die folgenden Informationen umfasst: Größe der Daten- und Protokolldateien, Zeitpunkt der letzten Sicherung, Kontaktverteilung zwischen Servern, auf denen Microsoft Office Communications Server ausgeführt wird, die durchschnittliche Anzahl von Berechtigungen, Kontakten, Containern, Abonnements, Veröffentlichungen, Endpunkten pro Benutzer, alle nicht ordnungsgemäß gehosteten Benutzer, Benutzer, die nicht geroutet werden können, die durchschnittliche Anzahl von organisierten Konferenzen pro Benutzer, geplante Konferenzen, aktive Konferenzen und die Datenbankversion.
     
 
-    > [!TIP]
+    > [!Note]
     > Die Ausführung im Diagnosemodus kann die Serverleistung beeinträchtigen.
 
 
@@ -588,7 +591,7 @@ Um "Dbanalyze.exe" zu installieren, kopieren Sie die Datei in einen lokalen Ordn
 ![Berechtigungstabelle für Dbanalyze.exe](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Berechtigungstabelle für Dbanalyze.exe")
 
 
-> [!TIP]
+> [!Note]
 > Ein lokales Administratorkonto ist erforderlich für den <STRONG>/report:disk</STRONG>-Modus.
 
 
@@ -631,7 +634,7 @@ Dieses Tool erhöht die Auslastung von CPU und E/A-Vorgängen auf dem Front-End-
 Installation von Resource Kit-Tools in Lync Server 2013. Das Tool wird auf Computern ausgeführt, die einer Domäne beigetreten sind und auf denen Lync Server und Lync Server-Verwaltungsshell installiert sind. Das Tool verwendet ein Cmdlet der Verwaltungsshell, um alle Front-End-Server im Pool zu identifizieren. Weiterhin muss das Tool von einem Computer im Pool aus ausgeführt werden, auf dem die **RtcLocal**-Datenbank installiert ist. Diese Datenbank wird von dem Tool verwendet, um den Speicherort der Dateifreigabe "WEBSERVICE" für den Pool abzurufen. Zusätzlich muss, bevor das Tool verwendet wird, auf jedem Front-End-Server Windows PowerShell-Remoting unter Verwendung von **Enable-PSRemoting** aktiviert werden sowie auf dem Computer, auf dem das Tool ausgeführt wird. Andernfalls schlagen Windows PowerShell-Remotebefehle dieses Tools fehl. Windows PowerShell-Remoting kann auf allen Front-End-Servern im Pool deaktiviert werden, nachdem das Tool fertig gestellt wurde. Schließlich müssen das Konto oder die Anmeldeinformationen, mit denen das Tool aufgerufen wird, über Lese-/Schreibberechtigungen für die Dateifreigabe "WEBSERVICE" des Pools verfügen, in dem dieses Tool ausgeführt wird. Andernfalls schlägt das Tool mit E/A-Berechtigungsfehlern fehl.
 
 
-> [!TIP]
+> [!Note]
 > Unter Windows Server 2012 ist Windows PowerShell-Remoting standardmäßig aktiviert, aber nicht unter Windows Server&nbsp;2008-Betriebssystem.
 
 
@@ -1072,7 +1075,7 @@ Die aktuelle Version von SEFAUtil ist ein reines Befehlszeilentool. Eine unterst
   - Aktivieren/Deaktivieren/Ändern von Teamanrufgruppen-Einstellungen
     
 
-    > [!TIP]
+    > [!Note]
     > Neue Funktion im Lync Server 2013 SEFAUtil-Tool
 
 
@@ -1080,7 +1083,7 @@ Die aktuelle Version von SEFAUtil ist ein reines Befehlszeilentool. Eine unterst
   - Aktivieren/Deaktivieren/Ändern der Einstellungen für paralleles Anrufen (umfasst Ziel)
     
 
-    > [!TIP]
+    > [!Note]
     > Neue Funktion im Lync Server 2013 SEFAUtil-Tool
 
 
@@ -1128,7 +1131,7 @@ Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem v
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
     
 
-    > [!TIP]
+    > [!Note]
     > Auf dem Computer, auf dem das SEFAUtil-Tool ausgeführt werden soll, muss UCMA 3.0 installiert sein.
 
 
@@ -1138,7 +1141,7 @@ Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem v
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
 
-    > [!TIP]
+    > [!Note]
     > Gegebenenfalls kann ein anderer Port verwendet werden.
 
 
@@ -1166,7 +1169,7 @@ Die Gruppenanrufannahme erfordert eine zusätzliche Konfiguration in Lync Server
 Der folgende Befehl zeigt die Anrufbehandlung für den entsprechenden Benutzer an. `SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com`
 
 
-> [!TIP]
+> [!Note]
 > Dieses Beispiel verwendet den Parameter <STRONG>/server</STRONG>, um den Lync Server anzugeben, mit dem eine Verbindung hergestellt werden soll.
 
 
@@ -1256,7 +1259,7 @@ Dieses Beispiel ändert die Regel für paralleles Anrufen bei Stellvertretung, d
 Dieses Beispiel entfernt die Stellvertretung.
 
 
-> [!TIP]
+> [!Note]
 > Wenn die letzte Stellvertretung entfernt wurde, wird das Anrufen von Stellvertretungen automatisch deaktiviert.
 
 
@@ -1292,7 +1295,7 @@ Diese Beispiel aktiviert paralleles Anrufen und legt eine Zielnummer für parall
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 
 
-> [!TIP]
+> [!Note]
 > Um die Zielnummer für paralleles Anrufen eines Benutzers zu ändern, für den paralleles Anrufen bereits aktiviert ist, behalten Sie den Befehl mit dem Parameter "/enablesimulring" bei, da die Zielnummer sonst nicht geändert wird.
 
 
@@ -1327,7 +1330,7 @@ Dieses Beispiel fügt der Teamanrufgruppe eines Benutzers ein Teammitglied hinzu
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 
 
-> [!TIP]
+> [!Note]
 > Durch das Hinzufügen eines Teammitglieds zur Teamanrufgruppe eines Benutzers werden die Einstellungen der Benutzer für paralleles Anrufen automatisch auf paralleles Anrufen für die Teamanrufgruppe umgestellt.
 
 
@@ -1346,7 +1349,7 @@ Diese Beispiel entfernt ein Teammitglied aus der Teamanrufgruppe eines Benutzers
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 
 
-> [!TIP]
+> [!Note]
 > Wenn das Mitglied, das entfernt wird, das einzige Mitglied der Teamanrufgruppe ist, wird gleichzeitig automatisch das gleichzeitige Anrufen für die Teamanrufgruppe deaktiviert.
 
 
@@ -1379,7 +1382,7 @@ Dieses Beispiel aktiviert den Teamanruf für einen angegebenen Benutzer.
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
 
 
-> [!TIP]
+> [!Note]
 > Wenn die Teamanrufgruppe des Benutzers keine Mitglieder hat, wird Teamanruf nicht aktiviert.
 
 
@@ -1420,7 +1423,7 @@ Dieses Beispiel deaktiviert die Gruppenanrufannahme für einen angegebenen Benut
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 
 
-> [!TIP]
+> [!Note]
 > Wenn Sie die Gruppenanrufannahme für einen Benutzer deaktivieren, bleibt die Gruppennummer, die dem Benutzer zugewiesen war, nicht erhalten. Wenn Sie die Gruppenanrufannahme für diesen Benutzer anschließend erneut aktivieren möchten, müssen Sie die Gruppennummer erneut mithilfe des Parameters "/enablegrouppickup" zuweisen.
 
 
@@ -1523,7 +1526,7 @@ Bei Ausführung des Skripts für die Migration von Ankündigungen für nicht zug
 1.  Verschieben aller Audiodateien, die von den Ankündigungen für nicht zugewiesene Nummern der Ankündigungsanwendung verwendet werden, die auf dem Quellserver oder -pool gehostet wird, in den Dateispeicher auf dem Zielserver oder -pool.
     
 
-    > [!TIP]
+    > [!Note]
     > Die Audiodateien werden nach Abschluss des Kopiervorgangs in den Zielpool aus dem Quellpool entfernt.
 
 
@@ -1595,7 +1598,7 @@ Dieses Tool ermöglicht dem Administrator die Durchführung der folgenden Vorgä
 4.  Verschieben aller Webkonferenzdaten, die einem einzelnen Benutzer zugeordnet sind, wenn dieser Benutzer aus einem Pool in einen anderen Pool verschoben wird.
 
 
-> [!TIP]
+> [!Note]
 > Von den Resource Kit-Tools für Lync Server 2010 wurde das Verschieben aller Webkonferenzdaten, die einem einzelnen Benutzer zugeordnet sind, unterstützt, wenn dieser aus einem Pool in einen anderen verschoben wurde. Diese Funktionalität wird von diesem Tool nun nicht mehr unterstützt. Stattdessen wird der Parameter <STRONG>MoveConferenceData</STRONG> bevorzugt. Details zu diesem Parameter finden Sie in der Beschreibung des Cmdlets <A href="https://technet.microsoft.com/de-de/library/gg398528(v=ocs.15)">Move-CsUser</A>.
 
 
@@ -1635,4 +1638,3 @@ Voranstehend sehen Sie ein Beispiel für einen Löschbefehl. Der Löschbefehl en
 ## Zusammenfassung
 
 Dieses Tool kann eine wertvolle Ressource für Administratoren sein, die eine präzisere Kontrolle über Konferenzbesprechungsdaten benötigen.
-

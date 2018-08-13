@@ -48,7 +48,7 @@ Folgende Entscheidungen sind zu berücksichtigen:
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für UCWA (Unified Communications Web API) sind keine zusätzlichen Konfigurationen erforderlich. UCWA hat keine entsprechende Konfiguration, die nur intern verwendet wird.
 
     
@@ -72,7 +72,7 @@ Folgende Entscheidungen sind zu berücksichtigen:
     Wenn Sie Pushbenachrichtigungen nicht unterstützen, werden Benutzer von mobilen Apple-Geräten und Windows Phones nicht über Ereignisse (z. B. Chateinladungen oder entgangene Nachrichten) informiert, die auftreten, wenn die mobile Anwendung inaktiv ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für mobile Lync 2013-Clients auf Apple-Geräten ist keine Pushbenachrichtigung erforderlich. Die mobilen Lync 2013-Clients auf dem Windows Phone verwenden die Pushbenachrichtigung. Die Planung für Pushbenachrichtigungen und das Push Notification Clearing House (PNCH) bleiben für Lync Mobile auf dem Windows Phone und auf Apple-Geräten gleich, auf denen der mobile Lync 2013-Client nicht ausgeführt werden kann.
 
 
@@ -139,14 +139,14 @@ Folgende Entscheidungen sind zu berücksichtigen:
     </tbody>
     </table>
     
-    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und Informationen zur Verwaltung dieser Richtlinien finden Sie unter [New-CsMobilityPolicy](new-csmobilitypolicy.md), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) und [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Eine Beschreibung der Richtlinieneinstellungen, die Sie konfigurieren können, und Informationen zur Verwaltung dieser Richtlinien finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) und [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Sollen Benutzer, die nicht für Enterprise-VoID aktiviert sind, an Konferenzen teilnehmen können, indem Sie auf den entsprechenden Teilnahmelink klicken?**
     
     Damit Benutzer auf die Mobilitätsfeatures und das Feature "Geschäftlich anrufen" zugreifen können, müssen Sie für Enterprise-VoIP aktiviert sein. Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können jedoch an Konferenzen teilnehmen, indem Sie auf ihrem mobilen Gerät auf den entsprechenden Link klicken, sofern Sie diesen Benutzern eine entsprechende VoIP-Richtlinie zugewiesen haben. Sie können diesen Benutzern entweder eine bestimmte VoIP-Richtlinie zuweisen oder sicherstellen, dass eine globale Richtlinie oder eine Richtlinie auf Standortebene vorhanden ist, die für diese Benutzer gültig ist. Die zugewiesene VoIP-Richtlinie muss über PSTN-Verwendungseinträge und -Routen verfügen, die die Bereiche definieren, in die Benutzer hinauswählen können, um an einer Konferenz teilzunehmen. Ausführliche Informationen zum Festlegen der VoIP-Richtlinie, PSTN-Verwendungseinträge und -Routen finden Sie unter [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mobile Benutzer, die den Teilnahmelink verwenden möchten, benötigen eine VoIP-Richtlinie sowie die dazugehörigen PSTN-Verwendungseinträge und VoIP-Routen, da durch das Klicken auf diesen Link ein ausgehender Anruf von Lync Server 2013 initiiert wird.
 
 

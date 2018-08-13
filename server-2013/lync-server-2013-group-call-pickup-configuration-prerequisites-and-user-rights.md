@@ -50,7 +50,7 @@ Das Konfigurieren der Gruppenanrufannahme erfordert je nach Aufgabe einer der fo
   - **CsAdministrator:** Diese Administratorrolle kann sämtliche Aufgaben ausführen, die mit "CsVoiceAdministrator", "CsServerAdministrator" und "CsUserAdministrator" ausgeführt werden können.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu Administratorrechten finden Sie in der Planungsdokumentation unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013</A>.
 
 

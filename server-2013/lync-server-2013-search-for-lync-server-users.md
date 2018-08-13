@@ -20,7 +20,7 @@ Mithilfe der Ergebnisse einer Suchabfrage können Sie Benutzer für Lync Server 
 Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In Active Directory-Benutzer und -Computer suchen. Im folgenden Verfahren wird beschrieben, wie Sie die Lync Server-Systemsteuerung zu diesem Zweck verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > In einer Umgebung mit einer zentralen Gesamtstrukturtopologie sind die Suchergebnisse möglicherweise ungenau, wenn Sie anhand der E-Mail-Adresse nach einem Benutzer suchen. Stattdessen können Sie Benutzer durch Angabe eines SIP-Adressenpräfixes suchen, z.&nbsp;B. "sip:name", einen Suchfilter hinzufügen und eine SIP-Adresse auswählen, die einen Teil einer E-Mail-Adresse enthält, oder das Cmdlet <STRONG>Get-CSUser</STRONG> verwenden.
 
 

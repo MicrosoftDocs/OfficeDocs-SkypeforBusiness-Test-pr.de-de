@@ -24,13 +24,13 @@ In Lync Server 2013 wird die AutoErmittlung erweitert, um dem Client mitzuteilen
 Im Folgenden wird ein typisches AutoErmittlung-Antwortdokument von einem Lync-Webdienst aufgegliedert und jede darin enthaltene Zeile erläutert. So ist es am einfachsten, das AutoErmittlung-Antwortdokument zu interpretieren und zu verstehen, wie die Webdienste dem Client anhand dieses Dokuments die zur Verfügung stehenden Features mitteilen.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei den folgenden Angaben wird angenommen, dass sich der Benutzer durch Beantworten einer Authentifizierungsanfrage bereits beim Homeserver authentifiziert hat.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Der Lync-AutoErmittlung-Webdienst ist in den <STRONG>Microsoft Office-Protokollen</STRONG> im Abschnitt zu den <STRONG>Offenen Spezifikationen</STRONG> der MSDN Library (<STRONG>Microsoft Developer Network</STRONG>) definiert. Ausführliche Informationen finden Sie im Dokument mit den vollständigen Spezifikationen zum Lync-AutoErmittlung-Webdienstprotokoll unter: <A class=uri href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?linkid=273839</A>. Informationen zur Authentifizierung finden Sie auf der Seite "OC Authentication Web Service Protocol" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?linkid=279015</A>.
 
 
@@ -75,11 +75,15 @@ Die Definition **AccessLocation="External"** gibt an, dass die Anforderung von e
 
     <SipServerInternalAccess fqdn="pool01.contoso.com" port="5061"/>
 
+   &nbsp;
+
     <SipServerExternalAccess fqdn="sip.contoso.com" port="5061"/>
 
 "SipServerInternalAccess" und "SipServerExternalAccess" werden derzeit nicht verwendet. Diese Einträge sind für die zukünftige Verwendung reserviert.
 
     <SipClientInternalAccess fqdn=" pool01.contoso.com" port="443"/>
+
+   &nbsp;
 
     <SipClientExternalAccess fqdn="sip.contoso.com " port="443"/>
 
@@ -87,11 +91,15 @@ Die Definition **AccessLocation="External"** gibt an, dass die Anforderung von e
 
     <Link token="Internal/Autodiscover" href="https://webinternal.contoso.net/Autodiscover/AutodiscoverService.svc/root"/>
 
+   &nbsp;
+
     <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
 
 Die `Autodiscover`-Verweise enthalten die Diensteinstiegspunkte für den AutoErmittlungsdienst. Das Tokenattribut enthält den Namen des Diensts und "href" ist eine URL, die für den Client definiert, wo der Dienst zu finden ist. Clients in einem externen Netzwerk verwenden `External/Autodiscover`. Der AutoErmittlungsdienst wird im Rahmen des Bereitstellungsprozesses installiert. `Internal/Autodiscover` wird derzeit nicht verwendet und ist für die zukünftige Verwendung reserviert.
 
     <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
+
+   &nbsp;
 
     <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
 
@@ -99,11 +107,15 @@ Die `AuthBroker`-Verweise enthalten die Diensteinstiegspunkte für den internen 
 
     <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
 
+   &nbsp;
+
     <Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
 
 Das `WebScheduler`-Token verweist auf die URLs, die für den Clientzugriff auf die webbasierte Planung für Lync Server-Konferenzen vorgesehen sind. Derzeit wird nur `External/WebScheduler` verwendet. Der Web Scheduler wird im Rahmen des Bereitstellungsprozesses der internen Lync Server 2013-Bereitstellungswebdienste installiert.
 
     <Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
+
+   &nbsp;
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
@@ -111,7 +123,11 @@ Das `WebScheduler`-Token verweist auf die URLs, die für den Clientzugriff auf d
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 
+   &nbsp;
+
     <Link token="External/Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
+
+   &nbsp;
 
     <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
 
@@ -119,7 +135,11 @@ Das `WebScheduler`-Token verweist auf die URLs, die für den Clientzugriff auf d
 
     <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
 
+   &nbsp;
+
     <Link token="External/XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
+
+   &nbsp;
 
     <Link token="XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
 

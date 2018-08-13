@@ -23,12 +23,12 @@ Im Folgenden finden Sie die Anforderungen für das öffentliche Zertifikat, das 
 
   - Wenn das Zertifikat in einem Edgepool verwendet werden soll, muss es als exportierbares Zertifikat erstellt werden, und es muss auf jedem Edgeserver im Edgepool das gleiche Zertifikat verwendet werden. Der private Schlüssel als exportierbarer Schlüssel ist für die Verwendung mit dem Audio-Video-Authentifizierungsdienst notwendig, der für alle Edgeserver des Pools den gleichen privaten Schlüssel verwenden muss.
 
-  - Wenn Sie die Betriebszeit für Ihre Audio-/Videodienste maximieren möchten, lesen Sie die Zertifikatanforderungen zum Implementieren eines entkoppelten A/V-Edgedienst-Zertifikats durch (d. h., ein von den anderen externen Edgezertifikaten separates A/V-Edgedienst-Zertifikat). Ausführliche Informationen finden Sie unter [Änderungen in Lync Server 2013, die die Planung für Edgeserver betreffen](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Planen von Edgeserver-Zertifikaten in Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) und [Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md).
+  - Wenn Sie die Betriebszeit für Ihre Audio-/Videodienste maximieren möchten, lesen Sie die Zertifikatanforderungen zum Implementieren eines entkoppelten A/V-Edgedienst-Zertifikats durch (d. h., ein von den anderen externen Edgezertifikaten separates A/V-Edgedienst-Zertifikat). Ausführliche Informationen finden Sie unter [Änderungen in Lync Server 2013, die die Planung für Edgeserver betreffen](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Planen von Edgeserver-Zertifikaten in Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) und [Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate).
 
   - Der Antragstellername für das Zertifikat ist der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) oder die virtuelle IP-Adresse (VIP) eines Hardwaregeräts zum Lastenausgleich der externen Zugriffs-Edgedienst-Schnittstelle (zum Beispiel access.contoso.com ).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Für Lync Server 2013 ist dies nicht mehr zwingend erforderlich, wird jedoch aus Gründen der Kompatibilität mit Office Communications Server weiterhin empfohlen.
 
 
@@ -38,7 +38,7 @@ Im Folgenden finden Sie die Anforderungen für das öffentliche Zertifikat, das 
       - Die externe Zugriffs-Edgedienst-Schnittstelle für den Zugriff oder die VIP eines Hardwaregeräts zum Lastenausgleich (zum Beispiel sip.contoso.com ).
         
 
-        > [!TIP]
+        > [!NOTE]
         > Auch wenn der Antragstellername des Zertifikats dem FQDN des Zugriffsedges entspricht, muss der alternative Antragstellername auch den FQDN des Zugriffs-Edgeservers enthalten, da TLS (Transport Layer Security) den Antragstellernamen ignoriert und zur Überprüfung die Einträge für alternative Antragstellernamen verwendet.
 
     
@@ -49,7 +49,7 @@ Im Folgenden finden Sie die Anforderungen für das öffentliche Zertifikat, das 
       - Der A/V-Edgedienst verwendet die Einträge für Antragstellername oder den alternativen Antragstellernamen nicht.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Reihenfolge der FQDNs in den alternativen Antragstellernamen spielt keine Rolle.
 
 

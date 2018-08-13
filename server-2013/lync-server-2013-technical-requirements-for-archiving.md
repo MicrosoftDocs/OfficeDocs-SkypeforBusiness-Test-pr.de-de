@@ -28,7 +28,7 @@ Zu den technischen Anforderungen für Lync Server 2013 gehören die folgenden:
   - Leistungsanforderungen und -überlegungen für die Archivierungsdatenbanken.
 
 
-> [!TIP]
+> [!NOTE]
 > Skalierungs- und Leistungsinformationen sind in dieser Lync Server 2013-Version nicht verfügbar.
 
 
@@ -64,7 +64,7 @@ Die Infrastruktur für Archivierungsspeicher muss zusätzlich eingerichtet werde
       - Microsoft SQL Server 2012 Standard
     
 
-    > [!TIP]
+    > [!NOTE]
     > Microsoft SQL Server 2008 R2 Express und Microsoft SQL Server 2012 Express werden nicht für die Archivierung unterstützt. 32-Bit-Versionen von SQL Server werden nicht unterstützt. Weitere Informationen zu SQL&nbsp;Server-Anforderungen und -Einschränkungen finden Sie unter <A href="lync-server-2013-database-software-support.md">Unterstützte Datenbanksoftware in Lync Server 2013</A> in der Planungsdokumentation oder in der Unterstützungsdokumentation.
 
     

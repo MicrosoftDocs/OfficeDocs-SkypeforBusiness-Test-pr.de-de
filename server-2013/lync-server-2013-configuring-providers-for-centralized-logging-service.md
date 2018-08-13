@@ -115,7 +115,7 @@ Hierbei ist "$LyssProvider" die Variable, in der sich das definierte Szenario be
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-Dieser Befehl bewirkt, dass beim Szenariostandort "Redmond/RedmondLyssInfo" die Flags und die Ebene für den zugewiesenen Anbieter aktualisiert werden. Das neue Szenario können Sie mithilfe von "Get-CsClsScenario" anzeigen. Nähere Informationen dazu finden Sie unter [Get-CsClsScenario](get-csclsscenario.md).
+Dieser Befehl bewirkt, dass beim Szenariostandort "Redmond/RedmondLyssInfo" die Flags und die Ebene für den zugewiesenen Anbieter aktualisiert werden. Das neue Szenario können Sie mithilfe von "Get-CsClsScenario" anzeigen. Nähere Informationen dazu finden Sie unter [Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario).
 
 
 > [!WARNING]
@@ -136,6 +136,8 @@ Hierbei wurde jeder mit der "Add"-Anweisung festgelegte Anbieter bereits mithilf
 2.  Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter "-Provider" die Anweisung "Replace" verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung "Update" zu verwenden. Beispiel: Der Anbieter "LyssProvider" ist mit dem Protokollierungstyp "WPP", der Protokollierungsebene "Debug" und den gesetzten Flags "TF\_CONNECTION" und "TF\_DIAG" definiert. Sie möchten die Flags auf "Alle" ändern. Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+
+       &nbsp;
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
 
@@ -159,9 +161,9 @@ Wenn Sie ein Szenario mit dem **Remove-CsClsScenario**-Cmdlet entfernen, wird es
 
 #### Weitere Ressourcen
 
-[Get-CsClsScenario](get-csclsscenario.md)  
-[New-CsClsScenario](new-csclsscenario.md)  
-[Remove-CsClsScenario](remove-csclsscenario.md)  
-[Set-CsClsScenario](set-csclsscenario.md)  
-[New-CsClsProvider](new-csclsprovider.md)
+[Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario)  
+[New-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsScenario)  
+[Remove-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsScenario)  
+[Set-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario)  
+[New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider)
 

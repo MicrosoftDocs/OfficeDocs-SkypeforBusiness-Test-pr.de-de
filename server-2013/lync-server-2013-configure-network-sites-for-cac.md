@@ -28,7 +28,7 @@ In der CAC-Beispielbereitstellung weist die Region "Nordamerika" sechs Standorte
 Die Beispielnetzwerktopologie finden Sie unter [Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Im folgenden Verfahren wird die Lync Server-Verwaltungsshell zum Erstellen eines Netzwerkstandorts verwendet. Ausführliche Informationen zur Verwendung der Lync Server-Systemsteuerung zum Erstellen eines Netzwerkstandorts finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013</A>.
 
 
@@ -40,8 +40,12 @@ Die Beispielnetzwerktopologie finden Sie unter [Beispiel: Zusammenstellen der An
 2.  Führen Sie das Cmdlet **New-CsNetworkSite** aus, um Netzwerkstandorte zu erstellen und ein geeignetes Bandbreitenrichtlinienprofil auf jeden Standort anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
     
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
+
+       &nbsp;
     
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
+
+       &nbsp;
     
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
 

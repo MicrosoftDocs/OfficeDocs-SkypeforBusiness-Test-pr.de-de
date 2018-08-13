@@ -69,7 +69,7 @@ In der folgenden Tabelle wird das Benutzermodell der Gruppenanrufannahme beschri
 
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Für Front-End-Pools mit weniger als acht&nbsp;Front-End-Servern werden die Metriken linear berechnet. Enthält Ihr Front-End-Pool beispielsweise einen Front-End-Server, beträgt die maximale 1/8 der in der Tabelle aufgeführten Werte.</P>

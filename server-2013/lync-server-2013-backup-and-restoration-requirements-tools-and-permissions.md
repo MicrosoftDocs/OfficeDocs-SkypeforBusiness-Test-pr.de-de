@@ -66,9 +66,9 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um Lync Server z
 </tr>
 <tr class="odd">
 <td><p>Alle Dateispeicher: Lync Server-Dateispeicher, Archivdateispeicher</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Dateien mit dem Namen <STRONG>Meeting.Active</STRONG> sollten nicht gesichert werden. Diese Dateien sind während Besprechungen in Gebrauch und daher gesperrt.
 
 
@@ -121,9 +121,9 @@ Verwenden Sie die Tools in der folgenden Tabelle, um Lync Server wiederherzustel
 </tr>
 <tr class="even">
 <td><p>Wiederherstellen des Active Directory-Domänendienste-Verweises auf zentralen Verwaltungsspeicher</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Wenn der Dienstverbindungspunkt vorübergehend nicht verfügbar ist, können Sie dieses Cmdlet erneut ausführen.
 
 
@@ -147,9 +147,9 @@ Verwenden Sie die Tools in der folgenden Tabelle, um Lync Server wiederherzustel
 <tr class="even">
 <td><p>Lync Server-Komponenten erneut installieren</p></td>
 <td><p>Lync Server-Setup</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Befindet sich im Lync Server-Installationsordner oder auf dem Installationsdatenträger unter "\setup\amd64\Setup.exe".
 
 
@@ -166,9 +166,9 @@ Verwenden Sie die Tools in der folgenden Tabelle, um Lync Server wiederherzustel
 <tr class="odd">
 <td><p>Reaktionsgruppen-Konfigurationsdaten wiederherstellen (RgsConfig.mdf)</p></td>
 <td><p>Import-CsRgsConfiguration</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Wenn die Konfiguration in einem neu bereitgestellten Pool wiederhergestellt wird, in dessen Datenbank sich keine Reaktionsgruppendaten befinden, sollte Sie die Option "–OverwriteOwner" verwenden. Verwenden Sie die Option auch dann, wenn die Wiederherstellungsdaten sich in einem Pool mit demselben vollqualifizierten Domänennamen (FQDN) befindet. Andernfalls schlägt der Import fehl, da die Kontaktobjekte der Reaktionsgruppen bereits in Active&nbsp;Directory vorhanden sind.
 
 

@@ -58,7 +58,7 @@ Sie können beliebige oder alle dieser Datenbanken in einer einzigen Instanz von
 Das Verbinden einer Dateifreigabe mit den Datenbanken ist möglich, wie weiter unten in diesem Abschnitt beschrieben.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013 können Sie den Archivierungsspeicher für einige oder alle Benutzer der Bereitstellung in den Exchange 2013-Speicher integrieren. Sie können keine Server, auf denen Lync Server oder Komponenten ausgeführt werden, auf denselben Servern wie den Exchange-Speicher bereitstellen.
 
 
@@ -86,7 +86,7 @@ Die Dateifreigabe kann auf einem separaten Server oder auf demselben Server wie 
 Eine einzelne Dateifreigabe kann für mehrere Front-End-Pools und Standard Edition-Server (am gleichen Standort) verwendet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013 wird für die Überwachung und Archivierung die Lync Server-Dateifreigabe als Front-End-Server verwendet.
 
 

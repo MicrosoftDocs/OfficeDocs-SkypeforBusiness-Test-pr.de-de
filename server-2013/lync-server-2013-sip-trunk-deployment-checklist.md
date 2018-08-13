@@ -24,7 +24,7 @@ Für jedes ITSP-Gateway, mit dem Sie eine Verbindung herstellen, benötigen Sie 
   - Vollqualifizierter Domänenname (FQDN)
 
 
-> [!TIP]
+> [!NOTE]
 > Der Dienstanbieter bittet Sie möglicherweise, eine Verbindung mit mehreren ITSP-Gateways herzustellen. In diesem Fall müssen Sie eine Verbindung zwischen jedem ITSP-Gateway und jedem Vermittlungsserver in Ihrem Pool konfigurieren.
 
 
@@ -44,7 +44,7 @@ Fragen Sie Ihren ITSP nach den unterstützten Protokollen, um zu ermitteln, ob S
 2.  Wenn Ihr ITSP Unterstützung für TLS (Transport Layer Security) bietet, muss Ihnen der ITSP ein Zertifikat bereitstellen.
 
 
-> [!TIP]
+> [!NOTE]
 > SIP wird mit RTP (Real-time Transport Protocol) oder SRTP (Secure Real-time Transport Protocol) eingesetzt, den Protokollen für die eigentlichen VoIP-Daten in VoIP-Anrufen.
 
 

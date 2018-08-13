@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 Ein Lync Server 2013-Wählplan ist ein benannter Satz aus Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, einzelne Benutzer oder Kontaktobjekte übersetzt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen finden Sie unter <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln in Lync Server 2013</A> in der Planungsdokumentation.
 
 

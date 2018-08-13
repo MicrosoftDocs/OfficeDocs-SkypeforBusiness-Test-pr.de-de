@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Geräteaktualisierungsregeln können nur mithilfe der Windows PowerShell und dem Cmdlet **Import-CsDeviceUpdate** importiert werden. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -36,7 +36,7 @@ Geräteaktualisierungsregeln können nur mithilfe der Windows PowerShell und dem
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Import-CsDeviceUpdate](import-csdeviceupdate.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate).
 
 ## Siehe auch
 

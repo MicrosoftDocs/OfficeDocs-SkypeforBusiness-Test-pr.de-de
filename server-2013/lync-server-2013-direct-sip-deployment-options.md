@@ -38,13 +38,13 @@ Die folgende Abbildung zeigt die allgemeine Topologie für die Bereitstellung vo
 ![Abteilungsbezogene Migrationsoption (Diagramm)](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Abteilungsbezogene Migrationsoption (Diagramm)")
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Ihre Lync Server-Bereitstellung mit einem zertifizierten Partner für direkte SIP-Verbindungen verbinden, ist kein PSTN-Gateway zwischen dem Vermittlungsserver und der Nebenstellenanlage erforderlich. Eine Liste mit zertifizierten Partnern für direkte SIP-Verbindungen finden Sie auf der Website für das Microsoft Unified Communications Open Interoperability Program unter <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Für den in dieser Abbildung gezeigten Medienpfad wurde die Medienumgehung aktiviert (empfohlene Konfiguration). Wenn Sie die Medienumgehung deaktivieren, wird der Medienpfad durch den Vermittlungsserver geleitet.
 
 
@@ -98,7 +98,7 @@ Enterprise-VoIP ermöglicht neuen Unternehmen sowie bestehenden Unternehmen mit 
 In dieser Bereitstellung werden die Anrufe über das IP-Netzwerk weitergeleitet. Anrufe an das Festnetz werden an das entsprechende PSTN-Gateway weitergeleitet. Lync 2013 oder Lync Phone Edition werden als Softphones eingesetzt. Die Remoteanrufsteuerung ist nicht verfügbar und nicht erforderlich, da keine Nebenstellentelefone für Benutzer gesteuert werden müssen. Voicemail und eine automatische Telefonzentrale sind optional über Exchange Unified Messaging (UM) verfügbar.
 
 
-> [!TIP]
+> [!NOTE]
 > Zusätzlich zur Netzwerkinfrastruktur, die zur Unterstützung von Lync Server 2013 erforderlich ist, kann bei ausschließlicher Bereitstellung von VoIP-Funktionen ein kleines, qualifiziertes Gateway zur Unterstützung von Fax- und analogen Geräten verwendet werden.
 
 
@@ -110,7 +110,7 @@ In der folgenden Abbildung wird eine typische Topologie für die ausschließlich
 ![Greenfidle-Bereitstellungsoption](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Greenfidle-Bereitstellungsoption")
 
 
-> [!TIP]
+> [!NOTE]
 > Für den in dieser Abbildung gezeigten Medienpfad wurde die Medienumgehung aktiviert (empfohlene Konfiguration). Wenn Sie die Medienumgehung deaktivieren, wird der Medienpfad durch den Vermittlungsserver geleitet.
 
 

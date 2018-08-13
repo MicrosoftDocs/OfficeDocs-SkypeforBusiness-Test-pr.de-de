@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Bei der Dienstqualität (Quality of Service, QoS) handelt es sich um eine Netzwerktechnologie, die in einigen Organisationen zum Bereitstellen einer optimalen Benutzerfreundlichkeit für die Audio- und Videokommunikation verwendet wird. QoS kommt am häufigsten in Netzwerken mit beschränkter Bandbreite zum Einsatz, bei denen eine große Anzahl Netzwerkpakete um eine relativ geringe Bandbreite konkurrieren, Die Dienstqualität stellt für Administratoren eine Möglichkeit dar, um Paketen mit Audio- oder Videodaten höhere Prioritäten zuzuweisen. Durch die Zuweisung einer höheren Priorität zu diesen Paketen kann die Audio- und Videokommunikation schneller und mit weniger Unterbrechungen ausgeführt werden als Netzwerksitzungen, in denen Dateiübertragungen, Webbrowsen oder Datenbanksicherungen erfolgen. Die Ursache dafür ist die Zuweisung einer "Best Effort"-Priorität zu den Netzwerkpaketen, die für Dateiübertragungen oder Datenbanksicherungen verwendet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > In der Regel wird die Dienstqualität nur auf Kommunikationssitzungen innerhalb Ihres internen Netzwerks angewendet. Beim Implementieren von QoS konfigurieren Sie die Server und Router zwar für die Unterstützung der Paketmarkierung, Sie konfigurieren diese Geräte jedoch für die Unterstützung der Paketmarkierung auf eine bestimmte Art und Weise. Sie können nicht davon ausgehen, dass die Dienstqualität im Internet oder in anderen Netzwerken unterstützt wird. Selbst wenn die Dienstqualität in anderen Netzwerken unterstützt wird, gibt es keine Garantie dafür, dass sie auf dieselbe Art und Weise wie der Dienst in Ihrem Netzwerk konfiguriert ist.
 
 
@@ -44,7 +44,7 @@ Lync Server 2013 bietet vollständige Unterstützung für die Dienstqualität. D
   - [Konfigurieren von QoS (Quality of Service) auf Geräten mit Microsoft Lync Phone Edition](lync-server-2013-configuring-quality-of-service-on-microsoft-lync-phone-edition-devices.md). Standardmäßig ist QoS für Lync Phone Edition-Geräte aktiviert. Sie können jedoch den DSCP-Standardwert ändern, um sicherzustellen, dass für alle Audiopakete in Ihrer Organisation derselbe DSCP-Code verwendet wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Microsoft Windows Server&nbsp;2012 oder Windows Server 2012 R2 verwenden, haben Sie möglicherweise Interesse an der neuen Sammlung von Windows PowerShell-cmdlets, die für die Verwaltung der Dienstqualität auf dieser Plattform zur Verfügung stehen. Weitere Informationen finden Sie im Thema „Cmdlets für den Netzwerkqualitätsdienst in Windows PowerShell“ unter <A href="http://go.microsoft.com/fwlink/p/?linkid=285379">http://go.microsoft.com/fwlink/p/?LinkId=285379</A>.
 
 

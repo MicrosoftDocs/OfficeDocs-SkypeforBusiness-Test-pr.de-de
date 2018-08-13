@@ -26,7 +26,7 @@ Die Archivierungsrichtlinien werden von Ihnen zunächst bei der Bereitstellung d
 Ausführliche Informationen zur Umsetzung von Richtlinien, einschließlich der Hierarchie von Richtlinien, finden Sie unter [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungs-, Bereitstellungs- oder Betriebsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Microsoft Exchange-Integration für Ihre Bereitstellung aktiviert haben, kontrollieren Exchange-Richtlinien, ob die Archivierung für Benutzer aktiviert wird, die in Exchange 2013 verwaltet werden und ihre Postfächer auf "In-Place Hold" gestellt haben. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung beim Verwenden von Exchange Server-Integration</A> in der Bereitstellungsdokumentation.<BR>Sie sollten alle entsprechenden Optionen in den Archivierungskonfigurationen angeben, bevor Sie die Archivierung aktivieren. Einzelheiten finden Sie unter <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Verwalten von Konfigurationsoptionen für die Archivierung in Lync Server 2013 für Ihre Organisation, Standorte und Pools</A> in der Betriebsdokumentation.
 
 
@@ -89,7 +89,7 @@ Die Archivierung (sowohl für interne als auch für externe Kommunikationssitzun
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-Weitere Informationen finden Sie im Hilfethema für das [Set-CsArchivingPolicy](set-csarchivingpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

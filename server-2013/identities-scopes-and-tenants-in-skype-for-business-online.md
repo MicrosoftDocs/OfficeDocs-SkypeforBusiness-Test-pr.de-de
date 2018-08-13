@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Letztes Änderungsdatum des Themas:** 2015-06-22_
 
-Viele der Windows PowerShell-Cmdlets, die für die Verwaltung von Skype for Business Online verwendet werden, setzen voraus, dass Sie im genaue Details zu dem Element angeben, das Sie zu verwalten versuchen. Wenn Sie beispielsweise das Cmdlet [Set-CsUserAcp](set-csuseracp.md) ausführen, müssen Sie angeben, welchen Benutzer Sie verwalten möchten. Das ergibt Sinn. Erst wenn Sie im Cmdlet speziell angeben, welches Benutzerkonto Sie verwalten möchten, kann das Cmdlet **Set-CsUserAcp** wissen, für welchen Benutzer die Audiokonferenzinformationen geändert werden sollen. Aus diesem Grund müssen Sie jedes Mal, wenn Sie das Cmdlet **Set-CsUserAcp** ausführen, den Parameter **Identity** gefolgt von der Identität des zu ändernden Benutzerkontos angeben:
+Viele der Windows PowerShell-Cmdlets, die für die Verwaltung von Skype for Business Online verwendet werden, setzen voraus, dass Sie im genaue Details zu dem Element angeben, das Sie zu verwalten versuchen. Wenn Sie beispielsweise das Cmdlet [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp) ausführen, müssen Sie angeben, welchen Benutzer Sie verwalten möchten. Das ergibt Sinn. Erst wenn Sie im Cmdlet speziell angeben, welches Benutzerkonto Sie verwalten möchten, kann das Cmdlet **Set-CsUserAcp** wissen, für welchen Benutzer die Audiokonferenzinformationen geändert werden sollen. Aus diesem Grund müssen Sie jedes Mal, wenn Sie das Cmdlet **Set-CsUserAcp** ausführen, den Parameter **Identity** gefolgt von der Identität des zu ändernden Benutzerkontos angeben:
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
@@ -67,12 +67,12 @@ Nehmen wir weiterhin an, dass es zwei Benutzer gibt, Ken Myer und Pilar Ackerman
 
 Wie Sie sehen, ist es Ken Myer gestattet, mit öffentlichen Instant Messaging-Anbietern zu kommunizieren, da die Einstellungen in der ihm zugewiesenen benutzerbasierten Richtlinie die Einstellungen in der globalen Richtlinie außer Kraft setzen. Pilar Ackerman kann nicht mit öffentlichen Instant Messaging-Anbietern kommunizieren, da sie von der globalen Richtlinie verwaltet wird, die diese Kommunikation verbietet.
 
-Benutzerbasierte Richtlinien müssen vom Office 365-Support für Sie erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie mit dem geeigneten Cmdlet **Grant-Cs** (z. B. [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)) den jeweiligen Benutzern zuweisen. Benutzerbasierte Richtlinien sind leicht zu erkennen, da die Richtlinie **Identity** immer mit dem Tag-**Präfix** beginnt. Ein Beispiel:
+Benutzerbasierte Richtlinien müssen vom Office 365-Support für Sie erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie mit dem geeigneten Cmdlet **Grant-Cs** (z. B. [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)) den jeweiligen Benutzern zuweisen. Benutzerbasierte Richtlinien sind leicht zu erkennen, da die Richtlinie **Identity** immer mit dem Tag-**Präfix** beginnt. Ein Beispiel:
 
     Identity : tag:AllowPublicIMCommunication
 
 
-> [!TIP]
+> [!NOTE]
 > Das Tag-<STRONG>Präfix</STRONG> stammt aus der Frühzeit der Entwicklung von Lync Server 2010. In dieser Zeit wurden benutzerbasierte Richtlinien als <EM>Tagrichtlinien</EM> bezeichnet und anhand des Tag-<STRONG>Präfix</STRONG> identifiziert. Diese Richtlinien werden heute treffender als <EM>benutzerbasierte Richtlinien</EM> bezeichnet, und der Tagbereich wird – ebenfalls treffender – als <EM>benutzerbasierter Bereich</EM> bezeichnet. Aus technischen Gründen wurde das Tag-<STRONG>Präfix</STRONG> jedoch nie geändert.
 
 

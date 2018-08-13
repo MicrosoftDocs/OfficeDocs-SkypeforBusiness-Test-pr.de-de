@@ -20,7 +20,7 @@ Verwenden Sie die folgenden Problemumgehungen, um Konfigurationsprobleme auf Ser
   - Wenn die Fehlermeldung "principal not provisioned" (Prinzipal nicht bereitgestellt) angezeigt wird, ist der Prinzipal, den Sie versucht haben, hinzuzufügen, nicht verfügbar.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Problemumgehung - Keine Problemumgehung. Diese Fehlermeldung bedeutet, dass der Prinzipal nicht verfügbar ist.
 
 

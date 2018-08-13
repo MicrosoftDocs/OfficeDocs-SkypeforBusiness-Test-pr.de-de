@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2017-03-07_
 In einer VDI-Umgebung (virtuelle Desktopinfrastruktur) müssen virtuelle Maschinen und der lokale Computer des Benutzers die in diesem Abschnitt beschriebenen Anforderungen erfüllen.
 
 
-> [!TIP]
+> [!NOTE]
 > Informationen zum Installieren und Bereitstellen der virtualisierten Umgebung erhalten Sie von Ihrem Virtualisierungslösungsanbieter. Informationen zum Bereitstellen einer virtualisierten Umgebung basierend auf Hyper-V und Remotedesktopdiensten finden Sie in den folgenden Artikeln in der TechNet-Bibliothek von Microsoft: 
 > <UL>
 > <LI>

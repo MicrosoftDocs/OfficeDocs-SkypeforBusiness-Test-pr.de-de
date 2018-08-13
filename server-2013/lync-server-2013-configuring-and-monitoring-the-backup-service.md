@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Mit den folgenden Befehlen der Lync Server-Verwaltungsshell können Sie den Sicherungsdienst konfigurieren und überwachen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Gruppe RTCUniversalServerAdmins ist standardmäßig die einzige Gruppe mit der Berechtigung zum Ausführen von <STRONG>Get-CsBackupServiceStatus</STRONG>. Wenn Sie dieses Cmdlet verwenden möchten, melden Sie sich sich als Mitglied dieser Gruppe an. Sie können aber auch mit dem <STRONG>Set-CsBackupServiceConfiguration</STRONG>-Cmdlet anderen Benutzergruppen (z.&nbsp;B. CSAdministrator ) den Zugriff auf diesen Befehl gewähren.
 
 
@@ -54,7 +54,7 @@ Führen Sie das folgende Cmdlet aus:
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
 
-> [!TIP]
+> [!NOTE]
 > Der Synchronisierungsstatus des Sicherungsdiensts wird unidirektional zwischen einem Pool (P1) und dem zugehörigen Sicherungspool (P2) definiert. Der Synchronisierungsstatus zwischen P1 und P2 kann vom Synchronisierungsstatus zwischen P2 und P1 abweisen. Zwischen P1 und P2 weist der Sicherungsdienst den Status "Bereit" auf, wenn alle in P1 vorgenommenen Änderungen innerhalb des Synchronisierungsintervalls vollständig nach P2 repliziert werden. Er weist den Status "Endgültig" auf, wenn zwischen P1 und P2 keine zu synchronisierenden Änderungen mehr vorhanden sind. Beide Status stellen eine Momentaufnahme des Sicherungsdiensts zum Zeitpunkt der Ausführung des Cmdlets dar. Dies bedeutet nicht, dass der zurückgegebene Status so bleibt. Insbesondere der Status "Endgültig" bleibt nur erhalten, wenn P1 keine Änderungen generiert, nachdem das Cmdlet ausgeführt wurde. Dies gilt für das Failover von P1 zu P2, nachdem P1 im Rahmen der <STRONG>Invoke-CsPoolfailover</STRONG>-Ausführungslogik in den schreibgeschützten Modus versetzt wird.
 
 

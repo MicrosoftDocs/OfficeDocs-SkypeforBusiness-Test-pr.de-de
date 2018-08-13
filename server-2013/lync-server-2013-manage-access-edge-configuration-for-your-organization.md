@@ -34,7 +34,7 @@ Zu diesen Optionen gehören die folgenden Zugriffsarten, die auf der Seite **Zug
   - **Anonyme Benutzer dürfen auf Konferenzen zugreifen**    Aktivieren Sie diese Option, wenn Sie internen Benutzern das Einladen externer anonymer Benutzer zu selbst organisierten Konferenzen ermöglichen möchten. Wenn Sie diese Einstellung aktivieren, sind nur anonyme Benutzer für Konferenzen zugelassen. Ausführliche Informationen zur Konfiguration von Konferenzen, zu den Optionen, mit denen die Möglichkeiten für Benutzer von Konferenzen festgelegt werden, und zur Einbindung anonymer Benutzer finden Sie unter [Erstellen oder Ändern der Konferenzeinstellungen für einen Standort oder eine Benutzergruppe](https://technet.microsoft.com/de-de/library/gg429715\(v=ocs.15\)) und [Referenz zu den Konferenzrichtlinieneinstellungen](lync-server-2013-conferencing-policy-settings-reference.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Zusätzlich zur Unterstützung des Zugriffs externer Benutzer können Sie auch Richtlinien konfigurieren, mit denen die Verwendung des Remotebenutzerzugriffs in Ihrer Organisation gesteuert wird, bevor Benutzer den Zugriff für externe Benutzer verwenden können. Ausführliche Informationen zum Erstellen, Konfigurieren und Anwenden von Richtlinien für den externen Benutzerzugriff finden Sie unter <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation in Lync Server 2013</A>.
 
 

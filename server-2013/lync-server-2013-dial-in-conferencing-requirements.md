@@ -32,7 +32,7 @@ Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Z
 Sie können ein PSTN-Gateway an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem Zweigstellenstandort kann das PSTN-Gateway eigenständig oder als Komponente der Survivable Branch-Anwendung eingesetzt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Einwahlkonferenzen verwenden keine Medienumgehung, da A/V-Konferenzserver keine Medienumgehung unterstützen.
 
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-09-11_
 Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu erstellen oder zu ändern.
 
 
-> [!TIP]
+> [!NOTE]
 > Mit der Lync Server-Verwaltungsshell oder dem Konfigurationstool für Reaktionsgruppen können Sie interaktive Workflows erstellen und ändern. Auf das Konfigurationstool für Reaktionsgruppen können Sie über die Lync Server-Systemsteuerung zugreifen, oder indem Sie die Webseite direkt in einem Webbrowser durch Eingabe der folgenden URL öffnen: <STRONG>https://</STRONG> <EM>&lt;webPoolFqdn&gt;</EM> <STRONG>/RgsConfig</STRONG> .
 
 
@@ -36,7 +36,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 5.  Geben Sie im Suchfeld **Dienst auswählen** einen Teil oder den vollständigen Namen des **ApplicationServer** -Diensts ein, von dem der Workflow gehostet wird, den Sie erstellen oder ändern möchten. Klicken Sie dann in der Liste mit den Diensten auf den gewünschten Dienst, und klicken Sie auf **OK** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können das Konfigurationstool für Reaktionsgruppen auch direkt in einem Webbrowser öffnen, indem Sie die folgende URL eingeben: <STRONG>https://</STRONG> <EM>&lt;webPoolFqdn&gt;</EM> <STRONG>/RgsConfig</STRONG> .
 
 
@@ -50,7 +50,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 7.  Falls Benutzer den Workflow noch nicht aufrufen sollen, müssen Sie das Kontrollkästchen **Workflow aktivieren** deaktivieren.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie einen verwalteten Workflow erstellen, müssen Sie <STRONG>Workflow aktivieren</STRONG> auswählen. Nachdem Sie den aktiven, verwalteten Workflow gespeichert haben, können Sie ihn ändern und deaktivieren.
 
 
@@ -58,12 +58,12 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 8.  Aktivieren Sie das Kontrollkästchen **Für Partnerverbund aktivieren** , um Partnerbenutzern Anrufe bei der Gruppe zu ermöglichen. Sie müssen auch eine Richtlinie für den externen Zugriff konfiguriert haben, die der für den Verbund konfigurierten Reaktionsgruppenanwendung zugewiesen wurde.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe der Lync Server-Systemsteuerung oder mithilfe des <STRONG>Set-CsExternalAccessPolicy</STRONG> -Cmdlets konfigurieren, um den EnableOutsideAccess -Parameter auf True festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Partnerverbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Nähere Informationen dazu, wie sich Richtlinien auf Benutzer auswirken, finden Sie unter <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation in Lync Server 2013</A>. Nähere Informationen zur Partnerverbundeinstellung finden Sie unter <STRONG>Set-CsExternalAccessPolicy</STRONG> in der Dokumentation zur Lync Server-Verwaltungsshell.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Benutzer, die in Lync Online gehostet werden, können keine Anrufe mit Reaktionsgruppen führen, die in einer lokalen Bereitstellung gehostet werden. Dies gilt sowohl für Hybridbereitstellungen als auch für Fälle, in denen eine lokale Bereitstellung mit einer Lync Online-Bereitstellung verbunden ist.
 
 
@@ -71,7 +71,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 9.  Aktivieren Sie das Kontrollkästchen **Agentanonymität aktivieren** , um bei Anrufen die Identität der Agents zu verbergen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Anonyme Anrufe können nicht mit Chats oder Video gestartet werden. Agent oder Anrufer können jedoch im Verlauf des Anrufs Chats und Video aktivieren. Ein anonymer Agent kann Anrufe halten, weiterleiten (sowohl blind als auch nach Rücksprache) sowie Anrufe parken und fortsetzen. Anonyme Anrufe bieten keine Unterstützung für Konferenzen, Anwendungs- und Desktopfreigabe, Dateiübertragung, Whiteboardverwendung und Datenzusammenarbeit sowie Anrufaufzeichnung. Agents, die das Lync VDI-Plugin verwenden, können eingehende Anrufe anonym empfangen, jedoch keine ausgehenden anonymen Anrufe tätigen.
 
 
@@ -81,7 +81,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 11. Geben Sie im Feld **Anzeigename** den Namen ein, der für den Workflow angezeigt werden soll (z. B. "Vertrieb-IVR-Reaktionsgruppe").
     
 
-    > [!TIP]
+    > [!NOTE]
     > Verwenden Sie im Anzeigenamen nicht die Zeichen "&lt;" oder "&gt;". Die folgenden Anzeigenamen sind reserviert und dürfen nicht verwendet werden: "RGS-Anwesenheitsmonitor" oder "Ansagedienst".
 
 
@@ -111,14 +111,14 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
       - Um die Willkommensnachricht als Text einzugeben, die für Anrufer in Sprache umgewandelt wird, klicken Sie auf **Text-zu-Sprache verwenden** und geben die Willkommensnachricht in das Textfeld ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Verwenden Sie im eingegebenen Text keine HTML-Tags. Andernfalls wird eine Fehlermeldung angezeigt.
 
     
       - Um eine aufgezeichnete WAV- oder WMA-Datei für die Willkommensnachricht zu verwenden, klicken Sie auf **Auswählen einer Aufzeichnung** . Klicken Sie auf den Link **Aufzeichnung** , um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen** , markieren Sie die gewünschte Audiodatei, und klicken Sie dann auf **Öffnen** . Klicken Sie auf **Hochladen** , um die Datei zu laden.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter <A href="lync-server-2013-technical-requirements-for-response-group.md">Technische Anforderungen für Reaktionsgruppen in Lync Server 2013</A>.
 
 
@@ -126,7 +126,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 18. Klicken Sie unter **Schritt 4: Geschäftszeiten angeben** im Feld **Ihre Zeitzone** auf die Zeitzone des Workflows.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dies ist die Zeitzone, in der sich die Anrufer und Agents des Workflows befinden. Die Angabe wird verwendet, um die Öffnungszeiten zu berechnen. Wenn der Workflow z.&nbsp;B. für die mitteleuropäische Zeit konfiguriert wurde und der Workflow um 7:00&nbsp;Uhr öffnen und um 11:00:00&nbsp;Uhr schließen soll, werden die Zeiten 7:00&nbsp;Uhr MEZ und 23:00&nbsp;Uhr MEZ verwendet. (Die Zeiten müssen im 24-Stunden-Format eingegeben werden.)
 
 
@@ -136,7 +136,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
       - Wenn Sie einen vordefinierten Zeitplan für die Geschäftszeiten verwenden möchten, klicken Sie auf **Vordefinierten Zeitplan verwenden** , und wählen Sie den gewünschten Zeitplan in der Dropdownliste aus.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie erstellen vordefinierte Zeitpläne mit dem <STRONG>New-CSRgsHoursOfBusiness</STRONG> -Cmdlet. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Definieren von Geschäftszeiten für Reaktionsgruppen in Lync Server 2013</A>. Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für <STRONG>Tag</STRONG> , <STRONG>Öffnen</STRONG> und <STRONG>Schließen</STRONG> , an denen die Reaktionsgruppe verfügbar ist, automatisch eingetragen.
 
     
@@ -147,7 +147,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 21. Beim Erstellen eines benutzerdefinierten Zeitplans geben Sie über die Werte für **Öffnen** und **Schließen** den Zeitraum ein, in dem die Reaktionsgruppe verfügbar ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Werte für <STRONG>Öffnen</STRONG> und <STRONG>Schließen</STRONG> müssen im 24-Stunden-Format angegeben werden. Wenn Ihr Büro z.&nbsp;B. von 9 Uhr bis 17 Uhr geöffnet und mittags geschlossen ist, können Sie die Geschäftszeiten als <STRONG>Öffnen</STRONG> 9:00, <STRONG>Schließen</STRONG> 12:00, <STRONG>Öffnen</STRONG> 13:00 und <STRONG>Schließen</STRONG> 17:00 angeben.
 
 
@@ -157,14 +157,14 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
       - Um die Nachricht als Text einzugeben, die für Anrufer in Sprache umgewandelt wird, klicken Sie auf **Text-zu-Sprache verwenden** und geben die Nachricht in das Textfeld ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Verwenden Sie im eingegebenen Text keine HTML-Tags. Andernfalls wird eine Fehlermeldung angezeigt.
 
     
       - Um eine aufgezeichnete Audiodatei als Nachricht zu verwenden, klicken Sie auf **Auswählen einer Aufzeichnung** . Klicken Sie auf den Link **Aufzeichnung** , um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen** , markieren Sie die gewünschte Datei, und klicken Sie auf **Öffnen** . Klicken Sie auf **Hochladen** , um die Datei zu laden.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter <A href="lync-server-2013-technical-requirements-for-response-group.md">Technische Anforderungen für Reaktionsgruppen in Lync Server 2013</A>.
 
 
@@ -182,7 +182,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 24. Aktivieren Sie unter **Schritt 5: Feiertage angeben** die Kontrollkästchen für einen oder mehrere Feiertagssätze, mit denen die Tage definiert werden, an denen die Reaktionsgruppe aufgrund eines Feiertags nicht verfügbar ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie müssen Feiertage und Feiertagssätze definieren, bevor Sie den Workflow konfigurieren. Verwenden Sie zum Definieren von Feiertagen und Feiertagssätzen die Cmdlets <STRONG>New-CsRgsHoliday</STRONG> und <STRONG>New-CsRgsHolidaySet</STRONG> . Ausführliche Informationen finden Sie unter <A href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Definieren von Feiertagsschemas für Reaktionsgruppen in Lync Server 2013</A>.
 
 
@@ -192,14 +192,14 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
       - Um die Nachricht als Text einzugeben, die für Anrufer in Sprache umgewandelt wird, klicken Sie auf **Text-zu-Sprache verwenden** und geben die Nachricht in das Textfeld ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Verwenden Sie im eingegebenen Text keine HTML-Tags. Andernfalls wird eine Fehlermeldung angezeigt.
 
     
       - Um eine aufgezeichnete Audiodatei als Nachricht zu verwenden, klicken Sie auf **Auswählen einer Aufzeichnung** . Klicken Sie auf den Link **Aufzeichnung** , um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen** , markieren Sie die gewünschte Datei, und klicken Sie auf **Öffnen** . Klicken Sie auf **Hochladen** , um die Datei zu laden.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Audiodateiformaten finden Sie unter <A href="lync-server-2013-technical-requirements-for-response-group.md">Technische Anforderungen für Reaktionsgruppen in Lync Server 2013</A>.
 
 
@@ -221,7 +221,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
       - Klicken Sie auf **Auswählen einer Musikdatei** , um eine aufgezeichnete Audiodatei als Wartemusik zu verwenden. Klicken Sie auf den Link **Musikdatei** , um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen** , markieren Sie die gewünschte Datei, und klicken Sie auf **Öffnen** . Klicken Sie auf **Hochladen** , um die Datei zu laden.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter <A href="lync-server-2013-technical-requirements-for-response-group.md">Technische Anforderungen für Reaktionsgruppen in Lync Server 2013</A>.
 
 
@@ -231,19 +231,19 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
       - Um die Frage im Textformat einzugeben, klicken Sie auf **Text-zu-Sprache verwenden** und geben die Frage in das Textfeld ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Verwenden Sie im eingegebenen Text keine HTML-Tags. Andernfalls wird eine Fehlermeldung angezeigt.
 
         
 
-        > [!TIP]
+        > [!NOTE]
         > Das Symbol "#" wird vom Text-zu-Sprache-Modul als das Wort "Nummer" übersetzt. Wenn Sie auf die Taste # verweisen möchten, sollten Sie bei der Eingabe anstelle des Symbols den Tastennamen verwenden. Beispiel: "Wenn Sie mit unserem Vertrieb verbunden werden möchten, drücken Sie die Rautetaste."
 
     
       - Um eine aufgezeichnete Audiodatei mit der Frage zu verwenden, klicken Sie auf **Auswählen einer Aufzeichnung** und dann auf den Link **Aufzeichnung** , um die Datei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen** , markieren Sie die gewünschte Audiodatei, und klicken Sie auf **Öffnen** . Klicken Sie auf **Hochladen** , um die Datei zu laden, und geben Sie dann optional die Frage in das Textfeld ein (auf diese Weise kann die Frage und die Antwort des Anrufers an den zuständigen Agent weitergeleitet werden).
         
 
-        > [!TIP]
+        > [!NOTE]
         > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter <A href="lync-server-2013-technical-requirements-for-response-group.md">Technische Anforderungen für Reaktionsgruppen in Lync Server 2013</A>.
 
 
@@ -256,7 +256,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können auswählen, ob Anrufer per Sprache, Tasteneingabe oder beidem antworten können.
 
     
@@ -332,7 +332,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen interaktiven Workflow zu e
         $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     
 
-    > [!TIP]
+    > [!NOTE]
     > Allen Benutzern, die als Manager einer Reaktionsgruppe bestimmt wurden, muss die Rolle CsResponseGroupManager zugewiesen sein. Falls Benutzern diese Rolle nicht zugewiesen ist, können sie keine Reaktionsgruppen verwalten.
 
 

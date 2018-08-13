@@ -28,7 +28,7 @@ Eine Lync Server 2013-VoIP-Route ordnet Zieltelefonnummern einem oder mehreren P
 4.  Doppelklicken Sie auf eine VoIP-Route, um zusätzliche Eigenschaften aus der Liste der VoIP-Routen anzuzeigen, oder wählen Sie die Route aus, und klicken Sie auf **Bearbeiten** . Klicken Sie dann auf **Details anzeigen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können nur jeweils für eine einzelne Route Detailinformationen anzeigen.
 
 
@@ -54,7 +54,7 @@ Eine Lync Server 2013-VoIP-Route ordnet Zieltelefonnummern einem oder mehreren P
         AlternateCallerId :
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen finden Sie unter <A href="lync-server-2013-voice-routes.md">VoIP-Routen in Lync Server 2013</A> in der Planungsdokumentation.
 
 

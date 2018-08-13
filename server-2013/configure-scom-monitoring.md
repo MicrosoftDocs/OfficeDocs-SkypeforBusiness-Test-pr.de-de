@@ -38,11 +38,13 @@ Anweisungen für diese Aufgaben finden Sie unten.
 2.  Geben Sie an der Befehlszeile Folgendes ein:
     
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+
+       &nbsp;
     
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei jeder Bearbeitung der Registrierung kann eine Fehlermeldung angezeigt werden, dass der Befehl nicht ausgeführt wurde, wenn der Registrierungsschlüssel bereits vorhanden ist. Falls dies der Fall ist, können Sie die Fehlermeldung getrost ignorieren.
 
 

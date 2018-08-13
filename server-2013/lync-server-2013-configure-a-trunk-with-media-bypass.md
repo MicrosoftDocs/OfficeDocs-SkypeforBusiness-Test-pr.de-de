@@ -20,7 +20,7 @@ Gehen Sie wie folgt vor, um einen Trunk mit aktivierter Medienumgehung zu konfig
 Es wird dringend empfohlen, die Medienumgehung zu aktivieren. Bevor Sie die Medienumgehung jedoch für einen SIP-Trunk aktivieren, müssen Sie sicherstellen, dass Ihr qualifizierter SIP-Trunkanbieter die Medienumgehung unterstützt und die Anforderungen für eine erfolgreiche Aktivierung erfüllt. Insbesondere muss der Anbieter über die IP-Adressen der Server im internen Netzwerk Ihrer Organisation verfügen. Wenn der Anbieter dieses Szenario nicht unterstützen kann, ist die Medienumgehung nicht erfolgreich. Ausführliche Informationen finden Sie unter [Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in der Planungsdokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs (Session Border Controller). Microsoft hat eine Reihe von PSTN-Gateways mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die Zertifizierung für die SBCs ist im Gange. Die Medienumgehung wird nur für die Produkte und Versionen unterstützt, die auf der Webseite für das Unified Communications Open Interoperability Program \endash Lync Server unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x407</A> aufgelistet werden.
 
 
@@ -46,7 +46,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
           - **Pooltrunk :** Wählen Sie den Namen des Trunks aus, für den diese Trunkkonfiguration gilt. Bei diesem Trunk kann es sich um den Stammtrunk oder jeden anderen im Topologie-Generator definierten zusätzlichen Trunk handeln. Klicken Sie im Dialogfeld **Dienst auswählen** auf **OK** . Wenn bereits eine Trunkkonfiguration für einen bestimmten Trunk erstellt wurde, wird der Trunk nicht im Dialogfeld **Dienst auswählen** angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Nachdem Sie den Bereich für die Trunkkonfiguration ausgewählt haben, kann dieser nicht mehr geändert werden.<BR>Das Feld <STRONG>Name</STRONG> wird mit dem Namen des der Trunkkonfiguration zugeordneten Standorts oder Diensts vorausgefüllt und kann nicht geändert werden.
 
 
@@ -54,7 +54,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
 5.  Geben Sie in **Maximal unterstützte frühe Dialoge** einen Wert ein. Dies ist die maximale Anzahl von gegabelten Antworten auf an den Vermittlungsserver gesendete INVITE-Anforderungen, die ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SBC (Session Border Controller) beim Dienstanbieter empfangen kann. Der Standardwert lautet 20.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bevor Sie diesen Wert ändern, setzen Sie sich mit Ihrem Dienstanbieter oder Gerätehersteller in Verbindung, um genaue Informationen zu den Funktionen Ihres Systems zu erhalten.
 
 
@@ -80,7 +80,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
 9.  Wenn der Trunkpeer den Empfang von SIP REFER-Anforderungen vom Vermittlungsserver unterstützt, aktivieren Sie das Kontrollkästchen **Senden von REFER an das Gateway aktivieren** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie diese Option deaktivieren, während die Option <STRONG>Medienumgehung aktivieren</STRONG> ausgewählt ist, sind zusätzliche Einstellungen erforderlich. Wenn der Trunkpeer den Empfang von SIP REFER-Anforderungen vom Vermittlungsserver nicht unterstützt und die Medienumgehung aktiviert ist, müssen Sie außerdem das Cmdlet <STRONG>Set-CsTrunkConfiguration</STRONG> ausführen, um RTCP für aktive und gehaltene Anrufe zu deaktivieren, um geeignete Bedingungen für die Medienumgehung zu schaffen. Ausführliche Informationen finden Sie in der Dokumentation zur <A href="lync-server-2013-lync-server-management-shell.md">Lync Server-Verwaltungsshell</A>.<BR>Alternativ können Sie <STRONG>Verweise mit Drittanbieteranrufsteuerung aktivieren</STRONG> , wenn Sie möchten, dass für übertragene Anrufe eine Medienumgehung stattfinden soll, und das Gateway keine SIP REFER-Anforderungen unterstützt.
 
 
@@ -98,7 +98,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
         2.  Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Datensatz an.
             
 
-            > [!TIP]
+            > [!NOTE]
             > Der Name des PSTN-Verwendungsdatensatzes muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Datensatzes kann das Feld <STRONG>Name</STRONG> nicht mehr bearbeitet werden.
 
         
@@ -201,7 +201,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
 20. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit** , und klicken Sie anschließend auf **Commit für alle** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

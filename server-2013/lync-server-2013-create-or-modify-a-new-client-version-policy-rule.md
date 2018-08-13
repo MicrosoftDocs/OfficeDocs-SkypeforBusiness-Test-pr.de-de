@@ -34,7 +34,7 @@ Mit Regeln für Clientversionsrichtlinien werden die Aktionen definiert, die aus
       - Klicken Sie auf einen der definierten Clienttypen in der Liste, und klicken Sie dann auf **Details einblenden**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können den Clienttyp mithilfe von Platzhalterzeichen angeben.
 
 
@@ -52,7 +52,7 @@ Mit Regeln für Clientversionsrichtlinien werden die Aktionen definiert, die aus
       - Geben Sie in **Update** die Nummer ein, die der aktualisierten Version des Clients entspricht.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können die Clientversionsnummer mithilfe von Platzhalterzeichen angeben.
 
 
@@ -78,7 +78,7 @@ Mit Regeln für Clientversionsrichtlinien werden die Aktionen definiert, die aus
       - Klicken Sie auf **Zulassen und aktualisieren**, um dem Client die Anmeldung zu erlauben und Updates über Windows Server Update Service oder Microsoft Update abzurufen. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt wurde.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie diese Aktion auswählen, wird eine Benachrichtigung angezeigt, sobald sich Benutzer das nächste Mal bei Lync 2013 anmelden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft&nbsp;Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
 
     

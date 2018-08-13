@@ -21,9 +21,9 @@ Ausführliche Informationen finden Sie unter [Kontaktobjektverwaltung für gehos
 
 Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zu den folgenden Cmdlets:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 
 > [!IMPORTANT]
@@ -38,6 +38,8 @@ Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in 
 2.  Führen Sie das Cmdlet "New-CsExUmContact" zum Erstellen von Kontaktobjekten aus, die für Ihre Bereitstellung erforderlich sind. Führen Sie beispielsweise folgenden Befehl aus, um ein Kontaktobjekt für die automatische Telefonzentrale und den Teilnehmerzugriff zu erstellen:
     
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
+
+       &nbsp;
     
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
     
@@ -48,7 +50,7 @@ Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in 
       - **RegistrarPool** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools, in dem der Registrierungsdienst ausgeführt wird.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Exchange UM-Kontaktobjekte können nicht in Pools verschoben werden, die Bestandteile von Lync Server 2013-Bereitstellungen vor Lync Server 2013 sind.
 
     

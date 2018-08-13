@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Mithilfe der Registrierung können Sie Proxyserver-Authentifizierungsprotokolle konfigurieren. Informationen zu den verfügbaren Protokollen finden Sie unter [Erstellen von Registrierungskonfigurationseinstellungen](lync-server-2013-create-registrar-configuration-settings.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet.
 
 

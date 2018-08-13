@@ -34,7 +34,7 @@ Lync Server 2013 unterstützt die folgenden Datenbankverwaltungssysteme:
         Wir unterstützen Patches und Upgrades von Microsoft SQL Server auf Front-End-Server und Standard Edition-Server. Wenn Sie jedoch ein Upgrade oder einen Patch auf Front-End-Server anwenden, müssen Sie Quorumanforderungen berücksichtigen. Weitere Informationen finden Sie unter [Upgraden oder Updaten von Front-End-Servern in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) und [Topologien und Komponenten für Front-End-Server, Chat und Anwesenheit in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Microsoft SQL Server 2012 Express (64-Bit-Edition) wird von Lync Server 2013 automatisch auf jedem Standard Edition-Server und jedem Front-End-Server-Server installiert.
 
 

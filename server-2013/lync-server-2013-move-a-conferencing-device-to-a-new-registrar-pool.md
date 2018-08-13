@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-20_
 Verschieben eines Konferenzgeräts in einen neuen Registrierungsstellenpool mithilfe des Cmdlets **Move-CsMeetingRoom**. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -30,5 +30,5 @@ Verschieben eines Konferenzgeräts in einen neuen Registrierungsstellenpool mith
     
         Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Move-CsMeetingRoom](move-csmeetingroom.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Move-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom).
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Im Rahmen der Bereitstellung von Lync Server, Enterprise Edition oder des Standard Edition-Servers wird der Adressbuchdienst standardmäßig installiert. Die vom Adressbuchdienst genutzte Datenbank "RTCab" wird auf dem SQL Server erstellt. (Für die Enterprise Edition ist dies der Back-End-SQL Server, für den Standard Edition-Server der verbundene SQL Server.)
 
 
-> [!TIP]
+> [!NOTE]
 > Informationen zur Verwendung von <STRONG>ADSI-Editor</STRONG> zum Bearbeiten von Active Directory-Domänendienste-Objektattributen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI-Editor</A>. Informationen zu einem Tool für den Adressbuchdienst im Resource Kit finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=330429">Resource-Kit-Tools in Microsoft Lync Server&nbsp;2013</A>.
 
 
@@ -243,7 +243,7 @@ Die Zahlen in der Spalte **ID** müssen eindeutig sein und sollten auf keinen Fa
 Wenn in früheren Versionen von Lync Server eine Änderung an Active Directory vorgenommen wurde, musste der Adminstrator umgehend die Windows PowerShell-Cmdlets **Update -CSUserDatabase** und **Update –CSAddressBook** ausführen, um die Änderungen dauerhaft in der Lync Server-Benutzerdatenbank und RTCab-Datenbank zu speichern. In Lync Server 2013 erkennt der Lync Server-Benutzerreplikationsdienst die Änderungen in Active Directory und aktualisiert die Lync Server-Benutzerdatenbank basierend auf einem konfiguriertem Intervall. Außerdem übernimmt der Lync Server-Benutzerreplikationsdienst die Änderungen rasch in die RTC-Datenbank, ohne dass der Administrator "Update-CSAddressBook" ausführen muss. Wenn der Adressbuch-Webabfragedienst aktiviert ist, werden die Änderungen in den Suchergebnissen der Lync-Clients reflektiert. Administratoren müssen "Update-CSAddressBook" nur dann ausführen, wenn das Herunterladen von Adressbuchdateien aktiviert ist.
 
 
-> [!TIP]
+> [!NOTE]
 > Standardmäßig wird der Lync Server-Benutzerreplikationsdienst automatisch alle 5 Minuten ausgeführt. Sie können dieses Intervall mit "Set -CSUserReplicatorConfiguration -ReplicationCycleInterval &lt;&gt;" konfigurieren.
 
 
@@ -256,7 +256,7 @@ Mithilfe einiger Kennzeichenbits können Sie einen Filter definieren, der für A
 
 
 > [!WARNING]
-> Weitere Informationen zum Filtern des Adressbuchs finden Sie unter <A href="lync-server-2013-address-book-server-cmdlets.md">Cmdlets für Adressbuchserver</A> und <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtern des Lync&nbsp;2013.-Adressbuchs</A>
+> Weitere Informationen zum Filtern des Adressbuchs finden Sie unter <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets für Adressbuchserver</A> und <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtern des Lync&nbsp;2013.-Adressbuchs</A>
 
 
 
@@ -292,7 +292,7 @@ Zurzeit gibt es drei verschiedene Filter. Diese Filter werden in der folgenden T
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wurden sowohl das Kennzeichenbit "0x4000" (Exclude-Attribut) als auch das Kennzeichenbit "0x8000" (Include-Attribut) festgelegt, setzt das Bit "0x4000" das Bit "0x8000" außer Kraft, und der Kontakt wird ausgeschlossen.
 
 
@@ -304,7 +304,7 @@ Auch wenn Sie bei vollständigen Kontaktdatensätzen in den Adressbuchdateien Ly
 Nachdem Sie die Tabelle "AbAttribute" geändert haben, können Sie die Daten in der Tabelle "AbUserEntry" aktualisieren, indem Sie das Cmdlet**Update-CsUserDatabase** ausführen. Nach Abschluss der Benutzerreplikation können Sie die Datei im Adressbuchserver-Dateispeicher aktualisieren, indem Sie manuell das Cmdlet **UpdateCsAddressBook** ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Der Front-End-Server, auf dem sich der Adressbuchserver befindet, kann vom Administrator nicht konfiguriert werden. Er wird während der Bereitstellung ausgewählt – in der Regel handelt es sich um den ersten bereitgestellten Front-End-Server. Falls er ausfällt, wird der Adressbuchdienst ohne Administratoreingriff auf einen anderen Front-End-Server verschoben.
 
 

@@ -42,7 +42,7 @@ Die Ansageanwendung verwendet den folgenden Port:
   - **Port 5071**   Wird für SIP-Überwachungsanforderungen verwendet
 
 
-> [!TIP]
+> [!NOTE]
 > Dieser Port ist die Standardeinstellung, kann aber mit dem <STRONG>Set-CsApplicationServer</STRONG>-Cmdlet geändert werden. Ausführliche Informationen zu diesem Cmdlet finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

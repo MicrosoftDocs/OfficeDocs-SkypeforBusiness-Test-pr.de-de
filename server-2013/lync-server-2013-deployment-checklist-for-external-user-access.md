@@ -69,9 +69,9 @@ Halten Sie sich bei der Bereitstellung des Umkreisnetzwerks und der Edgeserver a
 </ul>
 <p></p></td>
 <td><p>Gruppe <strong>Domänen-Admins</strong> und Gruppe <strong>RTCUniversalServerAdmins</strong> oder <strong>CsAdmins</strong></p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Sie können eine Topologie unter Verwendung eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, für die Veröffentlichung einer Topologie ist jedoch ein Konto erforderlich, das Mitglied der Gruppe <STRONG>Domänen-Admins</STRONG> und der Gruppe <STRONG>RTCUniversalServerAdmins</STRONG> ist.
 
 
@@ -86,7 +86,7 @@ Halten Sie sich bei der Bereitstellung des Umkreisnetzwerks und der Edgeserver a
 <li><p>Konfigurieren Sie interne und externe DNS-Einträge (Host A und AAAA für IPv4 und IPv6), einschließlich Konfiguration des DNS-Suffixes auf dem Computer, der als Edgeserver bereitgestellt werden soll.</p></li>
 <li><p>(Optional) Erstellen und installieren Sie öffentliche Zertifikate. Die zum Anfordern von Zertifikaten erforderliche Zeit richtet sich nach der Zertifizierungsstelle, die das Zertifikat ausgibt. Wenn Sie diesen Schritt jetzt überspringen, müssen Sie ihn während der Installation der Edgeserver ausführen. Die Edgeserverdienste können erst gestartet werden, wenn Zertifikate angefordert und installiert wurden.</p></li>
 <li><p>Konfigurieren Sie die Unterstützung zur Verbindung mit öffentlichen Instant Messaging-Diensten, wenn Ihre Bereitstellung eine Kommunikation mit Benutzern von Windows Live, AOL oder Yahoo! unterstützen soll.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > <UL>

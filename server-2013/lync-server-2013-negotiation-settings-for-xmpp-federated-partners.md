@@ -94,7 +94,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Erforderlich</p></td>
 <td><p>True</p></td>
 <td><p>SASL über TLS</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > Rückruf funktioniert nicht, wenn sowohl SASL als auch TLS erforderlich ist.
@@ -114,7 +114,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Erforderlich</p></td>
 <td><p>True</p></td>
 <td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
@@ -127,7 +127,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Erforderlich</p></td>
 <td><p>False</p></td>
 <td><p>SASL über TLS</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
@@ -140,7 +140,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Erforderlich</p></td>
 <td><p>True</p></td>
 <td><p>TCP-Rückruf</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
@@ -152,14 +152,14 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>Erforderlich</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > Ungültige Konfiguration
 
 
 </div></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > Da SASL TLS erfordert und TLS nicht verfügbar ist, SASL/TLS kann nicht erfolgreich sein. TCP-Rückruf ist auf <STRONG>False</STRONG> festgelegt und kann nicht verwendet werden.
@@ -186,7 +186,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Optional</p></td>
 <td><p>True</p></td>
 <td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
@@ -199,7 +199,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Optional</p></td>
 <td><p>False</p></td>
 <td><p>SASL über TLS</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
@@ -212,7 +212,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Optional</p></td>
 <td><p>True</p></td>
 <td><p>TCP-Rückruf</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
@@ -224,14 +224,14 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>Optional</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > Ungültige Konfiguration
 
 
 </div></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL erfordert TLS. Wenn TLS optional sein darf, kann dies zu Fehlern bei Sitzungsaushandlungen führen.
@@ -251,7 +251,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>False</p></td>
 <td><p>Ungültige Konfiguration</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL oder Rückruf muss aktiviert sein.
@@ -271,7 +271,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>False</p></td>
 <td><p>Ungültige Konfiguration</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL oder Rückruf muss aktiviert sein.
@@ -291,7 +291,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <td><p>Nicht unterstützt</p></td>
 <td><p>False</p></td>
 <td><p>Ungültige Konfiguration</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL oder Rückruf muss aktiviert sein.

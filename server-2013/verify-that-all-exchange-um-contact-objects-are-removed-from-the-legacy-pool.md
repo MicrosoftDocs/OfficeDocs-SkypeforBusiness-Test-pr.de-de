@@ -25,5 +25,5 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-26_
 
   - Domänenrechte zum Erstellen von Kontaktobjekten im angegebenen Container für die Organisationseinheit
 
-Nähere Informationen zur Verwendung des **Get-CsExumContact**-Cmdlets finden Sie in der Lync Server-Verwaltungsshell-Dokumentation unter [Get-CsExUmContact](get-csexumcontact.md).
+Nähere Informationen zur Verwendung des **Get-CsExumContact**-Cmdlets finden Sie in der Lync Server-Verwaltungsshell-Dokumentation unter [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact).
 

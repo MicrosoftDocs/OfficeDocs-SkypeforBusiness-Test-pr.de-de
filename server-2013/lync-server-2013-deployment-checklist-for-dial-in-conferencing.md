@@ -20,7 +20,7 @@ Die für Einwahlkonferenzen erforderlichen Komponenten werden bei der Bereitstel
 Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benutzer sich über ein Telefonfestnetz einwählen und an einer Audio/Video-Konferenz teilnehmen können.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie eine Migration von Office Communications Server 2007 R2 durchführen, müssen Sie vor der Bereitstellung von Einwahlkonferenzen die neusten Updates auf Ihre Office Communications Server 2007 R2-Umgebung anwenden.
 
 
@@ -49,9 +49,9 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 <li><p>Führen Sie das Topologie-Generator zum Konfigurieren Ihrer Topologie aus. Wählen Sie beim Konfigurieren der Topologie die Einwahlkonferenzoption aus.</p></li>
 <li><p>Veröffentlichen Sie die Topologie und stellen Sie den Front-End-Pool oder den Standard Edition-Server bereit.</p></li>
 <li><p>Erstellen Sie bei Bedarf einen eigenständigen Vermittlungsserver und ordnen Sie ihm ein PSTN-Gateway zu.</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Dieser Schritt ist nur dann erforderlich, wenn Sie Enterprise-VoIP nicht bereitstellen und den Vermittlungsserver nicht mit dem Enterprise Edition- Front-End-Server oder - Standard Edition-Server gemeinsam ausführen. Wenn Sie Enterprise-VoIP bereitstellen, installieren und konfigurieren Sie Vermittlungsserver und PSTN-Gateways im Rahmen der Enterprise-VoIP-Bereitstellung. Wenn Sie den Vermittlungsserver gemeinsam mit einer anderen Rolle ausführen, installieren und konfigurieren Sie den Vermittlungsserver als Teil der Bereitstellung des Front-End-Pools oder des Standard Edition-Servers.
 
 
@@ -112,9 +112,9 @@ Alle Schritte in der folgenden Tabelle müssen durchgeführt werden, damit Benut
 <tr class="even">
 <td><p><strong>Konfigurieren von Zugriffsnummern für die Einwahl</strong></p></td>
 <td><p>Verwenden Sie die Systemsteuerung für Lync Server 2013 oder die Lync Server-Verwaltungsshell zum Einrichten von Zugriffsnummern, mit denen Benutzer sich in einer Konferenz einwählen können, und geben Sie die Regionen an, welche die Zugriffsnummer den entsprechenden Wähleinstellungen zuordnen. Die ersten drei Zugriffsnummern für die Region, die durch die Wähleinstellungen des Organisators festgelegt wird, sind in der Konferenzeinladung enthalten. Alle Zugriffsnummern stehen auf der Seite &quot;Einstellungen für Einwahlkonferenz&quot; zur Verfügung.</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Nach dem Erstellen von Zugriffsnummern für die Einwahl können Sie den Anzeigenamen für die Active Directory-Kontaktobjekte mithilfe des Cmdlets <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> modifizieren, sodass Benutzer die richtige Zugriffsnummer einfacher identifizieren können.
 
 

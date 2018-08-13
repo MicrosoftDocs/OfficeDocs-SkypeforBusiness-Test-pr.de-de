@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-06-14_
 Wenn Sie den Best Practices Analyzer von Lync Server 2013 in Ihrer Lync Server 2013-Umgebung ausführen, generiert das Tool mithilfe der Überprüfungsergebnisse Berichte zu Problemen im Zusammenhang mit Ihrer Bereitstellung. Mit den vom Best Practices Analyzer generierten Berichten können Sie bestimmte Probleme erkennen und beheben.
 
 
-> [!TIP]
+> [!NOTE]
 > Der Best Practices Analyzer von Lync Server 2013 sucht und meldet Probleme nur für Komponenten von Lync Server 2013. Falls Ihre Bereitstellung Komponenten von Microsoft Lync Server 2010 oder Office Communications Server 2007 R2 enthält, verwenden Sie die vorherige Version von Best Practices Analyzer zum Analysieren dieser Komponenten. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Anforderungen für das Ausführen von Best Practices Analyzer</A>.
 
 

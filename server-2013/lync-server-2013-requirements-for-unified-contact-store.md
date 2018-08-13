@@ -26,7 +26,7 @@ Im Folgenden sind die Anforderungen zum Implementieren des einheitlichen Kontakt
   - Die Server-zu-Server-Authentifizierung muss zwischen Lync Server 2013 und Exchange 2013 konfiguriert sein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Anforderungen zum Einrichten der Authentifizierung zwischen Lync Server 2013 und Exchange 2013 finden Sie unter <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen</A> in der Betriebsdokumentation.
 
 

@@ -49,7 +49,7 @@ Zum Zuweisen einer RBAC-Rolle zu einem Benutzer müssen Sie den Benutzer zur ent
 
 7.  Klicken Sie im Dialogfeld **Eigenschaften** auf **OK**.
 
-Verwenden Sie das Cmdlet [Get-CsAdminRoleAssignment](get-csadminroleassignment.md), um zu überprüfen, ob die RBAC-Rolle zugewiesen wurde. Übergeben Sie dem Cmdlet dabei die Eigenschaft "SamAccountName" (Active Directory-Anmeldename) des Benutzers. Führen Sie in der Lync Server-Verwaltungsshell beispielsweise den folgenden Befehl aus:
+Verwenden Sie das Cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment), um zu überprüfen, ob die RBAC-Rolle zugewiesen wurde. Übergeben Sie dem Cmdlet dabei die Eigenschaft "SamAccountName" (Active Directory-Anmeldename) des Benutzers. Führen Sie in der Lync Server-Verwaltungsshell beispielsweise den folgenden Befehl aus:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

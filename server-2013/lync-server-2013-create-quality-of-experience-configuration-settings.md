@@ -19,7 +19,7 @@ QoE-Metriken (Quality of Experience) verfolgen die Qualität von in Ihrer Organi
 
 Bei der Installation von Microsoft Lync Server 2013 wird eine einzelne, globale Auflistung von QoE-Konfigurationseinstellungen erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen auf Standortebene zu erstellen. Wenn diese standortspezifischen Einstellungen verwendet werden, haben Sie Vorrang vor den globalen Einstellungen. Beispiel: Wenn Sie für den Standort "Redmond" standortspezifische Einstellungen erstellen, wird QoE in Redmond gemäß diesen Einstellungen (anstelle der globalen) verwaltet.
 
-QoE-Konfigurationseinstellungen können entweder mithilfe der Lync Server-Systemsteuerung oder mit dem [New-CsQoEConfiguration](new-csqoeconfiguration.md)-Cmdlet erstellt werden. Bei Verwendung der Lync Server-Systemsteuerung stehen Ihnen die folgenden Optionen zur Verfügung:
+QoE-Konfigurationseinstellungen können entweder mithilfe der Lync Server-Systemsteuerung oder mit dem [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration)-Cmdlet erstellt werden. Bei Verwendung der Lync Server-Systemsteuerung stehen Ihnen die folgenden Optionen zur Verfügung:
 
 
 <table>
@@ -61,8 +61,8 @@ QoE-Konfigurationseinstellungen können entweder mithilfe der Lync Server-System
 
 
 
-> [!TIP]
-> Das New-CsQoEConfiguration-Cmdlet verfügt über weitere Optionen, die in der Lync Server-Systemsteuerung nicht zur Verfügung stehen. Weitere Informationen dazu finden Sie im Hilfethema <A href="new-csqoeconfiguration.md">New-CsQoEConfiguration</A>.
+> [!NOTE]
+> Das New-CsQoEConfiguration-Cmdlet verfügt über weitere Optionen, die in der Lync Server-Systemsteuerung nicht zur Verfügung stehen. Weitere Informationen dazu finden Sie im Hilfethema <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</A>.
 
 
 
@@ -110,5 +110,5 @@ Sie können QoE-Konfigurationseinstellungen auch in der Windows PowerShell mit d
     
         New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
 
-Weitere Informationen finden Sie in dem Hilfethema zum [New-CsQoEConfiguration](new-csqoeconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration)-Cmdlet.
 

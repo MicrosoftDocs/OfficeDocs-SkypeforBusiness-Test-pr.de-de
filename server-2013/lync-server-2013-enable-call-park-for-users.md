@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-11_
 Benutzer können Anrufe erst parken oder geparkte Anrufe wiederaufnehmen, wenn sie in einer VoIP-Richtlinie für die Parken von Anrufen aktiviert wurden.
 
 
-> [!TIP]
+> [!NOTE]
 > In der Standardeinstellung ist die Parken von Anrufen für alle Benutzer deaktiviert.
 
 

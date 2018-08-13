@@ -30,7 +30,7 @@ Jede Region mit konfigurierter Anrufsteuerung muss über eine Möglichkeit verf�
 5.  Geben Sie im Abschnitt **Neue Regionenroute** im Feld **Name** einen Wert ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Wert muss innerhalb der Microsoft Lync Server 2013-Bereitstellung eindeutig sein.
 
 
@@ -42,7 +42,7 @@ Jede Region mit konfigurierter Anrufsteuerung muss über eine Möglichkeit verf�
 8.  Fügen Sie der Route über das Listenfeld **Netzwerkregionenverbindungen** Regionenverbindungen hinzu. Klicken Sie auf die Schaltfläche **Hinzufügen**, um die Seite **Regionenverbindung** anzuzeigen. Klicken Sie auf eine Regionenverbindung, die Sie dieser Route hinzufügen möchten, und klicken Sie anschließend auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Klicken Sie erneut auf die Schaltfläche <STRONG>Hinzufügen</STRONG>, um weitere Verbindungen hinzuzufügen, oder wählen Sie eine Verbindung aus, und klicken Sie auf <STRONG>Entfernen</STRONG>, um eine Verbindung zu entfernen.
 
 

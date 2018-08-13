@@ -17,14 +17,11 @@ _**Letztes Änderungsdatum des Themas:** 2012-08-07_
 
 Das Microsoft Lync Server 2013, Planungstool verwendet die folgenden Metriken zur Schätzung des Benutzerdatenverkehrs an den einzelnen Standorten und der Anzahl von Ports, die zur Verarbeitung dieses Datenverkehr erforderlich sind.
 
-  -   
-    Für **geringes Datenaufkommen** (ein Festnetzanruf pro Benutzer und Stunde) gehen Sie von 15 Benutzern pro Anschluss aus.
+  - Für **geringes Datenaufkommen** (ein Festnetzanruf pro Benutzer und Stunde) gehen Sie von 15 Benutzern pro Anschluss aus.
 
-  -   
-    Für **mittleres Datenverkehrsaufkommen** (zwei Festnetzanrufe pro Benutzer und Stunde) gehen Sie von 10 Benutzern pro Anschluss aus.
+  - Für **mittleres Datenverkehrsaufkommen** (zwei Festnetzanrufe pro Benutzer und Stunde) gehen Sie von 10 Benutzern pro Anschluss aus.
 
-  -   
-    Für **hohes Datenverkehrsaufkommen** (drei oder mehr Festnetzanrufe pro Benutzer und Stunde) gehen Sie von 5 Benutzern pro Anschluss aus.
+  - Für **hohes Datenverkehrsaufkommen** (drei oder mehr Festnetzanrufe pro Benutzer und Stunde) gehen Sie von 5 Benutzern pro Anschluss aus.
 
 Die Anzahl von Ports wiederum bestimmt die Anzahl der erforderlichen Vermittlungsserver und Gateways. Die Größe der PSTN-Gateways, deren Bereitstellung für die meisten Organisationen in Betracht kommt, liegt im Bereich von 2 bis 960 Ports (es gibt sogar größere Gateways, diese werden jedoch hauptsächlich von Telefonieanbietern verwendet).
 

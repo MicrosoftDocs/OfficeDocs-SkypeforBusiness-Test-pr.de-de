@@ -34,7 +34,7 @@ Der Remotezugriff auf die SQL Server Express-Instanz (RTCLOCAL-Instanz) ist auf 
       - Lync Server 2013 verwendet das TCP/IP-Protokoll. Es unterstützt IP Version 4 (IPv4), aber nicht IP Version 6 (IPv6).
         
 
-        > [!TIP]
+        > [!NOTE]
         > Lync Server 2013 kann in einem Netzwerk mit aktiviertem dualem&nbsp;IP-Stapel funktionieren.
 
     
@@ -45,7 +45,7 @@ Der Remotezugriff auf die SQL Server Express-Instanz (RTCLOCAL-Instanz) ist auf 
   - Führen Sie SQL Server auf einem statischen Port (nicht dem Standardport) aus und führen Sie nicht den SQL Server-Browser aus (damit der Überwachungsport nicht an den Client übermittelt wird). Dies erfordert eine benutzerdefinierte Konfiguration auf jedem SQL Server-Client, einschließlich Front-End-Server, Monitoring Server, Archivierungsserver und Verwaltungskonsolen (auf denen die Lync Server-Verwaltungsshell, die Lync Server-Systemsteuerung oder der Topologie-Generator ausgeführt wird) sowie alle anderen Server, auf denen Lync Server-Datenbanken ausgeführt werden).
 
 
-> [!TIP]
+> [!NOTE]
 > Der Zugriff auf Datenbanken muss auf vertrauenswürdige Datenbankadministratoren beschränkt sein. Ein bösartiger Datenbankadministrator könnte Daten in die Datenbanken einfügen oder sie verändern, um Rechte über die Lync Server 2013-Server zu erlangen oder vertrauliche Informationen von den Diensten zu erhalten, auch wenn dem Datenbankadministrator kein direkter Zugriff auf bzw. keine Steuerung der Lync Server 2013-Server übertragen wurde.
 
 
@@ -53,7 +53,7 @@ Der Remotezugriff auf die SQL Server Express-Instanz (RTCLOCAL-Instanz) ist auf 
 Ausführliche Informationen zu benutzerdefinierten Konfigurationen und zum Schützen von SQL Server-Datenbanken finden Sie im NextHop-Blog-Artikel zur Verwendung von Lync Server 2010 mit benutzerdefinierter SQL Server-Netzwerkkonfiguration unter [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008).
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können auch Betriebssysteme und Anwendungsserver schützen sowie Gruppenrichtlinien zum Implementieren von Sicherheitssperren in Ihrer Lync Server-Bereitstellung verwenden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Sichern und Schützen von Servern und Anwendungen für Lync Server 2013</A>.
 
 

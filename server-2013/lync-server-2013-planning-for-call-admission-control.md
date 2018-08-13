@@ -22,7 +22,7 @@ Die Anrufsteuerung (Call Admission Control, CAC) ermittelt, ob ausreichend Netzw
 In diesem Abschnitt wird die Funktionsweise der Anrufsteuerung beschrieben, und es wird erläutert, wie die Anrufsteuerung geplant werden kann.
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server umfasst drei erweiterte Enterprise-VoIP-Funktionen: Anrufsteuerung (Call Admission Control, CAC), Notrufdienste (E9-1-1) und Medienumgehung. Eine Übersicht über die Planungsinformationen, die für alle drei Funktionen benötigt werden, finden Sie unter <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in Lync Server 2013</A>.
 
 

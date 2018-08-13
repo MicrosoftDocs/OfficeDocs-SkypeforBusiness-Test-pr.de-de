@@ -41,7 +41,7 @@ In der folgenden Tabelle werden die DNS-Anforderungen für die Bereitstellung ei
 <p>Wenn Sie beispielsweise sowohl den DNS-Lastenausgleich als auch ein Hardwaregerät für den Lastenausgleich verwenden, haben Sie einen A-Eintrag für jeden Front-End-Server in einem Pool für den DNS-Lastenausgleich sowie einen A-Eintrag für die internen Webdienste, der auf die virtuelle IP des Hardwaregeräts für den Lastenausgleich zeigt:</p>
 <ul>
 <li><p>DNS-Lastenausgleich:   Pool01.contoso.net   IP-Adresse des Pools   10.10.10.5</p>
-<div class="alert">
+<div>
 
 > [!WARNING]
 > Jeder Front-End-Server verfügt auch über einen eindeutigen A-Eintrag:
@@ -78,7 +78,7 @@ In der folgenden Tabelle werden die DNS-Anforderungen für die Bereitstellung ei
 <tr class="even">
 <td><p>Ermittlung des Geräteaktualisierungswebdiensts über Unified Communications-Geräte (UC)</p></td>
 <td><p>Ein interner A-Eintrag mit dem Namen &quot;ucupdates-r2.&lt;SIP-Domäne&gt;&quot;, der in die IP-Adresse des Front-End-Pools aufgelöst wird, der den Geräteaktualisierungswebdienst hostet. Wenn ein UC-Gerät eingeschaltet wird, ein Benutzer sich jedoch noch nie am Gerät angemeldet hat, ermöglicht der A-Eintrag, dass das Gerät den Front-End-Pool sucht, auf dem der Geräteaktualisierungswebdienst gehostet wird, und Updates abruft. Andernfalls rufen Geräte diese Informationen über die In-Band-Bereitstellung ab, wenn sich der Benutzer das erste Mal anmeldet.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Wenn Sie über eine vorhandene Bereitstellung des Geräteaktualisierungswebdiensts in Lync Server 2010 verfügen, haben Sie bereits einen internen A-Eintrag mit dem Namen "ucupdates.<EM>&lt;SIP-Domäne&gt;</EM>" erstellt. Für Microsoft Office Communications Server 2007 R2 müssen Sie einen zusätzlichen DNS-A-Eintrag mit dem Namen "ucupdates-r2.<EM>&lt;SIP-Domäne&gt;</EM>" erstellen.

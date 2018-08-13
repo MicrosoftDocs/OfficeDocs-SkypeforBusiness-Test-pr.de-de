@@ -36,7 +36,7 @@ Führen Sie die Schritte in diesem Thema aus, um mit dem Topologie-Generator ein
 5.  Aktivieren Sie unter **Verbundene Serverrollen auswählen** die Option **VermittlungsserverVerbinden** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > <UL>
     > <LI>
     > <P>Wenn der Typ des Front-End-Pools, den Sie ausgewählt haben, der Enterprise Edition entspricht, wird die Vermittlungsserver-Komponente auf allen Front-End-Server des Front-End-Pools installiert.</P>
@@ -52,7 +52,7 @@ Führen Sie die Schritte in diesem Thema aus, um mit dem Topologie-Generator ein
 7.  Klicken Sie auf **Fertig stellen** , wenn Sie die Zuordnung eines oder mehrerer Peers zum Front-End-Pool abgeschlossen haben.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bevor Sie mit dem nächsten Schritt im Enterprise-VoIP-Bereitstellungsprozess fortfahren, sollten Sie sich vergewissern, dass der Vermittlungsserver-Pool (d.&nbsp;h. der Front-End-Pool mit der verbundenen Vermittlungsserver) die von Ihnen angegebenen FQDNs verwendet.
 
 
@@ -66,7 +66,7 @@ Führen Sie die Schritte in diesem Thema aus, um mit Topologie-Generator einen e
 Wenn Sie bereits Vermittlungsserver bereitgestellt haben, die mit Front-End-Pools an diesem Standort verbunden sind, können Sie diesen Abschnitt überspringen und mit dem [Installieren der Dateien für den Vermittlungsserver in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) fortfahren, bevor Sie das [Konfigurieren von Trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md) durchführen.
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Abschnitt wird davon ausgegangen, dass Sie bereits mindestens einen Front-End-Pool wie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in Lync Server 2013</A> und unter <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in Lync Server 2013</A> beschrieben eingerichtet haben.
 
 
@@ -86,7 +86,7 @@ Wenn Sie bereits Vermittlungsserver bereitgestellt haben, die mit Front-End-Pool
       - Wenn Sie für hohe Verfügbarkeit mehrere Vermittlungsserver innerhalb des Pools bereitstellen möchten, wählen Sie **Pool mit mehreren Computern** aus.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Sie müssen den DNS-Lastenausgleich implementieren, um Vermittlungsserver-Pools mit mehreren Vermittlungsserver zu unterstützen. Ausführliche Informationen finden Sie im Abschnitt "Verwenden von DNS-Lastenausgleich für Vermittlungsserver-Pools" unter <A href="lync-server-2013-dns-load-balancing.md">DNS-Lastenausgleich in Lync Server 2013</A> in der Planungsdokumentation.
 
     
@@ -119,7 +119,7 @@ Führen Sie die Schritte in diesem Thema aus, um mit Topologie-Generator die Üb
 4.  Geben Sie den gewünschten TLS- oder TCP-Überwachungsportbereich an, der vom Vermittlungsserver für eingehende Verbindungen von PSTN-Gateways akzeptiert wird.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn die Option <STRONG>TCP-Port aktivieren</STRONG> nicht ausgewählt wird, ist die Eingabe des TCP-Portbereichs nicht erforderlich. Diese Einstellung ist optional.
 
 

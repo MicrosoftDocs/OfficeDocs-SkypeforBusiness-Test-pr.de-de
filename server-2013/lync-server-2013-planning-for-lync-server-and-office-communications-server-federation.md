@@ -45,8 +45,7 @@ Für den Partnerverbund zwischen Microsoft Lync Server 2013, Lync Server 2010 un
 
   - Bestimmen Sie Ihre Anforderungen für die Erkennung von Partnerverbunddomänen:
     
-      -   
-        Für die manuelle Konfiguration des Partnerverbunds benötigen Sie den vollqualifizierten Domänennamen (FQDN) des Edgeservers des Partners und den Domänennamen, oder Onlinedomänennamen, der in der Lync Server-Systemsteuerung unter **Partnerverbund und externer Zugriff**, **SIP-Partnerverbunddomänen** eingegeben wird. Erstellen Sie eine neueRichtlinie, oder bearbeitenSie eine vorhandene Richtlinie, um Domänen anhand des FQDN zuzulassen oder zu blockieren.
+      - Für die manuelle Konfiguration des Partnerverbunds benötigen Sie den vollqualifizierten Domänennamen (FQDN) des Edgeservers des Partners und den Domänennamen, oder Onlinedomänennamen, der in der Lync Server-Systemsteuerung unter **Partnerverbund und externer Zugriff**, **SIP-Partnerverbunddomänen** eingegeben wird. Erstellen Sie eine neueRichtlinie, oder bearbeitenSie eine vorhandene Richtlinie, um Domänen anhand des FQDN zuzulassen oder zu blockieren.
         
 
         > [!WARNING]
@@ -54,12 +53,11 @@ Für den Partnerverbund zwischen Microsoft Lync Server 2013, Lync Server 2010 un
 
         
 
-        > [!TIP]
+        > [!NOTE]
         > Für neue SIP-Partnerverbunddomänenmüssen Sie eine Eingabe in <STRONG>Domänenname (oder FQDN)</STRONG> für Microsoft Lync Online, Microsoft Office 365 vornehmen. Für Microsoft Lync Server 2013, Lync Server 2010 und Office Communications Server müssen Sie auch eine Eingabe für <STRONG>Zugriffs-Edgedienst (FQDN)</STRONG> vornehmen.
 
     
-      -   
-        Für die Partnerverbunderkennung, bei der Partner Ihren Edgeserver erkennen können, erstellen Sie einen SRV-Eintrag in Ihrem externen DNS (\_sipfederationtls.\_tcp.contoso.com), der auf Port 5061 und den Hosteintrag (A) Ihres Edgeservers verweist.
+      - Für die Partnerverbunderkennung, bei der Partner Ihren Edgeserver erkennen können, erstellen Sie einen SRV-Eintrag in Ihrem externen DNS (\_sipfederationtls.\_tcp.contoso.com), der auf Port 5061 und den Hosteintrag (A) Ihres Edgeservers verweist.
         
 
         > [!IMPORTANT]

@@ -23,7 +23,7 @@ Das Monitoring-Dashboard ermöglicht Administratoren eine schnelle Übersicht ü
 
   - Gesamtwerte für den Monat sowie Trendgesamtwerte für die letzten sechs Monate (nur für die Systemauslastung).
 
-Beachten Sie, dass Sie das Cmdlet [Get-CsReportingConfiguration](get-csreportingconfiguration.md) verwenden können, um die für den Zugriff auf Lync Server 2013-Überwachungsberichte verwendete URL zurückzugeben:
+Beachten Sie, dass Sie das Cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) verwenden können, um die für den Zugriff auf Lync Server 2013-Überwachungsberichte verwendete URL zurückzugeben:
 
     Get-CsReportingConfiguration
 

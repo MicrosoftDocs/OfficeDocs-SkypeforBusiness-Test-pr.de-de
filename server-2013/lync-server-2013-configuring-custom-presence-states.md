@@ -30,7 +30,7 @@ Konfigurationsdateien weisen die folgenden Eigenschaften auf:
   - Der CustomStateURL-Parameter gibt den Speicherort der Konfigurationsdatei an. In Lync 2013 ist der hohe SIP-Sicherheitsmodus standardmäßig aktiviert. Daher müssen Sie die benutzerdefinierte Anwesenheitskonfigurationsdatei auf einem Webserver speichern, auf dem HTTPS aktiviert ist. Andernfalls können Lync 2013-Clients keine Verbindung mit dem Server herstellen. Beispiel für eine gültige Adresse:`https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können eine Konfigurationsdatei testen, die sich auf einer Nicht-HTTPS-Dateifreigabe befindet, indem Sie den hohen SIP-Sicherheitsmodus auf dem Client mit der Registrierungseinstellung "EnableSIPHighSecurityMode" deaktivieren. In einer Produktionsumgebung wird aber davon abgeraten. Dann können Sie mit der Registrierungseinstellung "CustomStateURL" einen Nicht-HTTPS-Speicherort für die Konfigurationsdatei angeben. Beachten Sie, dass Lync 2013 die Lync 2010-Registrierungseinstellungen berücksichtigt, aber die Registrierungsstruktur wurde aktualisiert. Die Registrierungseinstellungen werden wie folgt erstellt: 
 > <UL>
 > <LI>
@@ -82,10 +82,10 @@ Sie können eine Übersetzung Ihrer benutzerdefinierten Anwesenheitsstatus berei
 
 5.  Verwenden Sie das Cmdlet **Grant-CSClientPolicy**, um diese neue Richtlinie Benutzern zuzuweisen.
 
-Ausführliche Informationen finden Sie unter [New-CsClientPolicy](new-csclientpolicy.md) und [Grant-CsClientPolicy](grant-csclientpolicy.md) in der Lync Server-Verwaltungsshell-Dokumentation.
+Ausführliche Informationen finden Sie unter [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) und [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Standardmäßig aktualisiert Lync Server 2013 die Clientrichtlinien und -einstellungen alle drei Stunden.</P>

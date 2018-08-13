@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-06_
 In Systemsteuerung für Lync Server 2013 können Sie die Seite **Beständiger Chat Richtlinie** der **Beständiger Chat**-Gruppe verwenden, um Richtlinien auf globaler, Pool-, Standort- oder Benutzerebene zu verwalten. Hierzu gehört auch die Konfiguration der globalen Standardrichtlinie sowie die Erstellung einer oder mehrerer zusätzlicher Benutzer- und Standortrichtlinien für Ihre Bereitstellung. Wenn ein Benutzer durch Richtlinien für Server für beständigen Chat aktiviert wurde, wird die Server für beständigen Chat-Umgebung in deren Lync 2013-Client angezeigt.
 
 
-> [!TIP]
+> [!NOTE]
 > In der Topologie werden die Standortrichtlinien für Server für beständigen Chat entweder pro Pool des Benutzers oder pro Standort des Benutzers oder pro Benutzer global angewendet.
 
 
@@ -28,7 +28,7 @@ Die globale Richtlinie wird automatisch bei der Bereitstellung von Server für b
 Sie können mehrere Standort- und Benutzerrichtlinien erstellen und konfigurieren, die, zusammen mit der globalen Richtlinie, Benutzer für Server für beständigen Chat aktiviert. Pool- und Standortrichtlinien von Server für beständigen Chat setzen die globale Server für beständigen Chat-Richtlinie außer Kraft, wenn auch nur für Benutzer an diesem Standort. Benutzerrichtlinien setzen sowohl die globale als auch die Pool- und Standortrichtlinien für diejenigen Benutzer außer Kraft, denen die Benutzerrichtlinie zugewiesen wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie den Server für beständigen Chat konfigurieren und verwenden möchten, müssen Sie zunächst mit dem Topologie-Generator die Server für beständigen Chat-Unterstützung der Topologie hinzufügen und die Topologie anschließend veröffentlichen. Einzelheiten dazu finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

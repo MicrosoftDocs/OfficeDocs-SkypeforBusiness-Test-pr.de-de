@@ -40,7 +40,7 @@ Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME
       - Wenn Sie einen internen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die Active Directory-Domäne (z. B. "contoso.local").
         
 
-        > [!TIP]
+        > [!NOTE]
         > Diese Domäne ist die Active Directory-Domäne, in der der Lync Server 2013Director-Pool und Front-End-Pool installiert sind.
 
     
@@ -61,7 +61,7 @@ Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME
 6.  Wenn Sie einen internen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die SIP-Domäne (z. B. "contoso.com").
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie einen externen DNS-Eintrag erstellen, ist <STRONG>Forward-Lookupzonen</STRONG> bereits für die SIP-Domäne aus Schritt&nbsp;3 erweitert.
 
 
@@ -81,7 +81,7 @@ Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME
       - Geben Sie für einen externen DNS-Eintrag den externen Webdienste-FQDN für den Directorpool ein (z. B. "lyncwebextdir.contoso.com"), und klicken Sie dann auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie keinen Director verwenden, verwenden Sie den internen und externen Webdienste-FQDN für den Front-End-Pool oder, für einen einzelnen Server, den FQDN für den Front-End-Server oder den Standard Edition-Server.
 
     
@@ -106,7 +106,7 @@ Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME
       - Wenn Sie einen internen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die Active Directory-Domäne (z. B. "contoso.local").
         
 
-        > [!TIP]
+        > [!NOTE]
         > Diese Domäne ist die Active Directory-Domäne, in der der Lync Server 2013Director-Pool und Front-End-Pool installiert sind.
 
     
@@ -127,7 +127,7 @@ Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME
 6.  Wenn Sie einen internen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die SIP-Domäne (z. B. "contoso.com").
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie einen externen DNS-Eintrag erstellen, ist <STRONG>Forward-Lookupzonen</STRONG> bereits für die SIP-Domäne aus Schritt&nbsp;3 erweitert.
 
 
@@ -141,7 +141,7 @@ Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME
       - Geben Sie für einen externen DNS-Eintrag "lyncdiscover" als den Hostnamen für die externe AutoErmittlungdienst-URL ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Domänenname wird von der Zone abgeleitet, in welcher der Eintrag definiert ist, und muss daher nicht als Teil des A-Eintrags eingegeben werden.
 
 
@@ -151,7 +151,7 @@ Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME
       - Geben Sie für einen internen DNS-Eintrag die interne Webdienste-IP-Adresse des Directors ein (oder geben Sie die virtuelle IP (VIP) des Director-Lastenausgleichs ein, wenn Sie einen Lastenausgleich verwenden).
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie keinen Director verwenden, geben Sie die IP-Adresse des Front-End-Servers oder Standard Edition-Servers ein, oder geben Sie die virtuelle IP (VIP) des Front-End-Pool-Lastenausgleichs ein, wenn Sie einen Lastenausgleich verwenden.
 
     

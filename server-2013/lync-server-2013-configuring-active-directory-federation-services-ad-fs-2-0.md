@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD FS 2.0) konfiguriert werden muss, damit mehrstufige Authentifizierung unterstützt wird. Informationen, wie AD FS 2.0 installiert wird, finden Sie unter "AD FS 2.0 Step-by-Step and How To Guides" unter [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie AD FS 2.0 installieren, dürfen Sie nicht den Windows Server Manager verwenden, um die Active Directory-Verbunddienste-Rolle hinzuzufügen. Laden Sie stattdessen das Paket "Active Directory Federation Services 2.0 RTW" von <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A> herunter, und installieren Sie das Paket.
 
 
@@ -47,6 +47,8 @@ Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD
 8.  Erstellen Sie eine Ausstellungsautorisierungsregel für Ihre Vertrauensstellung der vertrauenden Seite, und weisen Sie diese Regel zu. Führen Sie dazu über Windows PowerShell die folgenden Befehle aus:
     
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+
+       &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
@@ -54,6 +56,8 @@ Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD
 9.  Erstellen Sie eine Ausstellungstransformationsregel für Ihre Vertrauensstellung der vertrauenden Seite, und weisen Sie diese Regel zu. Führen Sie dazu über Windows PowerShell die folgenden Befehle aus:
     
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+
+       &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
 

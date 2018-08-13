@@ -76,7 +76,7 @@ Es wird empfohlen, eine neue Konferenzrichtlinie speziell für große Besprechun
   - Legen Sie die Option **EnableMultiviewJoin** auf **False** fest.
 
 
-> [!TIP]
+> [!NOTE]
 > Damit große Besprechungen mit 1000 Benutzern in Lync Server 2013 untertstützt werden können, ist es erforderlich, dass die Einstellung <STRONG>AllowLargeMeetings</STRONG> in der Konferenzrichtlinie für den Besprechungsplaner auf "True" gesetzt wird. Wenn diese Einstellung auf "True" gesetzt ist, werden die Möglichkeiten von Lync für sehr große Besprechungen optimiert, wenn die Benutzer einer solchen Besprechung beitreten. In einer großen Besprechung wird die initiale vollständige Liste mit Besprechungsteilnehmern von Lync nicht angezeigt oder aktualisiert. Diese Liste stellt einen Leistungsengpass für den Client sowie für Lync Server 2013 dar. In Lync werden dafür nur Informationen zum Benutzer und die Liste mit den Referenten der Besprechung angezeigt. In Lync wird dennoch ordnungsgemäß die Gesamtanzahl der für die großen Besprechungen verfügbaren Teilnehmer angezeigt.
 
 

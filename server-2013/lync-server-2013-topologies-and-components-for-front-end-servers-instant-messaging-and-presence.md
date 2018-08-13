@@ -106,10 +106,10 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 </table>
 
 
-Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber ausreichend Server gestartet werden können, damit kein Quoromverlust auf Poolebene auftritt), können Sie das Cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** verwenden, damit der Pool aus diesem Quorumverlust auf Routinggruppenebene wiederhergestellt werden und Fortschritte machen kann. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md).
+Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber ausreichend Server gestartet werden können, damit kein Quoromverlust auf Poolebene auftritt), können Sie das Cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** verwenden, damit der Pool aus diesem Quorumverlust auf Routinggruppenebene wiederhergestellt werden und Fortschritte machen kann. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
 
-> [!TIP]
+> [!NOTE]
 > Da Lync Server die primäre SQL-Datenbank als Zeuge verwendet, fällt der gesamte Pool aus, wenn Sie die primäre Datenbank herunterfahren, zur Spiegelkopie wechseln und ausreichend Front-End-Server herunterfahren, sodass nicht genügend gemäß der vorstehenden Tabelle aktiv sind. Weitere Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=393672">Datenbank-Spiegelungszeuge</A>.
 
 
@@ -193,7 +193,7 @@ Wenn Sie ein Upgrade durchführen oder die Server in einem Front-End-Pool patche
 
   - Wechseln Sie nicht zur nächsten Upgradedomäne, wenn einer der Server in der zuletzt gepatchten Upgradedomäne hängen bleibt oder nicht neu gestartet wird. Dies gilt auch, wenn einer der Server innerhalb eines Upgrades nicht gestartet werden kann. Führen Sie **Get-CsPoolFabricState** aus, um sicherzustellen, dass alle Routinggruppen über einen primären und mindestens einen sekundären Server verfügen. Damit wird bestätigt, ob für alle Benutzer ein Dienst verfügbar ist.
 
-  - Wenn einige Benutzer über einen Dienst verfügen und andere nicht, führen Sie **Get-CsPoolFabricState** mit der Option "–Verbose" aus, um zu prüfen, ob Routinggruppen vorhanden sind, denen Replikate fehlen. Starten Sie nicht den gesamten Pool als ersten Problembehandlungsschritt neu. Weitere Informationen zu diesem Cmdlet finden Sie unter [Get-CsPoolFabricState](get-cspoolfabricstate.md).
+  - Wenn einige Benutzer über einen Dienst verfügen und andere nicht, führen Sie **Get-CsPoolFabricState** mit der Option "–Verbose" aus, um zu prüfen, ob Routinggruppen vorhanden sind, denen Replikate fehlen. Starten Sie nicht den gesamten Pool als ersten Problembehandlungsschritt neu. Weitere Informationen zu diesem Cmdlet finden Sie unter [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState).
 
   - Stellen Sie sicher, dass alle Instanzen der Ereignisanzeige und der Leistungsüberwachung beim Installieren/Deinstallieren von Windows Fabric geschlossen sind.
 

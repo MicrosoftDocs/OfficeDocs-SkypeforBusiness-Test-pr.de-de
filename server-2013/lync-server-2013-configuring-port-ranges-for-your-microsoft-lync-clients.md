@@ -112,7 +112,7 @@ Oder verwenden Sie diesen Befehl, um dieselben Portbereiche für alle Konferenzk
 Einzelne Benutzer müssen sich bei Lync abmelden und dann wieder anmelden, bevor diese Änderungen tatsächlich in Kraft treten.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können auch Client-Medienportbereiche aktivieren und diese Portbereiche dann mit einem einzelnen Befehl zuweisen. Beispiel:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
 

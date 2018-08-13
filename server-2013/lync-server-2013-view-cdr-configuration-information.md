@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
 Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-zu-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.
 
-Bei der Installation von Microsoft Lync Server 2013 wird eine einzelne globale Auflistung von KDS-Konfigurationseinstellungen erstellt. Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können. Sie können die in Ihrer Organisation verwendeten KDS-Konfigurationseinstellungen anzeigen, indem Sie Lync Server-Systemsteuerung oder das [Get-CsCdrConfiguration](get-cscdrconfiguration.md)-Cmdlet verwenden.
+Bei der Installation von Microsoft Lync Server 2013 wird eine einzelne globale Auflistung von KDS-Konfigurationseinstellungen erstellt. Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können. Sie können die in Ihrer Organisation verwendeten KDS-Konfigurationseinstellungen anzeigen, indem Sie Lync Server-Systemsteuerung oder das [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration)-Cmdlet verwenden.
 
 ## So zeigen Sie KDS-Konfigurationsinformationen mithilfe von Lync Server-Systemsteuerung an
 
@@ -44,5 +44,5 @@ Sie können die KDS-Konfigurationseinstellungen auch mithilfe von Lync Server-Ve
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-Weitere Informationen finden Sie im Hilfethema zum [Get-CsCdrConfiguration](get-cscdrconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration)-Cmdlet.
 

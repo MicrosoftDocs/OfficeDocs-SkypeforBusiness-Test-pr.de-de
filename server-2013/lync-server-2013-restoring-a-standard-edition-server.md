@@ -28,7 +28,7 @@ Führen Sie die Verfahren in diesem Abschnitt beim Ausfall eines Standard Editio
 1.  Voraussetzung ist ein bereinigter oder neuer Server, der denselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der ausgefallene Computer aufweist. Installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her bzw. registrieren Sie sie erneut.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Folgen Sie den Verfahren zur Bereitstellung der Server in Ihrer Organisation, um diesen Schritt durchzuführen.
 
 

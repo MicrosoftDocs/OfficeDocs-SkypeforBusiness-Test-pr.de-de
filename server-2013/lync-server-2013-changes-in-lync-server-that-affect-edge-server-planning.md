@@ -28,7 +28,7 @@ Bei der IPv6-Unterstützung in Lync Server 2013 ist es jedoch erforderlich, für
 Neu in Edgeserver sind ein vollständig integrierter XMPP-Proxy (der auf den Edgeservern bereitgestellt wird) und ein XMPP-Gateway (das auf Ihren Front-End-Servern bereitgestellt wird). Als optionale Komponenten können Sie XMPP-Verbund bereitstellen. Durch Hinzufügen und Konfigurieren des XMPP-Proxys und XMPP-Gateways können Sie es Ihren Microsoft Lync 2013-Benutzern ermöglichen, Kontakte von XMPP-basierten Partnern für Sofortnachrichten- und Anwesenheitsfunktionen hinzuzufügen.
 
 
-> [!TIP]
+> [!NOTE]
 > Zum gegenwärtigen Zeitpunkt bieten die XMPP-Dienste im Edgeserver nur Sofortnachrichten- und Anwesenheitsfunktionalität zwischen Lync&nbsp;Server-Clients und XMPP-basierten Kontakten. Außerdem wird XMPP nur an einem einzigen Standort gehostet.
 
 
@@ -47,7 +47,7 @@ Bei der Audio-/Video-Authentifizierung dienen Token zum Authentifizieren von Por
 
 Die Server-zu-Server-Authentifizierung erfolgt mithilfe eines globalen Zertifikats, das für alle Server in der Bereitstellung angefordert und übernommen wird. Das Zertifikat dient zum Authentifizieren von Servern in Lync Server 2013 sowie zur Authentifizierung in Exchange 2013 und Microsoft SharePoint Server 2013. Weitere Informationen zur Funktionsweise von Server-zu-Server-Authentifizierung finden Sie unter [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). Ein sehr wichtiger Unterschied zwischen dem Audio-/Video-Authentifizierungsprozess und dem Server-zu-Server-Authentifizierungsprozess besteht in der Lebensdauer der Authentifizierung oder Token. Bei Audio-/Video-Authentifizierung läuft die Authentifizierung nach 8 Stunden ab. Die Server-zu-Server-Authentifizierung hat eine Lebensdauer von 24 Stunden. Das müssen Sie bei Ihren Planungen entsprechend berücksichtigen.
 
-Neu in Lync Server 2013 ist die Möglichkeit, vor Ablauf des aktuellen Zertifikats ein Ersatzzertifikat vorzuhalten. Das neue Zertifikat kann dann zum Generieren neuer Token oder neuer Authentifizierungsanforderungen verwendet werden, während das alte Zertifikat aufbewahrt wird, um die aktuellen Sitzungen und Authentifizierungen zu verifizieren. Auf diese Weise werden fast alle durch abgelaufene Token oder Zertifikate verursachte Fehler verhindert. Ausführliche Informationen zu dieser Funktion und zur Vorgehensweise bei der Konfiguration finden Sie unter [Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md).
+Neu in Lync Server 2013 ist die Möglichkeit, vor Ablauf des aktuellen Zertifikats ein Ersatzzertifikat vorzuhalten. Das neue Zertifikat kann dann zum Generieren neuer Token oder neuer Authentifizierungsanforderungen verwendet werden, während das alte Zertifikat aufbewahrt wird, um die aktuellen Sitzungen und Authentifizierungen zu verifizieren. Auf diese Weise werden fast alle durch abgelaufene Token oder Zertifikate verursachte Fehler verhindert. Ausführliche Informationen zu dieser Funktion und zur Vorgehensweise bei der Konfiguration finden Sie unter [Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate).
 
 ## Geringere Abhängigkeit von Cookie-basierter Affinität
 
@@ -70,7 +70,7 @@ Die AutoErmittlungs-Funktion in Lync Server 2013 ermöglicht es Clients, zusätz
 Die im kumulativen Update für Lync Server 2010: November 2011 eingeführten Mobilitätsdienste in Lync Server 2013 machen auf Mobiltelefonen mit Lync Mobile und Tablets mit einem unterstützten Betriebssystem (Apple iOS, Android, Windows Phone) sowie Mobilgeräten von Nokia das Durchführen bestimmter Aktivitäten möglich, wie das Senden und Empfangen von Sofortnachrichten, das Anzeigen von Kontakten und von Anwesenheit. Außerdem werden von mobilen Geräten einige Enterprise-VoIP-Features unterstützt, wie zum Beispiel die Teilnahme an einer Konferenz per Mausklick, Anruf über Arbeitsplatz, Erreichbarkeit unter einer einzigen Nummer, Voicemail und Benachrichtigung zu entgangenen Anrufen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Mobilitätsdienste verwenden den Reverseproxy und veröffentlichte Dienste, die auf Ihren Front-End-Servern bereitgestellt sind. Änderungen an Edgeservern sind nicht erforderlich. Sie benötigen wenigstens ausgehendes SIP/TCP/5061 von dem Server, auf dem der Lync Server-Zugriffs-Edgedienst ausgeführt wird.
 
 

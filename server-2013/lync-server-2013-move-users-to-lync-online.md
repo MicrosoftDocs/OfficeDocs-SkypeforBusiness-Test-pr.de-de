@@ -29,6 +29,8 @@ Zum Verschieben eines lokalen Benutzers zu Ihrem Skype for Business Online-Manda
 
     $creds=Get-Credential
 
+   &nbsp;
+
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
 Das Format der für den Parameter **HostedMigrationOverrideUrl** angegebenen URL muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, und muss folgendes Format haben: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* .
@@ -57,7 +59,7 @@ Sie können die URL des gehosteten Migrationsdiensts anhand der URL der Lync Onl
 
 ## Verschieben von Benutzern nach Lync Online
 
-Sie können mehrere Benutzer verschieben, indem Sie das Cmdlet [Get-CsUser](get-csuser.md) mit dem Parameter "\\endash Filter" verwenden, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen, die den Benutzerkonten zugewiesen ist, z. B. RegistrarPool. Anschließend können Sie die zurückgegebenen Benutzer an das Cmdlet [Move-CsUser](move-csuser.md) weiterleiten, wie im folgenden Beispiel dargestellt.
+Sie können mehrere Benutzer verschieben, indem Sie das Cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) mit dem Parameter "\\endash Filter" verwenden, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen, die den Benutzerkonten zugewiesen ist, z. B. RegistrarPool. Anschließend können Sie die zurückgegebenen Benutzer an das Cmdlet [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) weiterleiten, wie im folgenden Beispiel dargestellt.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

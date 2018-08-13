@@ -28,7 +28,7 @@ Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten 
 4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da für jede Microsoft Lync Server 2013-Bereitstellung nur ein Netzwerk konfiguriert werden kann, werden in der Liste nie mehrere Netzwerkkonfigurationen angezeigt. Die globale Konfiguration kann nicht umbenannt werden.
 
 
@@ -51,7 +51,7 @@ Nach dem Ändern Ihrer Netzwerkkonfiguration können Sie die Überprüfung erneu
 
 [Planen des Anrufsteuerungsdiensts in Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)  
 [Konfigurieren der Anrufsteuerung in Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)  
-[Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)  
-[Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+[Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 

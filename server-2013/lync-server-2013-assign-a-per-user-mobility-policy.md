@@ -59,7 +59,7 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
 7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Mobilitätsrichtlinie** eine der folgenden Aktionen aus:
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
@@ -87,7 +87,7 @@ Benutzerbasierte Mobilitätsrichtlinien können Sie mit der Lync Server-Verwaltu
 
 ## So weisen Sie mehreren Benutzern eine benutzerbasierte Mobilitätsrichtlinie zu
 
-  - Mit dem folgenden Befehl wird die benutzerbasierte Mobilitätsrichtlinie RedmondMobilityPolicy allen Benutzern zugewiesen, denen aktuell die Richtlinie NorthAmericaMobilityPolicy zugewiesen ist. Ausführliche Informationen zu dem in diesem Befehl verwendeten Filter-Parameter finden Sie unter [Get-CsUser](get-csuser.md).
+  - Mit dem folgenden Befehl wird die benutzerbasierte Mobilitätsrichtlinie RedmondMobilityPolicy allen Benutzern zugewiesen, denen aktuell die Richtlinie NorthAmericaMobilityPolicy zugewiesen ist. Ausführliche Informationen zu dem in diesem Befehl verwendeten Filter-Parameter finden Sie unter [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
@@ -97,7 +97,7 @@ Benutzerbasierte Mobilitätsrichtlinien können Sie mit der Lync Server-Verwaltu
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Ausführliche Informationen finden Sie unter [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Ausführliche Informationen finden Sie unter [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Siehe auch
 

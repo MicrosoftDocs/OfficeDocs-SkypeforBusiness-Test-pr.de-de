@@ -36,7 +36,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
       - Wenn Sie einen neuen Nummernbereich erstellen möchten, klicken Sie auf **Neu** . Geben Sie unter **Name** den Namen für diesen Nummernbereich ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Nachdem Sie den neuen Bereich nicht zugewiesener Nummern per Commit in die Datenbank übernommen haben, können Sie diesen Namen nicht mehr ändern.
 
     
@@ -45,7 +45,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
 5.  Geben Sie im ersten Feld **Nummernbereich** die Startnummer für den Bereich ein, und geben Sie dann im zweiten Feld **Nummernbereich** die letzte Nummer für den Bereich ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > <UL>
     > <LI>
     > <P>Die Startnummer für den Bereich muss kleiner oder gleich der letzten Nummer im Bereich sein.</P>
@@ -125,7 +125,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
 
 #### Weitere Ressourcen
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
-[Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
+[Set-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

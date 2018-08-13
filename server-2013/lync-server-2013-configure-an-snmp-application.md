@@ -19,10 +19,10 @@ Lync Server 2013 enthält eine standardmäßige Webdienstschnittselle, über die
 
 Wenn eine SNMP-Anwendung installiert ist und der Standortinformationsdienst keine Übereinstimmung in der Standortdatenbank findet, fragt der Standortinformationsdienst automatisch die Anwendung ab. Dabei wird die vom Client bereitgestellte MAC-Adresse verwendet. Der Standortinformationsdienst verwendet anschließend die von der SNMP-Anwendung zurückgegebenen Port- und Switchinformationen, um erneut eine Abfrage in der Standortdatenbank auszuführen.
 
-Ausführliche Informationen finden Sie unter [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md).
+Ausführliche Informationen finden Sie unter [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
 
-> [!TIP]
+> [!NOTE]
 > MAC-Adressen sind auf Computern unter Windows&nbsp;8 nicht verfügbar.
 
 

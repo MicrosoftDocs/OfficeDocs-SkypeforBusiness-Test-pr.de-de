@@ -32,7 +32,7 @@ Verwenden Sie eines der folgenden Verfahren, um einen Workflow zu löschen.
 6.  Klicken Sie in der Liste der Dienste auf den gewünschten Dienst, und klicken Sie auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Webseite für die Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können die Webseite für die Konfigurationstool für Reaktionsgruppen auch direkt aus einem Webbrowser öffnen, indem Sie eine Verbindung mit <STRONG>https://<EM>&lt;Webpool-FQDN&gt;</EM>/RgsConfig</STRONG> herstellen.
 
 

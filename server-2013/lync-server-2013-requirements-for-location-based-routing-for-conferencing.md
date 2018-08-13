@@ -20,7 +20,7 @@ Im Folgenden werden die Anforderungen für die Installation und Konfiguration de
   - Lync Server 2013, kumulatives Update 2, muss auf allen Servern oder Pools in Ihrer Topologie installiert sein.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn auf einem Lync-Server oder -Pool in Ihrer Topologie das kumulative Update 2 oder höher für Lync Server 2013 nicht installiert ist, gibt es keine Garantie, dass das standortbasierte Routing von Lync-Besprechungen erzwungen werden kann.
 
 

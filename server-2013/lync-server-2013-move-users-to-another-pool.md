@@ -84,7 +84,7 @@ Sie können die Lync Server-Systemsteuerung verwenden, um Benutzer einem bestimm
 6.  Klicken Sie im Menü **Aktion** auf **Alle Benutzer in Pool verschieben**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn ein Filter auf eine vorhandene Gruppe von Benutzern angewendet wird, gilt die Option <STRONG>Alle Benutzer in Pool verschieben</STRONG> für die gefilterte Teilmenge der Benutzer, nicht für <STRONG><EM>alle möglichen</EM></STRONG> Benutzer.
 
 

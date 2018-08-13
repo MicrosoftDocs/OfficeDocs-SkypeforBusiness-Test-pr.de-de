@@ -53,7 +53,7 @@ Die folgenden Funktionen sind nur verfügbar, wenn es sich bei Ihrer Ausfallsich
     Wenn E9-1-1 bereitgestellt wurde und der SIP-Trunk am zentralen Standort aufgrund eines Ausfalls der WAN-Leitung nicht verfügbar ist, leitet die Survivable Branch-Anwendung E9-1-1-Anrufe an das lokale Gateway der Zweigstelle weiter. Zum Aktivieren dieser Funktion muss die Weiterleitung von Anrufen an das lokale Gateway bei einem WAN-Ausfall in den VoIP-Richtlinien der Zweigstellenbenutzer festgelegt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > SBA (Survivable Branch Office) wird für XMPP nicht unterstützt. Benutzer, die unter einer SBA-Konfiguration verwaltet werden, können keine Chatnachrichten an XMPP-Kontakte senden oder die Anwesenheit dieser Kontakte sehen.
 
 

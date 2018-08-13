@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-03-05_
 Lync Server 2013 stellt einige Anforderungen an die Kommunikation über den externen Client, die dann an die auf dem Director, Directorpool, Front-End-Server oder Front-End-Pool gehosteten externen Webdienste übergeben wird. Der Reverseproxy ist auch für die Veröffentlichung der Office Web Apps-Server verantwortlich, wenn Sie Ihren Benutzern Konferenzfunktionen anbieten.
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 gibt keinen bestimmten Reverseproxy vor, der verwendet werden muss. Lync Server 2013 definiert nur betriebliche Anforderungen, die der Reverseproxy ausführen muss. Normalerweise kann der Reverseproxy, den Sie bereits in der Infrastruktur bereitgestellt haben, die Anforderungen erfüllen.
 
 

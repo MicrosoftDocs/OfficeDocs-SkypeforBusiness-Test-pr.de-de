@@ -24,7 +24,7 @@ Jedes Subnetz in Ihrem Netzwerk muss einem bestimmten Netzwerkstandort zugeordne
 
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder sie gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von acht&nbsp;Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:<BR><STRONG>Quelle :</STRONG> CS-Bandbreitenrichtliniendienst (Core)<BR><STRONG>Ereignisnummer :</STRONG> 36034<BR><STRONG>Ebene :</STRONG> 2<BR><STRONG>Beschreibung:</STRONG> Die Subnetze für die folgenden IP-Adressen: &lt;Liste der IP-Adressen&gt; sind entweder nicht konfiguriert oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Ursache:</STRONG> Die Subnetze für die zugehörigen IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Lösung:</STRONG> Fügen Sie gemäß der IP-Adressenliste den Netzwerkkonfigurationseinstellungen Subnetze hinzu und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.<BR>Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen: 
 > <OL>
 > <LI>
@@ -36,13 +36,13 @@ Jedes Subnetz in Ihrem Netzwerk muss einem bestimmten Netzwerkstandort zugeordne
 
 Ausführliche Informationen zum Arbeiten mit Netzwerksubnetzen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation der folgenden Cmdlets:
 
-  - [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
 
-  - [Get-CsNetworkSubnet](get-csnetworksubnet.md)
+  - [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 
-  - [Set-CsNetworkSubnet](set-csnetworksubnet.md)
+  - [Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)
 
-  - [Remove-CsNetworkSubnet](remove-csnetworksubnet.md)
+  - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
 
 > [!TIP]
@@ -103,7 +103,7 @@ Ausführliche Informationen zum Arbeiten mit Netzwerksubnetzen finden Sie in der
 7.  Klicken Sie auf **Netzwerkstandort-ID** und wählen Sie die Standort-ID des Standorts aus, dem Sie dieses Subnetz hinzufügen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie noch keine Netzwerkstandorte erstellt haben, ist diese Liste leer. Ausführliche Informationen zu dem Verfahren finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013</A>. Sie können auch Standort-IDs für Ihre Bereitstellung abrufen, indem Sie das Cmdlet <STRONG>Get-CsNetworkSite</STRONG> ausführen. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

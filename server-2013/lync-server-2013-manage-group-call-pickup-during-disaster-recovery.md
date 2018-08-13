@@ -27,7 +27,7 @@ Während der Notfallwiederherstellung verwenden Benutzer, die im Rahmen des Fail
 
 Die Nummernbereiche für die Gruppenanrufannahme in der Orbittabelle für das Parken von Anrufen müssen in den Sicherungspool umgeleitet werden, nachdem das Failover zum Sicherungspool abgeschlossen ist. Wenn das Failback zum primären Pool abgeschlossen ist, müssen die Nummernbereiche wieder in den primären Pool umgeleitet werden. Zum Umleiten der Bereiche für die Gruppenanrufannahme verwenden Sie das Cmdlet **Set-CsCallParkOrbit**.
 
-Wenn Sie einen neuen Pool mit einem anderen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) bereitstellen, der den primären Pool ersetzt, müssen Sie alle Nummernbereiche für die Gruppenanrufannahme, die dem primären Pool zugeordnet waren, dem FQDN des neuen Pools zuweisen. Zum Zuweisen von Nummernbereichen an den neuen Pool können Sie das **Set-CsCallParkOrbit**-Cmdlet verwenden. Ausführliche Informationen zum **Set-CsCallParkOrbit**-Cmdlet finden Sie unter [Set-CsCallParkOrbit](set-cscallparkorbit.md).
+Wenn Sie einen neuen Pool mit einem anderen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) bereitstellen, der den primären Pool ersetzt, müssen Sie alle Nummernbereiche für die Gruppenanrufannahme, die dem primären Pool zugeordnet waren, dem FQDN des neuen Pools zuweisen. Zum Zuweisen von Nummernbereichen an den neuen Pool können Sie das **Set-CsCallParkOrbit**-Cmdlet verwenden. Ausführliche Informationen zum **Set-CsCallParkOrbit**-Cmdlet finden Sie unter [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
 
 ## Die Benutzererfahrung der Gruppenanrufannahme während des Ausfalls eines Pools
 

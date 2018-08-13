@@ -38,7 +38,7 @@ In den folgenden Tabellen werden die Features und Fähigkeiten von mobilen Lync 
 In diesen Tabellen werden die Features angegeben, die Lync-Benutzern in einer lokalen Bereitstellung von Lync Server 2013 zur Verfügung stehen. Falls nicht in den Fußnoten der Tabelle anders vermerkt, stehen die gleichen Features auch Skype for Business Online- und Microsoft Office 365-Benutzern zur Verfügung.
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Onlinehilfe und Ressourcen für Endbenutzer finden Sie in "Microsoft Lync 2013 für mobile Clients" unter <A href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</A>.</P>

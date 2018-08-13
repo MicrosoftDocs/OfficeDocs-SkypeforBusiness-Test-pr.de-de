@@ -47,25 +47,25 @@ Ob Sie die Zertifikatanforderungen für Ihre Edgeserver-Bereitstellung erfüllen
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Zur Unterstützung des contoso.com-XMPP-Namespaces
 
 
 </div>
 <p>sip.fabrikam.com</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Zur Unterstützung des fabrikam.com-SIP-Namespaces
 
 
 </div>
 <p>fabrikam.com</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Zur Unterstützung des fabrikam.com-XMPP-Namespaces
 
 
@@ -76,9 +76,9 @@ Ob Sie die Zertifikatanforderungen für Ihre Edgeserver-Bereitstellung erfüllen
 <li><p>Webkonferenz-Edgedienst</p></li>
 <li><p>A/V-Edgedienst</p></li>
 </ul>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Technisch gesehen, wird dem A/V Edge kein Zertifikat zugewiesen. Die sichere Kommunikation und Authentifizierung wird mithilfe von MRAS (Media Relay Authentication Service, Authentifizierungsdienst für Medienrelay) verwaltet. MRAS verwendet das Zertifikat, das der internen Edgeserver-Schnittstelle zugeordnet ist.
 
 

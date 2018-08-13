@@ -37,5 +37,5 @@ Eine detaillierte Beschreibung des vollständigen Befehls finden Sie im folgende
 
 #### Weitere Ressourcen
 
-[Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)
+[Get-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAddressBookConfiguration)
 

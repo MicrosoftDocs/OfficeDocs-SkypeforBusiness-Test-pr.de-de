@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Benutzer- und Standortrichtlinien können gelöscht werden. Die globale Richtlinie kann nicht entfernt werden. Wenn Sie die globale Richtlinie löschen, wird die Richtlinie von Lync Server 2013 automatisch auf die Standardwerte zurückgesetzt.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie die Microsoft Exchange-Integration für Ihre Bereitstellung aktiviert haben, steuern Exchange-Richtlinien das Aktivieren der Archivierung für Benutzer, die in Exchange 2013 verwaltet werden, und legen die Postfächer auf "In-Place Hold" fest. Nähere Informationen dazu finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung beim Verwenden von Exchange Server-Integration</A>.
 
 
@@ -57,7 +57,7 @@ Archivierungsrichtlinien können auch mit Windows PowerShell und mit dem Cmdlet 
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
-Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Remove-CsArchivingPolicy](remove-csarchivingpolicy.md).
+Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy).
 
 ## Siehe auch
 

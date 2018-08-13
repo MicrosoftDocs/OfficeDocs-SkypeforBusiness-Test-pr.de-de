@@ -25,7 +25,7 @@ Während der Installation von Lync Server wird eine globale Auflistung von Konfi
 
   - Einstellungen auf globaler Ebene werden nur verwendet, wenn keine Diensteinstellungen auf dem einzelnen Server konfiguriert wurden und keine Standorteinstellungen für den Standort, an dem sich der Server befindet, vorhanden sind.
 
-Anschließend können all Ihre Einstellungen mit dem Cmdlet Set-CsAVEdgeConfiguration bearbeitet werden. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) und [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md).
+Anschließend können all Ihre Einstellungen mit dem Cmdlet Set-CsAVEdgeConfiguration bearbeitet werden. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets [New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) und [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration).
 
 ## Erstellen neuer Konfigurationseinstellungen für A/V-Edgeserver auf Standortebene
 
@@ -61,6 +61,6 @@ Anschließend können all Ihre Einstellungen mit dem Cmdlet Set-CsAVEdgeConfigur
 #### Weitere Ressourcen
 
 [A/V-Edgeserver in Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

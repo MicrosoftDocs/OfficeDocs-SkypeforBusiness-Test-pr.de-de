@@ -22,7 +22,7 @@ Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig s
 Das Cmdlet "Update-CsAddressBook" ersetzt den Befehl **abserver.exe –syncNow** aus Office Communications Server. Dieses Cmdlet wird verwendet, um eine Synchronisierung nicht erst zum geplanten Zeitpunkt, sondern umgehend auszuführen. Im ersten Beispielbefehl werden alle Adressbücher in der Organisation aktualisiert. Im zweiten Beispiel wird nur das dem angegebenen Server zugeordnete Adressbuch aktualisiert.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013 erfasst der Lync Server-Benutzerreplikationsdienst die Änderungen aus Active Directory und aktualisiert die Lync Server-Benutzerdatenbank basierend auf einem konfigurierten Intervall. Der Lync Server-Benutzerreplikationsdienst gibt die Änderungen auch schnell an die RTCab-Datenbank weiter, ohne dass der Administrator "Update-CSAddressBook" ausführen muss. Administratoren müssen "Update -CSAddressBook" nur ausführen, wenn der Adressbuch-Dateidownload aktiviert ist.
 
 
@@ -30,6 +30,8 @@ Das Cmdlet "Update-CsAddressBook" ersetzt den Befehl **abserver.exe –syncNow**
 Beispiel:
 
     Update-CsAddressBook
+
+   &nbsp;
 
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
 
@@ -39,5 +41,5 @@ Eine detaillierte Beschreibung des vollständigen Befehls finden Sie im folgende
 
 #### Weitere Ressourcen
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-06-19_
 Nach der ersten Bereitstellung und Aufnahme des Betriebs können Sie Lync Server 2013 weitere Serverrollen hinzufügen, z. B. einen Director oder einen eigenständigen Vermittlungsserver.
 
 
-> [!TIP]
+> [!NOTE]
 > Schlagen Sie vor der Installation zusätzlicher Serverrollen in den entsprechenden Planungsthemen zu den einzelnen Rollen nach.
 
 

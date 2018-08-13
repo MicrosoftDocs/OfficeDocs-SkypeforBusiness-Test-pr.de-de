@@ -45,7 +45,7 @@ Für die Remoteanrufsteuerung muss jeder Lync Server-Pool mit einem Pfad von die
       - Geben Sie für eine TCP-Verbindung (Transmission Control Protocol) den folgenden Befehl an der Eingabeaufforderung ein:
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) angeben, müssen Sie zuerst einen DNS-A-Eintrag (Domain Name System) konfigurieren.
 
         
@@ -70,6 +70,8 @@ Für die Remoteanrufsteuerung muss jeder Lync Server-Pool mit einem Pfad von die
 4.  Führen Sie einen der folgenden Befehle aus, um eine neu erstellte statische Route dauerhaft im zentralen Verwaltungsspeicher zu speichern:
     
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+
+       &nbsp;
     
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-06-13_
 Der Best Practices Analyzer von Lync Server 2013 ist ein Diagnosetool, das Konfigurationsinformationen aus Lync Server 2013-Umgebungen sammelt und feststellt, ob die Konfiguration den Microsoft Best Practices entspricht.
 
 
-> [!TIP]
+> [!NOTE]
 > Der Best Practices Analyzer von Lync Server 2013 überprüft und meldet nur mögliche Probleme bei Lync Server 2013-Komponenten. Wenn Ihre Bereitstellung Lync Server 2010- oder Office Communications Server 2007 R2-Komponenten umfasst, verwenden Sie die vorherige Version von Best Practices Analyzer, um diese Komponenten zu analysieren. Detaillierte Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Anforderungen für das Ausführen von Best Practices Analyzer</A>.
 
 

@@ -58,7 +58,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie mithilfe von SQL Server Manage
     3.  Wählen Sie unter **Mitgliedschaft in Datenbankrollen** die Berechtigung **ServerRole** aus, und klicken Sie auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie müssen den Archivierungs- oder Überwachungsdienst nicht neu starten.
 
 

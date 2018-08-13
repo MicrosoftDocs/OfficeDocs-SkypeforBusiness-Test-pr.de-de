@@ -35,7 +35,7 @@ Verwenden Sie das Cmdlet **Disable-CsAdDomain**, um die Domänenvorbereitung rü
     Falls der Parameter "Force" vorhanden ist, wird auch dann ein Rollback der Domänenvorbereitung ausgeführt, wenn in der Domäne einer oder mehrere Front-End-Server oder A/V-Konferenzserver aktiviert sind. Falls der Parameter "Force" nicht vorhanden ist, wird der Rollback der Domänenvorbereitung beendet, wenn in der Domäne Front-End-Server oder A/V-Konferenzserver aktiviert sind.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Über den Parameter "GlobalSettingsDomainController" können Sie den Speicherort der globalen Einstellungen angeben. Wenn Ihre Einstellungen im Systemcontainer gespeichert sind (dies ist bei Upgradebereitstellungen typisch, in denen die globalen Einstellungen nicht zum Konfigurationscontainer migriert wurden), definieren Sie einen Domänencontroller im Stammverzeichnis Ihrer Active Directory-Gesamtstruktur. Falls sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind, und verweist auf einen beliebigen Domänencontroller in den Active Directory-Domänendiensten (AD&nbsp;DS).
 
 

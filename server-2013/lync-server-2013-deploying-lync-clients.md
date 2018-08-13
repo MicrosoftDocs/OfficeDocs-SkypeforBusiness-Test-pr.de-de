@@ -24,7 +24,7 @@ Lync 2013 führt einen anderen Ansatz zur Client-Bereitstellung ein. Im Untersch
 Die Themen in diesem Abschnitt konzentrieren sich darauf, wie Clients mithilfe des MSI-basierten Office 2013-Installationsprogramms bereitgestellt werden können. Ihre primäre Referenz sollte die Dokumentation zum Office 2013 Resource Kit sein. Dort ist ausführlich beschrieben, wie Sie Ihre Infrastruktur vorbereiten, Setup anpassen und Office 2013 bereitstellen können. Sie sollten die Office-Dokumentation jedoch in Verbindung mit den Themen in diesem Abschnitt verwenden, da diese auf spezifische Bereitstellungsaspekte für Lync 2013 eingehen.
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Das Onlinebesprechungs-Add-In für Lync&nbsp;2013, das die Besprechungsverwaltung aus dem Outlook-Client für Messaging und Zusammenarbeit unterstützt, wird automatisch mit Lync 2013 installiert.</P>

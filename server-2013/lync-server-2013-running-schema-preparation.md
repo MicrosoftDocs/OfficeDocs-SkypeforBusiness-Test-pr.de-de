@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Für die Vorbereitung des Active Directory-Schemas können Sie Setup oder Lync Server-Verwaltungsshell-Cmdlets nutzen. Das Cmdlet für die Erweiterung des Active Directory-Schemas ist **Install-CsAdServerSchema**.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Cmdlet für die Schemavorbereitung ( <STRONG>Install-CsAdServerSchema</STRONG>) muss auf den Schemamaster zugreifen. Dazu muss der Remoteregistrierungsdienst ausgeführt werden und der Remoteregistrierungsschlüssel aktiviert sein. Falls der Remoteregistrierungsdienst nicht auf dem Schemamaster aktiviert werden kann, können Sie das Cmdlet lokal auf dem Schemamaster ausführen. Ausführliche Informationen über den Remotezugriff auf die Registrierung finden Sie im Microsoft Knowledge Base-Artikel 314837 "Steuerung des Remotezugriffs auf die Registrierung" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>.
 
 

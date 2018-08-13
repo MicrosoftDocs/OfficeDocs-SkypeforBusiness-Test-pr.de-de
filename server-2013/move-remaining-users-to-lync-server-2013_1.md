@@ -38,7 +38,7 @@ Wenn Sie einen Benutzer in einen Lync Server 2013-Pool verschieben, werden die D
 
 
 
-> [!TIP]
+> [!NOTE]
 > Das Verwalten von Benutzern in Lync Server 2013 erfordert nicht, dass Sie gleichzeitig geupgradete Clients bereitstellen. Neue Funktionen stehen den Benutzern nur dann zur Verfügung, wenn sie ein Upgrade auf die neue Clientsoftware durchgeführt haben.
 
 
@@ -51,5 +51,5 @@ Wenn Sie einen Benutzer in einen Lync Server 2013-Pool verschieben, werden die D
 
 3.  Bei Konferenzrichtlinien, die anonyme Teilnehmer zulassen, ist in der Systemsteuerung für Lync Server 2013 die Option **Teilnehmer dürfen anonyme Benutzer einladen** aktiviert und in der Ausgabe des **Get-CsConferencingPolicy** -Cmdlets in der Lync Server-Verwaltungsshell der Parameter **AllowAnonymousParticipantsInMeetings** auf **True** festgelegt.
 
-4.  Ausführliche Informationen zum Konfigurieren der Konferenzrichtlinie mithilfe der Lync Server-Verwaltungsshell finden Sie unter [Set-CsConferencingPolicy](set-csconferencingpolicy.md) in der Dokumentation zur Lync Server-Verwaltungsshell.
+4.  Ausführliche Informationen zum Konfigurieren der Konferenzrichtlinie mithilfe der Lync Server-Verwaltungsshell finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) in der Dokumentation zur Lync Server-Verwaltungsshell.
 

@@ -31,16 +31,6 @@ Die Bereitstellung eines Standard Edition-Servers in einer vorhandenen Enterpris
 
 6.  Installieren Sie einen Standard Edition-Server und richten Sie ihn ein.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Wenn Sie über eine Bereitstellung mit nur einem Standard Edition-Server verfügen, haben Sie die Einrichtung mit dem Lync Server-Bereitstellungs-Assistenten unter Verwendung des Links <strong>Vorbereiten des ersten Standard Edition-Servers</strong> durchgeführt, um die anfänglichen Datenbankdateien auf dem neuen Standard Edition-Server zu installieren. Führen Sie dieses Verfahren <strong>nicht aus</strong>, wenn Sie einen Standard Edition-Server in einer vorhandenen Lync Server 2013-Bereitstellung installieren.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+	> Wenn Sie über eine Bereitstellung mit nur einem Standard Edition-Server verfügen, haben Sie die Einrichtung mit dem Lync Server-Bereitstellungs-Assistenten unter Verwendung des Links <strong>Vorbereiten des ersten Standard Edition-Servers</strong> durchgeführt, um die anfänglichen Datenbankdateien auf dem neuen Standard Edition-Server zu installieren. Führen Sie dieses Verfahren <strong>nicht aus</strong>, wenn Sie einen Standard Edition-Server in einer vorhandenen Lync Server 2013-Bereitstellung installieren.
 

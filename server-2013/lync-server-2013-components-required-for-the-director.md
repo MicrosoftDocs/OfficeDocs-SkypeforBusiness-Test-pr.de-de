@@ -22,7 +22,7 @@ Die einzige erforderliche Komponente zum Erstellen und Konfigurieren eines Direc
 Sie können einen einzelnen Director-Server oder einen Directorpool implementieren. Der Director ist stets ein separater Server oder Pool, der nicht gemeinsam mit anderen Serverrollen in Lync Server 2013 ausgeführt wird.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie keine Directors bereitstellen, übernimmt der Front-End-Server oder der Front-End-Pool die Director-Rolle.
 
 

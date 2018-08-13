@@ -72,7 +72,7 @@ Die folgenden Benutzerkontoinformationen werden jedoch nicht auf den neuen Serve
 
   - Besprechungsinhalte, zum Beispiel PowerPoint-Präsentationen, Whiteboardinhalte und Umfragedaten
 
-Verwenden Sie zum Verschieben der Inhalte, die in Besprechungen freigegeben wurden, den Paramter "MoveMeetingContent" des Cmdlets "Move-CsUser". Ausführliche Informationen zur Verwendung dieses Cmdlets finden Sie unter [Move-CsUser](move-csuser.md) in der Lync Server 2013-Cmdlet-Dokumentation.
+Verwenden Sie zum Verschieben der Inhalte, die in Besprechungen freigegeben wurden, den Paramter "MoveMeetingContent" des Cmdlets "Move-CsUser". Ausführliche Informationen zur Verwendung dieses Cmdlets finden Sie unter [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) in der Lync Server 2013-Cmdlet-Dokumentation.
 
 ## Migrieren von Besprechungen von Office Communications Server 2007 R2
 

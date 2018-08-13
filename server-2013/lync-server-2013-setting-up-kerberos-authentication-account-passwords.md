@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2010-11-03_
 Nach dem Erstellen des Computerobjekts für das Kerberos-Authentifizierungskonto können Sie das Kennwort für das Konto einrichten. Zum Festlegen des Kennworts des Kerberos-Kontos auf einem Server führen Sie das Windows PowerShell-Cmdlet aus. Sie können das Kennwort für das Objekt festlegen, das Sie für die Kerberos-Authentifizierung erstellt haben. Das Kennwort kann auf einen bekannten Wert festgelegt werden, ist aber standardmäßig ein beliebiges Kennwort. Das Kennwort steht allen Kerberos-Authentifizierungsquellen zur Verfügung, die dieses Konto verwenden. Kerberos-Kontokennwörter werden mit Windows PowerShell-Cmdlets eingerichtet und verwaltet.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Kerberos-Kontoobjekt ist ein Computerobjekt, verwendet aber für Vorgänge in den Windows PowerShell-Cmdlets, auf die verwiesen wird, den Parameter "UserAccount". Beachten Sie, dass dies kein Fehler, sondern das beabsichtigte Verhalten des Cmdlets ist, wenn es für die Erstellung und Verwaltung von Kerberos-Konten verwendet wird.
 
 

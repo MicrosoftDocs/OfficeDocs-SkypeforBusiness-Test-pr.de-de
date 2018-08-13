@@ -19,7 +19,7 @@ Die Aufzeichnung von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfol
 
 Bei der Installation von Microsoft Lync Server 2013 wird eine einzelne, globale Auflistung von KDS-Konfigurationseinstellungen erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen für die Standortebene zu erstellen. Wenn diese Einstellungen auf Standortebene verwendet werden, haben sie Vorrang vor den globalen Einstellungen. Wenn Sie beispielsweise Einstellungen auf Standortebene für den Standort "Redmond" erstellen, werden diese Einstellung (anstelle der globalen Einstellungen) für die KDS-Verwaltung in Redmond verwendet.
 
-KDS-Konfigurationseinstellungen können Sie mit der Lync Server-Systemsteuerung oder dem [New-CsCdrConfiguration](new-cscdrconfiguration.md)-Cmdlet erstellen. Mit der Lync Server-Systemsteuerung oder dem [Set-CsCdrConfiguration](set-cscdrconfiguration.md)-Cmdlet können Sie vorhandene Einstellungen ändern. Falls Sie die Lync Server-Systemsteuerung zum Erstellen oder Ändern von Einstellungen verwenden, sind die folgenden Optionen verfügbar:
+KDS-Konfigurationseinstellungen können Sie mit der Lync Server-Systemsteuerung oder dem [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration)-Cmdlet erstellen. Mit der Lync Server-Systemsteuerung oder dem [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration)-Cmdlet können Sie vorhandene Einstellungen ändern. Falls Sie die Lync Server-Systemsteuerung zum Erstellen oder Ändern von Einstellungen verwenden, sind die folgenden Optionen verfügbar:
 
 
 <table>
@@ -66,8 +66,8 @@ KDS-Konfigurationseinstellungen können Sie mit der Lync Server-Systemsteuerung 
 
 
 
-> [!TIP]
-> Die neuen Cmdlets New-CsCdrConfiguration und Set-CsCdrConfiguration enthalten zusätzliche Optionen, die in der Lync Server-Systemsteuerung nicht verfügbar sind. Weitere Informationen finden Sie in den Hilfethemen <A href="new-cscdrconfiguration.md">New-CsCdrConfiguration</A> und <A href="set-cscdrconfiguration.md">Set-CsCdrConfiguration</A>.
+> [!NOTE]
+> Die neuen Cmdlets New-CsCdrConfiguration und Set-CsCdrConfiguration enthalten zusätzliche Optionen, die in der Lync Server-Systemsteuerung nicht verfügbar sind. Weitere Informationen finden Sie in den Hilfethemen <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A>.
 
 
 
@@ -111,5 +111,5 @@ KDS-Konfigurationseinstellungen können auch mit der Windows PowerShell und mit 
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-Weitere Informationen finden Sie im Hilfethema für das [New-CsCdrConfiguration](new-cscdrconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration)-Cmdlet.
 

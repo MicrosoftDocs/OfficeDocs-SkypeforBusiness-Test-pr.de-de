@@ -38,7 +38,7 @@ Darüber hinaus erstellt der Installer für das kumulative Update für Lync Serv
   - Auf Front-End-Servern oder Standard Edition-Servern und auf Directors, damit mobile Geräte automatisch Mobilitätsressourcen ermitteln können
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Mobilität bereitstellen, wird empfohlen, IIS 7.5 zu verwenden. Der Lync Server-Mobilitätsdienst-Installer legt zur Leistungsverbesserung einige der ASP.NET-Kennzeichen fest. IIS 7.5 ist standardmäßig unter Windows Server 2008 R2 installiert, und der Mobilitätsdienst-Installer ändert die ASP.NET-Einstellungen automatisch. Wenn Sie IIS 7.0 unter Windows Server 2008 verwenden, müssen Sie diese Einstellungen manuell ändern.
 
 
@@ -166,7 +166,7 @@ In der folgenden Tabelle werden die URIs für die virtuellen Verzeichnisse zum i
 
 
 
-> [!TIP]
+> [!NOTE]
 > Bei Front-End-Pools in einer konsolidierten Konfiguration müssen Sie IIS bereitstellen, bevor Sie dem Pool Server hinzufügen können.
 
 

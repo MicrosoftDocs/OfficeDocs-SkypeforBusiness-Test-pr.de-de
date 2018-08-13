@@ -160,7 +160,7 @@ Im Hinblick auf Gerätenamen ist der Gerätebericht besonders detailliert. Beisp
   - Aastra 6725ip-Mikrofon (USB-Audiogerät)-V0
 
 
-> [!TIP]
+> [!NOTE]
 > Beachten Sie, dass die Namen der Aufnahmegeräte abweichen können, wenn Sie lokalisierte Versionen von Lync Server 2013 verwenden. Ein Gerät namens Aastra 6725ip-Mikrofon (Aastra 6725ip)-V0 hat wahrscheinlich auf Französisch oder Spanisch eine andere Bezeichnung.
 
 

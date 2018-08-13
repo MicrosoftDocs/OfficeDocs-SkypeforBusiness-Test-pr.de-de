@@ -20,7 +20,7 @@ In Lync Server 2013 ist es mit dem Server für beständigen Chat möglich, dass 
 Der Inhalt von Beständiger Chat-Rooms besteht primär aus kurzen Textnachrichten, obwohl auch längere Nachrichten enthalten sein können, die als *Textabschnitte* bezeichnet werden, sowie Hyperlinks, Emoticons und hochgeladene Dokumente.
 
 
-> [!TIP]
+> [!NOTE]
 > Dateiuploads und -downloads werden vom Lync 2013-Client nicht unterstützt. Dies wird in Lync Server 2013 jedoch weiterhin vom Server für beständigen Chat unterstützt. Der alte Gruppenchat-Client kann Dateien zwar veröffentlichen und anzeigen, wenn aber derselbe Chatroom über den Lync 2013-Client betreten wird, ist ein Dateizugriff nicht möglich.
 
 

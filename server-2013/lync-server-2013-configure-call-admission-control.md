@@ -26,7 +26,7 @@ In diesem Abschnitt werden Beispielverfahren bereitgestellt, um die Bereitstellu
 
 
 
-> [!TIP]
+> [!NOTE]
 > Alle Beispiele für die Bereitstellung und Verwaltung der Anrufsteuerung in diesem Abschnitt werden unter Verwendung der Lync Server-Verwaltungsshell ausgeführt. Alternativ dazu können Sie auch den Abschnitt <STRONG>Netzwerkkonfiguration</STRONG> der Lync Server-Systemsteuerung verwenden, um die Anrufsteuerung zu verwalten.
 
 

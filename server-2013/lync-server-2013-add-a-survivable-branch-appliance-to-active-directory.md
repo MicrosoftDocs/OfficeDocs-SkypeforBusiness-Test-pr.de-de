@@ -36,7 +36,7 @@ Wenn Sie die Bereitstellung einer Survivable Branch-Anwendung planen, müssen Si
 5.  Fügen Sie im Dialogfeld **Benutzer oder Gruppe auswählen** die Gruppe "RTCUniversalSBATechnicians" hinzu, und klicken Sie auf **OK** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ein Mitglied der Gruppe "RTCUniversalSBATechnicians" am Zweigstellenstandort wird dieses Gerät später der Domäne hinzufügen.
 
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 Nachdem Sie die Installation des Lync Server 2013, Planungstools abgeschlossen haben, können Sie das Planungstool starten und mit dem Entwerfen der vorgeschlagenen Lync Server 2013-Infrastruktur beginnen.
 
 
-> [!TIP]
+> [!NOTE]
 > Das Planungstool ist ein assistentengestütztes Tool mit ausführlichen Handbüchern, um Sie beim Entscheidungsprozess beim Entwerfen Ihrer Websites und Topologie zu unterstützen. Dieses Thema ist nicht als vollständige Anleitung gedacht, sondern soll Sie lediglich bei den ersten Schritten bei der Verwendung des Planungstool bei Ihren Entwurfssitzungen unterstützen.
 
 
@@ -50,7 +50,7 @@ Nachdem Sie die Installation des Lync Server 2013, Planungstools abgeschlossen 
 6.  Klicken Sie auf **Standorte entwerfen** , um Ihren zentraler Standort zu definieren.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jede Lync Server 2013-Topologie verfügt über mindestens einen zentraler Standort. Ihr Entwurf kann einen einzelnen zentraler Standort, einen zentraler Standort mit mehreren Zweigstellenstandorten, mehrere zentrale Standorte oder mehrere zentrale Standorte mit Zweigstellenstandorten aufweisen, die dem jeweiligen zentraler Standort zugeordnet sind.
 
 

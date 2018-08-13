@@ -45,9 +45,9 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 <tr class="odd">
 <td><p><strong>Installieren der erforderlichen Hardware und Software</strong></p></td>
 <td><p>Konferenzen werden auf Front-End-Servern in einem Front-End-Pool und auf Standard Edition-Servern ausgeführt. Es bestehen keine zusätzlichen Hardware- oder Softwareanforderungen, die die Installationsanforderungen für diese Server übersteigen.</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 nutzt Office Web Apps und den Office Web Apps-Server, um die Freigabe und das Rendern von PowerPoint-Präsentationen durchzuführen. Informationen zur Installation und Konfiguration von Office Web Apps-Server finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013</A>.
 
 
@@ -81,8 +81,7 @@ Lync Server 2013 besitzt nun die Einstellung **MaxUploadFileSizeMb**, mit der di
 **MaxUploadFileSizeMb** nimmt keine Beschränkung der Einstellung für das Hochladen von Dateien der Lync Web App vor. Der Grenzwert für die Größe hochgeladener Dateien ist in der Lync Web App auf rund 30 MB festgelegt und wird über die IIS "web.config"-Datei gesteuert: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Zur Konfiguration des Grenzwerts für die Größe hochgeladener Dateien für die Lync Web App müssen Sie in der Datei "web.config" `maxRequestLength` und `maxAllowedContentLength` wie im Folgenden dargestellt aktualisieren.
 
     <system.web>
-        <!-- 
-            Since this handler is used to upload files to DMCU the request size (in kilobytes) 
+        <!-- Since this handler is used to upload files to DMCU the request size (in kilobytes) 
             has to fit max allowed file size uploaded by LWA client.
             The timeout has to reflect the min client bandwidth. Timeout of 600 secs 
             and 512 Kbits of *client* bandwidth would result into aproximately 30 Mbytes 

@@ -42,7 +42,7 @@ Mit dem erweiterten Datenschutzmodus für Anwesenheitsinformationen können die 
 
 #### Weitere Ressourcen
 
-[Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)  
-[New-CsPrivacyConfiguration](new-csprivacyconfiguration.md)  
-[Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+[Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPrivacyConfiguration)  
+[Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 

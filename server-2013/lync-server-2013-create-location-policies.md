@@ -101,7 +101,7 @@ Ausführliche Informationen zum Arbeiten mit Ortungsrichtlinien finden Sie in de
 1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei Ausführung von "CsLocationPolicy" tritt ein Fehler auf, wenn sich die Einstellung für <STRONG>PstnUsage</STRONG> nicht bereits in der globalen Liste "PstnUsages" befindet.
 
 

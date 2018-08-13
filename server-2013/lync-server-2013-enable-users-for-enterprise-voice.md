@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 Nachdem Sie Dateien für einen oder mehrere Vermittlungsserver installiert, das Routing ausgehender Anrufe konfiguriert und optional eine oder mehrere erweiterte Enterprise-VoIP-Features bereitgestellt haben, können Sie die folgenden Schritte ausführen, um festzulegen, dass ein Benutzer Anrufe mit Enterprise-VoIP ausführen kann:
 
 
-> [!TIP]
+> [!NOTE]
 > Von den nachfolgend beschriebenen Verfahren kann nur das erste mit der Lync Server-Systemsteuerung ausgeführt werden. Die weiteren Verfahren können nur mit der Lync Server-Verwaltungsshell ausgeführt werden.
 
 

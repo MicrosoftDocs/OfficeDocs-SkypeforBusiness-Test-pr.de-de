@@ -20,7 +20,7 @@ Sie können die Funktionen von System Center Operations Manager erweitern, indem
   - Mit dem Component and User Management Pack (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) werden Lync Server-Probleme nachverfolgt, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in Kommunikationsdatensatz- (KDS) und QoE-Datenbanken protokolliert sind. Für schwerwiegende Probleme kann der System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per E-Mail, Sofortnachricht oder SMS benachrichtigt werden. Mit der SMS-Technologie werden Textnachrichten von einem mobilen Gerät zu einem anderen gesendet.)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zur Konfiguration von Operations Manager-Benachrichtigungen finden Sie im Artikel "Benachrichtigungen konfigurieren" in der TechNet-Bibliothek unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x407">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x407</A>.
 
 
@@ -32,7 +32,7 @@ Sie müssen die Management Packs importieren. Wenn Sie die Management Packs nich
 Das Component and User Management Pack wird nur verwendet, um Lync Server 2013 zu überwachen. Wenn Sie sich in einem Koexistenzszenario befinden, wo sowohl Lync Server 2013 als auch Lync Server 2010 installiert sind, sollten Sie weiterhin die Management Packs von Lync Server 2010 für Ihre Lync Server 2010-Computer verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Management Packs für Lync Server 2010 enthalten das Monitoring Management Pack von Lync Server 2010 sowie das Group Chat Monitoring Management Pack von Lync Server 2010.
 
 

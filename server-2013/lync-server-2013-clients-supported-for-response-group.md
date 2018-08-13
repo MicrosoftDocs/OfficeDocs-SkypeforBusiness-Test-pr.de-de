@@ -28,7 +28,7 @@ Die Reaktionsgruppenanwendung unterstützt die folgenden Clients:
   - Lync Phone Edition
 
 
-> [!TIP]
+> [!NOTE]
 > Die Reaktionsgruppenanwendung wird nicht auf mobilen Lync-Clients unterstützt.
 
 

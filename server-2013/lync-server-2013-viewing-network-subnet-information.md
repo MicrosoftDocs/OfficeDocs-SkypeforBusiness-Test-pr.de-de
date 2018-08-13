@@ -28,7 +28,7 @@ Mit dem folgenden Verfahren können Sie ein Netzwerksubnetz anzeigen. In Lync Se
 4.  Klicken Sie auf der Seite **Subnetz** auf das Subnetz, das Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können nur jeweils ein Subnetz anzeigen.
 
 
@@ -53,7 +53,7 @@ Netzwerksubnetzinformationen können auch mit Lync Server PowerShell und dem Get
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkSubnet](get-csnetworksubnet.md).
+Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
 
 ## Siehe auch
 

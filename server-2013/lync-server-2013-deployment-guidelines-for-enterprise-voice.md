@@ -32,7 +32,7 @@ Für ein optimales Ergebnis stellen Sie beim Bereitstellen von Enterprise-VoIP s
   - Für jeden Benutzer, für den Enterprise-VoIP aktiviert werden soll, wurde eine eindeutige primäre Rufnummer festgelegt, normalisiert und in das Attribut **msRTCSIP-line** kopiert.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Lync Server unterstützt E.164-Nummern und Nicht-DID-Nummern (Direct Inward Dialing). Nicht-DID-Nummern können im Format <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> oder als Ziffernfolge dargestellt werden. Dabei gilt die Anforderung, dass die private Durchwahl im Unternehmen eindeutig ist. Die private Nummer&nbsp;1001 kann z.&nbsp;B. als <STRONG>+1425550100;ext=1001</STRONG> oder als <STRONG>1001</STRONG> dargestellt werden. Bei Darstellung als <STRONG>1001</STRONG> wird vorausgesetzt, dass die private Nummer im Unternehmen eindeutig ist.
 
 
@@ -49,11 +49,9 @@ Für ein optimales Ergebnis stellen Sie beim Bereitstellen von Enterprise-VoIP s
     
       - Es muss eines der folgenden Betriebssysteme ausgeführt werden:
         
-          -   
-            Die 64-Bit-Version von Windows Server 2008 Standard
+          - Die 64-Bit-Version von Windows Server 2008 Standard
         
-          -   
-            Die 64-Bit-Version von Windows Server 2008 Enterprise
+          - Die 64-Bit-Version von Windows Server 2008 Enterprise
 
   - Wenn die Verbindung zum Telefonfestnetz (Public Switched Telephone Network, PSTN) oder zu einer Nebenstellenanlage (Private Branch Exchange, PBX) per TDM-Verbindung (Time Division Multiplexing) erfolgt, stehen für die Bereitstellung ein oder mehrere PSTN-Gateways zur Verfügung. (Falls die Verbindung über einen SIP-Trunk hergestellt wird, ist kein PSTN-Gateway erforderlich.)
 

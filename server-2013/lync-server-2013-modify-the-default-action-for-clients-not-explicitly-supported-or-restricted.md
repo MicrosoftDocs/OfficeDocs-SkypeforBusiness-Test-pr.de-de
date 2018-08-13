@@ -61,7 +61,7 @@ Die Standardaktion für die Anmeldung von Benutzern bei Clients, die nicht expli
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-Weitere Informationen finden Sie im Hilfethema für das [Set-CsClientVersionPolicy](set-csclientversionpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy)-Cmdlet.
 
 ## Siehe auch
 

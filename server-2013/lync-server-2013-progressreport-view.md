@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Die ProgressReport-Ansicht speichert Informationen über abgeschlossene Sitzungen. Fortschrittsberichte werden nur für Anrufe geschrieben und für Sitzungen, die Lync Server 2013 als hilfreich für Diagnosezwecke ermittelt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Felder "ErrorTime", "ErrorReportSeq" und "ProgressReportSeq" verweisen nicht zwangsläufig auf Fehler, aber zu Meldungen, die den Status von Anrufen oder Nachrichten angeben.
 
 

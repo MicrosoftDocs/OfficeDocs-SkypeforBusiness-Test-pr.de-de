@@ -60,9 +60,9 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 <li><p>Wenn Sie eine Microsoft Exchange-Integration (Verwendung von Exchange 2013 als Archivierungsspeicher für einen oder alle Benutzer) verwenden möchten, benötigen Sie eine bestehende Exchange 2013-Bereitstellung.</p></li>
 <li><p>Wenn Sie separate Archivierungsdatenbanken (Verwendung von SQL Server-Datenbanken) als Archivierungsspeicher für einige oder alle Benutzer verwenden möchten, muss SQL Server auf dem Server ausgeführt werden, auf dem die Archivierungsdaten gespeichert werden.</p></li>
 </ul>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Die Archivierung wird auf Front-End-Servern in einem Enterprise-Pool und Standard Edition-Servern ausgeführt. Abgesehen von den herkömmlichen Anforderungen zur Installation dieser Server bestehen keine zusätzlichen Hardware- oder Softwareanforderungen.
 
 

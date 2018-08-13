@@ -31,7 +31,7 @@ Nachdem Sie Enterprise-VoIP bereitgestellt und Netzwerkstandorte konfiguriert ha
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-Weitere Informationen hierzu finden Sie unter [New-CsVoiceRoutingPolicy](new-csvoiceroutingpolicy.md).
+Weitere Informationen hierzu finden Sie unter [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy).
 
 Für dieses Beispiel werden in der folgenden Tabelle und in den folgenden Windows PowerShell-Befehlen zwei VoIP-Routingrichtlinien und deren zugehörige PSTN-Verwendungen veranschaulicht, die in diesem Szenario definiert sind. Für diese Veranschaulichung werden in der Tabelle nur die Einstellungen aufgeführt, die zum standortbasierten Routing gehören.
 
@@ -123,7 +123,7 @@ Bevor eine Trunkkonfiguration für standortbasiertes Routing aktiviert werden ka
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-Weitere Informationen hierzu finden Sie unter [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Weitere Informationen hierzu finden Sie unter [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 Für dieses Beispiel wird mit den folgenden Windows PowerShell-Befehlen veranschaulicht, wie in der Bereitstellung, die in diesem Szenario definiert ist, eine Trunkkonfiguration für jeden Trunk erstellt wird.
 
@@ -136,7 +136,7 @@ Sobald es für jeden Trunk eine Trunkkonfiguration gibt, können Sie mit dem Lyn
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-Weitere Informationen hierzu finden Sie unter [New-CsTrunkConfiguration](new-cstrunkconfiguration.md).
+Weitere Informationen hierzu finden Sie unter [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 In diesem Beispiel wird standortbasiertes Routing für jeden Trunk aktiviert, der dem PSTN-Gateway in Delhi oder Hyderabad zugewiesen ist:
 
@@ -201,7 +201,7 @@ Wenn Sie standortbasiertes Routing zu bestimmten Benutzern aktivieren möchten, 
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-Weitere Informationen hierzu finden Sie unter [New-CsVoicePolicy](new-csvoicepolicy.md).
+Weitere Informationen hierzu finden Sie unter [New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy).
 
 Für dieses Beispiel wird in der folgenden Tabelle und in den folgenden Windows PowerShell-Befehlen veranschaulicht, wie ein Verhindern von PSTN-Gebührenumgehung für die Delhi- und Hyderabad-VoIP-Routingrichtlinien aktiviert wird, die in diesem Szenario definiert sind. Für diese Veranschaulichung werden in der Tabelle nur die Einstellungen aufgeführt, die zum standortbasierten Routing gehören.
 
@@ -249,10 +249,10 @@ Aktivieren Sie schließlich standortbasiertes Routing global für Ihre Routingko
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-Weitere Informationen hierzu finden Sie unter [Set-CsRoutingConfiguration](set-csroutingconfiguration.md).
+Weitere Informationen hierzu finden Sie unter [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
 
-> [!TIP]
+> [!NOTE]
 > Auch wenn standortbasiertes Routing über eine globale Konfiguration aktiviert werden muss, werden die anzuwendenden Regeln nur für die Standorte, Benutzer und Trunks durchgesetzt, für die die Konfiguration gemäß den Angaben in dieser Dokumentation erstellt wurde.
 
 

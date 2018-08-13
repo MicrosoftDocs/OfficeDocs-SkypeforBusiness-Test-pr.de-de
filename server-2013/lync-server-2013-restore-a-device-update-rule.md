@@ -40,7 +40,7 @@ Sie können eine Geräteupdateregel entweder mithilfe der Lync Server-Systemsteu
 Geräteupdateregeln können auch mit der Windows PowerShell und dem **Restore-CsDeviceUpdateRule**-Cmdlet wiederhergestellt werden. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -57,5 +57,5 @@ Geräteupdateregeln können auch mit der Windows PowerShell und dem **Restore-Cs
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Restore-CsDeviceUpdateRule](restore-csdeviceupdaterule.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Restore-CsDeviceUpdateRule).
 

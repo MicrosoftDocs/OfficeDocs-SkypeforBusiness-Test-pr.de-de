@@ -81,7 +81,7 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 <li><p>50% der Kontakte befinden sich innerhalb der Organisation. 10 % dieser Benutzer sind Remotebenutzer, die sich von außerhalb der Firewall verbinden.</p></li>
 <li><p>40 % der Kontakte sind Benutzer einer öffentlichen Cloud (z. B. Benutzer von AOL, Yahoo!, MSN oder Google Talk).</p></li>
 <li><p>10% der Kontakte sind Benutzer von Verbundpartnern.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > <UL>
@@ -244,9 +244,9 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 <td><p>Medienmix für Konferenzen</p></td>
 <td><p>Bei 75 % der Konferenzen handelt es sich um Webkonferenzen mit Audio sowie einigen anderen Methoden für die Zusammenarbeit.</p>
 <p>Für diesen Konferenzen werden die folgenden weiteren Methoden für die Zusammenarbeit genutzt:</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Die Summe dieser Zahlen beträgt mehr als 100&nbsp;%, da in einer Konferenz mehrere Methoden zur Zusammenarbeit verwendet werden können.
 
 

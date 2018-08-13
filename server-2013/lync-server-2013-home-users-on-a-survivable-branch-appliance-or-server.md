@@ -30,7 +30,7 @@ Das Verwalten von Benutzern auf einer Survivable Branch-Anwendung oder einem Sur
 2.  Führen Sie in der Lync Server-Verwaltungsshell das **Move-CsUser**-Cmdlet aus, um Benutzer zu verschieben.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können auch die Lync Server-Systemsteuerung verwenden, um die Voraussetzungen zu überprüfen und Benutzer zu platzieren.
 
 
@@ -39,8 +39,8 @@ Das Verwalten von Benutzern auf einer Survivable Branch-Anwendung oder einem Sur
 
 #### Weitere Ressourcen
 
-[Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)  
-[Get-CsVoicePolicy](get-csvoicepolicy.md)  
-[Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)  
-[Move-CsUser](move-csuser.md)
+[Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall)  
+[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
 

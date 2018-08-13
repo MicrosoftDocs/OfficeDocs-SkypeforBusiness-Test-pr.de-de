@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Lync Server unterstützt alle in der folgenden Tabelle aufgeführten Telefone. Beachten Sie, dass nicht alle unterstützten Telefone Lync Phone Edition ausführen können (einige können nur frühere Versionen ausführen). In der Tabelle erfahren Sie, welche Telefone Lync Phone Edition ausführen können und wo Sie ausführliche Informationen zu allen unterstützten Telefonen finden.
 
 
-> [!TIP]
+> [!NOTE]
 > Es werden drei Telefontypen unterstützt: Tischtelefone (Handset-IP-Telefone oder USB-Geräte, die Mitarbeiter am Schreibtisch nutzen), Konferenzgeräte (IP- oder USB-Telefone mit Freisprechvorrichtung, die zur Verwendung in Besprechungsräumen entworfen sind) und analoge Telefone (IP-Telefone, die zur Verwendung in gemeinschaftlich verwendeten Bereichen gedacht sind – z. B. Lobby, Küche, Werkhallen und gemeinsam verwendete Arbeitsbereiche – und für verschiedene Lync Phone Edition-Funktionen angepasst werden können.
 
 
@@ -95,7 +95,7 @@ Detaillierte Vergleichstabellen aller Geräte, die für die Arbeit mit Lync opti
 
 
 
-> [!TIP]
+> [!NOTE]
 > Es werden auch Analoggeräte unterstützt. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x407">Planen der Bereitstellung von analogen Geräten</A> in der Lync Server 2010 TechNet-Bibliothek. (Lync Phone Edition arbeitet in Lync Server 2013 und Lync Server 2010 auf die gleiche Weise).
 
 

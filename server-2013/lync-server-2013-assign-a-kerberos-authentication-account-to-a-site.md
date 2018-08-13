@@ -28,17 +28,21 @@ Nach der Erstellung des Kerberos-Kontos müssen Sie dieses einem Standort zuweis
 3.  Führen Sie an der Befehlszeile die folgenden zwei Befehle aus:
     
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
+        
+       &nbsp;
     
         Enable-CsTopology
     
     Beispiel:
     
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+
+       &nbsp;
     
         Enable-CsTopology
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie müssen den Parameter "UserAccount" im Format "Domäne\Benutzer" angeben. Das Format "Benutzer@Domäne.Erweiterung" wird zur Referenzierung der für die Kerberos-Authentifizierung erstellten Computerobjekte nicht unterstützt.
 
     

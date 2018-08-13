@@ -213,7 +213,7 @@ Sie müssen nicht nur die Portanforderungen für die interne Lync Server 2013-Ko
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie einen Verbund mit Partnern benötigen, die Office Communications Server 2007 ausführen, müssen Sie die eingehenden/ausgehenden RTP/UDP- und RTP/TCP-Ports 50000-59999 öffnen. Weitere Informationen zu A/V-Firewallanforderungen finden Sie unter <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013</A>. Weitere Informationen zu Ports und Protokollen finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Portzusammenfassung für skalierte konsolidierte Edgetopologie mit Hardwareastenausgleich in Lync Server 2013</A>.
 
 

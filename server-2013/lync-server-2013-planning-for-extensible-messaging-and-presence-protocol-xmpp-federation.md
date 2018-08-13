@@ -43,7 +43,7 @@ Die Bereitstellung und Konfiguration von XMPP wird unter [Bereitstellen des Zugr
 #### Weitere Ressourcen
 
 [Verwalten von XMPP-Verbundpartnern für Ihre Organisation in Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Get-CsXmppAllowedPartner](get-csxmppallowedpartner.md)  
-[Get-CsXmppGatewayConfiguration](get-csxmppgatewayconfiguration.md)
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-CsXmppAllowedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppAllowedPartner)  
+[Get-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppGatewayConfiguration)
 

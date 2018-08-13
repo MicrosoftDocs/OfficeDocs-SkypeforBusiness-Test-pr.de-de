@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben, das Sie als Grundlage für die Anforderungen bei der Kapazitätsplanung verwenden können.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei den Zahlen in der folgenden Tabelle wird davon ausgegangen, dass Sie 16-kHz-, Mono-, 16-Bit-WAV-Dateien für alle Audiodateien für Reaktionsgruppen verwenden. Wenn Sie andere Dateiformate, z.&nbsp;B. Windows Media Audio (WMA), einsetzen, können die Zahlen abweichen.
 
 

@@ -26,7 +26,7 @@ Zur Konfiguration der Standortdatenbank führen Sie die folgenden Aufgaben aus:
 3.  Veröffentlichen Sie die aktualisierte Datenbank.
 
 
-> [!TIP]
+> [!NOTE]
 > Alternativ können Sie eine sekundäre Standortdatenbank definieren, die anstelle der Standortdatenbank verwendet wird. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configure-a-secondary-location-information-service.md">Konfigurieren eines sekundären Standortinformationsdiensts in Lync Server 2013</A>.
 
 

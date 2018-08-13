@@ -19,13 +19,13 @@ Regionen in einem Netzwerk sind über physische WAN-Verbindungen miteinander ver
 
 Ausführliche Informationen zum Arbeiten mit Netzwerkregionenverbindungen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für die folgenden Cmdlets:
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
-  - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
+  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)
+  - [Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)
 
-  - [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)
+  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)
 
 Die Beispieltopologie weist eine Verbindung zwischen den Regionen "North America" und "APAC" sowie zwischen den Regionen "EMEA" und "APAC" auf. Jede dieser Regionenverbindungen wird durch die WAN-Bandbreite beschränkt, wie beschrieben in der Tabelle "Bandbreiteninformationen zur Regionenverbindungen" im Abschnitt [Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 
@@ -36,6 +36,8 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen "North America
 2.  Führen Sie das Cmdlet "New-CsNetworkRegionLink" aus, um die Regionenverbindungen zu erstellen und geeignete Bandbreitenrichtlinienprofile anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
     
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
+
+       &nbsp;
     
         New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
 
@@ -58,7 +60,7 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen "North America
 8.  Klicken Sie optional auf **Bandbreitenrichtlinie**, und wählen Sie das Bandbreitenrichtlinienprofil aus, das Sie auf die Netzwerkregionenverbindung anwenden möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenden Sie nur dann eine Bandbreitenrichtlinie an, wenn die Netzwerkregionenverbindung eine Bandbreiteneinschränkung aufweist und Sie die Anrufsteuerung verwenden möchten, um den Mediendatenverkehr in dieser Verbindung zu steuern.
 
 

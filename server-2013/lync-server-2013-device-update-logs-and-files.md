@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 Geräteupdateprotokolle enthalten wichtige Informationen zur Verwaltung und Problembehandlung des Geräteaktualisierungswebdiensts. Sie können ändern, welche Informationen protokolliert werden, und Geräteprotokolle und -updates entfernen, die Sie nicht verwenden möchten oder nicht mehr benötigen. In diesem Abschnitt wird beschrieben, wie Sie die Lync Server-Systemsteuerung oder die Lync Server-Verwaltungsshell verwenden können, um Protokollierungseinstellungen zu ändern, das Geräteupdateprotokoll zu löschen oder Protokolldateien vom Server zu entfernen.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu Geräteupdateprotokoll-Dateien finden Sie unter <A href="http://technet.microsoft.com/de-de/library/gg398250(v=ocs.14).aspx">Protokolldateiarten und -speicherorte</A> in der Lync Server 2010-TechNet Library. (Beachten Sie, dass sich die Funktionsweise von Geräteaktualisierungswebdienst (wie von allen Lync Phone Edition-Komponenten) in Lync Server 2013 und Lync Server 2010 nicht unterscheidet.)
 
 

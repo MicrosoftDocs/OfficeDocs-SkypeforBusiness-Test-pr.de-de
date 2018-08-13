@@ -32,7 +32,7 @@ Sie können Server für beständigen Chat in einem Pool mit einem einzelnen Serv
 Ab sofort wird für neue Lync Server 2013-Bereitstellungen auch Server für beständigen Chat unter Standard Edition-Server unterstützt. Allerdings kann dies zu einer Beeinträchtigung bei der Leistung und Skalierung führen. Da für diese neue Bereitstellung keine Option mit hoher Verfügbarkeit besteht, empfehlen wir die Verwendung dieser Option in erster Linie für Machbarkeitsstudien, für Bewertungen usw.
 
 
-> [!TIP]
+> [!NOTE]
 > Zusätzliche Informationen zu beiden Topologien finden Sie unter <A href="lync-server-2013-planning-for-persistent-chat-server.md">Planen für den Server für beständigen Chat in Lync Server 2013</A> in dieser Dokumentation und unter <A href="lync-server-2013-deploying-persistent-chat-server.md">Bereitstellen des Servers für beständigen Chat in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

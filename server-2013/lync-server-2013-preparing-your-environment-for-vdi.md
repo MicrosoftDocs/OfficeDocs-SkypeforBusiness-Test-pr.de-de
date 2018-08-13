@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
 Für die Vorbereitung der Umgebung für das VDI-Plug-In für Lync muss der Administrator die folgenden Schritte ausführen.
 
-1.  Stellen Sie in Lync Server 2013 sicher, dass "EnableMediaRedirection" für alle VDI-Benutzer auf TRUE festgelegt ist. Genauere Informationen finden Sie in den Hilfethemen zum [New-CsClientPolicy](new-csclientpolicy.md)-Cmdlet und [Set-CsClientPolicy](set-csclientpolicy.md)-Cmdlet.
+1.  Stellen Sie in Lync Server 2013 sicher, dass "EnableMediaRedirection" für alle VDI-Benutzer auf TRUE festgelegt ist. Genauere Informationen finden Sie in den Hilfethemen zum [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)-Cmdlet und [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy)-Cmdlet.
 
 2.  Installieren Sie auf dem Rechenzentrumcomputer den Lync 2013-Client auf allen virtuellen Computern.
 

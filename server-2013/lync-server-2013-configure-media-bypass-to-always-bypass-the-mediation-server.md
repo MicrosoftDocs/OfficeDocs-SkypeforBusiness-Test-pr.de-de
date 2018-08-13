@@ -16,7 +16,7 @@ ms.translationtype: HT
 _**Letztes Änderungsdatum des Themas:** 2013-02-25_
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie die Medienumgehung für Trunkverbindungen mit einem Peer (PSTN-Gateway, IP-Nebenstellenanlage oder Session Border Controller [SBC] des Anbieters von Internettelefoniediensten [Internet Telephony Service Provider, ITSP]) bereits für einen bestimmten Standort oder Dienst konfiguriert haben, für den die Medienverarbeitung durch den Vermittlungsserver umgangen werden soll.<BR>Sie können keine dauerhafte Umgehung der Mediendatenverarbeitung durch den Vermittlungsserver konfigurieren, wenn Sie gleichzeitig die Anrufsteuerung (Call Admission Control, CAC) aktivieren. Diese Einstellungen sind inkompatibel, und deshalb schließen sich die Einstellungen in der Lync Server-Systemsteuerung gegenseitig aus.
 
 

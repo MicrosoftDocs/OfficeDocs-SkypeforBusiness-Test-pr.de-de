@@ -42,7 +42,7 @@ Führen Sie die Schritte in diesem Abschnitt aus, um Zertifikate für die intern
 Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edgetopologie mit mehreren Standorten) oder falls Sie separate Gruppen von Edgeservern hinter verschiedenen Hardwaregeräten zum Lastenausgleich bereitstellen, müssen Sie diese Schritte für jeden Standort, der über Edgeserver verfügt, sowie für jede Gruppe von Edgeservern, die hinter einem Hardwaregerät zum Lastenausgleich bereitgestellt wird, separat ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Schritte für die Verfahren in diesem Abschnitt basieren auf der Verwendung einer Windows Server&nbsp;2008-, Windows Server&nbsp;2008&nbsp;R2-, Windows Server 2012- oder Windows Server 2012 R2-Zertifizierungsstelle zum Erstellen eines Zertifikats für jeden Edgeserver. Eine Schritt-für-Schritt-Anleitung für andere Zertifizierungsstellen finden Sie in der Dokumentation für die jeweilige Zertifizierungsstelle. Standardmäßig besitzen alle authentifizierten Benutzer die entsprechenden Benutzerrechte zum Anfordern von Zertifikaten.<BR>Die Verfahren in diesem Abschnitt basieren auf der Erstellung von Zertifikatanforderungen auf dem Edgeserver im Rahmen des Edgeserver-Bereitstellungsprozesses. Zertifikatanforderungen können mithilfe des Front-End-Servers erstellt werden. Dies ist möglich, um die Zertifikatanforderung zu einem frühen Zeitpunkt im Planungs- und Bereitstellungsprozess vor der Bereitstellung der Edgeserver abzuschließen. Hierzu müssen Sie sicherstellen, dass das angeforderte Zertifikat mit einem exportierbaren privaten Schlüssel definiert ist.<BR>Die Verfahren in diesem Abschnitt beschreiben die Verwendung einer CER- und einer P7B-Datei für das Zertifikat. Wenn Sie einen anderen Dateityp verwenden, ändern Sie diese Verfahren entsprechend ab.
 
 
@@ -60,7 +60,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
         https://ca01.contoso.net/certsrv
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie eine Windows Server&nbsp;2008- oder Windows Server&nbsp;2008&nbsp;R2-Unternehmenszertifizierungsstelle verwenden, müssen Sie "https" anstelle von "http" einsetzen.
 
 
@@ -74,7 +74,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
 6.  Speichern Sie die P7B-Datei auf der Festplatte auf dem Server, und kopieren Sie die Datei dann in einen Ordner auf jedem Edgeserver.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die P7B-Datei enthält alle Zertifikate, die sich unter dem Zertifizierungspfad befinden. Zum Anzeigen des Zertifizierungspfads öffnen Sie das Serverzertifikat, und klicken Sie auf den Zertifizierungspfad.
 
 
@@ -124,7 +124,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
 1.  Starten Sie auf einem der Edgeserver den Bereitstellungs-Assistenten, und klicken Sie neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Ausführen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie in einem Pool über mehrere Edgeserver an einem Standort verfügen, können Sie den Zertifikat-Assistenten auf jedem dieser Edgeserver ausführen.<BR>Nachdem Sie Schritt&nbsp;3 erstmals ausgeführt haben, ändert sich die Schaltfläche in <STRONG>Erneut ausführen</STRONG> , und ein grünes Häkchen, das auf den erfolgreichen Abschluss der Aufgabe hinweist, wird erst angezeigt, wenn alle erforderlichen Zertifikate angefordert, installiert und zugewiesen wurden.
 
 
@@ -146,7 +146,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
       - Geben Sie in **Bitlänge** die Bitlänge ein (typischerweise wird der Standardwert **2048** verwendet).
         
 
-        > [!TIP]
+        > [!NOTE]
         > Höhere Bitlängen bieten mehr Sicherheit, beeinträchtigen jedoch die Geschwindigkeit.
 
     
@@ -215,7 +215,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
 8.  Klicken Sie im Zertifikatexport-Assistenten auf **Weiter** . Wählen Sie **Ja, privaten Schlüssel exportieren** aus, und klicken Sie dann auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ist die Option <STRONG>Ja, privaten Schlüssel exportieren</STRONG> nicht verfügbar ist, wurde der diesem Zertifikat zugeordnete private Schlüssel nicht für den Export markiert. Si müssen das Zertifikat erneut anfordern. Dabei müssen Sie sicherstellen, dass das Zertifikat für den Export des privaten Schlüssels markiert ist, bevor Sie den Export fortsetzen können. Wenden Sie sich ggf. an den Administrator oder Anbieter für die Zertifizierungsstelle.
 
 

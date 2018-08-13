@@ -86,7 +86,7 @@ Lync Server 2013-Archivierungsrichtlinien beinhalten folgende Richtlinien:
 Nähere Informationen zum erstmaligen Einrichten von Archivierungsrichtlinien bei der Bereitstellung der Archivierung finden Sie in der Bereitstellungsdokumentation unter [Konfigurieren und Zuweisen von Archivierungsrichtlinien](lync-server-2013-configuring-and-assigning-archiving-policies.md). Nähere Informationen zum Aktivieren und Deaktivieren der Archivierung der Kommunikation nach der Bereitstellung mithilfe von Richtlinien finden Sie in der Betriebsdokumentation unter [Verwalten der Archivierung von interner und externer Kommunikation in Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie sowohl Lync Server 2013-Archivierungsdatenbanken als auch die Microsoft Exchange-Integration implementieren, werden die Lync Server-Archivierungsrichtlinien durch die Exchange 2013-Richtlinien überschrieben. Dies gilt jedoch nur für Benutzer, die in Exchange 2013 verwaltet werden und deren Postfächer im Compliance-Archiv abgelegt wurden. Die Lync-Archivierung ist ausschließlich von der Microsoft Exchange-Richtlinie für die Compliance-Archivierung abhängig.
 
 
@@ -120,7 +120,7 @@ Die Konfiguration auf globaler Ebene wird automatisch beim Bereitstellen der Arc
       - Nach dem Exportieren der archivierten Daten (einschließlich der Daten, die nach Exchange hochgeladen wurden, wenn die Microsoft Exchange-Integration aktiviert ist).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie die Microsoft Exchange-Integration aktivieren, wird das Löschen von Daten für Benutzer, die in Exchange 2013 verwaltet werden, einschließlich der zugehörigen Postfächer im Compliance-Archiv, durch Exchange gesteuert. Die einzige Qualifizierung betrifft Konferenzdateien, die in der Dateifreigabe von Lync Server gespeichert sind. Wenn Sie die Option zum Löschen von Daten nach dem Exportieren auswählen, werden diese Dateien erst gelöscht, wenn sie exportiert (nach Exchange hochgeladen) wurden. Wenn Sie eine maximale Anzahl von Tagen für die Archivierung der Daten angegeben haben, werden die Daten nach Ablauf dieser Zeit gelöscht.
 
 
@@ -141,9 +141,9 @@ Nähere Informationen zum erstmaligen Einrichten von Archivierungsrichtlinien be
 
 In Verwaltungsshell für Lync Server 2013 können Sie mit Cmdlets die Optionen implementieren, die in Systemsteuerung für Lync Server 2013 nicht verfügbar sind. Dazu gehören u. a.:
 
-  - **Archivierung doppelter Nachrichten**. Nähere Informationen finden Sie im Betriebshandbuch unter [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) und unter [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+  - **Archivierung doppelter Nachrichten**. Nähere Informationen finden Sie im Betriebshandbuch unter [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) und unter [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
-  - **Exportieren archivierter Daten**. Nähere Informationen finden Sie unter [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Exportieren archivierter Daten**. Nähere Informationen finden Sie unter [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 ## Wie kann ich auf archivierte Daten zugreifen?
 

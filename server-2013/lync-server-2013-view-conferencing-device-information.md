@@ -18,12 +18,12 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-20_
 Mit dem Cmdlets Windows PowerShell und **Get-CsMeetingRoom** können Sie Informationen zu den Konferenzgeräten abrufen, die für die Verwendung in Ihrer Organisation konfiguriert sind. Führen Sie das Cmdlet **Get-CsMeetingRoom** entweder in der Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell aus.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
 
-Wenn Sie das Cmdlet **Get-CsMeetingRoom** ohne Parameter anwenden, werden Informationen zu allen Ihren Konferenzgeräten zurückgegeben. Optionale Parameter bieten verschiedene Möglichkeiten zum Filtern von Informationen. Ausführliche Informationen finden Sie im Abschnitt zu Parametern unter [Get-CsMeetingRoom](get-csmeetingroom.md).
+Wenn Sie das Cmdlet **Get-CsMeetingRoom** ohne Parameter anwenden, werden Informationen zu allen Ihren Konferenzgeräten zurückgegeben. Optionale Parameter bieten verschiedene Möglichkeiten zum Filtern von Informationen. Ausführliche Informationen finden Sie im Abschnitt zu Parametern unter [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 
 
 ## Anzeigen von Informationen zu allen Ihren Konferenzgeräten
@@ -58,5 +58,5 @@ Wenn Sie das Cmdlet **Get-CsMeetingRoom** ohne Parameter anwenden, werden Inform
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsMeetingRoom](get-csmeetingroom.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 

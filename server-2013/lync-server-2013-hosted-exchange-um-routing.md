@@ -36,7 +36,7 @@ Das Postfach und der Exchange UM-Dienst der Benutzerin Alice befinden sich im Re
   - Die im Attribut "msExchUCVoiceMailSettings" des Benutzerkontos von Alice festgelegten Werte weisen die ExUM-Routinganwendung an, eine gehostete Voicemailrichtlinie auf Routingdetails zu überprüfen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Wert des Attributs "msExchUCVoiceMailSettings" kann entweder durch den Exchange-Dienstanbieter oder durch den Lync Server 2013-Administrator festgelegt werden. Im oben gezeigten Beispiel wurde der Wert (CsHostedVoiceMail=1) vom Lync Server 2013-Administrator gesetzt, um gehostete Voicemail für Alice zu aktivieren. Ausführliche Informationen zu diesem Attribut finden Sie unter <A href="lync-server-2013-hosted-exchange-user-management.md">Benutzerverwaltung für gehostete Exchange-Dienste in Lync Server 2013</A>.
 
 
@@ -48,14 +48,14 @@ Das Postfach und der Exchange UM-Dienst der Benutzerin Alice befinden sich im Re
       - Organisationen werden durch die Mandanten-IDs identifiziert, bei denen es sich um die Routing-FQDNs für SIP-Nachrichten für Exchange Server-Mandanten auf "ls.ExUm. *\<gehosteter Exchange-Server\>* .com" handelt (in diesem Beispiel "corp.contoso.com" und "corp.litwareinc.com").
         
 
-        > [!TIP]
+        > [!NOTE]
         > Der FQDN für Exchange Online ist exap.um.outlook.com .
 
         
         Ausführliche Informationen finden Sie unter [Richtlinien für gehostete Voicemail in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn sowohl das Attribut "msExchUCVoiceMailSettings" als auch die UM-Proxyadresseinstellungen in einem Benutzerkonto vorhanden sind, hat das Attribut "msExchUCVoiceMailSettings" Vorrang.
 
 

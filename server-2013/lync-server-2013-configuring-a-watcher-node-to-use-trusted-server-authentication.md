@@ -20,7 +20,7 @@ Wenn sich Ihr Watcher-Knoten-Computer innerhalb des Umkreisnetzes befindet, kön
 Der erste Schritt bei der Konfiguration der Trusted Server-Authentifizierung ist die Erstellung eines Pools vertrauenswürdiger Anwendungen zum Hosten des Watcher-Knoten-Computers. Nach der Erstellung des Pools vertrauenswürdiger Anwendungen müssen Sie synthetische Transaktionen auf diesem Watcher-Knoten erstellen, die als vertrauenswürdige Anwendungen ausgeführt werden sollen.
 
 
-> [!TIP]
+> [!NOTE]
 > Eine vertrauenswürdige Anwendung ist eine Anwendung, der ein Vertrauensstatus zur Ausführung als Teil von Lync Server 2013 zugewiesen wurde, die jedoch nicht in das Produkt integriert ist. Vertrauensstatus bedeutet, dass nicht bei jeder Ausführung der Anwendung eine Authentifizierung angefordert wird.
 
 
@@ -30,7 +30,7 @@ Der erste Schritt bei der Konfiguration der Trusted Server-Authentifizierung ist
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zu den im vorstehenden Befehl verwendeten Parametern erhalten Sie, wenn Sie an der Lync Server-Verwaltungsshell-Eingabeaufforderung Folgendes eingeben:<BR>Get-Help New-CsTrustedApplicationPool -Full | more
 
 
@@ -60,7 +60,7 @@ Jeder Watcher-Knoten muss ein Standardzertifikat besitzen, das ihm mithilfe des 
 2.  Klicken Sie im Lync Server-Bereitstellungs-Assistent auf **Installieren oder Aktualisieren des Lync Server-Systems** und anschließend unter dem Titel **Zertifikat anfordern, installieren oder zuweisen** auf **Ausführen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn die Schaltfläche <STRONG>Ausführen</STRONG> deaktiviert ist, müssen Sie möglicherweise zunächst unter <STRONG>Lokalen Konfigurationsspeicher installieren</STRONG> auf <STRONG>Ausführen</STRONG> klicken.
 
 
@@ -84,7 +84,7 @@ Nachdem Sie den Watcher-Knoten-Computer neu gestartet und ein Zertifikat konfigu
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können "Watchernode.msi" auch aus einem Befehlsfenster ausführen. Um ein Befehlsfenster zu öffnen, klicken Sie auf <STRONG>Start</STRONG>, klicken Sie mit der rechten Maustaste auf <STRONG>Eingabeaufforderung</STRONG>, und klicken Sie auf <STRONG>Als Administrator ausführen</STRONG>. Wenn das Befehlsfenster geöffnet wird, geben Sie denselben vorstehenden Befehl ein.
 
 
