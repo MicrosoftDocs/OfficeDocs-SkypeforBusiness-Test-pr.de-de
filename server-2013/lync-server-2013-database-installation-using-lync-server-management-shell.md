@@ -86,15 +86,15 @@ Für die Installation von Datenbanken verwendet **Install-CsDatabase** drei prim
 3.  Öffnen Sie gegebenenfalls die Verwaltungsshell für Lync Server 2013.
 
 4.  Verwenden Sie das Cmdlet **Install-CsDatabase**, um die mit dem Topologie-Generator konfigurierten Datenbanken zu installieren.
-    
+    ```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
+    ```
 
-        &nbsp;
-    
+    ```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
-    
+    ```
 
     > [!TIP]
     > Der optionale Parameter "Report" ist nützlich, wenn Sie den Installationsvorgang dokumentieren.
