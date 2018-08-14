@@ -37,12 +37,9 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 > <li><p>Sie haben einen oder mehrere Sätze mit Exchange UM-Wähleinstellungen erstellt, wie beschrieben in der Exchange-Produktdokumentation.</p>
 > <p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2010 finden Sie auf der Seite &quot;Erstellen von UM-Wähleinstellungen&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=186177" class="uri">http://go.microsoft.com/fwlink/?linkid=186177</a>.</p>
 > <p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden Sie auf der Seite &quot;Erstellen eines SIP-URI-Wählplans für Unified Messaging&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=185771" class="uri">http://go.microsoft.com/fwlink/?linkid=185771</a>.</p></li>
-> <li><p>Sie haben einen oder mehrere entsprechende Lync Server-Wählpläne erstellt, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Erstellen eines Wählplans in Lync Server 2013</a> beschrieben.</p>
-> [!IMPORTANT]  
-> Wenn Sie eine Exchange-Version vor Microsoft Exchange Server 2010&nbsp;SP1 verwenden, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des zugehörigen Exchange Unified Messaging (UM)-SIP-Wählplans im Feld <STRONG>Einfacher Name</STRONG> des Lync Server 2013-Wählplans eingeben. Wenn Sie Microsoft Exchange Server 2010 mit SP1 oder dem neuesten Service Pack verwenden, ist dieser Namensabgleich für den Wählplan nicht erforderlich.
-> </li>
-> <li><p>Sie haben eine automatische Telefonzentrale erstellt und sich vergewissert, dass die Teilnehmerzugriffsnummer und die Nummer der automatischen Telefonzentrale im E.164-Format vorliegen.</p></li>
-> </ul>
+> <li><p>Sie haben einen oder mehrere entsprechende Lync Server-Wählpläne erstellt, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Erstellen eines Wählplans in Lync Server 2013</a> beschrieben.</p></li>
+> <ul><li>Wenn Sie eine Exchange-Version vor Microsoft Exchange Server 2010&nbsp;SP1 verwenden, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des zugehörigen Exchange Unified Messaging (UM)-SIP-Wählplans im Feld <STRONG>Einfacher Name</STRONG> des Lync Server 2013-Wählplans eingeben. Wenn Sie Microsoft Exchange Server 2010 mit SP1 oder dem neuesten Service Pack verwenden, ist dieser Namensabgleich für den Wählplan nicht erforderlich.</li></ul>
+> <li><p>Sie haben eine automatische Telefonzentrale erstellt und sich vergewissert, dass die Teilnehmerzugriffsnummer und die Nummer der automatischen Telefonzentrale im E.164-Format vorliegen.</p></li></ul>
 
 
 ## So führen Sie das Exchange UM-Integrationsprogramm aus
