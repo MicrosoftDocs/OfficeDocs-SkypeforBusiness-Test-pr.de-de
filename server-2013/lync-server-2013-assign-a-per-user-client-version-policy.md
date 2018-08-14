@@ -48,7 +48,7 @@ Ausführliche Informationen zum Erstellen von Clientversionsrichtlinien auf Benu
     4.  Geben Sie je nach gewählter Benutzereigenschaft entweder das Kriterium für die Filterung der Suchergebnisse ein, oder klicken Sie auf den Pfeil in der Dropdownliste.
         
 
-        > [!NOTE]
+        > [!TIP]
         > Klicken Sie auf <STRONG>Filter hinzufügen</STRONG>, um zusätzliche Suchklauseln einzugeben.
 
     
