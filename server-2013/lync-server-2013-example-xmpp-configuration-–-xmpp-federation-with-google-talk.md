@@ -86,10 +86,12 @@ Eine Beispielkonfiguration für die Bereitstellung des XMPP-Proxys definiert ein
 22. Kopieren Sie die Anforderungsdatei, und senden Sie sie an die öffentliche Zertifizierungsstelle.
 
 23. Nachdem Sie das öffentliche Zertifikat erhalten, importiert und zugewiesen haben, müssen Sie die Edgeserverdienste stoppen und neu starten. Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.. Geben Sie in der Lync Server-Verwaltungsshell Folgendes ein:
-    
+    ```
         Stop-CsWindowsService
-    
+    ```
+    ```
         Start-CsWindowsService
+    ```
 
 24. Um DNS für den XMPP-Partnerverbund zu konfigurieren, fügen Sie den folgenden SRV-Eintrag zum externen DNS hinzu:\_xmpp-server.\_tcp. *\<Domänenname\>* Der SRV-Eintrag wird in den Zugriffs-Edge-FQDN des Edgeservers mit einem Portwert von 5269 aufgelöst.
 
