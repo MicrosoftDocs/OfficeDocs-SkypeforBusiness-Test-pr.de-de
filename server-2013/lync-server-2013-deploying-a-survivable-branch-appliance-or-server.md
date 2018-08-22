@@ -22,7 +22,7 @@ Für kleine und mittelgroße Zweigniederlassungen (mit 25 bis 1.000 Benutzern)
 Für Zweigniederlassungen mit 1.000 bis 5.000 Benutzern und einem nicht ausfallsicheren WAN wird ein Survivable Branch-Server empfohlen, der entweder mit einem PSTN-Gateway oder einem SIP-Trunk zu einem Telefondienstanbieter verbunden ist. Bei einem Survivable Branch-Server handelt es sich um einen Windows Server-basierten Computer mit installierter Registrierungsstelle und Vermittlungsserversoftware.
 
 
-> [!TIP]
+> [!NOTE]
 > Für Zweigniederlassungen mit mehr als 5.000&nbsp;Benutzern und dedizierten Lync Server-Administratoren wird eine vollständige, von der Lync Server-Bereitstellung im zentralen Standort getrennte Lync Server 2013-Bereitstellung empfohlen.<BR>Informationen zur optimalen Ausfallsicherheitslösung für die Zweigniederlassungen in Ihrer Organisation sowie zu Voraussetzungen und Planungsüberlegungen finden Sie unter <A href="lync-server-2013-branch-site-resiliency-requirements.md">Anforderungen für die Ausfallsicherheit an Zweigstellenstandorten für Lync Server 2013</A> in der Planungsdokumentation.
 
 

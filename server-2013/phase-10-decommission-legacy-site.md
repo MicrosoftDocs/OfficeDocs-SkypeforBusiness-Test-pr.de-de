@@ -17,18 +17,8 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
 Die folgenden Themen enthalten Hinweise für die Außerbetriebsetzung von Pools sowie das Deaktivieren und Entfernen von Servern und Pools aus einer Vorversionsbereitstellung von Office Communications Server 2007 R2. Es sind nicht alle der in diesem Abschnitt aufgeführten Verfahren notwendig. Lesen Sie die Informationen in den einzelnen Themen, um das Verfahren zu bestimmen, das Sie für die Außerbetriebsetzung ausführen möchten.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Wenn Sie Konferenzverzeichnisse für Einwahlkonferenzen in Lync Server 2013 importiert haben, ist es wichtig, den Besitz für die Konferenzverzeichnisse an Lync Server 2013 zu übergeben, ehe Sie mit der Außerbetriebsetzung der Pools beginnen. Wenn Sie einen Pool außer Betrieb setzen, ohne zuerst den Besitz für Konferenzverzeichnisse zu übergeben, wird die Einwahlfunktion für alle migrierten Besprechungen nicht weiter ausgeführt. Der Übergang des Besitzes muss für jedes Konferenzverzeichnis in Ihrem Pool der Vorversion durchgeführt werden.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Wenn Sie Konferenzverzeichnisse für Einwahlkonferenzen in Lync Server 2013 importiert haben, ist es wichtig, den Besitz für die Konferenzverzeichnisse an Lync Server 2013 zu übergeben, ehe Sie mit der Außerbetriebsetzung der Pools beginnen. Wenn Sie einen Pool außer Betrieb setzen, ohne zuerst den Besitz für Konferenzverzeichnisse zu übergeben, wird die Einwahlfunktion für alle migrierten Besprechungen nicht weiter ausgeführt. Der Übergang des Besitzes muss für jedes Konferenzverzeichnis in Ihrem Pool der Vorversion durchgeführt werden.
 
 
 

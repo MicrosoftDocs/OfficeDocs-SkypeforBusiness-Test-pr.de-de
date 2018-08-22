@@ -52,7 +52,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
 1.  Klicken Sie auf dem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Erneut ausführen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Ihre Organisation Verbindungen mit öffentlichen Sofortnachrichtendiensten über AOL unterstützen möchte, können Sie das Zertifikat nicht mit dem Lync Server-Bereitstellungs-Assistenten anfordern. Führen Sie stattdessen das weiter unten in diesem Thema beschriebene Verfahren "So erstellen Sie eine Zertifikatanforderung für die externe Schnittstelle des Edgeservers zur Unterstützung von Verbindungen mit öffentlichen Sofortnachrichtendiensten über AOL" aus.<BR>Wenn Sie an einem Standort über mehrere Edgeserver in einem Pool verfügen, können Sie den Lync Server 2013-Zertifikat-Assistenten auf jedem dieser Edgeserver ausführen.
 
 
@@ -110,7 +110,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
     Der standardmäßige Zertifikatname der in Lync Server 2013 bereitgestellten Vorlage lautet "Web Server". Geben Sie *\<Vorlagenname\>* nur an, wenn eine andere Vorlage verwendet werden muss als die Standardvorlage.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Ihre Organisation die Verbindung mit öffentlichen Instant Messaging-Diensten über AOL unterstützen möchte, müssen Sie anstelle des Zertifikat-Assistenten die Windows PowerShell zum Anfordern des Zertifikats verwenden, das dem externen Edge für den Zugriffs-Edgedienst zugewiesen werden soll. Der Grund dafür ist, dass die Lync Server 2013-Vorlage "Web Server", die der Zertifikat-Assistent zum Anfordern von Zertifikaten verwendet, keine EKU-Clientkonfiguration unterstützt. Vor der Verwendung der Windows PowerShell zum Erstellen des Zertifikats muss der Administrator der Zertifizierungsstelle eine neue Vorlage mit Unterstützung für Client-EKU erstellen und bereitstellen.
 
 
@@ -176,7 +176,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
 8.  Klicken Sie im Zertifikatexport-Assistenten auf **Weiter** , wählen Sie **Ja, privaten Schlüssel exportieren** aus, und klicken Sie dann auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ist die Option <STRONG>Ja, privaten Schlüssel exportieren</STRONG> nicht verfügbar ist, wurde der diesem Zertifikat zugeordnete private Schlüssel nicht für den Export markiert. Si müssen das Zertifikat erneut anfordern. Dabei müssen Sie sicherstellen, dass das Zertifikat für den Export des privaten Schlüssels markiert ist, bevor Sie den Export fortsetzen können. Wenden Sie sich ggf. an den Administrator oder Anbieter für die Zertifizierungsstelle.
 
 
@@ -218,7 +218,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
 5.  Wählen Sie auf der Seite **Zertifikatspeicher** das öffentliche Zertifikat aus, das Sie für die externe Schnittstelle dieses Edgeservers angefordert und importiert haben.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn das angeforderte und importierte Zertifikat nicht in der Liste aufgeführt wird, stellen Sie sicher, dass der Antragstellername und die alternativen Antragstellernamen des Zertifikats alle Anforderungen für das Zertifikat erfüllen. Wenn Sie das Zertifikat und die Zertifikatkette nicht über die vorstehenden Verfahren, sondern manuell importiert haben, überprüfen Sie zudem, ob sich das Zertifikat im richtigen Zertifikatspeicher befindet (im Zertifikatspeicher des Computers, nicht des Benutzers oder Diensts).
 
 

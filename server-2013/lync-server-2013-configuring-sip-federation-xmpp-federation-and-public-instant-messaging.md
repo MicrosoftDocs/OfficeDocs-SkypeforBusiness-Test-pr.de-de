@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Mithilfe von Verbünden, Verbindungen mit öffentlichen Instant Messaging-Diensten und XMPP (Extensible Messaging and Presence Protocol) wird eine andere Klasse externer Benutzer definiert - Verbundbenutzer. Die Benutzer einer Lync Server-Verbundbereitstellung oder einer XMPP-Bereitstellung haben Zugriff auf beschränkte Dienste und werden durch die externe Bereitstellung authentifiziert. Remotebenutzer sind Mitglieder Ihrer Lync Server-Bereitstellung, und sie haben Zugriff auf alle Dienste, die durch die Bereitstellung angeboten werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Für AOL und Yahoo! wurde die Einstellung des Diensts für Juni 2014 angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.
 
 
@@ -82,9 +82,9 @@ Mithilfe des XMPP-Verbunds wird eine externe Bereitstellung definiert, die auf d
 <td><p>Bestimmen Sie die Optionen, die der vorhandenen Edgebereitstellung hinzugefügt werden sollen</p></td>
 <td><p>Führen Sie den Topologie-Generator aus, um die Edgeservereinstellungen zu bearbeiten und die Topologie zu erstellen und zu veröffentlichen. Die vorhandene Edgetopologie repliziert Ändeurngen vom zentralen Verwaltungsspeicher auf den Edgeserver.</p></td>
 <td><p>Gruppe &quot;Domänen-Admins&quot; und Gruppe &quot;RTCUniversalServerAdmins&quot;</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Sie können eine Topologie unter Verwendung eines Kontos bearbeiten, das Mitglied der lokalen Benutzergruppe ist. Für die Veröffentlichung einer Topologie ist jedoch ein Konto erforderlich, das Mitglied der Gruppe "Domänen-Admins" und der Gruppe "RTCUniversalServerAdmins" ist.
 
 

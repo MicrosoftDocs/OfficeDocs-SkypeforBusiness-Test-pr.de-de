@@ -17,18 +17,8 @@ _**Letztes Änderungsdatum des Themas:** 2013-06-19_
 
 Verwenden Sie das Cmdlet **Disable-CsAdForest**, um die Gesamtstrukturvorbereitung rückgängig zu machen.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Wenn Sie das Cmdlet <strong>Disable-CsAdForest</strong> in einer Umgebung ausführen, in der auch eine frühere Version von Lync Server bereitgestellt ist, werden die globalen Einstellungen für diese Version ebenfalls gelöscht.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Wenn Sie das Cmdlet <strong>Disable-CsAdForest</strong> in einer Umgebung ausführen, in der auch eine frühere Version von Lync Server bereitgestellt ist, werden die globalen Einstellungen für diese Version ebenfalls gelöscht.
 
 
 ## So machen Sie mithilfe von Cmdlets die Gesamtstrukturvorbereitung rückgängig

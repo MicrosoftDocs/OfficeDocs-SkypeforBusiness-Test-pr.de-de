@@ -26,7 +26,7 @@ Wenn Sie mehrere Serverpools für beständigen Chat bereitstellen möchten, wied
 1.  Melden Sie sich bei einem Computer, der Lync Server 2013 ausführt oder auf dem die Lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Eine Topologie kann über ein Konto definiert werden, das Mitglied der lokalen Benutzergruppe ist. Um jedoch eine Topologie zu veröffentlichen (was zur Installation eines Lync Server 2013-Servers erforderlich ist), müssen Sie ein Konto verwenden, das Mitglied der Gruppe <STRONG>Domänen-Admins</STRONG> und der Gruppe <STRONG>RTCUniversalServerAdmins</STRONG> ist sowie über Vollzugriff (Lesen, Schreiben und Ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher für den Server für beständigen Chat verwenden möchten (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann). Alternativ dazu können Sie ein Konto mit gleichwertigen Rechten verwenden.
 
 
@@ -98,7 +98,7 @@ Wenn Sie mehrere Serverpools für beständigen Chat bereitstellen möchten, wied
     Informationen zum Veröffentlichen Ihrer aktualisierten Topologie, der Sie den Server für beständigen Chat hinzugefügt haben, finden Sie unter [Veröffentlichen der aktualisierten Topologie in Lync Server 2013](lync-server-2013-publish-the-updated-topology.md) in der Bereitstellungsdokumentation.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei geöffnetem Topologie-Generator können Sie mit Schritt 3 unter <A href="lync-server-2013-publish-the-updated-topology.md">Veröffentlichen der aktualisierten Topologie in Lync Server 2013</A> fortfahren, um mit der Veröffentlichung Ihrer aktualisierten Topologie zu beginnen.
 
 

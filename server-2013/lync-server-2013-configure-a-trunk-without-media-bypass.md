@@ -38,7 +38,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
           - **Pooltrunk :** Wählen Sie unter **Dienst auswählen** den Namen des Trunks aus, auf den diese Trunkkonfiguration angewendet wird, und klicken Sie auf **OK** . Bei diesem Trunk kann es sich um einen Stammtrunk oder um einen der weiteren Trunks handeln, die im Topologie-Generator definiert sind. Wenn bereits eine Trunkkonfiguration für einen bestimmten Trunk erstellt wurde, erscheint dieser Trunk nicht unter **Dienst auswählen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Nachdem Sie den Bereich für die Trunkkonfiguration ausgewählt haben, kann dieser nicht mehr geändert werden.<BR>Das Feld <STRONG>Name</STRONG> wird mit dem Namen des der Trunkkonfiguration zugeordneten Standorts oder Diensts vorausgefüllt und kann nicht geändert werden.
 
 
@@ -70,7 +70,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
         2.  Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Datensatz an.
             
 
-            > [!TIP]
+            > [!NOTE]
             > Der Name des PSTN-Verwendungsdatensatzes muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Datensatzes kann das Feld <STRONG>Name</STRONG> nicht mehr bearbeitet werden.
 
         
@@ -162,18 +162,8 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     
       - Wenn Sie eine Übersetzungsregel vom Trunk entfernen möchten, markieren Sie den Regelnamen, und klicken Sie auf **Entfernen** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ordnen Sie einem Trunk keine Übersetzungsregeln zu, wenn Sie Übersetzungsregeln für den zugeordneten Trunkpeer konfiguriert haben, da zwischen den beiden Regeln Konflikte auftreten könnten.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+	> Ordnen Sie einem Trunk keine Übersetzungsregeln zu, wenn Sie Übersetzungsregeln für den zugeordneten Trunkpeer konfiguriert haben, da zwischen den beiden Regeln Konflikte auftreten könnten.
 
 
 17. Stellen Sie sicher, dass die Übersetzungsregeln für den Trunk in der richtigen Reihenfolge angeordnet sind. Wenn Sie die Position einer Regel in der Liste ändern möchten, markieren Sie den Regelnamen, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
@@ -189,7 +179,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 19. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit** , und klicken Sie anschließend auf **Commit für alle** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

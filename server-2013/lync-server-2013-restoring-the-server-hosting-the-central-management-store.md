@@ -22,7 +22,7 @@ Um den Pool zu finden, in dem sich der zentraler Verwaltungsserver befindet, öf
 Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in einer gespiegelten Einrichtung befindet und die Spiegeldatenbank noch funktioniert, wird empfohlen, eine Sicherung dieser Spiegeldatenbank zu erstellen und anschließend mithilfe dieser Sicherung eine vollständige Wiederherstellung der primären und der gespiegelten Datenbank durchzuführen. Führen Sie dazu das folgende Wiederherstellungsverfahren aus. Dies ist notwendig, da die Wiederherstellung eines Back-End-Servers das Ändern und Veröffentlichen der Topologie erfordert; dies ist nur bei einer funktionsfähigen primären Datenbank, die den CMS hostet, möglich. Beachten Sie ebenfalls, dass die Rollen der primären und der gespiegelten Datenbank nicht austauschbar sind, wenn die Topologie nicht veröffentlicht werden kann.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn ein Back-End-Server oder Standard Edition-Server ausfällt, der den zentralen Verwaltungsspeicher nicht hostet, lesen Sie unter <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Wiederherstellen eines Back-End-Servers der Enterprise Edition</A> oder <A href="lync-server-2013-restoring-a-standard-edition-server.md">Wiederherstellen eines Standard Edition-Servers</A> nach. Wenn sich ein Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in einer gespiegelten Konfiguration befindet und nur der Spiegelserver ausfällt, lesen Sie unter <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers – Spiegel</A> nach. Wenn ein anderer Server ausfällt, lesen Sie unter<A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Wiederherstellen eines Enterprise Edition-Mitgliedsservers</A> nach.
 
 
@@ -38,7 +38,7 @@ Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in 
 1.  Voraussetzung ist ein bereinigter oder neuer Server, der denselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Computer aufweist. Installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her bzw. registrieren Sie sie erneut.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Folgen Sie dem Bereitstellungsverfahren Ihrer Organisation, um diesen Schritt auszuführen.
 
 
@@ -60,7 +60,7 @@ Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in 
       - Bei der Installation eines Enterprise-Back-End-Servers installieren Sie SQL Server 2012 oder SQL Server 2008 R2 und behalten dieselben Instanznamen bei wie vor dem Ausfall.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Abhängig von wiederherzustellenden Server und Ihrer Bereitstellung umfasst der Server u.&nbsp;U. mehrere verbundene oder separate Datenbanken. Führen Sie dasselbe Verfahren aus, um den SQL Server zu installieren, den Sie ursprünglich für die Bereitstellung des Servers verwendet haben, einschließlich der SQL Server-Berechtigungen und Anmeldungen.
 
 
@@ -84,7 +84,7 @@ Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in 
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sollten Sie den Verbindungspunkt verlieren, können Sie dieses Cmdlet erneut ausführen.
 
 
@@ -102,7 +102,7 @@ Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in 
         Enable-CsTopology
     
 
-    > [!TIP]
+    > [!NOTE]
     > Nach dem Aktivieren der Topologie wird das Topologiedokument in der Datenbank angezeigt.
 
 
@@ -122,7 +122,7 @@ Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in 
     5.  Befolgen Sie die Anweisungen des Assistenten zum **Installieren der Datenbank**. Möchten Sie eine andere Datenbank wiederherstellen als den zentralen Verwaltungsspeicher auf diesem Server, wählen Sie auf der Seite **Erstellen von Datenbanken** die neu zu erstellenden Datenbanken aus.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Auf der Seite <STRONG>Erstellen von Datenbanken</STRONG> werden nur eigenständige Datenbanken angezeigt. Verbundene Datenbanken werden durch Ausführen des Lync Server-Bereitstellungs-Assistenten erstellt.
 
     
@@ -132,7 +132,7 @@ Wenn sich der Back-End-Server, der den zentralen Verwaltungsspeicher hostet, in 
     
 
     > [!TIP]
-    > Anstatt den Topologie-Generator auszuführen, können Sie die einzelnen Datenbanken mithilfe des <STRONG>Install-CsDatabase</STRONG>-Cmdlets erstellen und die Spiegelung mithilfe des Cmdlets <STRONG>Install-CsMirrorDatabase</STRONG> konfigurieren. Ausführliche Informationen finden Sie unter <A href="install-csdatabase.md">Install-CsDatabase</A> und <A href="install-csmirrordatabase.md">Install-CsMirrorDatabase</A>.
+    > Anstatt den Topologie-Generator auszuführen, können Sie die einzelnen Datenbanken mithilfe des <STRONG>Install-CsDatabase</STRONG>-Cmdlets erstellen und die Spiegelung mithilfe des Cmdlets <STRONG>Install-CsMirrorDatabase</STRONG> konfigurieren. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.
 
 
 

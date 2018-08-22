@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-20_
 In diesem Abschnitt werden Sie durch die Schritte zur Bereitstellung der Remoteanrufsteuerung für Benutzer in Ihrer Organisation geleitet.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenngleich Remoteanrufsteuerungs-Funktionen für Remotebenutzer verfügbar sind, die sich außerhalb der Firewall Ihrer Organisation befinden, können im Rahmen dieser Dokumentation keine Einzelheiten zu Szenarien mit Zugriff durch externe Benutzer bereitgestellt werden. Ausführliche Informationen zur Bereitstellung des Zugriffs durch externe Benutzer finden Sie unter <A href="lync-server-2013-deploying-external-user-access.md">Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

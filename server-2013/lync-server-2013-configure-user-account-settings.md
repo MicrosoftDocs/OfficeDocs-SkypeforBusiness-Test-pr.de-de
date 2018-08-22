@@ -34,7 +34,7 @@ In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **
 6.  Geben Sie unter **Telefonie** in das Feld **Anschluss-URI** eine eindeutige, normalisierte Telefonnumer ein (beispielsweise tel:+14255550200).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können <STRONG>Anschluss-URI</STRONG> nur angeben, wenn <STRONG>Telefonie</STRONG> auf <STRONG>Nur von PC zu PC</STRONG> , <STRONG>Enterprise-VoIP</STRONG> , <STRONG>Remoteanrufsteuerung</STRONG> oder <STRONG>Nur Remoteanrufsteuerung</STRONG> festgelegt ist.
 
 

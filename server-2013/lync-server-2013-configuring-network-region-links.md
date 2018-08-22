@@ -30,7 +30,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 5.  Geben Sie im Abschnitt **Neue Regionenverbindung** im Feld **Name** einen Wert ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dieser Wert muss innerhalb der Lync Server 2013-Bereitstellung eindeutig sein.
 
 
@@ -67,8 +67,8 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 
 #### Weitere Ressourcen
 
-[New-CsNetworkRegionLink](new-csnetworkregionlink.md)  
-[Set-CsNetworkRegionLink](set-csnetworkregionlink.md)  
-[Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)  
-[Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
+[New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 

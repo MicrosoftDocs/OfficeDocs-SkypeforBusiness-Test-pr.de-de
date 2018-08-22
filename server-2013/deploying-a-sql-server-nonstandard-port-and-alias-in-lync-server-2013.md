@@ -28,7 +28,7 @@ Lync Server 2013Topologie-Generator unterstützt bei der Konfiguration von Lync 
 Um den Port, über den Lync Server 2013 mit SQL Server kommuniziert, erfolgreich zu bestimmen, müsste der Angreifer alle Ports scannen und die Portinformationen abrufen. Ein Portscan durch einen Angreifer erhöht die Wahrscheinlichkeit, dass die Sicherheit die Anweisung entdeckt und unterbindet. Neben der verbesserten Sicherheit durch einen nicht standardmäßigen Port können Sie zudem einen SQL Server-Alias verwenden, der eine flexible Bereitstellung ermöglicht. Dies ist besonders hilfreich, um Konfigurationsänderungen in Situationen zu verringern, in denen der SQL Server-Name geändert werden muss.
 
 
-> [!TIP]
+> [!NOTE]
 > SQL Server bietet zwei Fehlertoleranzmethoden (Failoverclustering und Spiegelung). Beide Fehlertoleranzmethoden von SQL Server werden über einen nicht standardmäßigen SQL Server-Port und -Alias in Lync Server 2013 unterstützt.
 
 
@@ -113,18 +113,8 @@ Der nicht standardmäßige SQL Server-Port und -Alias müssen in der Datenbankin
     
     ![Erstellen eines neuen Aliases](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Erstellen eines neuen Aliases")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Achten Sie darauf, den gleichen nicht standardmäßigen Port einzugeben, den Sie im vorherigen Schritt verwendet haben, da dies der Port ist, auf dem SQL Server empfangsbereit ist. Wenn ein konfigurierter Alias sich mit dem falschen SQL Server-FQDN oder der falschen Instanz verbindet, deaktivieren Sie das zugehörige Netzwerkprotokoll und aktivieren Sie es dann erneut. Dadurch werden die zwischengespeicherten Verbindungsinformationen gelöscht und der Client kann sich korrekt verbinden.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+	> Achten Sie darauf, den gleichen nicht standardmäßigen Port einzugeben, den Sie im vorherigen Schritt verwendet haben, da dies der Port ist, auf dem SQL Server empfangsbereit ist. Wenn ein konfigurierter Alias sich mit dem falschen SQL Server-FQDN oder der falschen Instanz verbindet, deaktivieren Sie das zugehörige Netzwerkprotokoll und aktivieren Sie es dann erneut. Dadurch werden die zwischengespeicherten Verbindungsinformationen gelöscht und der Client kann sich korrekt verbinden.
 
 
 **Erstellen eines DNS CNAME Resource Record**
@@ -156,7 +146,7 @@ Der nicht standardmäßige SQL Server-Port und -Alias müssen in der Datenbankin
 Es gibt verschiedene Methoden sicherzustellen, dass Ihre Konfiguration funktioniert. Stellen Sie sicher, dass die SQL Server-Datenbank am angegebenen Port über den Alias empfangsbereit ist. Verwenden Sie zur schnellen Prüfung die Befehle **netstat** und **telnet**.
 
 
-> [!TIP]
+> [!NOTE]
 > Der Telnet-Client ist ein in Windows Server enthaltenes Feature, muss jedoch installiert werden. Um ein Windows Server-Feature zu installieren, öffnen Sie den Server Manager und wählen Sie im Menü „Verwalten“ die Option „Rollen und Features hinzufügen“.
 
 

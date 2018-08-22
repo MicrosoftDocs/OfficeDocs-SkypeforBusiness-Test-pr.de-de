@@ -121,12 +121,12 @@ Der Parameterwert für **DisplayPhoto** bestimmt die Quelle des Bilds für das B
 
 ## So erhält der Lync 2010-Client Fotos
 
-In Lync 2010 werden Benutzerfotos auf dem Server vom Adressbuchdienst verwaltet. Der Lync-Client erhält Benutzerfotos, indem er zunächst den Adressbuch-Webabfragedienst auf dem Server abfragt, der über den Verteilerlistenerweiterungs-Webdienst zur Verfügung gestellt wird. Der Client empfängt die Bilddatei und kopiert sie dann in den Cache des Benutzers, um nicht jedes Mal das Bild herunterladen zu müssen, wenn es angezeigt werden soll. Die von der Abfrage zurückgegebenen Attributwerte werden außerdem im zwischengespeicherten Adressbuchdienst-Eintrag für den Benutzer gespeichert. Der Adressbuchdienst löscht alle zwischengespeicherten Bilder alle 24 Stunden, was bedeutet, dass es bis zu 24 Stunden dauern kann, bis neue Benutzerbilder im Cache auf dem Server aktualisiert sind. Sie können eine Aktualisierung an den Cache erzwingen, indem Sie das Cmdlet [Update-CsAddressBook](update-csaddressbook.md) verwenden.
+In Lync 2010 werden Benutzerfotos auf dem Server vom Adressbuchdienst verwaltet. Der Lync-Client erhält Benutzerfotos, indem er zunächst den Adressbuch-Webabfragedienst auf dem Server abfragt, der über den Verteilerlistenerweiterungs-Webdienst zur Verfügung gestellt wird. Der Client empfängt die Bilddatei und kopiert sie dann in den Cache des Benutzers, um nicht jedes Mal das Bild herunterladen zu müssen, wenn es angezeigt werden soll. Die von der Abfrage zurückgegebenen Attributwerte werden außerdem im zwischengespeicherten Adressbuchdienst-Eintrag für den Benutzer gespeichert. Der Adressbuchdienst löscht alle zwischengespeicherten Bilder alle 24 Stunden, was bedeutet, dass es bis zu 24 Stunden dauern kann, bis neue Benutzerbilder im Cache auf dem Server aktualisiert sind. Sie können eine Aktualisierung an den Cache erzwingen, indem Sie das Cmdlet [Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook) verwenden.
 
 Im Anwesenheitsstatus enthaltene Benutzerfotos verfügen außerdem über einen zugewiesenen Hashwert, den der Lync-Client verwendet, um zu bestimmen, ob ein neueres Bild vorhanden ist. Der Client wird automatisch über Änderungen an der im Anwesenheitsstatus verwendeten Bilddatei benachrichtigt.
 
 
-> [!TIP]
+> [!NOTE]
 > Da Fotos nicht in der GalContacts.db-Datenbank gespeichert werden, ist das Herunterladen von Benutzerfotos nicht von der Einstellung <STRONG>AddressBookAvailability</STRONG> in der Clientrichtlinie abhängig (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>).
 
 
@@ -183,7 +183,7 @@ Wenn Sie die Option **Mein Bild anzeigen** auswählen, wird Ihr Benutzerfoto in 
 
 Die Option **Bild von Webadresse anzeigen** wird in Lync 2013 verfügbar, nachdem eine Clientrichtlinie zur Aktivierung der Option festgelegt wird. Die Clientversion muss neuer als 15.0.4535.1002 sein, die mit den [kumulativen Updates für Lync: November 2013](http://go.microsoft.com/fwlink/p/?linkid=509908) installiert wird. Benutzer müssen sich möglicherweise abmelden und erneut anmelden, um die Änderungen im Client zu sehen.
 
-Sie können die Clientrichtlinie zur Aktivierung der Einstellung **Bild von Webadresse anzeigen** festlegen, indem Sie die Richtlinie [Set-CsClientPolicy](set-csclientpolicy.md) in der Lync Server-Verwaltungsshell ausführen. Das folgende Beispiel-Cmdlet zeigt, wie Sie die Richtlinie global für alle Benutzer in Ihrer Bereitstellung festlegen:
+Sie können die Clientrichtlinie zur Aktivierung der Einstellung **Bild von Webadresse anzeigen** festlegen, indem Sie die Richtlinie [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) in der Lync Server-Verwaltungsshell ausführen. Das folgende Beispiel-Cmdlet zeigt, wie Sie die Richtlinie global für alle Benutzer in Ihrer Bereitstellung festlegen:
 
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
 
@@ -202,7 +202,7 @@ Sie können die Clientrichtlinie zur Aktivierung der Einstellung **Bild von Weba
 Wenn ein Bild an das Postfach des Benutzers hochgeladen wird, erstellt Exchange automatisch eine Version mit niedrigerer Auflösung des Bilds, die in Clientanwendungen verwendet werden kann. Das Benutzerfoto wird außerdem in AD DS aktualisiert.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn eine Bilddatei in AD DS aktualisiert wird, wird ein 48 x 48 Pixel großes Bild erstellt und für "thumbnailPhoto" in AD DS verwendet. Jedes vorhandene Bild wird ersetzt. Wenn Sie also ein 96 x 96 Pixel großes Bild zu AD DS hinzugefügt haben, wird dieses mit dem neuen 48 x 48 Pixel großen Bild überschrieben. Das ist nur wichtig, wenn Sie Benutzer in Ihrer Umgebung haben, die Lync 2010-Clients verwenden, da diese Clients Benutzerfotos von AD DS erhalten. Sie können 96 x 96 Pixel große Bilder importieren, um die von AD DS erstellten Bilder zu ersetzen, wenn Lync 2010-Clients in Ihrer Organisation vorhanden sind.
 
 

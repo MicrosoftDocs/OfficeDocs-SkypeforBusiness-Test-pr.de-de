@@ -36,7 +36,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
 1.  Voraussetzung ist ein bereinigter oder neuer Server, der denselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Computer aufweist. Installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her bzw. registrieren Sie sie erneut.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Gehen Sie nach den in Ihrer Organisation gültigen Verfahren für die Serverbereitstellung vor, um diesen Schritt durchzuführen.
 
 
@@ -46,7 +46,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
 3.  Installieren Sie SQL Server 2012 oder SQL Server 2008 R2, wobei Sie die gleichen Instanznamen verwenden wie vor dem Ausfall.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Je nach vorhandener Bereitstellung umfasst der Back-End-Server möglicherweise mehrere verbundene oder separate Datenbanken. Führen Sie das gleiche Verfahren zum Installieren von SQL&nbsp;Server durch, mit dem Sie auch ursprünglich den Server bereitgestellt haben, einschließlich SQL&nbsp;Server-Berechtigungen und -Anmeldungen.
 
 
@@ -64,7 +64,7 @@ Wenn der zentrale Verwaltungsspeicher ausfällt, lesen Sie die Anleitungen unter
     5.  Folgen Sie den Anweisungen im Assistenten zum **Veröffentlichen der Topologie**. Wählen Sie auf der Seite **Datenbanken erstellen** die Datenbanken aus, die erneut erstellt werden sollen.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Auf der Seite <STRONG>Datenbanken erstellen</STRONG> werden nur eigenständige Datenbanken angezeigt.
 
     

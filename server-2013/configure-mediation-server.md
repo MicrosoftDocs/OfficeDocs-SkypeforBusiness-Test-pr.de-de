@@ -20,7 +20,7 @@ In diesem Verfahren werden die Schritte ausgeführt, die erforderlich sind, um d
 Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen "RTCUniversalServerAdmins" und "Domänen-Admins" angemeldet sein. Es ist auch möglich, die geeigneten Administratorrechte und -berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von Setupberechtigungen in der Bereitstellungsdokumentation für Standard Edition-Server oder Enterprise Edition-Server. Für andere Konfigurationsänderungen müssen Sie lediglich Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
 
-> [!TIP]
+> [!NOTE]
 > Aktuelle Informationen über das Auffinden von qualifizierten PSTN-Gateways, IP-PBXs und SIP-Trunking-Diensten, die mit Lync Server 2013 ausgeführt werden können, finden Sie auf der Website "Microsoft Unified Communications Open Interoperability Program" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>.
 
 
@@ -56,7 +56,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
 11. Wenn der **Veröffentlichungs-Assistent** abgeschlossen ist, klicken Sie auf **Fertig stellen**, um den Assistenten zu schließen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Durchführung der Schritte im nächsten Thema <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Ändern der VoIP-Routen für die Verwendung des neuen Lync Server 2013-Vermittlungsservers</A> ist wichtig, um sicherzustellen, dass die VoIP-Routen auf den richtigen Vermittlungsserver zeigen.
 
 

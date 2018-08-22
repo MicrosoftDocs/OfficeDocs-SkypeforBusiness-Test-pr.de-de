@@ -53,7 +53,7 @@ Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und einem Ha
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Kein Eintrag</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!IMPORTANT]
 > Beachten Sie, dass die minimale Schlüssellänge 1024 Bit beträgt. Dennoch ist es möglich, dass Sie eine Warnmeldung erhalten, die besagt, dass die empfohlene Mindestlänge 2048 Bit beträgt.

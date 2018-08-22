@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-09-28_
 Sie müssen den Topologie-Generator zum Erstellen der Topologie verwenden und mindestens einen internen Front-End-Pool oder Standard Edition-Server einrichten, bevor Sie den Edgeserver bereitstellen können. Verwenden Sie das folgende Verfahren, um Ihre Edgetopologie für einen einzelnen Edgeserver zu definieren, und anschließend die Verfahren in [Veröffentlichen der Topologie in Lync Server 2013](lync-server-2013-publish-your-topology.md) und [Exportieren der Lync Server 2013-Topologie und Kopieren auf externe Medien zur Edgeinstallation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md), um die Topologie zu veröffentlichen und dem Edgeserver zur Verfügung zu stellen.
 
 
-> [!TIP]
+> [!NOTE]
 > Für die interne Edgeschnittstelle und die externe Edgeschnittstelle muss derselbe Typ von Lastenausgleich verwendet werden. Es ist nicht möglich, für eine Edgeschnittstelle den DNS-Lastenausgleich und für die andere Edgeschnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden.
 
 
@@ -69,7 +69,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn der Partnerverbund aktiviert werden soll, aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** .
         
 
-        > [!TIP]
+        > [!NOTE]
         > Sie können diese Option auswählen, es kann jedoch nur ein Edgepool oder Edgeserver in Ihrer Organisation extern für den Partnerverbund veröffentlicht werden. Der Zugriff durch Partnerbenutzer, einschließlich Benutzer öffentlicher Chatdienste, erfolgt stets über denselben Edgepool oder einzelnen Edgeserver. Wenn Ihre Bereitstellung beispielsweise je einen Edgepool oder einzelnen Edgeserver in New York und in London umfasst und Sie die Unterstützung des Partnerverbunds für den Edgepool oder einzelnen Edgeserver in New York aktivieren, erfolgt der Signaldatenverkehr für Partnerbenutzer über den Edgepool oder einzelnen Edgeserver in New York. Dies gilt auch für die Kommunikation mit Benutzern in London, wenngleich ein interner Benutzer in London, der einen Partnerbenutzer in London anruft, für den A/V-Datenverkehr den Pool oder Edgeserver in London verwendet.
 
     
@@ -92,7 +92,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn Sie in **Funktionen auswählen** festlegen, dass für den SIP-Zugriff, den Webkonferenzdienst und den A/V-Edgedienst ein einziger FQDN und eine einzige IP-Adresse verwendet werden sollen, geben Sie in **SIP-Zugriff** den externen FQDN ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie diese Option aktivieren, müssen Sie für jeden Edgedienst eine andere Portnummer angeben (die empfohlenen Porteinstellungen lauten: 5061&nbsp;für den Zugriffs-Edgedienst, 444&nbsp;für den Webkonferenz-Edgedienst und 443&nbsp;für den A/V-Edgedienst). Durch Auswahl dieser Option können Sie potenzielle Konnektivitätsprobleme verhindern und die Konfiguration vereinfachen, indem Sie dieselbe Portnummer (z.&nbsp;B.&nbsp;443) für alle drei Dienste verwenden.
 
     
@@ -113,7 +113,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn Sie IPv6-Adressen nutzen möchten und nicht festgelegt haben, dass für den SIP-Zugriff, den Webkonferenzdienst und den A/V-Edgedienst ein einziger FQDN und eine einzige IP-Adresse verwendet werden sollen, geben Sie in **SIP-Zugriff** , **Webkonferenzen** und **A/V-Konferenzen** die externen IPv6-Adressen der Edgeserver ein. Klicken Sie anschließend auf **Weiter** .
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie nicht ausgewählt haben, dass Sie IPv6-Adressen aktivieren und zuweisen möchten, wird dieses Dialogfeld nicht angezeigt.
 
 
@@ -121,7 +121,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 12. Wenn Sie die Verwendung der Netzwerkadressenübersetzung festgelegt haben, wird ein Dialogfeld angezeigt. Geben Sie in **Öffentliche IPv4-Adresse des A/V-Edgediensts** die öffentliche IPv4-Adresse ein, die mithilfe der Netzwerkadressenübersetzung übersetzt werden soll, und klicken Sie anschließend auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dies muss die externe IP-Adresse des A/V-Edgediensts sein.
 
 
@@ -129,7 +129,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 13. Wenn Sie sich für die Verwendung der Netzwerkadressenübersetzung und IPv6-Adressen entschieden haben, wird ein Dialogfeld angezeigt. Geben Sie in **Öffentliche IPv6-Adresse des A/V-Edgediensts** die öffentliche IPv6-Adresse ein, die mithilfe der Netzwerkadressenübersetzung übersetzt werden soll, und klicken Sie anschließend auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dies muss die externe IP-Adresse des A/V-Edgediensts sein.
 
 
@@ -139,7 +139,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 15. Geben Sie in **Front-End-Pools zuordnen** einen oder mehrere interne Pools an (diese können Front-End-Pools und Standard Edition-Server umfassen), die diesem Edgeserver zugeordnet werden sollen. Wählen Sie dazu die Namen der internen Pools aus, die diesen Edgeserver für die Kommunikation mit unterstützten externen Benutzern verwenden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedem internen Pool kann für A/V-Datenverkehr nur ein Edgepool mit Lastenausgleich oder ein einzelner Edgeserver zugeordnet werden. Wenn einem internen Pool bereits ein Edgepool oder Edgeserver zugeordnet ist, werden Sie in einer Warnmeldung darüber informiert. Bei Auswahl eines Pools, der bereits einem anderen Edgeserver zugeordnet ist, wird die Zuordnung geändert.
 
 
@@ -176,7 +176,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn der Partnerverbund aktiviert werden soll, aktivieren Sie das Kontrollkästchen **Partnerverbund aktivieren (Port 5061)** . Klicken Sie auf **Weiter** .
         
 
-        > [!TIP]
+        > [!NOTE]
         > Sie können diese Option auswählen, es kann jedoch nur ein Edgepool oder Edgeserver in Ihrer Organisation extern für den Partnerverbund veröffentlicht werden. Der Zugriff durch Partnerbenutzer, einschließlich Benutzern öffentlicher Sofortnachrichtendienste, erfolgt stets über denselben Edgepool oder einzelnen Edgeserver. Wenn Ihre Bereitstellung beispielsweise je einen Edgepool oder einzelnen Edgeserver in New York und in London umfasst und Sie die Unterstützung des Partnerverbunds für den Edgepool oder einzelnen Edgeserver in New York aktivieren, erfolgt der Signaldatenverkehr für Partnerbenutzer über den Edgepool oder einzelnen Edgeserver in New York. Dies gilt auch für die Kommunikation mit Benutzern in London, wenngleich ein interner Benutzer in London, der einen Partnerbenutzer in London anruft, für den A/V-Datenverkehr den Pool oder Edgeserver in London verwendet.
 
     
@@ -201,7 +201,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn Sie in **Funktionen auswählen** festlegen, dass für den SIP-Zugriff, den Webkonferenzdienst und den A/V-Edgedienst ein einziger FQDN und eine einzige IP-Adresse verwendet werden sollen, geben Sie in **SIP-Zugriff** den externen FQDN ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie diese Option aktivieren, müssen Sie für jeden Edgedienst eine andere Portnummer angeben (die empfohlenen Porteinstellungen lauten: 5061&nbsp;für den Zugriffs-Edgedienst, 444&nbsp;für den Webkonferenz-Edgedienst und 443&nbsp;für den A/V-Edgedienst). Durch Auswahl dieser Option können Sie potenzielle Konnektivitätsprobleme verhindern und die Konfiguration vereinfachen, indem Sie dieselbe Portnummer (z.&nbsp;B.&nbsp;443) für alle drei Dienste verwenden.
 
     
@@ -218,7 +218,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Geben Sie in **Interner FQDN** den FQDN des ersten Edgeservers ein, der in diesem Pool erstellt werden soll.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Der angegebene Name muss mit dem auf dem Server konfigurierten Computernamen übereinstimmen. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet FQDNs und keine Kurznamen. Daher müssen Sie ein DNS-Suffix für den Namen des Computers konfigurieren, der als Edgeserver bereitgestellt werden soll und nicht Mitglied einer Domäne ist. Verwenden Sie beim Zuweisen von FQDNs der Server mit Lync&nbsp;Server, Edgeserver, Pools und Arrays nur Standardzeichen (A-Z, a-z, 0-9 und Bindestriche). Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Andere als die genannten Zeichen in einem FQDN werden von externen DNS-Einträgen und öffentlichen Zertifizierungsstellen (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss) häufig nicht unterstützt. Ausführliche Informationen zum Hinzufügen eines DNS-Suffix zu einem Computernamen finden Sie unter <A href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edgeunterstützung in Lync Server 2013</A>.
 
 
@@ -240,7 +240,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn Sie nicht festgelegt haben, dass für den SIP-Zugriff, den Webkonferenzdienst und den A/V-Konferenzdienst ein einziger FQDN und eine einzige IP-Adresse verwendet werden sollen, geben Sie für **SIP-Zugriff** die IPv6-Adresse ein, die Sie für die öffentliche Seite dieses Edgepoolservers ausgewählt haben. Geben Sie in **Webkonferenzen** die IPv6-Adresse ein, die Sie für die öffentliche Seite des Edgepools ausgewählt haben. Geben Sie in **A/V-Konferenzen** die IPv6-Adresse ein, die Sie für die öffentliche Seite des Edgepools ausgewählt haben.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie nicht ausgewählt haben, dass Sie IPv6-Adressen aktivieren und zuweisen möchten, wird dieses Dialogfeld nicht angezeigt.
 
 
@@ -248,7 +248,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 17. Klicken Sie auf **Fertig stellen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der erste Edgeserver, den Sie in Ihrem Pool erstellt haben, wird nun im Dialogfeld <STRONG>Computer in diesem Pool definieren</STRONG> angezeigt.
 
 
@@ -258,7 +258,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 19. Nachdem Sie die Schritte 11 bis 14 wiederholt haben, klicken Sie in **Computer in diesem Pool definieren** auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die beiden Edgeserver werden nun in Ihrem Pool angezeigt.
 
 
@@ -266,7 +266,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 20. Wenn Sie die Verwendung der Netzwerkadressenübersetzung festgelegt haben, wird ein Dialogfeld angezeigt. Geben Sie in **Öffentliche IP-Adresse** die öffentliche IPv4- bzw. IPv6-Adresse ein, die mithilfe der Netzwerkadressenübersetzung übersetzt werden soll, und klicken Sie anschließend auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Dies muss die externe IP-Adresse des A/V-Edgeservers sein.
 
 
@@ -276,7 +276,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 22. Geben Sie in **Front-End-Pools zuordnen** einen oder mehrere interne Pools an (diese können Front-End-Pools und Standard Edition-Server umfassen), die diesem Edgeserver zugeordnet werden sollen. Wählen Sie dazu die Namen der internen Pools aus, die diesen Edgeserver für die Kommunikation mit unterstützten externen Benutzern verwenden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedem internen Pool kann für A/V-Datenverkehr nur ein Edgepool mit Lastenausgleich oder ein einzelner Edgeserver zugeordnet werden. Wenn einem internen Pool bereits ein Edgepool oder Edgeserver zugeordnet ist, werden Sie in einer Warnmeldung darüber informiert. Bei Auswahl eines Pools, der bereits einem anderen Edgeserver zugeordnet ist, wird die Zuordnung geändert.
 
 
@@ -315,7 +315,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn der Partnerverbund aktiviert werden soll, aktivieren Sie das Kontrollkästchen **Partnerverbund aktivieren (Port 5061)** .
         
 
-        > [!TIP]
+        > [!NOTE]
         > Sie können diese Option auswählen, es kann jedoch nur ein Edgepool oder Edgeserver in Ihrer Organisation extern für den Partnerverbund veröffentlicht werden. Der Zugriff durch Partnerbenutzer, einschließlich Benutzern öffentlicher Sofortnachrichtendienste, erfolgt stets über denselben Edgepool oder einzelnen Edgeserver. Wenn Ihre Bereitstellung beispielsweise je einen Edgepool oder einzelnen Edgeserver in New York und in London umfasst und Sie die Unterstützung des Partnerverbunds für den Edgepool oder einzelnen Edgeserver in New York aktivieren, erfolgt der Signaldatenverkehr für Partnerbenutzer über den Edgepool oder einzelnen Edgeserver in New York. Dies gilt auch für die Kommunikation mit Benutzern in London, wenngleich ein interner Benutzer in London, der einen Partnerbenutzer in London anruft, für den A/V-Datenverkehr den Pool oder Edgeserver in London verwendet.
 
     
@@ -344,14 +344,14 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn Sie in **Funktionen auswählen** festlegen, dass für den SIP-Zugriff, den Webkonferenzdienst und den A/V-Edgedienst ein einziger FQDN und eine einzige IP-Adresse verwendet werden sollen, geben Sie in **SIP-Zugriff** den externen FQDN ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Wenn Sie diese Option aktivieren, müssen Sie für jeden Edgedienst eine andere Portnummer angeben (die empfohlenen Porteinstellungen lauten: 5061&nbsp;für den Zugriffs-Edgedienst, 444&nbsp;für den Webkonferenz-Edgedienst und 443&nbsp;für den A/V-Edgedienst). Durch Auswahl dieser Option können Sie potenzielle Konnektivitätsprobleme verhindern und die Konfiguration vereinfachen, indem Sie dieselbe Portnummer (z.&nbsp;B.&nbsp;443) für alle drei Dienste verwenden.
 
     
       - Wenn Sie unter **Funktionen auswählen** nicht festgelegt haben, dass nur ein einziger FQDN und eine einzige IP-Adresse verwendet werden sollen, geben Sie den FQDN für die öffentliche Seite des Edgepools in **SIP-Zugriff** ein. Geben Sie in **Webkonferenzen** den FQDN ein, den Sie für die öffentliche Seite des Edgepools ausgewählt haben. Geben Sie in **Audio/Video** den FQDN ein, den Sie für die öffentliche Seite des Edgepools ausgewählt haben. Verwenden Sie die Standardports.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Dabei handelt es sich um die FQDNs der virtuellen IP-Adressen (VIP) für die öffentliche Seite des Pools.
 
 
@@ -375,7 +375,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
       - Wenn Sie nicht festgelegt haben, dass für den SIP-Zugriff, den Webkonferenzdienst und den A/V-Konferenzdienst ein einziger FQDN und eine einzige IP-Adresse verwendet werden sollen, geben Sie für **SIP-Zugriff** die IPv6-Adresse ein, die Sie für die öffentliche Seite dieses Edgepoolservers ausgewählt haben. Geben Sie in **Webkonferenzen** die IPv6-Adresse ein, die Sie für die öffentliche Seite des Edgepools ausgewählt haben. Geben Sie in **A/V-Konferenzen** die IPv6-Adresse ein, die Sie für die öffentliche Seite des Edgepools ausgewählt haben.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie nicht ausgewählt haben, dass Sie IPv6-Adressen aktivieren und zuweisen möchten, wird dieses Dialogfeld nicht angezeigt.
 
 
@@ -383,7 +383,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 15. Klicken Sie auf **Fertig stellen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der erste Edgeserver, den Sie in Ihrem Pool erstellt haben, wird nun im Dialogfeld <STRONG>Computer in diesem Pool definieren</STRONG> angezeigt.
 
 
@@ -393,7 +393,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 17. Nachdem Sie die Schritte 11 bis 14 wiederholt haben, klicken Sie in **Computer in diesem Pool definieren** auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die beiden Edgeserver werden nun in Ihrem Pool angezeigt.
 
 
@@ -403,7 +403,7 @@ Die Definition der Edgeservertopologie wird im Topologie-Generator vorgenommen. 
 19. Geben Sie in **Front-End-Pools zuordnen** einen oder mehrere interne Pools an (diese können Front-End-Pools und Standard Edition-Server umfassen), die diesem Edgeserver zugeordnet werden sollen. Wählen Sie dazu die Namen der internen Pools aus, die diesen Edgeserver für die Kommunikation mit unterstützten externen Benutzern verwenden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedem internen Pool kann für A/V-Datenverkehr nur ein Edgepool mit Lastenausgleich oder ein einzelner Edgeserver zugeordnet werden. Wenn einem internen Pool bereits ein Edgepool oder Edgeserver zugeordnet ist, werden Sie in einer Warnmeldung darüber informiert. Bei Auswahl eines Pools, der bereits einem anderen Edgeserver zugeordnet ist, wird die Zuordnung geändert.
 
 

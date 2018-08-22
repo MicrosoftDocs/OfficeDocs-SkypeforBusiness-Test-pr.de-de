@@ -24,7 +24,7 @@ Wenn Sie einen zentraler Verwaltungsserver aus einer vorhandenen Lync Server 201
 2.  Verwenden Sie das **Update-CsAdminRole**-Cmdlet, um die auf dem zentraler Verwaltungsserver gespeicherten rollenbasierten Zugriffssteuerungsrollen zu aktualisieren.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es wird keine Ausgabe erwartet, außer es tritt ein Fehler auf.
 
 

@@ -40,7 +40,7 @@ Das Planungstool zeigt die Topologie für den ausgewählten Standort an. Im unte
   - Standortzusammenfassung - Die Standortzusammenfassung liefert einen Überblick über die Auswahl, die entweder bei den anfänglichen Fragen oder durch Angeben der Werte in **Websites entwerfen** getroffen wurde. Es werden auch Kapazitätsinformationen angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Informationen auf der Seite mit der Standortzusammenfassung sind auf den jeweiligen Entwurf zugeschnitten und enthält möglicherweise nicht alle Abschnitte oder Informationen, die hier besprochen werden.
 
 

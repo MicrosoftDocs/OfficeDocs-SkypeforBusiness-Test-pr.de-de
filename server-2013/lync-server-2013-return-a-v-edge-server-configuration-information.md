@@ -17,7 +17,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
 Der A/V-Edgeserverdienst bietet eine Möglichkeit für Ihre internen Benutzer (in Ihrem Organisationsnetzwerk angemeldete Benutzer), Audio- und Videodateien für externe Benutzer (nicht in Ihrem Organisationsnetzwerk angemeldete Benutzer) freizugeben. Der A/V-Edgeserverdienst wird primär durch die Verwendung von A/V-Edge-Konfigurationseinstellungen verwaltet; Einstellung, die über die Standort- oder die Dienstebene konfiguriert werden kann (d. h., sie kann für einen einzelnen A/V-Edgeserver konfiguriert werden).
 
-Sie müssen die Communications Server-Verwaltungsshell und das Cmdlet Get-CsAVEdgeConfiguration verwenden, um Informationen über die in Ihrer Organisation verwendeten A/V-Edge-Konfigurationseinstellungen zurückzugeben. Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md).
+Sie müssen die Communications Server-Verwaltungsshell und das Cmdlet Get-CsAVEdgeConfiguration verwenden, um Informationen über die in Ihrer Organisation verwendeten A/V-Edge-Konfigurationseinstellungen zurückzugeben. Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAVEdgeConfiguration).
 
 Vom Cmdlet Get-CsAVEdgeConfiguration zurückgegebene Informationen sehen in etwa so aus:
 

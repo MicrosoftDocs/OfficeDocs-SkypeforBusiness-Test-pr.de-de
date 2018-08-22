@@ -46,7 +46,7 @@ Administratoren können den Parameter **OutLoggerVariable** gefolgt von einem Va
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
 
-> [!TIP]
+> [!NOTE]
 > Stellen Sie dem Variablennamen kein $-Zeichen voran. Verwenden Sie einen Variablennamen wie <STRONG>RegistrationTest</STRONG> und nicht <STRONG>$RegistrationTest</STRONG>.
 
 

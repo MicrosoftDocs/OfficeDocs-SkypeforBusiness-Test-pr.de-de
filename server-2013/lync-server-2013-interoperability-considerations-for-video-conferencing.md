@@ -38,7 +38,7 @@ Benutzer stellen das folgende Verhalten fest, wenn ein Lync Server 2013-Client i
   - Bei Konferenzen mit mehreren Teilnehmern entsprechen Videoauflösung und Videokonferenzfeatures denen eines Legacyclients im Legacypool.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn ein Legacyserver einen Lync Server 2013-Client hostet, können Sie die Videokonferenzbandbreite konfigurieren, sodass alle Benutzer im Pool nur Videos mit niedriger Auflösung erhalten, aber Videos mit hoher Auflösung senden. Beispielsweise kann <STRONG>MaxVideoRateAllowed</STRONG> in der Medienkonfiguration auf <STRONG>CIF-250K</STRONG> und <STRONG>VideoBitRateKb</STRONG> in der Konferenzrichtlinie auf <STRONG>2000 KBit/s</STRONG> festgelegt werden. Das Resultat in dieser Situation ist, dass für Benutzer im Pool keine hohe Auflösung möglich ist.<BR>Da <STRONG>MaxVideoRateAllowed</STRONG> nicht mehr für Lync Server 2013-Clients verwendet wird, kann nicht verhindert werden, dass Lync Server 2013-Clients Videos mit hoher Auflösung anfordern. Legen Sie stattdessen <STRONG>VideoBitRateKb</STRONG> in der Konferenzrichtlinie für alle Benutzer im Pool auf denselben Wert wie <STRONG>MaxVideoRateAllowed</STRONG> fest (d.&nbsp;h. CIF ist auf 250 KBit/s, VGA ist auf 600 KBit/s oder HD ist auf 1500 KBit/s festgelegt).
 
 

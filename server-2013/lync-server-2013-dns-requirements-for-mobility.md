@@ -94,7 +94,7 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 <td><p>_sipfederationtls._tcp. <em>&lt;sipdomain&gt;</em></p>
 <p>Wird in Hosteinträge (A oder AAAA) für den Zugriffs-Edgedienst aufgelöst</p></td>
 <td><p>Zur Unterstützung des Pushbenachrichtigungsdiensts und des Apple-Pushbenachrichtigungsdiensts erstellen Sie einen SRV-Eintrag für jede SIP-Domäne, die Microsoft Lync Mobile-Clients aufweist.</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Diese Anforderung gilt nur für Microsoft Lync Mobile-Clients auf Apple- oder Microsoft-basierten mobilen Geräten. Android- und Nokia Symbian-Geräte verwenden die Pushbenachrichtigung nicht.
@@ -107,7 +107,7 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 
 
 
-> [!TIP]
+> [!NOTE]
 > Der Datenverkehr von Lyncdiscover, auch als AutoErmittlung bekannt, wird über den Reverseproxy geleitet. Der SRV-Eintrag zeigt auf einen Eintrag, der über den Zugriffs-Edgedienst aufgelöst wird.
 
 

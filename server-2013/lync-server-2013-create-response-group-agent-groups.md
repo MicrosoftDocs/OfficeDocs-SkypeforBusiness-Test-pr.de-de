@@ -22,7 +22,7 @@ Ein Agent, der sich bei der Gruppe an- und abmelden muss (unabhängig vom An- un
 Ein Agent, der sich nicht bei einer Gruppe anmeldet oder abmeldet, wird als *informeller Agent* bezeichnet. Informelle Agents werden automatisch bei der Gruppe angemeldet, sobald sie sich bei Lync Server anmelden. Sie haben nicht die Möglichkeit, sich von der Gruppe abzumelden.
 
 
-> [!TIP]
+> [!NOTE]
 > Nur lokale Benutzer können Agents sein. Wenn ein Agent von der lokalen Verwendung zur Onlinebereitstellung wechselt, werden die Anrufe der Reaktionsgruppe nicht mehr an diesen Agent weitergeleitet.
 
 

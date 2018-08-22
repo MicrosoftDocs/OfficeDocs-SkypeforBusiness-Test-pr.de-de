@@ -32,7 +32,7 @@ Wenn Sie die WMI-Eigenschaft **PartitionbyOU** auf "True" festgelegt haben, soda
 Wenn Sie in der Lync Server 2010-Umgebung Normalisierungsregeln für Adressbücher angepasst haben, müssen Sie die angepassten Regeln in den Pilotpool migrieren. Haben Sie die Adressbuch-Normalisierungsregeln nicht angepasst, ist für den Adressbuchdienst nichts zu migrieren. Die Standardnormalisierungsregeln für Lync Server 2013 sind mit denen für Lync Server 2010 identisch. Führen Sie das später in diesem Abschnitt beschriebene Verfahren aus, um angepasste Normalisierungsregeln zu migrieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn in Ihrer Organisation Remoteanrufsteuerung verwendet wird und Sie Normalisierungsregeln für Adressbücher angepasst haben, müssen Sie das Verfahren in diesem Thema ausführen, bevor Sie die Remoteanrufsteuerung nutzen können. Dazu müssen Sie Mitglied der Gruppe "RTCUniversalServerAdmins" sein oder gleichwertige Rechte innehaben.
 
 
@@ -46,7 +46,7 @@ Wenn Sie den Wert für **UseNormalizationRules** auf "False" festlegen, sodass d
 1.  Suchen Sie die Datei **Company\_Phone\_Number\_Normalization\_Rules.txt** im Stamm des freigegebenen Adressbuchordners heraus, und kopieren Sie sie in den Stamm des freigegebenen Adressbuchordners im Lync Server 2013-Pilotpool.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Beispiele für die Normalisierungsregeln für Adressbücher wurden in Ihrem ABS Web-Komponentendateiverzeichnis installiert. Der Pfad lautet <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Diese Datei kann in <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;umbenannt und in das Stammverzeichnis des freigegebenen Adressbuchordners kopiert werden. Der Pfad für das in <STRONG>$serverX</STRONG> freigegebene Adressbuch wird zum Beispiel ähnlich aussehen wie <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
 
 

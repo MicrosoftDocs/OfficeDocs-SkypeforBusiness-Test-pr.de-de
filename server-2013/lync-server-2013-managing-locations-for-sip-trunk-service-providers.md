@@ -26,7 +26,7 @@ Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Re
   - Wenn es sich um eine ungefähre Standortangabe handelt, da der Standort von einem Funkzugriffspunkt ermittelt wird, können Sie das Wort Near (Ca.) hinzufügen (z. B. "Ca. 1. Stock 1234").
 
 
-> [!TIP]
+> [!NOTE]
 > Standorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem sie mit einem Lync Server-Verwaltungsshell-Befehl veröffentlicht und in die lokalen Speicher des Pools repliziert wurden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-the-location-database.md">Veröffentlichen der Standortdatenbank von Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

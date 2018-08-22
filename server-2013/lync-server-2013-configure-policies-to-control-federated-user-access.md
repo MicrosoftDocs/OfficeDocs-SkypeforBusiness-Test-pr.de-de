@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-02-05_
 Wenn Sie Richtlinien zur Unterstützung der Kommunikation mit Verbundpartnern konfigurieren, gelten die Richtlinien für Benutzer von Partnerdomänen. Sie können eine oder mehrere Richtlinien für den Zugriff externer Benutzer konfigurieren und steuern, ob Benutzer von Partnerdomänen mit Ihren Lync Server 2013-Benutzern zusammenarbeiten können. Zum Steuern des Zugriffs durch Partnerbenutzer können Sie Richtlinien auf globaler Ebene sowie Standort- und Benutzerebene konfigurieren. Lync Server-Richtlinieneinstellungen, die auf einer bestimmten Richtlinienebene angewendet werden, können durch Einstellungen überschrieben werden, die auf einer anderen Richtlinienebene angewendet werden. Dabei gilt folgende Rangfolge: Benutzerrichtlinien (größter Einfluss) überschreiben Standortrichtlinien, und diese überschreiben wiederum globale Richtlinien (geringster Einfluss). Mit anderen Worten: Je geringer der Abstand zwischen Richtlinieneinstellung und betroffenem Objekt, desto stärker der Einfluss auf das Objekt.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können auch dann Richtlinien zur Steuerung des Zugriffs durch Partnerbenutzer konfigurieren, wenn Sie den Partnerverbund für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien treten jedoch erst dann in Kraft, wenn der Partnerverbund für Ihre Organisation aktiviert ist. Ausführliche Informationen zum Aktivieren des Partnerverbunds finden Sie unter <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer in Lync Server 2013</A> in der Bereitstellungs- oder der Betriebdokumentation. Wenn Sie eine Benutzerrichtlinie zur Steuerung des Zugriffs durch Partnerbenutzer angeben, gilt die Richtlinie zudem nur für Benutzer, die für Lync Server 2013 aktiviert und für die Verwendung der Richtlinie konfiguriert wurden.
 
 
@@ -120,9 +120,9 @@ Handelt es sich um eine Benutzerrichtlinie, müssen Sie die Richtlinie auch auf 
 
 [Verwalten von SIP-Partnerdomänen für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Verwalten von SIP-Partnerverbundanbietern für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 

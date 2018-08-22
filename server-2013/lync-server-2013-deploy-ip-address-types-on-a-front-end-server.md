@@ -30,7 +30,7 @@ Verwenden Sie den Topologie-Generator und führen Sie die Schritte des folgenden
       - **Alle konfigurierten IP-Adressen verwenden**. Wählen Sie diese Option, wenn Sie zulassen möchten, dass eine beliebige auf dem Computer festgelegte IP-Adresse verwendet wird.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Diese Option wird für IP Version 6-Konfigurationen (IPv6) empfohlen.
 
     

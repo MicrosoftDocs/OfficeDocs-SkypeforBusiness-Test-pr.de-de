@@ -22,7 +22,7 @@ Führen Sie den Lync Server 2013-Bereitstellungs-Assistenten anhand der hier bes
 Wenn Sie an diesem Standort bereits Vermittlungsserver bereitgestellt haben, die in den Front-End-Pools oder auf dem Standard Edition-Server gemeinsam ausgeführt werden, können Sie dieses Thema überspringen und stattdessen mit [Konfigurieren von Trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md) fortfahren.
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen Vermittlungsserverpool definiert und veröffentlicht haben, wie unter <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Definieren eines Vermittlungsservers im Topologie-Generator in Lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in Lync Server 2013</A> in der Bereitstellungsdokumentation beschrieben. Ferner wird vorausgesetzt, dass Sie sichergestellt haben, dass die Computer im Vermittlungsserverpool die unter <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Erforderliche Software für Enterprise-VoIP in Lync Server 2013</A> und <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Anforderungen an Sicherheit und Konfiguration für Enterprise-VoIP in Lync Server 2013</A> beschriebenen Voraussetzungen erfüllen.
 
 

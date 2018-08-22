@@ -28,7 +28,7 @@ Jede Region in einer CAC-Konfiguration (Call Admission Control, Anrufsteuerung) 
 4.  Klicken Sie auf der Seite **Regionenroute** auf die Regionenroute, die Sie löschen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können mehrere Regionenrouten in einem Arbeitsschritt löschen. Wählen Sie dazu mit gedrückter STRG-TASTE mehrere Regionenrouten aus. Wenn Sie alle Regionenrouten auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
 
 
@@ -49,8 +49,8 @@ Jede Region in einer CAC-Konfiguration (Call Admission Control, Anrufsteuerung) 
 
 #### Weitere Ressourcen
 
-[New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)  
-[Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)  
-[Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)  
-[Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 

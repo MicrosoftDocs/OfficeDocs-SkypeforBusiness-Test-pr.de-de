@@ -65,7 +65,7 @@ Ausführliche Informationen zum Erstellen von Archivierungsrichtlinien finden Si
 7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Archivierungsrichtlinie** eine der folgenden Aktionen aus:
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
@@ -93,7 +93,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Windows Powe
 
 ## Zuordnen einer benutzerbezogenen Archivierungsrichtlinie zu mehreren Benutzern
 
-  - Mithilfe dieses Befehls wird die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zugeordnet, deren Konten im Registrar-Pool "atl-cs-001.litwareinc.com" verwaltet werden. Weitere Informationen zu dem in diesem Befehl verwendeten Filterparameter finden Sie in der Dokumentation für das [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Mithilfe dieses Befehls wird die benutzerbezogene Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zugeordnet, deren Konten im Registrar-Pool "atl-cs-001.litwareinc.com" verwaltet werden. Weitere Informationen zu dem in diesem Befehl verwendeten Filterparameter finden Sie in der Dokumentation für das [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -103,7 +103,7 @@ Benutzerbezogene Archivierungsrichtlinien können auch mithilfe der Windows Powe
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen dazu finden Sie im Hilfethema für das [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md)-Cmdlet.
+Weitere Informationen dazu finden Sie im Hilfethema für das [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

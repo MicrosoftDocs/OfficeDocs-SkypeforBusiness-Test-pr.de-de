@@ -43,13 +43,13 @@ Falls Sie nicht über Sicherungskopien von angepassten Audiodateien verfügen un
 Wenn Sie die Ansageanwendung bei einem Ausfall verwenden möchten, müssen Sie die Ansagekonfiguration im Sicherungspool erneut erstellen, indem Sie die in diesem Abschnitt beschriebenen Schritte ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, diese Schritte nach dem Failover auf den Sicherungspool auszuführen. Sobald Sie nämlich Schritt&nbsp;2 ausführen, wird der Sicherungspool zum Besitzer der nicht zugewiesenen Nummernbereiche.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Für Nummernbereiche, die eine Exchange UM-Rufnummer der automatischen Telefonzentrale verwenden, sind diese Schritte nicht erforderlich.
 
 
@@ -63,7 +63,7 @@ Wenn Sie die Ansageanwendung bei einem Ausfall verwenden möchten, müssen Sie d
     2.  Erstellen Sie alle Ansagen erneut, indem Sie das **New-CsAnnouncement**-Cmdlet verwenden und den Sicherungspool für den Parent -Parameter angeben.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zum Erstellen von Ansagen im Sicherungspool mithilfe dieser Parameter finden Sie unter <A href="lync-server-2013-create-an-announcement.md">Erstellen einer Ansage in Lync Server 2013</A>.
 
 
@@ -79,7 +79,7 @@ Wenn Sie die Ansageanwendung bei einem Ausfall verwenden möchten, müssen Sie d
 Wenn der primäre Pool nicht mehr verfügbar ist, müssen Sie die nicht zugewiesenen Nummernbereiche, die Sie für den Ausfall geändert haben, wieder an den primären Pool umleiten.
 
 
-> [!TIP]
+> [!NOTE]
 > Für Nummernbereiche, die eine Exchange UM-Rufnummer der automatischen Telefonzentrale verwenden, sind diese Schritte nicht erforderlich.
 
 

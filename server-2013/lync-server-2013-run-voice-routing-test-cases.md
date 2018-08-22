@@ -42,7 +42,7 @@ Sie können sämtliche Testfälle in Ihrem Paket mit Testfällen für das VoIP-R
     5.  **Erste Route:** Die erste VoIP-Route im ersten PSTN-Verwendungsdatensatz, die mit der gewählten Nummer übereinstimmt.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Die Felder <STRONG>Erwarteter PSTN-Verwendungsdatensatz</STRONG> und <STRONG>Erwartete Route</STRONG> sind bei der Testfallkonfiguration für das VoIP-Routing optional. Wenn diese Werte nicht für den Testfall angegeben werden, sind die entsprechenden Felder in den Testergebnissen leer.
 
 
@@ -74,7 +74,7 @@ Sie können sämtliche Testfälle in Ihrem Paket mit Testfällen für das VoIP-R
     5.  **Erste Route:** Die erste VoIP-Route im ersten PSTN-Verwendungsdatensatz, die mit der gewählten Nummer übereinstimmt.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Die Felder <STRONG>Erwarteter PSTN-Verwendungsdatensatz</STRONG> und <STRONG>Erwartete Route</STRONG> sind bei der Testfallkonfiguration für das VoIP-Routing optional. Wenn diese Werte nicht für den Testfall angegeben werden, sind die entsprechenden Felder in den Testergebnissen leer.
 
 

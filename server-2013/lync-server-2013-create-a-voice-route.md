@@ -48,7 +48,7 @@ Im folgenden Verfahren wird erläutert, wie Sie mithilfe der Systemsteuerung fü
 10. Klicken Sie auf **Hinzufügen**, um der VoIP-Route einen oder mehrere Trunks zuzuordnen, und wählen Sie aus der Liste einen Trunk aus.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Ihre Bereitstellung Microsoft Office Communications Server 2007 R2-Vermittlungsserver umfasst, sind diese ebenfalls in der Liste verfügbar.
 
 
@@ -56,7 +56,7 @@ Im folgenden Verfahren wird erläutert, wie Sie mithilfe der Systemsteuerung fü
 11. Wenn Sie der VoIP-Route eine oder mehrere PSTN-Verwendungen zuordnen möchten, klicken Sie auf **Auswählen**, und wählen Sie einen Eintrag aus der Liste der PSTN-Verwendungseinträge, die für Ihre Enterprise-VoIP-Bereitstellung definiert wurden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Informationen zur Anzeige der Eigenschaften aller verfügbaren PSTN-Verwendungen finden Sie unter <A href="lync-server-2013-view-pstn-usage-records.md">Anzeigen von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.<BR>Informationen zum Erstellen oder Bearbeiten von PSTN-Verwendungseinträgen finden Sie unter <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A> oder <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Lync Server 2013</A>.
 
 
@@ -64,7 +64,7 @@ Im folgenden Verfahren wird erläutert, wie Sie mithilfe der Systemsteuerung fü
 12. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Wenn Sie die Position eines Eintrags in der Liste ändern möchten, markieren Sie den Eintrag, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Im Gegensatz zu einer VoIP-Richtlinie, bei der die Reihenfolge der PSTN-Verwendungseinträge eine wichtige Rolle spielt, ist die Reihenfolge der PSTN-Verwendungseinträge in einer VoIP-Route unerheblich. Dennoch wird empfohlen, die Liste nach Verwendungshäufigkeit zu strukturieren. Beispiel: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Lync Server durchläuft die Liste von oben nach unten.)
 
 
@@ -72,7 +72,7 @@ Im folgenden Verfahren wird erläutert, wie Sie mithilfe der Systemsteuerung fü
 13. (Optional) Geben Sie im Feld **Geben Sie eine übersetzte Nummer für den Test ein**, und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb des Felds angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine VoIP-Route speichern, die den Test nicht bestanden hat, und sie später neu konfigurieren. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen des VoIP-Routings in Lync Server 2013</A>.
 
 

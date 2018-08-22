@@ -19,7 +19,7 @@ In den Tabellen des vorliegenden Themas werden alle Konferenzrichtlinieneinstell
 
 ## Richtlinieneinstellungen für Organisatoren
 
-In der folgenden Tabelle werden alle Konferenzrichtlinieneinstellungen aufgeführt, die Sie auf Konferenzorganisatoren anwenden können. Die neueste Liste der Konferenzrichtlinieneinstellungen finden Sie im Hilfethema zum Cmdlet [Set-CsClientPolicy](set-csclientpolicy.md).
+In der folgenden Tabelle werden alle Konferenzrichtlinieneinstellungen aufgeführt, die Sie auf Konferenzorganisatoren anwenden können. Die neueste Liste der Konferenzrichtlinieneinstellungen finden Sie im Hilfethema zum Cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 ### Richtlinieneinstellungen für Organisatoren
 
@@ -102,9 +102,9 @@ In der folgenden Tabelle werden alle Konferenzrichtlinieneinstellungen aufgefüh
 <tr class="odd">
 <td><p>Steuerungsübernahme durch Partnerteilnehmer und anonyme Teilnehmer zulassen</p></td>
 <td><p>Ermöglicht es externen und anonymen Teilnehmern, die Steuerung der freigegebenen Anwendung eines anderen Benutzers zu übernehmen.</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Wenn diese Einstellung aktiviert, die Einstellung <STRONG>Übernahme der Steuerung durch Teilnehmer zulassen</STRONG> jedoch deaktiviert ist, wird diese Einstellung außer Kraft gesetzt.
 
 

@@ -55,7 +55,7 @@ Sie können den Dienststatus auch mithilfe von Lync Server-Verwaltungsshell und 
         {ConferencingServer}                      Running
         {MediationServer}                         Running
 
-Ausführliche Informationen finden Sie unter [Get-CsWindowsService](get-cswindowsservice.md).
+Ausführliche Informationen finden Sie unter [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
 
 ## Siehe auch
 

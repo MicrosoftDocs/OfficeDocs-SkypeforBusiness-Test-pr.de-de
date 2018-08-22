@@ -20,7 +20,7 @@ Lync Web App ist ein IIS-Webclient, der zusammen mit Lync Server 2013 installier
 Für die VoIP-, Video- und Freigabefeatures in Lync Web App ist ein Microsoft ActiveX-Steuerelement erforderlich. Sie können das ActiveX-Steuerelement entweder im Voraus installieren oder Benutzern erlauben, es zu installieren, wenn sie dazu aufgefordert werden. Dies geschieht, wenn sie Lync Web App erstmals verwenden oder erstmals auf ein Feature zugreifen, wofür das ActiveX-Steuerelement erforderlich ist.
 
 
-> [!TIP]
+> [!NOTE]
 > In Lync Server 2013-Edgeserver-Bereitstellungen ist im Umkreisnetzwerk ein HTTPS-Reverseproxy für Lync Web App-Clientzugriff erforderlich. Sie müssen zudem einfache URLs. Details finden Sie untere <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Einrichten von Reverseproxyservern für Lync Server 2013</A> und <A href="lync-server-2013-planning-for-simple-urls.md">Planung für einfache URLs in Lync Server 2013</A>.
 
 
@@ -82,7 +82,7 @@ Details zum Deaktivieren von BranchCache finden Sie im Bereitstellungshandbuch f
 
 ## Überprüfen der Lync Web App-Bereitstellung
 
-Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Details zu diesem Cmdlet finden Sie unter [Test-CsUcwaConference](test-csucwaconference.md) in der Lync Server-Verwaltungsshell-Dokumentation.
+Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Details zu diesem Cmdlet finden Sie unter [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference) in der Lync Server-Verwaltungsshell-Dokumentation.
 
 ## Problembehandlung von Plug-In-Installationen auf Windows Server 2008 R2
 
@@ -99,7 +99,7 @@ Wenn die Installation von Plug-Ins auf einem Computer mit Windows Server 2008 
 4.  Deaktivieren Sie **Verschlüsselte Seiten nicht auf dem Datenträger speichern**, und klicken Sie dann auf **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ist diese Option ausgewählt, verursacht diese Einstellung beim Versuch, eine Anlage von Lync Web App herunterzuladen, einen Fehler.
 
 

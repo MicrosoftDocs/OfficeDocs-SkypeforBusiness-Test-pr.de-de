@@ -34,7 +34,7 @@ Blockieren Sie eine oder mehrere externe Domänen vom Herstellen einer Verbindun
       - Geben Sie im Feld **Domänenname (oder FQDN)** den Namen der Verbundpartnerdomäne ein, die blockiert werden soll.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Der Name darf maximal 256 Zeichen umfassen.<BR>Bei der Suche nach dem Namen der Verbundpartnerdomäne wird ein Suffixabgleich durchgeführt. Wenn Sie beispielsweise <STRONG>contoso.com</STRONG> eingeben, wird als Suchergebnis auch die Domäne <STRONG>it.contoso.com</STRONG> zurückgegeben.<BR>Eine Verbundpartnerdomäne kann nicht gleichzeitig blockiert und zugelassen werden. Lync Server 2013 verhindert dies automatisch, sodass Sie Ihre Listen nicht synchronisieren müssen.
 
     

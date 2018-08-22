@@ -60,7 +60,7 @@ Die folgenden Beispielkonfigurationen bieten Ausfallsicherheit für Exchange UM
 In Beispiel 1 sind die Exchange UM-Server 1 und 2 im Rechenzentrum "Tukwila" aktiviert, die Exchange UM-Server 3 und 4 im Rechenzentrum "Dublin". Bei einem Exchange UM-Ausfall in Tukwila sollten die DNS-A-Einträge für die Server 1 und 2 so konfiguriert sein, dass sie auf den Server 3 bzw. 4 zeigen. Bei einem Exchange UM-Ausfall in Dublin sollten die DNS-A-Einträge für die Server 3 und 4 so konfiguriert sein, dass sie auf den Server 1 bzw. 2 zeigen.
 
 
-> [!TIP]
+> [!NOTE]
 > In Beispiel&nbsp;1 sollten Sie zudem auf jedem Exchange&nbsp;UM-Server eins der folgenden Zertifikate zuweisen: 
 > <UL>
 > <LI>

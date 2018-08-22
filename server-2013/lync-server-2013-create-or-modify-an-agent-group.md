@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-02-07_
 Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen oder zu ändern.
 
 
-> [!TIP]
+> [!NOTE]
 > Ein Administrator \endash z.&nbsp;B. <STRONG>CsVoiceAdministrator</STRONG> \endash muss Benutzer für Enterprise-VoIP und Lync Server aktivieren, bevor die Benutzer Agentgruppen zugewiesen werden können. Wenn Sie einer der delegierten Reaktionsgruppenleiter für einen verwalteten Workflow sind, können Sie Agentgruppen erstellen und in den von Ihnen verwalteten Workflows verwenden.
 
 
@@ -34,7 +34,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie einer der delegierten Reaktionsgruppenleiter für einen verwalteten Workflow sind, können Sie Gruppen erstellen und in den von Ihnen verwalteten Workflows verwenden.
 
 
@@ -147,8 +147,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 #### Weitere Ressourcen
 
 [Verwalten von Agentgruppen für Reaktionsgruppen](lync-server-2013-managing-response-group-agent-groups.md)  
-[Get-CsService](get-csservice.md)  
-[New-CsRgsAgentGroup](new-csrgsagentgroup.md)  
-[Set-CsRgsAgentGroup](set-csrgsagentgroup.md)  
-[Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
+[New-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup)  
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)
 

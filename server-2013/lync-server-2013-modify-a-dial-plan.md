@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um einen vorhandenen Wählplan zu änder
 4.  Doppelklicken Sie auf der Seite **Wähleinstellungen** auf einen Satz mit Wähleinstellungen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bereich und Name der Wähleinstellungen wurden beim Erstellen der Wähleinstellungen festgelegt. Sie können nicht geändert werden.
 
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um einen vorhandenen Wählplan zu änder
 7.  (Optional) Wenn Sie diesen Wählplan als eine Region für Einwählnummern verwenden möchten, geben Sie eine **Einwahlkonferenzregion** an. Wenn Sie diesen Wählplan nicht für Einwählnummern verwenden möchten, lassen Sie dieses Feld leer.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Regionen für Einwahlkonferenzen werden benötigt, um Einwählnummern für Konferenzen einem oder mehreren Wählplänen zuzuordnen.
 
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um einen vorhandenen Wählplan zu änder
 8.  (Optional) Geben Sie im Feld **Präfix für externen Zugriff** nur dann einen Wert an, wenn Benutzer eine oder mehrere zusätzliche Nummern wählen müssen, um eine externe Leitung zu erhalten (z. B. 9). Sie können ein Präfix eingeben, das aus bis zu vier Zeichen besteht (d. h. \#, \* und 0-9).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie ein Präfix für den externen Zugriff eingeben, müssen Sie keine neue Normalisierungsregel zur Unterstützung des Präfix erstellen.
 
 
@@ -72,7 +72,7 @@ Führen Sie die folgenden Schritte aus, um einen vorhandenen Wählplan zu änder
       - Wenn Sie eine Normalisierungsregel aus dem Wählplan entfernen möchten, markieren Sie den Regelnamen, und klicken Sie auf **Entfernen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein. Informationen zum Ermitteln aller Normalisierungsregeln, die für einen Wählplan erforderlich sind, finden Sie unter <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln in Lync Server 2013</A> in der Planungsdokumentation.
 
 
@@ -88,7 +88,7 @@ Führen Sie die folgenden Schritte aus, um einen vorhandenen Wählplan zu änder
 11. (Optional) Geben Sie eine Nummer zum Testen des Wählplans ein, und klicken Sie auf **Los** . Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können einen Wählplan speichern, der den Test nicht bestanden hat, und ihn später neu konfigurieren. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen des VoIP-Routings in Lync Server 2013</A>.
 
 
@@ -98,7 +98,7 @@ Führen Sie die folgenden Schritte aus, um einen vorhandenen Wählplan zu änder
 13. Klicken Sie auf der Seite **Wählplan** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie einen Wählplan erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit für alle Elemente ausführen</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

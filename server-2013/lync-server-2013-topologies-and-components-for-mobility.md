@@ -20,7 +20,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-17_
 Für die Unterstützung der mobilen Lync-Anwendungen auf mobilen Geräten bietet Lync Server 2013 drei verschiedene Dienste: den Mcx-Mobilitätsdienst, den AutoErmittlungsdienst und den Pushbenachrichtungsdienst. Im Rahmen der kumuliativen Updates für Lync Server 2013 aus dem Februar 2013 ist ein kostenloser, aber ausgereifter Dienst für mobile Clients von Lync 2013 hinzugekommen, der Unterstützung von Mobilität durch die Nutzung des Unified Communications-Web-API (UCWA) ermöglicht. In diesem Abschnitt werden diese Komponenten kurz beschrieben. Außerdem werden Lync Server 2013-Topologien zur Unterstützung von Mobilität vorgestellt.
 
 
-> [!TIP]
+> [!NOTE]
 > Mobilitätsdienste sind auch in hybriden Bereitstellungen verfügbar. Sie müssen keine Dienste zur Unterstützung der Mobilität bereitstellen, falls die Benutzer online verwaltet werden. Sie müssen eine Einstellung für den AutoErmittlungsdienst definieren, damit mobile Benutzer ihre Onlineidentität auffinden können.
 
 
@@ -38,7 +38,7 @@ Die folgenden Dienste unterstützen Mobilität:
   - **Lync Server 2013-UCWA (Unified Communications Web API)**   Stellt Dienste für die Echtzeitkommunikation mit mobilen und Webclients in Lync Server 2013 bereit. Wenn Sie die im Februar 2013 bereitgestellten kumulativen Updates für Lync Server 2013 auf dem Front-End-Server und Director bereitstellen, wird bei der Installation ein virtuelles Verzeichnis in den internen und externen Webdiensten ("Ucwa") erstellt. Eine Webkomponente, die Teil des virtuellen Verzeichnisses "Ucwa" ist, akzeptiert Anrufe von UCWA-fähigen Clients. Die Client-Apps kommunizieren über eine REST-Schnittstelle, um Anwesenheit, Kontakte, Chat, VoIP, Videokonferenzen und Zusammenarbeit zu ermöglichen. UCWA verwendet einen P-GET-basierten Kanal, um Ereignisse zu senden, z. B. eingehende Anrufe, eingehende Chatnachrichten oder Nachrichten für die Client-App.
     
 
-    > [!TIP]
+    > [!NOTE]
     > <EM>REST</EM> oder Representational State Transfer ist ein Softwarearchitekturstil für verteilte Systeme, der in vielen Formen breite Anwendung findet und sich im Allgemeinen gut für die Anforderungen von Webdiensten eignet.
 
 
@@ -56,7 +56,7 @@ Die folgenden Dienste unterstützen Mobilität:
     Der AutoErmittlungsdienst wird auf allen Front-End-Servern und auf allen Directors in jedem Pool installiert, der die Lync-Funktionen auf mobilen Geräten unterstützen soll. Wenn Sie den AutoErmittlungsdienst installieren, wird ein neues virtuelles Verzeichnis ("Autodiscover") sowohl unter der internen Website als auch unter der externen Website auf den Front-End-Servern und Directorss installiert.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der AutoErmittlungsdienst ist hier aufgelistet, da er bei der Bereitstellung von Clientdiensten weiterhin eine wichtige Komponente bleibt. Die Rolle der AutoErmittlung in Lync Server 2013 wurde erweitert, um Dienste für alle Clients bereitzustellen. Ausführliche Informationen zur Planung des AutoErmittlungsdiensts finden Sie unter <A href="lync-server-2013-planning-for-autodiscover.md">Planen der AutoErmittlung in Lync Server 2013</A>.
 
 

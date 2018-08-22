@@ -30,13 +30,13 @@ Die skalierte konsolidierte Edgetopologie von Lync Server 2013 ist für den DNS-
 
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie ein Hardwaregerät zum Lastenausgleich einsetzen, muss der Lastenausgleich für Verbindungen mit dem internen Netzwerk so konfiguriert werden, dass nur für den Datenverkehr zu Servern, auf denen der Zugriffs-Edgedienst und der A/V-Edgedienst ausgeführt werden, ein Lastenausgleich stattfindet. Es kann kein Lastenausgleich für den Datenverkehr zum internen Webkonferenz-Edgedienst oder zum internen XMPP-Proxydienst durchgeführt werden.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Die Netzwerkadressenübersetzung (NAT) mit Direct Server Return (DSR) wird für Lync Server 2013 nicht unterstützt.
 
 
@@ -62,7 +62,7 @@ Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Las
 Die Anforderungen in Bezug auf die cookiebasierte Affinität sind in Lync Server 2013 für Webdienste erheblich reduziert worden. Wenn Sie Lync Server 2013 bereitstellen und keine Lync Server 2010- Front-End-Server oder - Front-End-Pools beibehalten, benötigen Sie keine cookiebasierte Persistenz. Wenn Sie jedoch irgendwelche Lync Server 2010- Front-End-Server oder - Front-End-Pools vorübergehend oder dauerhaft beibehalten möchten, müssen Sie weiterhin die cookiebasierte Persistenz verwenden, so wie sie für Lync Server 2010 bereitgestellt und konfiguriert ist.
 
 
-> [!TIP]
+> [!NOTE]
 > <STRONG>Wenn Sie sich entscheiden, die cookiebasierte Persistenz zu verwenden, obwohl dies für Ihre</STRONG>-Bereitstellung nicht erforderlich ist, hat dies keine negative Auswirkung.
 
 
@@ -84,7 +84,7 @@ Für Bereitstellungen, in denen die cookiebasierte Affinität **verwendet** wird
   - Das Cookie für das Hardwaregerät zum Lastenausgleich MUSS in jeder HTTP-Antwort festgelegt sein, für die die eingehende HTTP-Anforderung kein Cookie enthielt, unabhängig davon, ob für eine vorherige HTTP-Antwort für dieselbe TCP-Verbindung bereits ein Cookie abgerufen wurde. Wenn der Lastenausgleich das Einfügen von Cookies so optimiert, dass sie nur einmal pro TCP-Verbindung erfolgt, darf diese Optimierung NICHT verwendet werden.
 
 
-> [!TIP]
+> [!NOTE]
 > In typischen Konfigurationen für das Hardwaregerät zum Lastenausgleich wird die Quelladressenaffinität und eine TCP-Sitzungsdauer von 20&nbsp;Minuten verwendet. Diese Konfiguration ist für Lync Server- und Lync 2013-Clients in Ordnung, da der Sitzungsstatus über die Clientverwendung und /oder Anwendungsinteraktion beibehalten wird.
 
 

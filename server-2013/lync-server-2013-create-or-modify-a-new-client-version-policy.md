@@ -26,7 +26,7 @@ Clientversionsrichtlinien dienen zum Festlegen der in Ihrer Umgebung unterstütz
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Registerkarte <STRONG>Clientversionsrichtlinie</STRONG> ist standardmäßig ausgewählt.
 
 
@@ -55,5 +55,5 @@ Sie können Clientversionsrichtlinien mit dem Cmdlet **New-CsClientVersionPolicy
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Einzelheiten dazu finden Sie in den Hilfethemen zu den Cmdlets [New-CsClientVersionPolicy](new-csclientversionpolicy.md) und [Set-CsClientVersionPolicy](set-csclientversionpolicy.md).
+Einzelheiten dazu finden Sie in den Hilfethemen zu den Cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) und [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 

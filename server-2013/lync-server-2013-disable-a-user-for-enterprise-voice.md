@@ -34,7 +34,7 @@ Mit dem folgenden Verfahren können Sie Enterprise-VoIP für ein Benutzerkonto d
 7.  Klicken Sie auf der Seite **Lync Server-Benutzer bearbeiten** unter **Telefonie** auf eine beliebige Option außer **Enterprise-VoIP**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Um einem Benutzer das Tätigen von Audio- oder Videoanrufen mit Lync zu untersagen, klicken Sie unter <STRONG>Telefonie</STRONG> auf <STRONG>Audio/Video deaktiviert</STRONG>.
 
 

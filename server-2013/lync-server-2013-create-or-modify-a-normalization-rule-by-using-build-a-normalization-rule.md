@@ -56,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um eine Normalisierungsregel in der Lync
 9.  (Optional) Geben Sie eine Nummer zum Testen der Normalisierungsregel ein, und klicken Sie auf **Los** . Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine Normalisierungsregel speichern, die den Test nicht bestanden hat, und sie später neu konfigurieren. Ausführliche Informationen dazu finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen des VoIP-Routings in Lync Server 2013</A>.
 
 
@@ -68,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um eine Normalisierungsregel in der Lync
 12. Klicken Sie auf der Seite **Wählplan** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Jedes Mal, wenn Sie eine Normalisierungsregel erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
 
 

@@ -74,17 +74,17 @@ Nach dem Zusammenführen der Topologie und dem Ausführen des **Import-CsLegacyC
 3.  Zum Überprüfen der importierten Konferenzrichtlinien klicken Sie im linken Bereich auf **Konferenzen** , dann auf **Konferenzrichtlinie** und überprüfen anschließend, ob alle Konferenzrichtlinien in Ihrer Office Communications Server 2007 R2-Umgebung in der Liste enthalten sind.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die <STRONG>Besprechungsrichtlinie</STRONG> aus früheren Versionen von Office Communications Server wird in Lync Server 2013 jetzt als "Konferenzrichtlinie" bezeichnet. Außerdem ist die Einstellung <STRONG>Anonyme Teilnehmer</STRONG> aus früheren Versionen von Office Communications Server jetzt eine Einstellung in der Lync Server 2013-Konferenzrichtlinie.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn in Office Communications Server 2007 R2 für die Konferenzrichtlinie nicht die <STRONG>Option für einzelne Benutzer</STRONG> ausgewählt ist, werden nur globale Richtlinieneinstellungen importiert. In dieser Situation werden keine anderen Konferenzrichtlinien importiert.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn in Ihrer Office Communications Server 2007 R2-Konferenzrichtlinie für <STRONG>Anonyme Teilnehmer</STRONG> die Option <STRONG>Pro Benutzer erzwingen</STRONG> ausgewählt ist, werden bei der Migration zwei Konferenzrichtlinien erstellt: In einer ist <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> auf <STRONG>True</STRONG> (Wahr) festgelegt, während in der zweiten <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> auf <STRONG>False</STRONG> (Falsch) festgelegt ist.
 
 
@@ -92,7 +92,7 @@ Nach dem Zusammenführen der Topologie und dem Ausführen des **Import-CsLegacyC
 4.  Zum Überprüfen von migrierten Wählplänen klicken Sie auf **VoIP-Routing** und auf **Wählplan** , und stellen Sie dann sicher, dass alle Wählpläne in Ihrer Office Communicator 2007 R2-Umgebung in der Liste aufgeführt werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > In Lync Server 2013 werden <STRONG>Standortprofile</STRONG> jetzt als <STRONG>Wähleinstellungen</STRONG> bezeichnet.
 
 
@@ -100,7 +100,7 @@ Nach dem Zusammenführen der Topologie und dem Ausführen des **Import-CsLegacyC
 5.  Zum Überprüfen der importierten VoIP-Richtlinien klicken Sie auf **VoIP-Routing** , dann auf **VoIP-Richtlinie** , und überprüfen Sie anschließend, ob alle VoIP-Richtlinien in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn in Ihrer Office Communications Server 2007 R2-Umgebung für die VoIP-Richtlinien nicht die <STRONG>Option für einzelne Benutzer</STRONG> ausgewählt ist, werden nur globale Richtlinieneinstellungen importiert. In dieser Situation werden keine anderen VoIP-Richtlinien importiert.
 
 

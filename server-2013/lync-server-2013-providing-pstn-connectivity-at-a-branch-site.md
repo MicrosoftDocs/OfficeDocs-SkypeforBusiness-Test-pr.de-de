@@ -20,7 +20,7 @@ Es wird empfohlen, das Microsoft Lync Server 2013, Planungstool zu verwenden, u
 Wenn Sie das Planungstool nicht verwenden, führen Sie die in den Themen dieses Abschnitts beschriebenen Verfahren aus, um zunächst die Zweigniederlassungen hinzuzufügen und anschließend Ihre VoIP-Infrastruktur einzurichten. Definieren Sie dazu das IP/PSTN-Gateway und/oder konfigurieren Sie den SIP-Trunk (mit oder ohne Medienumgehung). Eine weitere Option ist der Anschluss einer Nebenstellenanlage an die Zweigniederlassung.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie für eine Zweigniederlassung Ausfallsicherheit gewährleisten möchten, müssen Sie an der Zweigniederlassung eine Survivable Branch-Anwendung, einen Survivable Branch-Server oder Standard Edition-Server bereitstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013</A> bzw. <A href="lync-server-2013-deploying-lync-server.md">Bereitstellen von Lync Server&nbsp;2013</A> in der Bereitstellungsdokumentation.
 
 

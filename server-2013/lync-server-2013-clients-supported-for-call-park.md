@@ -22,7 +22,7 @@ In diesem Abschnitt werden Clients aufgeführt, die für das Parken von Anrufen 
 Anrufe von IP-, Nebenstellen-, Festnetz- oder Mobiltelefonen können geparkt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Nur Audioanrufe können geparkt werden. Das Parken von Chatnachrichten und Konferenzen ist nicht möglich.
 
 
@@ -38,7 +38,7 @@ Die folgenden Clients können Anrufe mithilfe der Parken von Anrufen parken:
   - Lync Phone Edition
 
 
-> [!TIP]
+> [!NOTE]
 > Mobiltelefone können Anrufe nicht über die Parken von Anrufen parken.
 
 

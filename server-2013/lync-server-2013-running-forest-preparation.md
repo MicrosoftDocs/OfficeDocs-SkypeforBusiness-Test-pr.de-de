@@ -32,7 +32,7 @@ Nach der Vorbereitung der Gesamtstruktur, müssen Sie vor der Domänenvorbereitu
 5.  Klicken Sie auf der Seite **Gesamtstruktur vorbereiten** auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei der Vorbereitung der Gesamtstruktur können Sie auswählen, wo die universellen Gruppen für Lync Server 2013 abgelegt werden sollen. Wählen Sie einen Speicherort entsprechend den Anforderungen Ihrer Organisation.
 
 

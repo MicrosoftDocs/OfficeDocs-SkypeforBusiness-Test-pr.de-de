@@ -36,7 +36,7 @@ Nachdem Sie eine Geräteaktualisierungsregel importieren, wird sie auf Ihren Tes
 Geräteaktualisierungsregeln können auch mithilfe der Windows PowerShell und dem Cmdlet **Approve-CsDeviceUpdateRule** genehmigt werden. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server&nbsp;Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
 
 
@@ -53,7 +53,7 @@ Geräteaktualisierungsregeln können auch mithilfe der Windows PowerShell und de
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Approve-CsDeviceUpdateRule](approve-csdeviceupdaterule.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Approve-CsDeviceUpdateRule).
 
 ## Siehe auch
 

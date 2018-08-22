@@ -24,7 +24,7 @@ Wenn Sie Mobilität bereitstellen und die automatische Ermittlung verwenden, mü
 Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstellen.
 
 
-> [!TIP]
+> [!NOTE]
 > Bei diesen Vorgehensweisen wird vorausgesetzt, dass die Standard Edition von Forefront Threat Management Gateway (TMG) 2010 installiert oder Internetinformationsdienste mit der Routingerweiterung für Anwendungsanforderungen (IIS ARR) installiert und konfiguriert ist. Sie verwenden entweder TMG oder IIS ARR. .
 
 
@@ -46,7 +46,7 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
 7.  Geben Sie auf der Seite **Interne Veröffentlichungsdetails** im Feld **Interner Sitename** den FQDN der internen Webfarm ein, auf der Besprechungsinhalte und Adressbuchdateien gehostet werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der interne Server ein Standard Edition-Server ist, entspricht dieser FQDN dem vollqualifizierten Domänennamen des Standard Edition-Servers. Handelt es sich bei Ihrem internen Server um einen Front-End-Pool, entspricht dieser FQDN einer virtuellen IP (VIP) für das Hardwaregerät zum Lastenausgleich, das den Lastenausgleich für die internen Webfarmserver durchführt. Der TMG-Server muss in der Lage sein, den FQDN für die IP-Adresse des internen Webservers aufzulösen. Wenn der TMG-Server den FQDN nicht in eine ordnungsgemäße IP-Adresse auflösen kann, können Sie <STRONG>Name oder IP-Adresse eines Computers verwenden, um eine Verbindung zum veröffentlichten Server herzustellen</STRONG> auswählen und dann die IP-Adresse des internen Webservers in das Feld <STRONG>Computername</STRONG> oder <STRONG>IP-Adresse</STRONG> eingeben. In diesem Fall müssen Sie sicherstellen, dass der Port&nbsp;53 auf dem TMG-Server geöffnet ist und der Server mit einem DNS-Server im Umkreisnetzwerk kommunizieren kann. Sie können für die Namensauflösung auch Einträge in der Datei lokaler Hosts verwenden.
 
 
@@ -54,7 +54,7 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
 8.  Geben Sie auf der Seite **Interne Veröffentlichungsdetails** im Feld **Pfad (optional)** als Pfad zum Ordner, der veröffentlicht werden soll, **/\*** ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können im Assistenten zum Veröffentlichen von Websites nur einen Pfad angeben. Weitere Pfade können Sie hinzufügen, indem Sie die Eigenschaften der Regel ändern.
 
 
@@ -94,7 +94,7 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
 1.  Binden Sie das Zertifikat, das Sie für den Reverseproxy verwenden möchten, an das HTTPS-Protokoll. Klicken Sie auf **Start** , wählen Sie **Programme** aus, wählen Sie **Verwaltungstools** aus, und klicken Sie dann auf **Internetinformationsdienste-Manager** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Weitere Hilfe, Screenshots und Hilfestellung zum Bereitstellen und Konfigurieren von IIS ARR finden Sie im NextHop-Artikel <A href="http://go.microsoft.com/fwlink/?linkid=293391">Using IIS ARR as a Reverse Proxy for Lync Server 2013</A>.
 
 
@@ -114,7 +114,7 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
 5.  Klicken Sie auf der linken Seite der Konsole unterhalb des IIS-Servernamens mit der rechten Maustaste auf **Serverfarmen** , und klicken Sie dann auf **Serverfarm erstellen…** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der Knoten <STRONG>Serverfarmen</STRONG> nicht angezeigt wird, müssen Sie Routing von Anwendungsanforderungen installieren. Details finden Sie unter <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Einrichten von Reverseproxyservern für Lync Server 2013</A>.
 
     
@@ -146,18 +146,8 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
 
 11. Klicken Sie auf den Namen der Serverfarm. In der Featureansicht von IIS-Manager doppelklicken Sie unter **Serverfarm** auf **Routingregeln** . Deaktivieren Sie im Dialogfeld "Routingregeln" unter "Routing" das Kontrollkästchen neben "SSL-Verschiebung zulassen". Wenn die Möglichkeit zum Deaktivieren dieses Kontrollkästchens nicht besteht, aktivieren Sie das Kontrollkästchen für **URL-Rewrite zur Untersuchung eingehender Anforderungen verwenden** . Klicken Sie auf **Übernehmen** , um Ihre Änderungen zu speichern.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>SSL-Verschiebung über den Reverseproxy wird nicht unterstützt.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+	> SSL-Verschiebung über den Reverseproxy wird nicht unterstützt.
 
 
 12. Wiederholen Sie die Schritte 5-11 für jede URL, die durch den Reverseproxy übergeben werden muss. Eine allgemeine Liste wäre z. B. die folgende:

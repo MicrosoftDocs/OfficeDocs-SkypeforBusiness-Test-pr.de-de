@@ -34,8 +34,8 @@ Wenn Sie den Microsoft Exchange Unified Messaging-Anrufrouterdiensts und den Mi
 Lync Server 2013 ermittelt automatisch alle Exchange-Server, die einen SipName-UM-Wählplan hosten. Diese Server werden automatisch der Lync Server-Liste der bekannte Server hinzugefügt. Das Erstellen eines vertrauenswürdigen Anwendungspools und das Hinzufügen dieser Server zur Liste der bekannten Server ist nicht erforderlich. Im Gegenteil: Danach würde die Outlook Web App-Integration nicht mehr funktionieren.
 
 
-> [!TIP]
-> Dies ist darauf zurückzuführen, dass die Lync Server-Topologie dann zwei Einträge für denselben Computer enthält: den automatisch ermittelten und den manuell hinzugefügten Eintrag. Um dieses Problem zu beheben und die Funktionsfähigkeit von Outlook Web App wiederherzustellen verwenden Sie die Windows PowerShell, um den vertrauenswürdigen Pool und die Einträge für vertrauenswürdige Anwendungen vom Server zu entfernen. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets <A href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</A> und <A href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</A>.
+> [!NOTE]
+> Dies ist darauf zurückzuführen, dass die Lync Server-Topologie dann zwei Einträge für denselben Computer enthält: den automatisch ermittelten und den manuell hinzugefügten Eintrag. Um dieses Problem zu beheben und die Funktionsfähigkeit von Outlook Web App wiederherzustellen verwenden Sie die Windows PowerShell, um den vertrauenswürdigen Pool und die Einträge für vertrauenswürdige Anwendungen vom Server zu entfernen. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</A>.
 
 
 
@@ -66,7 +66,7 @@ Lync Server ist nun ordnungsgemäß konfiguriert, und Sie können mit dem Konfig
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -InstantMessagingEnabled $True -InstantMessagingType OCS
 
 
-> [!TIP]
+> [!NOTE]
 > Bei der Installation von Outlook Web App wird die Chatfunktion standardmäßig aktiviert, d.&nbsp;h. die Eigenschaft "InstantMessagingEnabled" wird auf "True" festgelegt. Sie müssen dennoch den vorstehenden Befehl ausführen, um den Chattyp auf OCS festzulegen. "InstantMessagingType" ist standardmäßig auf "None" festgelegt.
 
 

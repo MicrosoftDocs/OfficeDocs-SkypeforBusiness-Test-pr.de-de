@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-10_
 Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereitstellung zur Unterstützung der Archivierung konfigurieren können. In diesem Thema wird erläutert, wie Sie mit dem Topologie-Generator Ihrer vorhandenen Topologie die Archivierungsfunktion hinzufügen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Sie Microsoft Exchange-Integration zum Speichern von Archivierungsdaten und -dateien auf Exchange 2013-Servern für alle Benutzer in der Bereitstellung verwenden möchten, geben Sie nicht <STRONG>SQL Server-Speicher für Archivierung</STRONG> oder <STRONG>SQL ServerSpeicherspiegelung verwenden</STRONG> an.
 
 
@@ -28,7 +28,7 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
 1.  Melden Sie sich auf einem Computer, auf dem Lync Server 2013 ausgeführt oder auf dem die Lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit äquivalenten Benutzerrechten).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist. Zum Veröffentlichen einer Topologie, die zum Hinzufügen eines Servers zur Topologie erforderlich ist, benötigen Sie jedoch ein Konto, das Mitglied der Gruppe <STRONG>Domänen-Admins</STRONG> sowie der Gruppe <STRONG>RTCUniversalServerAdmins</STRONG> ist und über Vollzugriff (Lesen, Schreiben und Ändern) für die Dateifreigabe verfügt, die Sie für den Lync Server 2013-Dateispeicher verwenden, damit der Topologie-Generator die erforderliche DACL (Discretionary Access Control List, besitzerverwaltete Zugriffssteuerungsliste) konfigurieren kann. Alternativ dazu können Sie ein Konto mit äquivalenten Rechten verwenden.
 
 

@@ -22,7 +22,7 @@ Es kann offensichtlich nicht ausgeschlossen werden, dass irgendwann einmal Probl
 Auf ähnliche Weise können Administratoren mithilfe von System Center Operations Manager beispielsweise Warnungen in Echtzeit ausstellen, wenn bestimmte Ereignisse eintreten, und synthetische Transaktionen ausführen, mit denen das System proaktiv getestet wird. Anhand synthetischer Transaktionen wird in Lync Server überprüft, ob Benutzer allgemeine Aufgaben wie z. B. das Anmelden am System, das Chatten oder das Tätigen von Anrufen im Telefonfestnetz (Public Switched Telephone Network, PSTN) erfolgreich durchführen können. Beispielsweise können Sie durch die regelmäßige Ausführung dieser Tests auf potenzielle Probleme mit Benutzern, die sich bei Lync Server anmelden, hingewiesen werden. Sie haben dann die Chance, das Problem zu beheben, bevor Ihr Supportteam mit Anrufen von Benutzern überschüttet wird, die keine Verbindung herstellen können. Durch die Verwendung von System Center Operations Manager zum Ausführen dieser synthetischen Transaktionen können Administratoren ihre Bereitstellung von Lync Server routinemäßig täglich rund um die Uhr überwachen, ohne dass dies mit viel Arbeitsaufwand verbunden ist. Sie müssen lediglich auf etwaige Warnungen reagieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Für Lync Server 2013 können mit dem Management Pack für System Center Operations Manager auch "externe" Probleme ermittelt werden, durch die Lync Server beeinträchtigt werden könnte. Beispielsweise können Administratoren benachrichtigt werden, falls Internetinformationsdienste (Internet Information Services, IIS) offline geschaltet wird, die Systemressourcen auf einem Lync Server-Computer unter einen bestimmten Wert fallen, oder falls auf einem Lync Server-Computer ein Hardwarefehler auftritt.
 
 
@@ -35,7 +35,7 @@ Die Zustandsüberwachung in Lync Server 2013 basiert auf System Center Operation
 
   - **Höhere Anrufzuverlässigkeitsabdeckung.** Im Lync Server 2010 Management Pack wurden Anrufzuverlässigkeitswarnungen eingeführt, um schwerwiegende Konnektivitätsprobleme zu erkennen, durch die Audioanrufe von Endbenutzern beeinträchtigt werden. Die Lync Server 2013 Management Packs unterstützen nun Peer-zu-Peer-Chatnachrichten und sonstige grundlegende Konferenzfeatures, um die Abdeckung zu maximieren und gleichzeitig das Rauschen zu reduzieren.
 
-  - **Abhängigkeitsüberwachung.**Lync Server-Szenarien können aufgrund einer Reihe von externen Faktoren fehlschlagen. Beispielsweise, weil IIS offline ist, aufgrund eingeschränkter CPU- und Arbeitsspeicherressourcen sowie aufgrund von Datenträgerproblemen. Die neuen Management Packs überprüfen mehrere kritische Abhängigkeiten, um sicherzustellen, dass sich die Administratoren über deren Auswirkungen bewusst sind.
+  - **Abhängigkeitsüberwachung.** Lync Server-Szenarien können aufgrund einer Reihe von externen Faktoren fehlschlagen. Beispielsweise, weil IIS offline ist, aufgrund eingeschränkter CPU- und Arbeitsspeicherressourcen sowie aufgrund von Datenträgerproblemen. Die neuen Management Packs überprüfen mehrere kritische Abhängigkeiten, um sicherzustellen, dass sich die Administratoren über deren Auswirkungen bewusst sind.
 
   - **Erweiterte Berichterstellung.** Es gibt eine Reihe von Berichten, damit Administratoren die Szenarioverfügbarkeit abschätzen, die Kapazität planen sowie die Komponenten mit den meisten Problemen ermitteln können.
 

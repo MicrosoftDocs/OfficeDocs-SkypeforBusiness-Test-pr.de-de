@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie (persönliche Identifikationsnummer) zu löschen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die globale PIN-Richtlinie kann nicht gelöscht werden.
 
 
@@ -59,5 +59,5 @@ Sie können PIN-Richtlinien mithilfe von Windows PowerShell und des Cmdlets „R
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-Weitere Informationen finden Sie im Hilfethema zum [Remove-CsPinPolicy](remove-cspinpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy)-Cmdlet.
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 In der FileTranfers-Ansicht werden Informationen zu Peer-zu-Peer-Dateiübertragungssitzungen gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 
 
-> [!TIP]
+> [!NOTE]
 > Die FileTransfers-Ansicht enthält alle Spalten aus der <A href="lync-server-2013-sessiondetails-view.md">SessionDetails-Ansicht</A> sowie die im Folgenden aufgelisteten Spalten.
 
 

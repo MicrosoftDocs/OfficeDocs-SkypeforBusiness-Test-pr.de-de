@@ -42,7 +42,7 @@ Nach der Erstellung des Kerberos-Kontos müssen Sie dieses einem Standort zuweis
         Enable-CsTopology
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie müssen den Parameter "UserAccount" im Format "Domäne\Benutzer" angeben. Das Format "Benutzer@Domäne.Erweiterung" wird zur Referenzierung der für die Kerberos-Authentifizierung erstellten Computerobjekte nicht unterstützt.
 
     

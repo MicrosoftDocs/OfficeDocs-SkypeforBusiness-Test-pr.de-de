@@ -20,7 +20,7 @@ Lync Server 2013 unterstützt die folgenden IP- und Netzwerkprotokolle:
   - **IP-Protokolle.**  Lync Server 2013 unterstützt entweder IPv4 (IP Version 4) oder IPv6 (IP Version 6) für das Servernetzwerk.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Lync Server 2013 kann in einem Netzwerk mit aktiviertem dualem&nbsp;IP-Stapel funktionieren.
 
 
@@ -28,7 +28,7 @@ Lync Server 2013 unterstützt die folgenden IP- und Netzwerkprotokolle:
   - **SIP Transport Protocols.**   Im Allgemeinen kann SIP mindestens drei Transporttypen verwenden: UDP (User Datagram Protocol), TCP (Transmission Control Protocol) und TLS (Transport Layer Security). In der standardmäßigen SIP-Transportkonfiguration wird TLS über TCP ausgeführt. TLS wird innerhalb des Lync Server 2013-Netzwerks verwendet. Am Netzwerkedge nutzt Lync Server 2013 TCP. Lync Server 2013 bietet keine Unterstützung von UDP für den SIP-Transport, da es die Mindestanforderungen für die Kommunikationssicherheit, Zuverlässigkeit und Skalierbarkeit in Unternehmen nicht erfüllt. Genauere Informationen finden Sie im NextHop-Blogartikel "To UDP, or not to UDP, that is the question," unter [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Inhalte der Blogs und die zugehörige URL können ohne vorherige Ankündigung geändert werden.
 
 

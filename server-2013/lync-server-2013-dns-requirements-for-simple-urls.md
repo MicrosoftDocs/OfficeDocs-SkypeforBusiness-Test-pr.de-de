@@ -24,7 +24,7 @@ Lync Server unterstützt die folgenden drei einfachen URLs: "Meet" für Besprech
 Bei Option 1 erstellen Sie eine neue Basis-URL für jede einfache URL.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn ein Benutzer auf einen Besprechungslink mit einfacher URL klickt, legt der Server, in den der DNS-A-Eintrag aufgelöst wird, die richtige zu startende Clientsoftware fest. Nach dem Start der Clientsoftware kommuniziert diese automatisch mit dem Pool, in dem die Konferenz gehostet wird. Auf diese Weise werden Benutzer an den geeigneten Server für Besprechungsinhalte weitergeleitet - unabhängig davon, in welchen Server oder Pool die DNS-A-Einträge einfacher URLs aufgelöst werden.
 
 
@@ -155,7 +155,7 @@ Erstellen Sie zum Konfigurieren dieser Notfallwiederherstellung zwei GeoDNS-Adre
 Erstellen Sie dann CNAME-Einträge, die Ihre einfache Meet-URL (z. B. **meet.contoso.com** ) in die beiden GeoDNS-Adressen auflösen.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn in Ihrem Netzwerk das so genannte <EM>Hairpinning</EM> eingesetzt wird (der gesamte Datenverkehr der einfachen URL wird über den externen Link geleitet, einschließlich des Datenverkehrs aus der Organisation), können Sie einfach nur die externe GeoDNS-Adresse konfigurieren und Ihre einfache Meet-URL nur in diese externe Adresse auflösen.
 
 

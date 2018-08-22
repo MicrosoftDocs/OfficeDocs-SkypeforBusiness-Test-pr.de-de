@@ -20,7 +20,7 @@ In Lync Server können Sie die Verarbeitung eingehender Anrufe konfigurieren, we
 In diesem Abschnitt wird die Verwaltung von Bereichen nicht zugewiesener Nummern für die Vearbeitung von Anrufen für nicht zugewiesene Telefonnummern beschrieben. Zudem wird in diesem Abschnitt die Verwaltung von Ansagen bei Notfallwiederherstellungen beschrieben, sofern Sie diese Funktionalität während eines Ausfalls verwenden möchten.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Verwendung der Verarbeitung nicht zugewiesener Nummern während eines Ausfalls ist optional.
 
 

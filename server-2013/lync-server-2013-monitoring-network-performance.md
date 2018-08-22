@@ -62,7 +62,7 @@ Simple Network Management Protocol (SNMP)   SNMP ist ein Netzwerkverwaltungss
   - Ein Verwaltungsprotokoll, SNMP, wird verwendet, um Verwaltungsinformationen zwischen den Verwaltungsstationen und -Agents zu kommunizieren. Verwaltungsinformationen beziehen sich auf eine Sammlung verwalteter Objekte, die in einem virtuellen Informationsspeicher namens Management Information Base (MIB) gespeichert sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Beispiele für Netzwerküberwachungslösungen von Drittanbietern sind oben bereitgestellt. Diese Liste ist nicht ausschließlich und Microsoft bevorzugt keine bestimmte Anbieterlösung. Lassen Sie sich von einem Netzwerkdienstanbieter und/oder Ihrem entsprechenden Technologieanbieter beraten, um die beste Netzwerküberwachungslösung für Ihre Organisation zu ermitteln.
 
 

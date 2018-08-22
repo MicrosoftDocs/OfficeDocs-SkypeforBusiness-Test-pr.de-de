@@ -49,5 +49,5 @@ Sie können Konfigurationseinstellungen für Clientversionen mithilfe des Cmdlet
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Remove-CsClientVersionConfiguration](remove-csclientversionconfiguration.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Remove-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionConfiguration).
 

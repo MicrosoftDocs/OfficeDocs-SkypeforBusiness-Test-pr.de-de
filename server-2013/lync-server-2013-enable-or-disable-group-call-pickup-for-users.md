@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 Wenn der Orbittabelle für das Parken von Anrufen ein Bereich für die Gruppenanrufannahme hinzugefügt wird, können Sie die Gruppenanrufannahme für den Benutzer je nach Bedarf aktivieren oder deaktivieren. In diesem Abschnitt wird die Verwendung des SEFAUtil-Resource Kit-Tools zum Aktivieren und Deaktivieren der Gruppenanrufannahme für Benutzer beschrieben.
 
 
-> [!TIP]
+> [!NOTE]
 > Mit dem SEFAUtil-Parameter "/enablegrouppickup" wird die Gruppenanrufannahme aktiviert und die Gruppennummer zugewiesen.
 
 

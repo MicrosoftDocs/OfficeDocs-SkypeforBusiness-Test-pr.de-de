@@ -22,7 +22,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie einer der delegierten Reaktionsgruppen-Manager für einen verwalteten Workflow sind, können Sie Reaktionsgruppen-Warteschleifen erstellen und ändern und diese den von Ihnen verwalteten Workflows zuweisen.
 
 
@@ -50,7 +50,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
       - Um die Reihenfolge zu ändern, in der Agents durchsucht werden, klicken Sie in der Liste der Agentgruppen auf eine Gruppe und klicken Sie dann auf den Pfeil nach oben oder nach unten.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Bei der Suche des Servers nach einem verfügbaren Agent werden Gruppen in der vorhandenen Reihenfolge durchlaufen. Die erste Gruppe in der Liste wird also zuerst durchsucht, dann die zweite Gruppe in der Liste usw.
 
 
@@ -100,7 +100,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie einer der delegierten Reaktionsgruppen-Manager für einen verwalteten Workflow sind, können Sie Agentgruppen und Warteschleifen erstellen und Warteschleifen Agentgruppen zuweisen.
 
 
@@ -116,8 +116,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
         "All agents are currently busy. Please call back later."
     
 
-    > [!TIP]
-    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > [!NOTE]
+    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -126,8 +126,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
 
-    > [!TIP]
-    > Ausführliche Informationen zu möglichen Aktionen und deren Syntax finden Sie unter <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>.
+    > [!NOTE]
+    > Ausführliche Informationen zu möglichen Aktionen und deren Syntax finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     Beispiel:
@@ -143,8 +143,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
 
-    > [!TIP]
-    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>.
+    > [!NOTE]
+    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
 
 
@@ -153,8 +153,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
 
-    > [!TIP]
-    > Ausführliche Informationen zu möglichen Aktionen und deren Syntax finden Sie unter <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>.
+    > [!NOTE]
+    > Ausführliche Informationen zu möglichen Aktionen und deren Syntax finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     Beispiel:
@@ -170,8 +170,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
 
-    > [!TIP]
-    > Ausführliche Hinweise zum Erstellen der Agentgruppe finden Sie unter <A href="new-csrgsagentgroup.md">New-CsRgsAgentGroup</A>
+    > [!NOTE]
+    > Ausführliche Hinweise zum Erstellen der Agentgruppe finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
 
 
 
@@ -191,11 +191,11 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 
 #### Weitere Ressourcen
 
-[New-CsRgsQueue](new-csrgsqueue.md)  
-[Set-CsRgsQueue](set-csrgsqueue.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
-[Get-CsRgsQueue](get-csrgsqueue.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
-[Remove-CsRgsQueue](remove-csrgsqueue.md)
+[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)  
+[Set-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsQueue)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsQueue)
 

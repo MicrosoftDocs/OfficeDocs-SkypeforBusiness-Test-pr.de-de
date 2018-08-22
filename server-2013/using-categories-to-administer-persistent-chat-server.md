@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-10-01_
 Von der Bereitstellung für den Server für beständigen Chat können viele gleichzeitige Beständiger Chatrooms gehostet werden. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und erbt Einstellungen von dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zum Identifizieren von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
 
 
-> [!TIP]
+> [!NOTE]
 > Viele der Verwaltungsfeatures von Chatrooms sind zwar auf Computern mit Beständiger Chat ( Lync-Client) für den Benutzer verfügbar, aber Administratoren für Beständiger Chat (in der Rolle <STRONG>cspersistentchatadministrator</STRONG>) müssen zum Erstellen oder Verwalten von Kategorien die Lync Server-Systemsteuerung oder Windows PowerShell-Cmdlets verwenden.
 
 
@@ -28,7 +28,7 @@ Administratoren für Beständiger Chat verwenden die Lync Server-Systemsteuerung
 Chatroommanager für Beständiger Chat, die einen oder mehrere Chatrooms verwalten können, können mit dem Lync-Client eine Webanwendung für die Chatroomverwaltung starten, um Chatrooms zu erstellen und zu verwalten (oder Kunden können benutzerdefinierte Lösungen und Workflows erstellen, die aufgerufen werden sollen). Administratoren für Beständiger Chat können auch mit der Lync Server-Systemsteuerung oder mit Windows PowerShell-Cmdlets Chatrooms erstellen und verwalten.
 
 
-> [!TIP]
+> [!NOTE]
 > Ein Beständiger Chat-Raum darf nicht denselben Namen haben wie eine Beständiger Chat-Kategorie.
 
 

@@ -44,7 +44,7 @@ Auf jedem Datenbankserver muss eine unterstützte Version von SQL Server ausgef�
 Sie müssen die SQL Server-Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren. Wenn das Konto, das zum Veröffentlichen der Topologie verwendet werden soll, mit den erforderlichen Administratorrechten und -berechtigungen ausgestattet ist, können Sie die Archivierungsdatenbank (**LcsLog**) beim Veröffentlichen der Topologie erstellen. Sie können die Datenbank auch später erstellen, z.\&nbsp;B. im Rahmen des Installationsverfahrens. Ausführliche Informationen zu SQL Server finden Sie im SQL\&nbsp;Server TechCenter unter [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x407).
 
 
-> [!TIP]
+> [!NOTE]
 > Vergewissern Sie sich, dass der Starttyp des SQL Server-Agent-Diensts „Automatisch“ ist und der SQL Server-Agent-Dienst für die SQL-Instanz mit den Archivierungsdatenbanken ausgeführt wird, damit die SQL Server-Wartungsaufträge für die Standardarchivierung plangemäß unter der Kontrolle des SQL Server-Agent-Diensts ausgeführt können.
 
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Die Konfigurationseinstellungen für Clientversionen werden verwendet, um die Clientversionskontrolle entweder global oder für bestimmte Standorte zu aktivieren und zu deaktivieren. Die globale Clientversionskonfiguration wird zusammen mit Lync Server 2013 installiert und zum Aktivieren bzw. Deaktivieren der Clientversionskontrolle für die gesamte Serverbereitstellung verwendet. Wenn die globale Konfiguration aktiviert ist, werden alle eingerichteten Clientversionsrichtlinien bei der Anmeldung von Benutzern wirksam. Sie können die globale Clientversionskonfiguration deaktivieren, wenn Sie die Clientversionskontrolle nicht nutzen möchten. Sie können die Clientversionsverwaltung in der Systemsteuerung für Lync Server 2013 oder in der Verwaltungsshell für Lync Server 2013 aktivieren bzw. deaktivieren.
 
 
-> [!TIP]
+> [!NOTE]
 > Da anonyme Benutzer keinem Benutzer, Standort oder Dienst zugeordnet sind, unterliegen anonyme Benutzer ausschließlich globalen Richtlinien.
 
 
@@ -53,5 +53,5 @@ Sie können die Clientversionsverwaltung mithilfe des Cmdlets **Set-CsClientVers
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

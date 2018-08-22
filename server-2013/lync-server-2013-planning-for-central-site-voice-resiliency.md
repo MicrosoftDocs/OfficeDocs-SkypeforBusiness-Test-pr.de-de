@@ -46,7 +46,7 @@ Der Such- und Registrierungsprozess des Clients umfasst die folgenden Schritte:
 1.  Ein Client ermittelt Lync Server anhand von DNS-SRV-Einträgen. DNS-SRV-Einträge können in Lync Server 2013 so konfiguriert werden, dass für die DNS-SRV-Abfrage mehrere vollqualifizierte Domänennamen zurückgegeben werden. Beispiel: Wenn das Unternehmen Contoso über drei zentrale Standorte (in Nordamerika, Europa und im asiatisch-pazifischen Raum) sowie einen Director-Pool an jedem zentralen Standort verfügt, können DNS-SRV-Einträge auf die vollqualifizierten Domänennamen der Director-Pools an jedem dieser drei Standorte verweisen. Wenn der Director-Pool an einem der Standorte verfügbar ist, kann sich der Client mit dem ersten Lync Server-Hop verbinden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Verwendung eines Directorpool ist optional. Stattdessen kann ein Front-End-Pool verwendet werden.
 
 

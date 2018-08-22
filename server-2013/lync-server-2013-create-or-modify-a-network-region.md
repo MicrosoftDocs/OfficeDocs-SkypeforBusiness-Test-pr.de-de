@@ -18,20 +18,20 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-19_
 Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackbone, der in der Konfiguration von Anrufsteuerung, E9-1-1 und Medienumgehung verwendet wird. Verwenden Sie die folgenden Verfahren, um Netzwerkregionen zu erstellen oder zu ändern. Wenn Sie beispielsweise bereits Netzwerkregionen für eine VoIP-Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen erstellen, da dieselben Netzwerkregionen für weitere Enterprise VoIP-Funktionen verwendet werden können. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben. Ausführliche Informationen finden Sie unter [Konfigurieren von Netzwerkregionen für die Anrufsteuerung in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Funktionsspezifische Anforderungen für die Netzwerkregionendefinitionen sind in den Bereitstellungsthemen der jeweiligen Funktion dokumentiert.
 
 
 
 Ausführliche Informationen zum Arbeiten mit Netzwerkregionen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für die folgenden Cmdlets:
 
-  - [New-CsNetworkRegion](new-csnetworkregion.md)
+  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](get-csnetworkregion.md)
+  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](set-csnetworkregion.md)
+  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
 
-  - [Remove-CsNetworkRegion](remove-csnetworkregion.md)
+  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
 
 ## Erstellen einer Netzwerkregion
 

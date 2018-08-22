@@ -51,7 +51,7 @@ Benutzerkonten können mithilfe des Cmdlets **Set-CsUser** auch vorübergehend d
     
         Set-CsUser -Identity "Ken Myer" -Enabled $True
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Set-CsUser](set-csuser.md).
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser).
 
 ## Siehe auch
 

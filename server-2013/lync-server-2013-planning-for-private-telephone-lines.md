@@ -60,12 +60,12 @@ Auch wenn das Konzept einer zweiten, privaten Telefonleitung grundsätzlich einf
   - Genau wie bei einer primären Telefonleitung kann ein Benutzer einen Anruf von der Privatleitung aus weiterschalten, also vor der Annahme an ein anderes Ziel umleiten, z. B. ein Mobiltelefon oder eine private Rufnummer.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn ein Anruf auf einer Privatleitung an eine andere Rufnummer umgeleitet wird, steht die Rufnummer für die Privatleitung der alternativen Rufnummer zur Verfügung und kann in den Protokollen für die betreffende Nummer angezeigt werden.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Anrufe von einer Konferenz an die Privatleitung werden in der eingehenden Systembenachrichtigung nicht mit dem Hinweis <EM>Privatleitung</EM> markiert.
 
 
@@ -75,7 +75,7 @@ Auch wenn das Konzept einer zweiten, privaten Telefonleitung grundsätzlich einf
 Neben den technischen Aspekten der Erstellung und Verwaltung von Privatleitungen müssen Sie dafür Verwaltungsverfahren einrichten. Hierzu gehört die Festlegung von Richtlinien darüber, wer in der Organisation eine Privatleitung erhalten soll, die Erstellung und Verwaltung von Listen mit Personen und zugehörigen Telefonleitungen, die mögliche Erstellung eines Verzeichnisses für private Rufnummern für Führungskräfte, die Organisation einer Benutzerschulung und weitere Aufgaben.
 
 
-> [!TIP]
+> [!NOTE]
 > Die Privatleitung wird in Active Directory als msRTCSIP-PrivateLine-Attribut des Benutzerobjekts gespeichert. Standardmäßig haben alle Mitglieder der Gruppe der authentifizierten Benutzer Lesezugriff auf dieses Attribut.
 
 

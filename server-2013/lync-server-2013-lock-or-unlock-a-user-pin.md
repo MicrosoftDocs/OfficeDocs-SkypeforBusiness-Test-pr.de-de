@@ -99,5 +99,5 @@ Sie können PINs von Benutzern auch mithilfe von Windows PowerShell und den Cmdl
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-Weitere Informationen finden Sie im Hilfethema zu den Cmdlets [Lock-CsClientPin](lock-csclientpin.md) und [Unlock-CsClientPin](unlock-csclientpin.md).
+Weitere Informationen finden Sie im Hilfethema zu den Cmdlets [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) und [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin).
 

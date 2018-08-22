@@ -42,9 +42,9 @@ Bei einer Anwesenheitsrichtlinie handelt es sich um einen Satz von Einschränkun
 <td><p>Maximale Anzahl von Abonnentenkategorieabonnements</p></td>
 <td><p>Beschränkt die Anzahl an zulässigen Abonnentenkategorieabonnements. Wenn Communicator beispielsweise die Anwesenheitsinformationen eines Benutzers abonniert, umfasst dies je ein Abonnement der einzelnen Kategorien &quot;Visitenkarte&quot;, &quot;Kalenderdaten&quot;, &quot;Notizen&quot;, &quot;Dienste&quot; und &quot;Status&quot;.</p>
 <p>Wenn für diese Einstellung der Wert 0 festgelegt wird, bedeutet dies, dass das Benutzer- oder Kontaktobjekt nicht von anderen Teilnehmern abonniert werden kann.</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Bei Festlegung auf einen hohen Wert kann sich diese Einstellung deutlich auf die Leistung auswirken, und der durchschnittliche Benutzer verfügt über eine große Anzahl an Benutzern, die seine Anwesenheitsinformationen abonniert haben.
 
 

@@ -145,7 +145,7 @@ Peer-zu-Peer-Features werden für Benutzer unterstützt, die auf verschiedenen V
 In der folgenden Tabelle wird die Featureverfügbarkeit bei Peer-zu-Peer-Sitzungen verglichen, in denen der Client entweder bei Lync Server 2013 oder Lync Server 2010 angemeldet ist.
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Web App und Lync 2010-Teilnehmer sind nur Clients für Besprechungen und sind in dieser Tabelle nicht enthalten.
 
 
@@ -395,7 +395,7 @@ Die Serverunterstützung für verschiedene Planungs-Add-Ins ist mit der Server- 
   - **Konferenz-Add-In für Office Communicator 2007 R2**   Bietet die Planung von Office Live Meeting- und Office Communicator 2007 R2-Konferenzen. 
 
 
-> [!TIP]
+> [!NOTE]
 > Live Meeting-Konferenzen können in Lync Server 2013 nicht geplant werden.
 
 

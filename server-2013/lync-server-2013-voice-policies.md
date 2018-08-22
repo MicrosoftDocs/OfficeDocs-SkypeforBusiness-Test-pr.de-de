@@ -42,7 +42,7 @@ Der *Gültigkeitsbereich von VoIP-Richtlinien* bestimmt die Hierarchieebene, auf
   - Die **VoIP-Benutzerrichtlinie** kann einzelnen Benutzern, Gruppen oder Kontaktobjekten zugewiesen werden. Dies ist die niedrigste Richtlinienebene. VoIP-Benutzerrichtlinien können bereitgestellt werden, um Funktionen nur für bestimmte Benutzer oder Gruppen an einem Standort zu aktivieren. Sie können damit z. B. bei bestimmten Mitarbeitern Ferngespräche deaktivieren. Damit eine VoIP-Richtlinie zugewiesen werden kann, wird ein Kontaktobjekt wie ein Einzelbenutzer behandelt.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es wird empfohlen, dass für Enterprise-VoIP-Benutzer an einem Zweigstellenstandort, die bei der Bereitstellung am zentralen Standort registriert sind oder bei einer Survivable Branch Appliance registriert sind, eine VoIP-Benutzerrichtlinie aktiviert wird.
 
 
@@ -82,7 +82,7 @@ Für jede Richtlinie können Sie die folgenden Anruffunktionen aktivieren oder d
 Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungsdatensatz zugeordnet sein. PSTN-Verwendungen können nur zum Zweck von Anrufweiterleitung und gleichzeitigem Klingeln einer VoIP-Richtlinie zugeordnet sein. Ausführliche Informationen zum Planen von PSTN-Verwendungsdatensätzen finden Sie unter [PSTN-Verwendungsdatensätze in Lync Server 2013](lync-server-2013-pstn-usage-records.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Die Reihenfolge der PSTN-Verwendungsdatensätze ist wichtig, da die Ausgangsroutingfunktion beim Zuordnen von Benutzern zu Routen die PSTN-Verwendungsdatensätze von oben nach unten vergleicht. Wenn der erste Datensatz mit der Anrufroute übereinstimmt, wird diese Route verwendet. Falls nicht, unterstützt die Ausgangsroutingfunktion den nächsten PSTN-Verwendungsdatensatz in der Liste und fährt damit fort, bis eine Übereinstimmung gefunden wird. Die nachfolgenden PSTN-Verwendungsdatensätze dienen der zusätzlichen Absicherung, wenn der erste Datensatz in der Liste nicht verfügbar ist.
 
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 Sie können das folgende Verfahren verwenden, um ein zuvor hinzugefügtes Benutzerkonto in Lync Server 2013 zu entfernen.
 
 
-> [!TIP]
+> [!NOTE]
 > Durch das Entfernen eines Benutzers gehen alle Einstellungen verloren, die für das Benutzerkonto konfiguriert wurden. Sie können ein Benutzerkonto auch vorübergehend deaktivieren. Informationen hierzu finden Sie im Thema <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Aktivieren oder Reaktivieren von Benutzerkonten für Lync Server</A>.
 
 
@@ -51,7 +51,7 @@ Sie können Benutzerkonten auch mithilfe des Cmdlets **Disable-CsUser** entferne
     
     Nachdem dieser Befehl ausgeführt wurde, gibt es keine Möglichkeit, das Konto erneut zu aktivieren und die vorherigen Kontoeinstellungen wiederherzustellen. Stattdessen müssen Sie das Cmdlet **Enable-CsUser-** verwenden, um für Ken Myer ein ganz neues Konto zu erstellen.
 
-Weitere Informationen finden Sie im Hilfethema für das [Disable-CsUser](disable-csuser.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)-Cmdlet.
 
 ## Siehe auch
 

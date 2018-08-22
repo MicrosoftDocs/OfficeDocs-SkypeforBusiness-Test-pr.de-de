@@ -26,7 +26,7 @@ Die Archivierungsrichtlinien werden zum ersten Mal beim Bereitstellen der Archiv
 Nähere Informationen über das Implementieren von Richtlinien, einschließlich ihrer Hierarchien, finden Sie in den Planungs-, Bereitstellungs- und Betriebsdokumentationen unter [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Um die Implementierung der Archivierung zu kontrollieren, müssen Sie die entsprechenden Optionen in der Archivierungskonfiguration festlegen. Beispielsweise können Sie angeben, ob Sofortnachrichten oder Konferenzen archiviert werden sollen, Sie können den kritischen Modus konfigurieren, oder Sie können die Optionen zum Löschen festlegen. In der Standardeinstellung sind weder in der globalen Archivierungskonfiguration noch in der Konfiguration für einzelne Standorte oder Pools Optionen aktiviert. Konfigurieren Sie alle erforderlichen Optionen in den Archivierungseinstellungen, bevor Sie die Archivierung aktivieren. Nähere Informationen finden Sie in der Betriebsdokumentation unter <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Verwalten von Konfigurationsoptionen für die Archivierung in Lync Server 2013 für Ihre Organisation, Standorte und Pools</A>.<BR>Wenn Sie die Microsoft Exchange-Integration für Ihre Bereitstellung aktiviert haben, legen die Exchange-Richtlinien fest, ob die Archivierung für Benutzer aktiviert ist, die in Exchange 2013 verwaltet werden und deren Postfächer sich im Compliance-Archiv befinden. Nähere Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung beim Verwenden von Exchange Server-Integration</A>.
 
 
@@ -91,7 +91,7 @@ Archivierungsrichtlinien können auch mit Windows PowerShell und mit dem Cmdlet 
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Weitere Informationen finden Sie im Hilfethema für das [New-CsArchivingPolicy](new-csarchivingpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy)-Cmdlet.
 
 ## Siehe auch
 

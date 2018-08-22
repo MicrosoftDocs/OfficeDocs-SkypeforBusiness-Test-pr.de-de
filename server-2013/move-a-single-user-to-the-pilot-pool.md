@@ -58,7 +58,7 @@ Mithilfe der Systemsteuerung für Lync Server 2013 oder der Verwaltungsshell fü
     ![Ausgabe von Get-CsUser-Cmdlet mit Filter Identity](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Ausgabe von Get-CsUser-Cmdlet mit Filter Identity")  
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ausführliche Informationen zum Cmdlet <STRONG>Get-CsUser</STRONG> erhalten Sie, indem Sie folgenden Befehl ausführen: <STRONG>Get-Help Get-CsUser -Detailed</STRONG>.
 
 

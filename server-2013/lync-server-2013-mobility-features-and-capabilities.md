@@ -48,7 +48,7 @@ Das Mobilitätsfeature wurde mit den kumulativen Updates für Lync Server 2013:
   - Teilnehmervideo (H.264)
 
 
-> [!TIP]
+> [!NOTE]
 > Lync 2010 Mobile stellte einen Client für Nokia Symbian-Geräte bereit. In Lync 2013&nbsp;Mobile ist kein Client für Nokia Symbian-basierte Geräte verfügbar.
 
 
@@ -62,7 +62,7 @@ Apple iPad-Benutzer haben Zugriff auf erweiterte Funktionen. Nach dem Beitritt z
 
 
 
-> [!TIP]
+> [!NOTE]
 > Nicht alle Features werden auf sämtlichen Mobiltelefonen genau gleich ausgeführt. Detaillierte Informationen zu den auf mobilen Geräten unterstützten Features finden Sie in den Tabellen zum Vergleich mobiler Clients unter <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>. Detaillierte Informationen zu unterstützten Geräten und Betriebssystemen finden Sie unter <A href="lync-server-2013-planning-for-mobile-clients.md">Planung für mobile Clients</A> in den Themen, die sich mit den Anforderungen befassen.
 
 

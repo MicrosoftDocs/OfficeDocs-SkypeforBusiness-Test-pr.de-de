@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-02-07_
 Der einheitliche Kontaktspeicher ermöglicht es Benutzern, eine einzige Kontaktliste zu führen, deren Kontakte dann in vielen Anwendungen verfügbar sind (z. B. in Microsoft Lync 2013, Microsoft Outlook 2013 und Microsoft Outlook Web App 2013). Wenn Sie den einheitlichen Kontaktspeicher für einen Benutzer aktivieren, werden dessen Kontakte nicht in Microsoft Lync Server 2013 gespeichert und über das SIP-Protokoll abgerufen, sondern in Microsoft Exchange Server 2013 gespeichert und von Exchange-Webdiensten abgerufen.
 
 
-> [!TIP]
+> [!NOTE]
 > Technisch gesehen werden die Kontaktinformationen in zwei Ordnern gespeichert, die sich im Exchange 2013-Postfach des Benutzers befinden. Die Kontakte selbst werden in einem Ordner mit dem Namen "Lync-Kontakte" gespeichert, der für Endbenutzer sichtbar ist. Die Metadaten zu den Kontakten werden in einem Unterordner gespeichert, der für Endbenutzer nicht sichtbar ist.
 
 
@@ -45,7 +45,7 @@ Nachdem Sie die neue Richtlinie erstellt haben, müssen Sie sie jedem Benutzer z
 
 Nachdem die Richtlinie einem Benutzer zugewiesen wurde, beginnt Lync Server damit, die Kontakte dieses Benutzers in den einheitlichen Benutzerspeicher zu migrieren. Nach Abschluss der Migration werden die Kontakte des Benutzers dann in Exchange statt in Lync Server gespeichert. Wenn der Benutzer während der Migration bei Lync 2013 angemeldet ist, wird er mithilfe einer angezeigten Meldung aufgefordert, sich von Lync ab- und dann wieder anzumelden, damit der Vorgang abgeschlossen werden kann. Die Kontakte von Benutzern, denen diese benutzerbezogene Richtlinie zugewiesen wurde, werden nicht zum einheitlichen Kontaktspeicher migriert. Der Grund ist, dass diese Benutzer von der globalen Richtlinie verwaltet werden und die Verwendung des einheitlichen Kontaktspeichers in der globalen Richtlinie deaktiviert wurde.
 
-Mit dem [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)-Cmdlet in der Lync Server-Verwaltungsshell können Sie überprüfen, ob die Kontakte eines Benutzers erfolgreich zum einheitlichen Kontaktspeicher migriert wurden:
+Mit dem [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)-Cmdlet in der Lync Server-Verwaltungsshell können Sie überprüfen, ob die Kontakte eines Benutzers erfolgreich zum einheitlichen Kontaktspeicher migriert wurden:
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -64,14 +64,14 @@ Anschließend können Sie diese neue benutzerbezogene Richtlinie (NoUnifiedConta
 Dieser Befehl weist die neue Richtlinie dem Benutzer "Ken Myer" zu und verhindert auch, dass dessen Kontakte zum einheitlichen Kontaktspeicher migriert werden.
 
 
-> [!TIP]
+> [!NOTE]
 > In manchen Fällen können Sie den gleichen Endeffekt erzielen, indem Sie einfach die Zuweisung der aktuellen Benutzerdienste-Richtlinie für den Benutzer aufheben. Das wäre zum Beispiel der Fall, wenn dem Benutzer "Ken Myer" eine benutzerbezogene Benutzerdienste-Richtlinie zugewiesen ist, die den einheitlichen Kontaktspeicher aktiviert, während die globale Richtlinie die Verwendung des einheitlichen Kontaktspeichers verbietet. In solch einem Fall können Sie die Zuweisung der benutzerbezogenen Benutzerdienste-Richtlinie für Ken aufheben. Ken würde dann automatisch von der globalen Richtlinie verwaltet werden und somit keinen Zugriff auf den einheitlichen Kontaktspeicher mehr besitzen.<BR>Wenn Sie eine vorhandene Zuweisung einer benutzerbezogenen Richtlinie wieder aufheben möchten, verwenden Sie den gleichen Befehl wie oben, nur dass Sie diesmal den Parameter "PolicyName" auf den Wert "Null" setzen:<BR>Grant-CsUserServicesPolicy –Identity "Ken Myer" –PolicyName $Null
 
 
 
 Die Formulierung "\[...\] verhindert, dass die Kontakte des Benutzers zum einheitlichen Kontaktspeicher migriert werden" sollten Sie bei der Arbeit mit dem einheitlichen Kontaktspeicher unbedingt wörtlich nehmen. Es reicht nicht aus, dem Benutzer Ken einfach nur eine neue Benutzerdienste-Richtlinie zuzuweisen, damit seine Kontakte aus dem einheitlichen Kontaktspeicher verlegt werden. Wenn sich ein Benutzer bei Lync Server 2013 anmeldet, prüft das System in der Benutzerdienste-Richtlinie des Benutzers nach, ob seine Kontakte im einheitlichen Kontaktspeicher gespeichert werden sollen. Wenn die Antwort "Ja" lautet (d. h. wenn die Eigenschaft "UcsAllowed" auf "$True" gesetzt ist), werden die Kontakte des Benutzers zum einheitlichen Kontaktspeicher migriert (falls sie sich nicht bereits dort befinden). Wenn die Antwort "Nein" lautet, ignoriert Lync Server einfach die Kontakte des Benutzers und macht mit der nächsten Aufgabe weiter. d. h., dass Lync Server nicht automatisch Kontakte aus dem einheitlichen Kontaktspeicher verschiebt – unabhängig davon, welchen Wert die Eigenschaft "UcsAllowed" hat.
 
-Es bedeutet auch, dass Sie nach dem Zuweisen einer neuen Benutzerdienste-Richtlinie zu einem Benutzer das [Invoke-CsUcsRollback](invoke-csucsrollback.md)-Cmdlet ausführen müssen, damit die Kontakte des Benutzers aus Exchange 2013 wieder zurück nach Lync Server 2013 verschoben werden. Beispiel: Nachdem Sie dem Benutzer "Ken Myer" eine neue Benutzerdienste-Richtlinie zugewiesen haben, können Sie seine Kontakte mit dem folgenden Befehl aus dem einheitlichen Kontaktspeicher verlegen:
+Es bedeutet auch, dass Sie nach dem Zuweisen einer neuen Benutzerdienste-Richtlinie zu einem Benutzer das [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback)-Cmdlet ausführen müssen, damit die Kontakte des Benutzers aus Exchange 2013 wieder zurück nach Lync Server 2013 verschoben werden. Beispiel: Nachdem Sie dem Benutzer "Ken Myer" eine neue Benutzerdienste-Richtlinie zugewiesen haben, können Sie seine Kontakte mit dem folgenden Befehl aus dem einheitlichen Kontaktspeicher verlegen:
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 

@@ -26,7 +26,7 @@ Führen Sie zum Konfigurieren von Exchange Unified Messaging (UM) zur Verwendung
   - Konfigurieren der Zertifikate auf dem Server mit Exchange Unified Messaging (UM)-Diensten
     
 
-    > [!TIP]
+    > [!NOTE]
     > Fügen Sie alle Clientzugriffs- und Postfachserver zu allen UM-SIP-URI-Wählplänen hinzu. Andernfalls funktioniert das Routen ausgehender Anrufe nicht wie erwartet.
 
 
@@ -60,7 +60,7 @@ Beachten Sie auch Folgendes:
   - Die Integrationsschritte werden sowohl für die Exchange Server-Rollen, unter denen Unified Messaging-Dienste ausgeführt werden, als auch auf dem Server mit Lync Server 2013 ausgeführt. Es empfiehlt sich, die Exchange Server Unified Messaging-Integrationsschritte vor den Integrationsschritten für Lync Server 2013 auszuführen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Informationen dazu, welche Integrationsschritte auf welchen Servern und von welchen Administratorrollen durchgeführt werden müssen, finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Bereitstellungsprozess für die Integration von lokalen Unified Messaging-Diensten und Lync Server 2013</A>.
 
 

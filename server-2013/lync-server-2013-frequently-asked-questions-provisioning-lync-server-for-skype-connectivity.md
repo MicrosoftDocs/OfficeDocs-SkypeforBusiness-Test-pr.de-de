@@ -80,7 +80,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-27_
   - SIP-Domäne/n (Session Initiation Protocol). Dies ist das Domänensuffix des SIP URI, den die Benutzer derzeit für Chatunterhaltungen verwenden. Wenn es in Ihrer Organisation mehr als eine SIP-Domäne gibt, geben Sie das Suffix jeder Domäne an, die für Chatnachrichten verwendet wird. Geben Sie beispielsweise für "Benutzer1@contoso.com" als SIP-Domäne "contoso.com" an, für "Benutzer1@example.fabrikam.com" geben Sie "example.fabrikam.com" als SIP-Domäne an.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Geben Sie nur das Domänensuffix der SIP-Domäne an. Geben Sie keine FQDNs für die SIP-Domäne an, auch nicht den FQDN für den Zugriffs-Edgedienst.
 
 
@@ -89,7 +89,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-27_
 
 **F: Wie kann ich die Lync-Skype-Konnektivität in einem Szenario mit geteilter Domäne aktivieren?**
 
-**A:**In einem Szenario mit geteilter Domäne, d. h. wenn Sie sowohl Lync Online 2013 als auch lokal Lync Server nutzen und die Benutzer sowohl online als auch lokal die gleiche SIP-Domäne verwenden, aktivieren Sie die Lync-Skype-Konnektivität mit zwei Schritten in der nachstehenden Reihenfolge:
+**A:** In einem Szenario mit geteilter Domäne, d. h. wenn Sie sowohl Lync Online 2013 als auch lokal Lync Server nutzen und die Benutzer sowohl online als auch lokal die gleiche SIP-Domäne verwenden, aktivieren Sie die Lync-Skype-Konnektivität mit zwei Schritten in der nachstehenden Reihenfolge:
 
 1.  Richten Sie die Lync-Skype-Konnektivität lokal wie in der Anleitung zur Bereitstellung von Verbindungen mit öffentlichen Instant Messaging-Diensten beschrieben ein.
 

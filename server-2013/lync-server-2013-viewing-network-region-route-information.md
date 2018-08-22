@@ -28,7 +28,7 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 4.  Klicken Sie auf der Seite **Regionsroute** auf die Regionsroute, die Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können nur jeweils eine Regionsroute anzeigen.
 
 
@@ -53,7 +53,7 @@ Informationen zu Netzwerkregionsrouten können auch mit dem Lync Server-PowerShe
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
 
 ## Siehe auch
 

@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 Nachdem Sie Ihrer Topologie die Archivierung hinzugefügt und die neue Topologie veröffentlicht haben, müssen Sie die erstmalige Implementierung der Archivierung in Ihrer Bereitstellung konfigurieren. Darüber hinaus müssen Sie eine oder mehrere Archivierungsrichtlinien festlegen, um die Archivierung für Ihre Bereitstellung sowie optional für bestimmte Standorte und Benutzer zu implementieren. Sie können dazu Systemsteuerung für Lync Server 2013 verwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Im Anschluss an die Bereitstellung können Sie die Archivierungseinstellungen ändern, um die Archivierung zu aktivieren oder zu deaktivieren. Nähere Informationen zum Implementieren der Archivierungsunterstützung für die alltäglichen Verwaltungsvorgänge oder zur Erfüllung neuer Herausforderungen in Ihrer Organisation nach der Bereitstellung finden Sie in der Betriebsdokumentation unter <A href="lync-server-2013-managing-archiving.md">Verwalten der Lync Server 2013-Archivierung</A>.
 
 

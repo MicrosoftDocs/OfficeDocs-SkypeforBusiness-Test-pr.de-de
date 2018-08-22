@@ -28,7 +28,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie anzeigen möchten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es können in einem Arbeitsschritt nur Informationen zu einer Regionenverbindung angezeigt werden.
 
 
@@ -53,7 +53,7 @@ Sie können die Netzwerkregionenverbindungen auch anzeigen, indem Sie die Lync S
         NetworkRegionID1    : Pacific Northwest
         NetworkRegionID2    : California
 
-Für weitere Informationen, siehe [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+Für weitere Informationen, siehe [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Siehe auch
 

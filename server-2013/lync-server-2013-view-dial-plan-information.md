@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um Informationen für einen vorhandenen 
 4.  Doppelklicken Sie auf der Seite **Wähleinstellungen** auf einen Satz mit Wähleinstellungen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können jeweils nur Informationen zu einem Wählplan anzeigen.
 
 

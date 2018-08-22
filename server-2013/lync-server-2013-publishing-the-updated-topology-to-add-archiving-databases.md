@@ -22,7 +22,7 @@ Nach dem Aktualisieren Ihrer Topologie im Topologie-Generator müssen Sie die To
 1.  Melden Sie sich an einem Computer, auf dem Lync Server 2013 ausgeführt wird oder auf dem die Lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit äquivalenten Benutzerrechten).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das Mitglied der lokalen Benutzergruppe ist. Zum Veröffentlichen einer Topologie (Vorraussetzung für das Hinzufügen eines Servers zur Topologie) müssen Sie ein Konto verwenden, das Mitglied der Gruppe <STRONG>Domänen-Admins</STRONG> und der Gruppe <STRONG>RTCUniversalServerAdmins</STRONG> ist und über Vollzugriff (Lesen, Schreiben und Ändern) für die Dateifreigabe verfügt, die Sie für den Lync Server 2013-Dateispeicher verwenden möchten, damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) konfigurieren kann. Alternativ dazu können Sie ein Konto mit äquivalenten Rechten verwenden.
 
 
@@ -36,7 +36,7 @@ Nach dem Aktualisieren Ihrer Topologie im Topologie-Generator müssen Sie die To
 5.  Stellen Sie auf der Seite **Datenbanken erstellen** sicher, dass die Datenbank ausgewählt ist, und klicken Sie dann auf **Weiter**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie nicht über die erforderlichen Berechtigungen zum Erstellen von Datenbanken verfügen, können Sie die Auswahl der Datenbank abbrechen, sodass ein Benutzer mit den erforderlichen Berechtigungen die Datenbankerstellung ausführen kann. Ausführliche Informationen zu den erforderlichen Administratorrechten und Berechtigungen finden Sie unter <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Bereitstellungsberechtigungen für SQL Server in Lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Über den Topologie-Generator können nur Datenbanken auf dedizierten SQL Server-Servern installiert werden. Datenbanken auf SQL Server-Servern, die gemeinsam mit anderen Serverkomponenten ausgeführt werden, müssen über das lokale Setup auf dem jeweiligen Computer installiert werden.
 
 

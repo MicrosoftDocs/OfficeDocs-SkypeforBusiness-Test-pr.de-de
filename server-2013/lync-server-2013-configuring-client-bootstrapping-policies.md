@@ -162,7 +162,7 @@ Auf dem Server konfigurierte Richtlinien haben Vorrang vor Gruppenrichtlinienein
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei diesem Verfahren wird angenommen, dass Sie in Ihrer Domäne mehrere Computer verwalten möchten. Speichern Sie in diesem Fall die Vorlagen in einem zentralen Speicher im Ordner "Sysvol" auf dem primären Domänencontroller. Dies schafft einen replizierten zentralen Speicherort für administrative Domänenvorlagen.
 
 

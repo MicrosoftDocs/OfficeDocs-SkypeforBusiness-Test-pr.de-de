@@ -20,7 +20,7 @@ Eine *VoIP-Richtlinie* aktiviert einen Satz von Anruffunktionen und ordnet ein o
 VoIP-Richtlinien können entweder für einen *Standort* (zur Definition der Standardfunktionen und -berechtigungen für einen Netzwerkstandort) oder für *Benutzer* (zur Definition der Funktionen und Berechtigungen für Benutzer oder Gruppen) festgelegt werden. Benutzer, die keiner VoIP-Richtlinie zugewiesen sind, werden automatisch der globalen Richtlinie zugewiesen, also der mit dem Produkt installierten Standard-VoIP-Richtlinie.
 
 
-> [!TIP]
+> [!NOTE]
 > Ausführliche Informationen finden Sie unter <A href="lync-server-2013-voice-policies.md">VoIP-Richtlinien in Lync Server 2013</A> in der Planungsdokumentation.
 
 

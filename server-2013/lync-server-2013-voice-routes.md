@@ -64,7 +64,7 @@ Bei der Planung der Trunks zur Zuordnung von Gateway:Port-Paaren mit Vermittlung
 Lync Server bietet die Möglichkeit, die Anrufer-ID bei ausgehenden Anrufen zu ändern. Wenn eine Organisation beispielsweise die direkten Durchwahlen der Mitarbeiter maskieren und durch die allgemeine Nummer des Unternehmens oder der Abteilung ersetzen möchte, kann ein Administrator jetzt mithilfe der Lync Server-Systemsteuerung die Anrufer-ID unterdrücken und sie durch eine angegebene alternative Anrufer-ID ersetzen. Denken Sie bei der Planung der Routinglogik darüber nach, für welche Einzelpersonen, Gruppen oder Standorte Sie diese Optionen verwenden möchten oder ob Sie sie sogar für alle Mitarbeiter verwenden möchten.
 
 
-> [!TIP]
+> [!NOTE]
 > Für Anrufe, die über das Telefonfestnetz (PSTN) umgeleitet werden, wird die allgemeine Anrufer-ID anstelle der ursprünglichen Anrufer-ID angezeigt. Dies kann dazu führen, dass "Nicht stören"- oder Privatsphäreeinstellungen umgangen werden, die der angerufene Teilnehmer möglicherweise konfiguriert hat.
 
 

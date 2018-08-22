@@ -27,18 +27,8 @@ Die Firewall- und die Port- bzw. Protokollanforderungen des Reverseproxys sind m
     
     ![Reverseproxy und externe Webdienste](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "Reverseproxy und externe Webdienste")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Verwechseln Sie den TCP-Port 4443 des Reverseproxys nicht mit der internen Bereitstellung für den Datenverkehr über den TCP-Port 4443 vom Standard Edition-Server oder Front-End-Pool, mit dem die zentralen Verwaltungsspeicher-Rolle verwaltet wird.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+	> Verwechseln Sie den TCP-Port 4443 des Reverseproxys nicht mit der internen Bereitstellung für den Datenverkehr über den TCP-Port 4443 vom Standard Edition-Server oder Front-End-Pool, mit dem die zentralen Verwaltungsspeicher-Rolle verwaltet wird.
 
 
 ## Port- und Protokolldetails

@@ -56,7 +56,7 @@ Wenn Sie separate SQL Server-Datenbanken für die Archivierung verwenden, könne
   - Back-End-Datenbank eines Enterprise Edition-Front-End-Pools
 
 
-> [!TIP]
+> [!NOTE]
 > Auf dem Server, auf dem die Archivierungsdatenbank gehostet wird, können auch andere Datenbanken gehostet werden. Wenn Sie die Archivierungsdatenbank mit anderen Datenbanken verbinden, kann die Archivierungsdatenbank bei Archivierung der Nachrichten vieler Benutzer sehr viel Speicherplatz auf dem Datenträger belegen. Aus diesem Grund wird nicht empfohlen, die Archivierungsdatenbank mit der Back-End-Datenbank zu verbinden.
 
 

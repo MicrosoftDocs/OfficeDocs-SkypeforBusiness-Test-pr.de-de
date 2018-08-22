@@ -40,7 +40,7 @@ Mit Lync Server 2013 werden verschiedene neue Features zur Erweiterung der Konfe
     In Videokonferenzen können die Benutzer Videos von bis zu fünf Konferenzteilnehmern gleichzeitig ansehen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Katalogansicht wird in Konferenzen mit bis zu 75 Teilnehmern angezeigt. Sobald die Konferenz mehr als 75 Teilnehmer umfasst, wird auf die Einzelansicht zurückgeschaltet.
 
 

@@ -87,9 +87,9 @@ Eine Übersicht über diese Empfehlungen finden Sie in der folgenden Tabelle.
 <tr class="even">
 <td><p>A/V-Konferenzen</p></td>
 <td><p>Der durch einen Front-End-Pool bereitgestellte A/V-Konferenzdienst unterstützt die Konferenzen des Pools unter der Annahme einer maximalen Konferenzgröße von 250 Benutzern und dass jeweils nur eine Konferenz dieser Größe ausgeführt wird.</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Zusätzlich können Sie große Konferenzen mit 250 bis 1000 Benutzern unterstützen, indem Sie einen separaten Front-End-Pool mit zwei Front-End-Servern bereitstellen, der große Konferenzen hostet. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-supporting-large-meetings.md">Unterstützen von großen Besprechungen mithilfe von Lync Server 2013</A>.
 
 
@@ -124,7 +124,7 @@ Eine Übersicht über diese Empfehlungen finden Sie in der folgenden Tabelle.
 ## Front-End-Server
 
 
-> [!TIP]
+> [!NOTE]
 > Erweiterte Pools werden für diese Serverrolle nicht unterstützt.
 
 
@@ -177,7 +177,7 @@ Die folgende Tabelle zeigt die durchschnittliche Bandbreite für Sofortnachricht
 
 
 
-> [!TIP]
+> [!NOTE]
 > Zur Verbesserung der Medienleistung der zusammengestellten A/V-Konferenz- und der Vermittlungsserverfunktion auf Ihren Front-End-Servern müssen Sie auf den Netzwerkadaptern Ihrer Front-End-Server RSS (Receive-Side Scaling) aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen dazu finden Sie in "Receive-Side Scaling Enhancements in Windows Server 2008" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268731">http://go.microsoft.com/fwlink/?linkid=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
@@ -197,7 +197,7 @@ Wenn Ihre Organisation weitaus mehr Konferenzen im gemischten Modus hat, als die
 ## Edgeserver
 
 
-> [!TIP]
+> [!NOTE]
 > Erweiterte Pools werden für diese Serverrolle nicht unterstützt.
 
 
@@ -207,7 +207,7 @@ Sie sollten einen Edgeserver pro 12.000 Remotebenutzer bereitstellen, die gleic
 Wenn Sie die Anzahl von Benutzern für die Edgeserver berechnen, berücksichtigen Sie auch die Benutzer in Survivable Branch Appliances und auf Survivable Branch Servern in Zweigstellen, die diesem Front-End-Pool an diesem Standort zugeordnet sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Zum Verbessern der Leistung des A/V-Konferenzedgediensts auf Ihren Edgeservern sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter Ihrer Edgeserver aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268731">http://go.microsoft.com/fwlink/?linkid=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
@@ -215,7 +215,7 @@ Wenn Sie die Anzahl von Benutzern für die Edgeserver berechnen, berücksichtige
 ## Director
 
 
-> [!TIP]
+> [!NOTE]
 > Erweiterte Pools werden für diese Serverrolle nicht unterstützt.
 
 
@@ -227,7 +227,7 @@ Wenn Sie die Anzahl von Benutzern für die Directors berechnen, berücksichtigen
 ## Vermittlungsserver
 
 
-> [!TIP]
+> [!NOTE]
 > Erweiterte Pools werden für diese Serverrolle nicht unterstützt.
 
 
@@ -275,7 +275,7 @@ Alle folgenden Tabellen gehen von einer Verwendung entsprechend der unter [Benut
 
 
 
-> [!TIP]
+> [!NOTE]
 > Für die Leistungstests wurden Server mit 32&nbsp;GB&nbsp;Arbeitsspeicher verwendet. Für einen eigenständigen Vermittlungsserver werden jedoch auch Server mit 16&nbsp;GB&nbsp;Arbeitsspeicher unterstützt, was für die in dieser Tabelle dargestellte Leistung auch ausreicht.
 
 
@@ -303,13 +303,13 @@ Alle folgenden Tabellen gehen von einer Verwendung entsprechend der unter [Benut
 
 
 
-> [!TIP]
+> [!NOTE]
 > Diese Anzahl ist viel kleiner als die Anzahl für den eigenständigen Vermittlungsserver, da der Front-End-Server, zusätzlich zu der für die VoIP-Anrufe erforderlichen Transcodierung, andere Funktionen für die darin vorhandenen über 6.600 Benutzer übernimmt.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Zur Verbesserung der Leistung des Vermittlungsservers sollten Sie auf den Netzwerkadaptern Ihrer Vermittlungsserver RSS aktivieren. RSS ermöglicht die parallele Bearbeitung eingehender Pakete durch mehrere Prozessoren auf dem Server. Ausführliche Informationen finden Sie in "Receive-Side Scaling Enhancements in Windows Server 2008" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268731">http://go.microsoft.com/fwlink/?linkid=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 

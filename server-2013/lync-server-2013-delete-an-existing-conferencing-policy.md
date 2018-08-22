@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 Führen Sie die folgenden Schritte aus, um eine Konferenzrichtlinie auf Benutzer- oder Standortebene zu löschen.
 
 
-> [!TIP]
+> [!NOTE]
 > Die globale Konferenzrichtlinie kann nicht gelöscht werden.
 
 
@@ -55,5 +55,5 @@ Sie können die Trunkkonfigurationseinstellungen auch löschen, indem Sie die Ly
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
-Ausführliche Informationen finden Sie unter [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md).
+Ausführliche Informationen finden Sie unter [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
 

@@ -28,7 +28,7 @@ Die folgenden Modi werden unterstützt:
   - **Gemischter Modus**   Ihre Lync Server 2013-Bereitstellung umfasst einige Benutzerpostfächer auf lokalen Servern mit Microsoft Exchange Server sowie Postfächer, die in einem gehosteten Exchange-Rechenzentrum verwaltet werden.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der gemischte Modus kann als Übergangslösung bei der Evaluierung und schrittweisen Migration von Benutzern auf gehostete Exchange UM-Dienste oder als dauerhafte Lösung eingesetzt werden, wenn Sie einige Exchange UM-Dienste nach der Migration weiterhin lokal verwalten möchten.
 
 

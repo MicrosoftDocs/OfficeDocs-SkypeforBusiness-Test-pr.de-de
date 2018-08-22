@@ -42,7 +42,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 11. Klicken Sie auf **Commit**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Beim Erstellen eines neuen Bandbreitenrichtlinienprofils werden die Bandbreiteneinschränkungen nicht automatisch erzwungen. Sie müssen das Richtlinienprofil zunächst einem Standort zuordnen. Ausführliche Informationen zum Zuordnen eines Richtlinienprofils zu einem Standort finden Sie unter <A href="lync-server-2013-creating-or-modifying-network-sites.md">Erstellen oder Ändern von Netzwerkstandorten</A>.
 
 
@@ -64,7 +64,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 7.  Klicken Sie auf **Commit**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Beim Ändern des Bandbreitenrichtlinienprofils werden die Bandbreiteneinschränkungen aller Netzwerkstandorte, die diesem Bandbreitenrichtlinienprofil zugeordnet sind, umgehend aktualisiert.
 
 
@@ -78,7 +78,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 #### Weitere Ressourcen
 
 [Konfigurieren der Anrufsteuerung in Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[New-CsNetworkBandwidthPolicyProfile](new-csnetworkbandwidthpolicyprofile.md)  
-[Set-CsNetworkBandwidthPolicyProfile](set-csnetworkbandwidthpolicyprofile.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

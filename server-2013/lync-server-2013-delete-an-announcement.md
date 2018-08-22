@@ -36,8 +36,8 @@ Führen Sie die folgenden Schritte aus, um eine Ankündigung zu löschen, die f�
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
 
-    > [!TIP]
-    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="get-csannouncement.md">Get-CsAnnouncement</A> und <A href="remove-csannouncement.md">Remove-CsAnnouncement</A>.
+    > [!NOTE]
+    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> und <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
 
 
 
@@ -49,6 +49,6 @@ Führen Sie die folgenden Schritte aus, um eine Ankündigung zu löschen, die f�
 
 #### Weitere Ressourcen
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

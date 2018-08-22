@@ -19,5 +19,5 @@ Verwenden Sie die folgenden Verfahren, um Zertifikate mithilfe der Lync Server-V
 
 ## In diesem Abschnitt
 
-  - [Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)
+  - [Bereitstellen von AV- und OAuth-Zertifikaten in Lync Server 2013 mithilfe von -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

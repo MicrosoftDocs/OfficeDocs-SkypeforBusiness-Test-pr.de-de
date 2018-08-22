@@ -35,7 +35,7 @@ Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie mindestens als Mitg
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie nur einen Enterprise Edition-Server oder Director bereitstellen, der ohne ein Lastenausgleichssystem mit der Topologie verbunden ist, oder wenn Sie einen Standard Edition-Server bereitstellen, geben Sie die IP-Adresse des Enterprise Edition-Servers, Standard Edition-Servers oder Directors ein. Ein Lastenausgleichssystem ist erforderlich, wenn sich mehrere Enterprise Edition-Server oder Directors in einem Pool befinden. Bei Standard Edition-Servern werden keine Lastenausgleichssysteme verwendet.
 
 

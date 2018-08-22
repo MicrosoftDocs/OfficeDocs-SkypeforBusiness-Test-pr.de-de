@@ -20,7 +20,7 @@ Sie können Archivierungsoptionen für bestimmte Standorte angeben, indem Sie en
 Nähere Informationen zur Funktionsweise von Archivierungskonfigurationen, einschließlich der Hierarchie für Konfigurationen auf globaler Ebene sowie auf Standort- und Poolebene, finden Sie in der Planungs-, in der Bereitstellungs- oder in der Betriebsdokumentation unter [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, alle erforderlichen Optionen in den Archivierungskonfigurationen festzulegen, bevor Sie die Archivierung aktivieren.
 
 

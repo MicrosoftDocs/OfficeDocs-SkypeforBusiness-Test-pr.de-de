@@ -72,7 +72,7 @@ Die Einstellungen für Medienportbereiche können sich erheblich auf die Clientl
         Set-CsConferencingConfiguration
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können zusätzliche Sätze mit Konfigurationseinstellungen für Konferenzen für bestimmte Standorte erstellen. Verwenden Sie das Cmdlet <STRONG>New- CsConferencingConfiguration</STRONG> mit einer Standortidentität. Beim Erstellen neuer Konfigurationseinstellungen für Konferenzen für einen Standort haben die Standorteinstellungen Vorrang vor den globalen Einstellungen. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

@@ -56,7 +56,7 @@ Führen Sie das vorliegende Verfahren am zentralen Standort aus, wenn Sie die Su
 9.  Klicken Sie unter **SIP-Transportprotokoll** auf das für die Survivable Branch-Anwendung oder den Survivable Branch-Server zu verwendende Transportprotokoll, und klicken Sie dann auf **Fertig stellen** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Aus Sicherheitsgründen wird der Einsatz von TLS (Transport Layer Security) ausdrücklich empfohlen. Wenn Sie eine Survivable Branch-Anwendung definieren, überprüfen Sie anhand der Herstellerdokumentation für die Survivable Branch-Anwendung, ob Ihre Survivable Branch-Anwendung das TLS-Protokoll unterstützt.
 
 

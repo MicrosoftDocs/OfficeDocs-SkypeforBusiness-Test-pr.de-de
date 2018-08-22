@@ -58,7 +58,7 @@ Nach der Auswahl einer primären Rufnummer müssen folgende Aktionen für diese 
   - Kopieren in das Active Directory-Attribut **msRTCSIP-line**
     
 
-    > [!TIP]
+    > [!NOTE]
     > <STRONG>Verwendung neben der Remoteanrufsteuerung (Remote Call Control, RCC)</STRONG><BR>RCC bietet die Möglichkeit, ein PBX-Telefon mit Lync Server zu überwachen und zu steuern. Die Steuerung wird über den Server geleitet, der als Gateway zur Nebenstellenanlage dient. Auch wenn Sie einen Benutzer nicht sowohl für RCC als auch für Enterprise-VoIP konfigurieren können, stellt die Einstellung für den Anschluss-URI in beiden Fällen die primäre Rufnummer eines Benutzers dar.<BR>Wenn Sie über eine vorhandene PBX-Infrastruktur verfügen, die bestimmte Benutzer weiterhin verwenden sollen, können Sie Enterprise-VoIP stufenweise in Ihrer Organisation einführen. Ausführliche Informationen zu diesem Bereitstellungsszenario finden Sie unter <A href="lync-server-2013-direct-sip-deployment-options.md">Optionen für Bereitstellungen mit direkten SIP-Verbindungen in Lync Server 2013</A> in der Planungsdokumentation.<BR>In vorherigen Versionen konnten Sie sowohl RCC als auch Enterprise-VoIP für einen Benutzer aktivieren. Hierzu mussten Sie den Benutzer jedoch auch für die duale Verzweigung konfigurieren, eine Funktion, bei der ein eingehender Anruf gleichzeitig am PBX-Telefon eines Benutzers und in Communicator klingelt. In Lync Server 2010 wird die duale Verzweigung nicht unterstützt.
 
 

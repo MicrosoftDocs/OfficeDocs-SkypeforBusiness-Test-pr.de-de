@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-04_
 Führen Sie diese Schritte aus, um mit dem Topologie-Generator einen *Peer* zu definieren, dem Sie einen Vermittlungsserver zuweisen können, um eine PSTN (Public Switched Telephone Network)-Anbindung für Enterprise-VoIP-aktivierte Benutzer bereitzustellen. Bei diesem Peer für den Vermittlungsserver kann es sich um ein PSTN-Gateway, eine IP-Nebenstellenanlage oder einen SBC (Session Border Controller) eines Anbieters von Internettelefoniediensten (ITSP) handeln, mit dem Sie durch Konfigurieren eines SIP-Trunks eine Verbindung herstellen.
 
 
-> [!TIP]
+> [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass Sie mindestens einen internen Front-End-Pool oder einen internen Standard Edition-Server mit einem verbundenen oder eigenständigen Vermittlungsserver an mindestens einem zentralen Standort eingerichtet haben, wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in Lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in Lync Server 2013</A> in der Bereitstellungsdokumentation beschrieben. In diesem Thema wird ferner davon ausgegangen, dass Ihre Infrastruktur die unter <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Erforderliche Software für Enterprise-VoIP in Lync Server 2013</A> und <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Anforderungen an Sicherheit und Konfiguration für Enterprise-VoIP in Lync Server 2013</A> beschriebenen Voraussetzungen erfüllt.
 
 
@@ -36,7 +36,7 @@ Führen Sie diese Schritte aus, um mit dem Topologie-Generator einen *Peer* zu d
     ![IP/PSTN-Gateway](images/Gg425945.8017ba5e-41bc-48d4-97d9-fd306cd322b8(OCS.15).png "IP/PSTN-Gateway")
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie TLS (Transport Layer Security) als Transporttyp angeben, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) anstelle der IP-Adresse des Vermittlungsserverpeers angeben.
 
 
@@ -60,7 +60,7 @@ Führen Sie diese Schritte aus, um mit dem Topologie-Generator einen *Peer* zu d
 7.  Klicken Sie unter **SIP-Transportprotokoll** auf das für den Peer zu verwendende Transportprotokoll, und klicken Sie dann auf **OK** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Aus Sicherheitsgründen wird dringend empfohlen, für den Vermittlungsserver einen Peer bereitzustellen, der TLS verwenden kann.
 
 
@@ -70,7 +70,7 @@ Führen Sie diese Schritte aus, um mit dem Topologie-Generator einen *Peer* zu d
 9.  Geben Sie unter **Zugeordneter Vermittlungsserver-Port** den Überwachungsport ein, der von der Vermittlungsserver für SIP-Nachrichten vom Gateway verwendet wird.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da Lync Server 2013 mehrere Trunks unterstützt, können Sie im Vermittlungsserver mehrere SIP-Signalports für die Kommunikation mit mehreren PSTN-Gateways definieren. Wenn Sie einen Trunk definieren, muss sich der <STRONG>Verbundene Vermittlungsserver-Port</STRONG> im Bereich der Überwachungsports für das jeweils von der Vermittlungsserver zugelassene Protokoll befinden. Dieser Portbereich wird unter Lync Server 2013 und Vermittlungsserverpools definiert. Klicken Sie mit der rechten Maustaste auf den betreffenden Vermittlungsserverpool, und wählen Sie <STRONG>Eigenschaften bearbeiten</STRONG> aus. Geben Sie den Portbereich im Feld <STRONG>Überwachungsports</STRONG> ein.
 
 

@@ -20,7 +20,7 @@ Bereitstellungen mit Anrufsteuerung (Call Admission Control, CAC), E9-1-1 und Me
 Verwenden Sie die folgenden Verfahren, um Netzwerkstandorte zu erstellen oder zu ändern. Wenn Sie beispielsweise bereits Netzwerkstandorte für eine VoIP-Funktion erstellt haben, müssen Sie keine neuen Netzwerkstandorte erstellen, da dieselben Netzwerkstandorte für weitere VoIP-Funktionen verwendet werden können. Sie müssen jedoch möglicherweise eine vorhandene Netzwerkstandortdefinition ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie beispielsweise einen Netzwerkstandort für E9-1-1 erstellt haben, müssen Sie den Netzwerkstandort während der Bereitstellung der Anrufsteuerung ändern, um ein Bandbreitenrichtlinienprofil anzuwenden.
 
 
-> [!TIP]
+> [!NOTE]
 > Spezifische Beispiele und Anforderungen für Netzwerkstandorte finden Sie ggf. in den Themen zu erweiterten VoIP-Funktionen in der Bereitstellungsdokumentation: 
 > <UL>
 > <LI>
@@ -30,13 +30,13 @@ Verwenden Sie die folgenden Verfahren, um Netzwerkstandorte zu erstellen oder zu
 
 Ausführliche Informationen zum Arbeiten mit Netzwerkstandorten finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für die folgenden Cmdlets:
 
-  - [New-CsNetworkSite](new-csnetworksite.md)
+  - [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite)
 
-  - [Get-CsNetworkSite](get-csnetworksite.md)
+  - [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite)
 
-  - [Set-CsNetworkSite](set-csnetworksite.md)
+  - [Set-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSite)
 
-  - [Remove-CsNetworkSite](remove-csnetworksite.md)
+  - [Remove-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSite)
 
 ## Erstellen eines Netzwerkstandorts
 
@@ -57,7 +57,7 @@ Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienum
     In diesem Beispiel wird ein Netzwerkstandort namens "Chicago" erstellt, der sich in der Netzwerkregion "NorthAmerica" befindet.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Netzwerkregion "NorthAmerica" muss bereits vorhanden sein, damit dieser Befehl erfolgreich ausgeführt werden kann.
 
 
@@ -81,7 +81,7 @@ Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienum
 7.  Klicken Sie optional auf **Bandbreitenrichtlinie** , und klicken Sie dann auf eine Bandbreitenrichtlinie in der Liste.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Eine Bandbreitenrichtlinie ist nur dann erforderlich, wenn Sie die Anrufsteuerung am Standort bereitstellen möchten.
 
 
@@ -89,7 +89,7 @@ Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienum
 8.  Klicken Sie optional auf **Ortungsrichtlinie** , und klicken Sie dann auf eine Ortungsrichtlinie in der Liste.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Eine Ortungsrichtlinie ist nur erforderlich, wenn Sie E9-1-1 am Standort bereitstellen.
 
 
@@ -119,7 +119,7 @@ Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienum
     In diesem Beispiel wird der Standort "Albuquerque" in die Netzwerkregion "NorthAmerica" verschoben. Bearbeiten Sie zum Ändern der Netzwerkstandortkonfiguration für die Bereitstellung von Anrufsteuerung, E9-1-1 oder Medienumgehung die Netzwerkstandorteinstellungen, indem Sie das Cmdlet "Set-CsNetworkSite" mit dem Parameter "BWPolicyProfileID" oder "LocationPolicy" ausführen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenngleich der Parameter "BypassID" für die Medienumgehung vorhanden ist, wird dringend empfohlen, automatisch generierte IDs für die Umgehung nicht außer Kraft zu setzen. Sie müssen keine zusätzlichen Parameter angeben, um einen Netzwerkstandort für die Medienumgehung zu konfigurieren.
 
 

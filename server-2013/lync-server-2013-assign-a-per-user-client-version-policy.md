@@ -65,7 +65,7 @@ Ausführliche Informationen zum Erstellen von Clientversionsrichtlinien auf Benu
 7.  Führen Sie im Abschnitt **Richtlinien zuweisen** unter **Clientversionsrichtlinie** eine der folgenden Aktionen aus:
     
 
-    > [!TIP]
+    > [!NOTE]
     > Da Sie im Dialogfeld <STRONG>Richtlinien zuweisen</STRONG> mehrere Richtlinien konfigurieren können, wird die Option <STRONG>&lt;Beibehalten&gt;</STRONG> für alle Richtlinien im Dialogfeld standardmäßig aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
@@ -93,7 +93,7 @@ Sie können Clientversionsrichtlinien auf Benutzerebene mithilfe des **Grant-CsC
 
 ## So weisen Sie eine Clientversionsrichtlinie auf Benutzerebene mehreren Benutzern zu
 
-  - Mit diesem Befehl weisen Sie die auf Benutzerebene geltende Clientversionsrichtlinie **RedmondClientVersionPolicy** allen Benutzern zu, denen derzeit die VoIP-Richtlinie **RedmondVoicePolicy** zugeordnet ist. Weitere Informationen zu dem in diesem Befehl verwendeten **Filter**-Parameter finden Sie in der Dokumentation zum [Get-CsUser](get-csuser.md)-Cmdlet.
+  - Mit diesem Befehl weisen Sie die auf Benutzerebene geltende Clientversionsrichtlinie **RedmondClientVersionPolicy** allen Benutzern zu, denen derzeit die VoIP-Richtlinie **RedmondVoicePolicy** zugeordnet ist. Weitere Informationen zu dem in diesem Befehl verwendeten **Filter**-Parameter finden Sie in der Dokumentation zum [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlet.
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -103,7 +103,7 @@ Sie können Clientversionsrichtlinien auf Benutzerebene mithilfe des **Grant-CsC
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie in dem Hilfethema zum [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md)-Cmdlet.
+Weitere Informationen finden Sie in dem Hilfethema zum [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy)-Cmdlet.
 
 ## Siehe auch
 

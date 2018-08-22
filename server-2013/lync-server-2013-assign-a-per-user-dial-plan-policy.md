@@ -69,7 +69,7 @@ Benutzerbezogene Einwähleinstellungen können auch mit Windows PowerShell und d
 
 ## Zuweisen benutzerbezogener Einwähleinstellungen zu mehreren Benutzern
 
-  - Mithilfe dieses Befehls werden die benutzerbezogenen Einwähleinstellungen RedmondDialPlan allen Benutzern zugewiesen, die in Redmond arbeiten. Weitere Informationen zu dem in diesem Befehl verwendeten Parameter LdapFilter finden Sie in der Dokumentation des [Get-CsUser](get-csuser.md)-Cmdlets.
+  - Mithilfe dieses Befehls werden die benutzerbezogenen Einwähleinstellungen RedmondDialPlan allen Benutzern zugewiesen, die in Redmond arbeiten. Weitere Informationen zu dem in diesem Befehl verwendeten Parameter LdapFilter finden Sie in der Dokumentation des [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)-Cmdlets.
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 
@@ -79,7 +79,7 @@ Benutzerbezogene Einwähleinstellungen können auch mit Windows PowerShell und d
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Weitere Informationen finden Sie im Hilfethema für das [Grant-CsDialPlan](grant-csdialplan.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)-Cmdlet.
 
 ## Siehe auch
 

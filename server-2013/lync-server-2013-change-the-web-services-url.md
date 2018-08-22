@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-16_
 Bei der Einrichtung von Front-End-Pools und Standard Edition-Servern können Sie einen externen Webfarm-FQDN sowie entsprechende Ports konfigurieren. Wenn Sie diese URL nicht während der Ausführung des Lync Server-Bereitstellungs-Assistenten konfiguriert haben, müssen Sie diese Einstellungen manuell festlegen. Ein Administrator muss diese Einstellungen normalerweise nicht ändern, da bereits die empfohlenen Standardports eingerichtet sind.
 
 
-> [!TIP]
+> [!NOTE]
 > Der folgende Screenshot wurde bei der Konfiguration eines Standard Edition-Servers erstellt, deshalb ist die Option zum Außerkraftsetzen des FQDN deaktiviert. Diese Option ist aktiviert, wenn Sie einen Enterprise Edition-Server in einem Front-End-Pool konfigurieren.
 
 

@@ -36,7 +36,7 @@ Bei Computern, die mit einem TPM-Chip (Trusted Platform Module) ausgerüstet sin
 6.  Vergewissern Sie sich in der TPM-Verwaltungskonsole, dass die TPM-Spezifikationsversion mindestens 1.2 ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wird ein Dialogfeld angezeigt, in dem gemeldet wird, dass kein kompatibles Trusted Platform Module (TPM) gefunden wurde, sollten Sie sich vergewissern, dass der Computer ein kompatibles TPM hat und dass dieses im System-BIOS aktiviert ist.
 
 
@@ -48,7 +48,7 @@ Bei Computern, die mit einem TPM-Chip (Trusted Platform Module) ausgerüstet sin
         TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie beim Erstellen der virtuellen Smartcard einen benutzerdefinierten PIN-Wert bereitstellen möchten, verwenden Sie "/pin prompt" anstelle von "/pin default".
 
 

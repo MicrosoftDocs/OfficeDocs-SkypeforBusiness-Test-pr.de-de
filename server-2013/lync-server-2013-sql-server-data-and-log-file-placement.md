@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Bei der Planung und Bereitstellung von Microsoft SQL Server 2012 oder Microsoft SQL Server 2008 R2 SP1 für Ihren Lync Server 2013- Front-End-Pool ist die Platzierung der Daten und Protokolldateien auf physischen Festplatten für die Leistung entscheidend. Die empfohlene Festplattenkonfiguration sieht die Implementierung eines 1+0-RAID-Satzes mit sechs Spindeln vor. Die Platzierung aller vom Front-End-Pool verwendeten Datenbank- und Protokolldateien sowie zugehöriger Serverrollen und -dienste (d. h. Archivierungs- und Monitoring Server, Lync Server-Reaktionsgruppendienst, Lync Server-Dienst zum Parken von Anrufen) auf dem RAID-Festplattensatz mithilfe des Lync Server-Bereitstellungs-Assistents sorgt für eine Konfiguration, deren gute Leistung in Tests nachgewiesen wurde. Die Datenbankdateien und deren Zwecke sind in der folgenden Tabelle erläutert.
 
 
-> [!TIP]
+> [!NOTE]
 > Wenn Ihre Richtlinien und SQL&nbsp;Server-Konfigurationen eine speziellere Installation erfordern, können die Datenbank- und Protokolldateien mithilfe der Lync Server-Verwaltungsshell an einem beliebigen vordefinierten Speicherort installiert werden. Weitere Einzelheiten finden Sie unter <A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Installieren von Datenbanken mithilfe der Lync Server-Verwaltungsshell in Lync Server 2013</A>.
 
 

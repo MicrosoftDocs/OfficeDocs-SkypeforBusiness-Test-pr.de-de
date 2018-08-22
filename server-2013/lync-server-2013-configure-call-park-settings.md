@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 Wenn Sie nicht die Standardeinstellungen für die Parken von Anrufen verwenden möchten, können Sie sie anpassen. Bei der Anwendung zum Parken von Anrufen-Installation werden standardmäßig globale Einstellungen konfiguriert. Sie können die globalen Einstellungen ändern, und Sie können außerdem standortspezifische Einstellungen angeben. Verwenden Sie das Cmdlet **New-CsCpsConfiguration**, um neue standortspezifische Einstellungen zu erstellen. Verwenden Sie das Cmdlet **Set-CsCpsConfiguration**, um vorhandene Einstellungen zu ändern.
 
 
-> [!TIP]
+> [!NOTE]
 > Es wird empfohlen, mindestens die Option <STRONG>OnTimeoutURI</STRONG> zu konfigurieren, um ein Fallbackziel anzugeben, das bei Auftreten einer Zeitüberschreitung für geparkte Anrufe und bei erfolglosen Rückrufversuchen verwendet wird.
 
 
@@ -88,7 +88,7 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 
 #### Weitere Ressourcen
 
-[New-CsCpsConfiguration](new-cscpsconfiguration.md)  
-[Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
-[Get-CsSite](get-cssite.md)
+[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
+[Set-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCpsConfiguration)  
+[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
 

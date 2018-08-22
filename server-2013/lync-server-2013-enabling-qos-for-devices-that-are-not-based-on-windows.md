@@ -41,7 +41,7 @@ Mit dem obigen Befehl wird QoS auf globaler Ebene aktiviert. Es ist jedoch wicht
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
 
-> [!TIP]
+> [!NOTE]
 > Müssen Sie QoS auf Standortebene aktivieren? Das kommt darauf an. Einstellungen auf Standortebene haben Vorrang vor globalen Einstellungen. Angenommen, Sie haben QoS auf globaler Ebene aktiviert, aber auf Standortebene (für den Standort Redmond) deaktiviert. In diesem Fall wird QoS für den Standort Redmond deaktiviert, da die Standorteinstellungen Vorrang haben. Um QoS für den Standort Redmond zu aktivieren, müssen Sie entsprechende Medienkonfigurationseinstellungen auf den Standort anwenden.
 
 

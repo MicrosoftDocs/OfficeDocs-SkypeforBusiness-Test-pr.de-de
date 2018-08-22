@@ -31,35 +31,15 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 
   - Überprüfen der Namen aller Enterprise-VoIP-Wählpläne darauf, ob sie mit dem Telefonkontext der zugehörigen UM (Unified Messaging)-Wähleinstellungen übereinstimmen. Dieser Abgleich ist nur erforderlich, wenn der UM-Wählplan auf einer Exchange-Version *vor* Exchange 2010 Service Pack 1 (SP1) ausgeführt wird.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.important(OCS.15).gif" title="important" alt="important" />Wichtig:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Stellen Sie vor der Ausführung des Exchange UM-Integrationsprogramms Folgendes sicher:
-<ul>
-<li><p>Sie haben einen oder mehrere Sätze mit Exchange UM-Wähleinstellungen erstellt, wie beschrieben in der Exchange-Produktdokumentation.</p>
-<p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2010 finden Sie auf der Seite &quot;Erstellen von UM-Wähleinstellungen&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=186177" class="uri">http://go.microsoft.com/fwlink/?linkid=186177</a>.</p>
-<p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden Sie auf der Seite &quot;Erstellen eines SIP-URI-Wählplans für Unified Messaging&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=185771" class="uri">http://go.microsoft.com/fwlink/?linkid=185771</a>.</p></li>
-<li><p>Sie haben einen oder mehrere entsprechende Lync Server-Wählpläne erstellt, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Erstellen eines Wählplans in Lync Server 2013</a> beschrieben.</p>
-<div class="alert">
-
-> [!IMPORTANT]
-> Wenn Sie eine Exchange-Version vor Microsoft Exchange Server 2010&nbsp;SP1 verwenden, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des zugehörigen Exchange Unified Messaging (UM)-SIP-Wählplans im Feld <STRONG>Einfacher Name</STRONG> des Lync Server 2013-Wählplans eingeben. Wenn Sie Microsoft Exchange Server 2010 mit SP1 oder dem neuesten Service Pack verwenden, ist dieser Namensabgleich für den Wählplan nicht erforderlich.
-
-
-</div></li>
-<li><p>Sie haben eine automatische Telefonzentrale erstellt und sich vergewissert, dass die Teilnehmerzugriffsnummer und die Nummer der automatischen Telefonzentrale im E.164-Format vorliegen.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Stellen Sie vor der Ausführung des Exchange UM-Integrationsprogramms Folgendes sicher:
+> <ul>
+> <li><p>Sie haben einen oder mehrere Sätze mit Exchange UM-Wähleinstellungen erstellt, wie beschrieben in der Exchange-Produktdokumentation.</p>
+> <p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2010 finden Sie auf der Seite &quot;Erstellen von UM-Wähleinstellungen&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=186177" class="uri">http://go.microsoft.com/fwlink/?linkid=186177</a>.</p>
+> <p>Informationen zur Vorgehensweise für Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden Sie auf der Seite &quot;Erstellen eines SIP-URI-Wählplans für Unified Messaging&quot; unter <a href="http://go.microsoft.com/fwlink/?linkid=185771" class="uri">http://go.microsoft.com/fwlink/?linkid=185771</a>.</p></li>
+> <li><p>Sie haben einen oder mehrere entsprechende Lync Server-Wählpläne erstellt, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Erstellen eines Wählplans in Lync Server 2013</a> beschrieben.</p></li>
+> <ul><li>Wenn Sie eine Exchange-Version vor Microsoft Exchange Server 2010&nbsp;SP1 verwenden, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des zugehörigen Exchange Unified Messaging (UM)-SIP-Wählplans im Feld <STRONG>Einfacher Name</STRONG> des Lync Server 2013-Wählplans eingeben. Wenn Sie Microsoft Exchange Server 2010 mit SP1 oder dem neuesten Service Pack verwenden, ist dieser Namensabgleich für den Wählplan nicht erforderlich.</li></ul>
+> <li><p>Sie haben eine automatische Telefonzentrale erstellt und sich vergewissert, dass die Teilnehmerzugriffsnummer und die Nummer der automatischen Telefonzentrale im E.164-Format vorliegen.</p></li></ul>
 
 
 ## So führen Sie das Exchange UM-Integrationsprogramm aus
@@ -75,7 +55,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 5.  Akzeptieren Sie entweder die Standardorganisationseinheit im Feld **Kontakt** , oder klicken Sie auf **Durchsuchen** , um die Option **Auswahl der Organisationseinheit** zu starten. Im Feld **Auswahl der Organisationseinheit** können Sie eine Organisationseinheit auswählen und auf **OK** klicken, oder Sie können auf **Neue Organisationseinheit erstellen** klicken, um unter dem Stamm oder einer anderen Organisationseinheit in der Domäne eine neue Organisationseinheit anzulegen (z. B. "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"). Klicken Sie anschließend auf **OK** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Der Distinguished Name (DN) der von Ihnen ausgewählten bzw. erstellten Organisationseinheit wird jetzt im Feld <STRONG>Organisationseinheit</STRONG> angezeigt.
 
 
@@ -83,7 +63,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 6.  Übernehmen Sie entweder den im Feld **Name** angezeigten Standardnamen für die Wähleinstellungen, oder geben Sie einen neuen Anzeigenamen für das zu erstellende Kontaktobjekt ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie ein Kontaktobjekt für den Teilnehmerzugriff erstellen, können Sie es z.&nbsp;B. einfach "Teilnehmerzugriff" nennen.
 
 
@@ -91,7 +71,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 7.  Übernehmen Sie im Feld **SIP-Adresse** entweder die Standard-SIP-Adresse, oder geben Sie eine neue Adresse ein.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie eine neue SIP-Adresse eingeben, muss diese mit <STRONG>SIP:</STRONG> beginnen (d.&nbsp;h. "SIP:" einschließlich Doppelpunkt).
 
 
@@ -99,7 +79,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 8.  Wählen Sie in der Liste **Server oder Pool** den Standard Edition-Server oder Front-End-Pool aus, in dem das Kontaktobjekt aktiviert werden soll.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Bei dem ausgewählten Pool sollte es sich vorzugsweise um den Pool mit den für Enterprise-VoIP und Exchange UM aktivierten Benutzern handeln.
 
 
@@ -111,7 +91,7 @@ Mit dem Exchange UM-Integrationsprogramm werden die folgenden Aufgaben ausgefüh
 11. Wiederholen Sie die Schritte 1 bis 10 für alle weiteren zu erstellenden Kontaktobjekte.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie sollten für jede automatische Telefonzentrale mindestens einen Kontakt erstellen. Falls Sie den externen Zugriff ermöglichen möchten, benötigen Sie außerdem ein Kontaktobjekt für den Teilnehmerzugriff und DID-Nummern (Direct Inward Dial).
 
 

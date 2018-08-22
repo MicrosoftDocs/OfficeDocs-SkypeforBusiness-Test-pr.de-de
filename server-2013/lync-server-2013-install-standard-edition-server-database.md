@@ -30,7 +30,7 @@ Das Einrichten einer Standard Edition-Server als einziger Server in der Infrastr
 5.  Auf der Seite **Befehle ausführen** installieren Sie SQL Server 2012 Express als zentralen Verwaltungsspeicher. Die erforderlichen Firewallregeln werden erstellt. Klicken Sie auf **Fertig stellen** , wenn die Installation der Datenbank und der erforderlichen Software abgeschlossen ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Erstinstallation kann einige Zeit in Anspruch nehmen, und auf dem Zusammenfassungsbildschirm zur Befehlsausgabe werden keine Aktualisierungen angezeigt. Dies hängt mit der Installation der SQL Server Express zusammen. Sie können den Fortschritt der Datenbankinstallation im Task-Manager überwachen.
 
 

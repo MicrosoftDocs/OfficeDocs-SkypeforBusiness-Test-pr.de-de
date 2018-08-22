@@ -139,15 +139,15 @@ Zu den für Watcher-Knoten verfügbaren synthetischen Transaktionen gehören:
 Sie brauchen keine Watcher-Knoten zu installieren, um System Center Operations Manager verwenden zu können. Wenn Sie diese Knoten nicht installieren, können Sie bei Problemen trotzdem noch Echtzeitalarme von Lync Server 2013-Komponenten erhalten. (Das Komponenten- und Benutzerverwaltungspaket macht keinen Gebrauch von Watcher-Knoten.) Allerdings sind Watcher-Knoten erforderlich, wenn Sie mithilfe des Pakets für die aktive Überwachungsverwaltung End-to-End-Szenarien überwachen möchten.
 
 
-> [!TIP]
-> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne dass dazu der Operations Manager installiert oder verwendet werden muss. Einzelheiten zu den verschiedenen Test-Cs-Cmdlets finden Sie im <A href="lync-server-2013-cmdlets-index.md">Index der Lync Server&nbsp;2013-Cmdlets</A>.
+> [!NOTE]
+> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne dass dazu der Operations Manager installiert oder verwendet werden muss. Einzelheiten zu den verschiedenen Test-Cs-Cmdlets finden Sie im <A href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Index der Lync Server&nbsp;2013-Cmdlets</A>.
 
 
 
 Je nach der Größe Ihrer Bereitstellung können synthetische Transaktionen einen großen Teil Ihrer Arbeitsspeicher- und Prozessorressourcen in Anspruch nehmen. Aus diesem Grund wird empfohlen, als Watcher-Knoten einen dedizierten Computer zu verwenden. So sollten Sie zum Beispiel keinen Front-End-Server als Watcher-Knoten konfigurieren. Watcher-Knoten sollten folgenden Hardwarespezifikationen erfüllen:
 
 
-> [!TIP]
+> [!NOTE]
 > Ein älterer Microsoft Lync Server 2010-Watcher-Knoten kann nicht zusammen mit einem Lync Server 2013-Watcher-Knoten auf dem gleichen Computer untergebracht werden, da die wichtigsten Systemdateien für Lync Server 2010 und Lync Server 2013 nicht auf dem gleichen Computer installiert werden können.<BR>Allerdings können Lync Server 2013-Watcher-Knoten sowohl Lync Server 2013 als auch Lync Server 2010 gleichzeitig überwachen. Die synthetischen Transaktionen vom Typ "Standard" werden in beiden Produktversionen unterstützt.
 
 

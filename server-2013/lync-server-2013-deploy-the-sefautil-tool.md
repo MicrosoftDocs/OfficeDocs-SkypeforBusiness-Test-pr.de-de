@@ -26,7 +26,7 @@ Zum Bereitstellen und Verwalten der Gruppenanrufannahme müssen Sie das SEFAUtil
 Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Weitere Informationen zum Ausführen von SEFAUtil finden Sie im TechNet-Bog-Artikel "How to get SEFAutil running?" unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?linkid=278940</A>.
 
 
@@ -46,7 +46,7 @@ Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung au
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sie können ggf. einen anderen Port verwenden.
 
 
@@ -62,7 +62,7 @@ Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung au
     1.  Führen Sie das Tool an der Windows-Eingabeaufforderung mit Administratorberechtigungen aus, um die Anrufweiterleistungseinstellungen eines Benutzers in Ihrer Bereitstellung anzuzeigen.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Das Tool befindet sich unter "\Programme\Microsoft Lync Server 2013\Reskit".
 
     

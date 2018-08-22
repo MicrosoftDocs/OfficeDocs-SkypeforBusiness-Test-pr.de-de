@@ -95,7 +95,7 @@ In Lync Server 2013 gibt es Änderungen beim Konformitätsdienst:
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Weitere Informationen zum Installieren des Message Queuing-Diensts finden Sie unter <A href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Installieren von Betriebssystemen und erforderlicher Software auf Servern für Lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 

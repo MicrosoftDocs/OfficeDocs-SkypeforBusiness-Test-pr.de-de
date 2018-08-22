@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um die Topologie zur Unterstützung von Pushbenachricht
   - Wenn Ihre Umgebung einen Office Communications Server 2007 R2Edgeserver enthält, müssen Sie einen direkten SIP-Partnerverbund mit "push.lync.com" einrichten.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Push.lync.com ist eine Microsoft Office&nbsp;365-Domäne für den Pushbenachrichtigungsdienst.
 
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um die Topologie zur Unterstützung von Pushbenachricht
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es kann nur maximal eine Partnerverbundbeziehung mit einem einzelnen Hostinganbieter bestehen. Wenn Sie also bereits einen Hostinganbieter eingerichtet haben, der eine Partnerverbundbeziehung mit "sipfed.online.lync.com" hat, fügen Sie keinen weiteren Hostinganbieter hinzu, auch wenn die Identität des Hostinganbieters nicht "LyncOnline" ist.
 
 
@@ -121,6 +121,6 @@ Gehen Sie wie folgt vor, um die Topologie zur Unterstützung von Pushbenachricht
 
 #### Weitere Ressourcen
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
 

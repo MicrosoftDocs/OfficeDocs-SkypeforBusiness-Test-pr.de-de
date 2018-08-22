@@ -54,7 +54,7 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
     Die privaten IP-Adressen des Webkonferenz-Edgediensts und A/V-Edgediensts sind zusätzliche IP-Adressen im Abschnitt **Erweitert** der Eigenschaften von **Internet Protocol Version 4 (TCP/IPv4)** und **Internet Protocol Version 6 (TCP/IPv6)** in **Eigenschaften von LAN-Verbindung** von Windows Server.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Es ist möglich, jedoch nicht zu empfehlen, eine einzelne IP-Adresse für alle drei Edgedienst-Schnittstellen zu verwenden. Dadurch werden zwar IP-Adressen gespart, aber für jeden Dienst sind unterschiedliche Portnummern erforderlich. Die Standardportnummer ist 443/TCP, womit sichergestellt wird, dass die meisten Remotefirewalls den Datenverkehr zulassen. Wenn Sie die Portwerte z.&nbsp;B. in 5061/TCP für den Zugriffs-Edgedienst ändern, könnten 444/TCP für den Webkonferenz-Edgedienst und 443/TCP für den A/V-Edgedienst Probleme für Remotebenutzer verursachen, wenn deren Firewall den Datenverkehr über 5061/TCP und 444/TCP nicht zulässt. Darüber hinaus wird durch drei eindeutige IP-Adressen die Problembehandlung vereinfacht, da nach der IP-Adresse gefiltert werden kann.
 
 
@@ -155,7 +155,7 @@ Sie können die zwei Netzwerkadapter auf jedem Ihrer Edgeserver folgendermaßen 
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Schnittstelle des SIP- Zugriffs-Edgediensts. Erforderlich für die automatische DNS-Suche eines Verbunds mit anderen potenziellen Verbundpartnern, bezeichnet als &quot;Zugelassene SIP-Domäne&quot; (in Vorgängerversionen als erweiterter Verbund bezeichnet).</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > Wird ggf. für alle SIP-Domänen mit Lync-fähigen Benutzern und Microsoft Lync Mobile-Clients wiederholt, die entweder den Pushbenachrichtigungsdienst oder den Apple-Pushbenachrichtigungsdienst verwenden.

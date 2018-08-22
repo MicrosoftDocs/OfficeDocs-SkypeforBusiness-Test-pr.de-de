@@ -80,9 +80,9 @@ Die folgende Tabelle zeigt eine Übersicht über den Integrationsprozess der geh
 <li><p>Erstellen Sie Kontaktobjekte für den Teilnehmerzugriff für gehostete Exchange UM-Dienste.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
-<div class="alert">
+<div>
 
-> [!TIP]
+> [!NOTE]
 > Zum Erstellen, Ändern oder Entfernen von Kontaktobjekten muss der Benutzer, der das Cmdlet "New-CsExUmContact", "Set-CsExUmContact" oder "Remove-CsExUmContact" ausführt, über geeignete Berechtigungen für die Active Directory-Organisationseinheit (Organizational Unit, OU) verfügen, in der die neuen Kontaktobjekte gespeichert werden. Diese Berechtigungen können mit dem Cmdlet "Grant-CsOUPermission" gewährt werden. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 

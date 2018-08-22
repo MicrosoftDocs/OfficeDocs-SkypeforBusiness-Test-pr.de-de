@@ -26,7 +26,7 @@ Dieser Befehl deaktiviert die Ausführung synthetischer Transaktionen auf dem Wa
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
 
-> [!TIP]
+> [!NOTE]
 > Mithilfe der Eigenschaft "Enabled" können Watcher-Knoten ein- und ausgeschaltet werden. Wenn Sie einen Watcher-Knoten dauerhaft löschen möchten, verwenden Sie das <STRONG>Remove-CsWatcherNodeConfiguration</STRONG>-Cmdlet:<BR>Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"<BR>Dieser Befehl entfernt auf dem angegebenen Computer alle Konfigurationseinstellungen für Watcher-Knoten, sodass auf diesem Computer keine synthetischen Transaktionen mehr automatisch ausgeführt werden. Allerdings werden dabei weder die System Center-Agentdateien noch die Lync Server 2013-Systemdateien deinstalliert.
 
 

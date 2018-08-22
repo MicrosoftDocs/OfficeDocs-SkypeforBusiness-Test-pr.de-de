@@ -40,7 +40,7 @@ In den folgenden Verfahren hat der Server, auf dem entweder Forefront Threat Man
 4.  Konfigurieren Sie auf der Seite **Internetprotokolleigenschaften (TCP/IP)** die IP-Adressen entsprechend dem Netzwerksubnetz, an das die Netzwerkkarte angeschlossen ist.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn der Reverseproxy bereits von anderen Anwendungen genutzt wird, die HTTPS/TCP/443 verwenden (z.&nbsp;B. zum Veröffentlichen von Outlook Web Access), müssen Sie entweder eine weitere IP-Adresse hinzufügen, um die Lync Server 2013-Webdienste ohne Konflikte mit den vorhandenen Regeln und Weblisteners über HTTPS/TCP/443 veröffentlichen zu können, oder Sie müssen das vorhandene Zertifikat durch ein Zertifikat ersetzen, das die neuen externen FQDNs zum alternativen Antragstellernamen hinzufügt.
 
 

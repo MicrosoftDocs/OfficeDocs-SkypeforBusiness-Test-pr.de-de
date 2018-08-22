@@ -18,13 +18,13 @@ _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 Eine Agentgruppe besteht aus einer Gruppe von Personen, die für die Entgegennahme von Reaktionsgruppenanrufen zuständig sind. Beim Erstellen einer Agentgruppe wählen Sie die Agents aus, die der Gruppe zugewiesen werden. Sie geben an, welche zusätzlichen Gruppeneinstellungen verwendet werden sollen und ob sich ein Agent bei der Gruppe an- und abmelden muss.
 
 
-> [!TIP]
+> [!NOTE]
 > Benutzer müssen für Enterprise-VoIP aktiviert sein, damit sie Agentgruppen hinzugefügt werden können. Ausführliche Informationen zur Aktivierung eines Benutzers für Enterprise-VoIP finden Sie unter <A href="lync-server-2013-enable-users-for-enterprise-voice.md">Aktivieren von Benutzern für Enterprise-VoIP in Lync Server 2013</A>.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Nur lokale Benutzer können Agents sein. Wenn ein Agent von einer lokalen zu einer Onlinebereitstellung verschoben wird, werden Reaktionsgruppenanrufe nicht an diesen Agent weitergeleitet.
 
 

@@ -106,5 +106,5 @@ Um den Pool im normalen Zustand wiederherzustellen, führen Sie den folgenden Wi
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Weitere Informationen finden Sie im Hilfethema zum [Set-CsPersistentChatState](set-cspersistentchatstate.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum [Set-CsPersistentChatState](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatState)-Cmdlet.
 

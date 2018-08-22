@@ -59,7 +59,7 @@ Die Telefonsperre kann mithilfe des Cmdlets "Set-CsUCPhoneConfiguration" erzwung
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md).
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUCPhoneConfiguration).
 
 ## Siehe auch
 

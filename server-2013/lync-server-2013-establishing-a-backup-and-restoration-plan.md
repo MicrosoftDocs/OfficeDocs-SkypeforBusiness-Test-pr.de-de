@@ -40,7 +40,7 @@ Beim Entwickeln Ihres Plans müssen Sie Folgendes berücksichtigen:
 Passen Sie die Sicherungs- und Wiederherstellungsverfahren in diesem Thema an, und fügen Sie in Abhängigkeit von den Servern und Komponenten Ihrer Bereitstellung Verfahren hinzu bzw. löschen Sie Verfahren. Sie können den entsprechenden Verfahren auch Informationen wie z. B. den Sicherungszeitplan hinzufügen, um dafür zu sorgen, dass diese Informationen nicht übersehen werden.
 
 
-> [!TIP]
+> [!NOTE]
 > Es empfiehlt sich, Skripts für möglichst viele Schritte zu erstellen, um die Qualität und Reproduzierbarkeit von Verfahren sicherzustellen.
 
 

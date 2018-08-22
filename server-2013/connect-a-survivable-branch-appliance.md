@@ -60,7 +60,7 @@ Jede Survivable Branch Appliance (SBA) ist einem Front-End-Pool zugeordnet, der 
 9.  Befolgen Sie die Anweisungen im nun geöffneten Assistenten. Informationen zu den Elementen im Assistenten finden Sie unter [Definieren einer Survivable Branch Appliance oder eines Survivable Branch Servers in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Eine Lync Server 2010-Survivable Branch Appliance kann nur einem Lync Server 2010-Überwachungsspeicher zugeordnet werden.
 
 

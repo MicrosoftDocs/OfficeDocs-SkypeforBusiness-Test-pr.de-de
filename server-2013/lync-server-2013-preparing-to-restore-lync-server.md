@@ -100,7 +100,7 @@ Beim Wiederherstellen eines Servers müssen Sie mit einem neuen oder neu formati
   - Installationssoftware für SQL Server 2012 oder SQL Server 2008 R2. Verwenden Sie zum Installieren eines Datenbankservers die entsprechende SQL Server-Version sowie die Verfahren und Konfigurationen Ihrer Organisation für die Datenbankserverbereitstellung. Sie sollten diese Verfahren und Konfigurationsanforderungen zur Hand haben, wenn Sie die Bereitschaft des Servers wiederherstellen.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Mit dem Lync Server-Bereitstellungs-Assistenten wird SQL&nbsp;Server&nbsp;2012&nbsp;Express automatisch auf jedem Standard Edition-Server und auf jedem anderen Lync Server-Server installiert, wenn ein lokaler Konfigurationsspeicher installiert wird, es sei denn, Sie haben SQL&nbsp;Server&nbsp;2012 oder SQL&nbsp;Server&nbsp;2008&nbsp;R2 auf dem Server vorinstalliert.
 
 
@@ -140,7 +140,7 @@ Vor der Wiederherstellung des Servers müssen Sie die folgenden Schritte ausfüh
 4.  Erstellen Sie ein Image des Systems, bevor Sie mit der Wiederherstellung beginnen. Sollte bei der Wiederherstellung etwas schief gehen, können Sie dann mithilfe dieses Images ein Rollback ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Mit dem Lync Server-Bereitstellungs-Assistenten und den in den Verfahren in diesem Thema sowie in verwandten Themen beschriebenen Cmdlets werden alle erforderlichen Zugriffsteuerungslisten (Access Control Lists, ACLs) festgelegt.
 
 

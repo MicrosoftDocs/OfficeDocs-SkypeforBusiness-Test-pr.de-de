@@ -135,7 +135,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
 
-    > [!TIP]
+    > [!NOTE]
     > Standardmäßig beträgt die maximale Größe für Transaktionsprotokolldateien der rtcxds-Datenbank 16 GB. Das ist möglicherweise nicht ausreichend, wenn Sie viele Benutzer auf einmal verschieben, insbesondere wenn das Spiegeln aktiviert ist. Sie können dieses Problem umgehen, indem Sie die Dateigröße erhöhen oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
 
 

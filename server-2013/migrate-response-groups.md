@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-09-23_
 Nachdem Ihre Benutzer in Lync Server 2013-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Dies beinhaltet das Kopieren von Agent-Gruppen, Warteschlangen, Workflows und Audiodateien sowie das Verschieben von Reaktionsgruppe-Kontaktobjekten aus der Bereitstellung der Vorversion in den Lync Server 2013-Pool. Nach der Migrierung Ihrer Reaktionsgruppen aus der Vorversion, werden Anrufe an den Reaktionsgruppen von der Reaktionsgruppenanwendung im Lync Server 2013-Pool abgewickelt. Der Vorversionspool wickelt keine Anrufe an Reaktionsgruppen mehr ab.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können Reaktionsgruppen zwar migrieren, bevor Sie alle Benutzer in den Lync Server 2013-Pool verschoben haben, es wird jedoch empfohlen, alle Benutzer zuerst zu verschieben. Insbesondere Benutzer, die Reaktionsgruppen-Agents sind, haben keine vollständige Funktionalität bei neuen Funktionen, bevor sie in den Lync Server 2013-Pool verschoben werden.
 
 
@@ -26,7 +26,7 @@ Nachdem Ihre Benutzer in Lync Server 2013-Pools verschoben wurden, können Sie I
 Bevor Sie Reaktionsgruppen verschieben, müssen Sie einen Lync Server 2013-Pool bereitstellen, der die Reaktionsgruppenanwendung beinhaltet. Die Reaktionsgruppenanwendung wird bei der Bereitstellung von Enterprise-VoIP standardmäßig installiert und aktiviert. Sie können sicherstellen, dass die Reaktionsgruppenanwendung installiert ist, indem Sie das **Get-CsService –ApplicationServer**-Cmdlet ausführen.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können neue Lync Server 2013-Reaktionsgruppen im Lync Server 2013-Pool erstellen, bevor Sie Ihre Reaktionsgruppen aus der Vorversion migrieren.
 
 
@@ -43,18 +43,8 @@ Nach der Migration der Reaktionsgruppen müssen Sie Lync Server-Systemsteuerung-
 
 Wenn Sie Reaktionsgruppen migrieren, werden die Lync Server 2010-Reaktionsgruppen nicht entfernt. Wenn Sie nach der Migration Reaktionsgruppen mithilfe von Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell verwalten, können Sie sowohl die Lync Server 2010- als auch die Lync Server 2013-Reaktionsgruppen sehen. Sie sollten nur Updates für die Lync Server 2013-Reaktionsgruppen installieren. Die Lync Server 2010-Reaktionsgruppen werden nur zu Wiederherstellungszwecken beibehalten.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Achtung:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nachdem die Migration abgeschlossen und neue Reaktionsgruppen erstellt wurden, werden in der Lync Server-Systemsteuerung und in der Lync Server-Verwaltungsshell die Lync Server 2010- und Lync Server 2013-Versionen der einzelnen Reaktionsgruppen angezeigt. Verwenden Sie nicht Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell zum Entfernen der Lync Server 2010-Reaktionsgruppen. Wenn Sie eine Reaktionsgruppe entfernen, stellt die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, die Arbeit ein. Die Lync Server 2010-Reaktionsgruppen werden entfernt, wenn Sie den Lync Server 2010-Pool außer Betrieb nehmen.</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]  
+> Nachdem die Migration abgeschlossen und neue Reaktionsgruppen erstellt wurden, werden in der Lync Server-Systemsteuerung und in der Lync Server-Verwaltungsshell die Lync Server 2010- und Lync Server 2013-Versionen der einzelnen Reaktionsgruppen angezeigt. Verwenden Sie nicht Lync Server-Systemsteuerung oder Lync Server-Verwaltungsshell zum Entfernen der Lync Server 2010-Reaktionsgruppen. Wenn Sie eine Reaktionsgruppe entfernen, stellt die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, die Arbeit ein. Die Lync Server 2010-Reaktionsgruppen werden entfernt, wenn Sie den Lync Server 2010-Pool außer Betrieb nehmen.
 
 
 

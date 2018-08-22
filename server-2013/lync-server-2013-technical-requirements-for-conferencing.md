@@ -50,7 +50,7 @@ In der folgenden Tabelle sind die Ports beschrieben, die von Einwahlkonferenzen 
 Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Weitere Informationen zu diesem Cmdlet finden Sie in der Dokumentation zu Lync Server-Verwaltungsshell.
 
 
-> [!TIP]
+> [!NOTE]
 > Alle Instanzen derselben Anwendung in einem Pool verwenden denselben SIP-Überwachungsport.
 
 
@@ -92,7 +92,7 @@ Sie können den folgenden Client zur Planung von lokalen Konferenzen verwenden, 
 Das Seite "Einstellungen für Einwahlkonferenz" unterstützt die in der nachstehenden Tabelle aufgeführten Kombinationen aus Betriebssystemen und Webbrowsern.
 
 
-> [!TIP]
+> [!NOTE]
 > Es werden 32-Bit- und 64-Bit-Versionen des jeweiligen Betriebssystems unterstützt.
 
 

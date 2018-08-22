@@ -34,7 +34,7 @@ Zu den Einstellungen der Anwendung zum Parken von Anrufen gehören die Auswahl d
 2.  Geben Sie an der Befehlszeile Folgendes ein:
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Ihre Lync Server 2013-Einstellungen für die Anwendung zum Parken von Anrufen mit den Lync Server 2010-Legacyeinstellungen identisch sind, können Sie diesen Schritt überspringen. Wenn sich die Einstellungen für die Anwendung zum Parken von Anrufen in den Lync Server 2013- und Lync Server 2010-Umgebungen unterscheiden, verwenden Sie das folgende Cmdlet als Vorlage, um diese Änderungen zu aktualisieren.
 
     

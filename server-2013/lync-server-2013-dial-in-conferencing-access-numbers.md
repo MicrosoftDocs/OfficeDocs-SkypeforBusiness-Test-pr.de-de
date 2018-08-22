@@ -20,7 +20,7 @@ Um Benutzern die Teilnahme am Audioteil lokaler Konferenzen zu ermöglichen, ind
 Zugriffsnummern für die Einwahl werden in Besprechungseinladungen und auf der Webseite mit den Einstellungen für die Einwahlkonferenz angezeigt.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie können eine neue Zugriffsnummer erst dann für Einwahlkonferenzen verwenden, wenn die Active Directory-Replikation dieser Telefonnummer abgeschlossen ist. Die Replikation kann mehrere Stunden in Anspruch nehmen.
 
 

@@ -32,7 +32,7 @@ Lync Server 2013 erfordert DNS (Domain Name System) und setzt es folgendermaßen
   - Zum DNS-Lastenausgleich.
 
 
-> [!TIP]
+> [!NOTE]
 > Lync Server 2013 unterstützt keine internationalisierten Domänennamen (IDNs).
 
 

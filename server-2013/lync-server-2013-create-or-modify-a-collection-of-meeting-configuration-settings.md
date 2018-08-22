@@ -50,7 +50,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-02-23_
       - Zum Anpassen des Logos, das in der Besprechungseinladung angezeigt wird, geben Sie in **Logo-URL** den Speicherort des Logos ein.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Das Logo muss ein GIF- oder JPG-Bild mit einer Größe von 188&nbsp;x&nbsp;30&nbsp;Pixeln sein.
 
     
@@ -100,5 +100,5 @@ Besprechungskonfigurationseinstellungen können (nur auf Standortebene) mit der 
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-Weitere Informationen finden Sie im Hilfethema für das [New-CsMeetingConfiguration](new-csmeetingconfiguration.md)-Cmdlet.
+Weitere Informationen finden Sie im Hilfethema für das [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration)-Cmdlet.
 

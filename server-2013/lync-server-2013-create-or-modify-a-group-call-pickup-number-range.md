@@ -18,7 +18,7 @@ _**Letztes Änderungsdatum des Themas:** 2013-01-30_
 Verwenden Sie das folgende Verfahren, um einen Nummernbereich für die Anrufannahmegruppe in der Orbittabelle für das Parken von Anrufen zu erstellen oder zu ändern.
 
 
-> [!TIP]
+> [!NOTE]
 > Sie müssen die Lync Server-Verwaltungsshell zum Erstellen, Ändern, Entfernen und Anzeigen von Nummern für die Gruppenanrufannahme in der Orbittabelle für das Parken von Anrufen verwenden. Nummern für die Gruppenanrufannahme sind in Lync Server-Systemsteuerung nicht verfügbar.
 
 
@@ -75,6 +75,6 @@ Die Nummernbereiche für die Anrufannahmegruppe müssen folgenden Regeln entspre
 
 #### Weitere Ressourcen
 
-[New-CsCallParkOrbit](new-cscallparkorbit.md)  
-[Set-CsCallParkOrbit](set-cscallparkorbit.md)
+[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)
 

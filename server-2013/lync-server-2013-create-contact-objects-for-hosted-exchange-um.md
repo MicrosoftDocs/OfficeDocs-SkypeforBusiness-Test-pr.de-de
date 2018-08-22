@@ -21,9 +21,9 @@ Ausführliche Informationen finden Sie unter [Kontaktobjektverwaltung für gehos
 
 Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in der Lync Server-Verwaltungsshell-Dokumentation zu den folgenden Cmdlets:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in 
       - **RegistrarPool** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools, in dem der Registrierungsdienst ausgeführt wird.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Exchange UM-Kontaktobjekte können nicht in Pools verschoben werden, die Bestandteile von Lync Server 2013-Bereitstellungen vor Lync Server 2013 sind.
 
     

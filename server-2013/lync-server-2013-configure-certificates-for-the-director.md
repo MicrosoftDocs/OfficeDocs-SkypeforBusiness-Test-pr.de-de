@@ -50,7 +50,7 @@ Verwenden Sie das folgende Verfahren, um Director-Zertifikate zu konfigurieren. 
 11. Klicken Sie auf der Seite **Antragstellername/Alternative Antragstellernamen** auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Die Liste der alternativen Antragstellernamen sollte den Namen des Computers enthalten, auf dem Sie den Director installieren (falls nur ein Director vorhanden ist), andernfalls den Namen des Director-Pools und die Namen der einfachen URLs, die für die Organisation konfiguriert wurden.
 
 
@@ -68,7 +68,7 @@ Verwenden Sie das folgende Verfahren, um Director-Zertifikate zu konfigurieren. 
 17. Klicken Sie auf der Seite **Zertifikatzuweisung** auf **Weiter** .
     
 
-    > [!TIP]
+    > [!NOTE]
     > Wenn Sie das Zertifikat anzeigen möchten, doppelklicken Sie auf das Zertifikat in der Liste.
 
 

@@ -48,7 +48,7 @@ Die Edgeserver senden und empfangen Netzwerkdatenverkehr von externen Benutzern 
 Autorisierte externe Benutzer können auf die Edgeserver zugreifen, um eine Verbindung mit der internen Lync Server 2013-Bereitstellung herzustellen, aber die Edgeserver stellen keinen anderen Zugriff auf das interne Netzwerk bereit.
 
 
-> [!TIP]
+> [!NOTE]
 > Edgeserver dienen dazu, die Kommunkation mit aktivierten Lync-Clients und anderen Microsoft Edgeservern (z.&nbsp;B. bei Verbünden) zu ermöglichen. Verbindungen von anderen Endpunktclients oder Servertypen sind mit ihnen nicht möglich. Der XMPP-Gatewayserver kann für die Kommunikation mit konfigurierten XMPP-Partnern eingesetzt werden. Edgeserver und das XMPP-Gateway unterstützen ausschließlich Endpunktverbindungen von diesen Client- und Verbundtypen.
 
 
@@ -76,7 +76,7 @@ Der Reverseproxy ermöglicht Folgendes:
 Zusätzliche Informationen zu Reverseproxys und den Voraussetzungen, die diese erfüllen müssen, finden Sie unter den Details in [Konfigurationsanforderungen für Reverseproxy in Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Externe Benutzer benötigen eine keine VPN-Verbindung mit Ihrer Organisation, um mithilfe von Lync Server 2013 an Kommunikationen teilzunehmen. Wenn Sie VPN-Technologie in Ihrer Organisation implementiert haben und die Benutzer das VPN für Lync verwenden, kann sich dies negativ auf den Netzwerkdatenverkehr (z.&nbsp;B. Videokonferenzen) auswirken. Sie sollten eine Möglichkeit dafür schaffen, dass der Mediendatenverkehr eine direkte Verbindung mit dem A/V-Edgedienst herstellen und das VPN umgehen kann. Detailliere Informationen finden Sie im NextHop Blog-Artikel "Enabling Lync Media to Bypass a VPN Tunnel" unter <A href="http://go.microsoft.comcom/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>.
 
 
