@@ -22,7 +22,7 @@ Wenn Sie Richtlinien zur Unterstützung von XMPP-Verbundpartnern (Extensible Mes
 1.  Klicken Sie auf dem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Erneut ausführen**.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Wenn Sie den Edgeserver zum ersten Mal bereitstellen, wird Ausführen anstelle von Erneut ausführen angezeigt.
 
 
@@ -56,7 +56,7 @@ Wenn Sie Richtlinien zur Unterstützung von XMPP-Verbundpartnern (Extensible Mes
 12. Geben Sie auf der Seite **Weitere alternative Antragstellernamen konfigurieren** zusätzliche alternative Antragstellernamen an, die benötigt werden.
     
 
-    > [!NOTE]
+    > [!TIP]
     > Falls der XMPP-Proxy installiert ist, wird standardmäßig der Domänenname (z.&nbsp;B. contoso.com ) in den SAN-Einträgen aufgefüllt. Für den Fall, dass Sie weitere Einträge benötigen, fügen Sie sie in diesem Schritt hinzu.
 
 
