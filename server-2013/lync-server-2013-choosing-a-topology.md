@@ -11,7 +11,7 @@ ms.translationtype: HT
 
 # Auswählen einer Topologie in Lync Server 2013
 
- 
+ 
 
 _**Letztes Änderungsdatum des Themas:** 2015-03-09_
 
@@ -108,13 +108,13 @@ Unterstützte Edgefailoverszenarien mit DNS-Lastenausgleich umfassen Punkt-zu-Pu
 > Für Topologien mit einem einzelnen Edgeserver und mit einem skalierten Edgeserver (mit DNS-Lastenausgleich) kann Folgendes verwendet werden:
 > <ul>
 > <li><p>Routingfähige öffentliche IP-Adressen</p></li>
-> <li><p>Nicht-routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressenübersetzung (Network Address Translation, NAT) verwendet wird</p></li></ul>
-   > [!NOTE]  
+> <li><p>Nicht-routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressenübersetzung (Network Address Translation, NAT) verwendet wird</p></li></ul>   
+>
    > Bei Verwendung einer öffentlichen oder privaten IP-Adresse mit NAT, verwenden Sie weiterhin dieselbe Anzahl an IP-Adressen basierend auf Ihrer Konfigurationsauswahl im Topologie-Generator. Sie können den Edgeserver entweder für die Verwendung einer einzelnen IP-Adresse mit unterschiedlichen Ports für Dienste konfigurieren oder unterschiedliche IP-Adressen für Dienste mit demselben Port (standardmäßig TCP&nbsp;443) verwenden.
-> 
+>
 > Wenn Sie sich für die Verwendung von nicht-routingfähigen privaten IP-Adressen mit NAT entscheiden:
 > 
-> <ul><li><p>Sie müssen routingfähige private IP-Adressen für alle drei externen Schnittstellen verwenden.</p></li>
+> <ul><li><p>Sie müssen routingfähige private IP-Adressen für alle drei externen Schnittstellen verwenden.</p></li>
 > <li><p>Sie müssen ein symmetrisches NAT-Gerät für eingehenden und ausgehenden Datenverkehr konfigurieren.</p></li></ul>
 > 
 > Für eine Topologie mit skaliertem Edgeserver (mit Hardwarelastenausgleich) müssen öffentliche IP-Adressen verwendet werden.
@@ -124,9 +124,9 @@ Lync Server 2013 unterstützt das Platzieren von externen Zugriffs-, Webkonferen
 
 Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittstellen muss der DNS-Lastenausgleich implementiert werden. Im Vergleich mit der Verwendung eines Hardwarelastenausgleichs ermöglicht die Verwendung von DNS-Lastenausgleich die Reduzierung der Anzahl von öffentlichen IP-Adressen pro Edgeserver in einem Edgepool, wie in der folgenden Liste beschrieben:
 
-  - Lync Server 2013 Skalierte konsolidierte Edgetopologie (DNS-Lastenausgleich)   Erfordert drei öffentliche IP-Adressen für jeden Edgeserver in einem Edgepool.
+  - Lync Server 2013 Skalierte konsolidierte Edgetopologie (DNS-Lastenausgleich)   Erfordert drei öffentliche IP-Adressen für jeden Edgeserver in einem Edgepool.
 
-  - Lync Server 2013 Skalierte konsolidierte Edgetopologie (Hardwarelastenausgleich)   Erfordert drei öffentliche IP-Adressen für die virtuellen IP-Adressen des Hardwaregeräts zum Lastenausgleich (diese einmalige Anforderung bleibt beim Hinzufügen weiterer Edgeserver zum Pool unverändert) sowie drei öffentliche IP-Adressen pro Edgeserver in einem Pool.
+  - Lync Server 2013 Skalierte konsolidierte Edgetopologie (Hardwarelastenausgleich)   Erfordert drei öffentliche IP-Adressen für die virtuellen IP-Adressen des Hardwaregeräts zum Lastenausgleich (diese einmalige Anforderung bleibt beim Hinzufügen weiterer Edgeserver zum Pool unverändert) sowie drei öffentliche IP-Adressen pro Edgeserver in einem Pool.
 
 ### IP-Adressanforderungen für eine skalierte konsolidierte Edgetopologie (IP-Adresse pro Rolle)
 
@@ -210,7 +210,7 @@ Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittst
 
 Die wichtigsten Aspekte bei der Topologieauswahl sind hohe Verfügbarkeit und Lastenausgleich. Die Anforderung zur Bereitstellung hoher Verfügbarkeit kann sich auf die Entscheidung zum Lastenausgleich auswirken.
 
-  - **Hohe Verfügbarkeit**   Wenn Sie hohe Verfügbarkeit sicherstellen müssen, stellen Sie mindestens zwei Edgeserver in einem Pool bereit. Ein einzelner Edgepool kann bis zu zwölf Edgeserver unterstützen. Wenn mehr Kapazität benötigt wird, können Sie mehrere Edgepools bereitstellen. Als allgemeine Regel benötigen 10 % der Benutzer externen Zugriff.
+  - **Hohe Verfügbarkeit**   Wenn Sie hohe Verfügbarkeit sicherstellen müssen, stellen Sie mindestens zwei Edgeserver in einem Pool bereit. Ein einzelner Edgepool kann bis zu zwölf Edgeserver unterstützen. Wenn mehr Kapazität benötigt wird, können Sie mehrere Edgepools bereitstellen. Als allgemeine Regel benötigen 10 % der Benutzer externen Zugriff.
     
 
     > [!IMPORTANT]
@@ -218,13 +218,13 @@ Die wichtigsten Aspekte bei der Topologieauswahl sind hohe Verfügbarkeit und La
 
 
 
-  - **Hardwarelastenausgleich**   Der Hardwarelastenausgleich wird zum Lastenausgleich für Lync Server 2013- Edgeserver verwendet, wenn öffentlich routingfähige IP-Adressen für die externen Edgeschnittstellen verwendet werden. Beispielsweise würden Sie diesen Ansatz in Situationen wählen, in denen ein Failover für eine der folgenden Anwendungen erforderlich ist:
+  - **Hardwarelastenausgleich**   Der Hardwarelastenausgleich wird zum Lastenausgleich für Lync Server 2013- Edgeserver verwendet, wenn öffentlich routingfähige IP-Adressen für die externen Edgeschnittstellen verwendet werden. Beispielsweise würden Sie diesen Ansatz in Situationen wählen, in denen ein Failover für eine der folgenden Anwendungen erforderlich ist:
     
       - Verbindung mit öffentlichen Instant Messaging-Diensten
     
       - Partnerverbund mit Unternehmen, die Microsoft Office Communications Server 2007 oder Microsoft Office Communications Server 2007 R2 ausführen
     
-      - Externer Zugriff auf Exchange 2007 Unified Messaging (UM) oder Exchange 2010 UM
+      - Externer Zugriff auf Exchange 2007 Unified Messaging (UM) oder Exchange 2010 UM
         
 
         > [!IMPORTANT]
