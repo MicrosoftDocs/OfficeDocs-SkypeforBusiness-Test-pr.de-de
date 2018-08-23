@@ -11,7 +11,7 @@ ms.translationtype: HT
 
 # Bereitstellen von Lync Web App
 
- 
+ 
 
 _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
@@ -60,11 +60,7 @@ Die Lync Server 2013-Version von Lync Web App unterstützt die mehrstufige Authe
 
 5.  Legen Sie die folgenden vertrauenswürdigen Parteienregeln fest:
     
-        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
-
-       &nbsp;
-
-        $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
 
       &nbsp;
     
@@ -76,17 +72,17 @@ Die Lync Server 2013-Version von Lync Web App unterstützt die mehrstufige Authe
 
 ## BranchCache-Konfiguration
 
-Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann Konflikte mit Lync Web App-Webkomponenten verursachen. Damit bei Lync Web App-Benutzern keine Probleme diesbezüglich auftreten, sollte BranchCache nicht aktiviert sein.
+Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann Konflikte mit Lync Web App-Webkomponenten verursachen. Damit bei Lync Web App-Benutzern keine Probleme diesbezüglich auftreten, sollte BranchCache nicht aktiviert sein.
 
-Details zum Deaktivieren von BranchCache finden Sie im Bereitstellungshandbuch für BranchCache. Dieses kann im Word-Format im Microsoft Download Center unter [http://go.microsoft.com/fwlink/?linkid=268788\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=268788%26clcid=0x407) und im HTML-Format in der technischen Bibliothek von Windows Server 2008 R2 unter [http://go.microsoft.com/fwlink/?linkid=268789\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=268789%26clcid=0x407) heruntergeladen werden.
+Details zum Deaktivieren von BranchCache finden Sie im Bereitstellungshandbuch für BranchCache. Dieses kann im Word-Format im Microsoft Download Center unter [http://go.microsoft.com/fwlink/?linkid=268788\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=268788%26clcid=0x407) und im HTML-Format in der technischen Bibliothek von Windows Server 2008 R2 unter [http://go.microsoft.com/fwlink/?linkid=268789\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=268789%26clcid=0x407) heruntergeladen werden.
 
 ## Überprüfen der Lync Web App-Bereitstellung
 
 Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Details zu diesem Cmdlet finden Sie unter [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference) in der Lync Server-Verwaltungsshell-Dokumentation.
 
-## Problembehandlung von Plug-In-Installationen auf Windows Server 2008 R2
+## Problembehandlung von Plug-In-Installationen auf Windows Server 2008 R2
 
-Wenn die Installation von Plug-Ins auf einem Computer mit Windows Server 2008 R2 fehlerhaft ist, müssen Sie möglicherweise die Internet Explorer-Sicherheitseinstellung oder die DisableMSI-Registrierungsschlüsseleinstellung ändern.
+Wenn die Installation von Plug-Ins auf einem Computer mit Windows Server 2008 R2 fehlerhaft ist, müssen Sie möglicherweise die Internet Explorer-Sicherheitseinstellung oder die DisableMSI-Registrierungsschlüsseleinstellung ändern.
 
 **Ändern der Sicherheitseinstellung in Internet Explorer**
 
